@@ -1,0 +1,6 @@
+intake_id,input,status,retry_count,duplicate_candidate_ids,pending_clarification,assigned_stage,last_update
+IM-20261003-001,Frigiliana,needs_fact_check,0,,"",fact_check,2026-10-03
+IM-20261003-002,Ronda,needs_fact_check,0,,"",fact_check,2026-10-03
+IM-20261003-003,Marbella Old Town,needs_fact_check,0,,"",fact_check,2026-10-03
+IM-20261003-004,Selwo Aventura,needs_fact_check,0,,"",fact_check,2026-10-03
+IM-20261003-005,Zahara de la Sierra,needs_fact_check,0,,"",fact_check,2026-10-03

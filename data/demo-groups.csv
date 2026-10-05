@@ -1,0 +1,21 @@
+group_id,group_description,adults,teenagers,children,seniors,reduced_mobility,derived_persona_v1,derived_persona_v2
+G01,Grandparents with two grandchildren,0,0,2,2,no,Grandparents with grandchildren,Grandparents with grandchildren
+G02,Two parents with three teenagers,2,3,0,0,no,Family with teenagers,Family with teenagers
+G03,Couple aged 70+,0,0,0,2,no,Active retired couple,Mixed-age family group
+G04,Three-generation family,2,1,2,1,yes,Mixed-age family group,Mixed-age family group
+G05,Young active couple,2,0,0,0,no,Mixed-age family group,Mixed-age family group
+G06,Mixed-age family of nine,4,2,2,1,yes,Mixed-age family group,Mixed-age family group
+G07,Single parent with two children,1,0,2,0,no,Family with young children,Family with young children
+G08,Two adults with two school-age children,2,0,2,0,no,Family with young children,Family with young children
+G09,Two adults with three teenagers,2,3,0,0,no,Family with teenagers,Family with teenagers
+G10,Blended family with children and a teenager,2,1,2,0,no,Mixed-age family group,Family with young children
+G11,Two adults with three young children,2,0,3,0,no,Family with young children,Family with young children
+G12,"Two adults, a teenager, and a senior",2,1,0,1,no,Mixed-age family group,Mixed-age family group
+G13,Four adults and two seniors,4,0,0,2,yes,Active retired couple,Active retired couple
+G14,"One adult, one senior, and two children",1,0,2,1,yes,Mixed-age family group,Mixed-age family group
+G15,One adult with three seniors,1,0,0,3,yes,Active retired couple,Active retired couple
+G16,"Three adults, two teenagers, and one child",3,2,1,0,no,Mixed-age family group,Family with young children
+G17,Grandparents with a teenager and a child,0,1,1,2,no,Grandparents with grandchildren,Grandparents with grandchildren
+G18,Two adults with four teenagers,2,4,0,0,no,Family with teenagers,Family with teenagers
+G19,Solo adult traveller,1,0,0,0,no,Mixed-age family group,Mixed-age family group
+G20,Three adults and two seniors,3,0,0,2,no,Active retired couple,Active retired couple

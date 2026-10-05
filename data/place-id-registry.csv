@@ -1,0 +1,25 @@
+namespace,id,slug,place_name,state,reserved_at
+ES-AND-MAL,ES-AND-MAL-FRIGILIANA-001,frigiliana,Frigiliana,allocated,2026-10-03
+ES-AND-MAL,ES-AND-MAL-RONDA-001,ronda,Ronda,allocated,2026-10-03
+ES-AND-MAL,ES-AND-MAL-MARBELLA-OLD-TOWN-001,marbella-old-town,Marbella Old Town,allocated,2026-10-03
+ES-AND-MAL,ES-AND-MAL-SELWO-AVENTURA-001,selwo-aventura,Selwo Aventura,allocated,2026-10-03
+ES-AND-CAD,ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001,zahara-de-la-sierra,Zahara de la Sierra,allocated,2026-10-03
+ES-AND-CAD,ES-AND-CAD-BAELO-CLAUDIA-001,baelo-claudia,Baelo Claudia,allocated,2026-10-04
+ES-BAS-BIZ,ES-BAS-BIZ-GAZTELUGATXEKO-DONIENE-001,gaztelugatxeko-doniene,Gaztelugatxeko Doniene,allocated,2026-10-04
+ES-CLM-ALB,ES-CLM-ALB-ALCALA-DEL-JUCAR-001,alcala-del-jucar,Alcalá del Júcar,allocated,2026-10-04
+ES-CYL-LEO,ES-CYL-LEO-COLUMPIO-DE-RIANO-001,columpio-de-riano,Columpio de Riaño,allocated,2026-10-04
+ES-VAL-ALI,ES-VAL-ALI-PASARELA-DE-RELLEU-001,pasarela-de-relleu,PASARELA DE RELLEU,allocated,2026-10-04
+ES-AND-HUE,ES-AND-HUE-ARACENA-001,aracena,Aracena,allocated,2026-10-04
+ES-CYL-SEG,ES-CYL-SEG-ALCAZAR-DE-SEGOVIA-001,alcazar-de-segovia,Alcázar de Segovia,allocated,2026-10-04
+ES-AND-MAL,ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,mercado-de-atarazanas,Mercado de Atarazanas,allocated,2026-10-04
+ES-CAT-BAR,ES-CAT-BAR-MORRO-DE-LABELLA-001,morro-de-labella,Morro de l'Abella,allocated,2026-10-04
+ES-AND-CAD,ES-AND-CAD-LOS-CANOS-DE-MECA-001,los-canos-de-meca,Los Caños de Meca,allocated,2026-10-04
+ES-AND-CAD,ES-AND-CAD-DUNA-DE-BOLONIA-001,duna-de-bolonia,Duna de Bolonia,allocated,2026-10-04
+ES-CAT-BAR,ES-CAT-BAR-SALT-DE-SALLENT-001,salt-de-sallent,Salt de Sallent,allocated,2026-10-04
+ES-AND-CAD,ES-AND-CAD-OLVERA-CASTLE-001,olvera-castle,Olvera Castle,allocated,2026-10-04
+ES-AND-MAL,ES-AND-MAL-PALMERAL-DE-LAS-SORPRESAS-001,palmeral-de-las-sorpresas,Palmeral de Las Sorpresas,allocated,2026-10-04
+ES-BAS-GIP,ES-BAS-GIP-ZUMAIA-001,zumaia,Zumaia,allocated,2026-10-04
+ES-VAL-CAS,ES-VAL-CAS-LA-VALL-DUIXO-001,la-vall-duixo,La Vall d'Uixó,allocated,2026-10-04
+ES-CAT-LLE,ES-CAT-LLE-ESTANY-DE-SANT-MAURICI-001,estany-de-sant-maurici,Estany de Sant Maurici,allocated,2026-10-04
+ES-AND-MAL,ES-AND-MAL-PLAYA-LA-MALAGUETA-001,playa-la-malagueta,Playa la Malagueta,allocated,2026-10-04
+ES-BAL-BAL,ES-BAL-BAL-BELLVER-SLOT-001,bellver-slot,Bellver Slot,allocated,2026-10-04
