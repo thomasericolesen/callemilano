@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-05 — Google Maps intake list
+
+- Added `data/maps-intake-projekt-spanien.csv`: the 212 places in the owner's "Projekt Spanien" Maps list, with triage coordinates and distance rings from Casa. Coordinates are approximate (the export has none); see `docs/data-dictionary.md`. Result: 13 places within 30 km, 25 at 30–60 km, 17 at 60–100 km, 138 beyond 100 km, 18 unplaced, plus the Casa address.
+
 ## 2026-10-05 — Local scope, tooling, and documentation consistency
 
 Owner decision plus consistency fixes from the 2026-10-05 repository review. No place record, category, tag, enum or schema field was changed.

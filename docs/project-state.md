@@ -20,7 +20,7 @@ The owner narrowed the first phase to destinations within about 30 km of Casa de
 ## Open issues
 
 ### Scope-driven (new)
-1. No dataset of local destinations yet. Waiting for the owner's Google Takeout export (Saved lists, starred places, labelled places) to sort all saved places by distance from Casa.
+1. The owner's Maps list is in `data/maps-intake-projekt-spanien.csv`. Only 13 of 212 saved places lie within 30 km, and almost none are beaches or family restaurants. The local launch candidates (Restaurante Sheriff, La Cala, El Bombo, BIOPARC, Senda Litoral, Carromato, Mijas Pueblo, La Familia Beach Club) are not in the Maps list. Local beaches in Fuengirola, Los Boliches, Benalmádena and Torremolinos must be added as new intake.
 2. Engine spec does not fit the 30 km scope: every local place scores 5 on drive time (≤ 1 h), durations stop at half-day, and three personas (aviation, hiking, overnight-oriented) are irrelevant locally. Needs finer drive-time bands, shorter durations, and beach factors (lifeguard season, shade, toilets, parking distance, sand/shallow water, child menu, stroller access).
 3. The engine reads analytical CSVs keyed by display name, not the canonical records. Decide whether the next engine version reads `docs/places/` directly.
 
@@ -38,7 +38,7 @@ The owner narrowed the first phase to destinations within about 30 km of Casa de
 
 ## Next actions
 
-1. Import the Takeout export, compute distance from Casa for every saved place, and produce a ranked intake list (0–30 km first).
+1. Decide which of the 13 places within 30 km (and the Málaga city places just beyond) enter intake, and compile the local beach/restaurant list that the Maps export lacks.
 2. Create records with coordinates for the 15–20 most relevant local places (beaches in Fuengirola, Los Boliches, La Cala, Benalmádena, Torremolinos; BIOPARC; nearest excursions), starting with the launch backlog.
 3. Revise the engine spec and personas for the local scope; then run top-10 recommendation tests per persona and compare with the owner's local knowledge.
 4. Route-check driving times for local records.

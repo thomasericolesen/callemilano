@@ -38,6 +38,12 @@ Records whose identity is still unresolved (see `docs/identity-clarification-rep
 
 `id`, `slug`, `name`, `status`, `category`, `tags`, `municipality`, `province`, `latitude`, `longitude`, `distance_km_from_casa` (great-circle km from the Casa origin in `AGENTS.md`), `within_primary_radius` (`yes` if ≤ 30 km; blank if coordinates are missing), `driving_time` (route-checked duration from the record, blank if unresolved), `record_file`. Sorted by distance.
 
+### `maps-intake-projekt-spanien.csv` (212 rows)
+
+Discovery input from the owner's Google Takeout export (2026-10-05), list "Projekt Spanien". Not place records and not evidence. Columns: `name` (as saved in Maps), `ring` (`origin`, `0-30`, `30-60`, `60-100`, `>100` km straight line from Casa; blank if unplaced), `distance_km`, `latitude`, `longitude`, `coord_precision`, `location_note`, `maps_feature_id`, `maps_url`.
+
+The export contains no coordinates. Coordinates were assigned from general place knowledge (`approx` = known town/feature, town-level accuracy; `uncertain` = ambiguous name or inferred from the Maps feature-ID cluster; `origin` = the Casa address itself). Unplaced rows carry a region hint inferred from the feature ID. Coordinates must be confirmed from the Maps listing when a record is created; they are for triage only.
+
 ## Recommendation prototype datasets (analytical, non-canonical)
 
 These feed `docs/recommendation-engine-spec.md` and the V1–V3 analyses. Values are **editorial estimates** unless a `source` column says otherwise. All keyed by `destination` (display name), not by place ID.
