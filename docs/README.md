@@ -25,6 +25,7 @@ Start with `../AGENTS.md`, then `project-state.md`. Files marked **(history)** r
 ## Guests and product
 - `user-needs-analysis.md`, `user-journeys.md`, `schema-gap-analysis.md`, `executive-summary.md`
 - `mvp-features.md`, `mvp-screen-spec.md`, `wireframes.md`
+- `beach-feedback-survey.md` — Facebook survey for first-hand family beach experience
 - `launch-candidates.md`, `launch-backlog.md`, `pilot-content-plan.md`, `production-test.md`
 
 ## Recommendation engine

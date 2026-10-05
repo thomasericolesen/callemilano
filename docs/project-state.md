@@ -38,6 +38,7 @@ The owner narrowed the first phase to destinations within about 30 km of Casa de
 
 ## Next actions
 
+0. Run the Facebook beach survey (`docs/beach-feedback-survey.md`) and sort replies per beach. Note: the beach and launch candidates were found by Codex via web search, not chosen by the owner.
 1. Decide which of the 13 places within 30 km (and the Málaga city places just beyond) enter intake, and compile the local beach/restaurant list that the Maps export lacks.
 2. Create records with coordinates for the 15–20 most relevant local places (beaches in Fuengirola, Los Boliches, La Cala, Benalmádena, Torremolinos; BIOPARC; nearest excursions), starting with the launch backlog.
 3. Revise the engine spec and personas for the local scope; then run top-10 recommendation tests per persona and compare with the owner's local knowledge.
