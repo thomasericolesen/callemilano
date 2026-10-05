@@ -2,7 +2,15 @@
 
 ## Purpose
 
-CalleMilano is a family travel guide to Andalusia and Spain. Google Maps saved places are discovery inputs. Verify factual claims from appropriate sources before including them in editorial content.
+CalleMilano is a family travel guide for guests at Casa de la Familia, starting with the nearby area and expanding later to Andalusia and Spain. Google Maps saved places are discovery inputs. Verify factual claims from appropriate sources before including them in editorial content.
+
+## Scope and audience (owner decision 2026-10-05)
+
+- **Primary area:** destinations within about 30 km straight-line distance of Casa de la Familia. Final inclusion is decided by route-checked one-way driving time, not by distance alone; places just beyond 30 km (e.g. central Málaga) may qualify on driving time.
+- **Origin coordinates:** Plus Code `8C8QG8PP+7W` = latitude 36.5356875, longitude -4.6626875 (WGS 84). Use these for distance calculations; `tools/places.py` holds the same constant.
+- **Primary audience:** families with children who do not want long drives. **Secondary:** adults, seniors, and teenagers.
+- **Places beyond the primary area** remain in `docs/places/` and the analytical datasets as an archive. Do not develop, fact-check, or recommend them in the current phase unless the editor-of-record says so. Do not delete them.
+- Prioritize new intake, fact-checking, and recommendation testing inside the primary area.
 
 ## Canonical project files
 
@@ -15,6 +23,12 @@ CalleMilano is a family travel guide to Andalusia and Spain. Google Maps saved p
 - Images: `images/`.
 
 Do not store editable place records in `data/`; the Markdown files with YAML front matter in `docs/places/` are the only canonical record source.
+
+The recommendation prototype datasets in `data/` (`personas.csv`, `demo-groups.csv`, `destination-*.csv`, `*-metadata.csv`) and `docs/enriched-place-metadata.csv` are analytical inputs, not place records. They contain editorial estimates and use a separate collection-tag vocabulary (`data/destination-tag-vocabulary.csv`) that is not interchangeable with the schema tags below. Never copy values from them into a place record as verified facts. Field definitions are in `docs/data-dictionary.md`.
+
+Pages in `docs/published/` are hand-written gold-standard page drafts, not records produced through the lifecycle. They are not "published" in the schema sense until a matching record in `docs/places/` has passed validation and human approval.
+
+Run `python3 tools/places.py validate` before handing a record to human review and `python3 tools/places.py catalog` after any record change.
 
 ## Categories and controlled labels
 

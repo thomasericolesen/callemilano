@@ -1,0 +1,31 @@
+id,slug,name,status,category,tags,municipality,province,latitude,longitude,distance_km_from_casa,within_primary_radius,driving_time,record_file
+ES-AND-MAL-MARBELLA-OLD-TOWN-001,marbella-old-town,Marbella Old Town,needs_fact_check,City,Historic town; Museum; Restaurant; Half day,Marbella,Málaga,36.5101033,-4.8849716,20.1,yes,,docs/places/marbella-old-town.md
+ES-AND-MAL-SELWO-AVENTURA-001,selwo-aventura,Selwo Aventura,needs_fact_check,Family activities,Nature; Adventure; Full day,Estepona,Málaga,36.462831,-5.0856,38.7,no,,docs/places/selwo-aventura.md
+ES-AND-MAL-RONDA-001,ronda,Ronda,needs_fact_check,City,Historic town; Viewpoint; Nature; Full day,Ronda,Málaga,36.741564,-5.165708,50.4,no,,docs/places/ronda.md
+ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001,zahara-de-la-sierra,Zahara de la Sierra,needs_fact_check,City,Historic town; Viewpoint; Nature,Zahara de la Sierra,Cádiz,36.840068,-5.388687,73.0,no,,docs/places/zahara-de-la-sierra.md
+ES-AND-MAL-FRIGILIANA-001,frigiliana,Frigiliana,needs_fact_check,City,Historic town; Viewpoint; Half day,Frigiliana,Málaga,36.7908751,-3.8947061,74.1,no,,docs/places/frigiliana.md
+ES-AND-CAD-BAELO-CLAUDIA-001,baelo-claudia,Baelo Claudia,needs_fact_check,Family activities,Museum,Tarifa,Cádiz,36.088226,-5.7718134,111.1,no,,docs/places/baelo-claudia.md
+ES-CLM-ALB-ALCALA-DEL-JUCAR-001,alcala-del-jucar,Alcalá del Júcar,needs_fact_check,City,Historic town; Viewpoint,Alcalá del Júcar,Albacete,,,,,,docs/places/alcala-del-jucar.md
+ES-CYL-SEG-ALCAZAR-DE-SEGOVIA-001,alcazar-de-segovia,Alcázar de Segovia,needs_fact_check,Family activities,Museum; Viewpoint,Segovia,Segovia,,,,,,docs/places/alcazar-de-segovia.md
+ES-AND-HUE-ARACENA-001,aracena,Aracena,needs_fact_check,City,Historic town,Aracena,Huelva,,,,,,docs/places/aracena.md
+ES-BAL-BAL-BELLVER-SLOT-001,bellver-slot,Bellver Slot,needs_fact_check,Family activities,Museum; Viewpoint,Unknown,Unknown,,,,,,docs/places/bellver-slot.md
+,cares,Cares,draft,Nature,Nature; Hiking,Unknown,Unknown,,,,,,docs/places/cares.md
+ES-CYL-LEO-COLUMPIO-DE-RIANO-001,columpio-de-riano,Columpio de Riaño,needs_fact_check,Nature,Viewpoint; Adventure,Unknown,Unknown,,,,,,docs/places/columpio-de-riano.md
+,conil-de-la-frontera,CONIL DE LA FRONTERA,draft,City,Beach; Historic town,Unknown,Unknown,,,,,,docs/places/conil-de-la-frontera.md
+,cueva-de-los-arcos,Cueva de los Arcos,draft,Nature,Nature,Unknown,Unknown,,,,,,docs/places/cueva-de-los-arcos.md
+ES-AND-CAD-DUNA-DE-BOLONIA-001,duna-de-bolonia,Duna de Bolonia,needs_fact_check,Beaches,Beach; Nature; Hiking,Unknown,Cádiz,,,,,,docs/places/duna-de-bolonia.md
+ES-CAT-LLE-ESTANY-DE-SANT-MAURICI-001,estany-de-sant-maurici,Estany de Sant Maurici,needs_fact_check,Nature,Nature; Hiking; Viewpoint,Espot,Lleida,,,,,,docs/places/estany-de-sant-maurici.md
+ES-BAS-BIZ-GAZTELUGATXEKO-DONIENE-001,gaztelugatxeko-doniene,Gaztelugatxeko Doniene,needs_fact_check,Nature,Viewpoint; Hiking,Bermeo,Bizkaia,,,,,,docs/places/gaztelugatxeko-doniene.md
+ES-VAL-CAS-LA-VALL-DUIXO-001,la-vall-duixo,La Vall d'Uixó,needs_fact_check,City,,Unknown,Unknown,,,,,,docs/places/la-vall-duixo.md
+ES-AND-CAD-LOS-CANOS-DE-MECA-001,los-canos-de-meca,Los Caños de Meca,needs_fact_check,Beaches,Beach; Nature,Unknown,Cádiz,,,,,,docs/places/los-canos-de-meca.md
+ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,mercado-de-atarazanas,Mercado de Atarazanas,needs_fact_check,Excursions,,Málaga,Málaga,,,,,,docs/places/mercado-de-atarazanas.md
+,miradouro-da-serpente-do-medal,Miradouro da Serpente do Medal,draft,Nature,Viewpoint; Hiking,Mogadouro,Unknown,,,,,,docs/places/miradouro-da-serpente-do-medal.md
+ES-CAT-BAR-MORRO-DE-LABELLA-001,morro-de-labella,Morro de l'Abella,needs_fact_check,Nature,Viewpoint; Nature,Tavertet,Barcelona,,,,,,docs/places/morro-de-labella.md
+ES-AND-CAD-OLVERA-CASTLE-001,olvera-castle,Olvera Castle,needs_fact_check,Family activities,Viewpoint; Historic town,Unknown,Unknown,,,,,,docs/places/olvera-castle.md
+ES-AND-MAL-PALMERAL-DE-LAS-SORPRESAS-001,palmeral-de-las-sorpresas,Palmeral de Las Sorpresas,needs_fact_check,City,,Málaga,Málaga,,,,,,docs/places/palmeral-de-las-sorpresas.md
+ES-VAL-ALI-PASARELA-DE-RELLEU-001,pasarela-de-relleu,PASARELA DE RELLEU,needs_fact_check,Nature,Hiking; Adventure; Viewpoint,Relleu,Alicante,,,,,,docs/places/pasarela-de-relleu.md
+ES-AND-MAL-PLAYA-LA-MALAGUETA-001,playa-la-malagueta,Playa la Malagueta,needs_fact_check,Beaches,Beach,Málaga,Málaga,,,,,,docs/places/playa-la-malagueta.md
+,roca-foradada,Roca Foradada,draft,Nature,Nature; Viewpoint,Unknown,Unknown,,,,,,docs/places/roca-foradada.md
+,salt-de-la-coromina,Salt de la Coromina,draft,Nature,Nature; Hiking,Unknown,Unknown,,,,,,docs/places/salt-de-la-coromina.md
+ES-CAT-BAR-SALT-DE-SALLENT-001,salt-de-sallent,Salt de Sallent,needs_fact_check,Nature,Nature; Hiking; Viewpoint,Rupit i Pruit,Barcelona,,,,,,docs/places/salt-de-sallent.md
+ES-BAS-GIP-ZUMAIA-001,zumaia,Zumaia,needs_fact_check,City,Historic town,Zumaia,Gipuzkoa,,,,,,docs/places/zumaia.md

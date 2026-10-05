@@ -1,5 +1,30 @@
 # Change log
 
+## 2026-10-05 — Local scope, tooling, and documentation consistency
+
+Owner decision plus consistency fixes from the 2026-10-05 repository review. No place record, category, tag, enum or schema field was changed.
+
+### Scope decision (owner)
+- First phase limited to destinations within about 30 km of Casa de la Familia, confirmed by route-checked driving time. Primary audience: families with children who prefer short drives; secondary: adults, seniors, teenagers. Spain-wide records are kept as an archive. Recorded in `AGENTS.md`, `README.md` and `docs/project-state.md`.
+- Origin coordinates fixed from the owner's Plus Code `8C8QG8PP+7W` = 36.5356875, -4.6626875.
+
+### Tooling
+- Added `tools/places.py` with `validate` (structural validation gate: YAML, schema version, required fields, enums, ID/slug/registry, duplicate SEO titles, approval gate; warnings for missing coordinates and unresolved driving times) and `catalog` (generates `data/place-catalog.csv` with distance from Casa and a within-30-km flag). Fact accuracy and evidence adequacy remain human checks.
+- Generated `data/place-catalog.csv` for the first time.
+
+### Files
+- Created `data/image-rights.csv` (header only) and `images/` so the files named in `AGENTS.md` exist.
+- Removed `demo 2/index.html`, a byte-identical duplicate of `demo/index.html`.
+- Added `docs/data-dictionary.md` (all CSVs) and `docs/README.md` (documentation map).
+
+### Documentation
+- `README.md`: `Cities` → `City`; corrected the description of `data/` (registers and analytical datasets, not place records); added scope, folders and tooling.
+- `AGENTS.md`: added scope and audience; stated that the recommendation datasets in `data/` are analytical, non-canonical inputs with their own tag vocabulary; stated that `docs/published/` pages are drafts outside the lifecycle; referenced the validator.
+- `docs/project-state.md`: rewritten to reflect 30 records, the new scope, tooling, and current open issues.
+
+### Not changed (needs editor-of-record decision)
+- `energy_level: null` in six identity-unresolved drafts (schema allows no unknown value); questionable categories for Alcázar de Segovia, Mercado de Atarazanas and Baelo Claudia; mapping between schema tags and collection tags; revision of the recommendation engine for the local scope.
+
 ## 2026-10-03 — P0/P1 documentation remediation
 
 Applied the P0 contract decisions and P1 operational design from `docs/remediation-plan.md`. This update changes project guidance and specifications; it does not implement executable validators, create registry/queue data files, migrate standalone examples, or publish place records.

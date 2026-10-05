@@ -1,58 +1,49 @@
 # CalleMilano project state
 
-**Last updated:** 2026-10-03  
-**Purpose:** Handoff for a future Codex session. Treat `AGENTS.md` and `docs/place-schema.md` as the primary project instructions and data contract.
+**Last updated:** 2026-10-05
+**Purpose:** Handoff for the next working session. `AGENTS.md` and `docs/place-schema.md` are the primary instructions and data contract. See `docs/README.md` for a map of all documents.
 
-## Project and current architecture
+## Scope decision (2026-10-05)
 
-CalleMilano is a family travel guide to Andalusia and Spain. Google Maps saved places are discovery inputs; factual claims must be checked against official or otherwise appropriate sources.
+The owner narrowed the first phase to destinations within about 30 km of Casa de la Familia (origin 36.53569, -4.66269, Plus Code `8C8QG8PP+7W`), confirmed by route-checked driving time. Primary audience: families with children who prefer short drives. Secondary: adults, seniors, teenagers. The Spain-wide collection is kept as an archive for later expansion.
 
-- **Canonical place data:** Markdown files with YAML front matter in `docs/places/`. The front matter is the only editable structured source of truth.
-- **Contract and operating guidance:** `AGENTS.md`, `docs/place-schema.md` (schema version 1.0.0), `docs/maps-import-agent-spec.md`, and `docs/multi-agent-workflow.md`.
-- **Workflow:** Maps Import → Fact Check → Editorial → SEO → validation → human editor-of-record approval. Publication is a separate process; agents do not approve or publish.
-- **Registries and queue:** `data/place-id-registry.csv` allocates stable IDs; `data/import-queue.csv` tracks per-place import work. `data/place-catalog.csv` is specified as a generated, read-only index but does not currently exist.
-- **Media:** assets belong in `images/`; image rights are meant to be tracked in `data/image-rights.csv`, which does not currently exist.
-- **Other project material:** `docs/examples/` contains illustrative examples, `prompts/` contains reusable prompts, and architecture/remediation/change/pilot review documents record design history.
+## What exists
 
-The schema covers identity and geography, categories and tags, driving time from Casa de la Familia, audience and family suitability, energy and seasonality, access and facilities, cost and visit details, descriptions and SEO, images and rights, evidence, review issues, lifecycle, and maintenance dates.
+- **Place records:** 30 in `docs/places/`, all schema 1.0.0. 24 are `needs_fact_check`; 6 are `draft` with unresolved identity and `id: null` (Cares, Conil de la Frontera, Cueva de los Arcos, Miradouro da Serpente do Medal, Roca Foradada, Salt de la Coromina). None is approved or published.
+- **Inside the primary area:** only Marbella Old Town (20 km) has coordinates. Mercado de Atarazanas, Palmeral de las Sorpresas and Playa la Malagueta lie at about 29–31 km but have no coordinates in their records yet.
+- **Gold-standard page drafts:** `docs/published/` holds BIOPARC Fuengirola, La Cala Beach and Restaurante Sheriff as hand-written pages. They have no place record, ID or front matter and are outside the lifecycle.
+- **Launch candidates:** `docs/launch-backlog.md` lists ten local destinations (Sheriff, La Cala, El Bombo, BIOPARC, Senda Litoral, Carromato de Mijas, Mijas Pueblo, Marbella Old Town, La Muralla route, La Familia Beach Club). Only Marbella Old Town has a record.
+- **Tooling:** `tools/places.py validate` (structural validation gate) and `tools/places.py catalog` (generates `data/place-catalog.csv` with distance from Casa). Current run: 30 records, 6 errors (the six identity-unresolved drafts have `energy_level: null`, which the schema does not allow), 60 warnings (missing coordinates and unresolved driving times).
+- **Registers:** `data/place-id-registry.csv` (24 IDs), `data/import-queue.csv` (only the first 5 pilots), `data/image-rights.csv` (header only), `data/place-catalog.csv` (generated). `images/` exists but is empty.
+- **Recommendation prototype:** V1 engine spec, V1 questionnaire, V2 group-composition design, V3 enrichment analysis, all run on the 30-destination Spain-wide set in the analytical CSVs (`docs/data-dictionary.md`). `demo/index.html` is a static mock with 12 hard-coded destinations; it does not compute scores.
 
-## Completed work
+## Open issues
 
-- Created the project structure, README, and project guidance.
-- Specified the place schema and a Nerja schema example; added examples for Marbella Club Hotel, La Herradura, and Caminito del Rey.
-- Designed the Maps Import Agent and the four-stage multi-agent workflow. These are specifications, not implemented agents or automation.
-- Completed an architecture review and remediation plan; applied the documented P0/P1 documentation remediation and recorded it in `docs/change-log.md`.
-- Created five draft place records in `docs/places/`: Frigiliana, Ronda, Marbella Old Town, Selwo Aventura, and Zahara de la Sierra. All are `needs_fact_check`, and their intake items are assigned to fact check.
-- Reviewed those five records in `docs/pilot-review.md`. No obvious hard schema or enum violations were found, but tag interpretation, evidence coverage, place scope, SEO conventions, and difficult-to-verify values need attention. This review did not independently re-verify destination facts.
-- ID allocations and queue entries exist for the five drafts. The examples are illustrative only, not canonical records.
+### Scope-driven (new)
+1. No dataset of local destinations yet. Waiting for the owner's Google Takeout export (Saved lists, starred places, labelled places) to sort all saved places by distance from Casa.
+2. Engine spec does not fit the 30 km scope: every local place scores 5 on drive time (≤ 1 h), durations stop at half-day, and three personas (aviation, hiking, overnight-oriented) are irrelevant locally. Needs finer drive-time bands, shorter durations, and beach factors (lifeguard season, shade, toilets, parking distance, sand/shallow water, child menu, stroller access).
+3. The engine reads analytical CSVs keyed by display name, not the canonical records. Decide whether the next engine version reads `docs/places/` directly.
 
-## Outstanding issues
+### Data and records
+4. 24 of 30 records lack coordinates; no record has a route-checked driving time.
+5. The six identity-unresolved drafts need identity confirmation, then `energy_level`, ID allocation and queue rows.
+6. Five destinations lack a classification row (Frigiliana, Marbella Old Town, Ronda, Selwo Aventura, Zahara de la Sierra).
+7. Two tag vocabularies (schema tags vs. collection tags) and two confidence scales coexist without mapping.
+8. `docs/published/` pages need matching records in `docs/places/` before they can count as published.
+9. Questionable categories for editor review: Alcázar de Segovia (`Family activities`), Mercado de Atarazanas (`Excursions`), Baelo Claudia (`Family activities`).
 
-### Workflow implementation
+### Schema and editorial rules (carried over from 2026-10-03)
+10. Place scope/pin rules for towns, `last_verified` semantics, criteria for duration/season/tags, age-group vs. family-score guidance, cost basis, SEO conventions, `wheelchair_friendly` derivation rule. See `docs/remediation-plan.md` for items beyond P0/P1.
+11. Editor-of-record is referred to throughout but not named.
 
-- No executable schema/YAML validator or automated catalog generator exists. Until implemented, the workflow requires a named person to perform and record the validation checklist manually.
-- `data/place-catalog.csv` and `data/image-rights.csv` are referenced as operational files but are absent. The import queue and ID registry exist as CSVs; automation and lifecycle handling are not implemented.
-- The five intake items and corresponding records remain at `needs_fact_check`; they are not approved or publishable.
+## Next actions
 
-### Schema and editorial rules
-
-- Define record scope for town-scale records: what the selected pin represents and whether amenities/tags apply to the point, core experience, or wider municipality.
-- Clarify `last_verified` semantics because partial source checks coexist with open fact-check issues. Consider per-field/source dates for volatile information.
-- Establish criteria for duration, seasonality, and tags such as `Nature`, `Museum`, `Viewpoint`, and `Restaurant`. Duration tags currently lack `typical_duration` values in the pilot drafts.
-- Define how age-group suitability differs from family ratings, and how energy differs from visit duration. Keep editorial judgments visibly distinct from sourced facts.
-- Clarify town-level cost basis and rules for variable prices, driving-time source/method, representative coordinates, and the scope of accessibility/facility claims.
-- Standardize SEO title and description conventions, including length/truncation guidance and family-focused wording.
-- The pilot review identifies overlap between top-level `wheelchair_friendly` and detailed accessibility data; schema guidance says the summary is derived, but a precise mapping/validation rule remains to be established.
-- Earlier remediation plan items beyond P0/P1 (including governance, correction intake, localization/style, and broader page/catalog design) may remain outstanding; consult `docs/remediation-plan.md` before expanding scope.
-
-## Next recommended actions
-
-1. **Set operating rules before scaling:** decide place scope/pin selection, tag and duration criteria, suitability and energy guidance, cost basis, verification dates, and SEO conventions. Update the schema/guidance together and record changes in `docs/change-log.md`.
-2. **Fact-check the five pilot records:** confirm saved-place identity and representative pins, add claim-specific authoritative evidence, resolve driving routes and durations where possible, and retain unknowns with review issues where facts cannot be established. Keep the records in review statuses until complete.
-3. **Build the minimum validation path:** implement a validator for YAML syntax, required fields/types/enums, IDs/slugs and registry matching, evidence/issues, and lifecycle requirements; record validation outcomes. Generate the catalog from canonical records instead of editing it by hand.
-4. **Establish media-rights tracking before adding publishable images:** create and maintain the specified rights register; only use approved assets with complete metadata and contextual alt text.
-5. **Then expand intake in batches:** deduplicate each input, reserve IDs, create drafts, track queue states and blockers, and validate each draft. A larger import can proceed as draft work, but do not treat volume as approval or publication readiness.
+1. Import the Takeout export, compute distance from Casa for every saved place, and produce a ranked intake list (0–30 km first).
+2. Create records with coordinates for the 15–20 most relevant local places (beaches in Fuengirola, Los Boliches, La Cala, Benalmádena, Torremolinos; BIOPARC; nearest excursions), starting with the launch backlog.
+3. Revise the engine spec and personas for the local scope; then run top-10 recommendation tests per persona and compare with the owner's local knowledge.
+4. Route-check driving times for local records.
+5. Fact-check in batches; validate with `tools/places.py validate` before human review.
 
 ## Resume checklist
 
-At the start of the next session, read `AGENTS.md`, `docs/place-schema.md`, `docs/project-state.md`, and the relevant current review/workflow documents. Check repository state and the five place records before editing. Do not assume the destination facts in the pilot records have been independently verified; do not mark records approved or published without the documented validation and human review.
+Read `AGENTS.md`, `docs/place-schema.md`, this file and `docs/data-dictionary.md`. Run `python3 tools/places.py validate`. Do not treat analytical CSV values or pilot record values as verified, and do not mark anything approved or published.
