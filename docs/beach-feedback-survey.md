@@ -28,6 +28,20 @@
 >
 > Skriv gerne hvornår (måned/år) og børnenes alder. Kender I en bedre strand, der ikke står på listen, hører vi også gerne om den. Tak! ☀️
 
+### English (for British/expat groups)
+
+> Hi all 👋
+>
+> Hoping some of you with little ones can help! We have a family house up in Cerros del Águila (Las Lagunas de Mijas), and we often have children and grandchildren visiting. We're putting together a little guide for them, just for family and friends, nothing commercial.
+>
+> We'd love to hear your own experiences rather than the glossy brochure version. Have you taken under-5s to any of these, and how did you get on? La Cala · El Bombo · Las Doradas / Calahonda · El Chaparral · Fuengirola and Los Boliches · Benalmádena
+>
+> The sort of things that make or break a day out with toddlers: does it shelve off quickly, are there waves, sand or pebbles, loos nearby, any shade, easy parking, and is there a chiringuito that's happy to feed fussy little ones?
+>
+> If you can mention roughly when you went and how old the children were, that would be brilliant. And if there's a hidden gem we've missed, we'd love to hear about that too!
+>
+> Thanks so much in advance ☀️
+
 ## Where to post
 
 Facebook search terms (tab "Grupper"): "Danskere Costa del Sol", "Danskere i Fuengirola", "Danskere Mijas", "Skandinaver Costa del Sol", "Mums Costa del Sol", "Parents Costa del Sol", "Families Fuengirola", "La Cala de Mijas", "Mijas Costa community". Prefer large, active groups whose rules allow questions. Group names are search terms, not verified groups.
