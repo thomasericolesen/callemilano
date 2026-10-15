@@ -91,7 +91,7 @@ Choose exactly one primary category:
 - `City` — a city, town, or village recommended as a destination.
 - `Family activities` — attractions/activities centered on a visitor activity.
 
-Controlled tags: `Beach`, `Restaurant`, `Nature`, `Hiking`, `Viewpoint`, `Historic town`, `Museum`, `Adventure`, `Rainy day`, `Half day`, `Full day`, `Free`, `Premium`. Use exact spelling. Tags describe secondary features and never replace category. New or retired terms require editor-of-record approval and a schema change recorded in `docs/change-log.md`.
+Controlled tags: `Beach`, `Restaurant`, `Nature`, `Hiking`, `Viewpoint`, `Historic town`, `Museum`, `Adventure`, `Rainy day`, `Half day`, `Full day`, `Overnight`, `Free`, `Premium`. Use exact spelling. Tags describe secondary features and never replace category. `Overnight` marks a destination whose realistic one-way drive time makes a day trip impractical; use it instead of `Full day` for such a destination, not alongside it. New or retired terms require editor-of-record approval and a schema change recorded in `docs/change-log.md`.
 
 ### Age groups and family suitability
 

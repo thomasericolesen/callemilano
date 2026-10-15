@@ -49,7 +49,7 @@ STATUSES = {"draft", "needs_fact_check", "needs_editorial_review", "approved", "
 DRAFT_STATUSES = {"draft", "needs_fact_check", "needs_editorial_review"}
 CATEGORIES = {"Restaurants", "Beaches", "Excursions", "Nature", "City", "Family activities"}
 TAGS = {"Beach", "Restaurant", "Nature", "Hiking", "Viewpoint", "Historic town", "Museum",
-        "Adventure", "Rainy day", "Half day", "Full day", "Free", "Premium"}
+        "Adventure", "Rainy day", "Half day", "Full day", "Overnight", "Free", "Premium"}
 AGE_GROUPS = {"Small children (0-6)", "Children (7-12)", "Young adults", "Seniors"}
 FAMILY_KEYS = {"small_children", "children", "young_adults", "seniors"}
 FAMILY_VALUES = {"low", "medium", "high", "unknown"}
