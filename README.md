@@ -8,6 +8,7 @@ CalleMilano is a family travel guide for guests staying at Casa de la Familia, U
 - **Primary audience:** families with children who do not want long drives.
 - **Secondary audiences:** adults, seniors, and teenagers.
 - **Origin point:** Plus Code `8C8QG8PP+7W` = 36.53569, -4.66269.
+- **Excursion layer (from 2026-10-15):** destinations up to about 4 h one-way by route-checked drive, aimed at young adults. See `AGENTS.md` and `data/layers.csv`.
 
 See [AGENTS.md](AGENTS.md) for the full guidance and [docs/README.md](docs/README.md) for a map of the documentation.
 

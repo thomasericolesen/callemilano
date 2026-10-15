@@ -12,6 +12,13 @@ CalleMilano is a family travel guide for guests at Casa de la Familia, starting 
 - **Places beyond the primary area** remain in `docs/places/` and the analytical datasets as an archive. Do not develop, fact-check, or recommend them in the current phase unless the editor-of-record says so. Do not delete them.
 - Prioritize new intake, fact-checking, and recommendation testing inside the primary area.
 
+## Excursion layer (owner decision 2026-10-15)
+
+- A second layer, `excursions_4h`, is added beside the 30 km primary area: destinations reachable by a route-checked one-way drive of up to about 4 h (day trips and overnight stays). Layers are defined in `data/layers.csv`; membership is listed in `data/layer-membership.csv` (analytical, not a second source of truth for records).
+- Target audience for this layer: young adults (nature and hiking, city life, culture and architecture, food, bars, cafés, wellness).
+- This is the editor's instruction under the rule above that places beyond the primary area stay archive unless the editor says so: records in `excursions_4h` may be developed and fact-checked. Existing out-of-area records not listed in `data/layer-membership.csv` remain archive.
+- Records in this layer follow the same schema, evidence and review rules. Driving time must still be route-checked, never estimated.
+
 ## Canonical project files
 
 - Place records: `docs/places/` (canonical editable place data).

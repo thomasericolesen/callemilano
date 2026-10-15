@@ -1,5 +1,16 @@
 # Change log
 
+## 2026-10-15 — Excursion layer (additive; no schema change)
+
+Owner decision: add a second layer, `excursions_4h` (route-checked one-way drive up to about 4 h), beside the 30 km primary area.
+
+- Added 17 draft records in `docs/places/` (Málaga, Sierra de las Nieves, Tolox, Caminito del Rey, Setenil de las Bodegas, Antequera, El Torcal de Antequera, Nerja, Tarifa, Vejer de la Frontera, Granada, Sevilla, Córdoba, Cádiz, Jerez de la Frontera, Gibraltar, Las Alpujarras). All `draft`, no coordinates, no route-checked driving time, no sourced facts; blocking review issues on each.
+- Reserved the 17 IDs in `data/place-id-registry.csv` and added 17 rows to `data/import-queue.csv`.
+- Added `data/layers.csv` and `data/layer-membership.csv`.
+- Added persona `Young adults` to `data/personas.csv` (weights are editorial estimates).
+- Added the scope section to `AGENTS.md` and a bullet to `README.md`; added `docs/excursions-layer.md` and `docs/excursions-layer-overlap.md`.
+- Not changed: existing place records, categories, tags, enums, schema. The merge of `Teenagers (13-17)` and `Adults` into `Young adults` is a separate proposal: `docs/schema-change-proposal-young-adults.md`.
+
 ## 2026-10-05 — Google Maps intake list
 
 - Added `data/maps-intake-projekt-spanien.csv`: the 212 places in the owner's "Projekt Spanien" Maps list, with triage coordinates and distance rings from Casa. Coordinates are approximate (the export has none); see `docs/data-dictionary.md`. Result: 13 places within 30 km, 25 at 30–60 km, 17 at 60–100 km, 138 beyond 100 km, 18 unplaced, plus the Casa address.
