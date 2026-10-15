@@ -8,7 +8,7 @@ Schema version: **1.0.0**. This is the canonical contract for records stored as 
 |---|---|---:|---|
 | `schema_version` | string | Yes | Schema version, currently `1.0.0`. |
 | `status` | enum | Yes | Lifecycle status; see Record lifecycle. |
-| `id` | string | Yes | Stable ID allocated in `data/place-id-registry.csv`, format `ES-{REGION}-{PROVINCE}-{PLACE}-{NNN}` (example `ES-AND-MAL-NERJA-001`). Never change after allocation. |
+| `id` | string | Yes | Stable ID allocated in `data/place-id-registry.csv`, format `{TERRITORY}-{REGION}-{PROVINCE}-{PLACE}-{NNN}` (example `ES-AND-MAL-NERJA-001`). `TERRITORY` is the place's own country/territory code — `ES` for Spain, or another appropriate code (e.g. `GI` for Gibraltar, a British Overseas Territory) for a place outside Spain. A territory without Spain's region/province structure uses the shorter form `{TERRITORY}-{PLACE}-{NNN}` (example `GI-GIBRALTAR-001`) rather than inventing a Spanish region/province for it. Never change after allocation. |
 | `slug` | string | Yes | Unique lowercase kebab-case canonical page slug. Changing it requires a redirect entry in `redirects`. |
 | `name` | string | Yes | Canonical public name, preserving correct local spelling and accents. |
 | `category` | enum | Yes | Exactly one primary category from the controlled list. |
@@ -164,6 +164,8 @@ Each image object contains `asset_id`, `role` (`cover`, `gallery`, `map`, `decor
 ### ID and slug allocation
 
 Reserve IDs in `data/place-id-registry.csv` before creating records. Use region/province codes from the project registry and the next unused zero-padded sequence in that namespace. Check both ID and place identity to avoid duplicates. Never recycle an ID. On rename, retain the ID; if the slug changes, add the old slug to `redirects`.
+
+For a place outside Spain, use that territory's own country/territory code as the leading segment instead of `ES` (see the `id` field above); do not borrow a neighbouring Spanish region/province's codes. If a record was allocated an `ES`-namespaced ID before its territory was settled, correct it to the proper namespace before the record leaves `draft`/`needs_fact_check`/`needs_editorial_review` status — never after `approved`, per the stable-ID rule above. Record the old ID's retirement (never deletion) in `data/place-id-registry.csv` and the correction in `docs/change-log.md`.
 
 ## Example record: Nerja
 

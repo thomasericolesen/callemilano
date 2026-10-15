@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-10-15 — Non-Spain territory code in the place ID format
+
+Editor-approved schema change: `docs/place-schema.md`'s `id` format now documents the leading segment as the place's own country/territory code (`ES` for Spain, or another appropriate code — e.g. `GI` for Gibraltar, a British Overseas Territory — for a place outside Spain), with a shorter `{TERRITORY}-{PLACE}-{NNN}` form for a territory without Spain's region/province structure.
+
+Gibraltar's ID is corrected from the borrowed `ES-AND-CAD-GIBRALTAR-001` to `GI-GIBRALTAR-001`. The old ID is retired (not deleted) in `data/place-id-registry.csv`; the new ID is allocated under a new `GI` namespace. Updated: `docs/places/gibraltar.md` (`id` field, `not_spain` review issue resolved), `data/place-id-registry.csv`, `data/layer-membership.csv`. No other record's ID changes — this correction was made before the record left draft/review status, per the stable-ID rule (never change an ID after `approved`).
+
 ## 2026-10-15 — Layer-boundary decision and post-fact-check corrections
 
 Editor-of-record decisions following fact-check of the 17 excursion-layer records:
