@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-CAMINITO-DEL-REY-001
 slug: caminito-del-rey
 name: Caminito del Rey
@@ -12,12 +12,12 @@ tags:
   - Viewpoint
   - Full day
 coordinates:
-  latitude: null
-  longitude: null
+  latitude: 36.914782
+  longitude: -4.8080823
   purpose: venue
-  label: Unknown; exact visitor point not established
-  source: null
-  checked_at: null
+  label: "Centro de Recepción de Visitantes (CRV), Puerto de las Atalayas — official north/Ardales access and ticket office"
+  source: https://caminitodelrey.info/informacion-practica/
+  checked_at: 2026-10-15
 google_maps_url: https://maps.google.com/?q=Caminito+del+Rey%2C+M%C3%A1laga%2C+Spain
 external_ids: {}
 municipality: Ardales
@@ -25,12 +25,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: null
+  duration: "75 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: Unknown; named visitor point not established
-  source: null
-  checked_at: null
-  note: Route not checked; do not estimate from memory.
+  destination: "Centro de Recepción de Visitantes, Caminito del Rey, Ardales, Málaga, Spain"
+  source: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-4.8080823,36.9147820?overview=false"
+  checked_at: 2026-10-15
+  note: "Route-checked one-way via OSRM (driving profile), ~76.4 km. Actual time varies with traffic. The official site separately states 57.7 km from Málaga city, 6 km from the Ardales road junction, and 51 km from Antequera."
 age_groups:
   - Teenagers (13-17)
   - Adults
@@ -48,76 +48,87 @@ seasonality:
 accessibility:
   overall: unknown
   mobility:
-    route: unknown
-    wheelchair_route: unknown
+    route: "Elevated walkway along a gorge wall; official site states under-8s cannot enter and visitors must be able to walk the full route unassisted. No wheelchair/stroller provision found."
+    wheelchair_route: "no"
     facilities: unknown
   sensory:
     notes: unknown
   accessible_toilets: unknown
-  source: null
-  checked_at: null
-  confidence: unknown
-wheelchair_friendly: unknown
+  source: https://caminitodelrey.info/
+  checked_at: 2026-10-15
+  confidence: medium
+wheelchair_friendly: "no"
 parking:
-  availability: unknown
-  location_type: unknown
-  cost: unknown
+  availability: "Paid car park at the Centro de Recepción de Visitantes (north/Ardales access)."
+  location_type: onsite
+  cost: "€2/day"
   restrictions: unknown
-  walk_distance: unknown
-  source: null
-  checked_at: null
-transport_options: []
-booking_required: unknown
+  walk_distance: null
+  source: https://caminitodelrey.info/informacion-practica/
+  checked_at: 2026-10-15
+transport_options:
+  - mode: shuttle_bus
+    description: "Shuttle bus between the car park/reception area and the walkway access."
+    cost: "€2.50"
+    source: https://caminitodelrey.info/informacion-practica/
+    checked_at: 2026-10-15
+booking_required: true
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: "€"
 visit_information:
   schedule: null
   typical_duration: null
-  booking_lead_time: null
+  booking_lead_time: "Online booking (caminitodelrey.info) is the primary route, limited to 10 tickets per purchase; phone booking also available (+34 952 47 05 05), payment due on arrival. Tickets at the ticket office are sold only subject to availability — online booking in advance is effectively required, especially in high season."
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: "General entry ~€10; official guided tour ~€18 (groups up to 30, Spanish/English); shuttle bus €2.50; parking €2/day."
+  cost_checked_at: 2026-10-15
 links:
-  official_website: null
-  booking: null
-  visitor_information: null
+  official_website: https://caminitodelrey.info/
+  booking: https://caminitodelrey.info/
+  visitor_information: https://caminitodelrey.info/informacion-practica/
   transport: null
-  contact: null
+  contact: "tel:+34952470505"
 related_places: []
-description_short: "Caminito del Rey is a candidate destination for longer excursions from Casa de la Familia; content is pending fact check."
-description_long: "Caminito del Rey (Málaga) is proposed for the excursion layer aimed at young adults. This record is an identity-level placeholder: no sourced facts about sights, food and drink, access or prices have been collected yet."
-seo_title: "Caminito del Rey: Excursion from Casa de la Familia (Draft)"
-seo_description: "Draft page for Caminito del Rey. Content, access and travel time are not yet verified."
+description_short: "A dramatic walkway along a gorge wall near Ardales; advance online booking is effectively required, and under-8s cannot enter. About 1 hour 15 minutes' drive from Casa de la Familia."
+description_long: "Caminito del Rey is a walkway fixed to the wall of the El Chorro gorge, reached via the official Centro de Recepción de Visitantes at Puerto de las Atalayas, on the Ardales side, about 75 minutes' drive from Casa de la Familia (route-checked; the official site separately states 57.7 km from Málaga city). Tickets are sold mainly through online booking at caminitodelrey.info (up to 10 per purchase) or by phone, with payment due on arrival; the on-site ticket office sells only subject to availability, so advance booking should be treated as effectively required, particularly in high season. General entry is around €10, with an official guided tour around €18, a shuttle bus at €2.50 and on-site parking at €2 per day. Access rules are strict and relevant for families: children under 8 are not admitted at all, visitors over 8 must show an original ID document to prove their age, and anyone under 18 must be accompanied by an adult. Opening hours, exact route length/duration, and difficulty level were not confirmed from the official pages reached in this fact-check and should be checked directly before publication, along with whether dogs are permitted."
+seo_title: "Caminito del Rey: Walkway, Booking and Access Rules"
+seo_description: "Plan a visit to Caminito del Rey near Ardales: booking, pricing, the age-8 minimum, and the drive from Casa de la Familia."
 images: []
-evidence: []
+evidence:
+  - field: "coordinates"
+    claim: "The official reception/ticketing point (Centro de Recepción de Visitantes, Puerto de las Atalayas) is the north/Ardales access to Caminito del Rey."
+    source_url: https://caminitodelrey.info/informacion-practica/
+    source_type: official_venue
+    checked_at: 2026-10-15
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "Coordinates resolved from a Google Maps pin embedded/linked by the official site itself (maps.app.goo.gl/dMHME1tDJ2DjqarTA → 'Caminito del Rey | Centro Recepción'); this is a Maps-derived point endorsed by the official source, not an independently surveyed coordinate."
+  - field: "booking_required, visit_information.cost_basis, visit_information.booking_lead_time, description_long"
+    claim: "Booking channels, ticket/guided-tour/shuttle/parking prices, and the under-8 age restriction with ID requirement for over-8s and accompaniment requirement for minors."
+    source_url: https://caminitodelrey.info/
+    source_type: official_venue
+    checked_at: 2026-10-15
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: null
+  - field: "driving_time_from_casa_de_la_familia"
+    claim: "One-way driving route from Casa de la Familia to the Caminito del Rey reception area is approximately 75 minutes (76.4 km)."
+    source_url: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-4.8080823,36.9147820?overview=false"
+    source_type: secondary
+    checked_at: 2026-10-15
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "OSRM public routing engine, driving profile; traffic not modelled. The official site's own stated distances (57.7 km from Málaga city) are a different origin and are recorded for context, not used as the route-checked figure."
 review_issues:
-  - code: driving_time_unverified
-    severity: blocking
-    fields: [driving_time_from_casa_de_la_familia]
-    description: "Verify one-way drive time from Casa de la Familia with a route source and record the check date. Do not estimate."
-    retryable: true
-    owner: fact_check
-  - code: coordinates_missing
-    severity: blocking
-    fields: [coordinates]
-    description: "Coordinates not yet established from a source; choose and record the named visitor point."
-    retryable: true
-    owner: fact_check
-  - code: no_sources_yet
-    severity: blocking
-    fields: [description_long, evidence]
-    description: "No source evidence collected. Descriptions are identity-level placeholders; write content only from official sources."
-    retryable: true
-    owner: fact_check
-  - code: route_point_open
+  - code: schedule_unverified
     severity: warning
-    fields: [municipality, coordinates, booking_required]
-    description: "Category Excursions (owner decision 2026-10-15). Entrance and exit lie in different places and the route may cross municipal boundaries; fix the visitor point. Entry rules and ticketing must be checked on the official site before any claim."
+    fields: [visit_information.schedule, dog_friendly, toilets_available]
+    description: "Opening hours, exact route length/duration/difficulty, and dog policy were not found on the official pages reached this round; needs a follow-up fetch of the official schedule page."
     retryable: true
-    owner: editorial
+    owner: fact_check
   - code: excursion_layer_scope
     severity: warning
     fields: [status]
@@ -127,22 +138,22 @@ review_issues:
   - code: family_ratings_estimated
     severity: warning
     fields: [age_groups, family_score, energy_level, seasonality, tags]
-    description: "Audience ratings, energy, season and duration tag are provisional editorial estimates for young adults; other age groups left unknown. Assess before approval."
+    description: "Audience ratings, energy, season and duration tag are provisional editorial estimates for young adults; other age groups left unknown. The confirmed under-8 entry ban and ID/accompaniment rules for minors should inform the final family_score and age_groups."
     retryable: true
     owner: editorial
   - code: visitor_facilities_unverified
     severity: warning
-    fields: [accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, cost_level, booking_required]
-    description: "Visitor facilities, access, parking, booking and cost remain unverified."
+    fields: [accessibility, toilets_available, food_available]
+    description: "Toilets and on-site food availability not confirmed from an official source."
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
 updated_at: 2026-10-15
-last_verified: null
+last_verified: 2026-10-15
 last_reviewed_at: null
-next_review_at: null
+next_review_at: 2027-01-15
 review_decision: null
 redirects: []
 ---
 
-Draft source notes: none. Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
+Fact-checked 2026-10-15: visitor point, driving time, booking channel, pricing and the official age/ID access rules confirmed directly from caminitodelrey.info. Opening hours and route length/duration remain unverified and are flagged rather than estimated. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.

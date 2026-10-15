@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-SEV-SEVILLA-001
 slug: sevilla
 name: Sevilla
@@ -11,12 +11,12 @@ tags:
   - Restaurant
   - Full day
 coordinates:
-  latitude: null
-  longitude: null
-  purpose: town_center
-  label: Unknown; exact visitor point not established
-  source: null
-  checked_at: null
+  latitude: 37.3859150
+  longitude: -5.9931406
+  purpose: venue
+  label: "Catedral de Sevilla (Giralda), old town"
+  source: https://www.openstreetmap.org/relation/5641600
+  checked_at: 2026-10-15
 google_maps_url: https://maps.google.com/?q=Sevilla%2C+Sevilla%2C+Spain
 external_ids: {}
 municipality: Sevilla
@@ -24,12 +24,12 @@ province: Sevilla
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: null
+  duration: "176 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: Unknown; named visitor point not established
-  source: null
-  checked_at: null
-  note: Route not checked; do not estimate from memory.
+  destination: "Catedral de Sevilla, Sevilla, Spain"
+  source: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-5.9931406,37.3859150?overview=false"
+  checked_at: 2026-10-15
+  note: "Route-checked one-way via OSRM (driving profile), ~238.7 km — the longest drive of all 17 excursion-layer candidates in this batch. Best treated as a long day trip or overnight stay, not a casual outing."
 age_groups:
   - Teenagers (13-17)
   - Adults
@@ -66,56 +66,70 @@ parking:
   source: null
   checked_at: null
 transport_options: []
-booking_required: unknown
+booking_required: false
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: "€"
 visit_information:
-  schedule: null
-  typical_duration: null
+  schedule: "Monday-Saturday 10:45-19:00 (ticket office closes 18:00); Sunday 14:30-19:00. Hours can change for worship/cultural events without notice."
+  typical_duration: "About 75 minutes for the cathedral visit."
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: "General €13 online / €14 at the office; reduced €7 online / €8 at office (over-65, students up to 25, 33-65% disability, large-family adults); free for children up to 13 with an adult, over-65% disability, and unemployed Spanish nationals with ID. Audioguide €5 (€4 in-app). Guided tour €20 online/€21 at office plus a €1 online fee. A free Sunday visit is available subject to the liturgical calendar, tickets issued in person at the Puerta del Príncipe from 17:00."
+  cost_checked_at: 2026-10-15
 links:
-  official_website: null
-  booking: null
-  visitor_information: null
+  official_website: "https://www.catedraldesevilla.es/"
+  booking: "https://www.catedraldesevilla.es/en/cultural-visit/schedules-and-rates/"
+  visitor_information: "https://www.catedraldesevilla.es/en/cultural-visit/schedules-and-rates/"
   transport: null
   contact: null
 related_places: []
-description_short: "Sevilla is a candidate destination for longer excursions from Casa de la Familia; content is pending fact check."
-description_long: "Sevilla (Sevilla) is proposed for the excursion layer aimed at young adults. This record is an identity-level placeholder: no sourced facts about sights, food and drink, access or prices have been collected yet."
-seo_title: "Sevilla: Excursion from Casa de la Familia (Draft)"
-seo_description: "Draft page for Sevilla. Content, access and travel time are not yet verified."
+description_short: "Sevilla's cathedral and Giralda anchor a historic centre that also includes the Real Alcázar and Plaza de España; at nearly 3 hours' drive from Casa de la Familia, it is best planned as a long day trip or overnight stay, especially given extreme summer heat."
+description_long: "Sevilla is the furthest of the researched excursion-layer candidates from Casa de la Familia, at about 2 hours 56 minutes' drive (route-checked, ~238.7 km) — this record should be framed as a long day trip or overnight stay rather than a casual outing. The Catedral de Sevilla (with its Giralda tower) is open Monday-Saturday 10:45-19:00 and Sunday 14:30-19:00, with a visit taking about 75 minutes; general admission is €13 online/€14 at the office, with reduced rates for seniors, students up to 25, and large-family adults, and free entry for children up to 13 with an adult. A free visit is available on Sundays from 17:00, subject to the church calendar. The cathedral sits a short walk from the Real Alcázar and Plaza de España, both well-known Sevilla sights not yet separately fact-checked in this record. Summer in Sevilla is widely described as extremely hot (sources cite July/August highs in the mid-to-high 30s Celsius, with one unverified record claim near 46.6°C) — this should be weighed heavily for a family/young-adult day-trip framing, though the exact current climate figures should be confirmed against AEMET rather than the travel-blog sources used here. Parking and accessibility have not been confirmed from an official source."
+seo_title: "Sevilla: Cathedral, Giralda and a Long Day Trip"
+seo_description: "Plan a Sevilla visit: cathedral hours and prices, and why the long drive from Casa de la Familia suits an overnight stay or a very long day."
 images: []
-evidence: []
+evidence:
+  - field: "coordinates"
+    claim: "Catedral de Sevilla (with the Giralda tower) stands in the historic centre at Avenida de la Constitución."
+    source_url: https://www.openstreetmap.org/relation/5641600
+    source_type: maps_identity
+    checked_at: 2026-10-15
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Cross-checked against an independent secondary (Wikipedia) coordinate within a few metres; official address confirmed on catedraldesevilla.es."
+  - field: "visit_information, description_long"
+    claim: "Cathedral opening hours, visit duration, and full 2026 ticket-price schedule including reduced/free categories and the free Sunday visit."
+    source_url: "https://www.catedraldesevilla.es/en/cultural-visit/schedules-and-rates/"
+    source_type: official_venue
+    checked_at: 2026-10-15
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Directly fetched official page, effective 1 Jan 2026 pricing."
+  - field: "description_long"
+    claim: "Sevilla summers are extremely hot, with July/August average highs reported in the mid-to-high 30s Celsius by secondary sources, which disagree on the exact figure."
+    source_url: "https://blog.welcu.com"
+    source_type: secondary
+    checked_at: 2026-10-15
+    checked_by: "fact-check-agent"
+    confidence: low
+    notes: "Sources disagree on exact figures; recommend confirming against AEMET (Spain's official meteorological agency) before citing a specific number."
+  - field: "driving_time_from_casa_de_la_familia"
+    claim: "One-way driving route from Casa de la Familia to Catedral de Sevilla is approximately 176 minutes (238.7 km)."
+    source_url: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-5.9931406,37.3859150?overview=false"
+    source_type: secondary
+    checked_at: 2026-10-15
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "OSRM public routing engine, driving profile; traffic not modelled. At 176 minutes this is close to the excursion layer's ~4-hour one-way ceiling in round-trip terms and should be reviewed by the editor for framing (day trip vs. overnight)."
 review_issues:
-  - code: driving_time_unverified
-    severity: blocking
-    fields: [driving_time_from_casa_de_la_familia]
-    description: "Verify one-way drive time from Casa de la Familia with a route source and record the check date. Do not estimate."
-    retryable: true
-    owner: fact_check
-  - code: coordinates_missing
-    severity: blocking
-    fields: [coordinates]
-    description: "Coordinates not yet established from a source; choose and record the named visitor point."
-    retryable: true
-    owner: fact_check
-  - code: no_sources_yet
-    severity: blocking
-    fields: [description_long, evidence]
-    description: "No source evidence collected. Descriptions are identity-level placeholders; write content only from official sources."
-    retryable: true
-    owner: fact_check
   - code: overnight_candidate
     severity: warning
     fields: [tags, visit_information]
-    description: "Probably an overnight or long-day candidate; set duration tag after the route-checked driving time is known."
-    retryable: true
+    description: "Route-checked driving time is now known (176 min / ~2h56m one way); editor to set the duration tag (e.g. Full day vs. an overnight framing) accordingly."
+    retryable: false
     owner: editorial
   - code: excursion_layer_scope
     severity: warning
@@ -131,17 +145,17 @@ review_issues:
     owner: editorial
   - code: visitor_facilities_unverified
     severity: warning
-    fields: [accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, cost_level, booking_required]
-    description: "Visitor facilities, access, parking, booking and cost remain unverified."
+    fields: [accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available]
+    description: "Visitor facilities, access, parking and on-site food remain unverified; the Real Alcázar and Plaza de España have not yet been separately fact-checked."
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
 updated_at: 2026-10-15
-last_verified: null
+last_verified: 2026-10-15
 last_reviewed_at: null
-next_review_at: null
+next_review_at: 2027-04-15
 review_decision: null
 redirects: []
 ---
 
-Draft source notes: none. Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
+Fact-checked 2026-10-15: strong official cathedral data; driving time confirms this is a long-distance excursion deserving an overnight/long-day framing decision from the editor. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
