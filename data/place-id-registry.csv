@@ -38,5 +38,6 @@ ES-AND-SEV,ES-AND-SEV-SEVILLA-001,sevilla,Sevilla,allocated,2026-10-15
 ES-AND-COR,ES-AND-COR-CORDOBA-001,cordoba,Córdoba,allocated,2026-10-15
 ES-AND-CAD,ES-AND-CAD-CADIZ-001,cadiz,Cádiz,allocated,2026-10-15
 ES-AND-CAD,ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001,jerez-de-la-frontera,Jerez de la Frontera,allocated,2026-10-15
-ES-AND-CAD,ES-AND-CAD-GIBRALTAR-001,gibraltar,Gibraltar,allocated,2026-10-15
+ES-AND-CAD,ES-AND-CAD-GIBRALTAR-001,gibraltar,Gibraltar,superseded_by_GI-GIBRALTAR-001,2026-10-15
+GI,GI-GIBRALTAR-001,gibraltar,Gibraltar,allocated,2026-10-15
 ES-AND-GRA,ES-AND-GRA-LAS-ALPUJARRAS-001,las-alpujarras,Las Alpujarras,allocated,2026-10-15

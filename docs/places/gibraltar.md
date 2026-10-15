@@ -1,7 +1,7 @@
 ---
 schema_version: 1.0.0
 status: needs_editorial_review
-id: ES-AND-CAD-GIBRALTAR-001
+id: GI-GIBRALTAR-001
 slug: gibraltar
 name: Gibraltar
 category: City
@@ -140,10 +140,10 @@ evidence:
     notes: "OSRM public routing engine, driving profile; does not model border-crossing queue time, which can add significantly to the practical journey time."
 review_issues:
   - code: not_spain
-    severity: blocking
+    severity: info
     fields: [id, country, province, autonomous_community]
-    description: "Owner decision 2026-10-15: Gibraltar is included. It is a British Overseas Territory, not Spain. The ID borrows the neighbouring ES-AND-CAD namespace because the ID format has no territory code; editor to approve ID scheme."
-    retryable: true
+    description: "Resolved by editor decision 2026-10-15: Gibraltar is included, it is a British Overseas Territory not Spain, and the ID scheme now reflects that. Corrected from the borrowed ES-AND-CAD-GIBRALTAR-001 to GI-GIBRALTAR-001, per the updated ID format in docs/place-schema.md (territory's own code as the leading segment; the old ID is retired, not deleted, in data/place-id-registry.csv)."
+    retryable: false
     owner: editor
   - code: border_checks_mechanics_unverified
     severity: warning
