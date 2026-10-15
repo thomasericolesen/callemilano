@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001
 slug: sierra-de-las-nieves
 name: Sierra de las Nieves
@@ -127,10 +127,10 @@ evidence:
     notes: "OSRM public routing engine, driving profile; traffic not modelled. Figure is specific to El Burgo as a representative point, not a park-wide figure."
 review_issues:
   - code: area_pin_open
-    severity: blocking
+    severity: info
     fields: [coordinates]
-    description: "Protected area, not a point: sierradelasnieves.es (the municipal association's official site) lists 15 separate tourist offices around the park and no single park entrance. This record uses the Oficina de Turismo de El Burgo (now properly sourced: address, phone, hours) as the anchor, but the editor must confirm this choice — or pick a different municipality's office, or the new Conejeras visitor centre once confirmed open — per the place-pin rules."
-    retryable: true
+    description: "Resolved by editor decision 2026-10-15: the Oficina de Turismo de El Burgo is confirmed as the anchor point, sourced from sierradelasnieves.es (address, phone, hours). The park remains a multi-municipality protected area with 15 tourist offices and no single entrance; El Burgo is the chosen representative point, not a claim that it is the park's main gateway."
+    retryable: false
     owner: editor
   - code: trail_facts_unverified
     severity: warning
