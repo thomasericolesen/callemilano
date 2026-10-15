@@ -33,8 +33,7 @@ age_groups: []
 family_score:
   small_children: unknown
   children: unknown
-  teenagers: unknown
-  adults: unknown
+  young_adults: unknown
   seniors: unknown
 energy_level:  null
 seasonality: []

@@ -95,9 +95,9 @@ Controlled tags: `Beach`, `Restaurant`, `Nature`, `Hiking`, `Viewpoint`, `Histor
 
 ### Age groups and family suitability
 
-`age_groups` may contain: `Small children (0-6)`, `Children (7-12)`, `Teenagers (13-17)`, `Adults`, `Seniors`.
+`age_groups` may contain: `Small children (0-6)`, `Children (7-12)`, `Young adults`, `Seniors`.
 
-`family_score` has all five keys: `small_children`, `children`, `teenagers`, `adults`, `seniors`. Values are `low`, `medium`, `high`, or `unknown`. Ratings are suitability guidance, not safety guarantees. Consider age limits, supervision, terrain, stairs, sensory demands, visit length, and mobility. A high rating does not override a formal restriction.
+`family_score` has all four keys: `small_children`, `children`, `young_adults`, `seniors`. Values are `low`, `medium`, `high`, or `unknown`. Ratings are suitability guidance, not safety guarantees. Consider age limits, supervision, terrain, stairs, sensory demands, visit length, and mobility. A high rating does not override a formal restriction.
 
 ### Energy, season, and cost
 
@@ -203,14 +203,12 @@ driving_time_from_casa_de_la_familia:
 age_groups:
   - Small children (0-6)
   - Children (7-12)
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
   - Seniors
 family_score:
   small_children: unknown
   children: unknown
-  teenagers: unknown
-  adults: unknown
+  young_adults: unknown
   seniors: unknown
 energy_level: Medium
 seasonality:

@@ -1,5 +1,28 @@
 # Change log
 
+## 2026-10-15 — Layer-boundary decision and post-fact-check corrections
+
+Editor-of-record decisions following fact-check of the 17 excursion-layer records:
+
+- **Layer boundary rule:** for records whose route-checked driving time was now known, the editor decided layer placement (`local_30km` vs `excursions_4h`) by straight-line km distance rather than driving time, since driving time varies with traffic/route. Málaga (29.9 km, `malaga.md`) and Tolox (27.7 km, `tolox.md`) fall within the 30 km primary radius and were moved from `excursions_4h` to `local_30km` in `data/layer-membership.csv`; their `layer_boundary_open` and `excursion_layer_scope` review issues were resolved and removed.
+- **Gibraltar border treaty confirmed:** the previously secondary-sourced claim that routine checks were removed at the Gibraltar-Spain land frontier is now confirmed directly from an official Government of Gibraltar press release (15 July 2026, frontier gates/barrier removed). `gibraltar.md`'s `border_treaty_unconfirmed` blocking issue is resolved; a narrower, non-blocking issue remains for downstream mechanics (exact Schengen/customs handling, current queue conditions) that are still only secondary-sourced. Status advanced to `needs_editorial_review`.
+- **Jerez bodega-tasting age policy:** editor decision — no venue-specific minimum age needs chasing beyond Spain's standard legal drinking age (18), which governs the tasting regardless of how the tour is marketed. `jerez-de-la-frontera.md`'s `alcohol_age_policy_unknown` blocking issue is resolved and removed.
+
+## 2026-10-15 — Young adults migration
+
+Editor-approved schema change: age groups `Teenagers (13-17)` and `Adults` merged into `Young adults`; `family_score` keys `teenagers` and `adults` merged into `young_adults` (rule: max; `unknown` if either input is unknown). Updated: all `docs/places/*.md`, `tools/places.py` constants, `data/personas.csv` (weights summed), `AGENTS.md`, `docs/place-schema.md`. Analytical datasets and the engine spec are not migrated; see `docs/schema-change-proposal-young-adults.md`.
+
+## 2026-10-15 — Excursion layer (additive; no schema change)
+
+Owner decision: add a second layer, `excursions_4h` (route-checked one-way drive up to about 4 h), beside the 30 km primary area.
+
+- Added 17 draft records in `docs/places/` (Málaga, Sierra de las Nieves, Tolox, Caminito del Rey, Setenil de las Bodegas, Antequera, El Torcal de Antequera, Nerja, Tarifa, Vejer de la Frontera, Granada, Sevilla, Córdoba, Cádiz, Jerez de la Frontera, Gibraltar, Las Alpujarras). All `draft`, no coordinates, no route-checked driving time, no sourced facts; blocking review issues on each.
+- Reserved the 17 IDs in `data/place-id-registry.csv` and added 17 rows to `data/import-queue.csv`.
+- Added `data/layers.csv` and `data/layer-membership.csv`.
+- Added persona `Young adults` to `data/personas.csv` (weights are editorial estimates).
+- Added the scope section to `AGENTS.md` and a bullet to `README.md`; added `docs/excursions-layer.md` and `docs/excursions-layer-overlap.md`.
+- Not changed: existing place records, categories, tags, enums, schema. The merge of `Teenagers (13-17)` and `Adults` into `Young adults` is a separate proposal: `docs/schema-change-proposal-young-adults.md`.
+
 ## 2026-10-05 — Google Maps intake list
 
 - Added `data/maps-intake-projekt-spanien.csv`: the 212 places in the owner's "Projekt Spanien" Maps list, with triage coordinates and distance rings from Casa. Coordinates are approximate (the export has none); see `docs/data-dictionary.md`. Result: 13 places within 30 km, 25 at 30–60 km, 17 at 60–100 km, 138 beyond 100 km, 18 unplaced, plus the Casa address.
