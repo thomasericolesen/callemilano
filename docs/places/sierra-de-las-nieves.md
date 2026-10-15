@@ -14,8 +14,8 @@ coordinates:
   latitude: 36.7904469
   longitude: -4.9480972
   purpose: representative_point
-  label: "El Burgo (village with a Sierra de las Nieves visitor information office); not a single park entrance — see area_pin_open issue"
-  source: https://www.openstreetmap.org/relation/345713
+  label: "Oficina de Turismo de El Burgo, C/ Alcalde Eduardo Carbonel Cruz, s/n, El Burgo — one of 15 municipal tourist offices around the park, not a single park entrance; see area_pin_open issue"
+  source: https://sierradelasnieves.es/planifica/oficinas-de-turismo/
   checked_at: 2026-10-15
 google_maps_url: https://maps.google.com/?q=Sierra+de+las+Nieves%2C+M%C3%A1laga%2C+Spain
 external_ids: {}
@@ -73,7 +73,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Free
 visit_information:
-  schedule: "An El Burgo information office is reported (undated, not independently re-confirmed) Wed-Thu 9:00-15:00, Fri-Sat 10:00-14:00 and 16:00-18:00, no Sun/Mon hours given. A new purpose-built national-park visitor centre at 'Conejeras' was reported under construction in 2025; whether it has opened as of 2026-10-15 is unconfirmed."
+  schedule: "Oficina de Turismo de El Burgo (per the Mancomunidad's own site): Wed-Thu 09:00-15:00, Fri-Sat 10:00-14:00 and 16:00-18:00, Sun 09:00-13:00, closed Mon-Tue. A new purpose-built national-park visitor centre at 'Conejeras' was reported under construction in 2025; whether it has opened as of 2026-10-15 is unconfirmed."
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -81,26 +81,26 @@ visit_information:
   cost_basis: "Park entry itself appears free; no admission fee found for the protected area in general."
   cost_checked_at: 2026-10-15
 links:
-  official_website: null
+  official_website: "https://sierradelasnieves.es/"
   booking: null
-  visitor_information: "https://andalucia.org/en/el-burgo-information-services-el-burgo"
+  visitor_information: "https://sierradelasnieves.es/planifica/oficinas-de-turismo/"
   transport: null
-  contact: null
+  contact: "tel:+34658034452"
 related_places: []
-description_short: "Sierra de las Nieves is a national park (declared 2021) and UNESCO Biosphere Reserve covering mountains between Tolox, Ronda, El Burgo and Yunquera; it has no single visitor point, and trail permits/facilities remain largely unverified."
-description_long: "Sierra de las Nieves was declared Spain's 16th national park in 2021 and has been a UNESCO Biosphere Reserve since 1995, covering roughly 23,000 hectares across several municipalities including Tolox, El Burgo, Yunquera, Ronda and Parauta. As a protected mountain area rather than a single site, it has no one official entrance; this record uses El Burgo, home to one of the park's information offices, as a representative point only (about 79 minutes' drive from Casa de la Familia, route-checked to El Burgo specifically — other access points such as Tolox or Yunquera would have different drive times). A new, purpose-built national-park visitor centre at 'Conejeras' was reported under construction in 2025; it is unknown whether it has opened yet. The best-known hike, to Torrecilla peak (the highest point in Málaga province), is described with conflicting distance figures across sources (roughly 10-14 km round trip depending on the source and starting point) and its permit requirements were not confirmed in this research — only a separate trail (the Yunquera stone-pine/pinsapar loop) was confirmed to need advance online authorization. Dogs-allowed policy and visitor-centre facilities are unverified. Given the structural question of which single point should represent this park, and the number of open facts, this record needs further fact-checking before any specific trail, permit or facility claim is published."
+description_short: "Sierra de las Nieves is a national park (declared 2021) and UNESCO Biosphere Reserve covering mountains between Tolox, Ronda, El Burgo and Yunquera; it has 15 separate municipal tourist offices and no single visitor point, and trail permits/facilities remain largely unverified."
+description_long: "Sierra de las Nieves was declared Spain's 16th national park in 2021 and has been a UNESCO Biosphere Reserve since 1995, covering roughly 23,000 hectares across several municipalities including Tolox, El Burgo, Yunquera, Ronda and Parauta. As a protected mountain area rather than a single site, it has no one official entrance: the Mancomunidad de Municipios de la Sierra de las Nieves (the municipal association that runs the park's own tourism site) lists 15 separate tourist offices across the surrounding villages. This record uses the Oficina de Turismo de El Burgo (C/ Alcalde Eduardo Carbonel Cruz, s/n; Wed-Thu 09:00-15:00, Fri-Sat 10:00-14:00/16:00-18:00, Sun 09:00-13:00, closed Mon-Tue; tel. +34 658 034 452) as a representative anchor point, about 79 minutes' drive from Casa de la Familia (route-checked to El Burgo specifically — other access points such as Tolox or Yunquera would have different drive times). A new, purpose-built national-park visitor centre at 'Conejeras' was reported under construction in 2025; it is unknown whether it has opened yet. The best-known hike, to Torrecilla peak (the highest point in Málaga province), is described with conflicting distance figures across sources (roughly 10-14 km round trip depending on the source and starting point) and its permit requirements were not confirmed in this research — only a separate trail (the Yunquera stone-pine/pinsapar loop) was confirmed to need advance online authorization. Dogs-allowed policy and visitor-centre facilities are unverified."
 seo_title: "Sierra de las Nieves National Park, Málaga"
 seo_description: "Sierra de las Nieves national park near Ronda and Tolox: hiking, Torrecilla peak, and what's still unverified before you visit."
 images: []
 evidence:
-  - field: "coordinates"
-    claim: "El Burgo is a village with one of the Sierra de las Nieves park's visitor information offices; used here as a representative point only, not a confirmed park entrance."
-    source_url: https://www.openstreetmap.org/relation/345713
-    source_type: maps_identity
+  - field: "coordinates, visit_information.schedule, links"
+    claim: "The Oficina de Turismo de El Burgo is at C/ Alcalde Eduardo Carbonel Cruz, s/n, El Burgo, phone +34 658 034 452, open Wed-Thu 09:00-15:00, Fri-Sat 10:00-14:00/16:00-18:00, Sun 09:00-13:00, closed Mon-Tue. It is one of 15 municipal tourist offices listed for the Sierra de las Nieves area (Monda, Benahavís, Tolox, Serrato, Parauta, Igualeja, Alozaina, Ronda, Istán, El Burgo, Yunquera, Ojén, Guaro, Casarabonela, and the Mancomunidad's own office in Igualeja), confirming there is no single park entrance."
+    source_url: "https://sierradelasnieves.es/planifica/oficinas-de-turismo/"
+    source_type: official_tourism
     checked_at: 2026-10-15
     checked_by: "fact-check-agent"
-    confidence: low
-    notes: "This is the El Burgo municipal boundary's administrative centroid, not a surveyed point for the information office itself. See area_pin_open review issue: the editor must decide the final anchor point for this protected-area record."
+    confidence: high
+    notes: "Directly fetched from the Mancomunidad de Municipios de la Sierra de las Nieves's own site (sierradelasnieves.es), the municipal association that promotes the park and biosphere reserve. The exact office building was not independently geocodable (no OSM result for the specific street), so coordinates still use El Burgo's village-centre point rather than a surveyed building location; editor to confirm this remains the chosen anchor. See area_pin_open review issue."
   - field: "description_long"
     claim: "Sierra de las Nieves was declared Spain's 16th national park in 2021 and has been a UNESCO Biosphere Reserve since 1995, covering about 23,000 ha across Tolox, El Burgo, Yunquera, Ronda, Parauta and other municipalities."
     source_url: "https://www.miteco.gob.es/ca/ceneam/recursos/pag-web/sierra-nieves-pn.html"
@@ -129,7 +129,7 @@ review_issues:
   - code: area_pin_open
     severity: blocking
     fields: [coordinates]
-    description: "Protected area, not a point: this fact-check used El Burgo (one of several park-information villages) as a stand-in representative point, but the editor must choose and approve the final named visitor point (a specific trailhead or the new Conejeras visitor centre, once confirmed open) per the place-pin rules."
+    description: "Protected area, not a point: sierradelasnieves.es (the municipal association's official site) lists 15 separate tourist offices around the park and no single park entrance. This record uses the Oficina de Turismo de El Burgo (now properly sourced: address, phone, hours) as the anchor, but the editor must confirm this choice — or pick a different municipality's office, or the new Conejeras visitor centre once confirmed open — per the place-pin rules."
     retryable: true
     owner: editor
   - code: trail_facts_unverified
@@ -159,4 +159,4 @@ review_decision: null
 redirects: []
 ---
 
-Fact-checked 2026-10-15: park identity, designation history and a representative (not final) point/driving-time are established; the structural area-pin decision, trail permits/distances, and visitor facilities remain open and are explicitly left for the editor and further fact-check, not guessed. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
+Fact-checked 2026-10-15, updated 2026-10-15 with the Oficina de Turismo de El Burgo's real address, phone and hours from sierradelasnieves.es (the park's own municipal tourism site). The site confirms there is no single park entrance (15 separate tourist offices listed); the editor still needs to confirm El Burgo as the final anchor. Trail permits/distances and visitor facilities remain open and are explicitly left for further fact-check, not guessed. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
