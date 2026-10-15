@@ -9,7 +9,7 @@ tags:
   - Beach
   - Historic town
   - Restaurant
-  - Full day
+  - Overnight
 coordinates:
   latitude: 36.5289521
   longitude: -6.2953183

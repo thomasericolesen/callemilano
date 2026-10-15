@@ -9,7 +9,7 @@ tags:
   - Historic town
   - Museum
   - Restaurant
-  - Full day
+  - Overnight
 coordinates:
   latitude: 37.8790259
   longitude: -4.7794532
@@ -132,12 +132,6 @@ review_issues:
     description: "Only one specific day's opening hours were confirmed via the official site's dynamic schedule tool; a full seasonal/year-round table needs a follow-up check."
     retryable: true
     owner: fact_check
-  - code: overnight_candidate
-    severity: warning
-    fields: [tags, visit_information]
-    description: "Route-checked driving time is now known (135 min / ~2h15m one way); editor to set the duration tag accordingly."
-    retryable: false
-    owner: editorial
   - code: excursion_layer_scope
     severity: warning
     fields: [status]

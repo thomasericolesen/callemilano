@@ -9,7 +9,7 @@ tags:
   - Historic town
   - Viewpoint
   - Restaurant
-  - Half day
+  - Overnight
 coordinates:
   latitude: 36.2527948
   longitude: -5.9635372

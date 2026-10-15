@@ -9,7 +9,7 @@ tags:
   - Historic town
   - Museum
   - Restaurant
-  - Full day
+  - Overnight
 coordinates:
   latitude: 37.3859150
   longitude: -5.9931406
@@ -126,12 +126,6 @@ evidence:
     confidence: medium
     notes: "OSRM public routing engine, driving profile; traffic not modelled. At 176 minutes this is close to the excursion layer's ~4-hour one-way ceiling in round-trip terms and should be reviewed by the editor for framing (day trip vs. overnight)."
 review_issues:
-  - code: overnight_candidate
-    severity: warning
-    fields: [tags, visit_information]
-    description: "Route-checked driving time is now known (176 min / ~2h56m one way); editor to set the duration tag (e.g. Full day vs. an overnight framing) accordingly."
-    retryable: false
-    owner: editorial
   - code: excursion_layer_scope
     severity: warning
     fields: [status]
