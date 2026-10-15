@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-15 — New controlled tag: Overnight
+
+Editor-approved schema change: added `Overnight` to the controlled tag vocabulary in `docs/place-schema.md`, `AGENTS.md`, and `tools/places.py`'s `TAGS` set. `Overnight` replaces `Full day` for a destination whose realistic one-way drive time makes a day trip impractical (e.g. Sevilla, Córdoba in the excursion layer); a record uses one or the other, never both.
+
 ## 2026-10-15 — Non-Spain territory code in the place ID format
 
 Editor-approved schema change: `docs/place-schema.md`'s `id` format now documents the leading segment as the place's own country/territory code (`ES` for Spain, or another appropriate code — e.g. `GI` for Gibraltar, a British Overseas Territory — for a place outside Spain), with a shorter `{TERRITORY}-{PLACE}-{NNN}` form for a territory without Spain's region/province structure.

@@ -43,7 +43,7 @@ Every place has exactly one primary category: `Restaurants`, `Beaches`, `Excursi
 
 Use only schema-controlled values for tags, age groups, family scores, energy, seasonality, booking, accessibility, parking, and cost. Age groups are `Small children (0-6)`, `Children (7-12)`, `Young adults`, `Seniors`; ratings are separate `family_score` values. Do not substitute informal groups such as “toddlers,” “teens,” or “all ages.”
 
-Tags are: `Beach`, `Restaurant`, `Nature`, `Hiking`, `Viewpoint`, `Historic town`, `Museum`, `Adventure`, `Rainy day`, `Half day`, `Full day`, `Free`, `Premium`. Energy is exactly `Low`, `Medium`, or `High`. Seasons are `Spring`, `Summer`, `Autumn`, `Winter`, or `All year`.
+Tags are: `Beach`, `Restaurant`, `Nature`, `Hiking`, `Viewpoint`, `Historic town`, `Museum`, `Adventure`, `Rainy day`, `Half day`, `Full day`, `Overnight`, `Free`, `Premium`. `Overnight` replaces `Full day` for a destination whose realistic one-way drive time makes a day trip impractical. Energy is exactly `Low`, `Medium`, or `High`. Seasons are `Spring`, `Summer`, `Autumn`, `Winter`, or `All year`.
 
 Only the human editor-of-record may approve changes to categories, tags, enums, or the schema. Record approved changes in `docs/change-log.md` and update all relevant documentation and records together. Do not introduce synonyms or new values locally.
 
