@@ -42,6 +42,7 @@ family_score:
 energy_level: Low
 seasonality:
   - Summer
+  - Autumn
 accessibility:
   overall: unknown
   mobility:

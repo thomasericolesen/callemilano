@@ -46,6 +46,7 @@ seasonality:
   - Summer
   - Autumn
   - Winter
+  - All year
 accessibility:
   overall: unknown
   mobility:

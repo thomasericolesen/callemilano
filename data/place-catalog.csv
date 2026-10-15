@@ -16,12 +16,12 @@ GI-GIBRALTAR-001,gibraltar,Gibraltar,needs_editorial_review,City,Nature; Viewpoi
 ES-AND-CAD-TARIFA-001,tarifa,Tarifa,needs_fact_check,City,Beach; Restaurant; Full day,Tarifa,Cádiz,36.0116776,-5.6028099,102.5,no,116 min,docs/places/tarifa.md
 ES-AND-CAD-BAELO-CLAUDIA-001,baelo-claudia,Baelo Claudia,needs_fact_check,Family activities,Museum,Tarifa,Cádiz,36.088226,-5.7718134,111.1,no,,docs/places/baelo-claudia.md
 ES-AND-GRA-GRANADA-001,granada,Granada,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Granada,Granada,37.1760548,-3.5881101,119.2,no,124 min,docs/places/granada.md
-ES-AND-CAD-VEJER-DE-LA-FRONTERA-001,vejer-de-la-frontera,Vejer de la Frontera,needs_fact_check,City,Historic town; Viewpoint; Restaurant; Half day,Vejer de la Frontera,Cádiz,36.2527948,-5.9635372,120.6,no,153 min,docs/places/vejer-de-la-frontera.md
+ES-AND-CAD-VEJER-DE-LA-FRONTERA-001,vejer-de-la-frontera,Vejer de la Frontera,needs_fact_check,City,Historic town; Viewpoint; Restaurant; Overnight,Vejer de la Frontera,Cádiz,36.2527948,-5.9635372,120.6,no,153 min,docs/places/vejer-de-la-frontera.md
 ES-AND-GRA-LAS-ALPUJARRAS-001,las-alpujarras,Las Alpujarras,needs_editorial_review,Nature,Nature; Hiking; Historic town; Full day,Pampaneira,Granada,36.9399641,-3.3615455,124.4,no,140 min,docs/places/las-alpujarras.md
 ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001,jerez-de-la-frontera,Jerez de la Frontera,needs_fact_check,City,Historic town; Museum; Restaurant; Full day,Jerez de la Frontera,Cádiz,36.6800427,-6.1396239,132.8,no,154 min,docs/places/jerez-de-la-frontera.md
-ES-AND-CAD-CADIZ-001,cadiz,Cádiz,needs_editorial_review,City,Beach; Historic town; Restaurant; Full day,Cádiz,Cádiz,36.5289521,-6.2953183,145.9,no,160 min,docs/places/cadiz.md
-ES-AND-COR-CORDOBA-001,cordoba,Córdoba,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Córdoba,Córdoba,37.8790259,-4.7794532,149.7,no,135 min,docs/places/cordoba.md
-ES-AND-SEV-SEVILLA-001,sevilla,Sevilla,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Sevilla,Sevilla,37.385915,-5.9931406,151.4,no,176 min,docs/places/sevilla.md
+ES-AND-CAD-CADIZ-001,cadiz,Cádiz,needs_editorial_review,City,Beach; Historic town; Restaurant; Overnight,Cádiz,Cádiz,36.5289521,-6.2953183,145.9,no,160 min,docs/places/cadiz.md
+ES-AND-COR-CORDOBA-001,cordoba,Córdoba,needs_editorial_review,City,Historic town; Museum; Restaurant; Overnight,Córdoba,Córdoba,37.8790259,-4.7794532,149.7,no,135 min,docs/places/cordoba.md
+ES-AND-SEV-SEVILLA-001,sevilla,Sevilla,needs_editorial_review,City,Historic town; Museum; Restaurant; Overnight,Sevilla,Sevilla,37.385915,-5.9931406,151.4,no,176 min,docs/places/sevilla.md
 ES-CLM-ALB-ALCALA-DEL-JUCAR-001,alcala-del-jucar,Alcalá del Júcar,needs_fact_check,City,Historic town; Viewpoint,Alcalá del Júcar,Albacete,,,,,,docs/places/alcala-del-jucar.md
 ES-CYL-SEG-ALCAZAR-DE-SEGOVIA-001,alcazar-de-segovia,Alcázar de Segovia,needs_fact_check,Family activities,Museum; Viewpoint,Segovia,Segovia,,,,,,docs/places/alcazar-de-segovia.md
 ES-AND-HUE-ARACENA-001,aracena,Aracena,needs_fact_check,City,Historic town,Aracena,Huelva,,,,,,docs/places/aracena.md
