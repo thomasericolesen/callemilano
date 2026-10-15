@@ -31,12 +31,15 @@ driving_time_from_casa_de_la_familia:
   checked_at: 2026-10-15
   note: "Route-checked one-way via OSRM (driving profile), ~111.8 km, to Casemates Square just past the border; actual driving time to and across the border itself can vary substantially with queues (see parking/border notes below)."
 age_groups:
+  - Small children (0-6)
+  - Children (7-12)
   - Young adults
+  - Seniors
 family_score:
-  small_children: unknown
-  children: unknown
+  small_children: medium
+  children: high
   young_adults: high
-  seniors: unknown
+  seniors: medium
 energy_level: Medium
 seasonality:
   - Spring
@@ -154,12 +157,6 @@ review_issues:
     description: "Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry."
     retryable: true
     owner: editor
-  - code: family_ratings_estimated
-    severity: warning
-    fields: [age_groups, family_score, energy_level, seasonality, tags]
-    description: "Audience ratings, energy, season and duration tag are provisional editorial estimates for young adults; other age groups left unknown. Assess before approval."
-    retryable: true
-    owner: editorial
   - code: visitor_facilities_unverified
     severity: warning
     fields: [accessibility, wheelchair_friendly, dog_friendly, toilets_available, food_available, booking_required]
@@ -169,7 +166,7 @@ review_issues:
 created_at: 2026-10-15
 updated_at: 2026-10-15
 last_verified: 2026-10-15
-last_reviewed_at: null
+last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15
 review_decision: null
 redirects: []

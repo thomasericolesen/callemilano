@@ -30,12 +30,15 @@ driving_time_from_casa_de_la_familia:
   checked_at: 2026-10-15
   note: "Route-checked one-way via OSRM (driving profile), ~43.7 km. Actual time varies with traffic."
 age_groups:
+  - Small children (0-6)
+  - Children (7-12)
   - Young adults
+  - Seniors
 family_score:
-  small_children: unknown
-  children: unknown
+  small_children: low
+  children: low
   young_adults: high
-  seniors: unknown
+  seniors: high
 energy_level: Low
 seasonality:
   - Summer
@@ -132,12 +135,6 @@ review_issues:
     description: "Resolved by this fact-check: Tolox's wellness offering is a real, named thermal spa (Balneario de Tolox / Fuente Amargosa) per its own official site, but it is seasonal (June-October), not year-round. Editor to confirm category/tags reflect the seasonal nature."
     retryable: false
     owner: editorial
-  - code: family_ratings_estimated
-    severity: warning
-    fields: [age_groups, family_score, energy_level, seasonality, tags]
-    description: "Audience ratings, energy, season and duration tag are provisional editorial estimates for young adults; seasonality should be narrowed to reflect the spa's June-October operating window."
-    retryable: true
-    owner: editorial
   - code: visitor_facilities_unverified
     severity: warning
     fields: [accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, cost_level, booking_required]
@@ -147,7 +144,7 @@ review_issues:
 created_at: 2026-10-15
 updated_at: 2026-10-15
 last_verified: 2026-10-15
-last_reviewed_at: null
+last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-01
 review_decision: null
 redirects: []

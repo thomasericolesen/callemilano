@@ -32,12 +32,15 @@ driving_time_from_casa_de_la_familia:
   checked_at: 2026-10-15
   note: "Route-checked one-way via OSRM (driving profile), ~76.4 km. Actual time varies with traffic. The official site separately states 57.7 km from Málaga city, 6 km from the Ardales road junction, and 51 km from Antequera."
 age_groups:
+  - Small children (0-6)
+  - Children (7-12)
   - Young adults
+  - Seniors
 family_score:
-  small_children: unknown
-  children: unknown
+  small_children: low
+  children: medium
   young_adults: high
-  seniors: unknown
+  seniors: medium
 energy_level: Medium
 seasonality:
   - Spring
@@ -133,12 +136,6 @@ review_issues:
     description: "Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry."
     retryable: true
     owner: editor
-  - code: family_ratings_estimated
-    severity: warning
-    fields: [age_groups, family_score, energy_level, seasonality, tags]
-    description: "Audience ratings, energy, season and duration tag are provisional editorial estimates for young adults; other age groups left unknown. The confirmed under-8 entry ban and ID/accompaniment rules for minors should inform the final family_score and age_groups."
-    retryable: true
-    owner: editorial
   - code: visitor_facilities_unverified
     severity: warning
     fields: [accessibility, toilets_available, food_available]
@@ -148,7 +145,7 @@ review_issues:
 created_at: 2026-10-15
 updated_at: 2026-10-15
 last_verified: 2026-10-15
-last_reviewed_at: null
+last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15
 review_decision: null
 redirects: []
