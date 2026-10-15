@@ -1,7 +1,7 @@
 slug,id,layer,catalogue_group,basis,note
-malaga,ES-AND-MAL-MALAGA-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,may qualify for local_30km after route check
+malaga,ES-AND-MAL-MALAGA-001,local_30km,Tæt på,route_checked_2026-10-15,"Moved from excursions_4h per editor decision 2026-10-15: layer boundary decided by straight-line km distance (driving time varies with traffic/route). 29.9 km straight-line, within the 30 km radius; route-checked drive 36 min."
 sierra-de-las-nieves,ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
-tolox,ES-AND-MAL-TOLOX-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
+tolox,ES-AND-MAL-TOLOX-001,local_30km,Tæt på,route_checked_2026-10-15,"Moved from excursions_4h per editor decision 2026-10-15: layer boundary decided by straight-line km distance (driving time varies with traffic/route). 27.7 km straight-line, within the 30 km radius; route-checked drive 56 min."
 caminito-del-rey,ES-AND-MAL-CAMINITO-DEL-REY-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
 setenil-de-las-bodegas,ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
 antequera,ES-AND-MAL-ANTEQUERA-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,

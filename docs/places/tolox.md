@@ -132,12 +132,6 @@ review_issues:
     description: "Resolved by this fact-check: Tolox's wellness offering is a real, named thermal spa (Balneario de Tolox / Fuente Amargosa) per its own official site, but it is seasonal (June-October), not year-round. Editor to confirm category/tags reflect the seasonal nature."
     retryable: false
     owner: editorial
-  - code: excursion_layer_scope
-    severity: warning
-    fields: [status]
-    description: "Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry."
-    retryable: true
-    owner: editor
   - code: family_ratings_estimated
     severity: warning
     fields: [age_groups, family_score, energy_level, seasonality, tags]
@@ -150,12 +144,6 @@ review_issues:
     description: "Daily hours, current treatment prices, day-visitor access, parking and accessibility remain unverified."
     retryable: true
     owner: fact_check
-  - code: layer_boundary_open
-    severity: warning
-    fields: [driving_time_from_casa_de_la_familia]
-    description: "Tolox is within the 30 km primary-area straight-line radius (27.7 km per the generated catalog) with a route-checked one-way drive of only 56 minutes; editor to decide whether this record should move to the primary layer rather than excursions_4h."
-    retryable: false
-    owner: editorial
 created_at: 2026-10-15
 updated_at: 2026-10-15
 last_verified: 2026-10-15

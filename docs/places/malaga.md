@@ -124,18 +124,6 @@ evidence:
     confidence: medium
     notes: "OSRM public routing engine (router.project-osrm.org), driving profile; a real routed calculation rather than an estimate, but traffic conditions are not modelled. Treat as indicative; recommend re-checking with live traffic conditions before publication."
 review_issues:
-  - code: layer_boundary_open
-    severity: warning
-    fields: [driving_time_from_casa_de_la_familia]
-    description: "Málaga city lies just beyond 30 km straight-line but the route-checked one-way drive is now measured at ~36 minutes (37.6 km); editor to decide whether this record should move to the primary 30 km layer rather than excursions_4h."
-    retryable: false
-    owner: editorial
-  - code: excursion_layer_scope
-    severity: warning
-    fields: [status]
-    description: "Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry."
-    retryable: true
-    owner: editor
   - code: family_ratings_estimated
     severity: warning
     fields: [age_groups, family_score, energy_level, seasonality, tags]

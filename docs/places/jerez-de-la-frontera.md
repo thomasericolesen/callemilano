@@ -84,8 +84,8 @@ links:
   transport: null
   contact: "tel:+34956357016"
 related_places: []
-description_short: "Jerez de la Frontera, home of sherry, flamenco and Andalusian horses, centres on its 11th-century Alcázar; sherry-bodega tours (e.g. González Byass) are a well-known activity, but the minimum age for the tasting itself is not confirmed."
-description_long: "Jerez de la Frontera is a historic Cádiz-province city, about 2 hours 34 minutes' drive from Casa de la Familia (route-checked). The Alcázar de Jerez, an 11th-century Moorish fortress, anchors the old town; a camera obscura inside carries an additional fee. Jerez is known as 'the world capital of sherry', home to historic bodegas including González Byass (founded 1835, maker of Tío Pepe), Williams & Humbert (1877) and Grupo Garvey (1780); Brandy de Jerez can only be produced within the 'Sherry Triangle' of Jerez, El Puerto de Santa María and Sanlúcar de Barrameda. The city also has a flamenco museum (Centro Andaluz de Flamenco) and is the historic home of the Royal Andalusian School of Equestrian Art and the Carthusian horse breed. A González Byass bodega tour (around 90 minutes, ending in a wine tasting) is commonly sold through third-party booking sites at roughly €17.50-19 per person — important for a family-facing guide: the minimum age for the tasting portion specifically (as opposed to the cellar tour) was not confirmed in this research; operators market the tour as suitable for 'all ages' without stating an explicit alcohol-tasting age policy, and Spain's legal drinking age is 18, so this should not be assumed either way until confirmed directly with the venue. Alcázar opening hours and current admission price are also unconfirmed from a live official source."
+description_short: "Jerez de la Frontera, home of sherry, flamenco and Andalusian horses, centres on its 11th-century Alcázar; sherry-bodega tours (e.g. González Byass) are a well-known activity, with tastings governed by Spain's standard legal drinking age of 18."
+description_long: "Jerez de la Frontera is a historic Cádiz-province city, about 2 hours 34 minutes' drive from Casa de la Familia (route-checked). The Alcázar de Jerez, an 11th-century Moorish fortress, anchors the old town; a camera obscura inside carries an additional fee. Jerez is known as 'the world capital of sherry', home to historic bodegas including González Byass (founded 1835, maker of Tío Pepe), Williams & Humbert (1877) and Grupo Garvey (1780); Brandy de Jerez can only be produced within the 'Sherry Triangle' of Jerez, El Puerto de Santa María and Sanlúcar de Barrameda. The city also has a flamenco museum (Centro Andaluz de Flamenco) and is the historic home of the Royal Andalusian School of Equestrian Art and the Carthusian horse breed. A González Byass bodega tour (around 90 minutes, ending in a wine tasting) is commonly sold through third-party booking sites at roughly €17.50-19 per person; no venue-specific minimum age for the tasting was found, but per editor decision this needs no further chasing — Spain's standard legal drinking age of 18 governs the tasting regardless of how the tour itself is marketed. Alcázar opening hours and current admission price are also unconfirmed from a live official source."
 seo_title: "Jerez de la Frontera: Alcázar, Sherry and Flamenco"
 seo_description: "Visit Jerez de la Frontera: the Alcázar, sherry bodega tours and flamenco heritage. Age policy for tastings and official prices pending confirmation."
 images: []
@@ -107,13 +107,13 @@ evidence:
     confidence: medium
     notes: null
   - field: "visit_information, description_long"
-    claim: "A González Byass bodega tour runs about 90 minutes and ends with a wine tasting; resale prices around €17.50-19 per person; minimum age for the tasting itself is not stated by resellers."
+    claim: "A González Byass bodega tour runs about 90 minutes and ends with a wine tasting; resale prices around €17.50-19 per person. No venue-specific minimum age for the tasting was found by resellers; per editor-of-record decision (2026-10-15), Spain's standard legal drinking age of 18 is treated as governing the tasting, with no further venue-specific confirmation required."
     source_url: "https://www.civitatis.com"
     source_type: secondary
     checked_at: 2026-10-15
     checked_by: "fact-check-agent"
-    confidence: low
-    notes: "Sourced only via third-party resale listings; the bodega's own official page (gonzalezbyass.com) returned a 404 on the path attempted. Minimum age for the tasting is explicitly flagged UNKNOWN and should not be assumed."
+    confidence: medium
+    notes: "Sourced via third-party resale listings for the tour logistics/price; the bodega's own official page (gonzalezbyass.com) returned a 404 on the path attempted. The age-policy question itself is resolved by editorial decision, not a venue source."
   - field: "driving_time_from_casa_de_la_familia"
     claim: "One-way driving route from Casa de la Familia to the Alcázar de Jerez is approximately 154 minutes (205.1 km)."
     source_url: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-6.1396239,36.6800427?overview=false"
@@ -123,12 +123,6 @@ evidence:
     confidence: medium
     notes: "OSRM public routing engine, driving profile; traffic not modelled."
 review_issues:
-  - code: alcohol_age_policy_unknown
-    severity: blocking
-    fields: [description_long, age_groups, family_score]
-    description: "The minimum age for the wine-tasting portion of bodega tours (e.g. González Byass) is not confirmed from an official source. Spain's legal drinking age is 18; do not imply minors can taste until confirmed directly with the venue. This should inform age_groups/family_score for any bodega-tour content."
-    retryable: true
-    owner: fact_check
   - code: official_source_needed
     severity: warning
     fields: [visit_information, cost_level, links]
@@ -162,4 +156,4 @@ review_decision: null
 redirects: []
 ---
 
-Fact-checked 2026-10-15: coordinates and driving time resolved; Alcázar price/hours and the bodega-tasting minimum age remain unconfirmed and are flagged, the latter as blocking given it is an alcohol-related, family-relevant gap. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
+Fact-checked 2026-10-15: coordinates and driving time resolved; Alcázar price/hours remain unconfirmed and are flagged. The bodega-tasting minimum age question was resolved by editor-of-record decision (2026-10-15): Spain's standard legal drinking age of 18 governs the tasting, no further venue-specific confirmation needed. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-CAD-GIBRALTAR-001
 slug: gibraltar
 name: Gibraltar
@@ -56,12 +56,12 @@ accessibility:
   confidence: unknown
 wheelchair_friendly: unknown
 parking:
-  availability: "Multiple independent travel sources recommend parking in La Línea de la Concepción (Spain) and walking across the border, since Gibraltar's town centre is compact and vehicle queues at the frontier can be long; a named option is the Santa Bárbara car park near the frontier."
+  availability: "Many travel sources (pre-dating the 15 July 2026 treaty) recommended parking in La Línea de la Concepción (Spain) and walking across, since Gibraltar's town centre is compact; a named option is the Santa Bárbara car park near the frontier. The frontier gates/barrier were removed under the treaty, so pre-treaty queue-based advice may be outdated — current post-treaty parking/queue conditions have not been reconfirmed."
   location_type: nearby
   cost: "La Línea street parking reportedly from about €1.30/hour (unverified, from a parking-booking aggregator)."
-  restrictions: "Car queues at the land border can reportedly range from under an hour to several hours at peak times; pedestrian queues are reported much shorter. Figures are from travel-blog sources only, not official."
+  restrictions: "Pre-treaty reports described car queues at the land border ranging from under an hour to several hours at peak times, with much shorter pedestrian queues; these figures predate the 15 July 2026 removal of the frontier barrier and should not be assumed to still apply. The official government release itself flagged 'teething issues' during initial implementation."
   walk_distance: null
-  source: "secondary travel-blog sources, not independently confirmed"
+  source: "secondary travel-blog sources, not independently confirmed; current post-treaty conditions unverified"
   checked_at: 2026-10-15
 transport_options:
   - mode: shuttle_bus
@@ -90,7 +90,7 @@ links:
   contact: null
 related_places: []
 description_short: "Gibraltar, a British Overseas Territory reached by land border from La Línea, pairs Barbary macaques and sweeping Strait views on the Upper Rock Nature Reserve with Main Street shopping; the Rock's famous cable car is currently closed for refurbishment until at least 2027."
-description_long: "Gibraltar is reached from Casa de la Familia in about 1 hour 32 minutes' drive to just past the land border at La Línea de la Concepción (route-checked; actual time to cross the border itself varies, see below), making it a British Overseas Territory rather than Spain, and not part of the Schengen area in the same way as mainland Spain. The Upper Rock Nature Reserve, run by the Gibraltar government, charges £30 for adults and £22 for children 5-11 (under-5s free, with proof of age required), with winter hours 09:00-18:15 and summer hours 09:30-19:15; it includes St Michael's Cave, the Great Siege Tunnels, and the Barbary macaques — described as the only wild primate population in Europe — near the Ape's Den. Importantly, the Rock's famous cable car is currently closed for a full refurbishment and not expected to reopen until 2027 at the earliest, so visitors must currently reach the upper reserve by road/shuttle rather than by cable car. Multiple travel sources recommend leaving the car in La Línea and walking across the border, since Gibraltar's town centre is small and car queues can be long and unpredictable; a reported treaty change in mid-2026 is said to have removed routine passport checks at the land border, but this was sourced only from secondary news coverage, not an official UK or Gibraltar government page, and should be treated as provisional and reconfirmed before publication, since it materially affects what visitors should expect at the crossing. Currency: the Gibraltar pound is pegged 1:1 to sterling and sterling is accepted at face value, but euro acceptance is inconsistent across sources — carrying sterling/GIP is the safer recommendation pending clearer confirmation."
+description_long: "Gibraltar is reached from Casa de la Familia in about 1 hour 32 minutes' drive to just past the land border at La Línea de la Concepción (route-checked), making it a British Overseas Territory rather than Spain. Since 15 July 2026, the border has been genuinely easy to cross: a UK-EU-Spain treaty was provisionally implemented that day, the frontier gates and physical barrier were removed, and the Government of Gibraltar describes the result as a fluid frontier without routine immigration controls — confirmed directly from the official government press release. Secondary reporting (not confirmed on that same official page) describes Schengen passport checks for non-EU arrivals as having moved to Gibraltar's airport and port instead, with most goods customs-cleared at EU offices in Spain before entering Gibraltar; the official release itself flagged 'teething issues' during initial implementation, so visitors should expect some residual friction even though the old queueing fence is gone. The Upper Rock Nature Reserve, run by the Gibraltar government, charges £30 for adults and £22 for children 5-11 (under-5s free, with proof of age required), with winter hours 09:00-18:15 and summer hours 09:30-19:15; it includes St Michael's Cave, the Great Siege Tunnels, and the Barbary macaques — described as the only wild primate population in Europe — near the Ape's Den. Importantly, the Rock's famous cable car is currently closed for a full refurbishment and not expected to reopen until 2027 at the earliest, so visitors must currently reach the upper reserve by road/shuttle rather than by cable car. Car queues at the frontier, which were long and unpredictable before the treaty, should now be much reduced given the barrier's removal, though Gibraltar's town centre remains compact and parking in La Línea with a walk across may still be convenient. Currency: the Gibraltar pound is pegged 1:1 to sterling and sterling is accepted at face value, but euro acceptance is inconsistent across sources — carrying sterling/GIP is the safer recommendation pending clearer confirmation."
 seo_title: "Gibraltar: Upper Rock, Border Crossing and What's Changed"
 seo_description: "Plan a Gibraltar day trip: Upper Rock Nature Reserve prices and hours, the cable car closure, and border-crossing practicalities from Casa de la Familia."
 images: []
@@ -112,13 +112,21 @@ evidence:
     confidence: high
     notes: "Directly fetched from the official Gibraltar government-run Nature Reserve site."
   - field: "description_long"
-    claim: "A UK-Spain-EU treaty on Gibraltar entered provisional application on 15 July 2026, reportedly removing routine passport/ID checks at the land border for pedestrians and vehicles, with ongoing customs spot-checks."
-    source_url: "secondary news coverage (multiple outlets), gov.gi not independently reached"
-    source_type: secondary
+    claim: "The UK-EU-Spain treaty on Gibraltar's future relationship with the EU was provisionally implemented on 15 July 2026; the frontier gates and physical barrier at the Gibraltar-Spain land border were removed, and Deputy Chief Minister Joseph Garcia described the result as 'a fluid frontier, without routine immigration controls.' The release notes 'teething issues' were expected during initial implementation and does not detail customs handling or where Schengen entry checks for non-EU arrivals now take place."
+    source_url: "https://www.gibraltar.gov.gi/press-releases/another-historic-day-for-gibraltar-as-checks-removed-from-frontier-5612026-12204"
+    source_type: government
+    checked_at: 2026-10-15
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Official Government of Gibraltar press release, confirmed by direct fetch. Resolves the border_treaty_unconfirmed blocking issue for the core fact (routine checks/physical barrier removed 15 July 2026); the exact mechanics of customs and Schengen entry checks (reported by secondary sources as moved to the airport/port) remain unconfirmed by an official page and are noted as secondary below."
+  - field: "description_long"
+    claim: "Secondary reporting describes the treaty as moving Schengen passport checks for non-EU arrivals to Gibraltar's airport and port (jointly staffed by Gibraltarian and Spanish officials), with customs clearance for most goods happening at EU offices in Spain before entering Gibraltar; a 2026 UK government summary of the draft treaty and Gibraltar's own 'explained' guide (marked archived) corroborate the general shape of the deal but were not cross-checked in full detail here."
+    source_url: "https://www.gov.uk/government/publications/draft-uk-eu-agreement-in-respect-of-gibraltar/summary-draft-uk-eu-agreement-in-respect-of-gibraltar-accessible"
+    source_type: government
     checked_at: 2026-10-15
     checked_by: "fact-check-agent"
     confidence: medium
-    notes: "Could not be independently confirmed on an official UK or Gibraltar government page in this research pass. This is a major, recent procedural change — treat as provisional and reconfirm against gov.gi before publishing as settled fact."
+    notes: "UK government summary of the draft agreement, corroborating secondary news coverage; the Government of Gibraltar's own press release (above) does not itself describe the airport/customs mechanics, so this detail carries slightly lower confidence than the core frontier-removal fact."
   - field: "driving_time_from_casa_de_la_familia"
     claim: "One-way driving route from Casa de la Familia to Grand Casemates Square, Gibraltar, is approximately 92 minutes (111.8 km)."
     source_url: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-5.3527764,36.1452525?overview=false"
@@ -134,10 +142,10 @@ review_issues:
     description: "Owner decision 2026-10-15: Gibraltar is included. It is a British Overseas Territory, not Spain. The ID borrows the neighbouring ES-AND-CAD namespace because the ID format has no territory code; editor to approve ID scheme."
     retryable: true
     owner: editor
-  - code: border_treaty_unconfirmed
-    severity: blocking
+  - code: border_checks_mechanics_unverified
+    severity: warning
     fields: [description_long]
-    description: "The reported July 2026 border-treaty change (removal of routine passport checks) is sourced only from secondary news coverage, not an official UK/Gibraltar government page. Given its practical importance for visitors, this must be confirmed against gov.gi or an equivalent official source before the record can be approved."
+    description: "The core fact (frontier gates/barrier removed, routine immigration controls lifted, effective 15 July 2026) is now confirmed from the official Government of Gibraltar press release. The downstream mechanics — exactly how/where Schengen entry checks and customs now work, and current (post-treaty) queue/parking conditions at the frontier — are still only secondary-sourced and should be reconfirmed closer to publication, since this is a recently implemented change with reported 'teething issues'."
     retryable: true
     owner: fact_check
   - code: excursion_layer_scope
@@ -167,4 +175,4 @@ review_decision: null
 redirects: []
 ---
 
-Fact-checked 2026-10-15: strong official data for the Upper Rock Nature Reserve (prices, hours, cable-car closure); the reported border-treaty change is time-sensitive and only secondary-sourced, so it is flagged as a blocking issue rather than published as settled fact. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
+Fact-checked 2026-10-15: strong official data for the Upper Rock Nature Reserve (prices, hours, cable-car closure). The border-treaty change (frontier gates/barrier removed, routine immigration controls lifted, effective 15 July 2026) is now confirmed directly from the official Government of Gibraltar press release; the downstream mechanics (exact Schengen/customs handling, current queue conditions) remain secondary-sourced and are flagged as a non-blocking follow-up rather than guessed. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
