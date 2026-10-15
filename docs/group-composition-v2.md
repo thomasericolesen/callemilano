@@ -27,13 +27,14 @@ For each destination, calculate the group suitability estimate as the member-cou
 ```text
 party_suitability =
   (children × children_score
-   + teenagers × teen_score
-   + adults × adult_score
+   + (teenagers + adults) × young_adult_score
    + seniors × senior_score)
   / total_group_size
 ```
 
 This is on the existing 0–5 suitability scale. A cohort with zero members contributes zero. A larger cohort has proportionally more influence. If the group size is zero or any required suitability estimate is missing, do not present the result as a complete group-fit calculation; flag the destination for review.
+
+**2026-10-15 schema change.** The destination schema merged the separate `teen_score` and `adult_score` columns into one `young_adult_score` (editor-approved; see `docs/schema-change-proposal-young-adults.md`). Teenagers and adults remain separate *inputs* here — the questionnaire still collects their counts separately, and persona derivation below still treats a teenager as a "minor" and an adult as not — but there is no longer a destination field that scores them differently. A teenager and an adult now contribute an identical per-person term to `party_suitability`, so their counts are combined into one `(teenagers + adults)` weight on the single `young_adult_score`. This is not the max-rule merge used elsewhere in the migration (there is nothing left to take a max of): it falls directly out of the weighted-average structure once only one suitability column remains. One consequence worth flagging: for a party with no children and no seniors (e.g. Example 2 below), `party_suitability` now reduces to exactly `young_adult_score` regardless of the adult/teenager split — the formula can no longer reflect a different mix of adults versus teenagers within that group, because the underlying data no longer does either.
 
 ### Preserve the existing recommendation formula
 
@@ -41,8 +42,7 @@ Derive an existing persona from composition as described below. Keep that person
 
 ```text
 age_weight = children_suitability_weight
-           + teen_suitability_weight
-           + adult_suitability_weight
+           + young_adult_suitability_weight
            + senior_suitability_weight
 
 group_age_contribution = age_weight × party_suitability / 5
@@ -54,8 +54,8 @@ Use `group_age_contribution` in place of the persona’s separate age contributi
 
 | Input | Destination data used | Exact effect on ranking |
 |---|---|---|
-| Adults count | `adult_score` | Each adult contributes one `adult_score` term to `party_suitability`. More adults increase the share of group fit determined by adult suitability. |
-| Teenagers count | `teen_score` | Each teenager contributes one `teen_score` term. More teenagers increase the share determined by teen suitability. |
+| Adults count | `young_adult_score` | Each adult contributes one `young_adult_score` term to `party_suitability`. The destination schema no longer has a separate adult suitability column; adults and teenagers draw on this one score (see the 2026-10-15 schema change note above). More adults, combined with teenagers, increase the share of group fit determined by young-adult suitability. |
+| Teenagers count | `young_adult_score` | Each teenager contributes one `young_adult_score` term — the same column used for adults, since teenager and adult suitability were merged. More teenagers, combined with adults, increase the share of group fit determined by young-adult suitability. |
 | Children count | `children_score` | Each child, whether under 6 or 6–12, contributes one `children_score` term. The current data cannot distinguish the two child bands. |
 | Seniors count | `senior_score` | Each senior aged 70+ contributes one `senior_score` term. More seniors increase the share determined by senior suitability. |
 | Reduced mobility: no | None | No mobility filter or adjustment is applied. Use the existing recommendation formula. |
@@ -85,32 +85,33 @@ The examples show the derived demographic persona and the exact suitability calc
 Assume both children are under 13. Derive **Family with young children**. For every destination:
 
 ```text
-party_suitability = (2 × adult_score + 2 × children_score) / 4
-                  = (adult_score + children_score) / 2
+party_suitability = (2 × young_adult_score + 2 × children_score) / 4
+                  = (young_adult_score + children_score) / 2
 ```
 
-The children and adult suitability estimates each account for half of this group-fit average. Under-6 and ages 6–12 children use the same existing `children_score`.
+The children and young-adult suitability estimates each account for half of this group-fit average. Under-6 and ages 6–12 children use the same existing `children_score`.
 
 ### 2. Two adults + three teenagers
 
 Derive **Family with teenagers**. For every destination:
 
 ```text
-party_suitability = (2 × adult_score + 3 × teen_score) / 5
+party_suitability = ((2 + 3) × young_adult_score) / 5
+                  = young_adult_score
 ```
 
-Teen suitability accounts for three fifths of the group-fit average and adult suitability for two fifths. The persona’s existing non-age preferences remain in use.
+Because adult and teenager suitability are now the same `young_adult_score` column, this group's suitability equals that score outright, with no split between the two bands — the 2/5 vs. 3/5 weighting that existed before the schema merge no longer applies, since there is only one suitability value to weight. The persona’s existing non-age preferences (drive, duration, weather, season, tags) remain in use and still differ by composition elsewhere in the formula.
 
 ### 3. Four adults + two seniors
 
 Derive **Active retired couple** as the closest available persona, with a visible caveat that this is a six-person adult/senior group, not necessarily a retired couple. For every destination:
 
 ```text
-party_suitability = (4 × adult_score + 2 × senior_score) / 6
-                  = (2 × adult_score + senior_score) / 3
+party_suitability = (4 × young_adult_score + 2 × senior_score) / 6
+                  = (2 × young_adult_score + senior_score) / 3
 ```
 
-Adult suitability accounts for two thirds of the group-fit average and senior suitability for one third. The derivation must not claim retirement or activity from age alone.
+Young-adult suitability accounts for two thirds of the group-fit average and senior suitability for one third. The derivation must not claim retirement or activity from age alone.
 
 ### 4. Three-generation family group
 
@@ -118,10 +119,10 @@ Example composition: two adults, one teenager, two children aged 0–12, and one
 
 ```text
 party_suitability =
-  (2 × adult_score + 1 × teen_score + 2 × children_score + 1 × senior_score) / 6
+  ((2 + 1) × young_adult_score + 2 × children_score + 1 × senior_score) / 6
 ```
 
-Adults and children each account for two sixths of the group-fit average; teenagers and seniors each account for one sixth. All represented generations affect suitability in proportion to group size.
+The combined adult-and-teenager group accounts for three sixths of the group-fit average (drawing on the single `young_adult_score`, since the two bands no longer have separate suitability data); children account for two sixths and seniors for one sixth. All represented generations still affect suitability in proportion to group size, but adults and teenagers no longer affect it differently from each other.
 
 ## Reduced-mobility handling
 
