@@ -32,13 +32,11 @@ driving_time_from_casa_de_la_familia:
   checked_at: 2026-10-15
   note: "Route-checked one-way via OSRM (driving profile), ~76.4 km. Actual time varies with traffic. The official site separately states 57.7 km from Málaga city, 6 km from the Ardales road junction, and 51 km from Antequera."
 age_groups:
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
 family_score:
   small_children: unknown
   children: unknown
-  teenagers: high
-  adults: high
+  young_adults: high
   seniors: unknown
 energy_level: Medium
 seasonality:

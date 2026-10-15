@@ -31,13 +31,11 @@ driving_time_from_casa_de_la_familia:
   checked_at: 2026-10-15
   note: "Route-checked one-way via OSRM (driving profile), ~238.7 km — the longest drive of all 17 excursion-layer candidates in this batch. Best treated as a long day trip or overnight stay, not a casual outing."
 age_groups:
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
 family_score:
   small_children: unknown
   children: unknown
-  teenagers: high
-  adults: high
+  young_adults: high
   seniors: unknown
 energy_level: Medium
 seasonality:

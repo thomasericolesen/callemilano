@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-15 — Young adults migration
+
+Editor-approved schema change: age groups `Teenagers (13-17)` and `Adults` merged into `Young adults`; `family_score` keys `teenagers` and `adults` merged into `young_adults` (rule: max; `unknown` if either input is unknown). Updated: all `docs/places/*.md`, `tools/places.py` constants, `data/personas.csv` (weights summed), `AGENTS.md`, `docs/place-schema.md`. Analytical datasets and the engine spec are not migrated; see `docs/schema-change-proposal-young-adults.md`.
+
 ## 2026-10-15 — Excursion layer (additive; no schema change)
 
 Owner decision: add a second layer, `excursions_4h` (route-checked one-way drive up to about 4 h), beside the 30 km primary area.

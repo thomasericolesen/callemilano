@@ -41,7 +41,7 @@ Run `python3 tools/places.py validate` before handing a record to human review a
 
 Every place has exactly one primary category: `Restaurants`, `Beaches`, `Excursions`, `Nature`, `City`, or `Family activities`. Use the exact enum spelling in `docs/place-schema.md`. Do not use `Cities` as a category.
 
-Use only schema-controlled values for tags, age groups, family scores, energy, seasonality, booking, accessibility, parking, and cost. Age groups are `Small children (0-6)`, `Children (7-12)`, `Teenagers (13-17)`, `Adults`, `Seniors`; ratings are separate `family_score` values. Do not substitute informal groups such as “toddlers,” “teens,” or “all ages.”
+Use only schema-controlled values for tags, age groups, family scores, energy, seasonality, booking, accessibility, parking, and cost. Age groups are `Small children (0-6)`, `Children (7-12)`, `Young adults`, `Seniors`; ratings are separate `family_score` values. Do not substitute informal groups such as “toddlers,” “teens,” or “all ages.”
 
 Tags are: `Beach`, `Restaurant`, `Nature`, `Hiking`, `Viewpoint`, `Historic town`, `Museum`, `Adventure`, `Rainy day`, `Half day`, `Full day`, `Free`, `Premium`. Energy is exactly `Low`, `Medium`, or `High`. Seasons are `Spring`, `Summer`, `Autumn`, `Winter`, or `All year`.
 

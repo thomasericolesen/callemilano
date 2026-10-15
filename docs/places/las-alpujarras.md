@@ -31,13 +31,11 @@ driving_time_from_casa_de_la_familia:
   checked_at: 2026-10-15
   note: "Route-checked one-way via OSRM (driving profile), ~171 km, via the Poqueira gorge mountain road (narrow and winding in its final stretch). Actual time varies with traffic and road conditions."
 age_groups:
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
 family_score:
   small_children: unknown
   children: unknown
-  teenagers: medium
-  adults: high
+  young_adults: high
   seniors: unknown
 energy_level: High
 seasonality:

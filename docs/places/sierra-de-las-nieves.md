@@ -31,13 +31,11 @@ driving_time_from_casa_de_la_familia:
   checked_at: 2026-10-15
   note: "Route-checked one-way via OSRM (driving profile) to El Burgo, ~60.2 km. The park has several access points (El Burgo, Tolox, Yunquera, Ronda side) with different drive times; this figure is representative only, not a single official entrance."
 age_groups:
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
 family_score:
   small_children: unknown
   children: unknown
-  teenagers: medium
-  adults: high
+  young_adults: high
   seniors: unknown
 energy_level: High
 seasonality:

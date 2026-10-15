@@ -32,13 +32,11 @@ driving_time_from_casa_de_la_familia:
   note: Route not checked; do not estimate from memory.
 age_groups:
   - Children (7-12)
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
 family_score:
   small_children: low
   children: medium
-  teenagers: high
-  adults: high
+  young_adults: high
   seniors: low
 energy_level: High
 seasonality:

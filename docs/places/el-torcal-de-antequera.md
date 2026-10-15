@@ -31,13 +31,11 @@ driving_time_from_casa_de_la_familia:
   checked_at: 2026-10-15
   note: "Route-checked one-way via OSRM (driving profile), ~77.4 km. Actual time varies with traffic; the final approach road's exact distance marker is inconsistent between official Junta documents."
 age_groups:
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
 family_score:
   small_children: unknown
   children: unknown
-  teenagers: medium
-  adults: high
+  young_adults: high
   seniors: unknown
 energy_level: Medium
 seasonality:
