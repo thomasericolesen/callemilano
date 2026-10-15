@@ -53,7 +53,7 @@ These feed `docs/recommendation-engine-spec.md` and the V1–V3 analyses. Values
 | Column | Meaning |
 |---|---|
 | `persona` | Persona name |
-| `*_weight` (8 columns) | Integer weights for children, teen, adult, senior suitability, drive time, duration, weather dependence, season. Each row sums to 100 |
+| `*_weight` (7 columns) | Integer weights for children, young adult, senior suitability, drive time, duration, weather dependence, season. Each row sums to 100 |
 | `preferred_duration`, `preferred_seasons` | Semicolon lists using `half-day`/`full-day`/`overnight` and `spring`/`summer`/`autumn`/`winter`/`all-year` |
 | `*_scoring_rule` | Human-readable rule text; the authoritative rules are in the engine spec |
 
@@ -61,7 +61,7 @@ These feed `docs/recommendation-engine-spec.md` and the V1–V3 analyses. Values
 
 | Column | Values |
 |---|---|
-| `children_score`, `teen_score`, `adult_score`, `senior_score` | Integer 0–5, editorial estimate |
+| `children_score`, `young_adult_score`, `senior_score` | Integer 0–5, editorial estimate |
 | `energy_level` | `low`, `medium`, `high` |
 | `duration` | `half-day`, `full-day`, `overnight` |
 | `drive_time_from_casa` | Free-text range such as `4–5 h`; **not route-checked** |
