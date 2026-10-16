@@ -18,6 +18,7 @@ CalleMilano is a family travel guide for guests at Casa de la Familia, starting 
 - Target audience for this layer: young adults (nature and hiking, city life, culture and architecture, food, bars, cafés, wellness).
 - This is the editor's instruction under the rule above that places beyond the primary area stay archive unless the editor says so: records in `excursions_4h` may be developed and fact-checked. Existing out-of-area records not listed in `data/layer-membership.csv` remain archive.
 - Records in this layer follow the same schema, evidence and review rules. Driving time must still be route-checked, never estimated.
+- Extension (owner decision 2026-10-16): layer `excursions_5h` covers route-checked one-way drives above about 4 h and up to about 5 h, for overnight routes. Portuguese places stay out of scope for now. Senior itineraries are in `docs/senior-itineraries.md`; see `docs/change-log.md`.
 
 ## Canonical project files
 

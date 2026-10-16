@@ -1,5 +1,15 @@
 # Change log
 
+## 2026-10-16 — Senior itineraries (draft package; additive, no schema change)
+
+Owner request: day trips and overnight routes for fit seniors (about 60–75), from Casa de la Familia as far as the Portuguese border. **Draft; not editor-approved.**
+
+- Added `docs/senior-itineraries.md` (scope, fact-check ledger, open decisions), `data/senior-itineraries.csv` (14 itineraries referencing existing record IDs) and `data/route-checks-2026-10-16.csv` (12 new OSRM route checks with approximate destination coordinates).
+- Not changed: place records, `AGENTS.md`, `data/layers.csv`, `data/layer-membership.csv`, schema, categories, tags, enums.
+- Owner decisions the same day: the time limit is extended to about 5 h one-way, added as layer `excursions_5h` in `data/layers.csv` (`excursions_4h` unchanged); Portuguese places are out of scope for now (Vila Real de Santo António and Tavira removed from the itineraries, route checks kept and marked out of scope). `AGENTS.md` got a matching bullet.
+- Open editor decisions: creation of draft records for the places that have none (Mijas Pueblo, Casares, Arcos de la Frontera, Grazalema, El Rocío, Ayamonte); whether seniors become a named audience of the excursion layers.
+- Merge target named by the owner: `christiano-ez/callemilano`. Not merged.
+
 ## 2026-10-15 — New controlled tag: Overnight
 
 Editor-approved schema change: added `Overnight` to the controlled tag vocabulary in `docs/place-schema.md`, `AGENTS.md`, and `tools/places.py`'s `TAGS` set. `Overnight` replaces `Full day` for a destination whose realistic one-way drive time makes a day trip impractical (e.g. Sevilla, Córdoba in the excursion layer); a record uses one or the other, never both.
