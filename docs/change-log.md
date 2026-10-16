@@ -20,7 +20,18 @@ Editor-of-record decisions following fact-check of the 17 excursion-layer record
 
 ## 2026-10-15 — Young adults migration
 
-Editor-approved schema change: age groups `Teenagers (13-17)` and `Adults` merged into `Young adults`; `family_score` keys `teenagers` and `adults` merged into `young_adults` (rule: max; `unknown` if either input is unknown). Updated: all `docs/places/*.md`, `tools/places.py` constants, `data/personas.csv` (weights summed), `AGENTS.md`, `docs/place-schema.md`. Analytical datasets and the engine spec are not migrated; see `docs/schema-change-proposal-young-adults.md`.
+Editor-approved schema change: age groups `Teenagers (13-17)` and `Adults` merged into `Young adults`; `family_score` keys `teenagers` and `adults` merged into `young_adults` (rule: max; `unknown` if either input is unknown). Updated: all `docs/places/*.md`, `tools/places.py` constants, `data/personas.csv` (weights summed), `AGENTS.md`, `docs/place-schema.md`. Analytical datasets and the engine spec were not migrated by this commit; see `docs/schema-change-proposal-young-adults.md` and issue #5 for the follow-up below, which completes that work.
+
+## 2026-10-16 — Young adults migration: analytical datasets and recommendation engine (closes #5)
+
+Completes the follow-up issue #5 raised by the schema migration above. Two PRs, in order:
+
+- **`data/destination-metadata.csv`**: merged `teen_score`/`adult_score` into a single `young_adult_score` column, same max rule as the schema migration. **`docs/recommendation-engine-spec.md`**: `base_score` formula and factor list updated to use `young_adult_score`/`young_adult_suitability_weight` (this also fixed a real bug — the spec still referenced `teen_suitability_weight`/`adult_suitability_weight`, which `personas.csv` no longer had since the original migration already merged them). **`docs/data-dictionary.md`** and **`docs/guest-questionnaire-spec.md`**: column references updated to match. **`docs/examples/*.md`** (4 files): illustrative `age_groups`/`family_score` examples updated to `Young adults`, merged with the same max rule, so they don't teach the deprecated taxonomy.
+- **`docs/end-to-end-demo.md`**: all 10 worked guest-session scenarios recomputed against the current formula and data (a throwaway script implementing the spec exactly); 7 of 10 changed ranking or top-5 membership, since several destinations had `teen_score` ≠ `adult_score` pre-merge. A genuine exact tie in scenario 5 (aviation enthusiast) is broken alphabetically and noted in the document, since the engine spec defines no tie-break rule. **`docs/group-composition-v2.md`**: this document's party-composition formula weights age-suitability terms by headcount rather than selecting a persona-level score, so the main migration's max-rule approach didn't directly transfer; teenager and adult headcounts now combine into one `(teenagers + adults) × young_adult_score` term, and all 4 worked examples were recomputed. This collapses `party_suitability` to exactly `young_adult_score` for an all-adult/teenager party (Example 2), which is flagged explicitly in the document as a real behavior change, not just a rename.
+
+Deliberately **not** migrated, per editor review (see issue #5 and the original proposal): `data/demo-groups.csv` (headcounts describing a synthetic test group's composition, not suitability scores — merging would lose information), `docs/gold-standard-sample-set.md` (uses "teen"/"adult" as ordinary English in editorial prose, not as schema field references), `docs/discrimination-analysis.md` (a historical analysis snapshot of the old data, not a live spec). `README.md` and `demo/index.html` were checked and already carried no stale references.
+
+`python3 tools/places.py validate` unaffected both times (same 6 pre-existing errors in unrelated archive records).
 
 ## 2026-10-15 — Excursion layer (additive; no schema change)
 
