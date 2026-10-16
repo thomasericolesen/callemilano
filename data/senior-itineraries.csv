@@ -1,0 +1,31 @@
+itinerary_id,type,title_en,nights,stop_order,place_slug,place_id,record_exists,drive_min_from_casa,drive_basis,status,note
+D1,day,Mijas Pueblo and the coast,0,1,mijas-pueblo,,no,21,route_checked_2026-10-16_this_package,candidate_no_record,"Launch-backlog place; coordinates approximate."
+D2,day,Málaga city,0,1,malaga,ES-AND-MAL-MALAGA-001,yes,36,route_checked_2026-10-15_existing_record,needs_editorial_review,
+D3,day,Marbella old town,0,1,marbella-old-town,ES-AND-MAL-MARBELLA-OLD-TOWN-001,yes,34,route_checked_2026-10-16_this_package,needs_fact_check,"Value not yet written into the record."
+D4,day,Antequera and El Torcal,0,1,antequera,ES-AND-MAL-ANTEQUERA-001,yes,65,route_checked_existing_record,needs_editorial_review,
+D4,day,Antequera and El Torcal,0,2,el-torcal-de-antequera,ES-AND-MAL-EL-TORCAL-001,yes,72,route_checked_2026-10-15_existing_record,needs_editorial_review,"Official site was unreachable in the earlier fact-check."
+D5,day,Nerja and Frigiliana,0,1,nerja,ES-AND-MAL-NERJA-001,yes,76,route_checked_existing_record,needs_editorial_review,
+D5,day,Nerja and Frigiliana,0,2,frigiliana,ES-AND-MAL-FRIGILIANA-001,yes,78,route_checked_existing_record,needs_editorial_review,"Existing record rates seniors low (steep streets)."
+D6,day,Ronda,0,1,ronda,ES-AND-MAL-RONDA-001,yes,101,route_checked_2026-10-16_existing_record,needs_editorial_review,
+D7,day,Gibraltar,0,1,gibraltar,GI-GIBRALTAR-001,yes,92,route_checked_2026-10-15_existing_record,needs_editorial_review,"Border mechanics: see docs/senior-itineraries.md fact-check ledger."
+D8,day,Caminito del Rey,0,1,caminito-del-rey,ES-AND-MAL-CAMINITO-DEL-REY-001,yes,75,route_checked_2026-10-15_existing_record,needs_editorial_review,"Route length and duration not confirmed from an official source."
+D9,day,Casares,0,1,casares,,no,80,route_checked_2026-10-16_this_package,candidate_no_record,
+O1,overnight,Granada and the Alhambra,2,1,granada,ES-AND-GRA-GRANADA-001,yes,124,route_checked_2026-10-15_existing_record,needs_editorial_review,"Alhambra timed entry; book ahead."
+O2,overnight,Ronda and the white villages,2,1,ronda,ES-AND-MAL-RONDA-001,yes,101,route_checked_2026-10-16_existing_record,needs_editorial_review,
+O2,overnight,Ronda and the white villages,2,2,setenil-de-las-bodegas,ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,yes,121,route_checked_existing_record,needs_editorial_review,
+O2,overnight,Ronda and the white villages,2,3,zahara-de-la-sierra,ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001,yes,138,route_checked_2026-10-16_this_package,needs_fact_check,"Existing record rates seniors low."
+O2,overnight,Ronda and the white villages,2,4,olvera-castle,ES-AND-CAD-OLVERA-CASTLE-001,yes,123,route_checked_2026-10-16_this_package,needs_fact_check,"Start of the 36 km Vía Verde de la Sierra."
+O2,overnight,Ronda and the white villages,2,5,arcos-de-la-frontera,,no,169,route_checked_2026-10-16_this_package,candidate_no_record,
+O3,overnight,Córdoba and Sevilla,3,1,cordoba,ES-AND-COR-CORDOBA-001,yes,135,route_checked_existing_record,needs_editorial_review,
+O3,overnight,Córdoba and Sevilla,3,2,sevilla,ES-AND-SEV-SEVILLA-001,yes,176,route_checked_existing_record,needs_editorial_review,
+O4,overnight,Cádiz coast and Strait,3,1,tarifa,ES-AND-CAD-TARIFA-001,yes,116,route_checked_existing_record,needs_editorial_review,
+O4,overnight,Cádiz coast and Strait,3,2,baelo-claudia,ES-AND-CAD-BAELO-CLAUDIA-001,yes,142,route_checked_existing_record,needs_editorial_review,
+O4,overnight,Cádiz coast and Strait,3,3,vejer-de-la-frontera,ES-AND-CAD-VEJER-DE-LA-FRONTERA-001,yes,153,route_checked_existing_record,needs_fact_check,
+O4,overnight,Cádiz coast and Strait,3,4,jerez-de-la-frontera,ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001,yes,154,route_checked_existing_record,needs_editorial_review,
+O4,overnight,Cádiz coast and Strait,3,5,cadiz,ES-AND-CAD-CADIZ-001,yes,160,route_checked_existing_record,needs_editorial_review,
+O5,overnight,To the Portuguese border,5,1,sevilla,ES-AND-SEV-SEVILLA-001,yes,176,route_checked_existing_record,needs_editorial_review,
+O5,overnight,To the Portuguese border,5,2,el-rocio,,no,232,route_checked_2026-10-16_this_package,candidate_no_record,"Doñana edge; official visit rules not reached."
+O5,overnight,To the Portuguese border,5,3,ayamonte,,no,265,route_checked_2026-10-16_this_package,candidate_no_record,"Beyond the 4 h excursion layer."
+O5,overnight,To the Portuguese border,5,4,vila-real-de-santo-antonio,,no,270,route_checked_2026-10-16_this_package,candidate_no_record,"Portugal; ferry from Ayamonte."
+O5,overnight,To the Portuguese border,5,5,tavira,,no,286,route_checked_2026-10-16_this_package,candidate_no_record,"Portugal."
+O5,overnight,To the Portuguese border,5,6,aracena,ES-AND-HUE-ARACENA-001,yes,241,route_checked_2026-10-16_this_package,needs_fact_check,"Return leg via the Sierra de Aracena; cave visit confirmed from andalucia.org."
