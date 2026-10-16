@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-CAD-TARIFA-001
 slug: tarifa
 name: Tarifa
@@ -70,24 +70,24 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: "€"
 visit_information:
-  schedule: null
+  schedule: "Closed Mondays and Tuesdays. Wednesday to Sunday, 10:00–16:00, last entry 15:15."
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: "Official prices per person: Castle + Interpretation Centre €4.00 adult / €1.50 student or Carnet Joven / €2.50 child (12-18); Castle + Adarve (walkway) €5.00 / €2.00 / €3.00; Adarve only €2.00 / €1.00 / €1.00. Group and guided-tour rates also listed on the official page."
+  cost_checked_at: 2026-10-16
 links:
-  official_website: null
+  official_website: "https://www.castilloguzmanelbueno.com/"
   booking: null
-  visitor_information: null
+  visitor_information: "https://www.castilloguzmanelbueno.com/visitas/"
   transport: null
-  contact: null
+  contact: "castilloguzmanelbueno@aytotarifa.com"
 related_places: []
-description_short: "Tarifa, Spain's southernmost mainland town, pairs a Caliphate-era castle and old town with a strong year-round wind that makes it a major kitesurf and windsurf destination; official opening hours and prices for the castle are not yet confirmed."
-description_long: "Tarifa sits at Spain's southern tip facing the Strait of Gibraltar, about 1 hour 56 minutes' drive from Casa de la Familia (route-checked). Its Castillo de Guzmán el Bueno, a 10th-century fortress built under Caliph Abderramán III of Córdoba, overlooks the port and the strait toward Morocco; secondary sources describe free entry with no advance booking, but this has not been confirmed from an official heritage or municipal source, so no hours or price are published here yet. The old town has three notable churches built partly over former mosques (San Mateo, San Francisco de Asís, Santa María). The town is consistently described across independent sources as a major kitesurfing and windsurfing destination because of the strong, near-constant 'levante' wind. Tarifa neighbours Duna de Bolonia and Baelo Claudia, both separate existing records, along the coast road toward Cádiz. Castle opening hours, admission price, and accessibility have not been confirmed from an official source."
+description_short: "Tarifa, Spain's southernmost mainland town, pairs a Caliphate-era castle and old town with a strong year-round wind that makes it a major kitesurf and windsurf destination. The castle's official hours and admission price are now confirmed."
+description_long: "Tarifa sits at Spain's southern tip facing the Strait of Gibraltar, about 1 hour 56 minutes' drive from Casa de la Familia (route-checked). Its Castillo de Guzmán el Bueno, a 10th-century fortress built under Caliph Abderramán III of Córdoba, overlooks the port and the strait toward Morocco. The castle's official website gives current opening hours (closed Monday and Tuesday; Wednesday to Sunday 10:00-16:00, last entry 15:15) and admission prices from €2-5 per person depending on the ticket (castle, castle plus Adarve walkway, or Adarve only), with reduced rates for students and children. The old town has three notable churches built partly over former mosques (San Mateo, San Francisco de Asís, Santa María). The town is consistently described across independent sources as a major kitesurfing and windsurfing destination because of the strong, near-constant 'levante' wind. Tarifa neighbours Duna de Bolonia and Baelo Claudia, both separate existing records, along the coast road toward Cádiz. Castle accessibility and parking have not been confirmed from an official source."
 seo_title: "Tarifa, Cádiz: Castle, Old Town and Wind Sports"
 seo_description: "Visit Tarifa's historic castle and old town, known for kitesurfing and windsurfing. Hours and prices pending official confirmation; drive time from Casa de la Familia."
 images: []
@@ -124,13 +124,15 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: medium
     notes: "OSRM public routing engine, driving profile; traffic not modelled."
+  - field: "visit_information.schedule, visit_information.cost_basis, links"
+    claim: "The castle's official website (castilloguzmanelbueno.com, operated by the Tarifa town council per its contact address) publishes current opening hours (closed Mon/Tue; Wed-Sun 10:00-16:00, last entry 15:15) and a ticket-price table (€2-5 per person depending on ticket type, with reduced rates)."
+    source_url: "https://www.castilloguzmanelbueno.com/"
+    source_type: official_venue
+    checked_at: 2026-10-16
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Hours from the site's visitor page; prices from its ticketing page. No explicit 'last updated' date shown; reasonably current as the site's own live pricing/hours page."
 review_issues:
-  - code: official_source_needed
-    severity: blocking
-    fields: [visit_information, cost_level, links]
-    description: "No official heritage-authority or ayuntamiento page for the Castillo de Guzmán el Bueno was reached; opening hours and admission price are unconfirmed and unpublished. A candidate official site (aytotarifa.com or turismodetarifa.es) was found but not independently verified live."
-    retryable: true
-    owner: fact_check
   - code: overlap_bolonia
     severity: warning
     fields: [related_places]
@@ -146,16 +148,16 @@ review_issues:
   - code: visitor_facilities_unverified
     severity: warning
     fields: [accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available, booking_required]
-    description: "Visitor facilities, access, parking and booking remain unverified."
+    description: "Hours and price are now confirmed from the castle's official site. Accessibility, parking, dog/toilet/food facilities and booking requirements remain unverified; the town council maintains a general PMR-accessible-parking map but it's not confirmed to cover spaces specifically near the castle."
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-15
-last_verified: 2026-10-15
+updated_at: 2026-10-16
+last_verified: 2026-10-16
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15
 review_decision: null
 redirects: []
 ---
 
-Fact-checked 2026-10-15: coordinates and driving time resolved; castle opening hours/price could not be confirmed from an official source this round and are flagged as a blocking fact-check issue rather than estimated. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
+Fact-checked 2026-10-15: coordinates and driving time resolved. Fact-checked again 2026-10-16: castle opening hours and admission price confirmed from the castle's own official website (castilloguzmanelbueno.com), resolving the prior blocking issue; accessibility and parking remain unverified. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.

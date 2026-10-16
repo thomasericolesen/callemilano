@@ -117,11 +117,19 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: medium
     notes: "Three-year-old document; current schedule must be reconfirmed before publication."
+  - field: "links, visit_information"
+    claim: "turismo.antequera.es's own Alcazaba page lists only contact details (phone, address) and a pet policy; it does not state opening hours or admission price."
+    source_url: "https://turismo.antequera.es/puntos-de-interes/alcazaba/"
+    source_type: official_tourism
+    checked_at: 2026-10-16
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Official page reached this time (unlike the 2026-10-15 pass), but it does not carry the needed facts; does not resolve the blocking issue."
 review_issues:
   - code: official_links_unverified
     severity: blocking
     fields: [links, visit_information]
-    description: "No official Antequera municipal or tourism-office page (antequera.es / turismo.antequera.es) could be reached in this research pass. Alcazaba opening hours and ticket price are therefore unknown and unpublished; a secondary, unverified figure (~€6, possible Tuesday free entry) was found but is not cited as fact. Needs a direct follow-up fetch."
+    description: "Retried 2026-10-16: turismo.antequera.es and its Alcazaba page (turismo.antequera.es/puntos-de-interes/alcazaba/) were reached this time, but neither states opening hours or ticket price (only contact details and a pet policy). No admission price or hours are published here; secondary figures (~€6, possible Tuesday free entry, 10:00-18:00) recur across multiple independent travel sites but remain unconfirmed against an official page and are not cited as fact. Needs a direct phone/email follow-up (951 70 07 37 / oficina.turismo@antequera.es) rather than another web fetch."
     retryable: true
     owner: fact_check
   - code: overlap_torcal
@@ -143,12 +151,12 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-15
-last_verified: 2026-10-15
+updated_at: 2026-10-16
+last_verified: 2026-10-16
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15
 review_decision: null
 redirects: []
 ---
 
-Fact-checked 2026-10-15: coordinates and driving time resolved; Alcazaba opening hours/price and official town links remain unresolved (antequera.es/turismo.antequera.es unreachable this round) — flagged as a blocking fact-check issue rather than guessed. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
+Fact-checked 2026-10-15: coordinates and driving time resolved; Alcazaba opening hours/price and official town links remain unresolved (antequera.es/turismo.antequera.es unreachable this round) — flagged as a blocking fact-check issue rather than guessed. Retried 2026-10-16: turismo.antequera.es is now reachable, but its own Alcazaba page carries no hours/price, so the blocking issue stays open; status remains needs_fact_check. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
