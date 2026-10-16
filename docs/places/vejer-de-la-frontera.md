@@ -118,11 +118,19 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: medium
     notes: "OSRM public routing engine, driving profile; traffic not modelled."
+  - field: "visit_information, cost_level"
+    claim: "Attempted to reach the town's official site for current castle hours/price; vejerdelafrontera.es returned HTTP 503 and turismo.vejerdelafrontera.es failed to resolve (no such domain). Andalusia declared Vejer de la Frontera an official 'Municipio Turístico' by Consejo de Gobierno agreement dated 2 December 2025, but this status declaration itself does not state castle hours or price."
+    source_url: "https://juntadeandalucia.es/boja/2025/237/38"
+    source_type: government
+    checked_at: 2026-10-16
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "Documents the attempt and a related but non-substantive official fact; does not resolve the blocking hours/price conflict."
 review_issues:
   - code: hours_price_conflict
     severity: blocking
     fields: [visit_information, cost_level]
-    description: "Sources conflict on the castle's opening hours (erratic/unscheduled vs. a specific seasonal timetable) and whether there is an admission fee. No official ayuntamiento or tourist-office source was reached. Do not publish a schedule or price until confirmed directly (e.g. by phone or a live official page)."
+    description: "Sources conflict on the castle's opening hours (erratic/unscheduled vs. a specific seasonal timetable) and whether there is an admission fee. Retried 2026-10-16: the town's two candidate official domains were unreachable (vejerdelafrontera.es returned HTTP 503; turismo.vejerdelafrontera.es failed DNS resolution), and no other official ayuntamiento or tourist-office source was found. Do not publish a schedule or price until confirmed directly (e.g. by phone or a live official page)."
     retryable: true
     owner: fact_check
   - code: excursion_layer_scope
@@ -138,12 +146,12 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-15
-last_verified: 2026-10-15
+updated_at: 2026-10-16
+last_verified: 2026-10-16
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15
 review_decision: null
 redirects: []
 ---
 
-Fact-checked 2026-10-15: coordinates and driving time resolved; castle hours and admission price actively conflict across sources with no official source reached, so neither is published — flagged as a blocking fact-check issue. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.
+Fact-checked 2026-10-15: coordinates and driving time resolved; castle hours and admission price actively conflict across sources with no official source reached, so neither is published — flagged as a blocking fact-check issue. Retried 2026-10-16: the town's two candidate official domains were unreachable (503 / DNS failure); blocking issue remains open and status stays needs_fact_check. Draft source notes (import): Created from the Danish excursion catalogue of 2026-10-15 (an inspiration document, not a source). The Maps link is a place lookup, not a saved-list link.

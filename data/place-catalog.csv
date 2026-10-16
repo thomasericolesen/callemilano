@@ -6,19 +6,20 @@ ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,sierra-de-las-nieves,Sierra de las Nieves,ne
 ES-AND-MAL-SELWO-AVENTURA-001,selwo-aventura,Selwo Aventura,needs_fact_check,Family activities,Nature; Adventure; Full day,Estepona,Málaga,36.462831,-5.0856,38.7,no,,docs/places/selwo-aventura.md
 ES-AND-MAL-CAMINITO-DEL-REY-001,caminito-del-rey,Caminito del Rey,needs_editorial_review,Excursions,Nature; Hiking; Adventure; Viewpoint; Full day,Ardales,Málaga,36.914782,-4.8080823,44.1,no,75 min,docs/places/caminito-del-rey.md
 ES-AND-MAL-EL-TORCAL-001,el-torcal-de-antequera,El Torcal de Antequera,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Half day,Antequera,Málaga,36.961079,-4.5584866,48.2,no,72 min,docs/places/el-torcal-de-antequera.md
-ES-AND-MAL-RONDA-001,ronda,Ronda,needs_fact_check,City,Historic town; Viewpoint; Nature; Full day,Ronda,Málaga,36.741564,-5.165708,50.4,no,,docs/places/ronda.md
+ES-AND-MAL-RONDA-001,ronda,Ronda,needs_editorial_review,City,Historic town; Viewpoint; Nature; Full day,Ronda,Málaga,36.741564,-5.165708,50.4,no,101 min,docs/places/ronda.md
 ES-AND-MAL-ANTEQUERA-001,antequera,Antequera,needs_fact_check,City,Historic town; Museum; Restaurant; Full day,Antequera,Málaga,37.0144361,-4.5577719,54.0,no,65 min,docs/places/antequera.md
 ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,setenil-de-las-bodegas,Setenil de las Bodegas,needs_editorial_review,City,Historic town; Restaurant; Half day,Setenil de las Bodegas,Cádiz,36.8638359,-5.1811411,58.9,no,121 min,docs/places/setenil-de-las-bodegas.md
 ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001,zahara-de-la-sierra,Zahara de la Sierra,needs_fact_check,City,Historic town; Viewpoint; Nature,Zahara de la Sierra,Cádiz,36.840068,-5.388687,73.0,no,,docs/places/zahara-de-la-sierra.md
 ES-AND-MAL-NERJA-001,nerja,Nerja,needs_editorial_review,City,Beach; Historic town; Restaurant; Full day,Nerja,Málaga,36.7442658,-3.8753957,74.0,no,76 min,docs/places/nerja.md
-ES-AND-MAL-FRIGILIANA-001,frigiliana,Frigiliana,needs_fact_check,City,Historic town; Viewpoint; Half day,Frigiliana,Málaga,36.7908751,-3.8947061,74.1,no,,docs/places/frigiliana.md
+ES-AND-MAL-FRIGILIANA-001,frigiliana,Frigiliana,needs_editorial_review,City,Historic town; Viewpoint; Half day,Frigiliana,Málaga,36.7908751,-3.8947061,74.1,no,78 min,docs/places/frigiliana.md
 GI-GIBRALTAR-001,gibraltar,Gibraltar,needs_editorial_review,City,Nature; Viewpoint; Historic town; Full day,Gibraltar,Gibraltar,36.1452525,-5.3527764,75.5,no,92 min,docs/places/gibraltar.md
-ES-AND-CAD-TARIFA-001,tarifa,Tarifa,needs_fact_check,City,Beach; Restaurant; Full day,Tarifa,Cádiz,36.0116776,-5.6028099,102.5,no,116 min,docs/places/tarifa.md
-ES-AND-CAD-BAELO-CLAUDIA-001,baelo-claudia,Baelo Claudia,needs_fact_check,Family activities,Museum,Tarifa,Cádiz,36.088226,-5.7718134,111.1,no,,docs/places/baelo-claudia.md
+ES-AND-CAD-TARIFA-001,tarifa,Tarifa,needs_editorial_review,City,Beach; Restaurant; Full day,Tarifa,Cádiz,36.0116776,-5.6028099,102.5,no,116 min,docs/places/tarifa.md
+ES-AND-CAD-BAELO-CLAUDIA-001,baelo-claudia,Baelo Claudia,needs_editorial_review,Family activities,Museum,Tarifa,Cádiz,36.088226,-5.7718134,111.1,no,142 min,docs/places/baelo-claudia.md
+ES-AND-CAD-DUNA-DE-BOLONIA-001,duna-de-bolonia,Duna de Bolonia,needs_editorial_review,Beaches,Beach; Nature; Hiking,Tarifa,Cádiz,36.0888157,-5.7873891,112.4,no,146 min,docs/places/duna-de-bolonia.md
 ES-AND-GRA-GRANADA-001,granada,Granada,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Granada,Granada,37.1760548,-3.5881101,119.2,no,124 min,docs/places/granada.md
 ES-AND-CAD-VEJER-DE-LA-FRONTERA-001,vejer-de-la-frontera,Vejer de la Frontera,needs_fact_check,City,Historic town; Viewpoint; Restaurant; Overnight,Vejer de la Frontera,Cádiz,36.2527948,-5.9635372,120.6,no,153 min,docs/places/vejer-de-la-frontera.md
 ES-AND-GRA-LAS-ALPUJARRAS-001,las-alpujarras,Las Alpujarras,needs_editorial_review,Nature,Nature; Hiking; Historic town; Full day,Pampaneira,Granada,36.9399641,-3.3615455,124.4,no,140 min,docs/places/las-alpujarras.md
-ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001,jerez-de-la-frontera,Jerez de la Frontera,needs_fact_check,City,Historic town; Museum; Restaurant; Full day,Jerez de la Frontera,Cádiz,36.6800427,-6.1396239,132.8,no,154 min,docs/places/jerez-de-la-frontera.md
+ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001,jerez-de-la-frontera,Jerez de la Frontera,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Jerez de la Frontera,Cádiz,36.6800427,-6.1396239,132.8,no,154 min,docs/places/jerez-de-la-frontera.md
 ES-AND-CAD-CADIZ-001,cadiz,Cádiz,needs_editorial_review,City,Beach; Historic town; Restaurant; Overnight,Cádiz,Cádiz,36.5289521,-6.2953183,145.9,no,160 min,docs/places/cadiz.md
 ES-AND-COR-CORDOBA-001,cordoba,Córdoba,needs_editorial_review,City,Historic town; Museum; Restaurant; Overnight,Córdoba,Córdoba,37.8790259,-4.7794532,149.7,no,135 min,docs/places/cordoba.md
 ES-AND-SEV-SEVILLA-001,sevilla,Sevilla,needs_editorial_review,City,Historic town; Museum; Restaurant; Overnight,Sevilla,Sevilla,37.385915,-5.9931406,151.4,no,176 min,docs/places/sevilla.md
@@ -30,7 +31,6 @@ ES-BAL-BAL-BELLVER-SLOT-001,bellver-slot,Bellver Slot,needs_fact_check,Family ac
 ES-CYL-LEO-COLUMPIO-DE-RIANO-001,columpio-de-riano,Columpio de Riaño,needs_fact_check,Nature,Viewpoint; Adventure,Unknown,Unknown,,,,,,docs/places/columpio-de-riano.md
 ,conil-de-la-frontera,CONIL DE LA FRONTERA,draft,City,Beach; Historic town,Unknown,Unknown,,,,,,docs/places/conil-de-la-frontera.md
 ,cueva-de-los-arcos,Cueva de los Arcos,draft,Nature,Nature,Unknown,Unknown,,,,,,docs/places/cueva-de-los-arcos.md
-ES-AND-CAD-DUNA-DE-BOLONIA-001,duna-de-bolonia,Duna de Bolonia,needs_fact_check,Beaches,Beach; Nature; Hiking,Unknown,Cádiz,,,,,,docs/places/duna-de-bolonia.md
 ES-CAT-LLE-ESTANY-DE-SANT-MAURICI-001,estany-de-sant-maurici,Estany de Sant Maurici,needs_fact_check,Nature,Nature; Hiking; Viewpoint,Espot,Lleida,,,,,,docs/places/estany-de-sant-maurici.md
 ES-BAS-BIZ-GAZTELUGATXEKO-DONIENE-001,gaztelugatxeko-doniene,Gaztelugatxeko Doniene,needs_fact_check,Nature,Viewpoint; Hiking,Bermeo,Bizkaia,,,,,,docs/places/gaztelugatxeko-doniene.md
 ES-VAL-CAS-LA-VALL-DUIXO-001,la-vall-duixo,La Vall d'Uixó,needs_fact_check,City,,Unknown,Unknown,,,,,,docs/places/la-vall-duixo.md
