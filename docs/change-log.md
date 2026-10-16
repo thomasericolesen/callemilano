@@ -6,8 +6,9 @@ Owner request: day trips and overnight routes for fit seniors (about 60–75), f
 
 - Added `docs/senior-itineraries.md` (scope, fact-check ledger, open decisions), `data/senior-itineraries.csv` (14 itineraries referencing existing record IDs) and `data/route-checks-2026-10-16.csv` (12 new OSRM route checks with approximate destination coordinates).
 - Not changed: place records, `AGENTS.md`, `data/layers.csv`, `data/layer-membership.csv`, schema, categories, tags, enums.
-- Open editor decisions: (1) a layer beyond `excursions_4h`, since Ayamonte (265 min), Vila Real de Santo António (270 min) and Tavira (286 min) exceed 4 h and Aracena (241 min) is on the boundary; (2) whether Portuguese places are in scope and under which territory code; (3) creation of draft records for the places that have none.
-- Open question: the project this package is to be merged with is not named yet.
+- Owner decisions the same day: the time limit is extended to about 5 h one-way, added as layer `excursions_5h` in `data/layers.csv` (`excursions_4h` unchanged); Portuguese places are out of scope for now (Vila Real de Santo António and Tavira removed from the itineraries, route checks kept and marked out of scope). `AGENTS.md` got a matching bullet.
+- Open editor decisions: creation of draft records for the places that have none (Mijas Pueblo, Casares, Arcos de la Frontera, Grazalema, El Rocío, Ayamonte); whether seniors become a named audience of the excursion layers.
+- Merge target named by the owner: `christiano-ez/callemilano`. Not merged.
 
 ## 2026-10-15 — New controlled tag: Overnight
 

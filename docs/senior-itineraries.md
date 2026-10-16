@@ -5,21 +5,19 @@
 ## Audience and scope
 
 - Audience: fit seniors aged about 60–75 without walking or other mobility limits, using Casa de la Familia as the base. This is the schema age group `Seniors`; no schema change is proposed.
-- Reach: day trips from the base and overnight routes all the way to the Portuguese border.
+- Reach: day trips from the base and overnight routes up to about 5 h one-way, ending at the Portuguese border on the Spanish side (Ayamonte).
 - Additive only: no existing place record, category, tag, enum, schema field, `AGENTS.md` rule or layer definition was changed. `data/layers.csv` is untouched.
 
-## Decision needed from the editor
+## Owner decisions (2026-10-16)
 
-`excursions_4h` stops at about 4 h one-way. Route-checked times in this package show the Portuguese-border end lies beyond it (Ayamonte 265 min, Vila Real de Santo António 270 min, Tavira 286 min; Aracena 241 min is on the boundary). Two things need an editor decision before any record is created for these places:
+- **Time limit extended to about 5 h one-way.** Implemented additively as a new layer `excursions_5h` (above about 4 h, up to about 5 h) in `data/layers.csv`; `excursions_4h` is unchanged. Ayamonte (265 min) falls in it; Aracena (241 min) sits on the 4 h boundary.
+- **Portuguese places are out of scope for now.** Vila Real de Santo António and Tavira were removed from the itineraries; their route checks are kept in the CSV marked out of scope. The O5 route ends at Ayamonte on the Spanish side of the border.
 
-1. Whether to add a layer beyond `excursions_4h` (or extend it) for overnight routes.
-2. Whether Portuguese places are in scope. They need a territory code under the ID rule in `docs/place-schema.md`.
-
-Seniors are also not the stated audience of the excursion layer (young adults). Records stay in their layer; itineraries only reference them.
+Still open for the editor: creating draft records for the places that have none, and whether seniors should be a named audience of the excursion layers (they are not today; the layer targets young adults). Records stay in their layer; itineraries only reference them.
 
 ## Files
 
-- `data/senior-itineraries.csv` lists 14 itineraries' stops with place slug, ID (where a record exists), route-checked minutes, basis and status. Day trips are D1–D9; overnight routes are O1–O5.
+- `data/senior-itineraries.csv` lists the stops of 14 itineraries with place slug, ID (where a record exists), route-checked minutes, basis and status. Day trips are D1–D9; overnight routes are O1–O5.
 - `data/route-checks-2026-10-16.csv` holds 12 new OSRM route checks from the fixed origin.
 - This document holds the fact-check ledger below.
 
@@ -39,8 +37,8 @@ New checks use the repo's OSRM driving profile from the fixed origin (36.5356875
 | El Rocío | 232 min | no |
 | Aracena | 241 min | yes (time was null) |
 | Ayamonte | 265 min | no |
-| Vila Real de Santo António | 270 min | no |
-| Tavira | 286 min | no |
+| Vila Real de Santo António (Portugal, out of scope) | 270 min | no |
+| Tavira (Portugal, out of scope) | 286 min | no |
 
 ## Fact-check ledger
 
@@ -87,7 +85,7 @@ Ratings, energy and "seniors" suitability in existing records are editorial esti
 
 ## Suggested next steps
 
-1. Editor decides the layer and Portugal questions above.
-2. Create draft records for the candidates (Mijas Pueblo, Casares, Arcos de la Frontera, Grazalema, El Rocío, Ayamonte, and any Portuguese places approved) through the ID registry and the lifecycle.
+1. Editor confirms the `excursions_5h` layer and the audience question above in the change log.
+2. Create draft records for the candidates (Mijas Pueblo, Casares, Arcos de la Frontera, Grazalema, El Rocío, Ayamonte) through the ID registry and the lifecycle.
 3. Confirm visitor coordinates from official sources, then write route-checked times into records.
 4. Merge with the second project once the editor approves; see the open question in the change log.
