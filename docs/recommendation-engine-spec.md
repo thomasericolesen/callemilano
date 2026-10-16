@@ -18,8 +18,7 @@ Each non-tag destination factor is converted to a score from 0 to 5. First calcu
 ```text
 base_score =
   (children_suitability_weight × children_score / 5) +
-  (teen_suitability_weight × teen_score / 5) +
-  (adult_suitability_weight × adult_score / 5) +
+  (young_adult_suitability_weight × young_adult_score / 5) +
   (senior_suitability_weight × senior_score / 5) +
   (drive_time_weight × drive_score / 5) +
   (duration_weight × duration_score / 5) +
@@ -43,8 +42,7 @@ final_score = (0.85 × base_score) + (0.15 × tag_score_on_0_to_100)
 Use the numeric values in the destination row directly:
 
 - `children_score` with `children_suitability_weight`
-- `teen_score` with `teen_suitability_weight`
-- `adult_score` with `adult_suitability_weight`
+- `young_adult_score` with `young_adult_suitability_weight`
 - `senior_score` with `senior_suitability_weight`
 
 Each value is expected to be an integer from 0 through 5. A persona's zero weight means that age group does not affect that persona's score.

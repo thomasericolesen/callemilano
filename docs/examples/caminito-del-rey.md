@@ -27,14 +27,12 @@ driving_time_from_casa_de_la_familia:
   note: Check a current route to the chosen entrance; the trail is one-way and transport planning affects the visit.
 age_groups:
   - Children (7-12)
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
   - Seniors
 family_score:
   small_children: low
   children: medium
-  teenagers: high
-  adults: high
+  young_adults: high
   seniors: medium
 energy_level: High
 seasonality:

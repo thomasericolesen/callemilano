@@ -23,3 +23,21 @@ ES-VAL-CAS,ES-VAL-CAS-LA-VALL-DUIXO-001,la-vall-duixo,La Vall d'Uixó,allocated,
 ES-CAT-LLE,ES-CAT-LLE-ESTANY-DE-SANT-MAURICI-001,estany-de-sant-maurici,Estany de Sant Maurici,allocated,2026-10-04
 ES-AND-MAL,ES-AND-MAL-PLAYA-LA-MALAGUETA-001,playa-la-malagueta,Playa la Malagueta,allocated,2026-10-04
 ES-BAL-BAL,ES-BAL-BAL-BELLVER-SLOT-001,bellver-slot,Bellver Slot,allocated,2026-10-04
+ES-AND-MAL,ES-AND-MAL-MALAGA-001,malaga,Málaga,allocated,2026-10-15
+ES-AND-MAL,ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,sierra-de-las-nieves,Sierra de las Nieves,allocated,2026-10-15
+ES-AND-MAL,ES-AND-MAL-TOLOX-001,tolox,Tolox,allocated,2026-10-15
+ES-AND-MAL,ES-AND-MAL-CAMINITO-DEL-REY-001,caminito-del-rey,Caminito del Rey,allocated,2026-10-15
+ES-AND-CAD,ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,setenil-de-las-bodegas,Setenil de las Bodegas,allocated,2026-10-15
+ES-AND-MAL,ES-AND-MAL-ANTEQUERA-001,antequera,Antequera,allocated,2026-10-15
+ES-AND-MAL,ES-AND-MAL-EL-TORCAL-001,el-torcal-de-antequera,El Torcal de Antequera,allocated,2026-10-15
+ES-AND-MAL,ES-AND-MAL-NERJA-001,nerja,Nerja,allocated,2026-10-15
+ES-AND-CAD,ES-AND-CAD-TARIFA-001,tarifa,Tarifa,allocated,2026-10-15
+ES-AND-CAD,ES-AND-CAD-VEJER-DE-LA-FRONTERA-001,vejer-de-la-frontera,Vejer de la Frontera,allocated,2026-10-15
+ES-AND-GRA,ES-AND-GRA-GRANADA-001,granada,Granada,allocated,2026-10-15
+ES-AND-SEV,ES-AND-SEV-SEVILLA-001,sevilla,Sevilla,allocated,2026-10-15
+ES-AND-COR,ES-AND-COR-CORDOBA-001,cordoba,Córdoba,allocated,2026-10-15
+ES-AND-CAD,ES-AND-CAD-CADIZ-001,cadiz,Cádiz,allocated,2026-10-15
+ES-AND-CAD,ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001,jerez-de-la-frontera,Jerez de la Frontera,allocated,2026-10-15
+ES-AND-CAD,ES-AND-CAD-GIBRALTAR-001,gibraltar,Gibraltar,superseded_by_GI-GIBRALTAR-001,2026-10-15
+GI,GI-GIBRALTAR-001,gibraltar,Gibraltar,allocated,2026-10-15
+ES-AND-GRA,ES-AND-GRA-LAS-ALPUJARRAS-001,las-alpujarras,Las Alpujarras,allocated,2026-10-15

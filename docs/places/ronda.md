@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-RONDA-001
 slug: ronda
 name: Ronda
@@ -24,23 +24,21 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: null
+  duration: "101 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: Plaza de España, Ronda, Málaga, Spain
-  source: null
-  checked_at: null
-  note: One-way route duration not verified; check a current routing source.
+  source: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-5.165708,36.741564?overview=false"
+  checked_at: 2026-10-16
+  note: "Route-checked one-way via OSRM (driving profile), ~95.3 km. Actual time varies with traffic."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
   - Seniors
 family_score:
   small_children: medium
   children: high
-  teenagers: high
-  adults: high
+  young_adults: high
   seniors: medium
 energy_level: Medium
 seasonality:
@@ -91,7 +89,7 @@ links:
   contact: null
 related_places: []
 description_short: "Discover Ronda's historic center, Puente Nuevo, and views over the Tajo gorge."
-description_long: "Ronda's official tourism information identifies Puente Nuevo as a defining city landmark and describes the bridge's connection between the old and newer parts of the city, with views over the Tajo gorge. This record uses Plaza de España as a representative central point. Expect a walking visit across different parts of town; step-free routing, parking, facilities, and current monument access have not been verified."
+description_long: "Ronda's official tourism information identifies Puente Nuevo as a defining city landmark and describes the bridge's connection between the old and newer parts of the city, with views over the Tajo gorge. This record uses Plaza de España as a representative central point, about 101 minutes' drive from Casa de la Familia (route-checked). Expect a walking visit across different parts of town. The bridge itself is a public viewpoint, but the Centro de Interpretación inside it requires a paid ticket (current price not confirmed from an official source). Step-free routing, parking, facilities, and the interpretation centre's accessibility status have not been verified."
 seo_title: "Ronda, Málaga: Historic Center and Puente Nuevo"
 seo_description: "Explore Ronda's historic center and Puente Nuevo above the Tajo gorge. Check current monument access, parking, and facilities before your family visit."
 images: []
@@ -112,13 +110,23 @@ evidence:
     checked_by: maps-import-agent
     confidence: high
     notes: null
+  - field: "driving_time_from_casa_de_la_familia"
+    claim: "One-way driving route from Casa de la Familia to Plaza de España, Ronda, is approximately 101 minutes (95.3 km)."
+    source_url: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-5.165708,36.741564?overview=false"
+    source_type: secondary
+    checked_at: 2026-10-16
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "OSRM public routing engine, driving profile; traffic not modelled."
+  - field: "description_long"
+    claim: "The Centro de Interpretación inside Puente Nuevo requires a paid ticket ('COMPRAR ENTRADA'); the page gives no current price."
+    source_url: https://info.turismoderonda.es/patrimonio-cultural/puente-nuevo-sobre-el-tajo/
+    source_type: official_tourism
+    checked_at: 2026-10-16
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "A 'NO ACCESIBLE' accessibility icon appears on the page but it is unclear which feature it describes; not cited as an accessibility fact. Current ticket price not found from this or another official source."
 review_issues:
-  - code: driving_time_unverified
-    severity: blocking
-    fields: [driving_time_from_casa_de_la_familia]
-    description: "Verify one-way drive time from Casa de la Familia and record route source and check date."
-    retryable: true
-    owner: fact_check
   - code: family_ratings_estimated
     severity: warning
     fields: [age_groups, family_score, energy_level, tags.Full day]
@@ -128,12 +136,12 @@ review_issues:
   - code: visitor_facilities_unverified
     severity: warning
     fields: [accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available, cost_level]
-    description: "Visitor facilities, access, and cost remain unverified."
+    description: "Visitor facilities, access, and cost remain unverified. The Centro de Interpretación's accessibility status and current ticket price could not be confirmed from the official page in this research pass."
     retryable: true
     owner: fact_check
 created_at: 2026-10-03
-updated_at: 2026-10-03
-last_verified: 2026-10-03
+updated_at: 2026-10-16
+last_verified: 2026-10-16
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -1,0 +1,23 @@
+slug,id,layer,catalogue_group,basis,note
+malaga,ES-AND-MAL-MALAGA-001,local_30km,Tæt på,route_checked_2026-10-15,"Moved from excursions_4h per editor decision 2026-10-15: layer boundary decided by straight-line km distance (driving time varies with traffic/route). 29.9 km straight-line, within the 30 km radius; route-checked drive 36 min."
+sierra-de-las-nieves,ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
+tolox,ES-AND-MAL-TOLOX-001,local_30km,Tæt på,route_checked_2026-10-15,"Moved from excursions_4h per editor decision 2026-10-15: layer boundary decided by straight-line km distance (driving time varies with traffic/route). 27.7 km straight-line, within the 30 km radius; route-checked drive 56 min."
+caminito-del-rey,ES-AND-MAL-CAMINITO-DEL-REY-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
+setenil-de-las-bodegas,ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
+antequera,ES-AND-MAL-ANTEQUERA-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
+el-torcal-de-antequera,ES-AND-MAL-EL-TORCAL-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
+nerja,ES-AND-MAL-NERJA-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
+tarifa,ES-AND-CAD-TARIFA-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
+vejer-de-la-frontera,ES-AND-CAD-VEJER-DE-LA-FRONTERA-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
+granada,ES-AND-GRA-GRANADA-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
+sevilla,ES-AND-SEV-SEVILLA-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
+cordoba,ES-AND-COR-CORDOBA-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
+cadiz,ES-AND-CAD-CADIZ-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
+jerez-de-la-frontera,ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
+gibraltar,GI-GIBRALTAR-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
+las-alpujarras,ES-AND-GRA-LAS-ALPUJARRAS-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
+marbella-old-town,ES-AND-MAL-MARBELLA-OLD-TOWN-001,local_30km,Tæt på,existing_record_not_route_checked,existing record; not edited by this package
+ronda,ES-AND-MAL-RONDA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
+frigiliana,ES-AND-MAL-FRIGILIANA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
+baelo-claudia,ES-AND-CAD-BAELO-CLAUDIA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
+duna-de-bolonia,ES-AND-CAD-DUNA-DE-BOLONIA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package

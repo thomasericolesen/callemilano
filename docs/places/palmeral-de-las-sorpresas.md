@@ -30,14 +30,12 @@ driving_time_from_casa_de_la_familia:
 age_groups:
   - Small children (0-6)
   - Children (7-12)
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
   - Seniors
 family_score:
   small_children: high
   children: high
-  teenagers: medium
-  adults: high
+  young_adults: high
   seniors: high
 energy_level: Low
 seasonality:

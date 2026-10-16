@@ -8,7 +8,7 @@ Schema version: **1.0.0**. This is the canonical contract for records stored as 
 |---|---|---:|---|
 | `schema_version` | string | Yes | Schema version, currently `1.0.0`. |
 | `status` | enum | Yes | Lifecycle status; see Record lifecycle. |
-| `id` | string | Yes | Stable ID allocated in `data/place-id-registry.csv`, format `ES-{REGION}-{PROVINCE}-{PLACE}-{NNN}` (example `ES-AND-MAL-NERJA-001`). Never change after allocation. |
+| `id` | string | Yes | Stable ID allocated in `data/place-id-registry.csv`, format `{TERRITORY}-{REGION}-{PROVINCE}-{PLACE}-{NNN}` (example `ES-AND-MAL-NERJA-001`). `TERRITORY` is the place's own country/territory code — `ES` for Spain, or another appropriate code (e.g. `GI` for Gibraltar, a British Overseas Territory) for a place outside Spain. A territory without Spain's region/province structure uses the shorter form `{TERRITORY}-{PLACE}-{NNN}` (example `GI-GIBRALTAR-001`) rather than inventing a Spanish region/province for it. Never change after allocation. |
 | `slug` | string | Yes | Unique lowercase kebab-case canonical page slug. Changing it requires a redirect entry in `redirects`. |
 | `name` | string | Yes | Canonical public name, preserving correct local spelling and accents. |
 | `category` | enum | Yes | Exactly one primary category from the controlled list. |
@@ -91,13 +91,13 @@ Choose exactly one primary category:
 - `City` — a city, town, or village recommended as a destination.
 - `Family activities` — attractions/activities centered on a visitor activity.
 
-Controlled tags: `Beach`, `Restaurant`, `Nature`, `Hiking`, `Viewpoint`, `Historic town`, `Museum`, `Adventure`, `Rainy day`, `Half day`, `Full day`, `Free`, `Premium`. Use exact spelling. Tags describe secondary features and never replace category. New or retired terms require editor-of-record approval and a schema change recorded in `docs/change-log.md`.
+Controlled tags: `Beach`, `Restaurant`, `Nature`, `Hiking`, `Viewpoint`, `Historic town`, `Museum`, `Adventure`, `Rainy day`, `Half day`, `Full day`, `Overnight`, `Free`, `Premium`. Use exact spelling. Tags describe secondary features and never replace category. `Overnight` marks a destination whose realistic one-way drive time makes a day trip impractical; use it instead of `Full day` for such a destination, not alongside it. New or retired terms require editor-of-record approval and a schema change recorded in `docs/change-log.md`.
 
 ### Age groups and family suitability
 
-`age_groups` may contain: `Small children (0-6)`, `Children (7-12)`, `Teenagers (13-17)`, `Adults`, `Seniors`.
+`age_groups` may contain: `Small children (0-6)`, `Children (7-12)`, `Young adults`, `Seniors`.
 
-`family_score` has all five keys: `small_children`, `children`, `teenagers`, `adults`, `seniors`. Values are `low`, `medium`, `high`, or `unknown`. Ratings are suitability guidance, not safety guarantees. Consider age limits, supervision, terrain, stairs, sensory demands, visit length, and mobility. A high rating does not override a formal restriction.
+`family_score` has all four keys: `small_children`, `children`, `young_adults`, `seniors`. Values are `low`, `medium`, `high`, or `unknown`. Ratings are suitability guidance, not safety guarantees. Consider age limits, supervision, terrain, stairs, sensory demands, visit length, and mobility. A high rating does not override a formal restriction.
 
 ### Energy, season, and cost
 
@@ -165,6 +165,8 @@ Each image object contains `asset_id`, `role` (`cover`, `gallery`, `map`, `decor
 
 Reserve IDs in `data/place-id-registry.csv` before creating records. Use region/province codes from the project registry and the next unused zero-padded sequence in that namespace. Check both ID and place identity to avoid duplicates. Never recycle an ID. On rename, retain the ID; if the slug changes, add the old slug to `redirects`.
 
+For a place outside Spain, use that territory's own country/territory code as the leading segment instead of `ES` (see the `id` field above); do not borrow a neighbouring Spanish region/province's codes. If a record was allocated an `ES`-namespaced ID before its territory was settled, correct it to the proper namespace before the record leaves `draft`/`needs_fact_check`/`needs_editorial_review` status — never after `approved`, per the stable-ID rule above. Record the old ID's retirement (never deletion) in `data/place-id-registry.csv` and the correction in `docs/change-log.md`.
+
 ## Example record: Nerja
 
 This is illustrative only and is not approved for publication. Unverified values are explicitly unknown, and the record remains a draft. The front-matter format below is used for canonical records; this documentation example is shown as YAML for readability.
@@ -203,14 +205,12 @@ driving_time_from_casa_de_la_familia:
 age_groups:
   - Small children (0-6)
   - Children (7-12)
-  - Teenagers (13-17)
-  - Adults
+  - Young adults
   - Seniors
 family_score:
   small_children: unknown
   children: unknown
-  teenagers: unknown
-  adults: unknown
+  young_adults: unknown
   seniors: unknown
 energy_level: Medium
 seasonality:
