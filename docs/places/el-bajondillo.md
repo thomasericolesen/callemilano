@@ -8,12 +8,12 @@ category: Beaches
 tags:
 - Beach
 coordinates:
-  latitude: null
-  longitude: null
+  latitude: 36.6271
+  longitude: -4.4916
   purpose: representative_point
-  label: Unknown; exact visitor point not established
-  source: null
-  checked_at: null
+  label: Google Maps marker 'Playa Bajondillo' (owner-read); not a parking point
+  source: Google Maps marker, read by Eric Olesen (owner); not an official source
+  checked_at: '2026-07-18'
 google_maps_url: null
 external_ids: {}
 municipality: Torremolinos
@@ -21,12 +21,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: null
+  duration: 28 min
   origin: Casa de la Familia (Calle Milano 35, 29649 Las Lagunas de Mijas, Málaga, Spain)
-  destination: Unknown; named visitor point not established
-  source: null
-  checked_at: null
-  note: Not checked. The owner's own figure is about 30 min (Google Maps, Saturday 10:00); coordinates and times have not yet been read from the Maps link. The figure is not recorded as a measured duration. Do not estimate.
+  destination: El Bajondillo, Torremolinos, Málaga, Spain (Google Maps marker, not a parking point)
+  source: 'Google Maps, measured by Eric Olesen (owner): Saturday 2026-07-18 10:00, start Calle Milano 35, 29649 Las Lagunas de Mijas (36.5356, -4.6627); no route URL recorded'
+  checked_at: '2026-07-18'
+  note: 'Google''s main figure: 28 min (typical range shown by Google: 24-35 min). Measured by the owner in Google Maps, Saturday 2026-07-18 10:00, one sample; traffic and season change the time. Destination is Google''s marker, not a parking point. The owner''s own figure was 30 min. Origin Calle Milano 35 (36.5356, -4.6627) is treated as the same place as Casa de la Familia because the coordinates agree with the project origin (36.5356875, -4.6626875) to about 10 m; not confirmed by an address source. No route URL recorded.'
 age_groups:
 - Small children (0-6)
 family_score:
@@ -125,19 +125,12 @@ evidence:
   confidence: low
   notes: '[unverified] Absence of a mention is not confirmation that there are no rocks.'
 review_issues:
-- code: coordinates_missing
-  severity: blocking
+- code: route_and_coordinates_owner_measured
+  severity: warning
   fields:
-  - coordinates.latitude
-  - coordinates.longitude
-  description: Coordinates not yet read from the owner's Maps link; not guessed. Needed for the radius filter.
-  retryable: true
-  owner: fact_check
-- code: driving_time_unverified
-  severity: blocking
-  fields:
+  - coordinates
   - driving_time_from_casa_de_la_familia
-  description: Not checked. The owner's own figure is about 30 min but the Maps link has not been read; nothing recorded as measured. Do not estimate.
+  description: 'Coordinates and driving time were read and measured by the owner in Google Maps (Saturday 2026-07-18 10:00, one sample, no route URL). Not independently route-checked; Google''s marker is not an official visitor point. local_30km rule (owner decision 2026-10-29): at most 30 min by Google''s main figure.'
   retryable: true
   owner: fact_check
 - code: google_maps_url_missing
