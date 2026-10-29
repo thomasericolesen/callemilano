@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-TOLOX-001
 slug: tolox
 name: Tolox
@@ -71,7 +71,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: "The spa's own site states it is open 1 June–16 October only; it is NOT open year-round. Today's date (2026-10-15) falls right at the edge of that stated season and could not be confirmed as currently open or closed from this research."
+  schedule: "Season 1 June - 16 October (spa's own site, re-read 2026-10-29). Closed for the season as of 29 October 2026. Dates for 2027 not published on the page."
   typical_duration: null
   booking_lead_time: null
   valid_from: "2026-06-01"
@@ -86,7 +86,7 @@ links:
   contact: "tel:+34952487091"
 related_places: []
 description_short: "Tolox is a small white-village spa town in Málaga province; its historic Balneario de Tolox (Fuente Amargosa) thermal spa is real and documented, but only operates seasonally (1 June–16 October), not year-round."
-description_long: "Tolox sits at the foot of the Sierra de las Nieves, about 56 minutes' drive from Casa de la Familia (route-checked). The town's wellness draw is the Balneario de Tolox, also known as Fuente Amargosa: a thermal spa whose hypothermal, naturally gas-bearing waters were discovered in 1867 and have been used since 1869 for respiratory-condition treatments taken by inhalation; the current building dates to 1930, rebuilt after a major 1906 flood destroyed the original. Its own website states it is open only from 1 June to 16 October each year, not year-round — this directly resolves the open editorial question about Tolox's wellness offering, but also means any visit must be timed to that window; today's date (15 October) is right at the edge of the stated season, so current same-week opening could not be confirmed. Daily hours, current treatment prices, whether day visitors (not staying at the spa) can use the facilities, and the historic town centre's own sights have not yet been confirmed from an official source."
+description_long: "Tolox sits at the foot of the Sierra de las Nieves, about 56 minutes' drive from Casa de la Familia (OSRM route check; not yet re-measured in Google Maps). The town's wellness draw is the Balneario de Tolox, also known as Fuente Amargosa: a thermal spa whose hypothermal, naturally gas-bearing waters were discovered in 1867 and have been used since 1869 for respiratory-condition treatments taken by inhalation; the current building dates to 1930, rebuilt after a major 1906 flood destroyed the original. Its own website states it is open only from 1 June to 16 October each year, not year-round — this directly resolves the open editorial question about Tolox's wellness offering, but also means any visit must be timed to that window; the spa was closed for the winter when re-checked on 29 October 2026, and the 2027 dates are not yet published. Owner decision 2026-10-29: Tolox is kept and marked as a seasonal place (June-October). Daily hours, current treatment prices, whether day visitors (not staying at the spa) can use the facilities, and the historic town centre's own sights have not yet been confirmed from an official source."
 seo_title: "Tolox, Málaga: Seasonal Thermal Spa and Village"
 seo_description: "Tolox's Balneario de Tolox thermal spa is seasonal (June-October), not year-round. Plan around the season and the drive from Casa de la Familia."
 images: []
@@ -123,13 +123,21 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: medium
     notes: "OSRM public routing engine, driving profile; traffic not modelled."
+  - field: "visit_information.schedule"
+    claim: "The Balneario de Tolox states 'Abierto del 1 de junio al 16 de octubre'; on 2026-10-29 it is therefore closed for the season. No 2027 dates are published."
+    source_url: https://www.balneariodetolox.es/
+    source_type: official_venue
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Home page of the spa, re-read 2026-10-29 (page modified 2026-07-09). The Google AI summary seen by the owner on 2026-10-29 says the same; it is not used as a source."
 review_issues:
-  - code: seasonal_opening_unconfirmed_this_week
-    severity: blocking
+  - code: season_2027_dates_unconfirmed
+    severity: warning
     fields: [visit_information.schedule]
-    description: "The spa's official season is stated as 1 June-16 October; today (2026-10-15) is within days of the season's stated end and current/same-week opening status was not confirmed by phone or a live booking page. Confirm directly before recommending a visit."
+    description: "The spa's site (re-read 2026-10-29) still says 1 June - 16 October; the spa is closed for the winter. 2027 dates are not published. Confirm with the spa before recommending a visit next season.  Owner decision 2026-10-29: Tolox stays and is marked seasonal (June-October); seasonality is Summer and Autumn."
     retryable: true
-    owner: fact_check
+    owner: editor
   - code: category_open
     severity: warning
     fields: [category, tags]
@@ -143,8 +151,8 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-15
-last_verified: 2026-10-15
+updated_at: 2026-10-29
+last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-01
 review_decision: null

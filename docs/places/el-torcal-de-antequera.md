@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "72 min"
+  duration: "85 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: "El Torcal de Antequera (Centro de Visitantes Torcal Alto), Antequera, Málaga, Spain"
-  source: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-4.5584866,36.9610790?overview=false"
-  checked_at: 2026-10-15
-  note: "Route-checked one-way via OSRM (driving profile), ~77.4 km. Actual time varies with traffic; the final approach road's exact distance marker is inconsistent between official Junta documents."
+  destination: "El Torcal de Antequera, Centro de Visitantes Torcal Alto, Ctra. de Acceso al Torcal Alto km 3,5, Antequera, Málaga, Spain"
+  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/uK3FLocJFtEtEhcq9"
+  checked_at: 2026-10-29
+  note: "Google main figure, departure about 10:00 Thursday 2026-10-29 (Google only lets the owner choose time of day, not the date). Typical range shown: 1 h 5 min to 1 h 25 min; 77.2 km via A-7 (alternatives 76.8 km via AP-46 and 86.2 km via A-7 and A-45). The headline figure is at the top of the typical range because toll roads are avoided. Replaces the OSRM figure of 72 min."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -59,38 +59,38 @@ accessibility:
   confidence: unknown
 wheelchair_friendly: unknown
 parking:
-  availability: "Two car parks (Torcal Alto/upper and a lower car park); the upper car park can close to private vehicles on busy weekends/holidays with a shuttle bus (~€2 return) from the lower car park."
+  availability: "Large car park at the Centro de Visitantes Torcal Alto for cars and coaches. On busy days (weekends, holidays) access for private cars to Torcal Alto is restricted and a shuttle runs from the lower car park (EUR 3 return). Coaches, taxis and vehicles with a disabled parking card can always enter."
   location_type: onsite
   cost: unknown
   restrictions: "Upper car park access may be restricted on peak days."
   walk_distance: unknown
-  source: "https://www.elviajedesofi.com/excursion-al-torcal-de-antequera/"
-  checked_at: 2026-10-15
+  source: "https://www.torcaldeantequera.com/"
+  checked_at: 2026-10-29
 transport_options: []
 booking_required: false
-dog_friendly: unknown
+dog_friendly: partial
 toilets_available: unknown
-food_available: unknown
+food_available: "yes"
 cost_level: "€"
 visit_information:
-  schedule: "Reported (not independently confirmed on the official site, which returned server errors this round): winter (Nov–Mar) 10:00–17:00, summer (Apr–Oct) 10:00–19:00; closed 25 Dec, 1 and 6 Jan."
+  schedule: "The nature reserve has no opening hours (visit in daylight). Visitor centre Torcal Alto: Mon-Sun 9:30-17:00 according to the park's site and 9:30-17:30 according to the Antequera municipal tourism site (30-minute difference unresolved); 24, 31 Dec and 5 Jan shorter hours; 25 Dec, 1 and 6 Jan closed. The earlier 10:00-17:00 / 10:00-19:00 hours came from a secondary source and were wrong."
   typical_duration: "Green self-guided route ~45 min (1.5 km); Yellow self-guided route ~1h30 (2.8-3 km, circular); guided routes 3-5 hours."
   booking_lead_time: "Self-guided visits need no booking; guided routes (e.g. 'Ruta de los Ammonites') should be booked ahead by phone or email as group sizes are limited."
   valid_from: null
   valid_until: null
-  cost_basis: "Entry to the reserve and visitor centre is free for self-guided visits on the marked trails. Guided activities (not independently verified against a live official page this round): 'Ruta de los Ammonites' ~€10-12.50 (~3h); 'Antigua ruta roja' ~€14.50-16.50 (~5h); guided Torcal Alto visit ~€8.50 (free under 4)."
-  cost_checked_at: 2026-10-15
+  cost_basis: "Entry to the reserve and the visitor centre is free. The shuttle from the lower car park costs EUR 3 return on days with restricted access. Guided visits for individuals (weekends, holidays) and groups are paid; current guided-route prices were not re-verified (earlier secondary figures: Ruta de los Ammonites about EUR 10-12.50, about 3 h)."
+  cost_checked_at: 2026-10-29
 links:
   official_website: https://torcaldeantequera.com/
   booking: "mailto:reservas@torcaldeantequera.com"
-  visitor_information: https://torcaldeantequera.com/informacion-practica/
+  visitor_information: https://www.torcaldeantequera.com/informacion/como-visitar-el-torcal-de-antequera/
   transport: null
   contact: null
 related_places: []
-description_short: "A striking karst landscape of wind-carved limestone pillars near Antequera, with free self-guided marked trails and paid guided routes; around 1 hour 12 minutes' drive from Casa de la Familia."
-description_long: "El Torcal de Antequera is a karst nature reserve of eroded limestone formations, about 72 minutes' drive from Casa de la Familia (route-checked). The visitor centre area sits off the Antequera–Villanueva de la Concepción road; self-guided visits on the marked Green (~45 min) and Yellow (~1h30) trails need no advance booking and appear to be free, while small-group guided routes such as the 'Ruta de los Ammonites' (around 3 hours) or longer 5-hour routes must be booked in advance by phone or email because group sizes are kept small. The rocky, uneven terrain calls for sturdy shoes; a shuttle bus can substitute for car access to the upper car park on the busiest days. The official site (torcaldeantequera.com) returned server errors during this fact-check, so opening hours, exact pricing and whether dogs are allowed should be reconfirmed directly before publication; wheelchair/stroller accessibility has not been assessed."
+description_short: "A striking karst landscape of wind-carved limestone pillars near Antequera, with free self-guided marked trails and paid guided routes; around 1 hour 25 minutes' drive from Casa de la Familia."
+description_long: "El Torcal de Antequera is a karst nature reserve of eroded limestone formations, about 85 minutes' drive from Casa de la Familia (Google Maps, toll roads avoided, measured by the owner 2026-10-29). The visitor centre area sits off the Antequera–Villanueva de la Concepción road; self-guided visits on the marked Green (~45 min) and Yellow (~1h30) trails need no advance booking and are free, while small-group guided routes such as the 'Ruta de los Ammonites' (around 3 hours) or longer 5-hour routes must be booked in advance by phone or email because group sizes are kept small. The rocky, uneven terrain calls for sturdy shoes; a shuttle bus can substitute for car access to the upper car park on the busiest days. The visitor centre (Torcal Alto) is open daily from 9:30 to 17:00 or 17:30 (the park's site and the municipality differ by 30 minutes), with a restaurant, a car park and a shuttle (EUR 3 return) on days when private cars are restricted. Dogs are allowed on a lead. The park reports three marked trails on rocky, uneven ground, two access routes adapted for visitors with reduced mobility and an adapted visitor centre; these are the operator's statements and have not been independently checked."
 seo_title: "El Torcal de Antequera: Karst Nature Reserve Near Málaga"
-seo_description: "Visit El Torcal de Antequera's limestone rock formations: self-guided trails, guided routes, and the drive from Casa de la Familia."
+seo_description: "Visit El Torcal de Antequera's limestone rock formations: free self-guided trails, guided routes, the visitor centre and the drive from Casa de la Familia."
 images: []
 evidence:
   - field: "coordinates"
@@ -125,11 +125,27 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: medium
     notes: "OSRM public routing engine, driving profile; traffic not modelled."
+  - field: "visit_information, parking, dog_friendly, food_available, accessibility"
+    claim: "Visitor centre hours, free entry, EUR 3 shuttle on restricted days, dogs allowed on a lead, restaurant, three marked trails and two accesses adapted for reduced mobility."
+    source_url: https://www.torcaldeantequera.com/
+    source_type: official_venue
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "Park/operator site, re-read 2026-10-29. The page carries unrelated injected spam text, so confidence is medium. Municipal page https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/ gives visitor-centre hours 9:30-17:30, free entry and the same visitor-centre address."
+  - field: "driving_time_from_casa_de_la_familia"
+    claim: "Google Maps drive time from Calle Milano 35 to the Centro de Visitantes Torcal Alto is 85 min (77.2 km via A-7; typical 1 h 5 min to 1 h 25 min)."
+    source_url: https://maps.app.goo.gl/uK3FLocJFtEtEhcq9
+    source_type: maps_identity
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "Measured by the owner, toll roads avoided, departure about 10:00 Thursday 2026-10-29. One sample. Replaces the OSRM figure of 72 min."
 review_issues:
   - code: official_site_unreachable
     severity: warning
     fields: [visit_information, dog_friendly, accessibility]
-    description: "torcaldeantequera.com returned HTTP 503 on direct fetch attempts; opening hours, exact current pricing, and dog policy are sourced only via secondary citation and should be reconfirmed directly against the official site before approval."
+    description: "Re-read 2026-10-29: torcaldeantequera.com now loads, but the home page contains injected spam text (it looks compromised) and its 'informacion-practica' URL returns 404. Use the Antequera municipal tourism site as the main source and re-confirm visitor-centre hours (9:30-17:00 vs 9:30-17:30) and guided-tour prices before approval."
     retryable: true
     owner: fact_check
   - code: overlap_antequera
@@ -147,12 +163,12 @@ review_issues:
   - code: visitor_facilities_unverified
     severity: warning
     fields: [accessibility, wheelchair_friendly, toilets_available, food_available]
-    description: "Wheelchair/stroller accessibility, toilets and on-site food have not been confirmed from an official source."
+    description: "Accessibility is stated only by the operator (three marked trails, two adapted accesses, adapted visitor centre); toilets are unconfirmed. Wheelchair/stroller use has not been independently assessed."
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-15
-last_verified: 2026-10-15
+updated_at: 2026-10-29
+last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15
 review_decision: null

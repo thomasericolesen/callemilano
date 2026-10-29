@@ -1,5 +1,18 @@
 # Change log
 
+## 2026-10-29 - Excursion pilot: five places re-verified (draft, additive, no schema change)
+
+Owner request: verify excursion records for young adults and seniors, pilot of five places. Branch `udflugter-verificering-1`; **draft, not pushed, not editor-approved.**
+
+- Records edited: `malaga`, `marbella-old-town`, `antequera`, `el-torcal-de-antequera`, `tolox`, `caminito-del-rey`.
+- Driving times replaced by Google Maps figures measured by the owner on Thursday 2026-10-29, toll roads avoided (owner's standing setting): Marbella old town car park 36 min, Malaga Alcazaba 47 min (car park C/ Alcazabilla 2: 49 min), Antequera Alcazaba 75 min, El Torcal visitor centre 85 min, Caminito del Rey reception centre 65 min. Old OSRM figures (34-36, 65, 72, 75 min) are superseded. One sample each, not a Saturday morning; Tolox (56 min, OSRM) not re-measured.
+- Malaga: added Cercanias C1 train from Fuengirola (about 46 min, every 20 min; station 16 min by car from the house). Fare, station parking and walking distances not verified.
+- Antequera: opening hours and prices confirmed from the municipal tourism site; blocking issue `official_links_unverified` removed; status `needs_editorial_review`.
+- El Torcal: hours corrected (earlier secondary figures were wrong); visitor-centre closing time 17:00 vs 17:30 unresolved; operator site shows injected spam text.
+- Tolox: spa open 1 June - 16 October only, closed now. Owner decision 2026-10-29: Tolox stays and is marked seasonal (June-October).
+- Caminito del Rey: reception hours, walking time and shuttle details added from the official site.
+- Not changed: schema, categories, tags, enums, layers, `AGENTS.md`.
+
 ## 2026-10-29 - Rule for local_30km: Google driving time, whole layer (no schema change)
 
 Owner decision 2026-10-29: membership of `local_30km` is decided by a one-way driving time of at most 30 minutes, taken as Google Maps' main figure, not by straight-line distance. The rule applies to the whole layer, not only to beaches. This supersedes the "Layer boundary rule" bullet in the entry "2026-10-15 - Layer-boundary decision and post-fact-check corrections" (straight-line placement).
