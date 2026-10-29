@@ -16,19 +16,25 @@
    - Río Real was removed (owner decision 2026-10-29): draft, registry row and catalog row deleted; it does not become a record.
 6. **Carta de Servicios 2026 also covers the other Fuengirola beaches** (Castillo-Ejido, Fuengirola, Carvajal); only Boliches-Gaviotas was mined for facts.
 
-## Proposed correction to the change-log (not applied)
+## Proposed change-log entry (not applied; awaiting the owner's approval)
 
 Append a new dated entry; the log is chronological, so the old entry stays and gets a one-line pointer.
 
-> ## 2026-10-29 - Correction: layer placement follows route-checked driving time
+> ## 2026-10-29 - Rule for local_30km: Google driving time, whole layer (no schema change)
 >
-> Owner decision 2026-10-29: layer placement is decided by route-checked one-way driving time, as the scope section of `AGENTS.md` and the `local_30km` rule text in `data/layers.csv` already state. This supersedes the "Layer boundary rule" bullet in the entry "2026-10-15 - Layer-boundary decision and post-fact-check corrections", which placed records by straight-line distance.
+> Owner decision 2026-10-29: membership of `local_30km` is decided by a one-way driving time of at most 30 minutes, taken as Google Maps' main figure, not by straight-line distance. The rule applies to the whole layer, not only to beaches. This supersedes the "Layer boundary rule" bullet in the entry "2026-10-15 - Layer-boundary decision and post-fact-check corrections" (straight-line placement).
 >
-> Threshold (owner decision 2026-10-29): `local_30km` means a route-checked one-way driving time of up to 30 minutes, not 30 km straight-line. It takes effect when the driving times have been measured (Google Maps, start Casa de la Familia, Saturday 10:00).
+> Measurement method (beaches): measured by the owner in Google Maps on Saturday 2026-07-18 at 10:00, one sample, from Calle Milano 35, 29649 Las Lagunas de Mijas (36.5356, -4.6627) to Google's marker for the destination (Cabopino: the parking point). Google's main figure is stored in `driving_time_from_casa_de_la_familia.duration`; the typical range and method are stored in its note.
 >
-> Not changed by this entry: any record, `data/layer-membership.csv`, `data/layers.csv`. Consequence to resolve once the threshold applies: Malaga (36 min), Tolox (56 min) and Marbella old town (34 min in `data/route-checks-2026-10-16.csv`, no time on its record) exceed 30 minutes and would leave `local_30km`. Their new placement needs a decision.
+> - Rio Real was removed (draft; it does not become a record). 13 beach drafts remain.
+> - Google main figures (min): Cabopino 20, Los Monteros 28, La Butibamba 16, Castillo-Ejido 12, Fuengirola centrum 18, Boliches-Gaviotas 16, Carvajal 20, Santa Ana 28, Fuente de la Salud 30, La Carihuela 30. All are within the limit. Fuente de la Salud and La Carihuela sit exactly on it and stay in the layer.
+> - Bajondillo, Playamar and Los Alamos: not checked. The owner's own figure is about 30 min; coordinates and Google times have not been read. Proposed to stay in the layer on that figure, provisionally, until measured.
+> - Moved out of `local_30km` by the new rule (proposed): Malaga (36 min), Marbella old town (34 min, `data/route-checks-2026-10-16.csv`), Tolox (56 min). New layer for the three: `excursions_4h` (their layer before 2026-10-15), to be confirmed by the owner.
+> - Not changed by this entry: `AGENTS.md` line 9, `data/layers.csv`, `data/layer-membership.csv`, schema, categories, tags, enums.
+> - Open: update `AGENTS.md` line 9 and the `local_30km` rule text in `data/layers.csv` to the new rule; the measurement is one summer-Saturday sample.
+> - Local only. Not pushed or merged.
 
-Suggested pointer under the old bullet: `Superseded 2026-10-29, see the correction entry above.`
+Suggested pointer under the old bullet: `Superseded 2026-10-29, see the local_30km rule entry above.`
 
 ## App database (Supabase): proposed text fixes, not executed (waiting until the owner has spoken with Christian)
 
