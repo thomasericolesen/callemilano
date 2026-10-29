@@ -11,7 +11,8 @@ Measurement method (beaches): measured by the owner in Google Maps on Saturday 2
 - Moved out of `local_30km` by the new rule: Malaga (36 min), Marbella old town (34 min, `data/route-checks-2026-10-16.csv`) and Tolox (56 min). Owner decision: they return to `excursions_4h`, where they were before 2026-10-15. This entry does not itself edit `data/layer-membership.csv`.
 - Not changed by this entry: `AGENTS.md` line 9, `data/layers.csv`, `data/layer-membership.csv`, schema, categories, tags, enums.
 - Open: update `AGENTS.md` line 9 and the `local_30km` rule text in `data/layers.csv` to the new rule; apply the layer moves in `data/layer-membership.csv`; the beach measurement is one summer-Saturday sample.
-- Local only. Not pushed or merged.
+- Applied later on 2026-10-29 (separate commit on branch `strande-kladder`): Malaga, Tolox and Marbella old town moved to `excursions_4h` in `data/layer-membership.csv`; the `local_30km` rule text in `data/layers.csv` and `AGENTS.md` line 9 now state the driving-time rule; `docs/excursions-layer-overlap.md` updated for Marbella old town. Still open: `tools/places.py` keeps a straight-line helper column (`within_primary_radius`, 30 km) that no longer decides layer placement; the other open points above remain.
+- On branch `strande-kladder`; not merged to `main`.
 
 ## 2026-10-16 — Senior itineraries (draft package; additive, no schema change)
 

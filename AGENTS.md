@@ -6,7 +6,7 @@ CalleMilano is a family travel guide for guests at Casa de la Familia, starting 
 
 ## Scope and audience (owner decision 2026-10-05)
 
-- **Primary area:** destinations within about 30 km straight-line distance of Casa de la Familia. Final inclusion is decided by route-checked one-way driving time, not by distance alone; places just beyond 30 km (e.g. central Málaga) may qualify on driving time.
+- **Primary area:** destinations within a one-way driving time of at most 30 minutes from Casa de la Familia, taken as Google Maps' main figure (owner decision 2026-10-29, superseding the earlier straight-line rule). Straight-line distance is not used for placement; places beyond 30 minutes belong to the excursion layers.
 - **Origin coordinates:** Plus Code `8C8QG8PP+7W` = latitude 36.5356875, longitude -4.6626875 (WGS 84). Use these for distance calculations; `tools/places.py` holds the same constant.
 - **Primary audience:** families with children who do not want long drives. **Secondary:** adults, seniors, and teenagers.
 - **Places beyond the primary area** remain in `docs/places/` and the analytical datasets as an archive. Do not develop, fact-check, or recommend them in the current phase unless the editor-of-record says so. Do not delete them.
