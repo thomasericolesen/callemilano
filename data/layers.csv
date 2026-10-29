@@ -1,4 +1,4 @@
 layer_id,name_da,name_en,rule,status
-local_30km,Lokalt lag,Local layer,"About 30 km straight-line from Casa de la Familia; final inclusion by route-checked one-way driving time",in_force_2026-10-05
+local_30km,Lokalt lag,Local layer,"Route-checked one-way driving time of at most 30 minutes from Casa de la Familia, taken as Google Maps main figure; straight-line distance is not used for placement",owner_decision_2026-10-29
 excursions_4h,Udflugtslag (3-4 timer),Excursion layer,"Route-checked one-way driving time up to about 4 h; day trips and overnight stays",owner_decision_2026-10-15_pending_changelog
 excursions_5h,Udflugtslag (4-5 timer),Extended excursion layer,"Route-checked one-way driving time above about 4 h and up to about 5 h; overnight routes; Portuguese places excluded for now",owner_decision_2026-10-16_pending_changelog

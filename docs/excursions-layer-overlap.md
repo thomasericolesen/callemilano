@@ -8,7 +8,7 @@ Nothing listed here was edited by the package. Decisions are for the editor-of-r
 |---|---|---|
 | Ronda og Setenil | `ronda` (ES-AND-MAL-RONDA-001) | Setenil is new (`setenil-de-las-bodegas`); link both via `related_places` after fact check. |
 | Nerja og Frigiliana | `frigiliana` (ES-AND-MAL-FRIGILIANA-001) | Nerja is new (`nerja`). |
-| Marbella og Puerto Banús | `marbella-old-town` (ES-AND-MAL-MARBELLA-OLD-TOWN-001) | In `local_30km`. Puerto Banús is not added (local layer, intake pending). |
+| Marbella og Puerto Banús | `marbella-old-town` (ES-AND-MAL-MARBELLA-OLD-TOWN-001) | In `excursions_4h` since 2026-10-29 (route-checked drive 34 min, above the 30 min limit for `local_30km`). Puerto Banús is not added (intake pending). |
 | Tarifa, Bolonia, Vejer | `baelo-claudia`, `duna-de-bolonia` | Tarifa and Vejer are new. Baelo Claudia has category `Family activities` (open question from `docs/project-state.md`). |
 
 ## Examples in `docs/examples/`

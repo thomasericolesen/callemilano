@@ -1,4 +1,17 @@
 id,slug,name,status,category,tags,municipality,province,latitude,longitude,distance_km_from_casa,within_primary_radius,driving_time,record_file
+ES-AND-MAL-CASTILLO-EJIDO-001,castillo-ejido,Castillo-Ejido,draft,Beaches,Beach,Fuengirola,Málaga,36.5253,-4.6288,3.2,yes,12 min,docs/places/castillo-ejido.md
+ES-AND-MAL-LA-BUTIBAMBA-001,la-butibamba,La Butibamba,draft,Beaches,Beach,Mijas,Málaga,36.5002,-4.6843,4.4,yes,16 min,docs/places/la-butibamba.md
+ES-AND-MAL-BOLICHES-GAVIOTAS-001,boliches-gaviotas,Boliches-Gaviotas,draft,Beaches,Beach,Fuengirola,Málaga,36.5544,-4.6116,5.0,yes,16 min,docs/places/boliches-gaviotas.md
+ES-AND-MAL-FUENGIROLA-CENTRO-001,fuengirola-centro,Fuengirola (centrum),draft,Beaches,Beach,Fuengirola,Málaga,36.5573,-4.6095,5.3,yes,18 min,docs/places/fuengirola-centro.md
+ES-AND-MAL-CARVAJAL-001,carvajal,Carvajal,draft,Beaches,Beach,Fuengirola,Málaga,36.5725,-4.5881,7.8,yes,20 min,docs/places/carvajal.md
+ES-AND-MAL-CABOPINO-ARTOLA-001,cabopino-artola,Cabopino/Artola,draft,Beaches,Beach; Nature,Marbella,Málaga,36.4853,-4.7427,9.1,yes,20 min,docs/places/cabopino-artola.md
+ES-AND-MAL-SANTA-ANA-BENALMADENA-001,santa-ana-benalmadena,Santa Ana (Torrebermeja-Santa Ana),draft,Beaches,Beach,Benalmádena,Málaga,36.5921,-4.523,14.0,yes,28 min,docs/places/santa-ana-benalmadena.md
+ES-AND-MAL-FUENTE-DE-LA-SALUD-001,fuente-de-la-salud,Fuente de la Salud,draft,Beaches,Beach,Benalmádena,Málaga,36.5986,-4.5102,15.3,yes,30 min,docs/places/fuente-de-la-salud.md
+ES-AND-MAL-LA-CARIHUELA-001,la-carihuela,La Carihuela (Montemar),draft,Beaches,Beach,Torremolinos,Málaga,36.6076,-4.5046,16.2,yes,30 min,docs/places/la-carihuela.md
+ES-AND-MAL-LOS-MONTEROS-001,los-monteros,Los Monteros (Adelfas),draft,Beaches,Beach; Nature,Marbella,Málaga,36.5027,-4.8392,16.2,yes,28 min,docs/places/los-monteros.md
+ES-AND-MAL-EL-BAJONDILLO-001,el-bajondillo,El Bajondillo,draft,Beaches,Beach,Torremolinos,Málaga,36.6271,-4.4916,18.3,yes,28 min,docs/places/el-bajondillo.md
+ES-AND-MAL-PLAYAMAR-001,playamar,Playamar,draft,Beaches,Beach,Torremolinos,Málaga,36.6306,-4.4887,18.8,yes,28 min,docs/places/playamar.md
+ES-AND-MAL-LOS-ALAMOS-001,los-alamos,Los Álamos,draft,Beaches,Beach,Torremolinos,Málaga,36.6349,-4.4856,19.3,yes,30 min,docs/places/los-alamos.md
 ES-AND-MAL-MARBELLA-OLD-TOWN-001,marbella-old-town,Marbella Old Town,needs_fact_check,City,Historic town; Museum; Restaurant; Half day,Marbella,Málaga,36.5101033,-4.8849716,20.1,yes,,docs/places/marbella-old-town.md
 ES-AND-MAL-TOLOX-001,tolox,Tolox,needs_fact_check,Excursions,Historic town; Nature; Half day,Tolox,Málaga,36.6850627,-4.9114074,27.7,yes,56 min,docs/places/tolox.md
 ES-AND-MAL-MALAGA-001,malaga,Málaga,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Málaga,Málaga,36.7201788,-4.4194052,29.9,yes,36 min,docs/places/malaga.md

@@ -1,5 +1,19 @@
 # Change log
 
+## 2026-10-29 - Rule for local_30km: Google driving time, whole layer (no schema change)
+
+Owner decision 2026-10-29: membership of `local_30km` is decided by a one-way driving time of at most 30 minutes, taken as Google Maps' main figure, not by straight-line distance. The rule applies to the whole layer, not only to beaches. This supersedes the "Layer boundary rule" bullet in the entry "2026-10-15 - Layer-boundary decision and post-fact-check corrections" (straight-line placement).
+
+Measurement method (beaches): measured by the owner in Google Maps on Saturday 2026-07-18 at 10:00, one sample, from Calle Milano 35, 29649 Las Lagunas de Mijas (36.5356, -4.6627) to Google's marker for the destination (Cabopino: the parking point). Google's main figure is stored in `driving_time_from_casa_de_la_familia.duration`; the typical range, the owner's own figure where given, and the method are stored in its note.
+
+- Rio Real was removed (draft; it does not become a record). 13 beach drafts exist in `docs/places/` (status `draft`, local, not pushed).
+- Google main figures (min): Cabopino 20, Los Monteros 28, La Butibamba 16, Castillo-Ejido 12, Fuengirola centrum 18, Boliches-Gaviotas 16, Carvajal 20, Santa Ana 28, Fuente de la Salud 30, La Carihuela 30, El Bajondillo 28, Playamar 28, Los Alamos 30. All 13 are measured and within the limit. Fuente de la Salud, La Carihuela and Los Alamos sit exactly on it and stay in the layer. Los Alamos is measured (30 min).
+- Moved out of `local_30km` by the new rule: Malaga (36 min), Marbella old town (34 min, `data/route-checks-2026-10-16.csv`) and Tolox (56 min). Owner decision: they return to `excursions_4h`, where they were before 2026-10-15. This entry does not itself edit `data/layer-membership.csv`.
+- Not changed by this entry: `AGENTS.md` line 9, `data/layers.csv`, `data/layer-membership.csv`, schema, categories, tags, enums.
+- Open: update `AGENTS.md` line 9 and the `local_30km` rule text in `data/layers.csv` to the new rule; apply the layer moves in `data/layer-membership.csv`; the beach measurement is one summer-Saturday sample.
+- Applied later on 2026-10-29 (separate commit on branch `strande-kladder`): Malaga, Tolox and Marbella old town moved to `excursions_4h` in `data/layer-membership.csv`; the `local_30km` rule text in `data/layers.csv` and `AGENTS.md` line 9 now state the driving-time rule; `docs/excursions-layer-overlap.md` updated for Marbella old town. Still open: `tools/places.py` keeps a straight-line helper column (`within_primary_radius`, 30 km) that no longer decides layer placement; the other open points above remain.
+- On branch `strande-kladder`; not merged to `main`.
+
 ## 2026-10-16 — Senior itineraries (draft package; additive, no schema change)
 
 Owner request: day trips and overnight routes for fit seniors (about 60–75), from Casa de la Familia as far as the Portuguese border. **Draft; not editor-approved.**
@@ -24,7 +38,7 @@ Gibraltar's ID is corrected from the borrowed `ES-AND-CAD-GIBRALTAR-001` to `GI-
 
 Editor-of-record decisions following fact-check of the 17 excursion-layer records:
 
-- **Layer boundary rule:** for records whose route-checked driving time was now known, the editor decided layer placement (`local_30km` vs `excursions_4h`) by straight-line km distance rather than driving time, since driving time varies with traffic/route. Málaga (29.9 km, `malaga.md`) and Tolox (27.7 km, `tolox.md`) fall within the 30 km primary radius and were moved from `excursions_4h` to `local_30km` in `data/layer-membership.csv`; their `layer_boundary_open` and `excursion_layer_scope` review issues were resolved and removed.
+- *Superseded 2026-10-29, see the "Rule for local_30km" entry above.* **Layer boundary rule:** for records whose route-checked driving time was now known, the editor decided layer placement (`local_30km` vs `excursions_4h`) by straight-line km distance rather than driving time, since driving time varies with traffic/route. Málaga (29.9 km, `malaga.md`) and Tolox (27.7 km, `tolox.md`) fall within the 30 km primary radius and were moved from `excursions_4h` to `local_30km` in `data/layer-membership.csv`; their `layer_boundary_open` and `excursion_layer_scope` review issues were resolved and removed.
 - **Gibraltar border treaty confirmed:** the previously secondary-sourced claim that routine checks were removed at the Gibraltar-Spain land frontier is now confirmed directly from an official Government of Gibraltar press release (15 July 2026, frontier gates/barrier removed). `gibraltar.md`'s `border_treaty_unconfirmed` blocking issue is resolved; a narrower, non-blocking issue remains for downstream mechanics (exact Schengen/customs handling, current queue conditions) that are still only secondary-sourced. Status advanced to `needs_editorial_review`.
 - **Jerez bodega-tasting age policy:** editor decision — no venue-specific minimum age needs chasing beyond Spain's standard legal drinking age (18), which governs the tasting regardless of how the tour is marketed. `jerez-de-la-frontera.md`'s `alcohol_age_policy_unknown` blocking issue is resolved and removed.
 
