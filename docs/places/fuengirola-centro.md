@@ -8,12 +8,12 @@ category: Beaches
 tags:
 - Beach
 coordinates:
-  latitude: null
-  longitude: null
+  latitude: 36.5573
+  longitude: -4.6095
   purpose: representative_point
-  label: Unknown; exact visitor point not established
-  source: null
-  checked_at: null
+  label: Google Maps marker (owner-read); not a parking point
+  source: Google Maps marker, read by Eric Olesen (owner); not an official source
+  checked_at: '2026-07-18'
 google_maps_url: null
 external_ids: {}
 municipality: Fuengirola
@@ -21,12 +21,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: null
-  origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: Unknown; named visitor point not established
-  source: null
-  checked_at: null
-  note: Route not checked; do not estimate from memory.
+  duration: 18 min
+  origin: Casa de la Familia (Calle Milano 35, 29649 Las Lagunas de Mijas, Málaga, Spain)
+  destination: Fuengirola (centrum), Fuengirola, Málaga, Spain (Google Maps marker, not a parking point)
+  source: 'Google Maps, measured by Eric Olesen (owner): Saturday 2026-07-18 10:00, start Calle Milano 35, 29649 Las Lagunas de Mijas (36.5356, -4.6627); no route URL recorded'
+  checked_at: '2026-07-18'
+  note: 'Google''s main figure: 18 min (typical range shown by Google: 14-20 min). Measured by the owner in Google Maps, Saturday 2026-07-18 10:00, one sample; traffic and season change the time. Destination is Google''s marker, not a parking point. Origin Calle Milano 35 (36.5356, -4.6627) is treated as the same place as Casa de la Familia because the coordinates agree with the project origin (36.5356875, -4.6626875) to about 10 m; not confirmed by an address source. No route URL recorded.'
 age_groups:
 - Small children (0-6)
 family_score:
@@ -133,26 +133,19 @@ evidence:
   confidence: low
   notes: '[unverified] Absence of a mention is not confirmation that there are no rocks.'
 review_issues:
-- code: coordinates_missing
-  severity: blocking
+- code: route_and_coordinates_owner_measured
+  severity: warning
   fields:
-  - coordinates.latitude
-  - coordinates.longitude
-  description: No coordinates in the snapshot; not guessed. Needed for the radius filter.
-  retryable: true
-  owner: fact_check
-- code: driving_time_unverified
-  severity: blocking
-  fields:
+  - coordinates
   - driving_time_from_casa_de_la_familia
-  description: Not route-checked. The snapshot's 15-30 minutes is the owner's inclusion criterion, not a measurement. Do not estimate.
+  description: 'Coordinates and driving time were read and measured by the owner in Google Maps (Saturday 2026-07-18 10:00, one sample, no route URL). Not independently route-checked; Google''s marker is not an official visitor point. local_30km rule (owner decision 2026-10-29): at most 30 min by Google''s main figure.'
   retryable: true
   owner: fact_check
 - code: google_maps_url_missing
   severity: info
   fields:
   - google_maps_url
-  description: The snapshot has no Maps link.
+  description: No Maps link recorded on this draft.
   retryable: true
   owner: fact_check
 - code: subjective_assessments_need_human_review

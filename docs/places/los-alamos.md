@@ -22,11 +22,11 @@ autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
   duration: null
-  origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
+  origin: Casa de la Familia (Calle Milano 35, 29649 Las Lagunas de Mijas, Málaga, Spain)
   destination: Unknown; named visitor point not established
   source: null
   checked_at: null
-  note: Route not checked; do not estimate from memory.
+  note: Not checked. The owner's own figure is about 30 min (Google Maps, Saturday 10:00); coordinates and times have not yet been read from the Maps link. The figure is not recorded as a measured duration. Do not estimate.
 age_groups: []
 family_score:
   small_children: unknown
@@ -129,21 +129,21 @@ review_issues:
   fields:
   - coordinates.latitude
   - coordinates.longitude
-  description: No coordinates in the snapshot; not guessed. Needed for the radius filter.
+  description: Coordinates not yet read from the owner's Maps link; not guessed. Needed for the radius filter.
   retryable: true
   owner: fact_check
 - code: driving_time_unverified
   severity: blocking
   fields:
   - driving_time_from_casa_de_la_familia
-  description: Not route-checked. The snapshot's 15-30 minutes is the owner's inclusion criterion, not a measurement. Do not estimate.
+  description: Not checked. The owner's own figure is about 30 min but the Maps link has not been read; nothing recorded as measured. Do not estimate.
   retryable: true
   owner: fact_check
 - code: google_maps_url_missing
   severity: info
   fields:
   - google_maps_url
-  description: The snapshot has no Maps link.
+  description: No Maps link recorded on this draft.
   retryable: true
   owner: fact_check
 - code: subjective_assessments_need_human_review
