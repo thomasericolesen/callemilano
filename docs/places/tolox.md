@@ -135,7 +135,7 @@ review_issues:
   - code: season_2027_dates_unconfirmed
     severity: warning
     fields: [visit_information.schedule]
-    description: "The spa's site (re-read 2026-10-29) still says 1 June - 16 October; the spa is closed for the winter. 2027 dates are not published. Confirm with the spa (tel. +34 952 48 70 91) before recommending a visit next season. The owner has not yet decided whether Tolox stays in the young-adult and senior excursion list or is marked seasonal (June-October)."
+    description: "The spa's site (re-read 2026-10-29) still says 1 June - 16 October; the spa is closed for the winter. 2027 dates are not published. Confirm with the spa before recommending a visit next season. The owner has not yet decided whether Tolox stays in the young-adult and senior excursion list or is marked seasonal (June-October)."
     retryable: true
     owner: editor
   - code: category_open
