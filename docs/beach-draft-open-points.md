@@ -22,7 +22,9 @@ Append a new dated entry; the log is chronological, so the old entry stays and g
 >
 > Owner decision 2026-10-29: layer placement is decided by route-checked one-way driving time, as the scope section of `AGENTS.md` and the `local_30km` rule text in `data/layers.csv` already state. This supersedes the "Layer boundary rule" bullet in the entry "2026-10-15 - Layer-boundary decision and post-fact-check corrections", which placed records by straight-line distance.
 >
-> Not changed by this entry: any record, `data/layer-membership.csv`, `data/layers.csv`. To resolve: Málaga (36 min) and Tolox (56 min) were moved to `local_30km` under the superseded rule; Marbella old town is in `local_30km` with no route-checked time on its record (34 min in `data/route-checks-2026-10-16.csv`). Their placement must be re-decided once a minutes threshold for `local_30km` is set ("about 30 km" is a distance, not a time).
+> Threshold (owner decision 2026-10-29): `local_30km` means a route-checked one-way driving time of up to 30 minutes, not 30 km straight-line. It takes effect when the driving times have been measured (Google Maps, start Casa de la Familia, Saturday 10:00).
+>
+> Not changed by this entry: any record, `data/layer-membership.csv`, `data/layers.csv`. Consequence to resolve once the threshold applies: Malaga (36 min), Tolox (56 min) and Marbella old town (34 min in `data/route-checks-2026-10-16.csv`, no time on its record) exceed 30 minutes and would leave `local_30km`. Their new placement needs a decision.
 
 Suggested pointer under the old bullet: `Superseded 2026-10-29, see the correction entry above.`
 
