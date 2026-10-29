@@ -9,7 +9,7 @@ Owner request: verify excursion records for young adults and seniors, pilot of f
 - Malaga: added Cercanias C1 train from Fuengirola (about 46 min, every 20 min; station 16 min by car from the house). Fare, station parking and walking distances not verified.
 - Antequera: opening hours and prices confirmed from the municipal tourism site; blocking issue `official_links_unverified` removed; status `needs_editorial_review`.
 - El Torcal: hours corrected (earlier secondary figures were wrong); visitor-centre closing time 17:00 vs 17:30 unresolved; operator site shows injected spam text.
-- Tolox: spa open 1 June - 16 October only, closed now. Owner decision open: remove from young-adult/senior list or mark seasonal.
+- Tolox: spa open 1 June - 16 October only, closed now. Owner decision 2026-10-29: Tolox stays and is marked seasonal (June-October).
 - Caminito del Rey: reception hours, walking time and shuttle details added from the official site.
 - Not changed: schema, categories, tags, enums, layers, `AGENTS.md`.
 
