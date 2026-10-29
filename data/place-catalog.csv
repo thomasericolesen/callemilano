@@ -27,14 +27,25 @@ ES-CLM-ALB-ALCALA-DEL-JUCAR-001,alcala-del-jucar,Alcalá del Júcar,needs_fact_c
 ES-CYL-SEG-ALCAZAR-DE-SEGOVIA-001,alcazar-de-segovia,Alcázar de Segovia,needs_fact_check,Family activities,Museum; Viewpoint,Segovia,Segovia,,,,,,docs/places/alcazar-de-segovia.md
 ES-AND-HUE-ARACENA-001,aracena,Aracena,needs_fact_check,City,Historic town,Aracena,Huelva,,,,,,docs/places/aracena.md
 ES-BAL-BAL-BELLVER-SLOT-001,bellver-slot,Bellver Slot,needs_fact_check,Family activities,Museum; Viewpoint,Unknown,Unknown,,,,,,docs/places/bellver-slot.md
+ES-AND-MAL-BOLICHES-GAVIOTAS-001,boliches-gaviotas,Boliches-Gaviotas,draft,Beaches,Beach,Fuengirola,Málaga,,,,,,docs/places/boliches-gaviotas.md
+ES-AND-MAL-CABOPINO-ARTOLA-001,cabopino-artola,Cabopino/Artola,draft,Beaches,Beach; Nature,Marbella,Málaga,,,,,,docs/places/cabopino-artola.md
 ,cares,Cares,draft,Nature,Nature; Hiking,Unknown,Unknown,,,,,,docs/places/cares.md
+ES-AND-MAL-CARVAJAL-001,carvajal,Carvajal,draft,Beaches,Beach,Fuengirola,Málaga,,,,,,docs/places/carvajal.md
+ES-AND-MAL-CASTILLO-EJIDO-001,castillo-ejido,Castillo-Ejido,draft,Beaches,Beach,Fuengirola,Málaga,,,,,,docs/places/castillo-ejido.md
 ES-CYL-LEO-COLUMPIO-DE-RIANO-001,columpio-de-riano,Columpio de Riaño,needs_fact_check,Nature,Viewpoint; Adventure,Unknown,Unknown,,,,,,docs/places/columpio-de-riano.md
 ,conil-de-la-frontera,CONIL DE LA FRONTERA,draft,City,Beach; Historic town,Unknown,Unknown,,,,,,docs/places/conil-de-la-frontera.md
 ,cueva-de-los-arcos,Cueva de los Arcos,draft,Nature,Nature,Unknown,Unknown,,,,,,docs/places/cueva-de-los-arcos.md
+ES-AND-MAL-EL-BAJONDILLO-001,el-bajondillo,El Bajondillo,draft,Beaches,Beach,Torremolinos,Málaga,,,,,,docs/places/el-bajondillo.md
 ES-CAT-LLE-ESTANY-DE-SANT-MAURICI-001,estany-de-sant-maurici,Estany de Sant Maurici,needs_fact_check,Nature,Nature; Hiking; Viewpoint,Espot,Lleida,,,,,,docs/places/estany-de-sant-maurici.md
+ES-AND-MAL-FUENGIROLA-CENTRO-001,fuengirola-centro,Fuengirola (centrum),draft,Beaches,Beach,Fuengirola,Málaga,,,,,,docs/places/fuengirola-centro.md
+ES-AND-MAL-FUENTE-DE-LA-SALUD-001,fuente-de-la-salud,Fuente de la Salud,draft,Beaches,Beach,Benalmádena,Málaga,,,,,,docs/places/fuente-de-la-salud.md
 ES-BAS-BIZ-GAZTELUGATXEKO-DONIENE-001,gaztelugatxeko-doniene,Gaztelugatxeko Doniene,needs_fact_check,Nature,Viewpoint; Hiking,Bermeo,Bizkaia,,,,,,docs/places/gaztelugatxeko-doniene.md
+ES-AND-MAL-LA-BUTIBAMBA-001,la-butibamba,La Butibamba,draft,Beaches,Beach,Mijas,Málaga,,,,,,docs/places/la-butibamba.md
+ES-AND-MAL-LA-CARIHUELA-001,la-carihuela,La Carihuela (Montemar),draft,Beaches,Beach,Torremolinos,Málaga,,,,,,docs/places/la-carihuela.md
 ES-VAL-CAS-LA-VALL-DUIXO-001,la-vall-duixo,La Vall d'Uixó,needs_fact_check,City,,Unknown,Unknown,,,,,,docs/places/la-vall-duixo.md
+ES-AND-MAL-LOS-ALAMOS-001,los-alamos,Los Álamos,draft,Beaches,Beach,Torremolinos,Málaga,,,,,,docs/places/los-alamos.md
 ES-AND-CAD-LOS-CANOS-DE-MECA-001,los-canos-de-meca,Los Caños de Meca,needs_fact_check,Beaches,Beach; Nature,Unknown,Cádiz,,,,,,docs/places/los-canos-de-meca.md
+ES-AND-MAL-LOS-MONTEROS-001,los-monteros,Los Monteros (Adelfas),draft,Beaches,Beach; Nature,Marbella,Málaga,,,,,,docs/places/los-monteros.md
 ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,mercado-de-atarazanas,Mercado de Atarazanas,needs_fact_check,Excursions,,Málaga,Málaga,,,,,,docs/places/mercado-de-atarazanas.md
 ,miradouro-da-serpente-do-medal,Miradouro da Serpente do Medal,draft,Nature,Viewpoint; Hiking,Mogadouro,Unknown,,,,,,docs/places/miradouro-da-serpente-do-medal.md
 ES-CAT-BAR-MORRO-DE-LABELLA-001,morro-de-labella,Morro de l'Abella,needs_fact_check,Nature,Viewpoint; Nature,Tavertet,Barcelona,,,,,,docs/places/morro-de-labella.md
@@ -42,7 +53,10 @@ ES-AND-CAD-OLVERA-CASTLE-001,olvera-castle,Olvera Castle,needs_fact_check,Family
 ES-AND-MAL-PALMERAL-DE-LAS-SORPRESAS-001,palmeral-de-las-sorpresas,Palmeral de Las Sorpresas,needs_fact_check,City,,Málaga,Málaga,,,,,,docs/places/palmeral-de-las-sorpresas.md
 ES-VAL-ALI-PASARELA-DE-RELLEU-001,pasarela-de-relleu,PASARELA DE RELLEU,needs_fact_check,Nature,Hiking; Adventure; Viewpoint,Relleu,Alicante,,,,,,docs/places/pasarela-de-relleu.md
 ES-AND-MAL-PLAYA-LA-MALAGUETA-001,playa-la-malagueta,Playa la Malagueta,needs_fact_check,Beaches,Beach,Málaga,Málaga,,,,,,docs/places/playa-la-malagueta.md
+ES-AND-MAL-PLAYAMAR-001,playamar,Playamar,draft,Beaches,Beach,Torremolinos,Málaga,,,,,,docs/places/playamar.md
+ES-AND-MAL-RIO-REAL-001,rio-real,Río Real,draft,Beaches,Beach,Marbella,Málaga,,,,,,docs/places/rio-real.md
 ,roca-foradada,Roca Foradada,draft,Nature,Nature; Viewpoint,Unknown,Unknown,,,,,,docs/places/roca-foradada.md
 ,salt-de-la-coromina,Salt de la Coromina,draft,Nature,Nature; Hiking,Unknown,Unknown,,,,,,docs/places/salt-de-la-coromina.md
 ES-CAT-BAR-SALT-DE-SALLENT-001,salt-de-sallent,Salt de Sallent,needs_fact_check,Nature,Nature; Hiking; Viewpoint,Rupit i Pruit,Barcelona,,,,,,docs/places/salt-de-sallent.md
+ES-AND-MAL-SANTA-ANA-BENALMADENA-001,santa-ana-benalmadena,Santa Ana (Torrebermeja-Santa Ana),draft,Beaches,Beach,Benalmádena,Málaga,,,,,,docs/places/santa-ana-benalmadena.md
 ES-BAS-GIP-ZUMAIA-001,zumaia,Zumaia,needs_fact_check,City,Historic town,Zumaia,Gipuzkoa,,,,,,docs/places/zumaia.md
