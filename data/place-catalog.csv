@@ -12,15 +12,15 @@ ES-AND-MAL-LOS-MONTEROS-001,los-monteros,Los Monteros (Adelfas),draft,Beaches,Be
 ES-AND-MAL-EL-BAJONDILLO-001,el-bajondillo,El Bajondillo,draft,Beaches,Beach,Torremolinos,Málaga,36.6271,-4.4916,18.3,yes,28 min,docs/places/el-bajondillo.md
 ES-AND-MAL-PLAYAMAR-001,playamar,Playamar,draft,Beaches,Beach,Torremolinos,Málaga,36.6306,-4.4887,18.8,yes,28 min,docs/places/playamar.md
 ES-AND-MAL-LOS-ALAMOS-001,los-alamos,Los Álamos,draft,Beaches,Beach,Torremolinos,Málaga,36.6349,-4.4856,19.3,yes,30 min,docs/places/los-alamos.md
-ES-AND-MAL-MARBELLA-OLD-TOWN-001,marbella-old-town,Marbella Old Town,needs_fact_check,City,Historic town; Museum; Restaurant; Half day,Marbella,Málaga,36.5101033,-4.8849716,20.1,yes,,docs/places/marbella-old-town.md
-ES-AND-MAL-TOLOX-001,tolox,Tolox,needs_fact_check,Excursions,Historic town; Nature; Half day,Tolox,Málaga,36.6850627,-4.9114074,27.7,yes,56 min,docs/places/tolox.md
-ES-AND-MAL-MALAGA-001,malaga,Málaga,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Málaga,Málaga,36.7201788,-4.4194052,29.9,yes,36 min,docs/places/malaga.md
+ES-AND-MAL-MARBELLA-OLD-TOWN-001,marbella-old-town,Marbella Old Town,needs_fact_check,City,Historic town; Museum; Restaurant; Half day,Marbella,Málaga,36.5101033,-4.8849716,20.1,yes,36 min,docs/places/marbella-old-town.md
+ES-AND-MAL-TOLOX-001,tolox,Tolox,needs_editorial_review,Excursions,Historic town; Nature; Half day,Tolox,Málaga,36.6850627,-4.9114074,27.7,yes,56 min,docs/places/tolox.md
+ES-AND-MAL-MALAGA-001,malaga,Málaga,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Málaga,Málaga,36.7201788,-4.4194052,29.9,yes,47 min,docs/places/malaga.md
 ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,sierra-de-las-nieves,Sierra de las Nieves,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Full day,Sierra de las Nieves,Málaga,36.7904469,-4.9480972,38.1,no,79 min,docs/places/sierra-de-las-nieves.md
 ES-AND-MAL-SELWO-AVENTURA-001,selwo-aventura,Selwo Aventura,needs_fact_check,Family activities,Nature; Adventure; Full day,Estepona,Málaga,36.462831,-5.0856,38.7,no,,docs/places/selwo-aventura.md
-ES-AND-MAL-CAMINITO-DEL-REY-001,caminito-del-rey,Caminito del Rey,needs_editorial_review,Excursions,Nature; Hiking; Adventure; Viewpoint; Full day,Ardales,Málaga,36.914782,-4.8080823,44.1,no,75 min,docs/places/caminito-del-rey.md
-ES-AND-MAL-EL-TORCAL-001,el-torcal-de-antequera,El Torcal de Antequera,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Half day,Antequera,Málaga,36.961079,-4.5584866,48.2,no,72 min,docs/places/el-torcal-de-antequera.md
+ES-AND-MAL-CAMINITO-DEL-REY-001,caminito-del-rey,Caminito del Rey,needs_editorial_review,Excursions,Nature; Hiking; Adventure; Viewpoint; Full day,Ardales,Málaga,36.914782,-4.8080823,44.1,no,65 min,docs/places/caminito-del-rey.md
+ES-AND-MAL-EL-TORCAL-001,el-torcal-de-antequera,El Torcal de Antequera,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Half day,Antequera,Málaga,36.961079,-4.5584866,48.2,no,85 min,docs/places/el-torcal-de-antequera.md
 ES-AND-MAL-RONDA-001,ronda,Ronda,needs_editorial_review,City,Historic town; Viewpoint; Nature; Full day,Ronda,Málaga,36.741564,-5.165708,50.4,no,101 min,docs/places/ronda.md
-ES-AND-MAL-ANTEQUERA-001,antequera,Antequera,needs_fact_check,City,Historic town; Museum; Restaurant; Full day,Antequera,Málaga,37.0144361,-4.5577719,54.0,no,65 min,docs/places/antequera.md
+ES-AND-MAL-ANTEQUERA-001,antequera,Antequera,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Antequera,Málaga,37.0144361,-4.5577719,54.0,no,75 min,docs/places/antequera.md
 ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,setenil-de-las-bodegas,Setenil de las Bodegas,needs_editorial_review,City,Historic town; Restaurant; Half day,Setenil de las Bodegas,Cádiz,36.8638359,-5.1811411,58.9,no,121 min,docs/places/setenil-de-las-bodegas.md
 ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001,zahara-de-la-sierra,Zahara de la Sierra,needs_fact_check,City,Historic town; Viewpoint; Nature,Zahara de la Sierra,Cádiz,36.840068,-5.388687,73.0,no,,docs/places/zahara-de-la-sierra.md
 ES-AND-MAL-NERJA-001,nerja,Nerja,needs_editorial_review,City,Beach; Historic town; Restaurant; Full day,Nerja,Málaga,36.7442658,-3.8753957,74.0,no,76 min,docs/places/nerja.md

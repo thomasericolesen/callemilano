@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "36 min"
+  duration: "47 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: "Málaga Cathedral, Calle Molina Lario 9, Málaga, Spain"
-  source: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-4.4194052,36.7201788?overview=false"
-  checked_at: 2026-10-15
-  note: "Route-checked one-way via OSRM (driving profile), ~37.6 km. Actual time varies with traffic and time of day."
+  destination: "Alcazaba de Málaga, Centro, Málaga, Spain (the cathedral is close by)"
+  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/WniHZKB2mgfWtWdG9"
+  checked_at: 2026-10-29
+  note: "Google main figure, live traffic Thursday 2026-10-29 about 15:00 (not the Saturday-morning sample used for beaches). 36.6 km via AP-7. Parking at C/ Alcazabilla 2 (owner's saved pin): 49 min, 40.6 km (https://maps.app.goo.gl/ps3S9V82tipKPrfV7). Replaces the OSRM figure of 36 min (2026-10-15), which was too low against Google."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -61,14 +61,19 @@ accessibility:
   confidence: unknown
 wheelchair_friendly: unknown
 parking:
-  availability: unknown
-  location_type: unknown
+  availability: "Car park at C/ Alcazabilla 2 (owner's saved Google Maps pin 'Málaga parking favorito'); price, hours and capacity not verified."
+  location_type: nearby
   cost: unknown
   restrictions: unknown
   walk_distance: unknown
-  source: null
-  checked_at: null
-transport_options: []
+  source: https://maps.app.goo.gl/ps3S9V82tipKPrfV7
+  checked_at: 2026-10-29
+transport_options:
+  - mode: train
+    description: "Cercanías C1 Fuengirola - Málaga Centro-Alameda (stops include Los Boliches, Arroyo de la Miel, Torremolinos, Málaga airport and María Zambrano). Full line about 46 min (for example dep. Fuengirola 10:00, arr. Centro-Alameda 10:46); every 20 min during the day, daily. Fuengirola station (Paseo Jesús Santos Rein 5) is 16 min by car from Casa de la Familia (Google Maps, owner, 2026-10-29, https://maps.app.goo.gl/CEJcK1SBksfEAChq9). Station parking, taxi price and the walk from Centro-Alameda to the Alcazaba and cathedral are not verified."
+    cost: "Zone-based fare (Renfe); amount for Fuengirola - Málaga not confirmed"
+    source: "https://siu.ctmam.ctan.es/es/movil/horarios_lineas_tabla.php?linea=160"
+    checked_at: 2026-10-29
 booking_required: false
 dog_friendly: unknown
 toilets_available: unknown
@@ -86,13 +91,13 @@ links:
   official_website: https://malagacatedral.com/
   booking: https://malagacatedral.com/visita-cultural/tarifas-y-horarios/
   visitor_information: https://alcazabaygibralfaro.malaga.eu/es/visitas/horarios-y-tarifas/
-  transport: null
+  transport: https://www.renfe.com/es/es/cercanias/cercanias-malaga
   contact: null
 related_places: []
 description_short: "Málaga's historic centre, built around its 16th-century cathedral and the hilltop Alcazaba fortress, makes an easy day trip from Casa de la Familia with museums, tapas bars and sea views."
-description_long: "Málaga is the provincial capital, about 36 minutes' drive from Casa de la Familia (route-checked, no tolls assumed). The historic centre is anchored by the Catedral de la Encarnación (Calle Molina Lario 9), open with seasonal hours (shorter on Sundays) and priced at €10 for a general ticket including an audioguide, with reduced rates for teenagers, students and seniors; a rooftop ('Cubiertas') tour and an organ tour are offered separately. A short walk away, the Alcazaba hilltop fortress (and the adjoining Gibralfaro castle) is open daily with a combined ticket around €10 and free entry every Sunday afternoon; expect stairs and uneven, sloping paths on the fortress grounds. Beyond these two sights, the old town has pedestrian shopping streets, tapas bars and museums (not yet itemised here). Accessibility, parking, and dog policy at these venues have not yet been confirmed from an official source and should be checked before a visit with mobility needs or pets."
+description_long: "Málaga is the provincial capital, about 47 minutes' drive from Casa de la Familia (Google Maps, toll roads avoided, measured by the owner 2026-10-29), or about 46 minutes by Cercanías C1 train from Fuengirola station, which is 16 minutes' drive from the house and avoids city-centre parking. The historic centre is anchored by the Catedral de la Encarnación (Calle Molina Lario 9), open with seasonal hours (shorter on Sundays) and priced at €10 for a general ticket including an audioguide, with reduced rates for teenagers, students and seniors; a rooftop ('Cubiertas') tour and an organ tour are offered separately; the rooftop tour climbs a narrow spiral staircase of about 200 steps and the cathedral's site says it is not suitable for visitors who cannot manage stairs. A short walk away, the Alcazaba hilltop fortress (and the adjoining Gibralfaro castle) is open daily with a combined ticket around €10 and free entry every Sunday afternoon; expect stairs and uneven, sloping paths on the fortress grounds. Beyond these two sights, the old town has pedestrian shopping streets, tapas bars and museums (not yet itemised here). Accessibility, parking, and dog policy at these venues have not yet been confirmed from an official source and should be checked before a visit with mobility needs or pets."
 seo_title: "Málaga City: Cathedral, Alcazaba and Historic Centre"
-seo_description: "Plan a day trip to Málaga from Casa de la Familia: cathedral and Alcazaba opening hours and prices, plus the route-checked 36-minute drive."
+seo_description: "Plan a day trip to Málaga from Casa de la Familia: cathedral and Alcazaba opening hours and prices, plus the 47-minute drive or the train from Fuengirola."
 images: []
 evidence:
   - field: "coordinates"
@@ -127,6 +132,30 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: medium
     notes: "OSRM public routing engine (router.project-osrm.org), driving profile; a real routed calculation rather than an estimate, but traffic conditions are not modelled. Treat as indicative; recommend re-checking with live traffic conditions before publication."
+  - field: "driving_time_from_casa_de_la_familia, parking"
+    claim: "Google Maps drive time from Calle Milano 35 to the Alcazaba is 47 min (36.6 km) and to the car park at C/ Alcazabilla 2 is 49 min (40.6 km); Fuengirola train station is 16 min (5.1 km)."
+    source_url: https://maps.app.goo.gl/WniHZKB2mgfWtWdG9
+    source_type: maps_identity
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "Measured by the owner in Google Maps, toll roads avoided, Thursday 2026-10-29 around 15:00 with live traffic. One sample, not a Saturday morning. Replaces the OSRM figure of 36 min."
+  - field: "transport_options"
+    claim: "Cercanías C1 runs Fuengirola - Málaga Centro-Alameda in about 46 min, every 20 min in the daytime, daily."
+    source_url: https://siu.ctmam.ctan.es/es/movil/horarios_lineas_tabla.php?linea=160
+    source_type: official_transport
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Timetable of the Consorcio de Transportes Metropolitano del Área de Málaga (SIU). Renfe page https://www.renfe.com/es/es/cercanias/cercanias-malaga confirms the Málaga Cercanías network, fares by zone and contactless payment at the gates. Fare for this trip not confirmed."
+  - field: "visit_information.schedule, visit_information.cost_basis, description_long"
+    claim: "Re-checked 2026-10-29: cathedral hours and prices unchanged (seniors 65+ EUR 9, general EUR 10); the rooftop tour has about 200 spiral steps and is not recommended for people with limited mobility. Alcazaba/Gibralfaro: winter (1 Nov - 31 Mar) 9:00-18:00, summer 9:00-20:00; general EUR 7, combined EUR 10, reduced EUR 3 (EU citizens over 65 and others), free on Sundays from 14:00."
+    source_url: https://malagacatedral.com/visita-cultural/tarifas-y-horarios/
+    source_type: official_venue
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Alcazaba figures from https://alcazabaygibralfaro.malaga.eu/es/visitas/horarios-y-tarifas/ (Ayuntamiento de Málaga), same date."
 review_issues:
   - code: visitor_facilities_unverified
     severity: warning
@@ -135,8 +164,8 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-15
-last_verified: 2026-10-15
+updated_at: 2026-10-29
+last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-15
 review_decision: null

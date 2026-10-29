@@ -25,12 +25,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "75 min"
+  duration: "65 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: "Centro de Recepción de Visitantes, Caminito del Rey, Ardales, Málaga, Spain"
-  source: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-4.8080823,36.9147820?overview=false"
-  checked_at: 2026-10-15
-  note: "Route-checked one-way via OSRM (driving profile), ~76.4 km. Actual time varies with traffic. The official site separately states 57.7 km from Málaga city, 6 km from the Ardales road junction, and 51 km from Antequera."
+  destination: "Centro de Recepción de Visitantes, Puerto de las Atalayas (Google Maps: Caminito del Rey Visitor Reception Centre), Ardales, Málaga, Spain"
+  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/y7VrPab9e4HezvHg8"
+  checked_at: 2026-10-29
+  note: "Google main figure, departure about 10:00 Thursday 2026-10-29 (Google only lets the owner choose time of day, not the date). Typical range shown: 1 h to 1 h 15 min; 62.3 km via A-357. Replaces the OSRM figure of 75 min (2026-10-15); an earlier Google pin 'Caminito del rey' (not the reception centre) gave 1 h 17 min."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -69,7 +69,7 @@ parking:
   checked_at: 2026-10-15
 transport_options:
   - mode: shuttle_bus
-    description: "Shuttle bus between the car park/reception area and the walkway access."
+    description: "Shuttle bus between the reception centre car park and the walkway exit at El Chorro, 7:40-20:00, about 15-20 min; one ticket allows travel in both directions all day. Service is not run by Caminito del Rey."
     cost: "€2.50"
     source: https://caminitodelrey.info/informacion-practica/
     checked_at: 2026-10-15
@@ -79,12 +79,12 @@ toilets_available: unknown
 food_available: unknown
 cost_level: "€"
 visit_information:
-  schedule: null
-  typical_duration: null
+  schedule: "Visitor reception centre (Puerto de las Atalayas): 8:00-14:30. Shuttle bus between the reception centre and the walkway exit at El Chorro: 7:40-20:00, about 15-20 min. The walk itself takes about 1 h 30 min - 2 h one way (linear route, not a loop). The operator recommends being parked at least 1 hour before the booked time. Seasonal changes are announced on the official site and its Telegram channel."
+  typical_duration: "About 1 h 30 min - 2 h on the walkway, plus the shuttle (15-20 min) back to the car park"
   booking_lead_time: "Online booking (caminitodelrey.info) is the primary route, limited to 10 tickets per purchase; phone booking also available (+34 952 47 05 05), payment due on arrival. Tickets at the ticket office are sold only subject to availability — online booking in advance is effectively required, especially in high season."
   valid_from: null
   valid_until: null
-  cost_basis: "General entry ~€10; official guided tour ~€18 (groups up to 30, Spanish/English); shuttle bus €2.50; parking €2/day."
+  cost_basis: "General entry ~€10; official guided tour ~€18 (groups up to 30, Spanish/English); shuttle bus €2.50 (not included in the ticket; on the day it can be paid only in cash to the driver, no cards; it can also be bought online with the ticket); parking €2/day. Tickets can also be bought at the north-access ticket office subject to availability."
   cost_checked_at: 2026-10-15
 links:
   official_website: https://caminitodelrey.info/
@@ -93,8 +93,8 @@ links:
   transport: null
   contact: "tel:+34952470505"
 related_places: []
-description_short: "A dramatic walkway along a gorge wall near Ardales; advance online booking is effectively required, and under-8s cannot enter. About 1 hour 15 minutes' drive from Casa de la Familia."
-description_long: "Caminito del Rey is a walkway fixed to the wall of the El Chorro gorge, reached via the official Centro de Recepción de Visitantes at Puerto de las Atalayas, on the Ardales side, about 75 minutes' drive from Casa de la Familia (route-checked; the official site separately states 57.7 km from Málaga city). Tickets are sold mainly through online booking at caminitodelrey.info (up to 10 per purchase) or by phone, with payment due on arrival; the on-site ticket office sells only subject to availability, so advance booking should be treated as effectively required, particularly in high season. General entry is around €10, with an official guided tour around €18, a shuttle bus at €2.50 and on-site parking at €2 per day. Access rules are strict and relevant for families: children under 8 are not admitted at all, visitors over 8 must show an original ID document to prove their age, and anyone under 18 must be accompanied by an adult. Opening hours, exact route length/duration, and difficulty level were not confirmed from the official pages reached in this fact-check and should be checked directly before publication, along with whether dogs are permitted."
+description_short: "A dramatic walkway along a gorge wall near Ardales; advance online booking is effectively required, and under-8s cannot enter. About 1 hour 5 minutes' drive from Casa de la Familia."
+description_long: "Caminito del Rey is a walkway fixed to the wall of the El Chorro gorge, reached via the official Centro de Recepción de Visitantes at Puerto de las Atalayas, on the Ardales side, about 65 minutes' drive from Casa de la Familia (Google Maps, toll roads avoided, measured by the owner 2026-10-29; the official site separately states 57.7 km from Málaga city). Tickets are sold mainly through online booking at caminitodelrey.info (up to 10 per purchase) or by phone, with payment due on arrival; the on-site ticket office sells only subject to availability, so advance booking should be treated as effectively required, particularly in high season. General entry is around €10, with an official guided tour around €18, a shuttle bus at €2.50 (cash only on the day) and on-site parking at €2 per day. The walk takes about 1.5 to 2 hours; the reception centre is open 8:00-14:30 and the operator advises being parked at least an hour before the booked time. Access rules are strict and relevant for families: children under 8 are not admitted at all, visitors over 8 must show an original ID document to prove their age, and anyone under 18 must be accompanied by an adult. Route length, difficulty level and dog policy are not stated on the official pages reached and should be checked before publication."
 seo_title: "Caminito del Rey: Walkway, Booking and Access Rules"
 seo_description: "Plan a visit to Caminito del Rey near Ardales: booking, pricing, the age-8 minimum, and the drive from Casa de la Familia."
 images: []
@@ -123,11 +123,27 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: medium
     notes: "OSRM public routing engine, driving profile; traffic not modelled. The official site's own stated distances (57.7 km from Málaga city) are a different origin and are recorded for context, not used as the route-checked figure."
+  - field: "visit_information.schedule, visit_information.typical_duration, transport_options, visit_information.cost_basis"
+    claim: "Reception centre hours 8:00-14:30; walk about 1 h 30 min - 2 h; shuttle 7:40-20:00 (EUR 2.50, cash only on the day); parking EUR 2/day; entry EUR 10, guided EUR 18; under-8s not admitted, original ID for over-8s."
+    source_url: https://www.caminitodelrey.info/es/tu-visita/localizacion-y-horario-crv
+    source_type: official_venue
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Official booking platform, re-read 2026-10-29 together with https://caminitodelrey.info/."
+  - field: "driving_time_from_casa_de_la_familia"
+    claim: "Google Maps drive time from Calle Milano 35 to the Caminito del Rey Visitor Reception Centre is 65 min (62.3 km via A-357; typical 1 h to 1 h 15 min)."
+    source_url: https://maps.app.goo.gl/y7VrPab9e4HezvHg8
+    source_type: maps_identity
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "Measured by the owner, toll roads avoided, departure about 10:00 Thursday 2026-10-29. One sample. Replaces the OSRM figure of 75 min."
 review_issues:
   - code: schedule_unverified
     severity: warning
-    fields: [visit_information.schedule, dog_friendly, toilets_available]
-    description: "Opening hours, exact route length/duration/difficulty, and dog policy were not found on the official pages reached this round; needs a follow-up fetch of the official schedule page."
+    fields: [dog_friendly, toilets_available]
+    description: "Re-read 2026-10-29: reception hours (8:00-14:30), walking time (1 h 30 min - 2 h) and shuttle times are now on the official site. Route length, difficulty and dog policy are still not stated; the Google AI summary that quotes 7-8 km is not a source."
     retryable: true
     owner: fact_check
   - code: excursion_layer_scope
@@ -143,8 +159,8 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-15
-last_verified: 2026-10-15
+updated_at: 2026-10-29
+last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15
 review_decision: null

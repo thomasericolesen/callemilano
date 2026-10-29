@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-ANTEQUERA-001
 slug: antequera
 name: Antequera
@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "65 min"
+  duration: "75 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: "Alcazaba de Antequera, Antequera, Málaga, Spain"
-  source: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-4.5577719,37.0144361?overview=false"
-  checked_at: 2026-10-15
-  note: "Route-checked one-way via OSRM (driving profile), ~80.9 km. Actual time varies with traffic."
+  destination: "Alcazaba de Antequera, Pl. de los Escribanos s/n, 29200 Antequera, Málaga, Spain"
+  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/woJAXvjD8WZEahxW8"
+  checked_at: 2026-10-29
+  note: "Google main figure, departure about 10:00 Thursday 2026-10-29 (Google only lets the owner choose time of day, not the date). Typical range shown: 1 h to 1 h 20 min; 82.3 km via AP-46. Replaces the OSRM figure of 65 min (2026-10-15)."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -73,24 +73,24 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: "Alcazaba (Recinto Monumental): Mon-Sun and holidays 10:00-18:00, last entry 17:15; Tuesday (except holidays and eves) 14:00-18:00 with free entry. Real Colegiata de Santa María: Mon-Sun 10:00-18:00; Tuesday 14:00-18:00 free. Dolmens of Menga and Viera and of El Romeral: Tue-Sat 9:00-17:30, Sun 9:00-14:30, Monday closed (except eves of holidays), free entry; 2 Nov 9:00-14:30. The municipal page notes some changes around 1-3 Nov."
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: "Alcazaba: adults EUR 5, children 8-12 and over 65 EUR 4, children up to 7 free. Real Colegiata: adults EUR 4, 8-12 and over 65 EUR 2. Combined ticket EUR 8 (EUR 4 for 8-12, youths and over 65). Dolmens: free. Secondary sites that quote EUR 6 for the Alcazaba are out of date."
+  cost_checked_at: 2026-10-29
 links:
-  official_website: null
+  official_website: https://turismo.antequera.es/
   booking: null
-  visitor_information: null
+  visitor_information: https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/
   transport: null
   contact: null
 related_places: []
-description_short: "Antequera is a historic Málaga-province town built around its hilltop Alcazaba, with the UNESCO-listed Dolmens of Antequera nearby; opening hours and prices still need official confirmation."
-description_long: "Antequera is a historic town in Málaga province, about 65 minutes' drive from Casa de la Familia (route-checked). Its hilltop Alcazaba fortress is the town's best-known landmark; a government geodetic survey point and independent map data place it on the hill near the Arco de los Gigantes. The Dolmens of Antequera (Menga, Viera and El Romeral), a UNESCO World Heritage prehistoric site, are nearby and were running guided visits in 2023 (Tue–Sun for Menga/Viera, weekends for El Romeral), though that schedule is three years old and must be reconfirmed before publication. Secondary sources (not independently confirmed against an official page) suggest a combined Alcazaba/Real Colegiata ticket around €6 with free entry on some Tuesday afternoons — this has not been verified from antequera.es, turismo.antequera.es, or another official source, which could not be reached in this research pass, so no price or opening hours are published here yet. El Torcal de Antequera, a separate nearby nature reserve, is recorded in its own place entry and linked here once fact-checked."
+description_short: "Antequera is a historic Málaga-province town built around its hilltop Alcazaba, with the UNESCO-listed Dolmens of Antequera nearby; opening hours and prices are confirmed from the municipal tourism site (checked 2026-10-29)."
+description_long: "Antequera is a historic town in Málaga province, about 75 minutes' drive from Casa de la Familia (Google Maps, toll roads avoided, measured by the owner 2026-10-29). Its hilltop Alcazaba fortress is the town's best-known landmark. According to the municipal tourism site (updated 2026-10-28) the Alcazaba and the Real Colegiata de Santa María are open daily 10:00-18:00 (Alcazaba last entry 17:15) and free on Tuesday afternoons from 14:00; the Alcazaba costs EUR 5 for adults and EUR 4 for children 8-12 and visitors over 65, with a EUR 8 combined ticket. The Dolmens of Antequera (Menga, Viera and El Romeral), a UNESCO World Heritage prehistoric site, are free and open Tuesday-Saturday 9:00-17:30 and Sunday 9:00-14:30; they are closed on Mondays. El Torcal de Antequera, a separate nearby nature reserve, is recorded in its own place entry. Parking, accessibility, dog policy and toilets are not yet confirmed from an official source."
 seo_title: "Antequera, Málaga: Historic Town and Alcazaba"
-seo_description: "Plan a visit to Antequera, Málaga province: the hilltop Alcazaba and nearby Dolmens of Antequera. Opening hours and prices pending official confirmation."
+seo_description: "Plan a visit to Antequera, Málaga province: the hilltop Alcazaba, the Real Colegiata and the Dolmens of Antequera, with opening hours, prices and the drive from Casa de la Familia."
 images: []
 evidence:
   - field: "coordinates"
@@ -125,13 +125,23 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: high
     notes: "Official page reached this time (unlike the 2026-10-15 pass), but it does not carry the needed facts; does not resolve the blocking issue."
+  - field: "visit_information.schedule, visit_information.cost_basis, links"
+    claim: "Opening hours and ticket prices for the Alcazaba, Real Colegiata and the dolmens, from the municipal tourism site (page modified 2026-10-28)."
+    source_url: https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/
+    source_type: official_tourism
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: high
+    notes: "Official Turismo Antequera page 'Horarios de monumentos de Antequera'. Resolves the blocking issue official_links_unverified. Secondary sites quoting EUR 6 for the Alcazaba are outdated."
+  - field: "driving_time_from_casa_de_la_familia"
+    claim: "Google Maps drive time from Calle Milano 35 to the Alcazaba de Antequera is 75 min (82.3 km via AP-46; typical 1 h to 1 h 20 min)."
+    source_url: https://maps.app.goo.gl/woJAXvjD8WZEahxW8
+    source_type: maps_identity
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "Measured by the owner, toll roads avoided, departure about 10:00 Thursday 2026-10-29. One sample. Replaces the OSRM figure of 65 min."
 review_issues:
-  - code: official_links_unverified
-    severity: blocking
-    fields: [links, visit_information]
-    description: "Retried 2026-10-16: turismo.antequera.es and its Alcazaba page (turismo.antequera.es/puntos-de-interes/alcazaba/) were reached this time, but neither states opening hours or ticket price (only contact details and a pet policy). No admission price or hours are published here; secondary figures (~€6, possible Tuesday free entry, 10:00-18:00) recur across multiple independent travel sites but remain unconfirmed against an official page and are not cited as fact. Needs a direct phone/email follow-up (951 70 07 37 / oficina.turismo@antequera.es) rather than another web fetch."
-    retryable: true
-    owner: fact_check
   - code: overlap_torcal
     severity: warning
     fields: [related_places]
@@ -147,12 +157,12 @@ review_issues:
   - code: visitor_facilities_unverified
     severity: warning
     fields: [accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, cost_level, booking_required]
-    description: "Visitor facilities, access, parking, booking and cost remain unverified; no official Antequera source was reachable this round."
+    description: "Parking, accessibility, dog policy and toilets remain unverified; opening hours and prices were confirmed 2026-10-29 from the municipal tourism site. Re-check the municipal page (it was modified 2026-10-28) before publication, because the Alcazaba price differs between secondary sites."
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-16
-last_verified: 2026-10-16
+updated_at: 2026-10-29
+last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15
 review_decision: null

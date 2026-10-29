@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: null
+  duration: "36 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: Plaza de los Naranjos, Marbella, Málaga, Spain
-  source: null
-  checked_at: null
-  note: One-way route duration not verified; check a current routing source.
+  destination: "Old Town Marbella parking, Av. del Mar 14, 29602 Marbella, Málaga, Spain (a car park, not Plaza de los Naranjos)"
+  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/GXxtiiSjGwB5qGdZ6"
+  checked_at: 2026-10-29
+  note: "Google main figure, live traffic Thursday 2026-10-29 about 15:00 (not the Saturday-morning sample used for beaches). 27.3 km via A-7. Destination is the Google Maps place 'Old Town Marbella parking'."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -60,13 +60,13 @@ accessibility:
   confidence: unknown
 wheelchair_friendly: unknown
 parking:
-  availability: unknown
-  location_type: unknown
+  availability: "Google Maps lists a car park 'Old Town Marbella parking' at Av. del Mar 14; price, hours, capacity and the walk to Plaza de los Naranjos are not verified."
+  location_type: nearby
   cost: unknown
   restrictions: unknown
   walk_distance: unknown
-  source: null
-  checked_at: null
+  source: https://maps.app.goo.gl/GXxtiiSjGwB5qGdZ6
+  checked_at: 2026-10-29
 transport_options: []
 booking_required: false
 dog_friendly: unknown
@@ -89,7 +89,7 @@ links:
   contact: null
 related_places: []
 description_short: "Walk Marbella's historic center, with heritage streets, plazas, museums, and places to eat."
-description_long: "Marbella's municipal tourism site describes the historic center's Roman, Arab, and Christian heritage, including the old walls, museums, chapels, plazas, restaurants, and traditional shops. Plaza de los Naranjos is used as the representative central point. This is a walk-through urban visit; step-free routes, public parking, toilets, and current museum schedules or admission details have not been checked."
+description_long: "Marbella's municipal tourism site describes the historic center's Roman, Arab, and Christian heritage, including the old walls, museums, chapels, plazas, restaurants, and traditional shops. Plaza de los Naranjos is used as the representative central point. The drive to the old-town car park at Av. del Mar 14 is about 36 minutes (Google Maps, toll roads avoided, owner-measured 2026-10-29, live traffic). This is a walk-through urban visit; step-free routes, public parking, toilets, and current museum schedules or admission details have not been checked."
 seo_title: "Marbella Old Town: Historic Center and Plazas"
 seo_description: "Explore Marbella Old Town's historic streets, plazas, museums, and restaurants. Check current access, parking, and museum details before visiting."
 images: []
@@ -110,13 +110,15 @@ evidence:
     checked_by: maps-import-agent
     confidence: high
     notes: null
+  - field: "driving_time_from_casa_de_la_familia, parking"
+    claim: "Google Maps drive time from Calle Milano 35 to 'Old Town Marbella parking' (Av. del Mar 14) is 36 min (27.3 km via A-7)."
+    source_url: https://maps.app.goo.gl/GXxtiiSjGwB5qGdZ6
+    source_type: maps_identity
+    checked_at: 2026-10-29
+    checked_by: "fact-check-agent"
+    confidence: medium
+    notes: "Measured by the owner, toll roads avoided, Thursday 2026-10-29 around 15:00 with live traffic. One sample. The official municipal tourism page (turismo.marbella.es, re-read 2026-10-29) lists the sights of the old town but gives no opening hours, parking or access details."
 review_issues:
-  - code: driving_time_unverified
-    severity: blocking
-    fields: [driving_time_from_casa_de_la_familia]
-    description: "Verify one-way drive time from Casa de la Familia and record route source and check date."
-    retryable: true
-    owner: fact_check
   - code: family_ratings_estimated
     severity: warning
     fields: [age_groups, family_score, energy_level, tags.Half day]
@@ -130,8 +132,8 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-03
-updated_at: 2026-10-03
-last_verified: 2026-10-03
+updated_at: 2026-10-29
+last_verified: 2026-10-29
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
