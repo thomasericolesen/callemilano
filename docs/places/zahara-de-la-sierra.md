@@ -86,7 +86,7 @@ links:
   transport: null
   contact: https://www.zaharadelasierra.es/turismo-zahara
 related_places: []
-description_short: "A hilltop village in Cádiz with a historic center, viewpoints, and a castle above the town."
+description_short: "A hilltop white village in the Sierra de Grazalema with a Nasrid castle and tower, many viewpoints and a reservoir beach nearby; about 2 hours 10 minutes' drive from Casa de la Familia (Google Maps main figure)."
 description_long: "Zahara de la Sierra's municipal tourism site highlights its historic heritage, viewpoints, and the Torre del Homenaje at the castle's highest point. The municipal tourism office is used as the representative arrival pin. Reaching elevated viewpoints involves walking uphill; exact route gradients, step-free access, parking, facilities, monument schedules, and summer suitability have not been verified. The town's tourism office notes that guided visits pause during the hottest part of summer, so check current conditions before planning."
 seo_title: "Zahara de la Sierra: Historic Village and Castle Views"
 seo_description: "Discover Zahara de la Sierra in Cádiz, with a historic center, viewpoints, and its hilltop castle. Check current access and visitor information before travelling."
@@ -140,6 +140,14 @@ evidence:
     checked_by: claude-code-agent (branch udflugter-verificering-2)
     confidence: medium
     notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
+  - field: body.owner_supplied_suggestions
+    claim: 'Editor-supplied additions for Zahara: village lanes, Paseo de los Refranes, La Playita, reservoir activities, Garganta Verde (permit required).'
+    source_url: https://mylittleworldoftravelling.com/things-to-do-in-zahara-de-la-sierra/
+    source_type: secondary
+    checked_at: 2026-10-30
+    checked_by: claude-code-agent (branch udflugter-verificering-2)
+    confidence: low
+    notes: Supplied by the owner/editor on 2026-10-30 (Eric Olesen (owner), message 2026-10-30; text partly from a Google AI summary and third-party travel sites); not verified against an official source unless an official URL is given in the section.
 review_issues:
   - code: family_ratings_estimated
     severity: warning
@@ -171,6 +179,13 @@ review_issues:
     description: No official opening hours or price for the Torre del Homenaje; call the tourist office on 623 47 59 06.
     retryable: true
     owner: fact_check
+  - code: owner_supplied_additions_unverified
+    severity: info
+    fields:
+      - body.nearby_suggestions
+    description: Editor-supplied additions (La Playita, Garganta Verde permit, Paseo de los Refranes, Puerta Árabe, reservoir activities) come from third-party travel sites and an AI summary; no official source yet.
+    retryable: true
+    owner: editorial
 created_at: 2026-10-03
 updated_at: 2026-10-30
 last_verified: 2026-10-30
@@ -184,21 +199,25 @@ Draft source notes: Zahara de la Sierra municipal tourism pages checked on 2026-
 
 ## Nearby suggestions (draft, 2026-10-30)
 
-Inspiration only; check current hours and availability before travelling. Sources are official tourism or heritage sites unless noted.
+Inspiration only; check current hours and availability before travelling.
 
-**Sights and viewpoints**
-- Viewpoints (municipal list): Tres Provincias, Plaza Arco de la Villa (reservoir views), Arco de la Villa, Alameda Jardín de los Pinsapos, Plaza del Rey, Mirador de las Peñas, Mirador Boquete, Alameda de Lepanto, El Altillo, Alameda de D. Rodrigo Ponce de León, Peñón de la Horca
-- Torre del Reloj
-- Iglesia de Santa María de la Mesa
-- Centro de interpretación de la Villa Medieval
-- Museo parroquial
-- Centro de interpretación del Pinsapo
+**In the village (municipal tourism site)**
+- Torre del Homenaje (highest point of the castle, 605 m) and the Torre del Reloj
+- Iglesia de Santa María de la Mesa; Antigua Iglesia Mayor tower; Centro de interpretación de la Villa Medieval; Museo parroquial; Centro de interpretación del Pinsapo
+- Viewpoints: Tres Provincias, Plaza Arco de la Villa (reservoir views), Arco de la Villa, Alameda Jardín de los Pinsapos, Plaza del Rey, Mirador de las Peñas, Mirador Boquete, Alameda de Lepanto, El Altillo, Alameda de D. Rodrigo Ponce de León, Peñón de la Horca
+
+**Added by the editor (not verified against an official source)**
+- The climb to the castle is on a steep path; the tower has a small visitor centre and wide views over the landscape and the reservoir.
+- Old town lanes (Calle Fuerte, Calle Rueda) and the old Arab gate (Puerta Árabe); Paseo de los Refranes, a route with tiles showing Spanish proverbs.
+- Plaza de Lepanto: good for sunset. Soaring vultures or eagles are often seen from the viewpoints.
+- La Playita de Zahara: an artificial but popular freshwater beach on the reservoir shore, for a dip in summer.
+- Embalse de Zahara-El Gastor: kayaking, paddleboarding and scenic drives along the shore.
+- Garganta Verde: dramatic gorge walk of about 5 km nearby; a separate permit is required.
 
 **Easy to combine with**
-- Olvera and Setenil de las Bodegas (neighbouring white villages with separate records)
+- Olvera and Setenil de las Bodegas (neighbouring white villages, separate records).
 
 **Food, rest stops and viewpoints on the road**
-- The municipal site has a restaurants page: https://www.zaharadelasierra.es/turismo/restaurantes (individual venues not verified here)
-- No individual restaurants or roadside rest stops were verified from a source in this pass.
+- The municipal site has a restaurants page: https://www.zaharadelasierra.es/turismo/restaurantes (individual venues not verified here).
 
-Sources: https://www.zaharadelasierra.es/turismo-zahara
+Sources: https://www.zaharadelasierra.es/turismo-zahara; editor-supplied text (see evidence ledger)

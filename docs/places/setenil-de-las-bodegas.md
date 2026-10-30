@@ -149,6 +149,14 @@ evidence:
     checked_by: claude-code-agent (branch udflugter-verificering-2)
     confidence: medium
     notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
+  - field: body.owner_supplied_suggestions
+    claim: 'Editor-supplied additions for Setenil: Mirador del Carmen, Balcón de Setenil, steep streets, distance from Ronda.'
+    source_url: https://spainbyhanne.dk/setenil-de-las-bodegas-indbygget-i-klipper/
+    source_type: secondary
+    checked_at: 2026-10-30
+    checked_by: claude-code-agent (branch udflugter-verificering-2)
+    confidence: low
+    notes: Supplied by the owner/editor on 2026-10-30 (Eric Olesen (owner), message 2026-10-30; text partly from a Google AI summary and third-party travel sites); not verified against an official source unless an official URL is given in the section.
 review_issues:
   - code: overlap_ronda
     severity: warning
@@ -183,6 +191,13 @@ review_issues:
     description: No official hours or prices found; call the tourist office on 616 55 33 84.
     retryable: true
     owner: fact_check
+  - code: owner_supplied_additions_unverified
+    severity: info
+    fields:
+      - body.nearby_suggestions
+    description: Mirador del Carmen, Balcón de Setenil and the Ronda distance come from the editor's search (Google AI summary, a Danish travel site); no official source yet.
+    retryable: true
+    owner: editorial
 created_at: 2026-10-15
 updated_at: 2026-10-30
 last_verified: 2026-10-30
@@ -196,22 +211,23 @@ Fact-checked 2026-10-15: visitor point, driving time and core identity facts est
 
 ## Nearby suggestions (draft, 2026-10-30)
 
-Inspiration only; check current hours and availability before travelling. Sources are official tourism or heritage sites unless noted.
+Inspiration only; check current hours and availability before travelling.
 
-**Sights and viewpoints**
-- Cuevas del Sol and Cuevas de la Sombra streets (the cave streets, many bars and restaurants)
-- Calle Herrería ('Bésame en este rincón')
-- Casa de la Damita museum
-- Torreón and Arab cistern
-- Coracha-Mina
-- Iglesia de Nuestra Señora de la Encarnación
-- Roman ruins of Acinipo (9.6 km by car)
+**In the town (official tourism site)**
+- Cuevas del Sol (sunny street with bars and restaurants under the rock) and Cuevas de la Sombra (shaded cave street)
+- Calle Herrería ('Bésame en este rincón'); Calles Jabonería, Cabrerizas and Calcetas; San Román caves
+- Torreón (ruins of the Almohad fortress, with tower and views) and the Arab cistern; Coracha-Mina
+- Casa de la Damita museum; Iglesia de Nuestra Señora de la Encarnación (late-Gothic, 15th-17th century)
+
+**Added by the editor (not verified against an official source)**
+- Viewpoints: Mirador del Carmen and Balcón de Setenil.
+- About 18 km from Ronda by road according to a Danish travel site (Spain by Hanne, 17 Dec 2025); Ronda is the natural combination.
+- The streets are steep with narrow passages; accessibility has not been assessed.
 
 **Easy to combine with**
-- Ronda (about 20 minutes away)
+- Ronda (Acinipo Roman ruins lie 9.6 km by car from Setenil), and the neighbouring white villages Olvera and Zahara de la Sierra.
 
 **Food, rest stops and viewpoints on the road**
-- The official site calls Cuevas del Sol the most visited street, with numerous bars and restaurants under the rock
-- No individual restaurants or roadside rest stops were verified from a source in this pass.
+- The official site calls Cuevas del Sol the most visited street, with numerous bars and restaurants under the rock. No individual venues verified.
 
-Sources: https://turismodesetenil.com/en/que-visitar/; https://www.andalucia.org/blog/post/setenil-de-las-bodegas-la-perla-escondida-de-cadiz/
+Sources: https://turismodesetenil.com/en/que-visitar/; https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-acinipo; https://spainbyhanne.dk/setenil-de-las-bodegas-indbygget-i-klipper/ (secondary)

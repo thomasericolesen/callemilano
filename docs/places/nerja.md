@@ -88,8 +88,8 @@ links:
   transport: null
   contact: tel:+34952521531
 related_places: []
-description_short: "Nerja's Balcón de Europa is a free coastal viewpoint in the town centre, flanked by two beaches, with the Cuevas de Nerja show caves nearby; about 1 hour 15 minutes' drive from Casa de la Familia (Google Maps main figure)."
-description_long: "Nerja is a coastal town east of Málaga, about 1 hour 15 minutes' drive from Casa de la Familia (Google Maps main figure). Its best-known sight, the Balcón de Europa, is a free public viewpoint on the site of a former medieval fortress, with two old cannon emplacements, a small chapel, a bronze statue of King Alfonso XII, and a café-lined promenade, flanked by Playa Calahonda and Playa Caletilla; it is said to take its name from an 1885 royal visit, though this is a widely repeated local story rather than an officially documented fact. A short drive away at Maro, the Cuevas de Nerja show caves are open 09:15-16:30 in the standard period and 09:15-17:30 in peak season (June-September, Christmas, bridge holidays, Holy Week), closed on a short list of public holidays; exact current ticket prices were not confirmed from the official page in this pass, but online booking is available and described as cheaper than paying at the gate. Nerja neighbours Frigiliana, a separate existing record, a short drive away on a winding road. Parking near the Balcón itself is reported as difficult (not officially confirmed), and accessibility has not been assessed."
+description_short: "A day around Nerja: start at the Cuevas de Nerja at Maro, continue to the free Balcón de Europa viewpoint in town and finish at the nearby beach; about 1 hour 15 minutes' drive from Casa de la Familia (Google Maps main figure, to the caves)."
+description_long: "Nerja is a coastal town east of Málaga, about 1 hour 15 minutes' drive from Casa de la Familia (Google Maps main figure). Its best-known sight, the Balcón de Europa, is a free public viewpoint on the site of a former medieval fortress, with two old cannon emplacements, a small chapel, a bronze statue of King Alfonso XII, and a café-lined promenade, flanked by Playa Calahonda and Playa Caletilla; it is said to take its name from an 1885 royal visit, though this is a widely repeated local story rather than an officially documented fact. A short drive away at Maro, the Cuevas de Nerja show caves are open 09:15-16:30 in the standard period and 09:15-17:30 in peak season (June-September, Christmas, bridge holidays, Holy Week), closed on a short list of public holidays; exact current ticket prices were not confirmed from the official page in this pass, but online booking is available and described as cheaper than paying at the gate. Nerja neighbours Frigiliana, a separate existing record, a short drive away on a winding road. Parking near the Balcón itself is reported as difficult (not officially confirmed), and accessibility has not been assessed. Suggested order (editor decision 2026-10-30): start at the Cuevas de Nerja, which is where the Google Maps route ends and the nearest natural starting point, then the Balcón de Europa and the nearby beach."
 seo_title: "Nerja: Balcón de Europa and Cuevas de Nerja"
 seo_description: "Visit Nerja's free Balcón de Europa viewpoint and the nearby Cuevas de Nerja show caves. About 1h15 drive from Casa de la Familia."
 images: []
@@ -150,6 +150,14 @@ evidence:
     checked_by: claude-code-agent (branch udflugter-verificering-2)
     confidence: medium
     notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
+  - field: body.owner_supplied_suggestions
+    claim: 'Suggested visiting order: caves first, then Balcón de Europa and the nearby beach.'
+    source_url: https://visita.nerja.es/descubre/puntos-de-interes
+    source_type: secondary
+    checked_at: 2026-10-30
+    checked_by: claude-code-agent (branch udflugter-verificering-2)
+    confidence: low
+    notes: Supplied by the owner/editor on 2026-10-30 (Eric Olesen (owner), message 2026-10-30; text partly from a Google AI summary and third-party travel sites); not verified against an official source unless an official URL is given in the section.
 review_issues:
   - code: example_exists
     severity: info
@@ -192,18 +200,17 @@ Fact-checked 2026-10-15: coordinates and driving time independently re-verified 
 
 ## Nearby suggestions (draft, 2026-10-30)
 
-Inspiration only; check current hours and availability before travelling. Sources are official tourism or heritage sites unless noted.
+Inspiration only; check current hours and availability before travelling.
 
-**Sights and viewpoints**
-- Balcón de Europa (free viewpoint)
-- Playa de Calahonda (next to the Balcón; the most photographed corner of Nerja according to the Visita Nerja site)
-- Cuevas de Nerja at Maro
-- Frigiliana (white hill village, separate record)
+**Suggested order for the day** (editor decision 2026-10-30)
+1. Cuevas de Nerja at Maro: the natural starting point (hours and prices in the record).
+2. Balcón de Europa: free viewpoint in the town centre.
+3. The nearby beach: Playa de Calahonda lies beside the Balcón (the most photographed corner of Nerja according to the Visita Nerja site); Playa de la Caletilla flanks it on the other side.
 
 **Easy to combine with**
-- Frigiliana (neighbouring town; the project already treats them as a pair)
+- Frigiliana (white hill village a short drive away, separate record).
 
 **Food, rest stops and viewpoints on the road**
 - No individual restaurants or roadside rest stops were verified from a source in this pass.
 
-Sources: https://visita.nerja.es/descubre/puntos-de-interes; https://cuevadenerja.es/
+Sources: https://visita.nerja.es/descubre/puntos-de-interes; https://cuevadenerja.es/; https://esnerja.com/en/things-to-do/balcon-de-europa-viewpoint (secondary, for the two flanking beaches)
