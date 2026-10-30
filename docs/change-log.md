@@ -1,5 +1,19 @@
 # Change log
 
+## 2026-10-30 - Excursion records: Google driving times, hours/prices and nearby suggestions (draft, additive, no schema change)
+
+Owner request: fact-check the Google Maps driving times for the excursion destinations and add opening hours, prices, official links and nearby suggestions. Branch `udflugter-verificering-2`; **draft, not pushed, not editor-approved, status values unchanged.**
+
+- Records edited (14): `ronda`, `granada`, `gibraltar`, `cordoba`, `sevilla`, `cadiz`, `frigiliana`, `nerja`, `olvera-castle`, `zahara-de-la-sierra`, `vejer-de-la-frontera`, `tarifa`, `jerez-de-la-frontera`, `setenil-de-las-bodegas`.
+- Driving times replaced by Google Maps main figures from the owner's screenshots (supplied 2026-10-30, departure setting Saturday 2026-07-18 10:00, Calle Milano 35, one sample): Ronda 90, Granada 110, Gibraltar 100 (town centre, about 10 min inside Gibraltar), Cordoba 120, Sevilla 160, Cadiz 150, Frigiliana 75, Nerja 75 (marker is the Cueva de Nerja at Maro, not the Balcon de Europa), Olvera 110, Zahara 130, Vejer 140, Tarifa 110, Jerez 140, Setenil 100 min. Old OSRM figures are superseded and marked as such in the evidence ledger. Toll roads were not avoided (owner avoids tolls only under 60 minutes); AP-7 toll sections are noted per record. Zahara: Google's 122 km could not be reproduced in a Firecrawl route check (134 km).
+- Hours, prices, links and evidence: read on 2026-10-30 from official venue, municipal or tourism pages; conflicts are kept as review issues (Ronda Tue-Fri 9:30 vs 10:00; Olvera winter hours and castle price; Frigiliana Saturday hours; Vejer museum EUR 2 vs 4; Tarifa hours from a 2025 page). No official hours or prices were found for the Zahara tower or for Setenil (blocking issues).
+- New section "Nearby suggestions" in each record body (sights, viewpoints, combinations) with sources from official tourism or heritage pages. No restaurant or roadside rest stop is named without a source; none was verified in this pass. Owner decision 2026-10-30: nearby suggestions stay as text, no new schema field; revisit when feedback shows a need for filtering.
+- Owner decision 2026-10-30: the chosen main-sight markers (including Real Alcazar for Sevilla and the cathedral for Cadiz) are accepted; the guide is a suggestion, not a complete fact sheet.
+- Regenerated `data/place-catalog.csv`. `python3 tools/places.py validate` reports the same 6 pre-existing errors in other records (`energy_level` None) and no errors in the 14 edited records.
+- Editor input the same day (17:15): `nerja` is centred on the caves, the Balcon de Europa and the nearby beach, with the Cuevas de Nerja as the suggested starting point (the Google marker is the caves); `zahara-de-la-sierra` and `setenil-de-las-bodegas` got editor-supplied additions (La Playita, Garganta Verde permit, Paseo de los Refranes, Mirador del Carmen and others). These come from a Google AI summary and third-party sites, are marked as editor-supplied in the body and the evidence ledger (confidence low) and carry an info issue; Nerja, Zahara and Setenil are otherwise closed by the owner and get no further work.
+- Not changed: schema, categories, tags, enums, layers, `AGENTS.md`, `data/layer-membership.csv`, `cost_level`, accessibility and family ratings.
+- Open: Frigiliana Saturday hours, Vejer museum price, Zahara tower and Setenil hours/prices need a phone call; language of the "Nearby suggestions" text (English, matching the records) vs. a Danish presentation layer; Saturday-morning measurement is one sample per route.
+
 ## 2026-10-29 - Excursion pilot: five places re-verified (draft, additive, no schema change)
 
 Owner request: verify excursion records for young adults and seniors, pilot of five places. Branch `udflugter-verificering-1`; **draft, not pushed, not editor-approved.**
