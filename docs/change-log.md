@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-01 - Los Monteros archived (owner decision)
+
+Owner decision: remove Los Monteros (Adelfas), Marbella, from the guide. The editor's reasoning is that the area is best known for Nikki Beach, an adult venue for young, affluent visitors, which does not fit the family audience (editorial judgment, not a fact-checked claim).
+
+- `docs/places/los-monteros.md`: status `draft` -> `archived`, with `review_decision` recording the decision. The record is kept as archive, not deleted; ID `ES-AND-MAL-LOS-MONTEROS-001` stays allocated in `data/place-id-registry.csv` and must not be reused.
+- No other record linked to it. Historical mentions in `data/route-checks-2026-11-01-local.csv`, `docs/beach-draft-open-points.md` and earlier change-log entries are left as they were. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-01 - Restaurant pilot, round 2: Fuengirola and Benalmádena (draft, no schema change)
 
 Owner request: extend the restaurant pilot. Same method as round 1 (own record per restaurant, `related_places` both ways, Places API for identity only, Routes API Saturday 10:00 for drive time).

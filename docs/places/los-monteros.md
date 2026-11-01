@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-LOS-MONTEROS-001
 slug: los-monteros
 name: Los Monteros (Adelfas)
@@ -211,10 +211,14 @@ review_issues:
   retryable: false
   owner: fact_check
 created_at: '2026-10-29'
-updated_at: '2026-10-29'
+updated_at: 2026-11-01
 last_verified: '2026-10-29'
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-01'
+  notes: 'Owner decision 2026-11-01: remove Los Monteros from the guide. Editor''s reasoning: the area is best known for Nikki Beach, an adult venue aimed at young, affluent visitors, which does not match the family audience. This is the editor''s editorial judgment, not a fact-checked claim in the record. The record is kept as archive (not deleted); the ID stays allocated.'
 redirects: []
 ---
