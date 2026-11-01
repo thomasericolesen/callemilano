@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-FUENTE-DE-LA-SALUD-001
 slug: fuente-de-la-salud
 name: Fuente de la Salud
@@ -37,17 +37,17 @@ family_score:
 energy_level: Low
 seasonality: []
 accessibility:
-  overall: unknown
+  overall: Benalmádena lists Fuente de la Salud as one of four accessibility points / adapted beaches in 2026 (with Malapesquera, Arroyo de la Miel and Carvajal). The facilities at the point, the route and accessible toilets are not specified in the source.
   mobility:
     route: unknown
     wheelchair_route: unknown
-    facilities: unknown
+    facilities: Accessibility point / adapted beach (2026, municipal); equipment not specified.
   sensory:
     notes: unknown
   accessible_toilets: unknown
-  source: null
-  checked_at: null
-  confidence: unknown
+  source: https://www.benalmadena.es/noticias/N13457/El-Ayuntamiento-refuerza-la-seguridad-y-la-accesibilidad-de-las-playas-con-un-amplio-dispositivo-de-vigilancia-y-salvamento.html
+  checked_at: '2026-11-01'
+  confidence: medium
 wheelchair_friendly: unknown
 parking:
   availability: unknown
@@ -79,7 +79,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Fuente de la Salud, Benalmádena: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Fuente de la Salud (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Dark sand, moderate waves, about 150 x 80 m, high occupancy level. Family-oriented, play area, one lifeguard post. Nearby: By Puerto Marina. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Fuente de la Salud (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Dark sand, moderate waves, about 150 x 80 m, high occupancy level. Family-oriented, play area, one lifeguard post. Nearby: By Puerto Marina. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal source (Benalmádena, 2026-06-05, checked 2026-11-01): a lifeguard point and an accessibility point / adapted beach at Fuente de la Salud; intensive lifeguard season 15 May-15 October, plus Easter week and the following weekends. Toilets and the play area are not confirmed by an official source. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Fuente de la Salud, Benalmádena | CalleMilano draft record
 seo_description: Draft record for Fuente de la Salud beach (Benalmádena). Based on a dated secondary-source snapshot; facts are under verification.
 images: []
@@ -132,6 +132,14 @@ evidence:
   checked_by: Claude (Routes API batch 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; destination = record coordinates (36.5986,-4.5102). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: accessibility, description_long (lifeguard post)
+  claim: Fuente de la Salud is one of nine lifeguard points and one of four accessibility points / adapted beaches in Benalmádena's 2026 beach service; bathing season Easter week and following weekends, intensive season 15 May-15 October.
+  source_url: https://www.benalmadena.es/noticias/N13457/El-Ayuntamiento-refuerza-la-seguridad-y-la-accesibilidad-de-las-playas-con-un-amplio-dispositivo-de-vigilancia-y-salvamento.html
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: high
+  notes: Ayuntamiento de Benalmádena, Delegación de Playas news item 2026-06-05, read 2026-11-01. Toilets and play area are not mentioned.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
@@ -165,7 +173,7 @@ review_issues:
   - toilets_available
   - accessibility
   - evidence
-  description: Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season.
+  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
   retryable: true
   owner: fact_check
 - code: source_urls_missing

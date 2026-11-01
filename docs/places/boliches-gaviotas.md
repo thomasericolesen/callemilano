@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-BOLICHES-GAVIOTAS-001
 slug: boliches-gaviotas
 name: Boliches-Gaviotas
@@ -44,7 +44,7 @@ accessibility:
     facilities: Adapted bathing platform at pergola 41 with a bathing device for blind users; assisted bathing and an adapted shower per general municipal statements (lifeguard-staffed in season).
   sensory:
     notes: unknown
-  accessible_toilets: unknown
+  accessible_toilets: 'yes'
   source: https://www.fuengirola.es/wp-content/uploads/2025/04/Fuengirola-Accesible-2025.pdf
   checked_at: '2026-10-29'
   confidence: medium
@@ -60,7 +60,7 @@ parking:
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
-toilets_available: unknown
+toilets_available: 'yes'
 food_available: unknown
 cost_level: Unknown
 visit_information:
@@ -196,6 +196,14 @@ evidence:
   checked_by: Claude (Routes API batch 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; destination = record coordinates (36.5544,-4.6116). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: toilets_available, description_long (play area)
+  claim: The 2026 service charter's map of Playa de Los Boliches-Gaviotas lists toilets, an ostomy-adapted toilet, a children's area and volleyball; all 15 municipal beach toilets are adapted for reduced mobility.
+  source_url: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: high
+  notes: Carta de Servicios edition 2026-05-12, re-read in full (PDF text) on 2026-11-01. Map legends read from the PDF text layer, not visually.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
@@ -229,7 +237,7 @@ review_issues:
   - toilets_available
   - accessibility
   - evidence
-  description: Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season.
+  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
   retryable: true
   owner: fact_check
 - code: source_urls_missing
@@ -279,13 +287,6 @@ review_issues:
   fields:
   - accessibility
   description: Pergola 41 comes from the 2025 edition of Fuengirola Accesible; the 2026 charter gives no pergola numbers. Re-check before approval.
-  retryable: false
-  owner: fact_check
-- code: play_area_not_tied_to_beach_in_charter
-  severity: info
-  fields:
-  - description_long
-  description: The charter mentions children's play areas on the beaches in general, not at Boliches-Gaviotas specifically; the play area here still rests on the snapshot (unverified).
   retryable: false
   owner: fact_check
 - code: lifeguard_schedule_seasonal

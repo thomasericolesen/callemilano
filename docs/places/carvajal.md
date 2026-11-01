@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-CARVAJAL-001
 slug: carvajal
 name: Carvajal
@@ -37,17 +37,17 @@ family_score:
 energy_level: Low
 seasonality: []
 accessibility:
-  overall: unknown
+  overall: Fuengirola's 2026 service charter states that each of its four beaches has an adapted plot with assisted bathing by lifeguards (adapted showers, sunbeds, amphibious chairs and crutches, and a hoist), in the same period as the lifeguard service; that ramps connect every beach with the promenade; and that all 15 municipal beach toilets are adapted for reduced mobility. The Playa de Carvajal map in the charter shows toilets, an assisted-bathing area, adapted showers and adapted parking. A children's area and a paddle-surf plot are also on this beach's map. Route surface and gradient to the platform are not specified.
   mobility:
     route: unknown
     wheelchair_route: unknown
-    facilities: unknown
+    facilities: Assisted-bathing plot with adapted showers, adapted sunbeds, amphibious chairs/crutches and a hoist (lifeguard season); ramps from the promenade; adapted public toilets. A children's area and a paddle-surf plot are also on this beach's map.
   sensory:
     notes: unknown
-  accessible_toilets: unknown
-  source: null
-  checked_at: null
-  confidence: unknown
+  accessible_toilets: 'yes'
+  source: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
+  checked_at: '2026-11-01'
+  confidence: high
 wheelchair_friendly: unknown
 parking:
   availability: unknown
@@ -60,7 +60,7 @@ parking:
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
-toilets_available: unknown
+toilets_available: 'yes'
 food_available: unknown
 cost_level: Unknown
 visit_information:
@@ -79,7 +79,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Carvajal, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Carvajal (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, golden sand. Described as the calmest in Fuengirola, far from the centre, with a play area. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Popular fish restaurants in the beach bars (not named), specialised in fresh fish and seafood. Nearby: Coloured parasols and sunset. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Carvajal (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, golden sand. Described as the calmest in Fuengirola, far from the centre, with a play area. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Popular fish restaurants in the beach bars (not named), specialised in fresh fish and seafood. Nearby: Coloured parasols and sunset. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, a children''s area, assisted bathing and lifeguards are confirmed for the Fuengirola part of this beach. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. Carvajal also extends into Benalmádena, which lists its own accessibility point at Carvajal (2026). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Carvajal, Fuengirola | CalleMilano draft record
 seo_description: Draft record for Carvajal beach (Fuengirola). Based on a dated secondary-source snapshot; facts are under verification.
 images: []
@@ -148,6 +148,22 @@ evidence:
   checked_by: Claude (Routes API batch 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; destination = record coordinates (36.5725,-4.5881). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: toilets_available, accessibility
+  claim: The 2026 service charter's map of Playa de Carvajal lists toilets, an assisted-bathing area, adapted showers and adapted parking; all 15 municipal beach toilets are adapted for reduced mobility; ramps connect every beach with the promenade. The same map lists a children's area and a paddle-surf plot.
+  source_url: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: high
+  notes: Ayuntamiento de Fuengirola, Concejalía de Playas, Carta de Servicios, edition 2026-05-12, read in full (PDF text) on 2026-11-01. Map legends were read from the PDF text layer, not visually; a legend entry shows the service on that beach's map page.
+- field: description_long (lifeguard service)
+  claim: 'Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00.'
+  source_url: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: high
+  notes: Same charter, p. 5. Lifeguard cover changes yearly; re-check each season.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
@@ -181,7 +197,7 @@ review_issues:
   - toilets_available
   - accessibility
   - evidence
-  description: Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season.
+  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
   retryable: true
   owner: fact_check
 - code: source_urls_missing

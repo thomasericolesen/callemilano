@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Firecrawl__firecrawl_search",
+      "mcp__Firecrawl__firecrawl_scrape",
+      "mcp__Firecrawl__firecrawl_find_tools",
+      "WebSearch",
+      "WebFetch",
+      "Bash(python3 tools/places.py validate)",
+      "Bash(python3 tools/places.py catalog)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)"
+    ]
+  }
+}

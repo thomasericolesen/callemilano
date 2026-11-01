@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-LA-BUTIBAMBA-001
 slug: la-butibamba
 name: La Butibamba
@@ -36,17 +36,17 @@ family_score:
 energy_level: Low
 seasonality: []
 accessibility:
-  overall: unknown
+  overall: 'No assisted-bathing point at La Butibamba in 2026: Mijas places its adapted-beach posts at La Cala, El Bombo, Riviera and La Luna. Route, toilets and other accessibility details are not specified.'
   mobility:
     route: unknown
     wheelchair_route: unknown
-    facilities: unknown
+    facilities: 'No assisted-bathing post at this beach in 2026 (nearest listed: La Cala).'
   sensory:
     notes: unknown
   accessible_toilets: unknown
-  source: null
-  checked_at: null
-  confidence: unknown
+  source: https://www.mijas.es/portal/mijas-activa-su-dispositivo-de-salvamento-de-playas-a-tiempo-completo-con-62-socorristas-el-mejor-dotado-de-andalucia-en-personal/
+  checked_at: '2026-11-01'
+  confidence: high
 wheelchair_friendly: unknown
 parking:
   availability: unknown
@@ -76,9 +76,15 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-CHIRINGUITO-CRISTOBAL-001
+  relationship: nearby
+  note: 'Place to eat: Chiringuito Cristóbal.'
+- id: ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001
+  relationship: nearby
+  note: 'Place to eat: Chiringuito Los Moreno.'
 description_short: 'La Butibamba, Mijas: no Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'La Butibamba (Mijas). Not on the ADEAC Blue Flag 2026 list, so no indirect water-quality indication. Narrow beach, about 1,300 x 20 m, high occupancy. Owner (Eric): no rocks, only stones (walnut- to plum-sized). Play area. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Chiringuito Cristobal and Chiringuito Los Moreno (La Butiplaya). Nearby: Same area as La Cala. Rocks: owner states none, only stones; see review issues. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'La Butibamba (Mijas). Not on the ADEAC Blue Flag 2026 list, so no indirect water-quality indication. Narrow beach, about 1,300 x 20 m, high occupancy. Owner (Eric): no rocks, only stones (walnut- to plum-sized). Play area. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Chiringuito Cristobal and Chiringuito Los Moreno (La Butiplaya). Nearby: Same area as La Cala. Rocks: owner states none, only stones; see review issues. Municipal sources (Mijas 2026, checked 2026-11-01): lifeguards daily 1 June-30 September 11:00-20:00 (local press: two towers at this beach and weekend cover in May and October); no assisted-bathing point at this beach (nearest: La Cala). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: La Butibamba, Mijas | CalleMilano draft record
 seo_description: Draft record for La Butibamba beach (Mijas). Based on a dated secondary-source snapshot; facts are under verification.
 images: []
@@ -131,6 +137,30 @@ evidence:
   checked_by: Claude (Routes API batch 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; destination = record coordinates (36.5002,-4.6843). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: description_long (lifeguards)
+  claim: 'Mijas lifeguard service 2026: daily 1 June-30 September, 11:00-20:00, on all 16 municipal beaches.'
+  source_url: https://www.mijas.es/portal/mijas-activa-su-dispositivo-de-salvamento-de-playas-a-tiempo-completo-con-62-socorristas-el-mejor-dotado-de-andalucia-en-personal/
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: high
+  notes: Ayuntamiento de Mijas press release 2026-06-03, read 2026-11-01.
+- field: description_long (lifeguards)
+  claim: Two lifeguard towers at La Butibamba (2026); weekend cover 11:00-19:00 in May and again in October.
+  source_url: https://www.laopiniondemalaga.es/costa-sol-occidental/2026/06/03/mijas-dispositivo-salvamento-playas-62-socorristas-verano-130970804.html
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: medium
+  notes: La Opinión de Málaga 2026-06-03 (based on the municipal presentation), read 2026-11-01. The official release was read in excerpt and did not show the Butibamba line.
+- field: accessibility
+  claim: Adapted-beach posts with assisted bathing in 2026 are at La Cala (3), El Bombo (3), Riviera (2) and La Luna (2).
+  source_url: https://www.mijas.es/portal/mijas-activa-su-dispositivo-de-salvamento-de-playas-a-tiempo-completo-con-62-socorristas-el-mejor-dotado-de-andalucia-en-personal/
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: high
+  notes: Ayuntamiento de Mijas press release 2026-06-03, read 2026-11-01.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
@@ -164,7 +194,7 @@ review_issues:
   - toilets_available
   - accessibility
   - evidence
-  description: Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season.
+  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
   retryable: true
   owner: fact_check
 - code: source_urls_missing

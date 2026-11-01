@@ -1,5 +1,25 @@
 # Change log
 
+## 2026-11-01 - Restaurant pilot: four restaurant records linked to local beaches (draft, no schema change)
+
+Owner request: a pilot of 5-6 restaurants, each with its own record and linked from the nearby beach (owner agreed the same day that restaurant facts live only in the restaurant record and beaches point to it through `related_places`).
+
+- New records (category `Restaurants`, status `needs_fact_check`, IDs allocated in `data/place-id-registry.csv`): `chiringuito-cristobal` and `chiringuito-los-moreno` (La Butibamba, Mijas; identity from Turismo de Mijas), `morrofino` (Playamar, Torremolinos; own website with hours 12:00-24:00, closed Tuesday), `chiringuito-las-dunas-cabopino` (Cabopino, Marbella; own social pages, winter opening unclear).
+- Coordinates and Place IDs from Google Places API (identity only); driving times from Google Routes API (Saturday 10:00 predicted traffic): 15, 15, 29 and 22 min, all inside `local_30km`.
+- `related_places` (`nearby`) added both ways: La Butibamba, Playamar, Los Álamos and Cabopino-Artola now point to their restaurants. This is the first use of `related_places` in the catalogue.
+- Snapshot errors found and corrected in beach descriptions: Castillo-Ejido's "Marenostrum (beach bar)" is the Marenostrum Fuengirola concert venue; Morrofino and Arrozante are not on La Carihuela (Morrofino is at Playamar, Arrozante inside the Occidental Torremolinos Playa hotel). Review issues added. Arrozante and Marenostrum were dropped from the pilot.
+- Family suitability, prices, season, accessibility and practical details are not researched for the restaurants (review issues); `energy_level: Low` is an editorial default. Validation unchanged (same 6 pre-existing errors).
+
+## 2026-11-01 - Local beaches: facilities fact-checked against municipal sources (draft, no schema change)
+
+Owner request: fact-check the 13 local beaches. Owner decision the same day: keep `practical_details_out_of_scope` (parking, transport, dogs, cost, booking and food stay unknown on purpose); check only the description's claims about toilets, accessibility, lifeguards/season and play areas.
+
+- Sources read 2026-11-01: Fuengirola Carta de Servicios 2026 (edition 2026-05-12, per-beach maps); Turismo de Torremolinos "Playas Accesibles" (updated 2026-05-11); Benalmádena Delegación de Playas news 2026-06-05; Mijas press release 2026-06-03 (plus La Opinión de Málaga the same day); Marbella news 2026-04-20 (plus Diario Sur 2026-03-31 and a marbella24horas excerpt).
+- `toilets_available` set to `yes` with evidence for Castillo-Ejido, Fuengirola centrum, Carvajal, Boliches-Gaviotas, El Bajondillo, La Carihuela, Los Álamos and Playamar; `accessibility` filled from these sources for those beaches and for Fuente de la Salud, La Butibamba (no assisted-bathing point in 2026) and Cabopino-Artola. `wheelchair_friendly` stays `unknown` (route surfaces not specified; accessibility ratings need human review).
+- Lifeguard seasons added to the descriptions as dated municipal facts. Issues resolved: `toilets_listed_but_unverified` (Castillo-Ejido, Fuengirola centrum), `play_area_not_tied_to_beach_in_charter` (Boliches-Gaviotas). New warning `santa_ana_not_named_in_2026_service` (Santa Ana is not named in Benalmádena's 2026 lifeguard or accessibility lists).
+- Status `draft` -> `needs_fact_check` for 12 beaches: fact check is under way but rocks, sand/depth, beach-bar names and child-friendliness still rest on secondary sources or the owner's own observation. Los Monteros stays `draft`: no beach-specific municipal source was found.
+- Not changed: categories, tags, family scores, energy, seasonality (left for the editor), coordinates, out-of-scope practical fields, schema. Regenerated `data/place-catalog.csv`; validation unchanged (same 6 pre-existing errors in other records).
+
 ## 2026-11-01 - Local area: Routes API driving times written into the records (draft, no schema change)
 
 Owner decisions the same day, following the analytical route check below: (1) La Carihuela stays in the local area although the Routes API gave 31 min; (2) the Routes API figures are written into the records.

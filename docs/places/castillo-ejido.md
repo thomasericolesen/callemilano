@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-CASTILLO-EJIDO-001
 slug: castillo-ejido
 name: Castillo-Ejido
@@ -36,17 +36,17 @@ family_score:
 energy_level: Low
 seasonality: []
 accessibility:
-  overall: Source states access for people with reduced mobility and assisted bathing; route and facility details not specified.
+  overall: Fuengirola's 2026 service charter states that each of its four beaches has an adapted plot with assisted bathing by lifeguards (adapted showers, sunbeds, amphibious chairs and crutches, and a hoist), in the same period as the lifeguard service; that ramps connect every beach with the promenade; and that all 15 municipal beach toilets are adapted for reduced mobility. The Playa El Castillo map in the charter shows toilets, an assisted-bathing area, adapted showers and adapted parking. The charter also places an ostomy-adapted toilet module at Playa El Castillo. Route surface and gradient to the platform are not specified.
   mobility:
     route: unknown
     wheelchair_route: unknown
-    facilities: Assisted bathing listed by a secondary source; unverified.
+    facilities: Assisted-bathing plot with adapted showers, adapted sunbeds, amphibious chairs/crutches and a hoist (lifeguard season); ramps from the promenade; adapted public toilets. The charter also places an ostomy-adapted toilet module at Playa El Castillo.
   sensory:
     notes: unknown
-  accessible_toilets: unknown
-  source: null
-  checked_at: '2026-10-15'
-  confidence: low
+  accessible_toilets: 'yes'
+  source: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
+  checked_at: '2026-11-01'
+  confidence: high
 wheelchair_friendly: unknown
 parking:
   availability: unknown
@@ -59,7 +59,7 @@ parking:
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
-toilets_available: unknown
+toilets_available: 'yes'
 food_available: unknown
 cost_level: Unknown
 visit_information:
@@ -78,7 +78,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Castillo-Ejido, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Castillo-Ejido (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, dark sand. Toilets, showers, sunshades, access for people with reduced mobility, assisted bathing and lifeguards listed. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Marenostrum (beach bar). Sardine skewers in ''moragas'' (metal boats) require advance booking. Nearby: Castillo de Sohail at the river mouth; green area with basketball courts, paths and a zip line (tirolina). Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Castillo-Ejido (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, dark sand. Toilets, showers, sunshades, access for people with reduced mobility, assisted bathing and lifeguards listed. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): none confirmed (the snapshot''s ''Marenostrum'' is Marenostrum Fuengirola, an open-air concert venue by the Castillo Sohail, not a beach bar). Sardine skewers in ''moragas'' (metal boats) require advance booking. Nearby: Castillo de Sohail at the river mouth; green area with basketball courts, paths and a zip line (tirolina). Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, assisted bathing, adapted showers and lifeguards are confirmed for this beach; moraga boats need a Policía Local authorisation and a prior municipal fee. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. The charter''s map legend for this beach does not list a children''s area (text layer; not a confirmed absence). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Castillo-Ejido, Fuengirola | CalleMilano draft record
 seo_description: Draft record for Castillo-Ejido beach (Fuengirola). Based on a dated secondary-source snapshot; facts are under verification.
 images: []
@@ -139,6 +139,38 @@ evidence:
   checked_by: Claude (Routes API batch 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; destination = record coordinates (36.5253,-4.6288). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: toilets_available, accessibility
+  claim: The 2026 service charter's map of Playa El Castillo lists toilets, an assisted-bathing area, adapted showers and adapted parking; all 15 municipal beach toilets are adapted for reduced mobility; ramps connect every beach with the promenade. An ostomy-adapted toilet module is at Playa El Castillo.
+  source_url: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: high
+  notes: Ayuntamiento de Fuengirola, Concejalía de Playas, Carta de Servicios, edition 2026-05-12, read in full (PDF text) on 2026-11-01. Map legends were read from the PDF text layer, not visually; a legend entry shows the service on that beach's map page.
+- field: description_long (lifeguard service)
+  claim: 'Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00.'
+  source_url: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: high
+  notes: Same charter, p. 5. Lifeguard cover changes yearly; re-check each season.
+- field: description_long (moragas)
+  claim: Playa El Castillo has 11 moraga boats; use requires an authorisation from the Policía Local and prior payment of the municipal fee; one boat is adapted for reduced mobility.
+  source_url: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: high
+  notes: Same charter, moraga section. Fee amount not stated.
+- field: description_long (Marenostrum)
+  claim: Marenostrum Fuengirola is an open-air concert and events venue between the Castillo Sohail hill and the sea.
+  source_url: https://marenostrumfuengirola.com/
+  source_type: official_venue
+  checked_at: '2026-11-01'
+  checked_by: Claude (restaurant pilot 2026-11-01)
+  confidence: high
+  notes: Own website (event listings) and own Instagram description, read as search results 2026-11-01.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
@@ -172,7 +204,7 @@ review_issues:
   - toilets_available
   - accessibility
   - evidence
-  description: Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season.
+  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
   retryable: true
   owner: fact_check
 - code: source_urls_missing
@@ -209,11 +241,11 @@ review_issues:
   description: 'Parking and other practical details are intentionally left unknown (owner decision: adults look these up themselves).'
   retryable: false
   owner: human_editor
-- code: toilets_listed_but_unverified
+- code: snapshot_restaurant_misidentified
   severity: warning
   fields:
-  - toilets_available
-  description: Toilets are listed by secondary sources (see description), but toilets_available is left unknown until a source is verified (owner decision 2026-10-29 for Cabopino/Artola; the same rule is applied to Castillo-Ejido and Fuengirola centrum).
+  - description_long
+  description: The snapshot named 'Marenostrum' as a beach bar; it is the Marenostrum Fuengirola concert venue (own website lists concerts). Corrected in the description 2026-11-01; no beach bar on this beach has been verified yet.
   retryable: true
   owner: fact_check
 created_at: '2026-10-29'

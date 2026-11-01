@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-PLAYAMAR-001
 slug: playamar
 name: Playamar
@@ -37,17 +37,17 @@ family_score:
 energy_level: Low
 seasonality: []
 accessibility:
-  overall: unknown
+  overall: 'Torremolinos'' official tourism site (page updated 2026-05-11) states that its four main beaches, including Playamar, have extra-wide wooden walkways from the promenade to the bathing area, an assisted-bathing point staffed by specialised personnel with amphibious chairs and crutches (appointment by phone 697 61 04 60), and fully accessible toilets, showers and changing rooms plus shaded areas for people with disabilities. Bathing season: Easter week (Friday before Palm Sunday to Easter Monday) and 1 June-30 September. The per-beach accessibility map embedded on the page shows adapted toilets, accessible showers and reserved parking.'
   mobility:
-    route: unknown
+    route: Extra-wide wooden walkways from the promenade to the bathing area (official tourism page).
     wheelchair_route: unknown
-    facilities: unknown
+    facilities: Assisted-bathing point with amphibious chairs and crutches (by appointment, bathing season); accessible toilets, showers and changing rooms; shaded area for people with disabilities.
   sensory:
     notes: unknown
-  accessible_toilets: unknown
-  source: null
-  checked_at: null
-  confidence: unknown
+  accessible_toilets: 'yes'
+  source: https://turismotorremolinos.es/es/descubre/playas/playas-accesibles/
+  checked_at: '2026-11-01'
+  confidence: medium
 wheelchair_friendly: unknown
 parking:
   availability: unknown
@@ -60,7 +60,7 @@ parking:
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
-toilets_available: unknown
+toilets_available: 'yes'
 food_available: unknown
 cost_level: Unknown
 visit_information:
@@ -77,9 +77,12 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-MORROFINO-001
+  relationship: nearby
+  note: 'Place to eat: Morrofino.'
 description_short: 'Playamar, Torremolinos: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Playamar (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Fine, dark sand. Often recommended for children. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Wide choice of beach bars and restaurants. Nearby: Paseo Maritimo. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Playamar (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Fine, dark sand. Often recommended for children. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Wide choice of beach bars and restaurants. Nearby: Paseo Maritimo. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Playamar, Torremolinos | CalleMilano draft record
 seo_description: Draft record for Playamar beach (Torremolinos). Based on a dated secondary-source snapshot; facts are under verification.
 images: []
@@ -132,6 +135,14 @@ evidence:
   checked_by: Claude (Routes API batch 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; destination = record coordinates (36.6306,-4.4887). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: toilets_available, accessibility
+  claim: Playamar has wide walkways to the shore, a staffed assisted-bathing point with amphibious chairs, and accessible toilets, showers and changing rooms; bathing season Easter week and 1 June-30 September.
+  source_url: https://turismotorremolinos.es/es/descubre/playas/playas-accesibles/
+  source_type: official_tourism
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: medium
+  notes: Turismo de Torremolinos, 'Playas Accesibles', modified 2026-05-11, read 2026-11-01. The four-beach statement is general; the per-beach Google My Maps embedded on the page (published 2019-2021) show adapted toilets at this beach. Confidence medium because the per-beach maps are older than the season.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
@@ -165,7 +176,7 @@ review_issues:
   - toilets_available
   - accessibility
   - evidence
-  description: Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season.
+  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
   retryable: true
   owner: fact_check
 - code: source_urls_missing
