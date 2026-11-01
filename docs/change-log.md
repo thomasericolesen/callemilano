@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-01 - Six legacy import drafts: provisional energy level and archive decision
+
+Owner request: clear the six long-standing validation errors (`energy_level` None) in `cares`, `conil-de-la-frontera`, `cueva-de-los-arcos`, `miradouro-da-serpente-do-medal`, `roca-foradada` and `salt-de-la-coromina`. Owner decision the same day: give them provisional energy values and archive them.
+
+- `energy_level` set as a provisional editorial estimate from the place type: Cares `High`, Conil de la Frontera `Low`, Miradouro da Serpente do Medal `Low`, Cueva de los Arcos, Roca Foradada and Salt de la Coromina `Medium`. Each record has a `energy_level_provisional` warning.
+- Archive: all six are outside `local_30km` and in no excursion layer (archive under AGENTS.md); Miradouro da Serpente do Medal is in Portugal, out of scope since 2026-10-16. Their status stays `draft` because the validator requires an allocated ID outside `draft`, and allocation needs the unresolved identity (province/region) first; guessing it would break the stable-ID rule. Each record carries an `archive_out_of_scope` note with the owner decision. No schema or validator change.
+- `python3 tools/places.py validate` now reports 0 errors (68 records). Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-01 - Los Monteros archived (owner decision)
 
 Owner decision: remove Los Monteros (Adelfas), Marbella, from the guide. The editor's reasoning is that the area is best known for Nikki Beach, an adult venue for young, affluent visitors, which does not fit the family audience (editorial judgment, not a fact-checked claim).
