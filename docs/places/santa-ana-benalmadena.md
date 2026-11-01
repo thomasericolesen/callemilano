@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-SANTA-ANA-BENALMADENA-001
 slug: santa-ana-benalmadena
 name: Santa Ana (Torrebermeja-Santa Ana)
@@ -132,6 +132,14 @@ evidence:
   checked_by: Claude (Routes API batch 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; destination = record coordinates (36.5921,-4.523). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: description_long (lifeguards)
+  claim: Benalmádena's 2026 beach service names nine lifeguard points (Fuente de la Salud, Malapesquera, Las Gaviotas, Bil-Bil, Arroyo de la Miel, Los Melilleros, Torrevigía, Playa Bonita, Carvajal) and four accessibility points; Santa Ana / Torrebermeja is not named in either list.
+  source_url: https://www.benalmadena.es/noticias/N13457/El-Ayuntamiento-refuerza-la-seguridad-y-la-accesibilidad-de-las-playas-con-un-amplio-dispositivo-de-vigilancia-y-salvamento.html
+  source_type: government
+  checked_at: '2026-11-01'
+  checked_by: Claude (beach fact check 2026-11-01)
+  confidence: medium
+  notes: Ayuntamiento de Benalmádena news item 2026-06-05, read 2026-11-01. Absence from the list does not prove there is no cover; Malapesquera is nearby, but the source does not say which points cover Santa Ana.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
@@ -165,7 +173,7 @@ review_issues:
   - toilets_available
   - accessibility
   - evidence
-  description: Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season.
+  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
   retryable: true
   owner: fact_check
 - code: source_urls_missing
@@ -202,6 +210,14 @@ review_issues:
   description: 'Parking and other practical details are intentionally left unknown (owner decision: adults look these up themselves).'
   retryable: false
   owner: human_editor
+- code: santa_ana_not_named_in_2026_service
+  severity: warning
+  fields:
+  - description_long
+  - accessibility
+  description: Benalmádena's 2026 beach-service announcement does not name Santa Ana / Torrebermeja among its nine lifeguard points or four accessibility points (Malapesquera is named). Confirm with the Delegación de Playas whether lifeguard cover and facilities apply to this beach before describing it as family-oriented with services.
+  retryable: true
+  owner: fact_check
 created_at: '2026-10-29'
 updated_at: '2026-10-29'
 last_verified: '2026-10-29'
