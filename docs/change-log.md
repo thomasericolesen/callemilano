@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-01 - Restaurant pilot, round 2: Fuengirola and Benalmádena (draft, no schema change)
+
+Owner request: extend the restaurant pilot. Same method as round 1 (own record per restaurant, `related_places` both ways, Places API for identity only, Routes API Saturday 10:00 for drive time).
+
+- New records (category `Restaurants`, status `needs_fact_check`, IDs allocated): `los-marinos-paco` (Carvajal, Fuengirola, 17 min; own website gives hours, children's menu, high chairs, dogs on the terrace, phone-only booking), `la-mar-sala` (Los Boliches, Fuengirola, 17 min; own website: daily 12:00-00:00, serviced sunbed area), `santa-ana-denis` (Playa de Santa Ana, Benalmádena, 27 min; own website), `chiringuito-rafael` (Playa de la Salud, Benalmádena, 28 min; only its own Facebook page and Google Places, flagged `weak_identity_source`).
+- Beaches now linking to restaurants: Carvajal, Boliches-Gaviotas, Santa Ana and Fuente de la Salud (plus La Butibamba, Playamar, Los Álamos and Cabopino-Artola from round 1).
+- `los-marinos-paco` sets `dog_friendly: partial` and `booking_required: false` from the venue's own FAQ. Family suitability, prices and accessibility remain open review issues for all four.
+- Validation unchanged (same 6 pre-existing errors).
+
 ## 2026-11-01 - Restaurant pilot: four restaurant records linked to local beaches (draft, no schema change)
 
 Owner request: a pilot of 5-6 restaurants, each with its own record and linked from the nearby beach (owner agreed the same day that restaurant facts live only in the restaurant record and beaches point to it through `related_places`).

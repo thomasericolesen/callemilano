@@ -1,0 +1,153 @@
+---
+schema_version: 1.0.0
+status: needs_fact_check
+id: ES-AND-MAL-SANTA-ANA-DENIS-001
+slug: santa-ana-denis
+name: Restaurante Santa Ana Denis
+category: Restaurants
+tags:
+- Restaurant
+- Beach
+coordinates:
+  latitude: 36.5908659
+  longitude: -4.52638
+  purpose: venue
+  label: Restaurante Santa Ana Denis, Playa de Santa Ana, local 4, 29630 Benalmádena (Google Places listing)
+  source: Google Places API (New) searchText, place ChIJlZTX_GH8cg0RvQde5l7lnfA, read 2026-11-01
+  checked_at: '2026-11-01'
+google_maps_url: https://maps.google.com/?cid=17338266336200886205
+external_ids:
+  google_place_id: ChIJlZTX_GH8cg0RvQde5l7lnfA
+municipality: Benalmádena
+province: Málaga
+autonomous_community: Andalusia
+country: Spain
+driving_time_from_casa_de_la_familia:
+  duration: 27 min
+  origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
+  destination: Restaurante Santa Ana Denis, Playa de Santa Ana, local 4, 29630 Benalmádena
+  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5908659,-4.52638); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5908659%2C-4.52638&travelmode=driving
+  checked_at: '2026-11-01'
+  note: 'Routes API figure: 27 min with predicted Saturday 10:00 traffic (27 min without traffic), 20.1 km via AP-7. One predicted sample, not the Google Maps app''s main figure.'
+age_groups: []
+family_score:
+  small_children: unknown
+  children: unknown
+  young_adults: unknown
+  seniors: unknown
+energy_level: Low
+seasonality: []
+accessibility:
+  overall: unknown
+  mobility:
+    route: unknown
+    wheelchair_route: unknown
+    facilities: unknown
+  sensory:
+    notes: unknown
+  accessible_toilets: unknown
+  source: null
+  checked_at: null
+  confidence: unknown
+wheelchair_friendly: unknown
+parking:
+  availability: unknown
+  location_type: unknown
+  cost: unknown
+  restrictions: unknown
+  walk_distance: unknown
+  source: null
+  checked_at: null
+transport_options: []
+booking_required: unknown
+dog_friendly: unknown
+toilets_available: unknown
+food_available: 'yes'
+cost_level: Unknown
+visit_information:
+  schedule: null
+  typical_duration: null
+  booking_lead_time: null
+  valid_from: null
+  valid_until: null
+  cost_basis: null
+  cost_checked_at: null
+links:
+  official_website: https://www.restaurantesantaanadenis.com/
+  booking: null
+  visitor_information: null
+  transport: null
+  contact: tel:+34952564382
+related_places:
+- id: ES-AND-MAL-SANTA-ANA-BENALMADENA-001
+  relationship: nearby
+  note: Beachfront restaurant on Playa de Santa Ana.
+description_short: Beachfront restaurant on Playa de Santa Ana, Benalmádena Costa, serving paellas, seafood and espetos; about 27 minutes by car.
+description_long: 'Restaurante Santa Ana Denis is a beachfront restaurant on the Benalmádena Costa promenade at Playa de Santa Ana (local 4). Its own website lists paellas, seafood, grilled meat and fish on the espeto, phone 952 56 43 82, and describes the atmosphere as ideal for families and groups (the venue''s own wording, not an independent assessment). Route check: about 27 minutes from Casa de la Familia (Saturday 10:00, predicted traffic). Opening hours, season, prices, children''s facilities and accessibility are not confirmed.'
+seo_title: Restaurante Santa Ana Denis, Benalmádena | CalleMilano draft record
+seo_description: 'Draft record for Restaurante Santa Ana Denis (Benalmádena): location, drive from Casa de la Familia and what is confirmed so far.'
+images: []
+evidence:
+- field: name, municipality, food_available, links
+  claim: 'Own website: beachfront restaurant on the Benalmádena Costa promenade at Playa de Santa Ana, local 4; paellas, seafood, grilled meat and fish on the espeto; phone 952 56 43 82; describes itself as ideal for families and groups.'
+  source_url: https://www.restaurantesantaanadenis.com/
+  source_type: official_venue
+  checked_at: '2026-11-01'
+  checked_by: Claude (restaurant pilot 2026-11-01)
+  confidence: high
+  notes: Own website read on 2026-11-01.
+- field: coordinates, google_maps_url, external_ids
+  claim: Google Places lists Restaurante Santa Ana Denis at Playa de Santa Ana, local 4, 29630 Benalmádena (36.5908659,-4.52638), business status OPERATIONAL.
+  source_url: https://maps.google.com/?cid=17338266336200886205
+  source_type: maps_identity
+  checked_at: '2026-11-01'
+  checked_by: Claude (restaurant pilot 2026-11-01)
+  confidence: medium
+  notes: Google Places API (New) searchText on 2026-11-01. Maps establishes identity and position only, not hours, prices or facilities.
+- field: driving_time_from_casa_de_la_familia
+  claim: 'One-way drive from Casa de la Familia: 27 min, 20.1 km (Saturday 10:00 predicted traffic).'
+  source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5908659%2C-4.52638&travelmode=driving
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Claude (restaurant pilot 2026-11-01)
+  confidence: medium
+  notes: Google Routes API computeRoutes; predicted-traffic estimate for one departure time.
+review_issues:
+- code: family_suitability_not_assessed
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  - energy_level
+  description: No source on children's menu, high chairs, play area or family suitability was checked; age groups and family scores are left unknown/empty and energy_level Low is an editorial default for a restaurant visit. Needs editor assessment.
+  retryable: true
+  owner: human_editor
+- code: season_and_prices_unverified
+  severity: warning
+  fields:
+  - seasonality
+  - cost_level
+  - visit_information
+  description: Season, opening hours (where not stated) and prices are not confirmed by an official source; beach bars often change hours out of season.
+  retryable: true
+  owner: fact_check
+- code: practical_details_unverified
+  severity: info
+  fields:
+  - parking
+  - transport_options
+  - dog_friendly
+  - toilets_available
+  - accessibility
+  - booking_required
+  description: Practical and accessibility details were not researched in the restaurant pilot.
+  retryable: true
+  owner: fact_check
+created_at: 2026-11-01
+updated_at: 2026-11-01
+last_verified: 2026-11-01
+last_reviewed_at: null
+next_review_at: 2027-04-01
+review_decision: null
+redirects: []
+---

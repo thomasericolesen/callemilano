@@ -77,7 +77,10 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-CHIRINGUITO-RAFAEL-001
+  relationship: nearby
+  note: 'Place to eat: Chiringuito Rafael.'
 description_short: 'Fuente de la Salud, Benalmádena: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
 description_long: 'Fuente de la Salud (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Dark sand, moderate waves, about 150 x 80 m, high occupancy level. Family-oriented, play area, one lifeguard post. Nearby: By Puerto Marina. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal source (Benalmádena, 2026-06-05, checked 2026-11-01): a lifeguard point and an accessibility point / adapted beach at Fuente de la Salud; intensive lifeguard season 15 May-15 October, plus Easter week and the following weekends. Toilets and the play area are not confirmed by an official source. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Fuente de la Salud, Benalmádena | CalleMilano draft record
