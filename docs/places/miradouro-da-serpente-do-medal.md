@@ -22,13 +22,13 @@ province: Unknown
 autonomous_community: Not applicable
 country: Portugal
 driving_time_from_casa_de_la_familia:
-  duration:  null
+  duration: "8 hours 18 mins"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas,
     Málaga, Spain
-  destination: Unknown; named visitor point not established
-  source:  null
-  checked_at:  null
-  note: Route not checked; do not estimate from memory.
+  destination: "Miradouro da Serpente do Medal, Mogadouro"
+  source: "Google Routes API (computeRouteMatrix), checked by script on 2026-11-01 from Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain (36.5357505,-4.6627914); toll roads avoided - https://www.google.com/maps/dir/?api=1&origin=36.5357505%2C-4.6627914&destination=Miradouro+da+Serpente+do+Medal%2C+Mogadouro%2C+Portugal&travelmode=driving&avoid=tolls"
+  checked_at: 2026-11-01
+  note: "Live traffic Sunday 2026-11-01, about 12:13. 756.3 km. Measured programmatically (Routes API)."
 age_groups: []
 family_score:
   small_children: unknown
