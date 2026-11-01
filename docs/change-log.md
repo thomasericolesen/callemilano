@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-01 - Local area: driving times re-checked with Google Routes API (analytical, no record change)
+
+Owner request: check the driving times in the local area now that the Google API key works.
+
+- Added `data/route-checks-2026-11-01-local.csv`: 20 records whose recorded driving time is 60 min or less, checked with Google Routes API `computeRoutes` from the project origin (36.5356875, -4.6626875) to the record coordinates (address text for the three records without coordinates), departure Saturday 2026-11-07 10:00 Europe/Madrid with predicted traffic, tolls not avoided; an avoid-tolls run gave the same figures for all 20.
+- All 11 local beaches confirmed within 30 min (differences from the owner's 2026-07-18 Google Maps readings are -2 to +1 min). La Carihuela came out at 31 min (recorded 30) and Fuente de la Salud at 30: both borderline for `local_30km`. The nine records already in the excursion layer stayed above 30 min (Marbella old town 35, Mercado de Atarazanas 37, Palmeral de las Sorpresas 37, Playa la Malagueta 40, Málaga 45, Selwo Aventura 46, Tolox 56).
+- Values are not written into the records and no layer membership was changed; the Routes API figure is a predicted-traffic estimate and not identical to the Google Maps main figure that decides `local_30km`. Editor decision open: whether to record these as route evidence and how to treat La Carihuela.
+
 ## 2026-10-30 - Excursion records: Google driving times, hours/prices and nearby suggestions (draft, additive, no schema change)
 
 Owner request: fact-check the Google Maps driving times for the excursion destinations and add opening hours, prices, official links and nearby suggestions. Branch `udflugter-verificering-2`; **draft, not pushed, not editor-approved, status values unchanged.**
