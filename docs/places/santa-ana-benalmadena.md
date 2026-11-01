@@ -21,12 +21,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: 28 min
-  origin: Casa de la Familia (Calle Milano 35, 29649 Las Lagunas de Mijas, Málaga, Spain)
+  duration: 27 min
+  origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: Santa Ana (Torrebermeja-Santa Ana), Benalmádena, Málaga, Spain (Google Maps marker, not a parking point)
-  source: 'Google Maps, measured by Eric Olesen (owner): Saturday 2026-07-18 10:00, start Calle Milano 35, 29649 Las Lagunas de Mijas (36.5356, -4.6627); no route URL recorded'
-  checked_at: '2026-07-18'
-  note: 'Google''s main figure: 28 min (typical range shown by Google: 22-35 min). Measured by the owner in Google Maps, Saturday 2026-07-18 10:00, one sample; traffic and season change the time. Destination is Google''s marker, not a parking point. Origin Calle Milano 35 (36.5356, -4.6627) is treated as the same place as Casa de la Familia because the coordinates agree with the project origin (36.5356875, -4.6626875) to about 10 m; not confirmed by an address source. No route URL recorded.'
+  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.5921,-4.523); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5921%2C-4.523&travelmode=driving
+  checked_at: '2026-11-01'
+  note: 'Routes API figure: 27 min with predicted Saturday 10:00 traffic (27 min without traffic), 19.7 km via AP-7; an avoid-tolls run gave 27 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 28 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv.'
 age_groups:
 - Small children (0-6)
 family_score:
@@ -124,13 +124,21 @@ evidence:
   checked_by: strandoversigt-snapshot (Eric/Claude)
   confidence: low
   notes: '[unverified] Absence of a mention is not confirmation that there are no rocks.'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'One-way drive from Casa de la Familia to Santa Ana (Torrebermeja-Santa Ana), Benalmádena, Málaga, Spain (Google Maps marker, not a parking point): 27 min, 19.7 km (Saturday 10:00 predicted traffic).'
+  source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5921%2C-4.523&travelmode=driving
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Claude (Routes API batch 2026-11-01)
+  confidence: medium
+  notes: Google Routes API computeRoutes; destination = record coordinates (36.5921,-4.523). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
   fields:
   - coordinates
   - driving_time_from_casa_de_la_familia
-  description: 'Coordinates and driving time were read and measured by the owner in Google Maps (Saturday 2026-07-18 10:00, one sample, no route URL). Not independently route-checked; Google''s marker is not an official visitor point. local_30km rule (owner decision 2026-10-29): at most 30 min by Google''s main figure.'
+  description: 'Coordinates were read by the owner from Google''s marker (2026-07-18) and are not an official visitor point. Driving time was route-checked with Google Routes API on 2026-11-01 (Saturday 10:00 predicted traffic) to those coordinates, so it inherits the marker''s precision. local_30km rule (owner decision 2026-10-29): at most 30 min by Google''s main figure.'
   retryable: true
   owner: fact_check
 - code: google_maps_url_missing

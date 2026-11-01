@@ -23,12 +23,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "56 min"
+  duration: 56 min
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: "Balneario de Tolox (Fuente Amargosa), Tolox, Málaga, Spain"
-  source: "https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-4.9114074,36.6850627?overview=false"
-  checked_at: 2026-10-15
-  note: "Route-checked one-way via OSRM (driving profile), ~43.7 km. Actual time varies with traffic."
+  destination: Balneario de Tolox (Fuente Amargosa), Tolox, Málaga, Spain
+  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.6850627,-4.9114074); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.6850627%2C-4.9114074&travelmode=driving
+  checked_at: '2026-11-01'
+  note: 'Routes API figure: 56 min with predicted Saturday 10:00 traffic (54 min without traffic), 45.0 km via A-7053 y A-366; an avoid-tolls run gave 56 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 56 min (2026-10-15): OSRM route check, no traffic, about 43.7 km. Batch: data/route-checks-2026-11-01-local.csv.'
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -131,6 +131,14 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: high
     notes: "Home page of the spa, re-read 2026-10-29 (page modified 2026-07-09). The Google AI summary seen by the owner on 2026-10-29 says the same; it is not used as a source."
+  - field: driving_time_from_casa_de_la_familia
+    claim: 'One-way drive from Casa de la Familia to Balneario de Tolox (Fuente Amargosa), Tolox, Málaga, Spain: 56 min, 45.0 km (Saturday 10:00 predicted traffic).'
+    source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.6850627%2C-4.9114074&travelmode=driving
+    source_type: secondary
+    checked_at: '2026-11-01'
+    checked_by: Claude (Routes API batch 2026-11-01)
+    confidence: medium
+    notes: Google Routes API computeRoutes; destination = record coordinates (36.6850627,-4.9114074). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
 review_issues:
   - code: season_2027_dates_unconfirmed
     severity: warning

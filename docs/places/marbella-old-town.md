@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "36 min"
+  duration: 35 min
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: "Old Town Marbella parking, Av. del Mar 14, 29602 Marbella, Málaga, Spain (a car park, not Plaza de los Naranjos)"
-  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/GXxtiiSjGwB5qGdZ6"
-  checked_at: 2026-10-29
-  note: "Google main figure, live traffic Thursday 2026-10-29 about 15:00 (not the Saturday-morning sample used for beaches). 27.3 km via A-7. Destination is the Google Maps place 'Old Town Marbella parking'."
+  destination: Old Town Marbella parking, Av. del Mar 14, 29602 Marbella, Málaga, Spain (a car park, not Plaza de los Naranjos)
+  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.5101033,-4.8849716); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5101033%2C-4.8849716&travelmode=driving
+  checked_at: '2026-11-01'
+  note: 'Routes API figure: 35 min with predicted Saturday 10:00 traffic (35 min without traffic), 28.9 km via A-7; an avoid-tolls run gave 35 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 36 min (2026-10-29): Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano. Batch: data/route-checks-2026-11-01-local.csv.'
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -118,6 +118,14 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: medium
     notes: "Measured by the owner, toll roads avoided, Thursday 2026-10-29 around 15:00 with live traffic. One sample. The official municipal tourism page (turismo.marbella.es, re-read 2026-10-29) lists the sights of the old town but gives no opening hours, parking or access details."
+  - field: driving_time_from_casa_de_la_familia
+    claim: 'One-way drive from Casa de la Familia to Old Town Marbella parking, Av. del Mar 14, 29602 Marbella, Málaga, Spain (a car park, not Plaza de los Naranjos): 35 min, 28.9 km (Saturday 10:00 predicted traffic).'
+    source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5101033%2C-4.8849716&travelmode=driving
+    source_type: secondary
+    checked_at: '2026-11-01'
+    checked_by: Claude (Routes API batch 2026-11-01)
+    confidence: medium
+    notes: Google Routes API computeRoutes; destination = record coordinates (36.5101033,-4.8849716). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
 review_issues:
   - code: family_ratings_estimated
     severity: warning

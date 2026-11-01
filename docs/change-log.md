@@ -1,5 +1,22 @@
 # Change log
 
+## 2026-11-01 - Local area: Routes API driving times written into the records (draft, no schema change)
+
+Owner decisions the same day, following the analytical route check below: (1) La Carihuela stays in the local area although the Routes API gave 31 min; (2) the Routes API figures are written into the records.
+
+- Records edited (20): `boliches-gaviotas`, `cabopino-artola`, `carvajal`, `castillo-ejido`, `el-bajondillo`, `fuengirola-centro`, `fuente-de-la-salud`, `la-butibamba`, `la-carihuela`, `los-alamos`, `los-monteros`, `playamar`, `santa-ana-benalmadena`, `malaga`, `marbella-old-town`, `mercado-de-atarazanas`, `palmeral-de-las-sorpresas`, `playa-la-malagueta`, `selwo-aventura`, `tolox`.
+- `driving_time_from_casa_de_la_familia` now holds the Routes API figure (Saturday 2026-11-07 10:00, predicted traffic, tolls not avoided) with source, route URL, check date 2026-11-01 and the previous value in the note; one evidence-ledger entry per record. Origin text set to the canonical Casa de la Familia address; the route was computed from the project origin coordinates.
+- Beaches: the `route_and_coordinates_owner_measured` warning stays (coordinates are still the owner-read Google marker) with its description updated. `selwo-aventura`: blocking issue `driving_time_unverified` resolved and removed (route source and check date now recorded).
+- Not changed: status values, coordinates, `data/layer-membership.csv`, schema. Regenerated `data/place-catalog.csv`; `python3 tools/places.py validate` reports the same 6 pre-existing errors (`energy_level` None in other records) as before the change.
+
+## 2026-11-01 - Local area: driving times re-checked with Google Routes API (analytical, no record change)
+
+Owner request: check the driving times in the local area now that the Google API key works.
+
+- Added `data/route-checks-2026-11-01-local.csv`: 20 records whose recorded driving time is 60 min or less, checked with Google Routes API `computeRoutes` from the project origin (36.5356875, -4.6626875) to the record coordinates (address text for the three records without coordinates), departure Saturday 2026-11-07 10:00 Europe/Madrid with predicted traffic, tolls not avoided; an avoid-tolls run gave the same figures for all 20.
+- 12 of the 13 local beaches confirmed within 30 min (differences from the owner's 2026-07-18 Google Maps readings are -2 to +1 min). La Carihuela came out at 31 min (recorded 30) and Fuente de la Salud at 30: both borderline for `local_30km`. The seven records above 30 min stayed above 30 min (Marbella old town 35, Mercado de Atarazanas 37, Palmeral de las Sorpresas 37, Playa la Malagueta 40, Málaga 45, Selwo Aventura 46, Tolox 56).
+- Values are not written into the records and no layer membership was changed; the Routes API figure is a predicted-traffic estimate and not identical to the Google Maps main figure that decides `local_30km`. Editor decision open: whether to record these as route evidence and how to treat La Carihuela.
+
 ## 2026-10-30 - Excursion records: Google driving times, hours/prices and nearby suggestions (draft, additive, no schema change)
 
 Owner request: fact-check the Google Maps driving times for the excursion destinations and add opening hours, prices, official links and nearby suggestions. Branch `udflugter-verificering-2`; **draft, not pushed, not editor-approved, status values unchanged.**

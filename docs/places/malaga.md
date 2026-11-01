@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "47 min"
+  duration: 45 min
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: "Alcazaba de Málaga, Centro, Málaga, Spain (the cathedral is close by)"
-  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/WniHZKB2mgfWtWdG9"
-  checked_at: 2026-10-29
-  note: "Google main figure, live traffic Thursday 2026-10-29 about 15:00 (not the Saturday-morning sample used for beaches). 36.6 km via AP-7. Parking at C/ Alcazabilla 2 (owner's saved pin): 49 min, 40.6 km (https://maps.app.goo.gl/ps3S9V82tipKPrfV7). Replaces the OSRM figure of 36 min (2026-10-15), which was too low against Google."
+  destination: Alcazaba de Málaga, Centro, Málaga, Spain (the cathedral is close by)
+  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.7201788,-4.4194052); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.7201788%2C-4.4194052&travelmode=driving
+  checked_at: '2026-11-01'
+  note: 'Routes API figure: 45 min with predicted Saturday 10:00 traffic (45 min without traffic), 37.8 km via AP-7; an avoid-tolls run gave 45 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 47 min (2026-10-29): Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano. Batch: data/route-checks-2026-11-01-local.csv.'
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -156,6 +156,14 @@ evidence:
     checked_by: "fact-check-agent"
     confidence: high
     notes: "Alcazaba figures from https://alcazabaygibralfaro.malaga.eu/es/visitas/horarios-y-tarifas/ (Ayuntamiento de Málaga), same date."
+  - field: driving_time_from_casa_de_la_familia
+    claim: 'One-way drive from Casa de la Familia to Alcazaba de Málaga, Centro, Málaga, Spain (the cathedral is close by): 45 min, 37.8 km (Saturday 10:00 predicted traffic).'
+    source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.7201788%2C-4.4194052&travelmode=driving
+    source_type: secondary
+    checked_at: '2026-11-01'
+    checked_by: Claude (Routes API batch 2026-11-01)
+    confidence: medium
+    notes: Google Routes API computeRoutes; destination = record coordinates (36.7201788,-4.4194052). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
 review_issues:
   - code: visitor_facilities_unverified
     severity: warning

@@ -23,12 +23,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "46 mins"
+  duration: 46 min
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: "Selwo Aventura (36.462831, -5.0856)"
-  source: "Google Routes API (computeRouteMatrix), checked by script on 2026-11-01 from Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain (36.5357505,-4.6627914); toll roads avoided - https://www.google.com/maps/dir/?api=1&origin=36.5357505%2C-4.6627914&destination=36.462831%2C-5.0856&travelmode=driving&avoid=tolls"
-  checked_at: 2026-11-01
-  note: "Live traffic Sunday 2026-11-01, about 12:13. 48.6 km. Measured programmatically (Routes API)."
+  destination: Selwo Aventura (36.462831, -5.0856)
+  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.462831,-5.0856); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.462831%2C-5.0856&travelmode=driving
+  checked_at: '2026-11-01'
+  note: 'Routes API figure: 46 min with predicted Saturday 10:00 traffic (46 min without traffic), 48.6 km via A-7; an avoid-tolls run gave 46 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 46 mins (2026-11-01): Google Routes API computeRouteMatrix, live traffic Sunday 2026-11-01 about 12:13, toll roads avoided. Batch: data/route-checks-2026-11-01-local.csv.'
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -136,13 +136,15 @@ evidence:
     checked_by: maps-import-agent
     confidence: high
     notes: "Check the operating calendar for the intended date."
+  - field: driving_time_from_casa_de_la_familia
+    claim: 'One-way drive from Casa de la Familia to Selwo Aventura (36.462831, -5.0856): 46 min, 48.6 km (Saturday 10:00 predicted traffic).'
+    source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.462831%2C-5.0856&travelmode=driving
+    source_type: secondary
+    checked_at: '2026-11-01'
+    checked_by: Claude (Routes API batch 2026-11-01)
+    confidence: medium
+    notes: Google Routes API computeRoutes; destination = record coordinates (36.462831,-5.0856). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
 review_issues:
-  - code: driving_time_unverified
-    severity: blocking
-    fields: [driving_time_from_casa_de_la_familia]
-    description: "Verify one-way drive time from Casa de la Familia and record route source and check date."
-    retryable: true
-    owner: fact_check
   - code: family_ratings_estimated
     severity: warning
     fields: [age_groups, family_score, energy_level, seasonality]
