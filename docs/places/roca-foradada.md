@@ -1,7 +1,7 @@
 ---
 schema_version: 1.0.0
 status: draft
-id:  null
+id: null
 slug: roca-foradada
 name: Roca Foradada
 category: Nature
@@ -9,12 +9,12 @@ tags:
 - Nature
 - Viewpoint
 coordinates:
-  latitude:  null
-  longitude:  null
+  latitude: null
+  longitude: null
   purpose: representative_point
   label: Unknown; exact visitor point not established
-  source:  null
-  checked_at:  null
+  source: null
+  checked_at: null
 google_maps_url: https://maps.app.goo.gl/4cZJ8eRQH47aHH146
 external_ids: {}
 municipality: Unknown
@@ -22,20 +22,19 @@ province: Unknown
 autonomous_community: Unknown
 country: Unknown
 driving_time_from_casa_de_la_familia:
-  duration: "9 hours 30 mins"
-  origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas,
-    Málaga, Spain
-  destination: "Roca Foradada"
-  source: "Google Routes API (computeRouteMatrix), checked by script on 2026-11-01 from Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain (36.5357505,-4.6627914); toll roads avoided - https://www.google.com/maps/dir/?api=1&origin=36.5357505%2C-4.6627914&destination=Roca+Foradada&travelmode=driving&avoid=tolls"
+  duration: 9 hours 30 mins
+  origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
+  destination: Roca Foradada
+  source: Google Routes API (computeRouteMatrix), checked by script on 2026-11-01 from Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain (36.5357505,-4.6627914); toll roads avoided - https://www.google.com/maps/dir/?api=1&origin=36.5357505%2C-4.6627914&destination=Roca+Foradada&travelmode=driving&avoid=tolls
   checked_at: 2026-11-01
-  note: "Live traffic Sunday 2026-11-01, about 12:13. 1006.2 km. Measured programmatically (Routes API)."
+  note: Live traffic Sunday 2026-11-01, about 12:13. 1006.2 km. Measured programmatically (Routes API).
 age_groups: []
 family_score:
   small_children: unknown
   children: unknown
   young_adults: unknown
   seniors: unknown
-energy_level:  null
+energy_level: Medium
 seasonality: []
 accessibility:
   overall: unknown
@@ -46,8 +45,8 @@ accessibility:
   sensory:
     notes: unknown
   accessible_toilets: unknown
-  source:  null
-  checked_at:  null
+  source: null
+  checked_at: null
   confidence: unknown
 wheelchair_friendly: unknown
 parking:
@@ -56,8 +55,8 @@ parking:
   cost: unknown
   restrictions: unknown
   walk_distance: unknown
-  source:  null
-  checked_at:  null
+  source: null
+  checked_at: null
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
@@ -65,41 +64,38 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule:  null
-  typical_duration:  null
-  booking_lead_time:  null
-  valid_from:  null
-  valid_until:  null
-  cost_basis:  null
-  cost_checked_at:  null
+  schedule: null
+  typical_duration: null
+  booking_lead_time: null
+  valid_from: null
+  valid_until: null
+  cost_basis: null
+  cost_checked_at: null
 links:
-  official_website:  null
-  booking:  null
-  visitor_information:  null
-  transport:  null
-  contact:  null
+  official_website: null
+  booking: null
+  visitor_information: null
+  transport: null
+  contact: null
 related_places: []
-description_short: Imported destination candidate; visitor point and practical visitor
-  information are not yet fully verified.
-description_long: |-
-  Official facts (see evidence ledger): No destination-specific official fact has been verified yet.
+description_short: Imported destination candidate; visitor point and practical visitor information are not yet fully verified.
+description_long: 'Official facts (see evidence ledger): No destination-specific official fact has been verified yet.
+
   Editorial interpretation (low confidence): This imported candidate may fit the owner’s interests in nature, viewpoints, or hiking; the exact visitor experience, route, and suitability remain unassessed.
-  Guest observations: None were supplied in the imported list material reviewed.
+
+  Guest observations: None were supplied in the imported list material reviewed.'
 seo_title: Roca Foradada | CalleMilano destination record
-seo_description: Draft destination record for Roca Foradada. Visitor facts and practical
-  details are under verification.
+seo_description: Draft destination record for Roca Foradada. Visitor facts and practical details are under verification.
 images: []
 evidence:
 - field: name, google_maps_url
-  claim: The owner-supplied Projekt Spanien Google Maps list contains a saved-place
-    entry displayed as “Roca Foradada”.
+  claim: The owner-supplied Projekt Spanien Google Maps list contains a saved-place entry displayed as “Roca Foradada”.
   source_url: https://maps.app.goo.gl/4cZJ8eRQH47aHH146
   source_type: maps_identity
   checked_at: '2026-10-04'
   checked_by: maps-import-agent
   confidence: low
-  notes: User-provided visible list capture. The list link is identity provenance
-    only; it does not verify visitor facts, and an individual place URL was not supplied.
+  notes: User-provided visible list capture. The list link is identity provenance only; it does not verify visitor facts, and an individual place URL was not supplied.
 review_issues:
 - code: needs_clarification
   severity: blocking
@@ -122,9 +118,7 @@ review_issues:
   - parking
   - visit_information
   - guest_observations
-  description: These facts or editorial assessments were not established from the
-    supplied list or checked sources. Explicit unknown values remain in this draft;
-    complete claim-specific research and editorial review before advancement.
+  description: These facts or editorial assessments were not established from the supplied list or checked sources. Explicit unknown values remain in this draft; complete claim-specific research and editorial review before advancement.
   retryable: true
   owner: fact_check
 - code: identity_scope_unresolved
@@ -135,8 +129,7 @@ review_issues:
   - municipality
   - province
   - google_maps_url
-  description: The imported name/pin does not establish an unambiguous visitor destination
-    or exact point; confirm the intended identity before this draft advances.
+  description: The imported name/pin does not establish an unambiguous visitor destination or exact point; confirm the intended identity before this draft advances.
   retryable: false
   owner: human_editor
 - code: schema_blocking_unknowns
@@ -146,9 +139,7 @@ review_issues:
   - coordinates.longitude
   - energy_level
   - seasonality
-  description: The active schema does not define unknown values for all required fields.
-    This draft leaves unsupported values explicit; resolve them with evidence or obtain
-    an approved schema-compatible representation before validation or human approval.
+  description: The active schema does not define unknown values for all required fields. This draft leaves unsupported values explicit; resolve them with evidence or obtain an approved schema-compatible representation before validation or human approval.
   retryable: true
   owner: fact_check
 - code: stable_id_not_allocated
@@ -158,9 +149,7 @@ review_issues:
   - name
   - coordinates
   - country
-  description: Stable ID allocation is withheld because the saved identity/scope is
-    unresolved or the destination is outside the Spanish ES ID namespace. Resolve
-    identity/scope or the applicable ID policy before reserving an ID.
+  description: Stable ID allocation is withheld because the saved identity/scope is unresolved or the destination is outside the Spanish ES ID namespace. Resolve identity/scope or the applicable ID policy before reserving an ID.
   retryable: false
   owner: human_editor
 - code: category_and_tags_need_human_review
@@ -168,15 +157,28 @@ review_issues:
   fields:
   - category
   - tags
-  description: Primary category and controlled tags are provisional intake recommendations;
-    human editor-of-record must confirm before editorial advancement.
+  description: Primary category and controlled tags are provisional intake recommendations; human editor-of-record must confirm before editorial advancement.
+  retryable: false
+  owner: human_editor
+- code: energy_level_provisional
+  severity: warning
+  fields:
+  - energy_level
+  description: energy_level Medium is a provisional editorial estimate set 2026-11-01 (owner request) from the place type (a rock-arch/viewpoint walk of unknown length); identity and route are unresolved, so it is not verified.
+  retryable: true
+  owner: human_editor
+- code: archive_out_of_scope
+  severity: info
+  fields:
+  - status
+  description: 'Owner decision 2026-11-01: archive. The place is outside local_30km and not in any excursion layer, so it is archive under AGENTS.md. Formal status `archived` needs an allocated ID, which needs the identity resolved first; until then the record stays `draft` and must not be developed.'
   retryable: false
   owner: human_editor
 created_at: '2026-10-04'
-updated_at: '2026-10-04'
-last_verified:  null
-last_reviewed_at:  null
-next_review_at:  null
-review_decision:  null
+updated_at: 2026-11-01
+last_verified: null
+last_reviewed_at: null
+next_review_at: null
+review_decision: null
 redirects: []
 ---
