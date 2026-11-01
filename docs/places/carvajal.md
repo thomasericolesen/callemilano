@@ -77,7 +77,10 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-LOS-MARINOS-PACO-001
+  relationship: nearby
+  note: 'Place to eat: Los Marinos Paco.'
 description_short: 'Carvajal, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft from a dated secondary-source snapshot; not fact-checked.'
 description_long: 'Carvajal (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, golden sand. Described as the calmest in Fuengirola, far from the centre, with a play area. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Popular fish restaurants in the beach bars (not named), specialised in fresh fish and seafood. Nearby: Coloured parasols and sunset. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, a children''s area, assisted bathing and lifeguards are confirmed for the Fuengirola part of this beach. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. Carvajal also extends into Benalmádena, which lists its own accessibility point at Carvajal (2026). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Carvajal, Fuengirola | CalleMilano draft record

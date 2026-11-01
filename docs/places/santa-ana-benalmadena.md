@@ -77,7 +77,10 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-SANTA-ANA-DENIS-001
+  relationship: nearby
+  note: 'Place to eat: Restaurante Santa Ana Denis.'
 description_short: 'Santa Ana (Torrebermeja-Santa Ana), Benalmádena: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
 description_long: 'Santa Ana (Torrebermeja-Santa Ana) (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Dark sand, moderate waves, about 500 x 15 m, high occupancy level. Blue Flag regained in 2026. Play area. Often recommended for families. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Promenade with restaurants and shops (not named). Nearby: View of Castillo Bil-Bil (exhibition centre). Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Santa Ana (Torrebermeja-Santa Ana), Benalmádena | CalleMilano draft record

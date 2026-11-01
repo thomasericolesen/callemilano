@@ -77,7 +77,10 @@ links:
   visitor_information: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-LA-MAR-SALA-001
+  relationship: nearby
+  note: 'Place to eat: La Mar Salá.'
 description_short: 'Boliches-Gaviotas, Fuengirola: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
 description_long: 'Boliches-Gaviotas (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Urban beach, about 3,000 x 40 m, much visited. Play area and volleyball courts; ''not much current'' (snapshot wording ''ikke meget strøm''). A Facebook reply calls it child-friendly because the water does not get deep quickly. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Many beach bars and shops (not named). Nearby: Paddle surf and snorkelling. Craft market (Las Cabañas) on the promenade June-September. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal sources: lifeguard service daily 1 June-30 September 11:00-20:00, and on weekends and public holidays 11:00-19:00 from the weekend after 30 September until 15 October (Carta de Servicios 2026, edition 2026-05-12; the stated autumn cover ends 15 October); an adapted bathing platform at pergola 41 (Fuengirola Accesible 2025, edition 2025-03-03) with a bathing device for blind users (Carta de Servicios 2026); and one plot of ''camas elásticas'' (bouncy beds/trampolines) (Carta de Servicios 2026). A bathing zone for older people (marked area, handrails, 22 semi-submerged seats) is described by the municipality, but its beach is disputed: Los Boliches per the Concejalía de Playas page, Playa de San Francisco per Fuengirola Accesible 2025 [partial; unresolved]. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Boliches-Gaviotas, Fuengirola | CalleMilano draft record
