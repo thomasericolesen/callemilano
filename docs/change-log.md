@@ -1,5 +1,15 @@
 # Change log
 
+## 2026-11-01 - Restaurant pilot: four restaurant records linked to local beaches (draft, no schema change)
+
+Owner request: a pilot of 5-6 restaurants, each with its own record and linked from the nearby beach (owner agreed the same day that restaurant facts live only in the restaurant record and beaches point to it through `related_places`).
+
+- New records (category `Restaurants`, status `needs_fact_check`, IDs allocated in `data/place-id-registry.csv`): `chiringuito-cristobal` and `chiringuito-los-moreno` (La Butibamba, Mijas; identity from Turismo de Mijas), `morrofino` (Playamar, Torremolinos; own website with hours 12:00-24:00, closed Tuesday), `chiringuito-las-dunas-cabopino` (Cabopino, Marbella; own social pages, winter opening unclear).
+- Coordinates and Place IDs from Google Places API (identity only); driving times from Google Routes API (Saturday 10:00 predicted traffic): 15, 15, 29 and 22 min, all inside `local_30km`.
+- `related_places` (`nearby`) added both ways: La Butibamba, Playamar, Los Álamos and Cabopino-Artola now point to their restaurants. This is the first use of `related_places` in the catalogue.
+- Snapshot errors found and corrected in beach descriptions: Castillo-Ejido's "Marenostrum (beach bar)" is the Marenostrum Fuengirola concert venue; Morrofino and Arrozante are not on La Carihuela (Morrofino is at Playamar, Arrozante inside the Occidental Torremolinos Playa hotel). Review issues added. Arrozante and Marenostrum were dropped from the pilot.
+- Family suitability, prices, season, accessibility and practical details are not researched for the restaurants (review issues); `energy_level: Low` is an editorial default. Validation unchanged (same 6 pre-existing errors).
+
 ## 2026-11-01 - Local beaches: facilities fact-checked against municipal sources (draft, no schema change)
 
 Owner request: fact-check the 13 local beaches. Owner decision the same day: keep `practical_details_out_of_scope` (parking, transport, dogs, cost, booking and food stay unknown on purpose); check only the description's claims about toilets, accessibility, lifeguards/season and play areas.

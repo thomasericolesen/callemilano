@@ -76,7 +76,10 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-MORROFINO-001
+  relationship: nearby
+  note: 'Place to eat: Morrofino.'
 description_short: 'Los Álamos, Torremolinos: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
 description_long: 'Los Álamos (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Fine sand (sources disagree on the length). Described as a younger, livelier atmosphere. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Beach bars and restaurants. Nearby: Paseo Maritimo. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Los Álamos, Torremolinos | CalleMilano draft record

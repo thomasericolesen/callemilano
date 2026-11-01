@@ -78,7 +78,10 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-CHIRINGUITO-LAS-DUNAS-CABOPINO-001
+  relationship: nearby
+  note: 'Place to eat: Chiringuito Las Dunas.'
 description_short: 'Cabopino/Artola, Marbella: Blue Flag 2026. Character (subjective): Natural (Danish: Natur). Draft from a dated secondary-source snapshot; not fact-checked.'
 description_long: 'Cabopino/Artola (Marbella). Blue Flag 2026 (used as proxy for water quality). Golden sand, moderate waves, about 1,200 x 30 m, high occupancy level. Parts of the beach are a nudist zone. Toilets and sunbeds listed. A Facebook reply calls it child-friendly because the water does not get deep quickly. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Andy''s Beach Bar and Chiringuito Las Dunas (fish and sardine skewers); restaurants and cafes in the marina. Nearby: Dunas de Artola (protected natural monument at the marina) and pine woods suited to walks. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal and press sources (Marbella 2026, checked 2026-11-01): lifeguards daily 1 June-30 September and at weekends from Easter; assisted bathing with amphibious chairs from Easter to the end of September (booking 658 618 333; Cabopino named by local press). Toilets are still unconfirmed. Character: Natural (Danish: Natur) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Cabopino/Artola, Marbella | CalleMilano draft record

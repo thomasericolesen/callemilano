@@ -78,7 +78,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Castillo-Ejido, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Castillo-Ejido (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, dark sand. Toilets, showers, sunshades, access for people with reduced mobility, assisted bathing and lifeguards listed. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Marenostrum (beach bar). Sardine skewers in ''moragas'' (metal boats) require advance booking. Nearby: Castillo de Sohail at the river mouth; green area with basketball courts, paths and a zip line (tirolina). Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, assisted bathing, adapted showers and lifeguards are confirmed for this beach; moraga boats need a Policía Local authorisation and a prior municipal fee. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. The charter''s map legend for this beach does not list a children''s area (text layer; not a confirmed absence). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Castillo-Ejido (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, dark sand. Toilets, showers, sunshades, access for people with reduced mobility, assisted bathing and lifeguards listed. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): none confirmed (the snapshot''s ''Marenostrum'' is Marenostrum Fuengirola, an open-air concert venue by the Castillo Sohail, not a beach bar). Sardine skewers in ''moragas'' (metal boats) require advance booking. Nearby: Castillo de Sohail at the river mouth; green area with basketball courts, paths and a zip line (tirolina). Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, assisted bathing, adapted showers and lifeguards are confirmed for this beach; moraga boats need a Policía Local authorisation and a prior municipal fee. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. The charter''s map legend for this beach does not list a children''s area (text layer; not a confirmed absence). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Castillo-Ejido, Fuengirola | CalleMilano draft record
 seo_description: Draft record for Castillo-Ejido beach (Fuengirola). Based on a dated secondary-source snapshot; facts are under verification.
 images: []
@@ -163,6 +163,14 @@ evidence:
   checked_by: Claude (beach fact check 2026-11-01)
   confidence: high
   notes: Same charter, moraga section. Fee amount not stated.
+- field: description_long (Marenostrum)
+  claim: Marenostrum Fuengirola is an open-air concert and events venue between the Castillo Sohail hill and the sea.
+  source_url: https://marenostrumfuengirola.com/
+  source_type: official_venue
+  checked_at: '2026-11-01'
+  checked_by: Claude (restaurant pilot 2026-11-01)
+  confidence: high
+  notes: Own website (event listings) and own Instagram description, read as search results 2026-11-01.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
@@ -233,6 +241,13 @@ review_issues:
   description: 'Parking and other practical details are intentionally left unknown (owner decision: adults look these up themselves).'
   retryable: false
   owner: human_editor
+- code: snapshot_restaurant_misidentified
+  severity: warning
+  fields:
+  - description_long
+  description: The snapshot named 'Marenostrum' as a beach bar; it is the Marenostrum Fuengirola concert venue (own website lists concerts). Corrected in the description 2026-11-01; no beach bar on this beach has been verified yet.
+  retryable: true
+  owner: fact_check
 created_at: '2026-10-29'
 updated_at: '2026-10-29'
 last_verified: '2026-10-29'

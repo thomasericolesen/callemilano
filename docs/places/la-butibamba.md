@@ -76,7 +76,13 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-CHIRINGUITO-CRISTOBAL-001
+  relationship: nearby
+  note: 'Place to eat: Chiringuito Cristóbal.'
+- id: ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001
+  relationship: nearby
+  note: 'Place to eat: Chiringuito Los Moreno.'
 description_short: 'La Butibamba, Mijas: no Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
 description_long: 'La Butibamba (Mijas). Not on the ADEAC Blue Flag 2026 list, so no indirect water-quality indication. Narrow beach, about 1,300 x 20 m, high occupancy. Owner (Eric): no rocks, only stones (walnut- to plum-sized). Play area. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Chiringuito Cristobal and Chiringuito Los Moreno (La Butiplaya). Nearby: Same area as La Cala. Rocks: owner states none, only stones; see review issues. Municipal sources (Mijas 2026, checked 2026-11-01): lifeguards daily 1 June-30 September 11:00-20:00 (local press: two towers at this beach and weekend cover in May and October); no assisted-bathing point at this beach (nearest: La Cala). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: La Butibamba, Mijas | CalleMilano draft record

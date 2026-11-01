@@ -79,7 +79,7 @@ links:
   contact: null
 related_places: []
 description_short: 'La Carihuela (Montemar), Torremolinos: Blue Flag 2026. Character (subjective): Developed, fishing-village feel (Danish: Tilrettelagt, fiskerlandsbypræg). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'La Carihuela (Montemar) (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Fine sand. Calm and shallow at the entrance according to a hotel-chain guide. Often recommended for children. Lifeguards and a Red Cross post. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Arrozante, Morrofino, Toro Azul, Moma Beach Club, La Despensa Familiar and others. Sardine skewers (espetos) are the speciality. Nearby: Former fishing village with Paseo Maritimo, old town and the church of Nuestra Señora del Carmen. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. The Red Cross post is not confirmed by an official source. Character: Developed, fishing-village feel (Danish: Tilrettelagt, fiskerlandsbypræg) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'La Carihuela (Montemar) (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Fine sand. Calm and shallow at the entrance according to a hotel-chain guide. Often recommended for children. Lifeguards and a Red Cross post. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Arrozante, Morrofino, Toro Azul, Moma Beach Club, La Despensa Familiar and others (location check 2026-11-01: Morrofino is at Playamar, Paseo Marítimo 69, and Arrozante is inside the Occidental Torremolinos Playa hotel grounds, so neither is on La Carihuela; the others are unchecked). Sardine skewers (espetos) are the speciality. Nearby: Former fishing village with Paseo Maritimo, old town and the church of Nuestra Señora del Carmen. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. The Red Cross post is not confirmed by an official source. Character: Developed, fishing-village feel (Danish: Tilrettelagt, fiskerlandsbypræg) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: La Carihuela (Montemar), Torremolinos | CalleMilano draft record
 seo_description: Draft record for La Carihuela (Montemar) beach (Torremolinos). Based on a dated secondary-source snapshot; facts are under verification.
 images: []
@@ -140,6 +140,22 @@ evidence:
   checked_by: Claude (beach fact check 2026-11-01)
   confidence: medium
   notes: Turismo de Torremolinos, 'Playas Accesibles', modified 2026-05-11, read 2026-11-01. The four-beach statement is general; the per-beach Google My Maps embedded on the page (published 2019-2021) show adapted toilets at this beach. Confidence medium because the per-beach maps are older than the season.
+- field: description_long (restaurant locations)
+  claim: Morrofino is in Playamar, Torremolinos, facing the Paseo Marítimo.
+  source_url: https://morrofinoplayamar.com/
+  source_type: official_venue
+  checked_at: '2026-11-01'
+  checked_by: Claude (restaurant pilot 2026-11-01)
+  confidence: high
+  notes: Own website read 2026-11-01.
+- field: description_long (restaurant locations)
+  claim: Arrozante is inside the gardens of the Occidental Torremolinos Playa hotel (Avenida La Riviera 25 / C. la Toja 25).
+  source_url: https://www.tripadvisor.es/Restaurant_Review-g187440-d23596523-Reviews-Arrozante_La_Casa_del_Arroz-Torremolinos_Costa_del_Sol_Province_of_Malaga_Andalu.html
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Claude (restaurant pilot 2026-11-01)
+  confidence: medium
+  notes: Listing excerpts (TripAdvisor, Trip.com) read as search results 2026-11-01; the hotel's own Barceló pages confirm the restaurant name but were not read for the address.
 review_issues:
 - code: route_and_coordinates_owner_measured
   severity: warning
@@ -209,6 +225,13 @@ review_issues:
   - visit_information
   description: 'Parking and other practical details are intentionally left unknown (owner decision: adults look these up themselves).'
   retryable: false
+  owner: human_editor
+- code: snapshot_restaurants_wrong_beach
+  severity: warning
+  fields:
+  - description_long
+  description: 'Morrofino (own website: Playamar) and Arrozante (inside the Occidental Torremolinos Playa hotel, per TripAdvisor/Trip.com listings) are not on La Carihuela. Remove them from this beach when the description is rewritten; Morrofino has its own record linked from Playamar and Los Álamos.'
+  retryable: true
   owner: human_editor
 created_at: '2026-10-29'
 updated_at: '2026-10-29'
