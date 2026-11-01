@@ -20,13 +20,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "38 mins"
-  origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas,
-    Málaga, Spain
-  destination: "Palmeral de Las Sorpresas, Málaga"
-  source: "Google Routes API (computeRouteMatrix), checked by script on 2026-11-01 from Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain (36.5357505,-4.6627914); toll roads avoided - https://www.google.com/maps/dir/?api=1&origin=36.5357505%2C-4.6627914&destination=Palmeral+de+Las+Sorpresas%2C+M%C3%A1laga%2C+Spain&travelmode=driving&avoid=tolls"
-  checked_at: 2026-11-01
-  note: "Live traffic Sunday 2026-11-01, about 12:13. 35.9 km. Measured programmatically (Routes API)."
+  duration: 37 min
+  origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
+  destination: Palmeral de Las Sorpresas, Málaga
+  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination geocoded by Google from the record's destination text (the record has no coordinates); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=Palmeral+de+Las+Sorpresas%2C+M%C3%A1laga%2C+Spain&travelmode=driving
+  checked_at: '2026-11-01'
+  note: 'Routes API figure: 37 min with predicted Saturday 10:00 traffic (38 min without traffic), 35.9 km via AP-7; an avoid-tolls run gave 37 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 38 mins (2026-11-01): Google Routes API computeRouteMatrix, live traffic Sunday 2026-11-01 about 12:13, toll roads avoided. Batch: data/route-checks-2026-11-01-local.csv.'
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -107,6 +106,14 @@ evidence:
   checked_by: fact-check-agent
   confidence: medium
   notes: "Supports the stated claim only; any editorial planning estimate is identified as such."
+- field: driving_time_from_casa_de_la_familia
+  claim: 'One-way drive from Casa de la Familia to Palmeral de Las Sorpresas, Málaga: 37 min, 35.9 km (Saturday 10:00 predicted traffic).'
+  source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=Palmeral+de+Las+Sorpresas%2C+M%C3%A1laga%2C+Spain&travelmode=driving
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Claude (Routes API batch 2026-11-01)
+  confidence: medium
+  notes: Google Routes API computeRoutes; destination geocoded by Google from the record's destination text (the record has no coordinates). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
 review_issues:
 - code: editorial_suitability_requires_human_review
   severity: warning

@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-01 - Local area: Routes API driving times written into the records (draft, no schema change)
+
+Owner decisions the same day, following the analytical route check below: (1) La Carihuela stays in the local area although the Routes API gave 31 min; (2) the Routes API figures are written into the records.
+
+- Records edited (20): `boliches-gaviotas`, `cabopino-artola`, `carvajal`, `castillo-ejido`, `el-bajondillo`, `fuengirola-centro`, `fuente-de-la-salud`, `la-butibamba`, `la-carihuela`, `los-alamos`, `los-monteros`, `playamar`, `santa-ana-benalmadena`, `malaga`, `marbella-old-town`, `mercado-de-atarazanas`, `palmeral-de-las-sorpresas`, `playa-la-malagueta`, `selwo-aventura`, `tolox`.
+- `driving_time_from_casa_de_la_familia` now holds the Routes API figure (Saturday 2026-11-07 10:00, predicted traffic, tolls not avoided) with source, route URL, check date 2026-11-01 and the previous value in the note; one evidence-ledger entry per record. Origin text set to the canonical Casa de la Familia address; the route was computed from the project origin coordinates.
+- Beaches: the `route_and_coordinates_owner_measured` warning stays (coordinates are still the owner-read Google marker) with its description updated. `selwo-aventura`: blocking issue `driving_time_unverified` resolved and removed (route source and check date now recorded).
+- Not changed: status values, coordinates, `data/layer-membership.csv`, schema. Regenerated `data/place-catalog.csv`; `python3 tools/places.py validate` reports the same 6 pre-existing errors (`energy_level` None in other records) as before the change.
+
 ## 2026-11-01 - Local area: driving times re-checked with Google Routes API (analytical, no record change)
 
 Owner request: check the driving times in the local area now that the Google API key works.
