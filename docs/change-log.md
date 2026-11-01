@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-01 - Owner approval decisions recorded (not yet applied)
+
+The owner answered eight shared approval questions for the local beaches and restaurants (coordinates, family assessment, seasonality, rocks per beach, out-of-scope practical details, restaurant prices and season). Answers and the next-session plan are in `docs/approval-decisions-2026-11-01.md`. No record was changed in this entry.
+
 ## 2026-11-01 - Six legacy import drafts: provisional energy level and archive decision
 
 Owner request: clear the six long-standing validation errors (`energy_level` None) in `cares`, `conil-de-la-frontera`, `cueva-de-los-arcos`, `miradouro-da-serpente-do-medal`, `roca-foradada` and `salt-de-la-coromina`. Owner decision the same day: give them provisional energy values and archive them.
