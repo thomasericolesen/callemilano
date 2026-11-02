@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-VENTA-LA-MORENA-001
 slug: venta-la-morena
 name: Venta La Morena
@@ -72,14 +72,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: https://gmaps.top/venta-la-morena
+  official_website: https://www.facebook.com/ventalamorena/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Venta La Morena: venta (roadside restaurant) with grill on the Camino Viejo de Coín, about 21 min on foot or 4 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'Venta La Morena is a venta (roadside restaurant) with grill on the Camino Viejo de Coín at Camino Viejo de Coín, Km. 2, 5, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 21 minutes on foot (1.6 km, Google''s walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Well visited and a good place; the lamb is very good. Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.'
+description_short: 'Venta La Morena: venta (roadside restaurant) with grill on the Camino Viejo de Coín, about 21 min on foot or 4 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Venta La Morena is a venta (roadside restaurant) with grill on the Camino Viejo de Coín at Camino Viejo de Coín, Km. 2, 5, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 21 minutes on foot (1.6 km, Google''s walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Well visited and a good place; the lamb is very good. Its own Facebook page exists, but opening hours, prices, children''s facilities and accessibility could not be read from it; check with the venue before visiting.'
 seo_title: Venta La Morena, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Venta La Morena (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -108,20 +108,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given on the nearby selection page on 2026-11-02; not independently verified.
+- field: links.official_website
+  claim: The venue has its own Facebook page (@ventalamorena) giving Camino Viejo de Coín, Mijas.
+  source_url: https://www.facebook.com/ventalamorena/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: low
+  notes: Search excerpt read 2026-11-02; the page content (hours, menu) was not read. Google's listed website is a directory page (gmaps.top), not the venue's own.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -131,9 +126,18 @@ review_issues:
   description: 'Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place. Owner note: Well visited and a good place; the lamb is very good.'
   retryable: true
   owner: human_editor
+- code: hours_and_prices_unverified
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - accessibility
+  description: Only the own Facebook page was found and its content was not read. Hours, menu and prices still need checking.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

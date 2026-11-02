@@ -1,5 +1,18 @@
 # Change log
 
+## 2026-11-02 - Nearby fact check, batch 1: seven records (no schema change)
+
+Checked against the venues' own or official sources on 2026-11-02; status `draft` -> `needs_fact_check` for all seven.
+
+- `aquamijas`: own website (visit and ticket pages) - 2026 season from 1 May, closed from 14 September 2026, hours 10:30-18:30, 2026 prices including afternoon tickets from 15:00 (confirms the owner's off-peak note), under-13s accompanied, free customer car park, food on site and own food allowed. Seasonality Spring/Summer from those dates.
+- `bigfoot-buggy-tours`: own safety page - type-B driving licence to drive, passengers from 4 years with booster seats (1 m recommended), seat belts, closed-toe shoes. `age_and_licence_rules_unknown` closed; tour lengths and prices only in the booking system.
+- `asador-otola`: own website - Basque asador, hours (Wednesday closed), phone. Prices, booking and children's facilities not stated.
+- `el-gran-parque-de-mijas`: Mijas Town Hall (12 June 2026) - splash park with 41 water features, daily 10:00-22:00 in season, age zones 1-3 / 4-9 / 10-11, under-8s accompanied; municipal media report the season has closed. Rest of the park unsourced.
+- `la-zambra-resort`: Hyatt page - four restaurants plus Sarao, Mood Spa, kids' clubs for hotel guests. New warning `non_guest_access_unknown`.
+- `venta-la-morena`: own Facebook page found but not read; Google's "website" is a directory page.
+- `restaurante-cerros-del-aguila`: no official source found; new warning `no_official_source_found` (owner knowledge stays).
+- Validation: 106 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - 38 nearby draft records created (owner selection, no schema change)
 
 The owner selected all 37 candidates from `docs/nearby-intake-2026-11-02.md` and added La Zambra Resort (`docs/nearby-selection-2026-11-02.md`). Created 38 records with status `draft` and allocated IDs: 15 `Restaurants` (including La Zambra Resort) and 23 `Family activities`. Identity and coordinates from Google Places API; drive time from Routes API (Saturday 2026-11-07 10:00, predicted traffic) with Routes API walking time in the note and description; owner notes recorded as owner knowledge; Aquamijas season from its own website (search excerpt). Opening hours, prices, age rules, facilities and family suitability are open review issues. Validation: 106 records, 0 errors. Regenerated `data/place-catalog.csv`.
