@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-02 - New rocks rule for beaches; Fuengirola centro point moved (owner decisions)
+
+Owner decisions in `docs/owner-decisions-2026-11-02.md`.
+
+- Rocks rule (also added to `AGENTS.md`): only pure rock beaches, and beaches reached by climbing down rocks, are excluded; rocks on a sand beach do not exclude a beach. Applied to the seven beaches where rocks were still open (Carvajal, El Bajondillo, Fuente de la Salud, La Carihuela, Los Álamos, Playamar, Santa Ana): each is a sand beach with easy access on foot per spain.info / andalucia.org and the municipal accessibility sources, so `rocks_not_verified` is closed with a rule-check evidence entry and the description's rocks sentence is updated.
+- Fuengirola centro: the point moves from the owner-read marker (36.5573, -4.6095, near Las Gaviotas) to Google's "Playa de Fuengirola" (36.5372915, -4.6215859), between the marina and the bridge over the Río Fuengirola, as the owner asked. Driving time re-checked with Routes API: 14 min, 6.2 km (Saturday 2026-11-07 10:00, predicted traffic; previously 17 min to the old point). `coordinates_far_from_named_beach` closed. `data/route-checks-2026-11-01-local.csv` is not changed (historical batch).
+- Status `needs_fact_check` -> `needs_editorial_review` for the records left with only info-level issues: Carvajal, El Bajondillo, La Carihuela, Los Álamos, Playamar and Fuengirola centro. Santa Ana (2026 services) and Fuente de la Salud (family assessment not approved) stay in `needs_fact_check`.
+- Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Six restaurants approved by the owner (no schema change)
 
 Owner decisions in `docs/approval-decisions-2026-11-02.md`. `los-marinos-paco`, `chiringuito-cristobal`, `chiringuito-los-moreno`, `la-mar-sala`, `morrofino` and `santa-ana-denis`: `needs_editorial_review` -> `approved`, with `review_decision`, `last_reviewed_at` and energy level Low confirmed; remaining info notes closed and quoted in the decision notes; "draft record" removed from SEO title/description. These are the first approved records in the catalogue. Not published. `castillo-ejido` and `la-butibamba` got no decision and stay in `needs_editorial_review`. Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.

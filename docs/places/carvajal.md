@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-CARVAJAL-001
 slug: carvajal
 name: Carvajal
@@ -88,7 +88,7 @@ related_places:
   relationship: nearby
   note: 'Place to eat: Los Marinos Paco.'
 description_short: 'Carvajal, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft; facts being checked against official sources.'
-description_long: 'Carvajal (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand mixed with gravel and cobbles (bolos), calm water, about 450 x 25 m, high occupancy (especially at the western end), urban; showers and parasol hire are listed, and the train stops right in front of the beach. Places to eat: see the linked record for Los Marinos Paco. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, a children''s area, assisted bathing and lifeguards are confirmed for the Fuengirola part of this beach. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. Carvajal also extends into Benalmádena, which lists its own accessibility point at Carvajal (2026). The owner confirms a mix of sand with gravel and stones (2026-11-02). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Carvajal (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand mixed with gravel and cobbles (bolos), calm water, about 450 x 25 m, high occupancy (especially at the western end), urban; showers and parasol hire are listed, and the train stops right in front of the beach. Places to eat: see the linked record for Los Marinos Paco. Rocks: a sand mixed with gravel and cobbles beach with easy access on foot, so it meets the project''s beach rule (owner decision 2026-11-02: only pure rock beaches, or beaches reached by climbing down rocks, are excluded). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, a children''s area, assisted bathing and lifeguards are confirmed for the Fuengirola part of this beach. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. Carvajal also extends into Benalmádena, which lists its own accessibility point at Carvajal (2026). The owner confirms a mix of sand with gravel and stones (2026-11-02). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Carvajal, Fuengirola | CalleMilano draft record
 seo_description: Draft record for Carvajal beach (Fuengirola). Facts are being checked against official sources.
 images: []
@@ -205,14 +205,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given with the family assessment on 2026-11-02; not independently verified.
+- field: description_long (rocks rule)
+  claim: 'Not a pure rock beach and not reached by climbing down rocks: spain.info lists composition sand, cobbles, gravel and access "a pie fácil" (easy on foot) and by car.'
+  source_url: https://www.spain.info/es/playa/carvajal-fuengirola/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (rocks rule check 2026-11-02)
+  confidence: medium
+  notes: 'Checked against the beach rule set by the owner on 2026-11-02 (https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md): rocks on a sand beach do not exclude it. Whether there are any rocks on this beach is not recorded and no longer matters for selection. Replaces review issue rocks_not_verified.'
 review_issues:
-- code: rocks_not_verified
-  severity: warning
-  fields:
-  - description_long
-  description: 'Absence of any mention of rocks is not confirmation, and the owner does not know (decision 4, 2026-11-01). The project criterion excludes beaches with rocks; a visit or an independent source is needed. 2026-11-02: spain.info lists the composition as sand, gravel and cobbles (bolos); that is not the same as rocks, but the owner may want to check. Owner (2026-11-02): the surface is mixed sand, gravel and stones; whether there are rocks is still not answered.'
-  retryable: true
-  owner: fact_check
 - code: energy_level_editorial_estimate
   severity: info
   fields:

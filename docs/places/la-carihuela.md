@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-LA-CARIHUELA-001
 slug: la-carihuela
 name: La Carihuela (Montemar)
@@ -85,7 +85,7 @@ links:
   contact: null
 related_places: []
 description_short: 'La Carihuela (Montemar), Torremolinos: Blue Flag 2026. Character (subjective): Developed, fishing-village feel (Danish: Tilrettelagt, fiskerlandsbypræg). Draft; facts being checked against official sources.'
-description_long: 'La Carihuela (Montemar) (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand, moderate waves, about 2,100 x 30 m, high occupancy, urban, from the Benalmádena marina in the south to the Punta de Torremolinos; the portal describes it as equipped for the needs of the whole family, with several restaurants and shops; toilets, showers and parasol/sunbed hire are listed. No individual restaurant on this beach has been verified yet. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. Character: Developed, fishing-village feel (Danish: Tilrettelagt, fiskerlandsbypræg) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'La Carihuela (Montemar) (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand, moderate waves, about 2,100 x 30 m, high occupancy, urban, from the Benalmádena marina in the south to the Punta de Torremolinos; the portal describes it as equipped for the needs of the whole family, with several restaurants and shops; toilets, showers and parasol/sunbed hire are listed. No individual restaurant on this beach has been verified yet. Rocks: a sand beach with easy access on foot, so it meets the project''s beach rule (owner decision 2026-11-02: only pure rock beaches, or beaches reached by climbing down rocks, are excluded). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. Character: Developed, fishing-village feel (Danish: Tilrettelagt, fiskerlandsbypræg) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: La Carihuela (Montemar), Torremolinos | CalleMilano draft record
 seo_description: Draft record for La Carihuela (Montemar) beach (Torremolinos). Facts are being checked against official sources.
 images: []
@@ -186,14 +186,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
+- field: description_long (rocks rule)
+  claim: 'Not a pure rock beach and not reached by climbing down rocks: spain.info lists composition sand and access "a pie fácil" (easy on foot).'
+  source_url: https://www.spain.info/es/playa/carihuela/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (rocks rule check 2026-11-02)
+  confidence: medium
+  notes: 'Checked against the beach rule set by the owner on 2026-11-02 (https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md): rocks on a sand beach do not exclude it. Whether there are any rocks on this beach is not recorded and no longer matters for selection. Replaces review issue rocks_not_verified.'
 review_issues:
-- code: rocks_not_verified
-  severity: warning
-  fields:
-  - description_long
-  description: Absence of any mention of rocks is not confirmation, and the owner does not know (decision 4, 2026-11-01). The project criterion excludes beaches with rocks; a visit or an independent source is needed.
-  retryable: true
-  owner: fact_check
 - code: energy_level_editorial_estimate
   severity: info
   fields:
