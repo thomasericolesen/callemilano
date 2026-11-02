@@ -130,6 +130,15 @@ review_issues:
   description: Google lists no website; facts may have to come from a social page or a direct contact.
   retryable: true
   owner: fact_check
+- code: no_official_source_found
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - description_long
+  description: 'Search 2026-11-02: No own website or social page was found; only Google identity. Hours, menu and prices need a direct check or the owner''s knowledge.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

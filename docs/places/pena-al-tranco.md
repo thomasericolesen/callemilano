@@ -123,6 +123,15 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: no_official_source_found
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - description_long
+  description: 'Search 2026-11-02: Only its Facebook page is known; its content was not read. A "peña" is often a members'' club bar; whether visitors are welcome is unconfirmed. Hours, menu and prices need a direct check or the owner''s knowledge.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

@@ -1,5 +1,18 @@
 # Change log
 
+## 2026-11-02 - Restaurante Cerros del Águila: own Facebook page (no schema change)
+
+The owner supplied a screenshot of the restaurant's own Facebook page (profile id 100054645841442). Recorded as an `official_venue` source: Spanish restaurant, outdoor seating, dine-in, phone +34 952 66 81 91, address Urbanización Cerrado del Aguila s/n. "Always open" is not recorded as a schedule. `no_official_source_found` replaced by `hours_and_prices_unverified`; status `draft` -> `needs_fact_check`. Validation unchanged (0 errors). Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Nearby fact check, batch 2: eleven records (no schema change)
+
+Walkable places and the Camino Viejo de Coín restaurants, checked 2026-11-02.
+
+- Buggy and quad operators, from their own websites (status `draft` -> `needs_fact_check`): `rangers-safari-tours` (type-B licence, children from 6 with a licensed parent, 30% deposit), `aventouralia` (same rules, 50% deposit; same address as Rangers), `atv-adventures-mijas` (passengers from 4 in buggies and 6 on quads, 1/2/3 h tours, "from €80"), `mijas-buggys` (2 h and 3 h tours, 1 h sunset tour June-September, per-buggy prices; minimum ages not found, issue kept).
+- `restaurante-hoyo-19`: own site gives address and phone; hours by weekday unclear (`needs_fact_check`).
+- Still `draft`, with a new issue: `mixs-lounge` (`name_unconfirmed`: Google/Just Eat "Mixs longe", Uber Eats "Mixs Curry & Pizza"), `equestrian-centre-chaparral` (`identity_unclear`), and `no_official_source_found` for `singh-doner-kebab`, `sol-y-sombra-mijas`, `pena-al-tranco` and `el-mirador-del-golf`.
+- Validation: 106 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Nearby fact check, batch 1: seven records (no schema change)
 
 Checked against the venues' own or official sources on 2026-11-02; status `draft` -> `needs_fact_check` for all seven.

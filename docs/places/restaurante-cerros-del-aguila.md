@@ -72,14 +72,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: null
+  official_website: https://www.facebook.com/profile.php?id=100054645841442
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34952668191
 related_places: []
 description_short: 'Restaurante Cerros del Águila: bar and grill at the sports area of Urbanización Cerros del Águila, about 7 min on foot or 3 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Restaurante Cerros del Águila is a bar and grill at the sports area of Urbanización Cerros del Águila at Urb. Cerros del Águila. Zona deportiva. Num 5, 29650 Mijas Costa, Málaga. From Casa de la Familia it is about 7 minutes on foot (0.48 km, Google''s walking route) or about 3 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Our very local, well-known restaurant. The sports area also has a pool with a lifeguard, a tennis court and a play area; the pool opens seasonally and you must bring the pool card. Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.'
+description_long: 'Restaurante Cerros del Águila is a bar and grill at the sports area of Urbanización Cerros del Águila at Urb. Cerros del Águila. Zona deportiva. Num 5, 29650 Mijas Costa, Málaga. From Casa de la Familia it is about 7 minutes on foot (0.48 km, Google''s walking route) or about 3 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Our very local, well-known restaurant. The sports area also has a pool with a lifeguard, a tennis court and a play area; the pool opens seasonally and you must bring the pool card. Its own Facebook page ("Cerros del Aguila") lists it as a Spanish restaurant with outdoor seating and dine-in, phone 952 66 81 91, and the address Urbanización Cerrado del Aguila s/n, Mijas. The page shows no posts and gives "always open", which is likely a page setting rather than real opening hours; check hours and prices before visiting.'
 seo_title: Restaurante Cerros del Águila, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Restaurante Cerros del Águila (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -108,6 +108,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given on the nearby selection page on 2026-11-02; not independently verified.
+- field: links, description_long
+  claim: 'Own Facebook page "Cerros del Aguila": category Spanish restaurant; price range "moderate"; outdoor seating and dine-in; phone +34 952 66 81 91; address Urbanización Cerrado del Aguila, S/N, Mijas, 29649; hours shown as "always open"; no posts.'
+  source_url: https://www.facebook.com/profile.php?id=100054645841442
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (owner) supplied a screenshot; recorded by Claude 2026-11-02
+  confidence: medium
+  notes: Read from the owner's screenshot of the page on 2026-11-02 (Danish interface). "Always open" is not recorded as a schedule. The page gives "Cerrado del Aguila" and postcode 29649, Google gives "Cerros del Águila, zona deportiva 5" and 29650; same venue by name and photo of the restaurant arch. The page's star recommendations are not used.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -125,13 +133,12 @@ review_issues:
   description: Google lists no website; facts may have to come from a social page or a direct contact.
   retryable: true
   owner: fact_check
-- code: no_official_source_found
+- code: hours_and_prices_unverified
   severity: warning
   fields:
   - visit_information
   - cost_level
-  - description_long
-  description: No website, official listing or own social page found on 2026-11-02 (only Tripadvisor and directory listings). Hours, menu and prices need a direct check or the owner's confirmation. Pool, tennis and play area are the owner's own knowledge; access to the pool appears to need a pool card.
+  description: The own Facebook page gives phone, services and a "moderate" price range but no real opening hours or menu. Hours, season (the pool is seasonal per the owner) and prices need a direct check.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'

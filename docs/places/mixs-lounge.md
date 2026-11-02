@@ -100,6 +100,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5345521%2C-4.6598372999999995&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+- field: name
+  claim: A Just Eat delivery listing names "Mixs Longe Restaurante" at Calle Buitre 45, 29649 Las Lagunas de Mijas; an Uber Eats listing names "Mixs Curry & Pizza" on Calle Buitre in Cerros del Águila.
+  source_url: https://www.just-eat.es/restaurants-mixs-longe-restaurante-29649/menu
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: low
+  notes: Search excerpts read 2026-11-02. The venue's own name and spelling are unconfirmed ("Lounge", "Longe" or "Curry & Pizza").
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -130,6 +138,14 @@ review_issues:
   description: Google lists no website; facts may have to come from a social page or a direct contact.
   retryable: true
   owner: fact_check
+- code: name_unconfirmed
+  severity: warning
+  fields:
+  - name
+  - slug
+  description: Google and Just Eat spell it "Mixs longe"; Uber Eats lists "Mixs Curry & Pizza" on the same street. Confirm the venue's own name before review; a name change keeps the ID.
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

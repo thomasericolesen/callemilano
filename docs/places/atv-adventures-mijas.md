@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-ATV-ADVENTURES-MIJAS-001
 slug: atv-adventures-mijas
 name: ATV Adventures
@@ -58,7 +58,7 @@ parking:
   source: null
   checked_at: null
 transport_options: []
-booking_required: unknown
+booking_required: true
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'ATV Adventures: quad and buggy tour operator, about 18 min on foot or 4 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: ATV Adventures is a quad and buggy tour operator at C. la Higuera, 26, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 18 minutes on foot (1.37 km, Google's walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'ATV Adventures: quad and buggy tour operator, about 18 min on foot or 4 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'ATV Adventures is a quad and buggy tour operator at C. la Higuera, 26, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 18 minutes on foot (1.37 km, Google''s walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Its own website (FAQ, in Spanish): a valid type-B car licence is needed to drive a quad or buggy; passengers need no licence. Children can ride as passengers: in buggies from 4 years, on quads from 6 years. All quads and buggies are two-seaters. Tours of 1, 2 and 3 hours plus a sunset tour; the site title says from €80. Closed-toe shoes are compulsory for driver and passenger. Advance online booking is required.'
 seo_title: ATV Adventures, Mijas | CalleMilano draft record
 seo_description: 'Draft record for ATV Adventures (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -100,20 +100,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5410031%2C-4.6583355&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+- field: booking_required, description_long, age rules
+  claim: 'Own FAQ: type-B licence to drive; passengers need none; children as passengers from 4 in buggies and from 6 on quads; all vehicles two-seaters; tours 1, 2, 3 h and sunset; closed footwear for driver and passenger; advance booking required. Page title: "Desde 80 €".'
+  source_url: https://atvadventurescostadelsol.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Homepage FAQ quoted via Firecrawl (direct-quote mode) on 2026-11-02 (page modified 2026-10-25). The "from €80" figure is from the page title only.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,18 +118,17 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
-- code: age_and_licence_rules_unknown
-  severity: warning
+- code: prices_not_detailed
+  severity: info
   fields:
-  - age_groups
-  - family_score
-  - description_long
-  description: Minimum age for drivers and passengers, driving-licence rules and safety equipment must come from the operator before any family rating.
+  - cost_level
+  - visit_information
+  description: Only a "from €80" headline price was seen; per-tour prices were not checked.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

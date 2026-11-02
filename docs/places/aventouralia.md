@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-AVENTOURALIA-001
 slug: aventouralia
 name: Aventouralia
@@ -58,7 +58,7 @@ parking:
   source: null
   checked_at: null
 transport_options: []
-booking_required: unknown
+booking_required: true
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Aventouralia: quad and buggy tour operator, about 17 min on foot or 4 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Aventouralia is a quad and buggy tour operator at C. El Membrillo, 5, 29649 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 17 minutes on foot (1.28 km, Google's walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Aventouralia: quad and buggy tour operator, about 17 min on foot or 4 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Aventouralia is a quad and buggy tour operator at C. El Membrillo, 5, 29649 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 17 minutes on foot (1.28 km, Google''s walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Its own website (FAQ, in Spanish): drivers need a valid type-B car driving licence (provisional licences not accepted); children can join from 6 years old with a parent or adult guardian holding a type-B licence; the necessary equipment is provided; bring your licence and sun cream. A 50% deposit secures a booking (bank transfer, PayPal or cash at the office). Tour lengths and prices were not checked.'
 seo_title: Aventouralia, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Aventouralia (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -100,20 +100,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.539927399999996%2C-4.6603245&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+- field: booking_required, description_long, age rules
+  claim: 'Own FAQ: type-B licence required, provisional licences not allowed; children over 6 with a parent/guardian holding a type-B licence; equipment provided; 50% deposit.'
+  source_url: https://aventouralia.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Homepage FAQ quoted via Firecrawl (direct-quote mode) on 2026-11-02 (page modified 2026-10-08). Same address and same promo code as Rangers Safari Tours; the two may be related businesses (not confirmed).
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,18 +118,17 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
-- code: age_and_licence_rules_unknown
-  severity: warning
+- code: tour_lengths_and_prices_unknown
+  severity: info
   fields:
-  - age_groups
-  - family_score
-  - description_long
-  description: Minimum age for drivers and passengers, driving-licence rules and safety equipment must come from the operator before any family rating.
+  - visit_information
+  - cost_level
+  description: Tour lengths and prices are only in the booking system and were not checked. Possible link to Rangers Safari Tours (same address) not confirmed.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
