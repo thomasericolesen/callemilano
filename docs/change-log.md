@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Zero Latency own Facebook page (no schema change)
+
+`zero-latency-miramar`: own Facebook page (owner screenshot) confirms online booking, Spanish and English, active posting (30 October) and phone +34 951 81 11 05, which settles the phone discrepancy with Google. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Bolera Mijas facilities from its own page (no schema change)
 
 `bolera-mijas-dubai-boll`: own Facebook page (owner screenshot) confirms restaurant, bowling, children's area, bouncy castle, arcade and an indoor trampoline area for the Mijas venue; the owner's impression (mostly adults and seniors) is kept beside it. Issue narrowed to `hours_and_prices_unverified`. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
