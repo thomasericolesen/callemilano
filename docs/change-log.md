@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - 38 nearby draft records created (owner selection, no schema change)
+
+The owner selected all 37 candidates from `docs/nearby-intake-2026-11-02.md` and added La Zambra Resort (`docs/nearby-selection-2026-11-02.md`). Created 38 records with status `draft` and allocated IDs: 15 `Restaurants` (including La Zambra Resort) and 23 `Family activities`. Identity and coordinates from Google Places API; drive time from Routes API (Saturday 2026-11-07 10:00, predicted traffic) with Routes API walking time in the note and description; owner notes recorded as owner knowledge; Aquamijas season from its own website (search excerpt). Opening hours, prices, age rules, facilities and family suitability are open review issues. Validation: 106 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Nearby places candidate list (intake only, no records)
 
 New focus from the owner: restaurants and family activities very close to Casa de la Familia, preferably within walking distance. Added `docs/nearby-intake-2026-11-02.md`: 14 restaurants/bars and 23 activities/parks with Google Places identity and Routes API walking and driving times (2026-11-02). Season status from official sites for Aquamijas (closed from 14 September 2026) and Aqualand Torremolinos (open into October 2026). No place record, ID or register was changed.
