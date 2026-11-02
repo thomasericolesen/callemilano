@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Older-people zone stays in Fuengirola (centrum) (owner decision)
+
+The owner decided to keep the Playa de San Francisco bathing zone for older people in `fuengirola-centro` despite San Francisco lying north of the port. Issue `reopened_for_addition` updated; the record stays `needs_fact_check` until the owner re-approves it. Validation: 0 errors.
+
 ## 2026-11-02 - Owner decisions on beaches (no schema change)
 
 - `fuente-de-la-salud`: owner approved the family assessment (all four audiences `medium`; Children, Young adults, Seniors); `subjective_assessments_need_human_review` closed.

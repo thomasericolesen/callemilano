@@ -225,7 +225,7 @@ review_issues:
   fields:
   - description_long
   - status
-  description: 'Owner decision 2026-11-02: add the summer bathing zone for older people (Playa de San Francisco) and re-open the approved record. Needs the owner''s re-approval; 2026 installation of the zone not confirmed. Previous approval: 2026-11-02 by Eric Olesen (editor-of-record). Note: Playa de San Francisco is north of the port, this record''s point south of it; the owner should confirm that the zone belongs in this record (or keep it as a ''nearby'' mention).'
+  description: 'Owner decisions 2026-11-02: add the summer bathing zone for older people at Playa de San Francisco and keep it in this record although San Francisco lies north of the port and the record''s point south of it. Previous approval: 2026-11-02 by Eric Olesen (editor-of-record). Needs the owner''s re-approval; 2026 installation of the zone not confirmed (stated in the description).'
   retryable: true
   owner: human_editor
 created_at: '2026-10-29'
