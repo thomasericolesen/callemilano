@@ -31,11 +31,14 @@ driving_time_from_casa_de_la_familia:
   note: 'Routes API figure: 21 min with predicted Saturday 10:00 traffic (20 min without traffic), 13.2 km via A-7; an avoid-tolls run gave 21 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 20 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
 age_groups:
 - Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: medium
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: high
+  children: high
+  young_adults: high
+  seniors: high
 energy_level: Low
 seasonality:
 - Spring
@@ -87,7 +90,7 @@ related_places:
   relationship: nearby
   note: 'Place to eat: Chiringuito Las Dunas.'
 description_short: 'Cabopino/Artola, Marbella: Blue Flag 2026. Character (subjective): Natural (Danish: Natur). Draft; facts being checked against official sources.'
-description_long: 'Cabopino/Artola (Marbella). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): golden sand, moderate waves, about 1,200 x 30 m, high occupancy, away from built-up areas (from the Punta Ladrones developments to the Cabopino marina beach). Nudism is practised on parts of the beach; which part is not stated. Toilets and parasol/sunbed hire are listed. Places to eat: see the linked record for Chiringuito Las Dunas. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal and press sources (Marbella 2026, checked 2026-11-01): lifeguards daily 1 June-30 September and at weekends from Easter; assisted bathing with amphibious chairs from Easter to the end of September (booking 658 618 333; Cabopino named by local press). Toilets are listed only in the undated national tourism data, not yet by a dated municipal source. Character: Natural (Danish: Natur) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Cabopino/Artola (Marbella). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): golden sand, moderate waves, about 1,200 x 30 m, high occupancy, away from built-up areas (from the Punta Ladrones developments to the Cabopino marina beach). Nudism is practised on parts of the beach; which part is not stated. Toilets and parasol/sunbed hire are listed. Places to eat: see the linked record for Chiringuito Las Dunas. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal and press sources (Marbella 2026, checked 2026-11-01): lifeguards daily 1 June-30 September and at weekends from Easter; assisted bathing with amphibious chairs from Easter to the end of September (booking 658 618 333; Cabopino named by local press). Toilets are listed only in the undated national tourism data, not yet by a dated municipal source. Owner''s own knowledge (2026-11-02): very fine sand that does not get deep quickly; nudism only on a smaller part of the beach; a small harbour area with restaurants close by. Character: Natural (Danish: Natur) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Cabopino/Artola, Marbella | CalleMilano draft record
 seo_description: Draft record for Cabopino/Artola beach (Marbella). Facts are being checked against official sources.
 images: []
@@ -188,17 +191,23 @@ evidence:
   checked_by: Claude (official beach data 2026-11-02)
   confidence: medium
   notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
+- field: age_groups, family_score
+  claim: 'Owner-approved family assessment: age groups Small children (0-6), Children (7-12), Young adults, Seniors; scores small_children high, children high, young_adults high, seniors high.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. Owner note: Meget fin sandstrand og bliver ikke dybt hurtigt. Der er nudisme, men det er kun på en mindre del af stranden. Lille havneområde tæt på med restauranter. '
+- field: description_long (owner knowledge)
+  claim: 'Owner: very fine sand, does not get deep quickly; nudism only on a smaller part of the beach; small harbour with restaurants nearby.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: medium
+  notes: Owner's own local knowledge, given with the family assessment on 2026-11-02; not independently verified.
 review_issues:
-- code: subjective_assessments_need_human_review
-  severity: warning
-  fields:
-  - family_score
-  - age_groups
-  - energy_level
-  - description_long
-  description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
-  retryable: false
-  owner: human_editor
 - code: toilets_listed_but_unverified
   severity: warning
   fields:
@@ -210,7 +219,7 @@ review_issues:
   severity: info
   fields:
   - description_long
-  description: Parts of the beach are a nudist zone per source; which section is not stated. Relevant for family choice of section. spain.info (2026-11-02 read) also says only that nudism is practised on parts of the beach.
+  description: 'Parts of the beach are a nudist zone per source; which section is not stated. Relevant for family choice of section. spain.info (2026-11-02 read) also says only that nudism is practised on parts of the beach. Owner (2026-11-02): nudism is only on a smaller part of the beach; the exact section is still not stated.'
   retryable: false
   owner: fact_check
 - code: possible_overlap_dunas_de_artola
@@ -218,6 +227,14 @@ review_issues:
   fields:
   - related_places
   description: docs/launch-candidates.md lists 'Dunas de Artola' as a Nature candidate; no record exists. This record is the beach. Decide whether to link them via related_places.
+  retryable: false
+  owner: human_editor
+- code: energy_level_editorial_estimate
+  severity: info
+  fields:
+  - energy_level
+  - description_long
+  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
   retryable: false
   owner: human_editor
 created_at: '2026-10-29'

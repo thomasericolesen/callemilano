@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-02 - Owner-approved family assessments written; eight records to editorial review (no schema change)
+
+- The owner corrected and approved the family assessment for 18 of 20 records (`docs/family-assessment-decisions-2026-11-02.md`). `age_groups` and `family_score` were written into those records, with an evidence entry each. `subjective_assessments_need_human_review` / `family_suitability_not_assessed` were closed and replaced by the info-level issue `energy_level_editorial_estimate` (energy, and for beaches the character label, still to be confirmed at editorial review). Not approved and unchanged: Chiringuito Rafael and Fuente de la Salud.
+- Owner knowledge added to descriptions with evidence entries: Cabopino-Artola (very fine sand, not deep quickly, nudism only on a smaller part, small harbour with restaurants), Castillo-Ejido (Marenostrum concert venue is part of the area), La Butibamba (towards La Cala centre more child-friendly, with parasols and sunbeds), Carvajal (mixed sand, gravel and stones).
+- Status `needs_fact_check` -> `needs_editorial_review` for the eight records left with only info-level issues: Castillo-Ejido, La Butibamba, Los Marinos Paco, Chiringuito Cristóbal, Chiringuito Los Moreno, La Mar Salá, Morrofino and Santa Ana Denis. Not approved; the editor-of-record decides.
+- Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Family assessment proposal for beaches and restaurants (proposal only)
 
 Added `docs/family-assessment-proposal-2026-11-02.md`: proposed `age_groups` and `family_score` for the 12 local beaches and 8 restaurants (owner decisions 2 and 6), with the rubric and the sourced facts behind each value. No record was changed; the values wait for the owner's corrections. Progress note added to `docs/approval-decisions-2026-11-01.md`.

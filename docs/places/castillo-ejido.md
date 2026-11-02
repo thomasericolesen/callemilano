@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-CASTILLO-EJIDO-001
 slug: castillo-ejido
 name: Castillo-Ejido
@@ -28,12 +28,16 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.5253,-4.6288); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5253%2C-4.6288&travelmode=driving
   checked_at: '2026-11-01'
   note: 'Routes API figure: 12 min with predicted Saturday 10:00 traffic (12 min without traffic), 5.3 km via Av. Leopoldo Werner; an avoid-tolls run gave 12 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 12 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
-age_groups: []
+age_groups:
+- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: high
+  children: high
+  young_adults: high
+  seniors: high
 energy_level: Low
 seasonality:
 - Spring
@@ -82,7 +86,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Castillo-Ejido, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft; facts being checked against official sources.'
-description_long: 'Castillo-Ejido (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): Playa del Castillo is a large stretch of white sand, about 800 x 50 m, with moderate waves, high occupancy and a semi-urban setting close to the Castillo Sohail; it is described as suited to moragas (sardine skewers grilled in metal boats) and has a fenced dog-beach section. Toilets, showers and a sports area are listed. No restaurant on this beach has been verified yet. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, assisted bathing, adapted showers and lifeguards are confirmed for this beach; moraga boats need a Policía Local authorisation and a prior municipal fee. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. The charter''s map legend for this beach does not list a children''s area (text layer; not a confirmed absence). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Castillo-Ejido (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): Playa del Castillo is a large stretch of white sand, about 800 x 50 m, with moderate waves, high occupancy and a semi-urban setting close to the Castillo Sohail; it is described as suited to moragas (sardine skewers grilled in metal boats) and has a fenced dog-beach section. Toilets, showers and a sports area are listed. No restaurant on this beach has been verified yet. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, assisted bathing, adapted showers and lifeguards are confirmed for this beach; moraga boats need a Policía Local authorisation and a prior municipal fee. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. The charter''s map legend for this beach does not list a children''s area (text layer; not a confirmed absence). The Marenostrum Fuengirola open-air concert venue is part of the same area, by the castle (owner''s own knowledge, 2026-11-02). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Castillo-Ejido, Fuengirola | CalleMilano draft record
 seo_description: Draft record for Castillo-Ejido beach (Fuengirola). Facts are being checked against official sources.
 images: []
@@ -199,15 +203,29 @@ evidence:
   checked_by: Claude (official beach data 2026-11-02)
   confidence: medium
   notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
+- field: age_groups, family_score
+  claim: 'Owner-approved family assessment: age groups Small children (0-6), Children (7-12), Young adults, Seniors; scores small_children high, children high, young_adults high, seniors high.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. Owner note: Vores mest lokale strand - oftest god parkering. MareNostrum  er en del af området - koncerter. '
+- field: description_long (owner knowledge)
+  claim: 'Owner: Marenostrum Fuengirola (concerts) is part of the area. Owner also notes it is the family''s most local beach, usually with good parking (parking stays out of scope by decision 5).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: medium
+  notes: Owner's own local knowledge, given with the family assessment on 2026-11-02; not independently verified.
 review_issues:
-- code: subjective_assessments_need_human_review
-  severity: warning
+- code: energy_level_editorial_estimate
+  severity: info
   fields:
-  - family_score
-  - age_groups
   - energy_level
   - description_long
-  description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
+  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
   retryable: false
   owner: human_editor
 created_at: '2026-10-29'

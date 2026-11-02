@@ -135,7 +135,7 @@ review_issues:
   - age_groups
   - family_score
   - energy_level
-  description: No source on children's menu, high chairs, play area or family suitability was checked; age groups and family scores are left unknown/empty and energy_level Low is an editorial default for a restaurant visit. Needs editor assessment.
+  description: 'No source on children''s menu, high chairs, play area or family suitability was checked; age groups and family scores are left unknown/empty and energy_level Low is an editorial default for a restaurant visit. Needs editor assessment. 2026-11-02: the owner did not approve the proposed values (see docs/family-assessment-decisions-2026-11-02.md); still open.'
   retryable: true
   owner: human_editor
 - code: driving_time_near_local_limit

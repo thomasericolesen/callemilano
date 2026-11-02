@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-LA-BUTIBAMBA-001
 slug: la-butibamba
 name: La Butibamba
@@ -28,12 +28,15 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.5002,-4.6843); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5002%2C-4.6843&travelmode=driving
   checked_at: '2026-11-01'
   note: 'Routes API figure: 15 min with predicted Saturday 10:00 traffic (15 min without traffic), 6.8 km via Arrabal Sector 13; an avoid-tolls run gave 15 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 16 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
-age_groups: []
+age_groups:
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: medium
+  children: medium
+  young_adults: medium
+  seniors: medium
 energy_level: Low
 seasonality:
 - Spring
@@ -88,7 +91,7 @@ related_places:
   relationship: nearby
   note: 'Place to eat: Chiringuito Los Moreno.'
 description_short: 'La Butibamba, Mijas: no Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
-description_long: 'La Butibamba (Mijas). Not on the ADEAC Blue Flag 2026 list, so no indirect water-quality indication. Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): about 1,300 x 20 m, calm water, high occupancy, urban, joined to La Cala beach by the same shore; showers and parasol/sunbed hire are listed. The portal lists the composition as dark sand, but the owner''s own knowledge is that the beach is walnut- to plum-sized stones rather than sand. Places to eat: see the linked records for Chiringuito Cristóbal and Chiringuito Los Moreno. Rocks: none - it is a stone beach, not a rocky one (owner''s own knowledge, 2026-11-01). Municipal sources (Mijas 2026, checked 2026-11-01): lifeguards daily 1 June-30 September 11:00-20:00 (local press: two towers at this beach and weekend cover in May and October); no assisted-bathing point at this beach (nearest: La Cala). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'La Butibamba (Mijas). Not on the ADEAC Blue Flag 2026 list, so no indirect water-quality indication. Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): about 1,300 x 20 m, calm water, high occupancy, urban, joined to La Cala beach by the same shore; showers and parasol/sunbed hire are listed. The portal lists the composition as dark sand, but the owner''s own knowledge is that the beach is walnut- to plum-sized stones rather than sand. Places to eat: see the linked records for Chiringuito Cristóbal and Chiringuito Los Moreno. Rocks: none - it is a stone beach, not a rocky one (owner''s own knowledge, 2026-11-01). Municipal sources (Mijas 2026, checked 2026-11-01): lifeguards daily 1 June-30 September 11:00-20:00 (local press: two towers at this beach and weekend cover in May and October); no assisted-bathing point at this beach (nearest: La Cala). Owner''s own knowledge (2026-11-02): the end towards La Cala centre is more child-friendly and has better facilities (parasols and sunbeds). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: La Butibamba, Mijas | CalleMilano draft record
 seo_description: Draft record for La Butibamba beach (Mijas). Facts are being checked against official sources.
 images: []
@@ -189,22 +192,36 @@ evidence:
   checked_by: Claude (official beach data 2026-11-02)
   confidence: medium
   notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
+- field: age_groups, family_score
+  claim: 'Owner-approved family assessment: age groups Children (7-12), Young adults, Seniors; scores small_children medium, children medium, young_adults medium, seniors medium.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. Owner note: Tættere mod La Cala centrum mere børnevenligt men også bedre faciliteter (parasoller og strandsenge).. '
+- field: description_long (owner knowledge)
+  claim: 'Owner: towards La Cala centre the beach is more child-friendly and has better facilities (parasols and sunbeds).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: medium
+  notes: Owner's own local knowledge, given with the family assessment on 2026-11-02; not independently verified.
 review_issues:
-- code: subjective_assessments_need_human_review
-  severity: warning
-  fields:
-  - family_score
-  - age_groups
-  - energy_level
-  - description_long
-  description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
-  retryable: false
-  owner: human_editor
 - code: no_blue_flag_2026
   severity: info
   fields:
   - description_long
   description: Not on the ADEAC 2026 list, so there is no indirect water-quality indication (Blue Flag is used as proxy; NAYADE is not available).
+  retryable: false
+  owner: human_editor
+- code: energy_level_editorial_estimate
+  severity: info
+  fields:
+  - energy_level
+  - description_long
+  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
   retryable: false
   owner: human_editor
 created_at: '2026-10-29'

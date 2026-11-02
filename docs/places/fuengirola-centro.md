@@ -30,11 +30,14 @@ driving_time_from_casa_de_la_familia:
   note: 'Routes API figure: 17 min with predicted Saturday 10:00 traffic (17 min without traffic), 7.0 km via Cam. de Campanales; an avoid-tolls run gave 17 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 18 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
 age_groups:
 - Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: medium
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: high
+  children: high
+  young_adults: high
+  seniors: high
 energy_level: Low
 seasonality:
 - Spring
@@ -192,17 +195,15 @@ evidence:
   checked_by: Claude (official beach data 2026-11-02)
   confidence: medium
   notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
+- field: age_groups, family_score
+  claim: 'Owner-approved family assessment: age groups Small children (0-6), Children (7-12), Young adults, Seniors; scores small_children high, children high, young_adults high, seniors high.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
 review_issues:
-- code: subjective_assessments_need_human_review
-  severity: warning
-  fields:
-  - family_score
-  - age_groups
-  - energy_level
-  - description_long
-  description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
-  retryable: false
-  owner: human_editor
 - code: coordinates_far_from_named_beach
   severity: warning
   fields:
@@ -210,6 +211,14 @@ review_issues:
   - driving_time_from_casa_de_la_familia
   description: The accepted place point (36.5573, -4.6095) lies about 2.5 km north-east of Google's 'Playa de Fuengirola' listing (36.5373, -4.6216, Paseo Marítimo Rey de España 27, by the town centre and port) and about 380 m from Playa de las Gaviotas, i.e. north of the Boliches-Gaviotas record point (36.5544, -4.6116). The point may sit on the wrong stretch of beach. Owner to check; the route check (driving time) would change by a minute or two at most.
   retryable: true
+  owner: human_editor
+- code: energy_level_editorial_estimate
+  severity: info
+  fields:
+  - energy_level
+  - description_long
+  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
+  retryable: false
   owner: human_editor
 created_at: '2026-10-29'
 updated_at: '2026-11-02'

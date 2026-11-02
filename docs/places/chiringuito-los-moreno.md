@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001
 slug: chiringuito-los-moreno
 name: Chiringuito Los Moreno
@@ -29,12 +29,13 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.4995404,-4.6837348); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.4995404%2C-4.6837348&travelmode=driving
   checked_at: '2026-11-01'
   note: 'Routes API figure: 15 min with predicted Saturday 10:00 traffic (15 min without traffic), 6.8 km via Arrabal Sector 13. One predicted sample, not the Google Maps app''s main figure.'
-age_groups: []
+age_groups:
+- Young adults
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: medium
+  children: medium
+  young_adults: high
+  seniors: medium
 energy_level: Low
 seasonality: []
 accessibility:
@@ -136,15 +137,21 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: Owner decision 8, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_unverified.
+- field: age_groups, family_score
+  claim: 'Owner-approved family assessment: age groups Young adults; scores small_children medium, children medium, young_adults high, seniors medium.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
 review_issues:
-- code: family_suitability_not_assessed
-  severity: warning
+- code: energy_level_editorial_estimate
+  severity: info
   fields:
-  - age_groups
-  - family_score
   - energy_level
-  description: No source on children's menu, high chairs, play area or family suitability was checked; age groups and family scores are left unknown/empty and energy_level Low is an editorial default for a restaurant visit. Needs editor assessment.
-  retryable: true
+  description: energy_level Low is an editorial default for a restaurant visit; confirm it at editorial review.
+  retryable: false
   owner: human_editor
 created_at: 2026-11-01
 updated_at: '2026-11-02'
