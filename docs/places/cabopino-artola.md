@@ -89,6 +89,9 @@ related_places:
 - id: ES-AND-MAL-CHIRINGUITO-LAS-DUNAS-CABOPINO-001
   relationship: nearby
   note: 'Place to eat: Chiringuito Las Dunas.'
+- id: ES-AND-MAL-DUNAS-DE-ARTOLA-001
+  relationship: nearby
+  note: Protected dunes next to the beach.
 description_short: 'Cabopino/Artola, Marbella: Blue Flag 2026. Character (subjective): Natural (Danish: Natur). Draft; facts being checked against official sources.'
 description_long: 'Cabopino/Artola (Marbella). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): golden sand, moderate waves, about 1,200 x 30 m, high occupancy, away from built-up areas (from the Punta Ladrones developments to the Cabopino marina beach). Nudism is practised on parts of the beach; which part is not stated. Toilets and parasol/sunbed hire are listed. Places to eat: see the linked record for Chiringuito Las Dunas. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal and press sources (Marbella 2026, checked 2026-11-01): lifeguards daily 1 June-30 September and at weekends from Easter; assisted bathing with amphibious chairs from Easter to the end of September (booking 658 618 333; Cabopino named by local press). Toilets: yes, according to the owner''s own local knowledge (2026-11-02); listed in the undated national tourism data but not on the provincial beach sheet, and not yet by a dated municipal source. Owner''s own knowledge (2026-11-02): very fine sand that does not get deep quickly; nudism only on a smaller part of the beach; a small harbour area with restaurants close by. Character: Natural (Danish: Natur) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Cabopino/Artola, Marbella | CalleMilano draft record
@@ -235,7 +238,7 @@ review_issues:
   severity: info
   fields:
   - related_places
-  description: docs/launch-candidates.md lists 'Dunas de Artola' as a Nature candidate; no record exists. This record is the beach. Decide whether to link them via related_places.
+  description: '2026-11-02: the owner selected Dunas de Artola as a candidate; a separate Nature record (dunas-de-artola) was created and linked both ways as ''nearby''. Confirm the split at editorial review.'
   retryable: false
   owner: human_editor
 - code: energy_level_editorial_estimate

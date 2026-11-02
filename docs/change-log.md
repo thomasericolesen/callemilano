@@ -1,5 +1,57 @@
 # Change log
 
+## 2026-11-02 - Season calendar, first draft (step 3, no records)
+
+Added `docs/season-calendar-draft.md` with the 8 selected events by month: fixed 2027 dates for Noche de San Juan (23-24 June, Benalmádena tourism), Feria de San Juan Arroyo de la Miel (24-29 June), Virgen del Carmen (16 July) and Feria del Rosario (6-12 October, 'always'); Semana Santa 2027 from the computed Easter date; Carnaval, Feria de Mijas (2026: 7-12 September), Reyes and Christmas await the councils' 2027 announcements. No place record changed.
+
+## 2026-11-02 - Practical page: emergency info left to the website note (owner)
+
+The owner already has a note on emergency numbers and A&E on the website. `docs/practical-information-draft.md` now refers to it; the emergency numbers and the hospital entry moved to an appendix for comparison only. Recorded as owner decision 11.
+
+## 2026-11-02 - Practical information page, first draft (step 2, no records)
+
+Added `docs/practical-information-draft.md` for the 9 everyday places the owner selected (owner decision 7): emergency numbers (112, 061, Salud Responde) from the Junta de Andalucía; Centro de Salud Las Lagunas (Mon-Fri 08:00-20:00) from Mijas council and SAS; Hospital Costa del Sol contacts from SAS; duty-pharmacy finder; market days from Turismo de Mijas and Fuengirola council (Las Lagunas Saturday, La Cala Wednesday and Saturday, Fuengirola Tuesday market and Saturday rastro, with fair-time exceptions); market hall and supermarkets by Google identity only. Shop hours remain open. No place record changed.
+
+## 2026-11-02 - Mirador del Compás folded into Mijas Pueblo (owner decision)
+
+The viewpoint and the Virgen de la Peña hermitage are now described in `mijas-pueblo` (description and evidence moved); `mirador-del-compas` archived with a `review_decision` (ID kept, not reused). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Mirador del Compás corrected (owner tip, no schema change)
+
+The owner pointed out that Mirador del Compás is also called Mirador Virgen de la Peña. Google's positions confirm the point is about 30 m from the Ermita de la Virgen de la Peña in Mijas Pueblo, so the record's earlier description ('a viewpoint in the Sierra de Mijas reached on foot') and `energy_level: High` were wrong. Corrected: name **Mirador del Compás (Virgen de la Peña)** (ID and slug unchanged; registry updated), description, `energy_level: Low`, linked to `mijas-pueblo`; status `draft` -> `needs_fact_check`. New info issue `possible_merge_with_mijas_pueblo` for the owner. Intake doc wording corrected. Validation: 0 errors.
+
+## 2026-11-02 - Maui Paddlesurf Club from owner screenshot (no schema change)
+
+`maui-paddle-surf-la-cala`: own Instagram (owner screenshot) gives the club's own name **Maui Paddlesurf Club (La Cala)** (ID and slug unchanged; registry name updated), address C/ La Butibamba 7, phone, and a summer camp for ages 5-14 (29 June-31 August, 10:00-14:00, €100/week, €30/day). Status `draft` -> `needs_fact_check`; linked one way to La Butibamba (the approved beach record was not edited). Regular hire and lesson prices remain open. Validation: 0 errors.
+
+## 2026-11-02 - Local extension fact check, batch C: walks and nature (no schema change)
+
+`draft` -> `needs_fact_check` for 5: `dunas-de-artola` (andalucia.org: Natural Monument since 2003, three dune types, keep to marked paths), `senda-litoral-la-cala` (GR 92/E-12 overview; La Cala section details open), `paseo-maritimo-fuengirola` (only the council's 2021 cycle-lane article; `promenade_facts_thin`), `ermita-del-calvario-mijas` and `puerto-colorado-sierra-de-mijas` (Gran Senda family stage via the Via Crucis, search excerpt; 2018 municipal walk 7.5 km / 500 m; `trail_data_unread`). `mirador-del-compas` stays `draft` (no official source found). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Local extension fact check, batch B: towns and sights (no schema change)
+
+`draft` -> `needs_fact_check` for 6, from official tourism portals (andalucia.org, Somos Fuengirola, This is Benalmádena) and own sites: `mijas-pueblo` (village and main sights; practicalities open), `fuengirola-town` (thin: portal tagline and tourist office only; issue `town_description_thin`), `benalmadena-pueblo` (old village at about 300 m, Plaza de España, Jardines del Muro, La Niña), `castillo-sohail` (history; Tue-Fri 10-14, weekends 10-18, closed Mon; free), `castillo-de-colomares` (seasonal hours, closed Mon; exterior visit only; price conflict on its own site), `puerto-marina-benalmadena` (1,140 moorings, Blue Flag, toilets, disabled facilities, parking). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Local extension fact check, batch A: attractions (no schema change)
+
+Checked against own or official sources on 2026-11-02; `draft` -> `needs_fact_check` for 7: `selwo-marina` (prices and age bands; seasonal calendar, winter unconfirmed), `parque-de-la-paloma` (andalucia.org: 200,000 m², lake, two playgrounds, animals; free entry not stated), `crocodile-park-torremolinos` (prices, guided-tour times; hours conflict on its own page), `sea-life-benalmadena` (open daily, adult €18.50 online / €21 door, child €11.50), `mariposario-benalmadena` (full hours and prices, open all year), `teleferico-benalmadena` (calendar opening, prices, under-12s with an adult per cabin), `mijas-golf` (two 18-hole courses; green fees not read). `maui-paddle-surf-la-cala` stays `draft` (Instagram only). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - 20 local-extension draft records created (owner selection, no schema change)
+
+From `docs/local-extension-selection-2026-11-02.md`, created 20 records with status `draft` and allocated IDs: 6 `Excursions` routes and walks plus 3 `Excursions` sights (Senda Litoral La Cala, Paseo Marítimo de Fuengirola, Ermita del Calvario, Mirador del Compás, Puerto Colorado; Castillo Sohail, Castillo de Colomares, Puerto Marina Benalmádena), 1 `Nature` (Dunas de Artola, linked both ways with Cabopino/Artola), 3 `City` (Mijas Pueblo, Fuengirola town, Benalmádena Pueblo) and 7 `Family activities` (Teleférico, Selwo Marina, Parque de la Paloma, Crocodile Park, Sea Life, Mariposario, Maui Paddle Surf, Mijas Golf). Identity and coordinates from Google Places API; drive time from Routes API (Saturday 2026-11-07 10:00). Categories are Claude's choice from the schema definitions (issue `category_editorial_choice`). Boat trips wait for a provider sweep and reputation screen. Validation: 148 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Owner selection for the local extension (no records yet)
+
+Read the owner's 49 answers from the checklist page and recorded them in `docs/local-extension-selection-2026-11-02.md`: yes 38 (9 everyday life, 6 nature, 7 towns and culture, 8 experiences, 8 events), maybe 8 (four museums or sights, the stupa, riding club, sports centre, Spanish lessons), no 3 (library, vet, laundry). No place record, ID or register was changed.
+
+## 2026-11-02 - Owner decisions on the local extension (no schema change)
+
+All five areas are in scope; everyday life goes on a separate practical-information page and events in a monthly season calendar, so no new category is needed. A private checklist page was published for the owner's selection. Recorded in `docs/owner-decisions-2026-11-02.md` (6-9).
+
+## 2026-11-02 - Local extension candidate list (intake only, no records)
+
+Owner request: guests stay a few weeks across a long season. Added `docs/local-extension-intake-2026-11-02.md`: 41 candidates in four groups (everyday life, nature and walks, towns and culture, longer-stay experiences) with Google Places identity and Routes API drive times, plus a list of yearly events without dates. Two structure questions for the owner (where everyday-life places and events belong, since neither fits the six categories). No place record, ID or register was changed.
+
 ## 2026-11-02 - Alfil own Facebook page; Sould Park chain page (no schema change)
 
 - `multicines-alfil-fuengirola`: own Facebook page (owner screenshot): eight screens, three with 3D X-PAND, opera and ballet season September 2026-May 2027, phone +34 952 59 35 87. Prices, parking and accessibility still open.

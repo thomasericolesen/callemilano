@@ -23,3 +23,12 @@ Answers given in the session chat on 2026-11-02 (Claude asked; the owner chose f
 3. **Bathing zone for older people:** add it to `fuengirola-centro` (Playa de San Francisco) and re-open the approved record for fact check; the owner re-approves afterwards.
 4. **Older-people zone placement:** after being told that Playa de San Francisco lies north of the port while the `fuengirola-centro` point is south of it, the owner decided to keep the zone in `fuengirola-centro`.
 5. **Re-approval:** the owner re-approved `fuengirola-centro` with the older-people zone ("Ja, godkend den igen").
+
+## Local extension for multi-week guests (session chat, 2026-11-02)
+
+6. **Scope:** all five areas in `docs/local-extension-intake-2026-11-02.md` are in scope, because guests arrive spread over a long season.
+7. **Everyday life:** goes on a separate practical-information page outside the place records (markets may still become records). No schema change.
+8. **Events:** a season calendar page by month, with official dates per year, linked from the relevant places.
+9. **Selection:** the owner picks candidates on a private checklist page ("CalleMilano udvidelse", https://claude.ai/artifact/N2M6tmgYi7MhVqPyfpUSa5); answers are stored in its `choices` collection.
+10. **Mirador del Compás:** fold into `mijas-pueblo` and archive the separate record.
+11. **Emergency numbers and A&E:** already covered by the owner's own note on the website; the practical page refers to it instead of repeating it.
