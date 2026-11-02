@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 - Restaurants near the one-hour beaches: records and first fact check
+
+- Owner selection read from the restaurant checklist: 17 yes. Rows rE04 and rF05 were duplicates of rE02 and rF01 in the first page version (name-matching error); fixed to Restaurante Marabierta and Restaurante Vista al Mar, the owner's answers to those two rows cleared, and the owner asked to choose again.
+- 17 new restaurant records (IDs allocated, `excursions_4h` / `Tæt på`, `related_places` set to the nearby beach), each with a Google Places identity and a Routes API drive time.
+- Fact check from own websites for 10: Tasca Láska, El Cachalote, La Concha (El Palo), Somos de Banús, Jack's Smokehouse, Solo Beach, Casa Fernando, El Ancla, La Lobezna, Casa Blanca Banús -> `needs_fact_check`. Seven without a readable own site stay `draft` with issue `no_readable_own_source`: El Andaluz de la Malagueta, Juanito Juan, Casa Manuel de la Lonja, Norte, Central Beach, La Escollera, Mar de Alborán.
+
 ## 2026-11-02 - Restaurant candidates near the one-hour beaches
 
 - Added `docs/one-hour-beach-restaurants-intake-2026-11-02.md`: 24 candidates near the six selected beaches, shortlisted from Google Places. Owner selects on a checklist page; no records created.

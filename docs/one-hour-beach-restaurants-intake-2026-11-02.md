@@ -4,6 +4,8 @@ Owner decision 13: restaurants next to the six selected beaches. Candidates from
 
 Owner selection page: https://claude.ai/artifact/1uvFqCZBd5LEWGDDS3aVr7 (collection `choices`). Checked 2026-11-02 by Claude.
 
+Correction 2026-11-02: in the first version rE04 and rF05 repeated rE02 (Casa Fernando) and rF01 (La Escollera) because of a name-matching error in the build script. They now show Restaurante Marabierta and Restaurante Vista al Mar as intended; the owner's first answers to these two rows are not used.
+
 ## A. Ved Malagueta (Málaga) (`playa-la-malagueta`)
 
 | ID | Candidate | Label | Straight line to beach point | Address (Google) | Maps | Website |
@@ -46,7 +48,7 @@ Owner selection page: https://claude.ai/artifact/1uvFqCZBd5LEWGDDS3aVr7 (collect
 | rE01 | Solo Beach Marbella | Strandrestaurant | 472 m | Av. Carlos Cano, 29670 Marbella, Málaga, España | https://maps.google.com/?cid=7392600488954082689 | https://solobeachmarbella.com/ |
 | rE02 | Restaurante Casa Fernando | Fisk og skaldyr | 425 m | Av. del Mediterráneo, 48, 29670 San Pedro Alcántara, Málaga, España | https://maps.google.com/?cid=12537927806206056198 | http://www.casafernandos.com/ |
 | rE03 | Marisquería El Ancla | Fisk og skaldyr | 443 m | Av. Carmen Sevilla, s/n, 29670 Marbella, Málaga, España | https://maps.google.com/?cid=13472696050805324241 | http://www.elanclarestaurante.com/ |
-| rE04 | Restaurante Casa Fernando | Fisk og skaldyr | 425 m | Av. del Mediterráneo, 48, 29670 San Pedro Alcántara, Málaga, España | https://maps.google.com/?cid=12537927806206056198 | http://www.casafernandos.com/ |
+| rE04 | Restaurante Marabierta | Fisk og skaldyr | 987 m | Av. de los Angeles, 197, 29670 Marbella, Málaga, España | https://maps.google.com/?cid=13307489151608202943 | https://www.marabierta.com/ |
 
 ## F. Ved La Rada (Estepona) (`playa-de-la-rada-estepona`)
 
@@ -56,4 +58,4 @@ Owner selection page: https://claude.ai/artifact/1uvFqCZBd5LEWGDDS3aVr7 (collect
 | rF02 | La Lobezna – Bar Restaurante en Estepona | Bar og grill (Google-type) | 411 m | Calle Tres Banderas, 30, 29680 Estepona, Málaga, España | https://maps.google.com/?cid=6134762487800661081 | http://www.lalobezna.es/ |
 | rF03 | Chiringuito Central Beach | Strandrestaurant (chiringuito) | 636 m | Glorieta Juan Carlos I, S/N, 29680 Estepona, Málaga, España | https://maps.google.com/?cid=4927276481424773570 |  |
 | rF04 | Taberna Mar de Alboran | Taverna | 676 m | Av. Luis Braille, 17, 29680 Estepona, Málaga, España | https://maps.google.com/?cid=17545952335163509357 | https://es-es.facebook.com/taberna.mardealboran.1 |
-| rF05 | Restaurante La Escollera | Restaurant | 348 m | C. Puerto Pesquero, 10, 29680 Estepona, Málaga, España | https://maps.google.com/?cid=7590379949152128262 | https://m.facebook.com/Restaurante-La-Escollera-Estepona-183448945056268/ |
+| rF05 | Restaurante Vista al Mar | Restaurant | 674 m | C. Real, 154, 29680 Estepona, Málaga, España | https://maps.google.com/?cid=7051143081443157257 |  |
