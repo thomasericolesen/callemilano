@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-BENALMADENA-PUEBLO-001
 slug: benalmadena-pueblo
 name: Benalmádena Pueblo
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: null
+  official_website: https://www.thisisbenalmadena.travel/descubre/las-3-benalmadenas/benalmadena-pueblo/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Benalmádena Pueblo: the old village of Benalmádena, about 25 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Benalmádena Pueblo is the old village of Benalmádena (Benalmádena, Málaga, España). From Casa de la Familia it is about 25 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Benalmádena Pueblo: the old village of Benalmádena, about 25 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Benalmádena Pueblo is the old village of Benalmádena (Benalmádena, Málaga, España). From Casa de la Familia it is about 25 minutes by car (Google route check, Saturday 10:00). Benalmádena''s official tourism site (This is Benalmádena, checked 2026-11-02): the original old village, about 300 m up the mountainside with the Mediterranean as backdrop; narrow cobbled streets, whitewashed façades with flower pots and quiet squares. Sights include Plaza de España, the Iglesia de Santo Domingo de Guzmán, the Jardines del Muro (gardens along the line of the medieval wall) and La Niña de Benalmádena, a sculpture by Jaime Pimentel. Check before visiting.'
 seo_title: Benalmádena Pueblo, Benalmádena | CalleMilano draft record
 seo_description: 'Draft record for Benalmádena Pueblo (Benalmádena): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long
+  claim: 'thisisbenalmadena.travel ''Benalmádena Pueblo'': ''Encaramado en la ladera de la sierra y con el Mediterráneo como telón de fondo''; ''calles estrechas y empedradas, sus fachadas encaladas adornadas con macetas''; Iglesia de Santo Domingo de Guzmán, Jardines del Muro (siguen el trazado de la muralla medieval), escultura La Niña (Jaime Pimentel); Plaza de España: casco antiguo ''a unos 300 metros de altitud''.'
+  source_url: https://www.thisisbenalmadena.travel/descubre/las-3-benalmadenas/benalmadena-pueblo/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02. Site of Benalmádena's tourism department (assumed from content; publisher not stated on the pages read).
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,18 @@ review_issues:
   description: 'Category ''City'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: visit_practicalities_unchecked
+  severity: warning
+  fields:
+  - parking
+  - accessibility
+  - transport_options
+  description: Parking, buses and accessibility were not checked.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

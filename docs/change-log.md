@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Local extension fact check, batch B: towns and sights (no schema change)
+
+`draft` -> `needs_fact_check` for 6, from official tourism portals (andalucia.org, Somos Fuengirola, This is Benalmádena) and own sites: `mijas-pueblo` (village and main sights; practicalities open), `fuengirola-town` (thin: portal tagline and tourist office only; issue `town_description_thin`), `benalmadena-pueblo` (old village at about 300 m, Plaza de España, Jardines del Muro, La Niña), `castillo-sohail` (history; Tue-Fri 10-14, weekends 10-18, closed Mon; free), `castillo-de-colomares` (seasonal hours, closed Mon; exterior visit only; price conflict on its own site), `puerto-marina-benalmadena` (1,140 moorings, Blue Flag, toilets, disabled facilities, parking). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Local extension fact check, batch A: attractions (no schema change)
 
 Checked against own or official sources on 2026-11-02; `draft` -> `needs_fact_check` for 7: `selwo-marina` (prices and age bands; seasonal calendar, winter unconfirmed), `parque-de-la-paloma` (andalucia.org: 200,000 m², lake, two playgrounds, animals; free entry not stated), `crocodile-park-torremolinos` (prices, guided-tour times; hours conflict on its own page), `sea-life-benalmadena` (open daily, adult €18.50 online / €21 door, child €11.50), `mariposario-benalmadena` (full hours and prices, open all year), `teleferico-benalmadena` (calendar opening, prices, under-12s with an adult per cabin), `mijas-golf` (two 18-hole courses; green fees not read). `maui-paddle-surf-la-cala` stays `draft` (Instagram only). Validation: 0 errors. Regenerated `data/place-catalog.csv`.

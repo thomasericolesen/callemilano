@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-PUERTO-MARINA-BENALMADENA-001
 slug: puerto-marina-benalmadena
 name: Puerto Marina Benalmádena
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: https://www.puertomarinabenalmadena.com/
+  official_website: https://puertobenalmadena.es/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Puerto Marina Benalmádena: Benalmádena''s marina with shops and restaurants, about 28 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Puerto Marina Benalmádena is Benalmádena's marina with shops and restaurants (Calle la Fragata, A11, 29630 Benalmádena, Málaga, España). From Casa de la Familia it is about 28 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Puerto Marina Benalmádena: Benalmádena''s marina with shops and restaurants, about 28 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Puerto Marina Benalmádena is Benalmádena''s marina with shops and restaurants (Calle la Fragata, A11, 29630 Benalmádena, Málaga, España). From Casa de la Familia it is about 28 minutes by car (Google route check, Saturday 10:00). Andalusia''s official tourism site (checked 2026-11-02): one of the most important marinas on the Andalusian coast, noted for its design and architecture and its wide range of leisure; 1,140 moorings, Blue Flag, with restaurants, bars, toilets, facilities for disabled visitors, boat hire, a nautical club and parking. The marina is run by a municipal company. The Sea Life aquarium is on the marina (see its own record). Check before visiting.'
 seo_title: Puerto Marina Benalmádena, Benalmádena | CalleMilano draft record
 seo_description: 'Draft record for Puerto Marina Benalmádena (Benalmádena): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long, toilets_available, parking
+  claim: 'andalucia.org listing ''Puerto Deportivo de Benalmádena Puerto Marina'': ''uno de los más importantes del litoral andaluz, por la belleza de su diseño y de su arquitectura interior, por el número de atraques, por la amplísima oferta alternativa de ocio y diversión''; services: restaurante, servicios para discapacitados, academia, alquiler de embarcaciones, aseos, bar, club náutico, parking, WIFI; amarres 1.140; Bandera Azul. puertobenalmadena.es: managed by Benalmádena Town Hall, a municipal company since July 1996; Edificio Capitanía, Av. Juan Sebastián Elcano s/n; +34 952 57 70 22.'
+  source_url: https://www.andalucia.org/listing/puerto-deportivo-de-benalm%C3%A1dena-puerto-marina/9860102/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -132,7 +127,7 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

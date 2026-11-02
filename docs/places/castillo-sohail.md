@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-CASTILLO-SOHAIL-001
 slug: castillo-sohail
 name: Castillo Sohail
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: https://fuengirola.gesturismo.com/wp-content/uploads/2026/09/HORARIO-CASTILLO-agosto-septiembre-26.png
+  official_website: https://www.somosfuengirola.es/listing/castillo-sohail/25779102/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Castillo Sohail: a castle above the mouth of the Río Fuengirola, about 12 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Castillo Sohail is a castle above the mouth of the Río Fuengirola (C. Tartesios, s/n, 29640 Fuengirola, Málaga, España). From Casa de la Familia it is about 12 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Castillo Sohail: a castle above the mouth of the Río Fuengirola, about 12 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Castillo Sohail is a castle above the mouth of the Río Fuengirola (C. Tartesios, s/n, 29640 Fuengirola, Málaga, España). From Casa de la Familia it is about 12 minutes by car (Google route check, Saturday 10:00). Fuengirola''s official tourism portal (checked 2026-11-02): a castle on a small isolated hill 38 m above the sea at the mouth of the Río Fuengirola, on a site settled by Punic and Roman peoples; first built in the 10th-11th century, with a 12th-century Almoravid enclosure, taken by Christian troops in 1485 and partly blown up in the Napoleonic war. Restored by the town council, it also hosts events such as the Marenostrum Festival. Usual opening: Tuesday-Friday 10:00-14:00, weekends and public holidays 10:00-18:00, closed Mondays. Free entry. Check before visiting.'
 seo_title: Castillo Sohail, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Castillo Sohail (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long, visit_information, cost_level
+  claim: 'somosfuengirola.es listing ''Castillo Sohail'': history (colina de 38 m en la desembocadura del río Fuengirola; siglos X-XI; almorávides siglo XII; 1485; voladura napoleónica; Escuela Taller del Ayuntamiento; Festival Marenostrum); entorno 65.490 m²; ''A partir del 23 de septiembre, abierto en horario habitual: Martes a viernes: 10:00-14:00 horas; Fines de semana y festivos: 10:00-18:00 horas; Lunes: cerrado''; ''ENTRADA GRATUITA''.'
+  source_url: https://www.somosfuengirola.es/listing/castillo-sohail/25779102/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02. Cached copy dated 2026-11-01; the September exceptions on the page refer to the summer concert season.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,16 @@ review_issues:
   description: 'Category ''Excursions'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: event_closures
+  severity: info
+  fields:
+  - visit_information
+  description: Opening changes during the summer concert season (Marenostrum); check the portal for current exceptions.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

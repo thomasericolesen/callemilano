@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-FUENGIROLA-TOWN-001
 slug: fuengirola-town
 name: Fuengirola (town)
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: null
+  official_website: https://www.somosfuengirola.es/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Fuengirola (town): the town of Fuengirola; the point is its main square, Plaza de la Constitución, about 15 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Fuengirola (town) is the town of Fuengirola; the point is its main square, Plaza de la Constitución (Pl. de la Constitución, 29640 Fuengirola, Málaga, España). From Casa de la Familia it is about 15 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Fuengirola (town): the town of Fuengirola; the point is its main square, Plaza de la Constitución, about 15 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Fuengirola (town) is the town of Fuengirola; the point is its main square, Plaza de la Constitución (Pl. de la Constitución, 29640 Fuengirola, Málaga, España). From Casa de la Familia it is about 15 minutes by car (Google route check, Saturday 10:00). Fuengirola's official tourism portal (Somos Fuengirola, checked 2026-11-02) presents the town through sunsets from the breakwater, concerts, shopping and walks along the Mediterranean. The municipal tourist office is at the entrance to the port. A fuller description of the centre (Plaza de la Constitución, church, old streets, market) is still to come from an official source. Check before visiting.
 seo_title: Fuengirola (town), Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Fuengirola (town) (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long
+  claim: 'Somos Fuengirola, ''Portal Oficial de Turismo de Fuengirola'': ''En Fuengirola somos de quienes nos viven: atardeceres desde el espigón, conciertos inolvidables, tardes de compras, paseos a orillas del Mediterráneo y noches ...''. andalucia.org: Fuengirola Municipal Tourist Office ''located in the centre of Fuengirola, at the entrance of the Port in a new building''.'
+  source_url: https://www.somosfuengirola.es/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Search excerpts; the portal's pages on the old centre were not found in this pass.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,17 @@ review_issues:
   description: 'Category ''City'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: town_description_thin
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: Only the tourism portal's general tagline and the tourist office location are sourced. Add the centre's sights from somosfuengirola.es before review; the record point is Plaza de la Constitución.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-CASTILLO-DE-COLOMARES-001
 slug: castillo-de-colomares
 name: Castillo de Colomares
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: http://www.castillomonumentocolomares.com/
+  official_website: https://www.castillomonumentocolomares.com/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Castillo de Colomares: a monument-castle in Benalmádena, about 20 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Castillo de Colomares is a monument-castle in Benalmádena (Finca la Carraca, Ctra. Costa del Sol, s/n, 29639 Benalmádena, Málaga, España). From Casa de la Familia it is about 20 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Castillo de Colomares: a monument-castle in Benalmádena, about 20 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Castillo de Colomares is a monument-castle in Benalmádena (Finca la Carraca, Ctra. Costa del Sol, s/n, 29639 Benalmádena, Málaga, España). From Casa de la Familia it is about 20 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a monument built as a castle (Castillo Monumento Colomares). Closed on Mondays; open Tuesday-Sunday 10:00-18:00 in autumn and winter, 10:00-20:00 in spring, and 10:00-14:00 and 17:00-21:00 in summer. Tickets at the gate: adults €3.50, children and pensioners €2.50 (the page also shows €2.00 elsewhere). Note from the site: the monument can only be visited from the outside. Check before visiting.'
 seo_title: Castillo de Colomares, Benalmádena | CalleMilano draft record
 seo_description: 'Draft record for Castillo de Colomares (Benalmádena): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long, visit_information, cost_level
+  claim: 'Own website: ''OTOÑO Lunes cerrado - Abierto de martes a domingos de 10.00 hs. a 18.00 hs''; ''VERANO ... de 10.00 a 14.00 hs. de 17.00 a 21.00 hs''; ''PRIMAVERA ... de 10.00 a 20.00 hs''; ''INVIERNO ... de 10.00 a 18.00 hs''; ''ADULTOS: 3.50 €, NIÑOS Y PENSIONISTAS: 2.50 €''; ''NOTA: El monumento se visita de manera exterior únicamente''; search excerpt of the same page: ''(entradas directamente en taquilla, no se requiere comprarlas con anticipación.) 2.00 €''.'
+  source_url: https://www.castillomonumentocolomares.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Price conflict on the same site (3.50/2.50 vs 2.00).
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,16 @@ review_issues:
   description: 'Category ''Excursions'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: price_conflict
+  severity: warning
+  fields:
+  - cost_level
+  description: The site shows €3.50/€2.50 in the schedule block and €2.00 in another block; confirm at the gate or by phone.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

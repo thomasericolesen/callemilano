@@ -42,11 +42,11 @@ ES-AND-MAL-TERRAZA-CHILL-OUT-BAR-001,terraza-chill-out-bar,Terraza Chill Out Bar
 ES-AND-MAL-BIOPARC-FUENGIROLA-001,bioparc-fuengirola,BIOPARC Fuengirola,needs_fact_check,Family activities,,Fuengirola,Málaga,36.5368411,-4.6277631,3.1,yes,12 min,docs/places/bioparc-fuengirola.md
 ES-AND-MAL-SKY-BAR-VERAMAR-001,sky-bar-veramar,Sky Bar Veramar,draft,Restaurants,,Fuengirola,Málaga,36.5338875,-4.6281745,3.1,yes,11 min,docs/places/sky-bar-veramar.md
 ES-AND-MAL-CASTILLO-EJIDO-001,castillo-ejido,Castillo-Ejido,approved,Beaches,Beach,Fuengirola,Málaga,36.5253,-4.6288,3.2,yes,12 min,docs/places/castillo-ejido.md
-ES-AND-MAL-CASTILLO-SOHAIL-001,castillo-sohail,Castillo Sohail,draft,Excursions,,Fuengirola,Málaga,36.5253188,-4.6288218,3.2,yes,12 min,docs/places/castillo-sohail.md
+ES-AND-MAL-CASTILLO-SOHAIL-001,castillo-sohail,Castillo Sohail,needs_fact_check,Excursions,,Fuengirola,Málaga,36.5253188,-4.6288218,3.2,yes,12 min,docs/places/castillo-sohail.md
 ES-AND-MAL-MULTICINES-ALFIL-FUENGIROLA-001,multicines-alfil-fuengirola,Multicines Alfil Fuengirola,needs_fact_check,Family activities,Rainy day,Fuengirola,Málaga,36.5375077,-4.6271906,3.2,yes,12 min,docs/places/multicines-alfil-fuengirola.md
 ES-AND-MAL-CAFE-TEATRO-OCEAN-DRIVE-001,cafe-teatro-ocean-drive,Café Teatro by Ocean Drive,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5304043,-4.6250503,3.4,yes,10 min,docs/places/cafe-teatro-ocean-drive.md
 ES-AND-MAL-CHANGUEIRO-BAR-DE-VINOS-001,changueiro-bar-de-vinos,Changueiro Bar de Vinos,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.537848499999996,-4.6245668,3.4,yes,15 min,docs/places/changueiro-bar-de-vinos.md
-ES-AND-MAL-FUENGIROLA-TOWN-001,fuengirola-town,Fuengirola (town),draft,City,,Fuengirola,Málaga,36.5391308,-4.623502,3.5,yes,15 min,docs/places/fuengirola-town.md
+ES-AND-MAL-FUENGIROLA-TOWN-001,fuengirola-town,Fuengirola (town),needs_fact_check,City,,Fuengirola,Málaga,36.5391308,-4.623502,3.5,yes,15 min,docs/places/fuengirola-town.md
 ES-AND-MAL-LA-TERRAZA-DE-PANDA-001,la-terraza-de-panda,La Terraza de Panda,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.539166,-4.6234329999999995,3.5,yes,15 min,docs/places/la-terraza-de-panda.md
 ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001,nautic-bar-fuengirola,Nautic Cocktail & Drinks,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5384019,-4.623798799999999,3.5,yes,14 min,docs/places/nautic-bar-fuengirola.md
 ES-AND-MAL-BAR-BURBUJAS-001,bar-burbujas,Bar Burbujas,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.539403799999995,-4.622169599999999,3.6,yes,16 min,docs/places/bar-burbujas.md
@@ -74,22 +74,22 @@ ES-AND-MAL-EL-OCEANO-BEACH-HOTEL-001,el-oceano-beach-hotel,El Oceano Beach Hotel
 ES-AND-MAL-PUERTO-COLORADO-SIERRA-DE-MIJAS-001,puerto-colorado-sierra-de-mijas,Puerto Colorado (Sierra de Mijas),draft,Excursions,,Mijas,Málaga,36.597363699999995,-4.6620145,6.9,yes,23 min,docs/places/puerto-colorado-sierra-de-mijas.md
 ES-AND-MAL-MIRADOR-DEL-COMPAS-001,mirador-del-compas,Mirador del Compás,draft,Excursions,,Mijas,Málaga,36.5953395,-4.6358648,7.1,yes,21 min,docs/places/mirador-del-compas.md
 ES-AND-MAL-ERMITA-DEL-CALVARIO-MIJAS-001,ermita-del-calvario-mijas,Ermita del Calvario (Mijas),draft,Excursions,,Mijas,Málaga,36.5973956,-4.6401707,7.2,yes,20 min,docs/places/ermita-del-calvario-mijas.md
-ES-AND-MAL-MIJAS-PUEBLO-001,mijas-pueblo,Mijas Pueblo,draft,City,,Mijas,Málaga,36.5967755,-4.6323067,7.3,yes,17 min,docs/places/mijas-pueblo.md
+ES-AND-MAL-MIJAS-PUEBLO-001,mijas-pueblo,Mijas Pueblo,needs_fact_check,City,,Mijas,Málaga,36.5967755,-4.6323067,7.3,yes,17 min,docs/places/mijas-pueblo.md
 ES-AND-MAL-LOS-MARINOS-PACO-001,los-marinos-paco,Los Marinos Paco,approved,Restaurants,Restaurant; Beach,Fuengirola,Málaga,36.5708563,-4.5909912,7.5,yes,17 min,docs/places/los-marinos-paco.md
 ES-AND-MAL-CARVAJAL-001,carvajal,Carvajal,approved,Beaches,Beach,Fuengirola,Málaga,36.5725,-4.5881,7.8,yes,18 min,docs/places/carvajal.md
 ES-AND-MAL-CHIRINGUITO-LAS-DUNAS-CABOPINO-001,chiringuito-las-dunas-cabopino,Chiringuito Las Dunas,needs_fact_check,Restaurants,Restaurant; Beach,Marbella,Málaga,36.4860513,-4.7356401,8.5,yes,22 min,docs/places/chiringuito-las-dunas-cabopino.md
 ES-AND-MAL-CABOPINO-ARTOLA-001,cabopino-artola,Cabopino/Artola,needs_fact_check,Beaches,Beach; Nature,Marbella,Málaga,36.4853,-4.7427,9.1,yes,21 min,docs/places/cabopino-artola.md
 ES-AND-MAL-MARIPOSARIO-BENALMADENA-001,mariposario-benalmadena,Mariposario de Benalmádena (Monowa),needs_fact_check,Family activities,,Benalmádena,Málaga,36.5890637,-4.5814641,9.4,yes,18 min,docs/places/mariposario-benalmadena.md
 ES-AND-MAL-DUNAS-DE-ARTOLA-001,dunas-de-artola,Dunas de Artola,draft,Nature,,Marbella,Málaga,36.485948,-4.7487129,9.5,yes,22 min,docs/places/dunas-de-artola.md
-ES-AND-MAL-CASTILLO-DE-COLOMARES-001,castillo-de-colomares,Castillo de Colomares,draft,Excursions,,Benalmádena,Málaga,36.590567,-4.572672,10.1,yes,20 min,docs/places/castillo-de-colomares.md
+ES-AND-MAL-CASTILLO-DE-COLOMARES-001,castillo-de-colomares,Castillo de Colomares,needs_fact_check,Excursions,,Benalmádena,Málaga,36.590567,-4.572672,10.1,yes,20 min,docs/places/castillo-de-colomares.md
 ES-AND-MAL-TELEFERICO-BENALMADENA-001,teleferico-benalmadena,Teleférico Benalmádena,needs_fact_check,Family activities,,Benalmádena,Málaga,36.5988798,-4.5398201,13.0,yes,21 min,docs/places/teleferico-benalmadena.md
 ES-AND-MAL-SELWO-MARINA-001,selwo-marina,Selwo Marina,needs_fact_check,Family activities,,Benalmádena,Málaga,36.592469,-4.532156,13.3,yes,24 min,docs/places/selwo-marina.md
 ES-AND-MAL-PARQUE-DE-LA-PALOMA-001,parque-de-la-paloma,Parque de la Paloma,needs_fact_check,Family activities,,Benalmádena,Málaga,36.5935284,-4.5293123,13.5,yes,25 min,docs/places/parque-de-la-paloma.md
 ES-AND-MAL-SANTA-ANA-DENIS-001,santa-ana-denis,Restaurante Santa Ana Denis,approved,Restaurants,Restaurant; Beach,Benalmádena,Málaga,36.5908659,-4.52638,13.6,yes,27 min,docs/places/santa-ana-denis.md
 ES-AND-MAL-SANTA-ANA-BENALMADENA-001,santa-ana-benalmadena,Santa Ana (Torrebermeja-Santa Ana),needs_fact_check,Beaches,Beach,Benalmádena,Málaga,36.5921,-4.523,14.0,yes,27 min,docs/places/santa-ana-benalmadena.md
-ES-AND-MAL-BENALMADENA-PUEBLO-001,benalmadena-pueblo,Benalmádena Pueblo,draft,City,,Benalmádena,Málaga,36.5964743,-4.5197688,14.4,yes,25 min,docs/places/benalmadena-pueblo.md
+ES-AND-MAL-BENALMADENA-PUEBLO-001,benalmadena-pueblo,Benalmádena Pueblo,needs_fact_check,City,,Benalmádena,Málaga,36.5964743,-4.5197688,14.4,yes,25 min,docs/places/benalmadena-pueblo.md
 ES-AND-MAL-SEA-LIFE-BENALMADENA-001,sea-life-benalmadena,Sea Life Benalmádena,needs_fact_check,Family activities,,Benalmádena,Málaga,36.59664,-4.5152,14.8,yes,27 min,docs/places/sea-life-benalmadena.md
-ES-AND-MAL-PUERTO-MARINA-BENALMADENA-001,puerto-marina-benalmadena,Puerto Marina Benalmádena,draft,Excursions,,Benalmádena,Málaga,36.5979187,-4.5122478,15.1,yes,28 min,docs/places/puerto-marina-benalmadena.md
+ES-AND-MAL-PUERTO-MARINA-BENALMADENA-001,puerto-marina-benalmadena,Puerto Marina Benalmádena,needs_fact_check,Excursions,,Benalmádena,Málaga,36.5979187,-4.5122478,15.1,yes,28 min,docs/places/puerto-marina-benalmadena.md
 ES-AND-MAL-CHIRINGUITO-RAFAEL-001,chiringuito-rafael,Chiringuito Rafael,needs_fact_check,Restaurants,Restaurant; Beach,Benalmádena,Málaga,36.599392,-4.5102398,15.3,yes,28 min,docs/places/chiringuito-rafael.md
 ES-AND-MAL-FUENTE-DE-LA-SALUD-001,fuente-de-la-salud,Fuente de la Salud,needs_fact_check,Beaches,Beach,Benalmádena,Málaga,36.5986,-4.5102,15.3,yes,30 min,docs/places/fuente-de-la-salud.md
 ES-AND-MAL-LA-CARIHUELA-001,la-carihuela,La Carihuela (Montemar),approved,Beaches,Beach,Torremolinos,Málaga,36.6076,-4.5046,16.2,yes,31 min,docs/places/la-carihuela.md

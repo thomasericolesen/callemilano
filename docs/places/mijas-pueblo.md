@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-MIJAS-PUEBLO-001
 slug: mijas-pueblo
 name: Mijas Pueblo
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: null
+  official_website: https://turismo.mijas.es/es/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Mijas Pueblo: the white village of Mijas on the mountainside, about 17 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Mijas Pueblo is the white village of Mijas on the mountainside (29650 Mijas, Málaga, España). From Casa de la Familia it is about 17 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Mijas Pueblo: the white village of Mijas on the mountainside, about 17 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Mijas Pueblo is the white village of Mijas on the mountainside (29650 Mijas, Málaga, España). From Casa de la Familia it is about 17 minutes by car (Google route check, Saturday 10:00). Andalusia''s official tourism site (checked 2026-11-02): a village of Moorish layout spread along the slope of the Sierra de Mijas like a balcony, white houses against green pines, one of the most attractive views on the coast. Sights include the Santuario de la Virgen de la Peña, the bullring, and the group formed by the Iglesia de la Concepción, the auditorium and its gardens. Parking, donkey taxis and accessibility were not checked. Check before visiting.'
 seo_title: Mijas Pueblo, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Mijas Pueblo (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long
+  claim: 'andalucia.org listing ''Mijas'': ''El pueblo, con una fisonomía típica de la época árabe, se extiende a través de la ladera de la sierra como si de un balcón se tratase, con sus casas blancas en vivo contraste con el verde de los pinos''; ''lugares de especial interés, como el Santuario de la Virgen de la Peña, la Plaza de Toros, o el conjunto que forman la Iglesia de la Concepción, el Auditorio y los Jardines anexos''; history summary.'
+  source_url: https://www.andalucia.org/listing/mijas/19913102/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,18 @@ review_issues:
   description: 'Category ''City'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: visit_practicalities_unchecked
+  severity: warning
+  fields:
+  - parking
+  - accessibility
+  - transport_options
+  description: Parking, bus links from Las Lagunas, steepness of the streets and the donkey taxis (and any welfare questions) were not checked. Turismo de Mijas (turismo.mijas.es) is the source to use.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
