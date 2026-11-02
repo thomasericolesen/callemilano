@@ -27,7 +27,7 @@ Start here. Details per step are in `docs/change-log.md` (entries dated 2026-11-
 
 ## Trip agent in the app (callemilano.dk)
 - App code: `thomasericolesen/callemilano-f388b2be` (Lovable syncs `main`). Branch `claude/vigilant-cray-dtqaxz` has the new import (step 1, points 1-2); owner merges, then runs the import on the Admin page with `data/app-export/places.json`.
-- Point 3 (`planTrip`, `/turforslag`, `holidays` table) is on the app branch `claude/vigilant-cray-dtqaxz`; after merge, re-run the export and re-import so places get the `trip` block. Next: point 4 (Ecco on Claude Sonnet 5.5, admin-only page; owner adds an Anthropic API key as a Lovable Cloud secret). Danish texts for imported places are an open task. See `docs/webapp-byggeplan.md`.
+- Point 3 (`planTrip`, `/turforslag`, `holidays` table) is merged and live (thomasericolesen/callemilano-f388b2be#2); places re-imported with the `trip` block (143 rows). Publish in Lovable does NOT run `drizzle/migrations/`: migration 0004 (holidays, 28 rows) was applied by Claude with the Lovable `query_database` tool on 2026-11-02 after the owner merged it; it is idempotent if Lovable runs it later. Next: point 4 (Ecco on Claude Sonnet 5.5, admin-only page; owner adds an Anthropic API key as a Lovable Cloud secret). Danish texts for imported places are an open task. See `docs/webapp-byggeplan.md`.
 
 ## Next, in suggested order (2026-11-03)
 1. **After 16:55 Danish time:** spot-check two lines from the pending price table below, then apply. Confirm the address for the four unconfirmed rows before applying.
