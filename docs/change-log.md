@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Restaurante Cerros del Águila: own Facebook page (no schema change)
+
+The owner supplied a screenshot of the restaurant's own Facebook page (profile id 100054645841442). Recorded as an `official_venue` source: Spanish restaurant, outdoor seating, dine-in, phone +34 952 66 81 91, address Urbanización Cerrado del Aguila s/n. "Always open" is not recorded as a schedule. `no_official_source_found` replaced by `hours_and_prices_unverified`; status `draft` -> `needs_fact_check`. Validation unchanged (0 errors). Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Nearby fact check, batch 2: eleven records (no schema change)
 
 Walkable places and the Camino Viejo de Coín restaurants, checked 2026-11-02.
