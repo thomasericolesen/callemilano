@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 - Intake for the 30-60 minute band
+
+- Owner asked to look at destinations beyond the local area but within about one hour's drive, with restaurants nearby or on the way.
+- Added `docs/one-hour-intake-2026-11-02.md`: 54 candidates in seven groups (beaches, towns, Málaga city, coastal history, nature, experiences, and four places under 30 minutes found on the way), route-checked with Google Routes. No records created; selection pending on the owner's checklist page.
+- Open owner decision: which layer holds this band.
+
 ## 2026-11-02 - Season calendar, first draft (step 3, no records)
 
 Added `docs/season-calendar-draft.md` with the 8 selected events by month: fixed 2027 dates for Noche de San Juan (23-24 June, Benalmádena tourism), Feria de San Juan Arroyo de la Miel (24-29 June), Virgen del Carmen (16 July) and Feria del Rosario (6-12 October, 'always'); Semana Santa 2027 from the computed Easter date; Carnaval, Feria de Mijas (2026: 7-12 September), Reyes and Christmas await the councils' 2027 announcements. No place record changed.
