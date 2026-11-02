@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Bars and cocktail bars candidate list (intake only, no records)
+
+Owner observation: the guide lacks places for adults and seniors, especially bars and cocktail bars. Added `docs/bars-intake-2026-11-02.md`: 27 bars, wine bars, cocktail and rooftop bars within about 16 minutes' drive (2 within walking distance, 7 in Las Lagunas/Mijas Golf, 14 in Fuengirola, 4 in La Cala de Mijas), with Google Places identity and Routes API walking and driving times. No place record, ID or register was changed.
+
 ## 2026-11-02 - Nearby fact check, batch 3: activities a short drive away (no schema change)
 
 Checked against the venues' own websites on 2026-11-02.
