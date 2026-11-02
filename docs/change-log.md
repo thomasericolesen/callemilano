@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Family assessment proposal for beaches and restaurants (proposal only)
+
+Added `docs/family-assessment-proposal-2026-11-02.md`: proposed `age_groups` and `family_score` for the 12 local beaches and 8 restaurants (owner decisions 2 and 6), with the rubric and the sourced facts behind each value. No record was changed; the values wait for the owner's corrections. Progress note added to `docs/approval-decisions-2026-11-01.md`.
+
 ## 2026-11-02 - Beaches: Google Maps links, official beach data, unsourced claims removed (draft, no schema change)
 
 Next-session step 3 from `docs/approval-decisions-2026-11-01.md`, for the 12 active local beaches.
