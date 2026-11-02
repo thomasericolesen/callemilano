@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Local extension candidate list (intake only, no records)
+
+Owner request: guests stay a few weeks across a long season. Added `docs/local-extension-intake-2026-11-02.md`: 41 candidates in four groups (everyday life, nature and walks, towns and culture, longer-stay experiences) with Google Places identity and Routes API drive times, plus a list of yearly events without dates. Two structure questions for the owner (where everyday-life places and events belong, since neither fits the six categories). No place record, ID or register was changed.
+
 ## 2026-11-02 - Alfil own Facebook page; Sould Park chain page (no schema change)
 
 - `multicines-alfil-fuengirola`: own Facebook page (owner screenshot): eight screens, three with 3D X-PAND, opera and ballet season September 2026-May 2027, phone +34 952 59 35 87. Prices, parking and accessibility still open.
