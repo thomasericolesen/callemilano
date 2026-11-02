@@ -27,7 +27,7 @@ driving_time_from_casa_de_la_familia:
   destination: Sould Park Bowling Miramar, Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5287161,-4.6323609); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5287161%2C-4.6323609&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 9 min, 4.27 km. Walking (Routes API WALK, same day): 51 min, 3.77 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 9 min, 4.27 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Sould Park Bowling Miramar: bowling alley and arcade at the Miramar shopping centre, about 51 min on foot or 9 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Sould Park Bowling Miramar is a bowling alley and arcade at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 51 minutes on foot (3.77 km, Google's walking route) or about 9 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Sould Park Bowling Miramar: bowling alley and arcade at the Miramar shopping centre, about 9 min by car from Casa de la Familia. Draft; facts not yet checked.'
+description_long: Sould Park Bowling Miramar is a bowling alley and arcade at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
 seo_title: Sould Park Bowling Miramar, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Sould Park Bowling Miramar (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -92,14 +92,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 9 min by car (4.27 km, Saturday 10:00 predicted traffic) and 51 min on foot (3.77 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 9 min by car (4.27 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5287161%2C-4.6323609&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5287161%2C-4.6323609&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -123,6 +123,15 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: details_not_readable
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - age_groups
+  description: 'Checked 2026-11-02: The chain website (souldpark.com) gives no readable details for the Miramar bowling. Needs another source or a direct check.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

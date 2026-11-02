@@ -1,11 +1,12 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-JUMPJOY-MIJAS-001
 slug: jumpjoy-mijas
 name: JumpJoy Mijas
 category: Family activities
-tags: []
+tags:
+- Rainy day
 coordinates:
   latitude: 36.5394096
   longitude: -4.6468226999999995
@@ -26,7 +27,7 @@ driving_time_from_casa_de_la_familia:
   destination: JumpJoy Mijas, Pol. San Rafael, 49, 29651 Las Lagunas de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5394096,-4.6468226999999995); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5394096%2C-4.6468226999999995&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 6 min, 2.8 km. Walking (Routes API WALK, same day): 33 min, 2.45 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 6 min, 2.8 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -63,7 +64,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Mon-Fri 16:30-21:30; Sat, Sun and public holidays 12:00-21:30 (own website, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -75,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34625396666
 related_places: []
-description_short: 'JumpJoy Mijas: trampoline and play centre, about 33 min on foot or 6 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: JumpJoy Mijas is a trampoline and play centre at Pol. San Rafael, 49, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 33 minutes on foot (2.45 km, Google's walking route) or about 6 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'JumpJoy Mijas: trampoline and play centre, about 6 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'JumpJoy Mijas is a trampoline and play centre at Pol. San Rafael, 49, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 6 minutes by car (Google route check, Saturday 10:00). Its own website describes an indoor, air-conditioned leisure park of more than 5,000 m² with zones by age: trampolines, slides, a ball pit, inflatable jumps, a climbing wall and mazes. Grip socks are compulsory (sold at reception for €2). Opening hours: Monday to Friday 16:30-21:30, weekends and public holidays 12:00-21:30. Prices are given by WhatsApp (625 39 66 66) and were not checked.'
 seo_title: JumpJoy Mijas, Mijas | CalleMilano draft record
 seo_description: 'Draft record for JumpJoy Mijas (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -91,28 +92,23 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 6 min by car (2.8 km, Saturday 10:00 predicted traffic) and 33 min on foot (2.45 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 6 min by car (2.8 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5394096%2C-4.6468226999999995&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5394096%2C-4.6468226999999995&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: visit_information, tags, description_long
+  claim: 'Own website: leisure park over 5,000 m2, zones by age, trampolines, slides, ball pit, climbing wall, mazes, "espacio seguro y climatizado"; socks compulsory (€2 at reception); hours Mon-Fri 16:30-21:30, Sat-Sun 12:00-21:30, holidays 12:00-21:30; address San Rafael 49, Las Lagunas de Mijas; phone +34 625 39 66 66.'
+  source_url: https://jumpjoymijas.es/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Homepage quoted via Firecrawl (direct-quote mode) on 2026-11-02 (page modified 2026-09-28). "Rainy day" tag from the stated indoor, air-conditioned space.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -122,9 +118,17 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level High is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: prices_unknown
+  severity: info
+  fields:
+  - cost_level
+  - visit_information
+  description: Prices are only given via WhatsApp; not checked.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-AQUALAND-TORREMOLINOS-001
 slug: aqualand-torremolinos
 name: Aqualand Torremolinos
@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: Aqualand Torremolinos, C. Cuba, 10, 29620 Torremolinos, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.6259897,-4.5082274); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.6259897%2C-4.5082274&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 24 min, 22.52 km. Walking (Routes API WALK, same day): 279 min, 20.07 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 24 min, 22.52 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Aqualand Torremolinos: water park, about 279 min on foot or 24 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Aqualand Torremolinos is a water park at C. Cuba, 10, 29620 Torremolinos, Málaga. From Casa de la Familia it is about 279 minutes on foot (20.07 km, Google's walking route) or about 24 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Aqualand Torremolinos: water park, about 24 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Aqualand Torremolinos is a water park at C. Cuba, 10, 29620 Torremolinos, Málaga. From Casa de la Familia it is about 24 minutes by car (Google route check, Saturday 10:00). Its own schedule page shows opening days in November 2026 with hours of 10:00-17:00 or 10:00-18:00 (the specific days were not captured); rides close 30 minutes before the park. The 2026 season began on 1 April (its own social posts). Prices, age rules and facilities were not checked.
 seo_title: Aqualand Torremolinos, Torremolinos | CalleMilano draft record
 seo_description: 'Draft record for Aqualand Torremolinos (Torremolinos): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -91,28 +91,23 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 24 min by car (22.52 km, Saturday 10:00 predicted traffic) and 279 min on foot (20.07 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 24 min by car (22.52 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.6259897%2C-4.5082274&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.6259897%2C-4.5082274&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: visit_information, description_long
+  claim: 'Own schedule page: calendar for November 2026 shows opening days "Abierto: 10:00h-17:00h" and "Abierto: 10:00h-18:00h"; rides open until 30 minutes before park closing.'
+  source_url: https://www.aqualand.es/torremolinos/horario/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Quoted via Firecrawl on 2026-11-02; the calendar day labels were not captured. Season start 1 April 2026 from the park's own Facebook/Instagram posts (search excerpts, 2026-11-02).
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -122,9 +117,18 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: days_prices_age_rules_unchecked
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - age_groups
+  description: Exact opening days, prices, height/age rules and facilities still need checking on aqualand.es.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: Aquamijas, Carr. de Cádiz, Km. 1016, 29651 Las Lagunas de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.538292999999996,-4.6330707); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.538292999999996%2C-4.6330707&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 10 min, 4.09 km. Walking (Routes API WALK, same day): 54 min, 3.98 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 10 min, 4.09 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -79,8 +79,8 @@ links:
   transport: null
   contact: tel:+34952460404
 related_places: []
-description_short: 'Aquamijas: seasonal water park, about 54 min on foot or 10 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Aquamijas is a seasonal water park at Carr. de Cádiz, Km. 1016, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 54 minutes on foot (3.98 km, Google''s walking route) or about 10 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Very family-friendly. The price is lower at off-peak times, but that must be checked. Its own website: more than 12 water attractions, from the Kamikaze slide to a calm children''s area; the 2026 season started on 1 May and the park is closed from 14 September 2026. Hours 10:30-18:30 (July-August stated). 2026 web prices: adults (12+) €32.50, juniors (7-11) €25, children (3-6) €18.50; cheaper afternoon tickets from 15:00 at the ticket office (May, June, September: €18 / €13.50 / €11.50). Children under 13 must be with an adult. Free car park for park customers; bar, cafeteria, self-service restaurant and a picnic-area kiosk, and your own food is allowed (no glass). Next season''s dates and prices are not yet published; check before visiting.'
+description_short: 'Aquamijas: seasonal water park, about 10 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Aquamijas is a seasonal water park at Carr. de Cádiz, Km. 1016, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 10 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Very family-friendly. The price is lower at off-peak times, but that must be checked. Its own website: more than 12 water attractions, from the Kamikaze slide to a calm children''s area; the 2026 season started on 1 May and the park is closed from 14 September 2026. Hours 10:30-18:30 (July-August stated). 2026 web prices: adults (12+) €32.50, juniors (7-11) €25, children (3-6) €18.50; cheaper afternoon tickets from 15:00 at the ticket office (May, June, September: €18 / €13.50 / €11.50). Children under 13 must be with an adult. Free car park for park customers; bar, cafeteria, self-service restaurant and a picnic-area kiosk, and your own food is allowed (no glass). Next season''s dates and prices are not yet published; check before visiting.'
 seo_title: Aquamijas, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Aquamijas (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -93,14 +93,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 10 min by car (4.09 km, Saturday 10:00 predicted traffic) and 54 min on foot (3.98 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 10 min by car (4.09 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.538292999999996%2C-4.6330707&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.538292999999996%2C-4.6330707&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 - field: description_long (owner knowledge)
   claim: Very family-friendly. The price is lower at off-peak times, but that must be checked.
   source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/nearby-selection-2026-11-02.md

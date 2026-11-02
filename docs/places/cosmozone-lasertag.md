@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: Cosmozone Lasertag, Av. de Andalucía, 15, 29651 Las Lagunas de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.534731,-4.6353832); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.534731%2C-4.6353832&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 8 min, 3.98 km. Walking (Routes API WALK, same day): 47 min, 3.44 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 8 min, 3.98 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Cosmozone Lasertag: laser tag venue, about 47 min on foot or 8 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Cosmozone Lasertag is a laser tag venue at Av. de Andalucía, 15, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 47 minutes on foot (3.44 km, Google's walking route) or about 8 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Cosmozone Lasertag: laser tag venue, about 8 min by car from Casa de la Familia. Draft; facts not yet checked.'
+description_long: Cosmozone Lasertag is a laser tag venue at Av. de Andalucía, 15, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 8 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
 seo_title: Cosmozone Lasertag, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Cosmozone Lasertag (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -91,14 +91,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 8 min by car (3.98 km, Saturday 10:00 predicted traffic) and 47 min on foot (3.44 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 8 min by car (3.98 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.534731%2C-4.6353832&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.534731%2C-4.6353832&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -122,6 +122,15 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: details_not_readable
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - age_groups
+  description: 'Checked 2026-11-02: The website (cosmozone.es) calls itself "the most technologically advanced laser tag in Spain", but hours, prices and minimum age were not readable. Needs another source or a direct check.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null
