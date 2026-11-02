@@ -15,8 +15,9 @@ coordinates:
   label: Parking point at Cabopino (owner-read Google Maps marker)
   source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
-google_maps_url: null
-external_ids: {}
+google_maps_url: https://maps.google.com/?cid=12017769330425017887
+external_ids:
+  google_place_id: ChIJ16xEdDggcw0RHzaRfIixx6Y
 municipality: Marbella
 province: Málaga
 autonomous_community: Andalusia
@@ -85,10 +86,10 @@ related_places:
 - id: ES-AND-MAL-CHIRINGUITO-LAS-DUNAS-CABOPINO-001
   relationship: nearby
   note: 'Place to eat: Chiringuito Las Dunas.'
-description_short: 'Cabopino/Artola, Marbella: Blue Flag 2026. Character (subjective): Natural (Danish: Natur). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Cabopino/Artola (Marbella). Blue Flag 2026 (used as proxy for water quality). Golden sand, moderate waves, about 1,200 x 30 m, high occupancy level. Parts of the beach are a nudist zone. Toilets and sunbeds listed. A Facebook reply calls it child-friendly because the water does not get deep quickly. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Andy''s Beach Bar and Chiringuito Las Dunas (fish and sardine skewers); restaurants and cafes in the marina. Nearby: Dunas de Artola (protected natural monument at the marina) and pine woods suited to walks. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal and press sources (Marbella 2026, checked 2026-11-01): lifeguards daily 1 June-30 September and at weekends from Easter; assisted bathing with amphibious chairs from Easter to the end of September (booking 658 618 333; Cabopino named by local press). Toilets are still unconfirmed. Character: Natural (Danish: Natur) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_short: 'Cabopino/Artola, Marbella: Blue Flag 2026. Character (subjective): Natural (Danish: Natur). Draft; facts being checked against official sources.'
+description_long: 'Cabopino/Artola (Marbella). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): golden sand, moderate waves, about 1,200 x 30 m, high occupancy, away from built-up areas (from the Punta Ladrones developments to the Cabopino marina beach). Nudism is practised on parts of the beach; which part is not stated. Toilets and parasol/sunbed hire are listed. Places to eat: see the linked record for Chiringuito Las Dunas. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal and press sources (Marbella 2026, checked 2026-11-01): lifeguards daily 1 June-30 September and at weekends from Easter; assisted bathing with amphibious chairs from Easter to the end of September (booking 658 618 333; Cabopino named by local press). Toilets are listed only in the undated national tourism data, not yet by a dated municipal source. Character: Natural (Danish: Natur) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Cabopino/Artola, Marbella | CalleMilano draft record
-seo_description: Draft record for Cabopino/Artola beach (Marbella). Based on a dated secondary-source snapshot; facts are under verification.
+seo_description: Draft record for Cabopino/Artola beach (Marbella). Facts are being checked against official sources.
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -107,30 +108,6 @@ evidence:
   checked_by: claude-sonnet-5-5 (draft 2026-10-29)
   confidence: medium
   notes: '[partial] Corroborating source, read via a WebFetch summary on 2026-10-29 (article not read in full). Supports the ADEAC check; does not replace it.'
-- field: description_long (sand, size, waves, occupancy)
-  claim: Golden sand, moderate waves, about 1,200 x 30 m, high occupancy level. Parts of the beach are a nudist zone.
-  source_url: null
-  source_type: official_tourism
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: medium
-  notes: '[partial] Source per snapshot: spain.info, page ''Artola-Cabopino'' (MITECO-based). URL not recorded in the snapshot. Not rechecked 2026-10-29.'
-- field: description_long (children, facilities, restaurants, experiences)
-  claim: Toilets and sunbeds listed. A Facebook reply calls it child-friendly because the water does not get deep quickly. | Andy's Beach Bar and Chiringuito Las Dunas (fish and sardine skewers); restaurants and cafes in the marina. | Dunas de Artola (protected natural monument at the marina) and pine woods suited to walks.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
-- field: description_long (Facebook reply)
-  claim: A Facebook reply calls the beach child-friendly because the water does not get deep quickly.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Single anecdotal reply from the Facebook beach survey. Undated; no child age stated in the snapshot. Not recorded in the repo.'
 - field: driving_time_from_casa_de_la_familia
   claim: 'One-way drive from Casa de la Familia to Cabopino parking point, Marbella, Málaga, Spain: 21 min, 13.2 km (Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.4853%2C-4.7427&travelmode=driving
@@ -195,14 +172,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+- field: google_maps_url, external_ids
+  claim: Google Places lists 'Playa de Cabopino' (Playa de Cabopino, España), place ID ChIJ16xEdDggcw0RHzaRfIixx6Y, about 120 m from the record coordinates.
+  source_url: https://maps.google.com/?cid=12017769330425017887
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (Places API lookup 2026-11-02)
+  confidence: high
+  notes: Google Places API (New) searchText/searchNearby on 2026-11-02. Maps establishes identity and position only, not facilities or suitability.
+- field: description_long (sand, size, waves, occupancy, services)
+  claim: 'Artola-Cabopino: sand, golden, moderate waves, 1200 x 30 m, high occupancy, isolated (aislada); nudism practised in parts; services: parasol/sunbed/water-craft hire, toilets, bins, cleaning.'
+  source_url: https://www.spain.info/es/playa/artola/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (official beach data 2026-11-02)
+  confidence: medium
+  notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
 review_issues:
-- code: google_maps_url_missing
-  severity: info
-  fields:
-  - google_maps_url
-  description: No Maps link recorded on this draft.
-  retryable: true
-  owner: fact_check
 - code: subjective_assessments_need_human_review
   severity: warning
   fields:
@@ -213,35 +199,18 @@ review_issues:
   description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
   retryable: false
   owner: human_editor
-- code: secondary_sources_unverified
-  severity: warning
-  fields:
-  - description_long
-  - toilets_available
-  - accessibility
-  - evidence
-  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
-  retryable: true
-  owner: fact_check
-- code: source_urls_missing
-  severity: warning
-  fields:
-  - evidence
-  description: The snapshot records source names, not URLs, for beach facts. Add URLs before fact check.
-  retryable: true
-  owner: fact_check
 - code: toilets_listed_but_unverified
   severity: warning
   fields:
   - toilets_available
-  description: Toilets are listed by secondary sources (see description), but toilets_available is left unknown until a source is verified (owner decision 2026-10-29 for Cabopino/Artola; the same rule is applied to Castillo-Ejido and Fuengirola centrum).
+  description: 'Toilets are listed by secondary sources (see description), but toilets_available is left unknown until a source is verified (owner decision 2026-10-29 for Cabopino/Artola; the same rule is applied to Castillo-Ejido and Fuengirola centrum). 2026-11-02: spain.info (official, undated) also lists toilets; still left unknown until a dated municipal source confirms them.'
   retryable: true
   owner: fact_check
 - code: nudist_zone_unlocated
   severity: info
   fields:
   - description_long
-  description: Parts of the beach are a nudist zone per source; which section is not stated. Relevant for family choice of section.
+  description: Parts of the beach are a nudist zone per source; which section is not stated. Relevant for family choice of section. spain.info (2026-11-02 read) also says only that nudism is practised on parts of the beach.
   retryable: false
   owner: fact_check
 - code: possible_overlap_dunas_de_artola

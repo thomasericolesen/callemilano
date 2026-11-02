@@ -1,5 +1,16 @@
 # Change log
 
+## 2026-11-02 - Beaches: Google Maps links, official beach data, unsourced claims removed (draft, no schema change)
+
+Next-session step 3 from `docs/approval-decisions-2026-11-01.md`, for the 12 active local beaches.
+
+- Google Maps links: `google_maps_url` and `external_ids.google_place_id` from Google Places API (New), with a `maps_identity` evidence entry; `google_maps_url_missing` closed. Boliches-Gaviotas uses the Playa de las Gaviotas listing (the record point is on it); Castillo-Ejido uses Playa del Ejido (about 180 m from the point, which is at the Castillo Sohail).
+- New warning `coordinates_far_from_named_beach` on Fuengirola centro: the accepted point lies about 2.5 km north-east of Google's "Playa de Fuengirola" (by the centre and port) and north of the Boliches-Gaviotas point. Coordinates not changed; owner to check.
+- Sand, size, waves, occupancy and listed services now come from spain.info (Turespaña official tourism portal, data from the national beach guide, undated). For Fuente de la Salud the source is andalucia.org (Junta de Andalucía), which also gives adapted toilets (`toilets_available: yes`). All evidence entries without a source URL were removed together with their claims in `description_long`: snapshot child-friendliness statements ("often recommended for children", "family-oriented", gentle slope), the anecdotal Facebook replies, unnamed or unverified beach bars, and unsourced "nearby" items. Beach descriptions now name only verified restaurant records ("see the linked record").
+- Notable differences from the old snapshot: Carvajal is listed as dark sand with gravel and cobbles (*bolos*), not "fine golden sand" (noted on `rocks_not_verified`); Castillo is white sand with a fenced dog-beach section; La Butibamba is listed as dark sand, while the owner's own knowledge (stones) is kept and the difference stated.
+- Closed: `secondary_sources_unverified`, `source_urls_missing`, `snapshot_restaurant_misidentified` (Castillo-Ejido), `snapshot_restaurants_wrong_beach` (La Carihuela), `lively_atmosphere_not_rated` (Los Álamos; the claim had no source). `description_short`/`seo_description` no longer call the record a snapshot draft.
+- Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Owner decisions 1, 3, 4, 5, 7 and 8 applied to beaches and restaurants (draft, no schema change)
 
 Applied the owner answers of 2026-11-01 (`docs/approval-decisions-2026-11-01.md`) to the 12 active local beaches and 8 restaurants. Each record gets one evidence entry per decision, pointing to the decisions file (`source_type: secondary`, the nearest schema value, with a note that it is an editor decision, not an external source). Status values are unchanged.

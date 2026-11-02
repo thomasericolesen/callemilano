@@ -14,8 +14,9 @@ coordinates:
   label: Google Maps marker (owner-read); not a parking point
   source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
-google_maps_url: null
-external_ids: {}
+google_maps_url: https://maps.google.com/?cid=3612524614955036822
+external_ids:
+  google_place_id: ChIJP3YZYhnjcg0RlvC_UP9DIjI
 municipality: Fuengirola
 province: Málaga
 autonomous_community: Andalusia
@@ -84,10 +85,10 @@ related_places:
 - id: ES-AND-MAL-LOS-MARINOS-PACO-001
   relationship: nearby
   note: 'Place to eat: Los Marinos Paco.'
-description_short: 'Carvajal, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Carvajal (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, golden sand. Described as the calmest in Fuengirola, far from the centre, with a play area. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Popular fish restaurants in the beach bars (not named), specialised in fresh fish and seafood. Nearby: Coloured parasols and sunset. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, a children''s area, assisted bathing and lifeguards are confirmed for the Fuengirola part of this beach. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. Carvajal also extends into Benalmádena, which lists its own accessibility point at Carvajal (2026). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_short: 'Carvajal, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft; facts being checked against official sources.'
+description_long: 'Carvajal (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand mixed with gravel and cobbles (bolos), calm water, about 450 x 25 m, high occupancy (especially at the western end), urban; showers and parasol hire are listed, and the train stops right in front of the beach. Places to eat: see the linked record for Los Marinos Paco. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, a children''s area, assisted bathing and lifeguards are confirmed for the Fuengirola part of this beach. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. Carvajal also extends into Benalmádena, which lists its own accessibility point at Carvajal (2026). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Carvajal, Fuengirola | CalleMilano draft record
-seo_description: Draft record for Carvajal beach (Fuengirola). Based on a dated secondary-source snapshot; facts are under verification.
+seo_description: Draft record for Carvajal beach (Fuengirola). Facts are being checked against official sources.
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -114,22 +115,6 @@ evidence:
   checked_by: claude-sonnet-5-5 (draft 2026-10-29)
   confidence: medium
   notes: '[partial] Corroborating source, read via a WebFetch summary on 2026-10-29 (article not read in full). Supports the ADEAC check; does not replace it.'
-- field: description_long (sand, size, waves, occupancy)
-  claim: Fine, golden sand.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Source per snapshot: per-beach source not recorded in snapshot. URL not recorded in the snapshot. Not rechecked 2026-10-29.'
-- field: description_long (children, facilities, restaurants, experiences)
-  claim: Described as the calmest in Fuengirola, far from the centre, with a play area. | Popular fish restaurants in the beach bars (not named), specialised in fresh fish and seafood. | Coloured parasols and sunset.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
 - field: municipality
   claim: Fuengirola's 2026 service charter counts Carvajal among the municipality's four beaches.
   source_url: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
@@ -186,14 +171,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+- field: google_maps_url, external_ids
+  claim: Google Places lists 'Playa de Carvajal' (Playa de Carvajal, Málaga, España), place ID ChIJP3YZYhnjcg0RlvC_UP9DIjI, about 5 m from the record coordinates.
+  source_url: https://maps.google.com/?cid=3612524614955036822
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (Places API lookup 2026-11-02)
+  confidence: high
+  notes: Google Places API (New) searchText/searchNearby on 2026-11-02. Maps establishes identity and position only, not facilities or suitability.
+- field: description_long (sand, size, waves, occupancy, services)
+  claim: 'Carvajal (Fuengirola): composition sand, cobbles (bolos), gravel; dark sand; calm water; 450 x 25 m; high occupancy, especially in the western part; urban; services: water-craft hire, showers, bins, cleaning; the train stops in front.'
+  source_url: https://www.spain.info/es/playa/carvajal-fuengirola/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (official beach data 2026-11-02)
+  confidence: medium
+  notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
 review_issues:
-- code: google_maps_url_missing
-  severity: info
-  fields:
-  - google_maps_url
-  description: No Maps link recorded on this draft.
-  retryable: true
-  owner: fact_check
 - code: subjective_assessments_need_human_review
   severity: warning
   fields:
@@ -204,28 +198,11 @@ review_issues:
   description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
   retryable: false
   owner: human_editor
-- code: secondary_sources_unverified
-  severity: warning
-  fields:
-  - description_long
-  - toilets_available
-  - accessibility
-  - evidence
-  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
-  retryable: true
-  owner: fact_check
-- code: source_urls_missing
-  severity: warning
-  fields:
-  - evidence
-  description: The snapshot records source names, not URLs, for beach facts. Add URLs before fact check.
-  retryable: true
-  owner: fact_check
 - code: rocks_not_verified
   severity: warning
   fields:
   - description_long
-  description: Absence of any mention of rocks is not confirmation, and the owner does not know (decision 4, 2026-11-01). The project criterion excludes beaches with rocks; a visit or an independent source is needed.
+  description: 'Absence of any mention of rocks is not confirmation, and the owner does not know (decision 4, 2026-11-01). The project criterion excludes beaches with rocks; a visit or an independent source is needed. 2026-11-02: spain.info lists the composition as sand, gravel and cobbles (bolos); that is not the same as rocks, but the owner may want to check.'
   retryable: true
   owner: fact_check
 created_at: '2026-10-29'

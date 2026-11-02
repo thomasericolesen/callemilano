@@ -14,8 +14,9 @@ coordinates:
   label: Google Maps marker 'Playa de los Álamos' (owner-read); not a parking point
   source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
-google_maps_url: null
-external_ids: {}
+google_maps_url: https://maps.google.com/?cid=15249308870436410594
+external_ids:
+  google_place_id: ChIJBwDLEd77cg0R4lSTlJ9toNM
 municipality: Torremolinos
 province: Málaga
 autonomous_community: Andalusia
@@ -83,10 +84,10 @@ related_places:
 - id: ES-AND-MAL-MORROFINO-001
   relationship: nearby
   note: 'Place to eat: Morrofino.'
-description_short: 'Los Álamos, Torremolinos: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Los Álamos (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Fine sand (sources disagree on the length). Described as a younger, livelier atmosphere. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Beach bars and restaurants. Nearby: Paseo Maritimo. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_short: 'Los Álamos, Torremolinos: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
+description_long: 'Los Álamos (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): golden sand, moderate waves, about 1,500 x 60 m, high occupancy, semi-urban, stretching from Torremolinos towards the mouth of the Guadalhorce; showers and parasol/sunbed hire are listed. Places to eat: see the linked record for Morrofino (on the promenade at Playamar). Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Los Álamos, Torremolinos | CalleMilano draft record
-seo_description: Draft record for Los Álamos beach (Torremolinos). Based on a dated secondary-source snapshot; facts are under verification.
+seo_description: Draft record for Los Álamos beach (Torremolinos). Facts are being checked against official sources.
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -105,22 +106,6 @@ evidence:
   checked_by: claude-sonnet-5-5 (draft 2026-10-29)
   confidence: medium
   notes: '[partial] Corroborating source, read via a WebFetch summary on 2026-10-29 (article not read in full). Supports the ADEAC check; does not replace it.'
-- field: description_long (sand, size, waves, occupancy)
-  claim: Fine sand (sources disagree on the length).
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Source per snapshot: per-beach source not recorded in snapshot. URL not recorded in the snapshot. Not rechecked 2026-10-29.'
-- field: description_long (children, facilities, restaurants, experiences)
-  claim: Described as a younger, livelier atmosphere. | Beach bars and restaurants. | Paseo Maritimo.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
 - field: driving_time_from_casa_de_la_familia
   claim: 'One-way drive from Casa de la Familia to Los Álamos, Torremolinos, Málaga, Spain (Google Maps marker, not a parking point): 28 min, 24.8 km (Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.6349%2C-4.4856&travelmode=driving
@@ -161,14 +146,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+- field: google_maps_url, external_ids
+  claim: Google Places lists 'Playa de los Álamos' (Playa de los Álamos, España), place ID ChIJBwDLEd77cg0R4lSTlJ9toNM, about 5 m from the record coordinates.
+  source_url: https://maps.google.com/?cid=15249308870436410594
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (Places API lookup 2026-11-02)
+  confidence: high
+  notes: Google Places API (New) searchText/searchNearby on 2026-11-02. Maps establishes identity and position only, not facilities or suitability.
+- field: description_long (sand, size, waves, occupancy, services)
+  claim: 'Los Álamos: sand, golden, moderate waves, 1500 x 60 m, high occupancy, semi-urban; from Torremolinos to near the Guadalhorce river mouth; services: sunshade/sunbed/water-craft hire, showers, footwash, bins, cleaning, telephone. The Spanish page returned a bot check; the English page was read.'
+  source_url: https://www.spain.info/en/beach/alamos/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (official beach data 2026-11-02)
+  confidence: medium
+  notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
 review_issues:
-- code: google_maps_url_missing
-  severity: info
-  fields:
-  - google_maps_url
-  description: No Maps link recorded on this draft.
-  retryable: true
-  owner: fact_check
 - code: subjective_assessments_need_human_review
   severity: warning
   fields:
@@ -179,23 +173,6 @@ review_issues:
   description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
   retryable: false
   owner: human_editor
-- code: secondary_sources_unverified
-  severity: warning
-  fields:
-  - description_long
-  - toilets_available
-  - accessibility
-  - evidence
-  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
-  retryable: true
-  owner: fact_check
-- code: source_urls_missing
-  severity: warning
-  fields:
-  - evidence
-  description: The snapshot records source names, not URLs, for beach facts. Add URLs before fact check.
-  retryable: true
-  owner: fact_check
 - code: rocks_not_verified
   severity: warning
   fields:
@@ -203,13 +180,6 @@ review_issues:
   description: Absence of any mention of rocks is not confirmation, and the owner does not know (decision 4, 2026-11-01). The project criterion excludes beaches with rocks; a visit or an independent source is needed.
   retryable: true
   owner: fact_check
-- code: lively_atmosphere_not_rated
-  severity: info
-  fields:
-  - family_score
-  description: Snapshot describes a younger, livelier environment; possibly less suited to small children. Not rated either way.
-  retryable: false
-  owner: human_editor
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
 last_verified: '2026-10-29'

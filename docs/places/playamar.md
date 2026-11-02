@@ -14,8 +14,9 @@ coordinates:
   label: Google Maps marker 'Playamar' (owner-read); not a parking point
   source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
-google_maps_url: null
-external_ids: {}
+google_maps_url: https://maps.google.com/?cid=13326802808353720739
+external_ids:
+  google_place_id: ChIJKQx4_ub7cg0Rowmat4tQ8rg
 municipality: Torremolinos
 province: Málaga
 autonomous_community: Andalusia
@@ -84,10 +85,10 @@ related_places:
 - id: ES-AND-MAL-MORROFINO-001
   relationship: nearby
   note: 'Place to eat: Morrofino.'
-description_short: 'Playamar, Torremolinos: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Playamar (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Fine, dark sand. Often recommended for children. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Wide choice of beach bars and restaurants. Nearby: Paseo Maritimo. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_short: 'Playamar, Torremolinos: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
+description_long: 'Playamar (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand, moderate waves, about 1,000 x 50 m, high occupancy, urban; toilets, showers and parasol/sunbed hire are listed. Places to eat: see the linked record for Morrofino. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Playamar, Torremolinos | CalleMilano draft record
-seo_description: Draft record for Playamar beach (Torremolinos). Based on a dated secondary-source snapshot; facts are under verification.
+seo_description: Draft record for Playamar beach (Torremolinos). Facts are being checked against official sources.
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -106,22 +107,6 @@ evidence:
   checked_by: claude-sonnet-5-5 (draft 2026-10-29)
   confidence: medium
   notes: '[partial] Corroborating source, read via a WebFetch summary on 2026-10-29 (article not read in full). Supports the ADEAC check; does not replace it.'
-- field: description_long (sand, size, waves, occupancy)
-  claim: Fine, dark sand.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Source per snapshot: per-beach source not recorded in snapshot (snapshot lists Barcelo, ''Torremolinos med børn'', among its sources). URL not recorded in the snapshot. Not rechecked 2026-10-29.'
-- field: description_long (children, facilities, restaurants, experiences)
-  claim: Often recommended for children. | Wide choice of beach bars and restaurants. | Paseo Maritimo.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
 - field: driving_time_from_casa_de_la_familia
   claim: 'One-way drive from Casa de la Familia to Playamar, Torremolinos, Málaga, Spain (Google Maps marker, not a parking point): 27 min, 24.0 km (Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.6306%2C-4.4887&travelmode=driving
@@ -162,14 +147,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+- field: google_maps_url, external_ids
+  claim: Google Places lists 'Playamar' (Playamar, España), place ID ChIJKQx4_ub7cg0Rowmat4tQ8rg, about 4 m from the record coordinates.
+  source_url: https://maps.google.com/?cid=13326802808353720739
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (Places API lookup 2026-11-02)
+  confidence: high
+  notes: Google Places API (New) searchText/searchNearby on 2026-11-02. Maps establishes identity and position only, not facilities or suitability.
+- field: description_long (sand, size, waves, occupancy, services)
+  claim: 'Playamar: sand, dark, moderate waves, 1000 x 50 m, high occupancy, urban; services: parasol/sunbed/water-craft hire, toilets, showers, footwash, tourist office.'
+  source_url: https://www.spain.info/es/playa/playamar/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (official beach data 2026-11-02)
+  confidence: medium
+  notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
 review_issues:
-- code: google_maps_url_missing
-  severity: info
-  fields:
-  - google_maps_url
-  description: No Maps link recorded on this draft.
-  retryable: true
-  owner: fact_check
 - code: subjective_assessments_need_human_review
   severity: warning
   fields:
@@ -180,23 +174,6 @@ review_issues:
   description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
   retryable: false
   owner: human_editor
-- code: secondary_sources_unverified
-  severity: warning
-  fields:
-  - description_long
-  - toilets_available
-  - accessibility
-  - evidence
-  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
-  retryable: true
-  owner: fact_check
-- code: source_urls_missing
-  severity: warning
-  fields:
-  - evidence
-  description: The snapshot records source names, not URLs, for beach facts. Add URLs before fact check.
-  retryable: true
-  owner: fact_check
 - code: rocks_not_verified
   severity: warning
   fields:

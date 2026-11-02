@@ -14,8 +14,9 @@ coordinates:
   label: Google Maps marker (owner-read); not a parking point
   source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
-google_maps_url: null
-external_ids: {}
+google_maps_url: https://maps.google.com/?cid=14195859727461052171
+external_ids:
+  google_place_id: ChIJ8WWL6G_8cg0RC--WkDXTAcU
 municipality: Benalmádena
 province: Málaga
 autonomous_community: Andalusia
@@ -63,7 +64,7 @@ parking:
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
-toilets_available: unknown
+toilets_available: 'yes'
 food_available: unknown
 cost_level: Unknown
 visit_information:
@@ -84,10 +85,10 @@ related_places:
 - id: ES-AND-MAL-CHIRINGUITO-RAFAEL-001
   relationship: nearby
   note: 'Place to eat: Chiringuito Rafael.'
-description_short: 'Fuente de la Salud, Benalmádena: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Fuente de la Salud (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Dark sand, moderate waves, about 150 x 80 m, high occupancy level. Family-oriented, play area, one lifeguard post. Nearby: By Puerto Marina. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Municipal source (Benalmádena, 2026-06-05, checked 2026-11-01): a lifeguard point and an accessibility point / adapted beach at Fuente de la Salud; intensive lifeguard season 15 May-15 October, plus Easter week and the following weekends. Toilets and the play area are not confirmed by an official source. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_short: 'Fuente de la Salud, Benalmádena: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
+description_long: 'Fuente de la Salud (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Official regional tourism listing (andalucia.org, Junta de Andalucía; undated, read 2026-11-02): Benalmádena''s easternmost beach, next to the marina (Puerto Deportivo) and bordering Torremolinos, fine sand, about 150 m long, with adapted toilets. Places to eat: see the linked record for Chiringuito Rafael. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Municipal source (Benalmádena, 2026-06-05, checked 2026-11-01): a lifeguard point and an accessibility point / adapted beach at Fuente de la Salud; intensive lifeguard season 15 May-15 October, plus Easter week and the following weekends. A play area is not confirmed by an official source. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Fuente de la Salud, Benalmádena | CalleMilano draft record
-seo_description: Draft record for Fuente de la Salud beach (Benalmádena). Based on a dated secondary-source snapshot; facts are under verification.
+seo_description: Draft record for Fuente de la Salud beach (Benalmádena). Facts are being checked against official sources.
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -106,22 +107,6 @@ evidence:
   checked_by: claude-sonnet-5-5 (draft 2026-10-29)
   confidence: medium
   notes: '[partial] Corroborating source, read via a WebFetch summary on 2026-10-29 (article not read in full). Supports the ADEAC check; does not replace it.'
-- field: description_long (sand, size, waves, occupancy)
-  claim: Dark sand, moderate waves, about 150 x 80 m, high occupancy level.
-  source_url: null
-  source_type: official_tourism
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: medium
-  notes: '[partial] Source per snapshot: spain.info, page ''Fuente de la Salud'' (MITECO-based). URL not recorded in the snapshot. Not rechecked 2026-10-29.'
-- field: description_long (children, facilities, restaurants, experiences)
-  claim: Family-oriented, play area, one lifeguard post. | By Puerto Marina.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
 - field: driving_time_from_casa_de_la_familia
   claim: 'One-way drive from Casa de la Familia to Fuente de la Salud, Benalmádena, Málaga, Spain (Google Maps marker, not a parking point): 30 min, 20.5 km (Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5986%2C-4.5102&travelmode=driving
@@ -162,14 +147,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+- field: google_maps_url, external_ids
+  claim: Google Places lists 'Playa de Fuente de la Salud' (29630 Benalmádena, Málaga, España), place ID ChIJ8WWL6G_8cg0RC--WkDXTAcU, about 5 m from the record coordinates.
+  source_url: https://maps.google.com/?cid=14195859727461052171
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (Places API lookup 2026-11-02)
+  confidence: high
+  notes: Google Places API (New) searchText/searchNearby on 2026-11-02. Maps establishes identity and position only, not facilities or suitability.
+- field: description_long (sand, size, waves, occupancy, services), toilets_available
+  claim: 'Fuente de la Salud: easternmost beach of Benalmádena, next to the Puerto Deportivo, bordering Torremolinos; fine sand; 150 m long; central, with all services; adapted toilets.'
+  source_url: https://www.andalucia.org/listing/playa-fuente-de-la-salud/18944102/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (official beach data 2026-11-02)
+  confidence: medium
+  notes: Junta de Andalucía official tourism portal; undated listing. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
 review_issues:
-- code: google_maps_url_missing
-  severity: info
-  fields:
-  - google_maps_url
-  description: No Maps link recorded on this draft.
-  retryable: true
-  owner: fact_check
 - code: subjective_assessments_need_human_review
   severity: warning
   fields:
@@ -180,23 +174,6 @@ review_issues:
   description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
   retryable: false
   owner: human_editor
-- code: secondary_sources_unverified
-  severity: warning
-  fields:
-  - description_long
-  - toilets_available
-  - accessibility
-  - evidence
-  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
-  retryable: true
-  owner: fact_check
-- code: source_urls_missing
-  severity: warning
-  fields:
-  - evidence
-  description: The snapshot records source names, not URLs, for beach facts. Add URLs before fact check.
-  retryable: true
-  owner: fact_check
 - code: rocks_not_verified
   severity: warning
   fields:

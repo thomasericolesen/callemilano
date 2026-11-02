@@ -14,8 +14,9 @@ coordinates:
   label: Google Maps marker (owner-read); not a parking point
   source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
-google_maps_url: null
-external_ids: {}
+google_maps_url: https://maps.google.com/?cid=12787116900391649700
+external_ids:
+  google_place_id: ChIJUSgR11Dicg0RpAE9ZRL3dLE
 municipality: Fuengirola
 province: Málaga
 autonomous_community: Andalusia
@@ -84,10 +85,10 @@ related_places:
 - id: ES-AND-MAL-LA-MAR-SALA-001
   relationship: nearby
   note: 'Place to eat: La Mar Salá.'
-description_short: 'Boliches-Gaviotas, Fuengirola: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Boliches-Gaviotas (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Urban beach, about 3,000 x 40 m, much visited. Play area and volleyball courts; ''not much current'' (snapshot wording ''ikke meget strøm''). A Facebook reply calls it child-friendly because the water does not get deep quickly. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Many beach bars and shops (not named). Nearby: Paddle surf and snorkelling. Craft market (Las Cabañas) on the promenade June-September. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources: lifeguard service daily 1 June-30 September 11:00-20:00, and on weekends and public holidays 11:00-19:00 from the weekend after 30 September until 15 October (Carta de Servicios 2026, edition 2026-05-12; the stated autumn cover ends 15 October); an adapted bathing platform at pergola 41 (Fuengirola Accesible 2025, edition 2025-03-03) with a bathing device for blind users (Carta de Servicios 2026); and one plot of ''camas elásticas'' (bouncy beds/trampolines) (Carta de Servicios 2026). A bathing zone for older people (marked area, handrails, 22 semi-submerged seats) is described by the municipality, but its beach is disputed: Los Boliches per the Concejalía de Playas page, Playa de San Francisco per Fuengirola Accesible 2025 [partial; unresolved]. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_short: 'Boliches-Gaviotas, Fuengirola: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
+description_long: 'Boliches-Gaviotas (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): Los Boliches is about 1,100 x 40 m and Las Gaviotas about 1,200 x 40 m; both are dark sand with calm water, high occupancy and urban, and both list a children''s area, a sports area, toilets and showers. Las Gaviotas has the Paseo Rey de España promenade, with windsurfing and pedalo hire. Places to eat: see the linked record for La Mar Salá. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources: lifeguard service daily 1 June-30 September 11:00-20:00, and on weekends and public holidays 11:00-19:00 from the weekend after 30 September until 15 October (Carta de Servicios 2026, edition 2026-05-12; the stated autumn cover ends 15 October); an adapted bathing platform at pergola 41 (Fuengirola Accesible 2025, edition 2025-03-03) with a bathing device for blind users (Carta de Servicios 2026); and one plot of ''camas elásticas'' (bouncy beds/trampolines) (Carta de Servicios 2026). A bathing zone for older people (marked area, handrails, 22 semi-submerged seats) is described by the municipality, but its beach is disputed: Los Boliches per the Concejalía de Playas page, Playa de San Francisco per Fuengirola Accesible 2025 [partial; unresolved]. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Boliches-Gaviotas, Fuengirola | CalleMilano draft record
-seo_description: Draft record for Boliches-Gaviotas beach (Fuengirola). Based on a dated secondary-source snapshot; facts are under verification.
+seo_description: Draft record for Boliches-Gaviotas beach (Fuengirola). Facts are being checked against official sources.
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -114,30 +115,6 @@ evidence:
   checked_by: claude-sonnet-5-5 (draft 2026-10-29)
   confidence: medium
   notes: '[partial] Corroborating source, read via a WebFetch summary on 2026-10-29 (article not read in full). Supports the ADEAC check; does not replace it.'
-- field: description_long (sand, size, waves, occupancy)
-  claim: Urban beach, about 3,000 x 40 m, much visited.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Source per snapshot: Idealista/MAPAMA, ''Playas de Fuengirola'' (per snapshot sources). URL not recorded in the snapshot. Not rechecked 2026-10-29.'
-- field: description_long (children, facilities, restaurants, experiences)
-  claim: Play area and volleyball courts; 'not much current' (snapshot wording 'ikke meget strøm'). A Facebook reply calls it child-friendly because the water does not get deep quickly. | Many beach bars and shops (not named). | Paddle surf and snorkelling. Craft market (Las Cabañas) on the promenade June-September.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
-- field: description_long (Facebook reply)
-  claim: A Facebook reply calls the beach child-friendly because the water does not get deep quickly.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Single anecdotal reply from the Facebook beach survey. Undated; no child age stated in the snapshot. Not recorded in the repo.'
 - field: description_long (lifeguard service)
   claim: 'Lifeguard service: daily 1 June-30 September 11:00-20:00; weekends and public holidays 11:00-19:00 from the weekend after 30 September until 15 October.'
   source_url: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
@@ -234,14 +211,31 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+- field: google_maps_url, external_ids
+  claim: Google Places lists 'Playa de las Gaviotas' (Playa de las Gaviotas, Málaga, España), place ID ChIJUSgR11Dicg0RpAE9ZRL3dLE, about 5 m from the record coordinates.
+  source_url: https://maps.google.com/?cid=12787116900391649700
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (Places API lookup 2026-11-02)
+  confidence: high
+  notes: Google Places API (New) searchText/searchNearby on 2026-11-02. Maps establishes identity and position only, not facilities or suitability. Google lists Los Boliches and Las Gaviotas as separate places; the record point lies on Playa de las Gaviotas, so that listing is used. Playa de los Boliches is ChIJ7fvaT0Picg0RKVh6jrDvsHM (about 960 m south-west).
+- field: description_long (sand, size, waves, occupancy, services)
+  claim: 'Los Boliches: sand, dark, calm water, 1100 x 40 m, high occupancy, urban; services include toilets, showers, children''s area, sports area. Las Gaviotas: sand, dark, calm water, 1200 x 40 m, high occupancy, urban; same services; promenade with windsurfing and pedalo hire.'
+  source_url: https://www.spain.info/es/playa/boliches/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (official beach data 2026-11-02)
+  confidence: medium
+  notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
+- field: description_long (sand, size, waves, occupancy, services)
+  claim: 'Los Boliches: sand, dark, calm water, 1100 x 40 m, high occupancy, urban; services include toilets, showers, children''s area, sports area. Las Gaviotas: sand, dark, calm water, 1200 x 40 m, high occupancy, urban; same services; promenade with windsurfing and pedalo hire.'
+  source_url: https://www.spain.info/es/playa/gaviotas-fuengirola/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (official beach data 2026-11-02)
+  confidence: medium
+  notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
 review_issues:
-- code: google_maps_url_missing
-  severity: info
-  fields:
-  - google_maps_url
-  description: No Maps link recorded on this draft.
-  retryable: true
-  owner: fact_check
 - code: subjective_assessments_need_human_review
   severity: warning
   fields:
@@ -252,23 +246,6 @@ review_issues:
   description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
   retryable: false
   owner: human_editor
-- code: secondary_sources_unverified
-  severity: warning
-  fields:
-  - description_long
-  - toilets_available
-  - accessibility
-  - evidence
-  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
-  retryable: true
-  owner: fact_check
-- code: source_urls_missing
-  severity: warning
-  fields:
-  - evidence
-  description: The snapshot records source names, not URLs, for beach facts. Add URLs before fact check.
-  retryable: true
-  owner: fact_check
 - code: elderly_bathing_zone_location_disputed
   severity: warning
   fields:
