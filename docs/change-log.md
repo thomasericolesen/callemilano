@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Owner selection for the local extension (no records yet)
+
+Read the owner's 49 answers from the checklist page and recorded them in `docs/local-extension-selection-2026-11-02.md`: yes 38 (9 everyday life, 6 nature, 7 towns and culture, 8 experiences, 8 events), maybe 8 (four museums or sights, the stupa, riding club, sports centre, Spanish lessons), no 3 (library, vet, laundry). No place record, ID or register was changed.
+
 ## 2026-11-02 - Owner decisions on the local extension (no schema change)
 
 All five areas are in scope; everyday life goes on a separate practical-information page and events in a monthly season calendar, so no new category is needed. A private checklist page was published for the owner's selection. Recorded in `docs/owner-decisions-2026-11-02.md` (6-9).
