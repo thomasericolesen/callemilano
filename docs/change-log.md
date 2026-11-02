@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 - Four more bars from owner screenshots (no schema change)
+
+- `draft` -> `needs_fact_check` (2): `la-floja-vinos-y-latas` (own Facebook page confirms address and phone +34 952 31 47 63; hours and prices still unknown), `groove-bar-fuengirola` (renamed to its own name **Groove Music Bar**, ID and slug unchanged, registry name updated; live music Wednesday-Sunday, jam session Wednesdays 21:30, DJ Thursdays 23:00, food such as wings and pizza; new issue `hours_prices_and_entry_unknown`).
+- Stay `draft` with a blocking issue for the owner: `bar-meson-campanales` (own Facebook page inactive since May 2016; `possibly_closed`), `el-rimero` (own page describes a wine shop, on/offline retail, not a bar; no activity since 2020 and elrimero.com gone; `not_a_bar_possibly_closed`). Suggested: archive both.
+- The Café Teatro screenshot was the same as before; no change. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Five more bars from owner screenshots (no schema change)
 
 - `draft` -> `needs_fact_check` (4), from the venues' own Facebook pages (`official_venue`, medium): `bar-burbujas` (late-night sparkling-wine cocktail bar, open Friday and Saturday from 22:00, "since 1986"; issue `closing_time_and_prices_unknown`), `la-terraza-de-panda` (terrace by the church on Plaza de la Constitución, open seven days from 12:00 per a post of 2 Nov 2026), `changueiro-bar-de-vinos` (hours from an undated image: Mon, Thu-Sat 12:00-16:00 and 19:00-23:30, Sun 12:00-16:00, closed Tue-Wed; `hours_conflicting` replaced by `hours_image_undated`), `red-and-white-fuengirola` (wine bar and Mediterranean restaurant; hours and prices unknown).

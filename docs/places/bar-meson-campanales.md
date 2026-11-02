@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/profile.php?id=100054389415710
 related_places: []
 description_short: 'Bar Mesón Campanales: traditional bar (mesón); Google spells it "Campanaies", about 6 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Bar Mesón Campanales is a traditional bar (mesón); Google spells it "Campanaies" at C. Goya, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 6 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_long: Bar Mesón Campanales is a traditional bar (mesón) at C/ Goya 79, 29651 Las Lagunas de Mijas, Málaga (Google spells it 'Campanaies'). From Casa de la Familia it is about 6 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its Facebook page 'Mesón Campanales' gives phone +34 666 51 62 00, but its latest post is from May 2016 and a visitor asked about six years ago whether it would reopen. It may be closed; it is not recommended until that is checked. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
 seo_title: Bar Mesón Campanales, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Bar Mesón Campanales (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: description_long, links
+  claim: 'Facebook page ''Mesón Campanales'': category Bar; C/Goya n79, 29651; phone +34 666 51 62 00; latest visible post 28 May 2016 (bar interior photo) with a comment from about six years ago: ''Will you be opening soon?''.'
+  source_url: https://www.facebook.com/profile.php?id=100054389415710
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review and follower counts not recorded.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,18 +132,17 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: no_official_source_found
-  severity: warning
+- code: possibly_closed
+  severity: blocking
   fields:
-  - visit_information
-  - cost_level
-  - links
-  description: Search on 2026-11-02 found no own website or readable social page. Hours and prices need a direct check.
+  - status
+  - description_long
+  description: 'Own Facebook page inactive since May 2016 and a visitor asked whether it would reopen. Owner decision: archive, or confirm by phone (+34 666 51 62 00) or a visit that it is open.'
   retryable: true
-  owner: fact_check
+  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
