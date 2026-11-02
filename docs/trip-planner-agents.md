@@ -127,7 +127,7 @@ side (som `restaurante-sheriff`), er fortsat fulde stedposter.
 | `hours_note` | Kort note om lukkedage o.l. |
 | `sources` | URL'er adskilt af mellemrum |
 | `checked_at`, `checked_by` | ÅÅÅÅ-MM-DD og agent/person |
-| `status` | `aktiv`/`skal tjekkes`/`lukket`/`konverteret` (er blevet stedpost; slug i `notes`) |
+| `status` | `aktiv`/`skal tjekkes`/`lukket`/`konverteret` (er blevet stedpost; slug i `notes`)/`fravalgt` (ejeren har fravalgt den) |
 | `notes` | Fritekst |
 
 Valideres med `python3 tools/trip.py check-restaurants`.
