@@ -86,7 +86,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Fuengirola (centrum), Fuengirola: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt).'
-description_long: 'Fuengirola (centrum) (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): the town-centre beach, including Santa Amalia: golden sand, calm water, about 1,650 x 30 m, high occupancy, urban, easy to reach on foot; toilets, showers, a children''s area and a sports area are listed. No restaurant on this beach has been verified yet. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, a children''s area, trampolines, assisted bathing, lifeguards and drone surveillance (1 June-15 September) are confirmed for this beach. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Fuengirola (centrum) (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): the town-centre beach, including Santa Amalia: golden sand, calm water, about 1,650 x 30 m, high occupancy, urban, easy to reach on foot; toilets, showers, a children''s area and a sports area are listed. No restaurant on this beach has been verified yet. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, a children''s area, trampolines, assisted bathing, lifeguards and drone surveillance (1 June-15 September) are confirmed for this beach. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. In summer the council sets up a bathing zone for older people at Playa de San Francisco, on the north side of the port towards Los Boliches (a short walk from this record''s point south of the port): a buoy-marked area with handrails and semi-submerged seats (Fuengirola council 2021, Fuengirola TV 2023, Fuengirola Accesible 2025; the 2026 season was not confirmed). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Fuengirola (centrum), Fuengirola | CalleMilano
 seo_description: 'Fuengirola (centrum) beach (Fuengirola): what is confirmed, lifeguard season, facilities and drive time from Casa de la Familia.'
 images: []
@@ -203,6 +203,22 @@ evidence:
   checked_by: Claude (Routes API 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes; destination = record coordinates. Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: description_long (bathing zone for older people)
+  claim: 'Fuengirola council (18 Jun 2021): the adapted bathing platform for older people is installed again at Playa de San Francisco, one of the most central sections and least affected by waves, until 30 September.'
+  source_url: https://www.fuengirola.es/el-ayuntamiento-vuelve-a-instalar-una-plataforma-adaptada-en-la-playa-de-san-francisco-para-facilitar-el-bano-de-los-mayores/
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (beach follow-up 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02.
+- field: description_long (bathing zone for older people)
+  claim: Fuengirola Accesible 2025 describes a 'Zona para mayores' at Playa de San Francisco (buoy-marked space, two handrails, 22 semi-submerged seats); Fuengirola TV (6 Jun 2023) reports the platform installed 'un año más' at Playa de San Francisco.
+  source_url: https://www.fuengirola.es/wp-content/uploads/2025/04/Fuengirola-Accesible-2025.pdf
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (beach follow-up 2026-11-02)
+  confidence: medium
+  notes: Playa de San Francisco lies between the port and Los Boliches (Malaga Hoy, secondary), i.e. north of the port, while this record's point (owner decision 2026-11-02) is south of the port. Whether San Francisco counts as part of this record's beach is for the owner. 2026 installation not confirmed.
 review_issues: []
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
@@ -213,6 +229,6 @@ review_decision:
   decision: approved
   reviewer: Eric Olesen (editor-of-record)
   date: '2026-11-02'
-  notes: Approved by the owner on the beach approval page "CalleMilano strandgodkendelse" (saved 2026-11-02 07:25 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the character label Developed, and the family assessment of 2026-11-02. Practical details stay unknown by owner decision 5. "draft" wording removed from SEO title/description and description_short at approval (wording only, no fact changed).
+  notes: Re-approved by the owner in the session chat on 2026-11-02 after the addition of the summer bathing zone for older people at Playa de San Francisco (north of the port; 2026 installation not confirmed, as stated in the description). Earlier approval the same day on the beach approval page (docs/approval-decisions-2026-11-02.md) otherwise unchanged.
 redirects: []
 ---

@@ -88,7 +88,7 @@ related_places:
   relationship: nearby
   note: 'Place to eat: Restaurante Santa Ana Denis.'
 description_short: 'Santa Ana (Torrebermeja-Santa Ana), Benalmádena: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
-description_long: 'Santa Ana (Torrebermeja-Santa Ana) (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand, moderate waves, about 500 x 15 m, high occupancy, urban; toilets, showers and a children''s area are listed (undated; see the review issue on 2026 services). Places to eat: see the linked record for Restaurante Santa Ana Denis. Rocks: a sand beach with easy access on foot, so it meets the project''s beach rule (owner decision 2026-11-02: only pure rock beaches, or beaches reached by climbing down rocks, are excluded). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Santa Ana (Torrebermeja-Santa Ana) (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand, moderate waves, about 500 x 15 m, high occupancy, urban; toilets, showers and a children''s area are listed (undated). Benalmádena council (21 August 2026) lists loudspeaker points for beach safety announcements at Santa Ana and Torrebermeja, but its 2026 list of lifeguard posts does not name this beach; ask locally where the nearest lifeguard is. Places to eat: see the linked record for Restaurante Santa Ana Denis. Rocks: a sand beach with easy access on foot, so it meets the project''s beach rule (owner decision 2026-11-02: only pure rock beaches, or beaches reached by climbing down rocks, are excluded). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Santa Ana (Torrebermeja-Santa Ana), Benalmádena | CalleMilano draft record
 seo_description: Draft record for Santa Ana (Torrebermeja-Santa Ana) beach (Benalmádena). Facts are being checked against official sources.
 images: []
@@ -181,13 +181,29 @@ evidence:
   checked_by: Claude (rocks rule check 2026-11-02)
   confidence: medium
   notes: 'Checked against the beach rule set by the owner on 2026-11-02 (https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md): rocks on a sand beach do not exclude it. Whether there are any rocks on this beach is not recorded and no longer matters for selection. Replaces review issue rocks_not_verified.'
+- field: description_long
+  claim: 'Diputación de Málaga, ''¿Conoces las 45 playas con banderas azules 2026 de Málaga?'' (6 May 2026): Benalmádena - Carvajal, ''Torre Bermeja - Santa Ana'', Fuente de la Salud.'
+  source_url: https://www.malaga.es/es/laprovincia/8796/com1_md3_cd-45730/conoces-las-45-playas-con-banderas-azules-2026-de-malaga
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (beach follow-up 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02. Confirms the 2026 Blue Flag for the combined Torre Bermeja-Santa Ana section.
+- field: description_long
+  claim: 'Benalmádena council (21 Aug 2026): 30 loudspeaker points across Carvajal, Playa Bonita, Torrevigía, Los Melilleros, Arroyo de la Miel, Bil-Bil, Santa Ana, Las Gaviotas, Malapesquera, Torrebermeja and Fuente de la Salud; 23 SOS points connect to the lifeguard service 11:00-20:00 in summer, otherwise to the Policía Local.'
+  source_url: https://www.benalmadena.es/noticias/N13553/El-Ayuntamiento-refuerza-la-seguridad-de-las-playas-de-Benalmdena-con-30-puntos-de-megafona-y-23-puntos.html
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (beach follow-up 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02. The SOS points are not listed by beach.
 review_issues:
 - code: santa_ana_not_named_in_2026_service
   severity: warning
   fields:
   - description_long
   - accessibility
-  description: Benalmádena's 2026 beach-service announcement does not name Santa Ana / Torrebermeja among its nine lifeguard points or four accessibility points (Malapesquera is named). Confirm with the Delegación de Playas whether lifeguard cover and facilities apply to this beach before describing it as family-oriented with services.
+  description: 'Rechecked 2026-11-02: the 2026 Blue Flag (Diputación de Málaga) and loudspeaker points at Santa Ana and Torrebermeja (Benalmádena, 21 Aug 2026) are confirmed, but no 2026 municipal source names a lifeguard post or accessibility point on this beach (Malapesquera next door is named). Do not describe lifeguard cover here until the Delegación de Playas confirms it.'
   retryable: true
   owner: fact_check
 - code: energy_level_editorial_estimate

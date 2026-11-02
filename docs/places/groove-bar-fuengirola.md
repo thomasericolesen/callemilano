@@ -1,9 +1,9 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-GROOVE-BAR-FUENGIROLA-001
 slug: groove-bar-fuengirola
-name: Groove Bar
+name: Groove Music Bar
 category: Restaurants
 tags: []
 coordinates:
@@ -71,16 +71,16 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: https://www.facebook.com/profile.php
+  official_website: https://www.facebook.com/groovemusicbar
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/groovemusicbar
 related_places: []
-description_short: 'Groove Bar: bar at the Fuengirola marina, about 16 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Groove Bar is a bar at the Fuengirola marina at Puerto Deportivo Fuengirola Plaza Peatonal, Local 42, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 16 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
-seo_title: Groove Bar, Fuengirola | CalleMilano draft record
-seo_description: 'Draft record for Groove Bar (Fuengirola): location and drive time from Casa de la Familia.'
+description_short: 'Groove Music Bar: live-music bar at the Fuengirola marina, about 16 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Groove Music Bar (Groove Music Bar Fuengirola; Google lists it as Groove Bar) is a bar at the Fuengirola marina at Puerto Deportivo Fuengirola, Plaza Peatonal, Local 42, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 16 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02): a ''bar de copas'' with live music from Wednesday to Sunday; a jam session every Wednesday at 21:30, a DJ on Thursdays at 23:00, and concerts in the evening and on Sunday afternoons (for example 18:00 on Sunday 1 November). It also serves food such as chicken wings, mozzarella sticks and pizza. Opening hours, prices and any entry fees were not given. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
+seo_title: Groove Music Bar, Fuengirola | CalleMilano draft record
+seo_description: 'Draft record for Groove Music Bar (Fuengirola): location and drive time from Casa de la Familia.'
 images: []
 evidence:
 - field: name, coordinates, google_maps_url, external_ids, municipality
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: name, description_long, links
+  claim: 'Own Facebook page ''Groove Music Bar Fuengirola'' (facebook.com/groovemusicbar): ''Bar de copas - Puerto Deportivo de Fuengirola, Málaga. Música en vivo de miércoles a domingo.''; address puerto deportivo de fuengirola 42; featured posts 2 March (''¿Sabías que en Groove Bar también puedes disfrutar de nuestra propuesta gastronómica?'', photos of wings, mozzarella sticks, pizza) and 20 January (''Jam Session en vivo - Todos los miércoles a las 21:30 h''); event posters: Every Thurs DJ Lone Ranger 11:00 PM, Sat 31 Valhalla on Fire 11:00 PM, Sun 01 Nuria Lima 6:00 PM; post 31 Oct ''Domingo de música en vivo''.'
+  source_url: https://www.facebook.com/groovemusicbar
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review and follower counts not recorded. The page lists a business Gmail address; not needed.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,17 +132,17 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: social_page_not_read
+- code: hours_prices_and_entry_unknown
   severity: warning
   fields:
   - visit_information
   - cost_level
-  description: Google links to the bar's own Instagram or Facebook page, which cannot be read without login (checked 2026-11-02). Hours and prices need checking.
+  description: Own page gives music days (Wednesday-Sunday) and event times but no regular opening hours, drink or food prices, or entry fees for concerts.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

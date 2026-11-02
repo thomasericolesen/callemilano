@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-JAY-JANGLES-001
 slug: jay-jangles
 name: Jay Jangles
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Jay Jangles: play centre in La Cala Hills, about 8 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Jay Jangles is a play centre in La Cala Hills at La Cala Hills, C. Tomillo de la Torre, Local 3, 29650 Costa, Málaga. From Casa de la Familia it is about 8 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Jay Jangles: children''s centre in La Cala Hills, about 8 min by car from Casa de la Familia. Draft; sources describe it as a nursery, not a visitor activity.'
+description_long: Jay Jangles is listed by Google at La Cala Hills, C. Tomillo de la Torre, Local 3, 29650 Costa, Málaga, about 8 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). The only sources found (a 2015 newspaper article and a directory) describe it as a bilingual nursery, Jay Jangles Children's Centre, for enrolled children aged 1-6, not as a play centre open to visitors. It is not recommended until the owner has decided whether it belongs in the guide.
 seo_title: Jay Jangles, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Jay Jangles (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: description_long, category
+  claim: 'Olive Press (22 Nov 2015): ''Pauline Wilson''s bilingual Jay Jangles Children''s Centre opened in October in La Cala Hills, with its number of enrolled children growing rapidly. The centre helps youngsters aged 1-6 years old by implementing the Early Years British curriculum.'''
+  source_url: https://www.theolivepress.es/spain-news/2015/11/22/jay-jangles-all-the-way/
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Search results also show a 2015 Facebook post calling it 'a new nursery in La Cala Hills' and a directory listing it under nurseries. No own website or social page found; current operation and any drop-in play offer are unverified.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -129,11 +124,23 @@ review_issues:
   description: Google lists no website; facts may have to come from a social page or a direct contact.
   retryable: true
   owner: fact_check
+- code: not_a_visitor_activity
+  severity: blocking
+  fields:
+  - category
+  - description_long
+  description: 'Sources describe Jay Jangles as a nursery for enrolled children aged 1-6, not a play centre for visiting families. Owner decision needed: archive, or confirm a drop-in play offer from the venue.'
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: 'Owner decision 2026-11-02: remove Jay Jangles from the guide (sources describe a nursery for enrolled children aged 1-6, not a visitor activity). Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

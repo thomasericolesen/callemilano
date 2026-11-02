@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-PARQUE-EL-ESPARRAGAL-001
 slug: parque-el-esparragal
 name: Parque El Esparragal
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Parque El Esparragal: public park in Urbanización Mijas Golf, about 7 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Parque El Esparragal is a public park in Urbanización Mijas Golf at Urb. Mijas Golf, 4, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 7 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Parque El Esparragal: public park with a fenced play area and barbecues in Urbanización Mijas Golf, about 7 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Parque El Esparragal is a public park in Urbanización Mijas Golf at Urb. Mijas Golf, 4, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 7 minutes by car (Google route check, Saturday 10:00). According to Mijas town council (September 2021), the park is a natural space near the river with many trees, barbecue areas and benches, and a fenced children's play area with swings, a wooden play structure and a 20-metre zip line that children and adults can use (up to 137 kg). In 2021 barbecues were allowed again from 15 October; the current barbecue season, toilets and parking were not checked. The sources are from 2021, so equipment may have changed. Check with the venue before visiting.
 seo_title: Parque El Esparragal, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Parque El Esparragal (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,23 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: description_long
+  claim: 'Mijas town council (28 Sep 2021): new play area in Parque El Esparragal with swings, wooden multi-play and a 20 m zip line; barbecues and benches renewed and the park extended to the south.'
+  source_url: https://www.mijas.es/portal/el-parque-el-esparragal-estrena-tirolina-de-20-metros/
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Dated 2021.
+- field: description_long
+  claim: 'Mijas Comunicación (municipal media, 28 Sep 2021): the play area is fenced, has two swings and a multi-play unit and a 20 m zip line usable by children and adults (supports up to 137 kg); natural setting near the river with many trees; barbecues allowed again from 15 October.'
+  source_url: https://mijascomunicacion.com/actualidad/22020/abre-al-publico-la-nueva-zona-de-recreo-infantil-del-parque-el-esparragal/
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Mijas Comunicación is the council's media company; dated 2021. The 15 October date was the 2021 rule, not necessarily the current one.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -129,9 +132,19 @@ review_issues:
   description: Google lists no website; facts may have to come from a social page or a direct contact.
   retryable: true
   owner: fact_check
+- code: sources_dated_2021
+  severity: warning
+  fields:
+  - description_long
+  - seasonality
+  - toilets_available
+  - parking
+  description: Facilities come from 2021 council sources. Current state of the play area, barbecue season rules, toilets and parking are unverified (a Facebook post mentions a public toilet; not recorded). Needs a current council page or a visit.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

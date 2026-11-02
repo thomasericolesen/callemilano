@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-COSMOZONE-LASERTAG-001
 slug: cosmozone-lasertag
 name: Cosmozone Lasertag
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Cosmozone Lasertag: laser tag venue, about 8 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Cosmozone Lasertag is a laser tag venue at Av. de Andalucía, 15, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 8 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Cosmozone Lasertag: laser tag venue in Las Lagunas, about 8 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Cosmozone Lasertag is a laser tag venue at Av. de Andalucía, 15, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 8 minutes by car (Google route check, Saturday 10:00). The venue''s terms (checked 2026-11-02): children under 6 cannot take part; players from 15 count as adults, and players under 15 must have at least one adult in their team. Games are booked online; arrive 15 minutes early for instructions, and cancellations are possible up to 48 hours before. Opening hours, prices and game length were not readable. Check with the venue before visiting.'
 seo_title: Cosmozone Lasertag, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Cosmozone Lasertag (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: description_long, age_groups, booking_required
+  claim: 'Terms and conditions: ''Los niños menores de 6 años no pueden asistir en las actividades. A partir de los 15 años se consideran adultos. Los menores de 15 años deben participar acompañados por al menos un adulto''; arrive 15 min before the booked time; cancellation up to 48 h before via the booking link; changes up to 24 h before. Address Av. de Andalucía 15, Las Lagunas de Mijas; operator COSMOPORT S.L.'
+  source_url: https://cosmozone.es/terminos-y-condiciones/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02 (page modified 2025-10-28). The homepage only renders the Funbutler booking widget; hours and prices are inside it.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -122,18 +117,17 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
-- code: details_not_readable
+- code: hours_and_prices_not_readable
   severity: warning
   fields:
   - visit_information
   - cost_level
-  - age_groups
-  description: 'Checked 2026-11-02: The website (cosmozone.es) calls itself "the most technologically advanced laser tag in Spain", but hours, prices and minimum age were not readable. Needs another source or a direct check.'
+  description: 'Rechecked 2026-11-02: hours, prices and game length are only inside the booking widget, which was not readable. Needs an owner screenshot of the booking page or a call (+34 604 40 38 61).'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-BAR-BURBUJAS-001
 slug: bar-burbujas
 name: Bar Burbujas
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/profile.php?id=100067983669351
 related_places: []
-description_short: 'Bar Burbujas: cocktail bar, about 16 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Bar Burbujas is a cocktail bar at Calle del Capitán, 12, Edif Villablanca, Local 3, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 16 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'Bar Burbujas: late-night cocktail bar specialising in sparkling-wine cocktails in central Fuengirola, about 16 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Bar Burbujas is a cocktail bar at Calle del Capitán, 12, Edif Villablanca, Local 3, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 16 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02): a ''bar de copas'' specialising in sparkling-wine cocktails, open every Friday and Saturday from 22:00, ''a different place since 1986''; price range listed as moderate; phone +34 684 09 12 66. It is a late-night bar; holiday opening (for example Easter week) is announced separately. Drink prices were not checked. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
 seo_title: Bar Burbujas, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Bar Burbujas (Fuengirola): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: description_long, visit_information, links
+  claim: 'Own Facebook page ''Bar Burbujas'': ''Bar de copas especializado en cócteles de espumoso. Abrimos todos los viernes y sábados desde las 22:00. ¡Un sitio diferente desde 1986!''; Cocktailbar, price range ''Moderat''; c/ capitán nº 12, Fuengirola 29640; Instagram barburbujas; phone +34 684 09 12 66; image ''Horario Semana Santa - miércoles a sábado 20:00-04:00''; latest visible post 24 September.'
+  source_url: https://www.facebook.com/profile.php?id=100067983669351
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review counts, follower counts and personal e-mail addresses not recorded. Prices seen on a New Year's Eve poster (shots €3.50, cocktails €7) apply to that night only and are not recorded.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,17 +132,17 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: social_page_not_read
+- code: closing_time_and_prices_unknown
   severity: warning
   fields:
   - visit_information
   - cost_level
-  description: Google links to the bar's own Instagram or Facebook page, which cannot be read without login (checked 2026-11-02). Hours and prices need checking.
+  description: Own page gives opening days and time (Fri-Sat from 22:00) but no closing time or regular drink prices; a Semana Santa poster shows 20:00-04:00. Confirm before publication.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

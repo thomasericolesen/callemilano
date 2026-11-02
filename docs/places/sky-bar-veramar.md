@@ -78,7 +78,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Sky Bar Veramar: rooftop bar at Hotel Veramar, about 11 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Sky Bar Veramar is a rooftop bar at Hotel Veramar at C. Málaga, 3, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 11 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_long: 'Sky Bar Veramar is a rooftop bar on the roof of the Veramar Aparthotel at C. Málaga, 3, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 11 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). It appears to be a seasonal bar: a schedule image uploaded to Google Maps by a visitor in August 2025 gives summer hours (13 July-15 September) Tuesday-Thursday 19:00-00:00 and Friday-Sunday 19:00-02:00, and outside summer (17 April-12 July and 16 September-31 October) Friday-Sunday 19:00-02:00, weather permitting. That suggests it is closed from November to mid-April, but the 2026 season has not been confirmed from the venue itself; prices were not checked. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
 seo_title: Sky Bar Veramar, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Sky Bar Veramar (Fuengirola): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: description_long, seasonality, visit_information
+  claim: 'Image ''Skybar Veramar al detalle'' uploaded to Google Maps by a user (''Salma'', Aug 2025): Horario Verano 13 Jul-15 Sep: Tue-Thu 19-00h, Fri-Sun 19-02h; Horario Invierno 17 Apr-12 Jul and 16 Sep-31 Oct: Fri-Sun 19-02h; ''En el rooftop de Veramar Aparthotel, a 5 minutos de la playa y el centro de Fuengirola''; ''Estos horarios podrán variar en función de las condiciones climatológicas''.'
+  source_url: https://maps.google.com/?cid=11890654602516415065
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: low
+  notes: Owner screenshot (supplied 2026-11-02) of a user-uploaded photo on Google Maps; the image looks like the venue's own schedule card but was not published by the venue in a source we can read. Valid for 2025; not confirmed for 2026.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -142,9 +140,18 @@ review_issues:
   description: The website Google lists (hotelveramar.com/skybar-fuengirola) redirects to a 404 page on 2026-11-02. Find the hotel's current site before relying on the listing.
   retryable: true
   owner: fact_check
+- code: season_from_user_photo
+  severity: warning
+  fields:
+  - seasonality
+  - visit_information
+  - cost_level
+  description: Season and hours come only from a 2025 schedule image uploaded by a Google Maps user; the hotel's Skybar page is gone (404). Confirm the 2026 season and prices from the hotel or the bar before it can move on. Per that schedule the bar would be closed from November to mid-April.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

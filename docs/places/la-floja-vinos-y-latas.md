@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-LA-FLOJA-VINOS-Y-LATAS-001
 slug: la-floja-vinos-y-latas
 name: La Floja Vinos y Latas
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/profile.php?id=61573010333025
 related_places: []
-description_short: 'La Floja Vinos y Latas: wine bar, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: La Floja Vinos y Latas is a wine bar at C. Larga, 18, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'La Floja Vinos y Latas: small wine bar in central Fuengirola, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: La Floja Vinos y Latas is a wine bar at C. Larga, 18, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own website and Facebook page (checked 2026-11-02) confirm the address and give phone +34 952 31 47 63; a post from April shows cured meats with the line 'Lo sencillo y de calidad nunca falla' (simple, quality food never fails). Opening hours, the menu and prices were not given. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
 seo_title: La Floja Vinos y Latas, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for La Floja Vinos y Latas (Fuengirola): location and drive time from Casa de la Familia.'
 images: []
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bars fact check 2026-11-02)
   confidence: medium
   notes: Read via Firecrawl on 2026-11-02; only the address was readable.
+- field: description_long, links
+  claim: 'Own Facebook page ''La Floja Vinos y Latas'': category Bar; Calle Larga, 18, 29640 Fuengirola; phone +34 952 31 47 63; post 16 April: ''Lo sencillo y de calidad nunca falla'' with a photo of sliced cured meats.'
+  source_url: https://www.facebook.com/profile.php?id=61573010333025
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review and follower counts not recorded. The page is small (few posts); the year of the April post is not shown.
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -137,12 +145,12 @@ review_issues:
   fields:
   - visit_information
   - cost_level
-  description: Own website confirms the address only; hours and prices need checking.
+  description: Own website and Facebook page confirm address and phone only (checked 2026-11-02); hours, menu and prices need a call (+34 952 31 47 63) or a visit.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

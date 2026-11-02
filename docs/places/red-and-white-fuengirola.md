@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-RED-AND-WHITE-FUENGIROLA-001
 slug: red-and-white-fuengirola
 name: Red & White
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/profile.php?id=61569418832240
 related_places: []
-description_short: 'Red & White: wine bar, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Red & White is a wine bar at Av. Ramón y Cajal, 23, Loc 6, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'Red & White: wine bar and Mediterranean restaurant in Fuengirola, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Red & White (Red&White Vinoteca) is a wine bar and restaurant at Av. Ramón y Cajal, 23, Loc 6, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02): ''Restaurante, Vinoteca Red&White. Comida mediterránea, Vinos'' - Mediterranean food and wines, with a wine board of Spanish and other wines by region; phone +34 951 80 37 45, Instagram @redwhite393. It has held events such as a Valentine''s menu with live saxophone. Opening hours and regular prices were not given. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
 seo_title: Red & White, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Red & White (Fuengirola): location and drive time from Casa de la Familia.'
 images: []
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bars fact check 2026-11-02)
   confidence: low
   notes: Search excerpts read 2026-11-02; the description comes from a third-party post.
+- field: description_long, links
+  claim: 'Own Facebook page ''Red&White'': ''Restaurante, Vinoteca Red&White. Comida mediterránea, Vinos''; category Vin/spiritus; address Avd Ramón y Caja[l] 23 local 6, Fuengirola 29640; Instagram @redwhite393; phone +34 951 80 37 45; post 16 May (wine board image); images ''Menú San Valentín ... Precio 45€ ... actuación de saxofón en directo'' and ''Estamos de vuelta''.'
+  source_url: https://www.facebook.com/profile.php?id=61569418832240
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review counts, follower counts and personal e-mail addresses not recorded. The Valentine's menu price is a one-off event price and not recorded as a cost level.
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -132,17 +140,17 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: social_page_not_read
+- code: hours_and_prices_unknown
   severity: warning
   fields:
   - visit_information
   - cost_level
-  description: Own Facebook page found but not read; hours and prices need checking.
+  description: Own page gives no opening hours or regular prices; the 'Estamos de vuelta' image suggests a break at some point. Confirm before publication.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

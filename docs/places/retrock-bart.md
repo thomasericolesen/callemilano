@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-RETROCK-BART-001
 slug: retrock-bart
 name: RetROCK BARt
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/EnidRojo
 related_places: []
-description_short: 'RetROCK BARt: rock bar, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: RetROCK BARt is a rock bar at P.º Costa del Sol, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'RetROCK BARt: rock bar in La Cala de Mijas, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: RetROCK BARt is a rock bar at Paseo Costa del Sol 10, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02) lists it as a bar in the 'cheap' price range, and one of its images says dogs are welcome if well-behaved and on a lead. The latest visible post is from 9 December 2025 (closed 10-25 December 2025, reopening 26 December at 18:00), so current opening is not confirmed; regular hours were not given. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
 seo_title: RetROCK BARt, Mijas | CalleMilano draft record
 seo_description: 'Draft record for RetROCK BARt (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: description_long, links
+  claim: 'Own Facebook page ''Retrock BARt'': Bar, price range ''Billig'' (cheap); address Paseo Costa del Sol 10, Mijas 29649; post 9 Dec 2025: ''CLOSED FROM 10/12 TO 25/12 ... Volvemos el 26/12 a las 18 h''; image text ''Dogs are welcomed if they''re educated and go on a leash''.'
+  source_url: https://www.facebook.com/EnidRojo
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review ratings and follower counts not recorded. The page lists a personal-looking e-mail address; not recorded.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,18 +132,17 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: no_official_source_found
+- code: activity_unverified
   severity: warning
   fields:
   - visit_information
   - cost_level
-  - links
-  description: Search on 2026-11-02 found no own website or readable social page. Hours and prices need a direct check.
+  description: The latest visible own post is from December 2025; whether the bar is open in 2026, and its hours and prices, need a newer post, a visit or a message to the page.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

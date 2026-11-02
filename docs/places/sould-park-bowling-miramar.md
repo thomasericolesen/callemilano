@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-SOULD-PARK-BOWLING-MIRAMAR-001
 slug: sould-park-bowling-miramar
 name: Sould Park Bowling Miramar
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Sould Park Bowling Miramar: bowling alley and arcade at the Miramar shopping centre, about 9 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Sould Park Bowling Miramar is a bowling alley and arcade at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Sould Park Bowling Miramar: bowling alley and arcade at the Miramar shopping centre, about 9 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Sould Park Bowling Miramar is a bowling alley and arcade at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). The shopping centre opened it in June 2026 on La Terraza, next to the food court: over 1,000 m² with four bowling lanes, more than 50 arcade machines, pool tables, table football, a large LED screen for sport, a rest area, vending machines and birthday parties. The operator lists bowling, arcade and vending (no bar) for this venue. A game takes roughly 10 minutes per player; bowling shoes are lent free and must be worn with socks. Prices are shown when booking online; without a booking, lanes are given on a first-come basis. The operator''s Tuesday discount does not apply here. Opening hours were not checked. Check with the venue before visiting.'
 seo_title: Sould Park Bowling Miramar, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Sould Park Bowling Miramar (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -100,20 +100,23 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: description_long
+  claim: 'CC Miramar (15 Jun 2026): new Sould Park bowling on La Terraza, over 1,000 m², 4 professional lanes, more than 50 arcade machines, pool tables, table football, large LED screen, rest area, vending machines, birthdays and events; next to the food court.'
+  source_url: https://www.miramarcc.com/miramar-estrena-una-nueva-bolera-con-pistas-profesionales-y-zona-arcade-en-la-terraza/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Shopping centre's own news page, read via Firecrawl on 2026-11-02.
+- field: description_long, cost_level, booking_required
+  claim: 'Operator bowling page: Fuengirola CC Miramar offers bowling, vending and game/arcade; price per game varies by venue and date and is shown in online booking (reduced Mon-Thu, standard Fri-Sun and holidays); about 10 min per player per game; shoes lent free, worn with socks; slots not bookable online are first-come; ''Martes Locos'' not available at Miramar Fuengirola.'
+  source_url: https://www.souldpark.com/bowling/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Chain-wide page; hours listed on it are not tied to a named venue and were not used.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,18 +126,17 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
-- code: details_not_readable
+- code: hours_and_prices_unverified
   severity: warning
   fields:
   - visit_information
   - cost_level
-  - age_groups
-  description: 'Checked 2026-11-02: The chain website (souldpark.com) gives no readable details for the Miramar bowling. Needs another source or a direct check.'
+  description: Opening hours and the per-game price for Miramar are not on a readable own page (an Instagram excerpt mentions €5.50 Mon-Thu and €7 at weekends; not recorded). Check the booking page or the venue.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

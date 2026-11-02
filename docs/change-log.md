@@ -1,5 +1,80 @@
 # Change log
 
+## 2026-11-02 - Fuengirola (centrum) re-approved (owner decision)
+
+`fuengirola-centro`: `needs_fact_check` -> `approved` by the owner after the older-people zone was added; `reopened_for_addition` closed; new `review_decision` recorded. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Older-people zone stays in Fuengirola (centrum) (owner decision)
+
+The owner decided to keep the Playa de San Francisco bathing zone for older people in `fuengirola-centro` despite San Francisco lying north of the port. Issue `reopened_for_addition` updated; the record stays `needs_fact_check` until the owner re-approves it. Validation: 0 errors.
+
+## 2026-11-02 - Owner decisions on beaches (no schema change)
+
+- `fuente-de-la-salud`: owner approved the family assessment (all four audiences `medium`; Children, Young adults, Seniors); `subjective_assessments_need_human_review` closed.
+- `cabopino-artola`: `toilets_available: yes` from the owner's own local knowledge; `toilets_listed_but_unverified` closed.
+- `fuengirola-centro`: summer bathing zone for older people at Playa de San Francisco added with municipal sources; status `approved` -> `needs_fact_check` (material addition), previous `review_decision` cleared and noted on new issue `reopened_for_addition`; needs the owner's re-approval. Correction the same day: Playa de San Francisco lies north of the port (towards Los Boliches) while the record's point is south of it; wording changed to say so, and the owner is asked to confirm the zone belongs in this record.
+- Decisions recorded in `docs/owner-decisions-2026-11-02.md` and `docs/family-assessment-decisions-2026-11-02.md`. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Beach follow-ups (handoff point 5, no schema change)
+
+- `boliches-gaviotas`: bathing zone for older people resolved - it is at Playa de San Francisco by the port (Fuengirola council 2021, Fuengirola TV 2023, Fuengirola Accesible 2025), not on this beach. Description corrected; `elderly_bathing_zone_location_disputed` closed. The approved `fuengirola-centro` record was not edited; adding the zone there needs the owner (a material change re-opens fact check).
+- `santa-ana-benalmadena`: Blue Flag 2026 confirmed by Diputación de Málaga; Benalmádena (21 Aug 2026) lists loudspeaker points at Santa Ana and Torrebermeja. No 2026 source names a lifeguard post on this beach; issue kept and updated.
+- `cabopino-artola`: Diputación de Málaga's beach sheet lists no toilets (spain.info does); `toilets_available` stays unknown.
+- `chiringuito-rafael`: identity corroborated by independent listings; `weak_identity_source` lowered to info; season and hours still open.
+- `chiringuito-las-dunas-cabopino`: no new source on winter opening. `fuente-de-la-salud`: family assessment awaits the owner (the earlier blocker, rocks, was settled by the 2026-11-02 rule).
+- Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Three bars archived; MOGA has no own page (owner decisions)
+
+Owner decision: `bar-meson-campanales` (inactive since 2016), `el-rimero` (wine shop, inactive since 2020) and `terraza-chill-out-bar` (inactive since 2021) are removed from the guide. Status -> `archived` with a `review_decision` from the editor-of-record; records and IDs stay (IDs must not be reused). `moga-la-cala`: the owner could not find an own page either; it stays `draft` with the issue updated. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Last three bars from owner screenshots (no schema change)
+
+- `draft` -> `needs_fact_check` (2): `la-senda-del-norte` (café-bar with a covered street terrace; no hours or prices on its page), `mon-2-sun` ("the friendly family/community bar" at La Hacienda, Mijas Golf; outdoor seating, price range "cheap"; latest post December 2024 and mon2sun.es gone, issue `activity_unverified`).
+- `terraza-chill-out-bar` stays `draft` with blocking `possibly_closed`: own page inactive since June 2021 and its phone number is a placeholder. Suggested: archive.
+- Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Four more bars from owner screenshots (no schema change)
+
+- `draft` -> `needs_fact_check` (2): `la-floja-vinos-y-latas` (own Facebook page confirms address and phone +34 952 31 47 63; hours and prices still unknown), `groove-bar-fuengirola` (renamed to its own name **Groove Music Bar**, ID and slug unchanged, registry name updated; live music Wednesday-Sunday, jam session Wednesdays 21:30, DJ Thursdays 23:00, food such as wings and pizza; new issue `hours_prices_and_entry_unknown`).
+- Stay `draft` with a blocking issue for the owner: `bar-meson-campanales` (own Facebook page inactive since May 2016; `possibly_closed`), `el-rimero` (own page describes a wine shop, on/offline retail, not a bar; no activity since 2020 and elrimero.com gone; `not_a_bar_possibly_closed`). Suggested: archive both.
+- The Café Teatro screenshot was the same as before; no change. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Five more bars from owner screenshots (no schema change)
+
+- `draft` -> `needs_fact_check` (4), from the venues' own Facebook pages (`official_venue`, medium): `bar-burbujas` (late-night sparkling-wine cocktail bar, open Friday and Saturday from 22:00, "since 1986"; issue `closing_time_and_prices_unknown`), `la-terraza-de-panda` (terrace by the church on Plaza de la Constitución, open seven days from 12:00 per a post of 2 Nov 2026), `changueiro-bar-de-vinos` (hours from an undated image: Mon, Thu-Sat 12:00-16:00 and 19:00-23:30, Sun 12:00-16:00, closed Tue-Wed; `hours_conflicting` replaced by `hours_image_undated`), `red-and-white-fuengirola` (wine bar and Mediterranean restaurant; hours and prices unknown).
+- `sky-bar-veramar` stays `draft`: season and hours come only from a 2025 schedule image uploaded by a Google Maps user (`secondary`, low); per that schedule the bar is open mid-April to 31 October and closed in winter. New issue `season_from_user_photo`.
+- One-off event prices (New Year's Eve, Valentine's menu) and personal e-mail addresses not recorded. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Five bars checked from owner screenshots (no schema change)
+
+The owner supplied screenshots of Facebook pages. Facts taken from the venues' own pages (`official_venue`, medium confidence); review ratings, follower counts and personal e-mail addresses were not recorded. All three websites linked from the pages are gone (noninafuengirola.com and gruponautic.es do not resolve; cafeteatrofuengirola.com is a parked domain).
+
+- `draft` -> `needs_fact_check` (4): `nonina-fuengirola` (flamenco bar at the port; posts tie it to the Feria de Fuengirola 2026, new issue `possibly_seasonal_venue`), `retrock-bart` (rock bar, Paseo Costa del Sol 10, price range "cheap", dogs on a lead welcome; latest post December 2025, new issue `activity_unverified`), `nautic-bar-fuengirola` (renamed to its own name **Nautic Cocktail & Drinks**, ID and slug unchanged, registry name updated; gin and premium-spirits bar; latest post August 2023, `activity_unverified`), `cafe-teatro-ocean-drive` (lounge terrace with live music and cocktails, current event posters; house number 4 on own page vs 5 on Google, new issue `hours_prices_and_entry_unknown`).
+- `moga-la-cala` stays `draft`: only a third-party reel (new opening, 19 July, year not shown) recorded as `secondary`, low confidence.
+- Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Jay Jangles archived (owner decision)
+
+Owner decision: `jay-jangles` is removed from the guide; sources describe a nursery for enrolled children aged 1-6, not a visitor activity. Status `draft` -> `archived` with a `review_decision` from the editor-of-record; the record and its ID stay (ID must not be reused). The blocking issue `not_a_visitor_activity` is kept as the reason. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Equestrian Centre archived (owner decision)
+
+Owner decision: `equestrian-centre-chaparral` is a riding school, not a drop-in attraction, and is removed from the guide. Status `draft` -> `archived` with a `review_decision` from the editor-of-record; the record and its ID stay (ID must not be reused). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Mixs Longe identified from the owner's screenshot (no schema change)
+
+The owner supplied a screenshot of a Google search showing the venue's own Facebook page (`facebook.com/p/Mixs-Longe-61550506887933/`) and its Google listing. `mixs-lounge`: name corrected to the venue's own spelling **Mixs Longe** (ID and slug unchanged; registry name updated); own page describes a new Scandinavian and Italian restaurant in Cerros del Águila at Calle Buitre 45; Google lists it as Indian with phone +34 632 13 47 36, and Uber Eats has "Mixs Curry & Pizza" on the same street, so cuisine is left as an open issue. Google hours, the user-reported price range and Google's AI overview were not recorded. Closed `name_unconfirmed`, `no_official_website` and `facts_not_checked`; new `cuisine_and_hours_unverified`. Status `draft` -> `needs_fact_check`. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Nearby fact check, batch 4: remaining activities (no schema change)
+
+Checked against the venues' own, operator, council or shopping-centre sources on 2026-11-02.
+
+- `draft` -> `needs_fact_check` (7): `mk2-cinesur-miramar` (price list incl. under-12 and over-65 rates, free parking, 3D, bar, bus lines 1/4/5; accessibility not stated), `multicines-alfil-fuengirola` (programme incl. children's films and opera/ballet broadcasts; no prices or facilities on the website), `zero-latency-miramar` (standard hours, arena over 200 m², up to eight players, 15-30 min games; new warning `minimum_age_conflict`: Málaga page says no fixed minimum age with a minimum height, chain FAQ says 13+), `bolera-mijas-dubai-boll` (bowling, bar, karaoke and sport screens from the chain's Mijas page; other games may be copied from the Jaén venue; hours only from conflicting third-party sources, not recorded), `parque-el-esparragal` (fenced play area with 20 m zip line, swings and barbecues from Mijas council sources dated 2021; issue `sources_dated_2021`), `cosmozone-lasertag` (terms: no under-6s, under-15s need an adult in their team, 48 h cancellation; hours and prices still inside an unreadable booking widget), `sould-park-bowling-miramar` (opened June 2026 per CC Miramar: four lanes, 50+ arcade machines, pool, table football; operator: no bar at this venue, shoes free, prices shown when booking).
+- Still `draft`: `jay-jangles` - sources (Olive Press 2015, directory) describe a nursery for enrolled children aged 1-6, not a visitor play centre; new blocking issue `not_a_visitor_activity` for the owner (archive or confirm a drop-in offer). `sould-park-fuengirola` - the operator only lists Fuengirola with a map link; `details_not_readable` updated.
+- Search excerpts with prices (Instagram, Facebook) were noted on review issues but not recorded as facts.
+- Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Bars fact check; Bamboleo merged into La Zambra (owner decisions, no schema change)
 
 - Owner decision: Bamboleo is described under La Zambra Resort; `bamboleo-la-zambra` archived (ID kept), La Zambra description and evidence updated. The owner does not know Mixs Lounge or Equestrian Centre either; noted on their issues.

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-MK2-CINESUR-MIRAMAR-001
 slug: mk2-cinesur-miramar
 name: mk2 Cinesur Miramar
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'mk2 Cinesur Miramar: cinema at the Miramar shopping centre, about 10 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: mk2 Cinesur Miramar is a cinema at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 10 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'mk2 Cinesur Miramar: cinema at the Miramar shopping centre, about 10 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'mk2 Cinesur Miramar is a cinema at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 10 minutes by car (Google route check, Saturday 10:00). The cinema''s own page (checked 2026-11-02) lists free parking, 3D, 5.1/6.1 sound and a bar, and Fuengirola urban bus lines 1, 4 and 5. Ticket prices on the page: normal €9.50; under-12s €7.50 Monday-Friday and €8.20 at weekends and on public holidays; over-65s €7.50 Monday-Thursday (with ID); Wednesday €6.40 (not on public holidays); morning sessions €7.50. The box office and bar open 15 minutes before the first session. The page has a section for original-version films with Spanish subtitles (VOSE); which films run in which language varies by week. Age ratings are given per film. Check with the venue before visiting.'
 seo_title: mk2 Cinesur Miramar, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for mk2 Cinesur Miramar (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -100,20 +100,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: description_long, visit_information, transport_options, parking
+  claim: 'Cinema page: Avda. de la Encarnación s/n, Fuengirola; urban bus 1, 4 and 5; prices Matinal €7.50, Miércoles €6.40 (not public holidays), Normal €9.50, students €7.50/€8.20, over-65 Mon-Thu €7.50 (DNI), under-12 Mon-Fri €7.50 and weekends/holidays €8.20 (mk2 card €5-6); free parking; 5.1 and 6.1 sound; 3D; bar; box office and bar open 15 min before the first session and close 5 min after the last; VOSE section.'
+  source_url: https://www.mk2cines.es/es/miramar-fuengirola
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Cinema page read via Firecrawl on 2026-11-02. Prices are volatile; recheck before publication. Accessibility is not described on the page.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +118,17 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: accessibility_and_hours_unverified
+  severity: warning
+  fields:
+  - accessibility
+  - visit_information
+  description: The cinema page gives no accessibility information and no fixed opening hours (they follow the session times). Needs the venue or the shopping centre as a source.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

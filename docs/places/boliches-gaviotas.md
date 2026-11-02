@@ -89,7 +89,7 @@ related_places:
   relationship: nearby
   note: 'Place to eat: La Mar Salá.'
 description_short: 'Boliches-Gaviotas, Fuengirola: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
-description_long: 'Boliches-Gaviotas (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): Los Boliches is about 1,100 x 40 m and Las Gaviotas about 1,200 x 40 m; both are dark sand with calm water, high occupancy and urban, and both list a children''s area, a sports area, toilets and showers. Las Gaviotas has the Paseo Rey de España promenade, with windsurfing and pedalo hire. Places to eat: see the linked record for La Mar Salá. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources: lifeguard service daily 1 June-30 September 11:00-20:00, and on weekends and public holidays 11:00-19:00 from the weekend after 30 September until 15 October (Carta de Servicios 2026, edition 2026-05-12; the stated autumn cover ends 15 October); an adapted bathing platform at pergola 41 (Fuengirola Accesible 2025, edition 2025-03-03) with a bathing device for blind users (Carta de Servicios 2026); and one plot of ''camas elásticas'' (bouncy beds/trampolines) (Carta de Servicios 2026). A bathing zone for older people (marked area, handrails, 22 semi-submerged seats) is described by the municipality, but its beach is disputed: Los Boliches per the Concejalía de Playas page, Playa de San Francisco per Fuengirola Accesible 2025 [partial; unresolved]. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Boliches-Gaviotas (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): Los Boliches is about 1,100 x 40 m and Las Gaviotas about 1,200 x 40 m; both are dark sand with calm water, high occupancy and urban, and both list a children''s area, a sports area, toilets and showers. Las Gaviotas has the Paseo Rey de España promenade, with windsurfing and pedalo hire. Places to eat: see the linked record for La Mar Salá. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources: lifeguard service daily 1 June-30 September 11:00-20:00, and on weekends and public holidays 11:00-19:00 from the weekend after 30 September until 15 October (Carta de Servicios 2026, edition 2026-05-12; the stated autumn cover ends 15 October); an adapted bathing platform at pergola 41 (Fuengirola Accesible 2025, edition 2025-03-03) with a bathing device for blind users (Carta de Servicios 2026); and one plot of ''camas elásticas'' (bouncy beds/trampolines) (Carta de Servicios 2026). Fuengirola''s summer bathing zone for older people (marked area, handrails, semi-submerged seats) is not on this beach but at Playa de San Francisco, the town-centre beach next to the port (municipal sources 2021-2025). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Boliches-Gaviotas, Fuengirola | CalleMilano draft record
 seo_description: Draft record for Boliches-Gaviotas beach (Fuengirola). Facts are being checked against official sources.
 images: []
@@ -246,15 +246,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. Owner note: De unge voksne er også dem med børn. '
+- field: description_long (bathing zone for older people)
+  claim: 'Fuengirola council (18 Jun 2021): the adapted bathing platform for older people is installed again at Playa de San Francisco, ''uno de los tramos de playa más céntricos y que menos sufre el oleaje'', until 30 September.'
+  source_url: https://www.fuengirola.es/el-ayuntamiento-vuelve-a-instalar-una-plataforma-adaptada-en-la-playa-de-san-francisco-para-facilitar-el-bano-de-los-mayores/
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (beach follow-up 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02.
+- field: description_long (bathing zone for older people)
+  claim: 'Fuengirola Televisión (municipal TV, 6 Jun 2023): ''El Ayuntamiento ha instalado un año más una plataforma adaptada para facilitar el baño a los mayores en la Playa de San Francisco'' (semi-submerged seats, walkways, buoy-marked swimming area).'
+  source_url: https://fuengirolatv.com/plataforma-de-bano-para-mayores-en-la-playa-de-san-francisco/
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (beach follow-up 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02 (metadata). Malaga Hoy places Playa de San Francisco between the port and Los Boliches (secondary). With Fuengirola Accesible 2025 this outweighs the undated Concejalía de Playas page that names Los Boliches.
 review_issues:
-- code: elderly_bathing_zone_location_disputed
-  severity: warning
-  fields:
-  - description_long
-  - accessibility
-  description: 'Municipal sources disagree on where the bathing zone for older people is: Los Boliches (Concejalía de Playas page, undated) versus Playa de San Francisco (Fuengirola Accesible 2025); the Carta de Servicios 2026 names no beach. Not assigned to this beach as fact. Check with the Concejalía de Playas or a current municipal source.'
-  retryable: false
-  owner: fact_check
 - code: accessible_platform_numbers_2025_edition
   severity: info
   fields:

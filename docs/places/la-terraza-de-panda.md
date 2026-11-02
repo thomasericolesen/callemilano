@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-LA-TERRAZA-DE-PANDA-001
 slug: la-terraza-de-panda
 name: La Terraza de Panda
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/profile.php?id=61590567771739
 related_places: []
-description_short: 'La Terraza de Panda: cocktail bar by the Plaza de la Constitución, about 15 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: La Terraza de Panda is a cocktail bar by the Plaza de la Constitución at Calle emancipación, Junto a la iglesia, Pl. de la Constitución, 1, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 15 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'La Terraza de Panda: cocktail terrace on Plaza de la Constitución in central Fuengirola, about 15 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'La Terraza de Panda is a cocktail bar with a terrace by the church on Plaza de la Constitución at Calle emancipación, Pl. de la Constitución, 1, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 15 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02): ''Copas, buen ambiente y buena música'' in the centre of Fuengirola; a post from 2 November 2026 says the terrace is open seven days a week from 12:00. Closing time and prices were not given. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
 seo_title: La Terraza de Panda, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for La Terraza de Panda (Fuengirola): location and drive time from Casa de la Familia.'
 images: []
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bars fact check 2026-11-02)
   confidence: low
   notes: Search excerpt read 2026-11-02; content not read.
+- field: description_long, visit_information, links
+  claim: 'Own Facebook page ''La Terraza de Panda'': ''Copas, buen ambiente y buena musica. En pleno centro de Fuengirola.''; Cocktailbar; address Junto a la iglesia, Calle emancipación, Pl. de la Constitución 1, 29640 Fuengirola; link pandabarfuengirola.com; post of 2 Nov 2026 (''58 min'' old in the screenshot): ''Siete días a la semana... Tu terraza en el corazón de Fuengirola, desde las 12:00 h''.'
+  source_url: https://www.facebook.com/profile.php?id=61590567771739
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review counts, follower counts and personal e-mail addresses not recorded. pandabarfuengirola.com loads ('Panda Bar Fuengirola | Tu lugar de copas') but had no readable content on 2026-11-02.
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -132,17 +140,17 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: social_page_not_read
+- code: closing_time_and_prices_unknown
   severity: warning
   fields:
   - visit_information
   - cost_level
-  description: Own Instagram found but not readable without login; hours and prices need checking.
+  description: Opening from 12:00 seven days a week per the own post of 2 Nov 2026; closing time and prices not given.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

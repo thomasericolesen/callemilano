@@ -1,9 +1,9 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-MIXS-LOUNGE-001
 slug: mixs-lounge
-name: Mixs Lounge
+name: Mixs Longe
 category: Restaurants
 tags:
 - Restaurant
@@ -76,12 +76,12 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/p/Mixs-Longe-61550506887933/
 related_places: []
-description_short: 'Mixs Lounge: Indian restaurant (Google lists it as "Mixs longe"), about 5 min on foot or 2 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Mixs Lounge is a Indian restaurant (Google lists it as "Mixs longe") at Edificio colina park, Cl. Buitre, 45, 29649 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 5 minutes on foot (0.35 km, Google's walking route) or about 2 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
-seo_title: Mixs Lounge, Mijas | CalleMilano draft record
-seo_description: 'Draft record for Mixs Lounge (Mijas): location and walking and driving time from Casa de la Familia.'
+description_short: 'Mixs Longe: restaurant in Cerros del Águila (own page: Scandinavian and Italian), about 5 min on foot or 2 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Mixs Longe is a restaurant at Edificio Colina Park, Cl. Buitre, 45, 29649 Las Lagunas de Mijas, Málaga, in Urbanización Cerros del Águila. From Casa de la Familia it is about 5 minutes on foot (0.35 km, Google's walking route) or about 2 minutes by car (Google route check, Saturday 10:00). The restaurant's own Facebook page calls it a new Scandinavian and Italian restaurant in Cerros del Águila and invites guests for classic Scandinavian dishes. Google lists it as an Indian restaurant with outdoor seating and phone +34 632 13 47 36, and a delivery platform lists a 'Mixs Curry & Pizza' on the same street, so the menu may be mixed; this has not been confirmed. Opening hours and prices have not been checked; check with the venue before visiting.
+seo_title: Mixs Longe, Mijas | CalleMilano draft record
+seo_description: 'Draft record for Mixs Longe (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
 evidence:
 - field: name, coordinates, google_maps_url, external_ids, municipality, food_available
@@ -108,20 +108,23 @@ evidence:
   checked_by: Claude (nearby fact check 2026-11-02)
   confidence: low
   notes: Search excerpts read 2026-11-02. The venue's own name and spelling are unconfirmed ("Lounge", "Longe" or "Curry & Pizza").
+- field: name, description_long, links
+  claim: 'Own Facebook page ''Mixs Longe | Mijas'': ''Enjoy a unique experience in our new Scandinavian and Italian restaurant located in Cerros de Águila''; ''¡Ven a disfrutar de platos clásicos escandinavos en Mix Longe! Te esperamos en Calle Buitre, 45. Cerros del Aguila, Mijas.'''
+  source_url: https://www.facebook.com/p/Mixs-Longe-61550506887933/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of a Google search (supplied 2026-11-02) showing the page's snippet, plus Firecrawl search excerpts of the page on 2026-11-02; the page itself was not readable. The page is undated; 'new' may be old.
+- field: description_long
+  claim: 'Google Business listing (owner screenshot 2026-11-02): ''Mixs longe'', Indian restaurant, Edificio colina park, Cl. Buitre 45, 29649 Las Lagunas de Mijas; phone +34 632 13 47 36; outdoor seating.'
+  source_url: https://maps.google.com/?cid=13919443959025896227
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Identity and contact only. The listing's hours ('closes 00:00'), user-reported price range (€10-40) and Google's AI overview of the menu are not recorded as facts.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -131,24 +134,18 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
-- code: no_official_website
-  severity: info
-  fields:
-  - links
-  description: Google lists no website; facts may have to come from a social page or a direct contact.
-  retryable: true
-  owner: fact_check
-- code: name_unconfirmed
+- code: cuisine_and_hours_unverified
   severity: warning
   fields:
-  - name
-  - slug
-  description: 'Google and Just Eat spell it "Mixs longe"; Uber Eats lists "Mixs Curry & Pizza" on the same street. Confirm the venue''s own name before review; a name change keeps the ID. 2026-11-02: the owner does not know the place either; needs a visit or a direct contact before it can go further.'
+  - visit_information
+  - cost_level
+  - description_long
+  description: 'Name confirmed from the own Facebook page (2026-11-02). Cuisine differs between sources (own page: Scandinavian and Italian; Google: Indian; Uber Eats: ''Mixs Curry & Pizza''). Hours, prices and menu need the page itself (owner screenshot), a visit or a call (+34 632 13 47 36).'
   retryable: true
-  owner: human_editor
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-CHANGUEIRO-BAR-DE-VINOS-001
 slug: changueiro-bar-de-vinos
 name: Changueiro Bar de Vinos
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/changueirobardevinos
 related_places: []
-description_short: 'Changueiro Bar de Vinos: wine bar, about 15 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Changueiro Bar de Vinos is a wine bar at C. Marbella, 19, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 15 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'Changueiro Bar de Vinos: wine bar in central Fuengirola, about 15 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Changueiro Bar de Vinos is a wine bar at C. Marbella, 19, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 15 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Hours from an image on its own Facebook page (checked 2026-11-02): Monday, Thursday, Friday and Saturday 12:00-16:00 and 19:00-23:30; Sunday 12:00-16:00; closed Tuesday and Wednesday. The image is not dated, and the bar announced new hours in October 2026, so confirm before going. Prices were not checked. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
 seo_title: Changueiro Bar de Vinos, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Changueiro Bar de Vinos (Fuengirola): location and drive time from Casa de la Familia.'
 images: []
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bars fact check 2026-11-02)
   confidence: low
   notes: Search excerpts read 2026-11-02; posts not read in full. Hours quoted by third-party Instagram accounts conflict, so none are recorded.
+- field: visit_information, description_long, links
+  claim: 'Own Facebook page ''Changueiro-Bar de Vinos Fuengirola'', hours image: ''Lunes, jueves, viernes, sábado 12:00-16:00, 19:00-23:30; Domingo 12:00-16:00; Martes y miércoles descanso''; address Calle Marbella, Fuengirola; latest visible post 11 October.'
+  source_url: https://www.facebook.com/changueirobardevinos
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review counts, follower counts and personal e-mail addresses not recorded. The hours image is undated; it appears first in the page's photos.
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -132,16 +140,17 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: hours_conflicting
+- code: hours_image_undated
   severity: warning
   fields:
   - visit_information
-  description: Hours seen in third-party posts conflict and the bar announced new hours in October 2026; read its own latest post before recording a schedule.
+  - cost_level
+  description: Hours come from an undated image on the own page; earlier third-party posts conflicted and new hours were announced in October 2026. Confirm the current schedule and prices before publication.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

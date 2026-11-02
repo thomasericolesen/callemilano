@@ -1,12 +1,12 @@
 id,slug,name,status,category,tags,municipality,province,latitude,longitude,distance_km_from_casa,within_primary_radius,driving_time,record_file
 ES-AND-MAL-RESTAURANTE-CERROS-DEL-AGUILA-001,restaurante-cerros-del-aguila,Restaurante Cerros del Águila,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.534290399999996,-4.6607671999999996,0.2,yes,3 min,docs/places/restaurante-cerros-del-aguila.md
-ES-AND-MAL-MIXS-LOUNGE-001,mixs-lounge,Mixs Lounge,draft,Restaurants,Restaurant,Mijas,Málaga,36.5345521,-4.6598372999999995,0.3,yes,2 min,docs/places/mixs-lounge.md
+ES-AND-MAL-MIXS-LOUNGE-001,mixs-lounge,Mixs Longe,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.5345521,-4.6598372999999995,0.3,yes,2 min,docs/places/mixs-lounge.md
 ES-AND-MAL-SINGH-DONER-KEBAB-001,singh-doner-kebab,Singh Doner Kebab,draft,Restaurants,Restaurant,Mijas,Málaga,36.534591999999996,-4.6594489999999995,0.3,yes,2 min,docs/places/singh-doner-kebab.md
 ES-AND-MAL-AVENTOURALIA-001,aventouralia,Aventouralia,needs_fact_check,Family activities,Adventure,Mijas,Málaga,36.539927399999996,-4.6603245,0.5,yes,4 min,docs/places/aventouralia.md
 ES-AND-MAL-PENA-AL-TRANCO-001,pena-al-tranco,Peña Al Tranco,draft,Restaurants,Restaurant,Mijas,Málaga,36.540185199999996,-4.6601631,0.5,yes,4 min,docs/places/pena-al-tranco.md
 ES-AND-MAL-RANGERS-SAFARI-TOURS-001,rangers-safari-tours,Rangers Safari Tours,needs_fact_check,Family activities,Adventure,Mijas,Málaga,36.5398286,-4.6602783,0.5,yes,3 min,docs/places/rangers-safari-tours.md
 ES-AND-MAL-BIGFOOT-BUGGY-TOURS-001,bigfoot-buggy-tours,Bigfoot Buggy Tours,needs_fact_check,Family activities,Adventure,Mijas,Málaga,36.540579199999996,-4.658856699999999,0.6,yes,4 min,docs/places/bigfoot-buggy-tours.md
-ES-AND-MAL-EQUESTRIAN-CENTRE-CHAPARRAL-001,equestrian-centre-chaparral,Equestrian Centre,draft,Restaurants,Restaurant,Mijas,Málaga,36.5400742,-4.6594660999999995,0.6,yes,4 min,docs/places/equestrian-centre-chaparral.md
+ES-AND-MAL-EQUESTRIAN-CENTRE-CHAPARRAL-001,equestrian-centre-chaparral,Equestrian Centre,archived,Restaurants,Restaurant,Mijas,Málaga,36.5400742,-4.6594660999999995,0.6,yes,4 min,docs/places/equestrian-centre-chaparral.md
 ES-AND-MAL-ATV-ADVENTURES-MIJAS-001,atv-adventures-mijas,ATV Adventures,needs_fact_check,Family activities,Adventure,Mijas,Málaga,36.5410031,-4.6583355,0.7,yes,4 min,docs/places/atv-adventures-mijas.md
 ES-AND-MAL-EL-GRAN-PARQUE-DE-MIJAS-001,el-gran-parque-de-mijas,El Gran Parque de Mijas,needs_fact_check,Family activities,,Mijas,Málaga,36.539559499999996,-4.656531,0.7,yes,3 min,docs/places/el-gran-parque-de-mijas.md
 ES-AND-MAL-MIJAS-BUGGYS-001,mijas-buggys,Mijas Buggys,needs_fact_check,Family activities,Adventure,Mijas,Málaga,36.5409423,-4.6584363,0.7,yes,4 min,docs/places/mijas-buggys.md
@@ -19,46 +19,46 @@ ES-AND-MAL-VENTA-LA-MORENA-001,venta-la-morena,Venta La Morena,needs_fact_check,
 ES-AND-MAL-RESTAURANTE-EL-GOLF-MIJAS-001,restaurante-el-golf-mijas,Restaurante El Golf,draft,Restaurants,Restaurant,Mijas,Málaga,36.5461604,-4.6586579,1.2,yes,5 min,docs/places/restaurante-el-golf-mijas.md
 ES-AND-MAL-ASADOR-OTOLA-001,asador-otola,Asador Otola,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.540219199999996,-4.6490593,1.3,yes,6 min,docs/places/asador-otola.md
 ES-AND-MAL-EL-MIRADOR-DEL-GOLF-001,el-mirador-del-golf,Restaurante El Mirador del Golf,draft,Restaurants,Restaurant,Mijas,Málaga,36.5466924,-4.666940299999999,1.3,yes,6 min,docs/places/el-mirador-del-golf.md
-ES-AND-MAL-BOLERA-MIJAS-DUBAI-BOLL-001,bolera-mijas-dubai-boll,Bolera Mijas (Dubai Boll),draft,Family activities,Rainy day,Mijas,Málaga,36.5390424,-4.6466071,1.5,yes,6 min,docs/places/bolera-mijas-dubai-boll.md
+ES-AND-MAL-BOLERA-MIJAS-DUBAI-BOLL-001,bolera-mijas-dubai-boll,Bolera Mijas (Dubai Boll),needs_fact_check,Family activities,Rainy day,Mijas,Málaga,36.5390424,-4.6466071,1.5,yes,6 min,docs/places/bolera-mijas-dubai-boll.md
 ES-AND-MAL-JUMPJOY-MIJAS-001,jumpjoy-mijas,JumpJoy Mijas,needs_fact_check,Family activities,Rainy day,Mijas,Málaga,36.5394096,-4.6468226999999995,1.5,yes,6 min,docs/places/jumpjoy-mijas.md
-ES-AND-MAL-EL-RIMERO-001,el-rimero,El Rimero,draft,Restaurants,,Mijas,Málaga,36.5322871,-4.6447012999999995,1.7,yes,8 min,docs/places/el-rimero.md
-ES-AND-MAL-LA-SENDA-DEL-NORTE-001,la-senda-del-norte,La Senda del Norte,draft,Restaurants,,Mijas,Málaga,36.5397837,-4.6440326999999995,1.7,yes,6 min,docs/places/la-senda-del-norte.md
-ES-AND-MAL-PARQUE-EL-ESPARRAGAL-001,parque-el-esparragal,Parque El Esparragal,draft,Family activities,,Mijas,Málaga,36.5477938,-4.6740007,1.7,yes,7 min,docs/places/parque-el-esparragal.md
+ES-AND-MAL-EL-RIMERO-001,el-rimero,El Rimero,archived,Restaurants,,Mijas,Málaga,36.5322871,-4.6447012999999995,1.7,yes,8 min,docs/places/el-rimero.md
+ES-AND-MAL-LA-SENDA-DEL-NORTE-001,la-senda-del-norte,La Senda del Norte,needs_fact_check,Restaurants,,Mijas,Málaga,36.5397837,-4.6440326999999995,1.7,yes,6 min,docs/places/la-senda-del-norte.md
+ES-AND-MAL-PARQUE-EL-ESPARRAGAL-001,parque-el-esparragal,Parque El Esparragal,needs_fact_check,Family activities,,Mijas,Málaga,36.5477938,-4.6740007,1.7,yes,7 min,docs/places/parque-el-esparragal.md
 ES-AND-MAL-BAMBOLEO-LA-ZAMBRA-001,bamboleo-la-zambra,Bamboleo,archived,Restaurants,,Mijas,Málaga,36.552164,-4.6675238,1.9,yes,7 min,docs/places/bamboleo-la-zambra.md
 ES-AND-MAL-LA-ZAMBRA-RESORT-001,la-zambra-resort,La Zambra Resort,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.5529094,-4.6667533,1.9,yes,7 min,docs/places/la-zambra-resort.md
-ES-AND-MAL-BAR-MESON-CAMPANALES-001,bar-meson-campanales,Bar Mesón Campanales,draft,Restaurants,,Mijas,Málaga,36.544939899999996,-4.6439240999999996,2.0,yes,6 min,docs/places/bar-meson-campanales.md
-ES-AND-MAL-MON-2-SUN-001,mon-2-sun,Mon 2 Sun,draft,Restaurants,,Mijas,Málaga,36.549895,-4.676453899999999,2.0,yes,8 min,docs/places/mon-2-sun.md
+ES-AND-MAL-BAR-MESON-CAMPANALES-001,bar-meson-campanales,Bar Mesón Campanales,archived,Restaurants,,Mijas,Málaga,36.544939899999996,-4.6439240999999996,2.0,yes,6 min,docs/places/bar-meson-campanales.md
+ES-AND-MAL-MON-2-SUN-001,mon-2-sun,Mon 2 Sun,needs_fact_check,Restaurants,,Mijas,Málaga,36.549895,-4.676453899999999,2.0,yes,8 min,docs/places/mon-2-sun.md
 ES-AND-MAL-ZOOLOCO-PARTY-001,zooloco-party,Zooloco Party,archived,Family activities,,Mijas,Málaga,36.5394839,-4.641249999999999,2.0,yes,8 min,docs/places/zooloco-party.md
-ES-AND-MAL-COSMOZONE-LASERTAG-001,cosmozone-lasertag,Cosmozone Lasertag,draft,Family activities,,Mijas,Málaga,36.534731,-4.6353832,2.4,yes,8 min,docs/places/cosmozone-lasertag.md
-ES-AND-MAL-JAY-JANGLES-001,jay-jangles,Jay Jangles,draft,Family activities,,Mijas,Málaga,36.551564,-4.6824603,2.5,yes,8 min,docs/places/jay-jangles.md
+ES-AND-MAL-COSMOZONE-LASERTAG-001,cosmozone-lasertag,Cosmozone Lasertag,needs_fact_check,Family activities,,Mijas,Málaga,36.534731,-4.6353832,2.4,yes,8 min,docs/places/cosmozone-lasertag.md
+ES-AND-MAL-JAY-JANGLES-001,jay-jangles,Jay Jangles,archived,Family activities,,Mijas,Málaga,36.551564,-4.6824603,2.5,yes,8 min,docs/places/jay-jangles.md
 ES-AND-MAL-AQUAMIJAS-001,aquamijas,Aquamijas,needs_fact_check,Family activities,,Mijas,Málaga,36.538292999999996,-4.6330707,2.7,yes,10 min,docs/places/aquamijas.md
 ES-AND-MAL-FUENGIROLA-ADVENTURE-GOLF-001,fuengirola-adventure-golf,Fuengirola Adventure Golf,needs_fact_check,Family activities,,Fuengirola,Málaga,36.532201,-4.632048999999999,2.8,yes,9 min,docs/places/fuengirola-adventure-golf.md
 ES-AND-MAL-KARTING-EXPERIENCE-MIRAMAR-001,karting-experience-miramar,Karting Experience Miramar,needs_fact_check,Family activities,Adventure,Fuengirola,Málaga,36.5299432,-4.632412,2.8,yes,9 min,docs/places/karting-experience-miramar.md
-ES-AND-MAL-MK2-CINESUR-MIRAMAR-001,mk2-cinesur-miramar,mk2 Cinesur Miramar,draft,Family activities,Rainy day,Fuengirola,Málaga,36.5282529,-4.6328854,2.8,yes,10 min,docs/places/mk2-cinesur-miramar.md
-ES-AND-MAL-SOULD-PARK-BOWLING-MIRAMAR-001,sould-park-bowling-miramar,Sould Park Bowling Miramar,draft,Family activities,Rainy day,Fuengirola,Málaga,36.5287161,-4.6323609,2.8,yes,9 min,docs/places/sould-park-bowling-miramar.md
-ES-AND-MAL-ZERO-LATENCY-MIRAMAR-001,zero-latency-miramar,Zero Latency Miramar,draft,Family activities,Rainy day,Fuengirola,Málaga,36.528642999999995,-4.6320191,2.8,yes,9 min,docs/places/zero-latency-miramar.md
-ES-AND-MAL-TERRAZA-CHILL-OUT-BAR-001,terraza-chill-out-bar,Terraza Chill Out Bar,draft,Restaurants,,Fuengirola,Málaga,36.5292166,-4.631669,2.9,yes,8 min,docs/places/terraza-chill-out-bar.md
+ES-AND-MAL-MK2-CINESUR-MIRAMAR-001,mk2-cinesur-miramar,mk2 Cinesur Miramar,needs_fact_check,Family activities,Rainy day,Fuengirola,Málaga,36.5282529,-4.6328854,2.8,yes,10 min,docs/places/mk2-cinesur-miramar.md
+ES-AND-MAL-SOULD-PARK-BOWLING-MIRAMAR-001,sould-park-bowling-miramar,Sould Park Bowling Miramar,needs_fact_check,Family activities,Rainy day,Fuengirola,Málaga,36.5287161,-4.6323609,2.8,yes,9 min,docs/places/sould-park-bowling-miramar.md
+ES-AND-MAL-ZERO-LATENCY-MIRAMAR-001,zero-latency-miramar,Zero Latency Miramar,needs_fact_check,Family activities,Rainy day,Fuengirola,Málaga,36.528642999999995,-4.6320191,2.8,yes,9 min,docs/places/zero-latency-miramar.md
+ES-AND-MAL-TERRAZA-CHILL-OUT-BAR-001,terraza-chill-out-bar,Terraza Chill Out Bar,archived,Restaurants,,Fuengirola,Málaga,36.5292166,-4.631669,2.9,yes,8 min,docs/places/terraza-chill-out-bar.md
 ES-AND-MAL-BIOPARC-FUENGIROLA-001,bioparc-fuengirola,BIOPARC Fuengirola,needs_fact_check,Family activities,,Fuengirola,Málaga,36.5368411,-4.6277631,3.1,yes,12 min,docs/places/bioparc-fuengirola.md
 ES-AND-MAL-SKY-BAR-VERAMAR-001,sky-bar-veramar,Sky Bar Veramar,draft,Restaurants,,Fuengirola,Málaga,36.5338875,-4.6281745,3.1,yes,11 min,docs/places/sky-bar-veramar.md
 ES-AND-MAL-CASTILLO-EJIDO-001,castillo-ejido,Castillo-Ejido,approved,Beaches,Beach,Fuengirola,Málaga,36.5253,-4.6288,3.2,yes,12 min,docs/places/castillo-ejido.md
-ES-AND-MAL-MULTICINES-ALFIL-FUENGIROLA-001,multicines-alfil-fuengirola,Multicines Alfil Fuengirola,draft,Family activities,Rainy day,Fuengirola,Málaga,36.5375077,-4.6271906,3.2,yes,12 min,docs/places/multicines-alfil-fuengirola.md
-ES-AND-MAL-CAFE-TEATRO-OCEAN-DRIVE-001,cafe-teatro-ocean-drive,Café Teatro by Ocean Drive,draft,Restaurants,,Fuengirola,Málaga,36.5304043,-4.6250503,3.4,yes,10 min,docs/places/cafe-teatro-ocean-drive.md
-ES-AND-MAL-CHANGUEIRO-BAR-DE-VINOS-001,changueiro-bar-de-vinos,Changueiro Bar de Vinos,draft,Restaurants,,Fuengirola,Málaga,36.537848499999996,-4.6245668,3.4,yes,15 min,docs/places/changueiro-bar-de-vinos.md
-ES-AND-MAL-LA-TERRAZA-DE-PANDA-001,la-terraza-de-panda,La Terraza de Panda,draft,Restaurants,,Fuengirola,Málaga,36.539166,-4.6234329999999995,3.5,yes,15 min,docs/places/la-terraza-de-panda.md
-ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001,nautic-bar-fuengirola,Nautic Bar,draft,Restaurants,,Fuengirola,Málaga,36.5384019,-4.623798799999999,3.5,yes,14 min,docs/places/nautic-bar-fuengirola.md
-ES-AND-MAL-BAR-BURBUJAS-001,bar-burbujas,Bar Burbujas,draft,Restaurants,,Fuengirola,Málaga,36.539403799999995,-4.622169599999999,3.6,yes,16 min,docs/places/bar-burbujas.md
-ES-AND-MAL-LA-FLOJA-VINOS-Y-LATAS-001,la-floja-vinos-y-latas,La Floja Vinos y Latas,draft,Restaurants,,Fuengirola,Málaga,36.537504299999995,-4.6227108,3.6,yes,14 min,docs/places/la-floja-vinos-y-latas.md
+ES-AND-MAL-MULTICINES-ALFIL-FUENGIROLA-001,multicines-alfil-fuengirola,Multicines Alfil Fuengirola,needs_fact_check,Family activities,Rainy day,Fuengirola,Málaga,36.5375077,-4.6271906,3.2,yes,12 min,docs/places/multicines-alfil-fuengirola.md
+ES-AND-MAL-CAFE-TEATRO-OCEAN-DRIVE-001,cafe-teatro-ocean-drive,Café Teatro by Ocean Drive,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5304043,-4.6250503,3.4,yes,10 min,docs/places/cafe-teatro-ocean-drive.md
+ES-AND-MAL-CHANGUEIRO-BAR-DE-VINOS-001,changueiro-bar-de-vinos,Changueiro Bar de Vinos,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.537848499999996,-4.6245668,3.4,yes,15 min,docs/places/changueiro-bar-de-vinos.md
+ES-AND-MAL-LA-TERRAZA-DE-PANDA-001,la-terraza-de-panda,La Terraza de Panda,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.539166,-4.6234329999999995,3.5,yes,15 min,docs/places/la-terraza-de-panda.md
+ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001,nautic-bar-fuengirola,Nautic Cocktail & Drinks,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5384019,-4.623798799999999,3.5,yes,14 min,docs/places/nautic-bar-fuengirola.md
+ES-AND-MAL-BAR-BURBUJAS-001,bar-burbujas,Bar Burbujas,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.539403799999995,-4.622169599999999,3.6,yes,16 min,docs/places/bar-burbujas.md
+ES-AND-MAL-LA-FLOJA-VINOS-Y-LATAS-001,la-floja-vinos-y-latas,La Floja Vinos y Latas,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.537504299999995,-4.6227108,3.6,yes,14 min,docs/places/la-floja-vinos-y-latas.md
 ES-AND-MAL-UPSTAIRS-ROOFTOP-BAR-001,upstairs-rooftop-bar,Upstairs Rooftop Bar,needs_fact_check,Restaurants,Viewpoint,Mijas,Málaga,36.505252999999996,-4.676908,3.6,yes,11 min,docs/places/upstairs-rooftop-bar.md
 ES-AND-MAL-FUENGIROLA-CENTRO-001,fuengirola-centro,Fuengirola (centrum),approved,Beaches,Beach,Fuengirola,Málaga,36.5372915,-4.6215859,3.7,yes,14 min,docs/places/fuengirola-centro.md
 ES-AND-MAL-SPEAKEASY-JAZZ-CLUB-FUENGIROLA-001,speakeasy-jazz-club-fuengirola,Speakeasy Jazz Club & Cocktails,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5405146,-4.6217781,3.7,yes,16 min,docs/places/speakeasy-jazz-club-fuengirola.md
 ES-AND-MAL-MOGA-LA-CALA-001,moga-la-cala,MOGA,draft,Restaurants,,Mijas,Málaga,36.5037498,-4.6806412,3.9,yes,13 min,docs/places/moga-la-cala.md
-ES-AND-MAL-NONINA-FUENGIROLA-001,nonina-fuengirola,Noniná,draft,Restaurants,,Fuengirola,Málaga,36.5412292,-4.619409999999999,3.9,yes,15 min,docs/places/nonina-fuengirola.md
-ES-AND-MAL-RED-AND-WHITE-FUENGIROLA-001,red-and-white-fuengirola,Red & White,draft,Restaurants,,Fuengirola,Málaga,36.5447602,-4.6203943999999995,3.9,yes,14 min,docs/places/red-and-white-fuengirola.md
-ES-AND-MAL-GROOVE-BAR-FUENGIROLA-001,groove-bar-fuengirola,Groove Bar,draft,Restaurants,,Fuengirola,Málaga,36.5420832,-4.6183271,4.0,yes,16 min,docs/places/groove-bar-fuengirola.md
+ES-AND-MAL-NONINA-FUENGIROLA-001,nonina-fuengirola,Noniná,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5412292,-4.619409999999999,3.9,yes,15 min,docs/places/nonina-fuengirola.md
+ES-AND-MAL-RED-AND-WHITE-FUENGIROLA-001,red-and-white-fuengirola,Red & White,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5447602,-4.6203943999999995,3.9,yes,14 min,docs/places/red-and-white-fuengirola.md
+ES-AND-MAL-GROOVE-BAR-FUENGIROLA-001,groove-bar-fuengirola,Groove Music Bar,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5420832,-4.6183271,4.0,yes,16 min,docs/places/groove-bar-fuengirola.md
 ES-AND-MAL-LOUNGE-EL-TROPICO-001,lounge-el-tropico,Lounge El Trópico,needs_fact_check,Restaurants,Beach,Mijas,Málaga,36.502223799999996,-4.6796939,4.0,yes,13 min,docs/places/lounge-el-tropico.md
 ES-AND-MAL-SOULD-PARK-FUENGIROLA-001,sould-park-fuengirola,Sould Park Fuengirola,draft,Family activities,,Fuengirola,Málaga,36.5434149,-4.6182096999999995,4.1,yes,18 min,docs/places/sould-park-fuengirola.md
 ES-AND-MAL-CHIRINGUITO-CRISTOBAL-001,chiringuito-cristobal,Chiringuito Cristóbal,approved,Restaurants,Restaurant; Beach,Mijas,Málaga,36.5003692,-4.682398,4.3,yes,15 min,docs/places/chiringuito-cristobal.md
-ES-AND-MAL-RETROCK-BART-001,retrock-bart,RetROCK BARt,draft,Restaurants,,Mijas,Málaga,36.500899,-4.684403,4.3,yes,14 min,docs/places/retrock-bart.md
+ES-AND-MAL-RETROCK-BART-001,retrock-bart,RetROCK BARt,needs_fact_check,Restaurants,,Mijas,Málaga,36.500899,-4.684403,4.3,yes,14 min,docs/places/retrock-bart.md
 ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001,chiringuito-los-moreno,Chiringuito Los Moreno,approved,Restaurants,Restaurant; Beach,Mijas,Málaga,36.4995404,-4.6837348,4.4,yes,15 min,docs/places/chiringuito-los-moreno.md
 ES-AND-MAL-LA-BUTIBAMBA-001,la-butibamba,La Butibamba,approved,Beaches,Beach,Mijas,Málaga,36.5002,-4.6843,4.4,yes,15 min,docs/places/la-butibamba.md
 ES-AND-MAL-BOLICHES-GAVIOTAS-001,boliches-gaviotas,Boliches-Gaviotas,needs_fact_check,Beaches,Beach,Fuengirola,Málaga,36.5544,-4.6116,5.0,yes,15 min,docs/places/boliches-gaviotas.md

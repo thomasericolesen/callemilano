@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-EL-RIMERO-001
 slug: el-rimero
 name: El Rimero
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/elrimero
 related_places: []
 description_short: 'El Rimero: wine bar, about 8 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: El Rimero is a wine bar at C. Archidona, 81, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 8 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_long: El Rimero ('El Rimero. Tu Vinoteca particular') is listed at C. Archidona, 81, 29651 Las Lagunas de Mijas, Málaga, about 8 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Its own Facebook page describes it as a private wine shop, on- and offline, in the retail category - not as a bar. The latest visible posts are from 2020 (a closure for the COVID-19 state of alarm in March 2020 and a wine tasting in May 2020), and its website elrimero.com no longer exists. It is not recommended as a bar.
 seo_title: El Rimero, Mijas | CalleMilano draft record
 seo_description: 'Draft record for El Rimero (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: description_long, category
+  claim: 'Own Facebook page ''El Rimero. Tu Vinoteca particular'': ''El Rimero. Tu Vinoteca particular. On/Off Line.''; category ''Shopping og detailhandel'' (shopping and retail); Archidona, 81, Mijas 29651; phone +34 952 46 59 65; info@elrimero.com; posts 21 March 2020 (closed due to the COVID-19 state of alarm) and 13 May 2020 (''Cata Martín Códax'').'
+  source_url: https://www.facebook.com/elrimero
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review and follower counts not recorded. elrimero.com did not resolve (DNS failure) on 2026-11-02.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,20 +132,24 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: no_official_source_found
-  severity: warning
+- code: not_a_bar_possibly_closed
+  severity: blocking
   fields:
-  - visit_information
-  - cost_level
-  - links
-  description: Search on 2026-11-02 found no own website or readable social page. Hours and prices need a direct check.
+  - category
+  - status
+  - description_long
+  description: 'Own page describes a wine shop (retail, on/offline), not a bar, with no visible activity since 2020 and a dead website. Owner decision: archive, or confirm that it serves drinks on site and is open.'
   retryable: true
-  owner: fact_check
+  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: 'Owner decision 2026-11-02: remove El Rimero from the guide (own page describes a wine shop, not a bar; no activity since 2020 and website gone). Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

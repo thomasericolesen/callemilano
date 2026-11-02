@@ -1,9 +1,9 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001
 slug: nautic-bar-fuengirola
-name: Nautic Bar
+name: Nautic Cocktail & Drinks
 category: Restaurants
 tags: []
 coordinates:
@@ -75,12 +75,12 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/Nautic.cocktailanddrinks
 related_places: []
-description_short: 'Nautic Bar: cocktail bar, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Nautic Bar is a cocktail bar at C. Alemania, 8, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
-seo_title: Nautic Bar, Fuengirola | CalleMilano draft record
-seo_description: 'Draft record for Nautic Bar (Fuengirola): location and drive time from Casa de la Familia.'
+description_short: 'Nautic Cocktail & Drinks: gin and cocktail bar in central Fuengirola, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Nautic Cocktail & Drinks (listed on Google as Nautic Bar) is a cocktail bar at C. Alemania, 8, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02) describes a bar specialising in gin with a wide range of premium spirits; its logo reads 'Food & Drink - cocktails bar & restaurant'. The page lists its price range as 'moderate' and phone +34 952 47 83 11. The latest visible post is from August 2023, and the linked website no longer exists, so current opening, hours and prices are not confirmed. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+seo_title: Nautic Cocktail & Drinks, Fuengirola | CalleMilano draft record
+seo_description: 'Draft record for Nautic Cocktail & Drinks (Fuengirola): location and drive time from Casa de la Familia.'
 images: []
 evidence:
 - field: name, coordinates, google_maps_url, external_ids, municipality
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: name, description_long, links
+  claim: 'Own Facebook page ''Nautic Cocktail & Drinks'': ''Bar especializado en Ginebra, además cuenta con una extensa gama de destilados premium y una amplia...''; category Pub, price range ''Moderat''; phone +34 952 47 83 11; c/ Alemania 8, Fuengirola 29640; logo ''Nautic Food & Drink - cocktails bar & restaurant''; latest visible post 4 Aug 2023.'
+  source_url: https://www.facebook.com/Nautic.cocktailanddrinks
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review ratings and follower counts not recorded. The linked website gruponautic.es did not resolve (DNS failure) on 2026-11-02.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,18 +132,17 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: no_official_source_found
+- code: activity_unverified
   severity: warning
   fields:
   - visit_information
   - cost_level
-  - links
-  description: Search on 2026-11-02 found no own website or readable social page. Hours and prices need a direct check.
+  description: Latest visible own post is from August 2023 and the website is gone. Confirm that the bar is open, its hours and prices (call +34 952 47 83 11) before recommending it.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
