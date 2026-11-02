@@ -29,6 +29,10 @@ CalleMilano is a family travel guide for guests at Casa de la Familia, starting 
 
 Check composition and access against official sources where available (see `docs/owner-decisions-2026-11-02.md`). This replaces the earlier working rule that any rocks excluded a beach.
 
+## Agent pipeline (owner decision 2026-11-02)
+
+Routine intake and fact-check work uses `tools/intake.py` and the subagents in `.claude/agents/` (`candidate-screener`, `source-reader`, `record-writer`) as described in `docs/agent-pipeline.md`. Subagents never approve, never change category/tags/family scores, and never set a status beyond `needs_fact_check`; the main session spot-checks their quotes before committing.
+
 ## Canonical project files
 
 - Place records: `docs/places/` (canonical editable place data).
