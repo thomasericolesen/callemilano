@@ -1,5 +1,29 @@
 # Change log
 
+## 2026-11-02 - Alfil own Facebook page; Sould Park chain page (no schema change)
+
+- `multicines-alfil-fuengirola`: own Facebook page (owner screenshot): eight screens, three with 3D X-PAND, opera and ballet season September 2026-May 2027, phone +34 952 59 35 87. Prices, parking and accessibility still open.
+- `sould-park-fuengirola`, `sould-park-bowling-miramar`: the chain's Facebook page has nothing venue-specific; noted on the open issues with its WhatsApp contact.
+- Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Zero Latency own Facebook page (no schema change)
+
+`zero-latency-miramar`: own Facebook page (owner screenshot) confirms online booking, Spanish and English, active posting (30 October) and phone +34 951 81 11 05, which settles the phone discrepancy with Google. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Bolera Mijas facilities from its own page (no schema change)
+
+`bolera-mijas-dubai-boll`: own Facebook page (owner screenshot) confirms restaurant, bowling, children's area, bouncy castle, arcade and an indoor trampoline area for the Mijas venue; the owner's impression (mostly adults and seniors) is kept beside it. Issue narrowed to `hours_and_prices_unverified`. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Zero Latency voucher prices; Bolera leads (no schema change)
+
+- `zero-latency-miramar`: gift-voucher price €29.95 per ticket and group-booking contact from the own booking site (owner screenshot); `prices_not_readable` lowered to info `booking_prices_unconfirmed`; phone discrepancy between Google and the operator noted.
+- `bolera-mijas-dubai-boll`: owner screenshot showed only a Google AI overview; its claims (8 lanes, extra games, hours, offers) are noted on the open issue as leads, not recorded as facts.
+- Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Cosmozone price list from owner screenshot (no schema change)
+
+`cosmozone-lasertag`: prices and pack contents from the venue's own price list (owner screenshot of cosmozone.es/en/, which Firecrawl cannot read): 1-hour laser tag €18 Mon-Fri / €20 weekends, 2-hour pack €28/€30, birthday pack €26/€28 (min. 10), extra room games €3/€4, Laser Maze from age 9. Issue narrowed to `hours_not_readable`. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Fuengirola (centrum) re-approved (owner decision)
 
 `fuengirola-centro`: `needs_fact_check` -> `approved` by the owner after the older-people zone was added; `reopened_for_addition` closed; new `review_decision` recorded. Validation: 0 errors. Regenerated `data/place-catalog.csv`.

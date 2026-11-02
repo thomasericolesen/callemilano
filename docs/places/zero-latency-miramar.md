@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/zerolatencymalaga
 related_places: []
 description_short: 'Zero Latency Miramar: free-roam virtual-reality arena at the Miramar shopping centre, about 9 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Zero Latency Miramar is a free-roam virtual-reality arena at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). The operator''s pages (checked 2026-11-02): an arena of more than 200 m² where up to eight players move freely without cables; standard hours Monday-Thursday 15:00-22:00, Friday 13:00-23:00, Saturday 12:00-23:00 and Sunday 12:00-22:00 (the operator notes these may differ on the day). Games last 15-30 minutes, with packages of 45-60 minutes. The age rule is unclear: the Málaga page says there is no fixed minimum age but each game has a minimum height, while the operator''s general FAQ says players must be 13 or older. The FAQ also says the games are generally not suitable for pregnant players, people who need mobility assistance, who are deaf or blind, or who have heart conditions, and that VR can trigger seizures. Prices were not readable. Check with the venue before visiting.'
+description_long: 'Zero Latency Miramar is a free-roam virtual-reality arena at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). The operator''s pages (checked 2026-11-02): an arena of more than 200 m² where up to eight players move freely without cables; standard hours Monday-Thursday 15:00-22:00, Friday 13:00-23:00, Saturday 12:00-23:00 and Sunday 12:00-22:00 (the operator notes these may differ on the day). Games last 15-30 minutes, with packages of 45-60 minutes. The age rule is unclear: the Málaga page says there is no fixed minimum age but each game has a minimum height, while the operator''s general FAQ says players must be 13 or older. The FAQ also says the games are generally not suitable for pregnant players, people who need mobility assistance, who are deaf or blind, or who have heart conditions, and that VR can trigger seizures. On its own booking site a gift voucher for one ticket costs €29.95 (eight tickets €239.60); games are booked online, staff speak Spanish and English (own Facebook page; phone +34 951 81 11 05), and groups of more than eight should book by e-mail (info_malaga@zerolatencyvr.es) or Instagram (@zerolatencymalaga). Check with the venue before visiting.'
 seo_title: Zero Latency Miramar, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Zero Latency Miramar (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -124,6 +124,22 @@ evidence:
   checked_by: Claude (nearby fact check 2026-11-02)
   confidence: medium
   notes: Read via Firecrawl on 2026-11-02. Chain-wide rules; the Málaga venue may differ.
+- field: description_long, cost_level, booking_required
+  claim: 'Own booking site, Málaga (gift voucher page): 1 ticket €29.95, 2 €59.90, 3 €89.85, 4 €119.80, 5 €149.75, 6 €179.70, 7 €209.65, 8 €239.60; voucher valid one year; ''Para reservas de grupos mayores de 8 personas, contactar con e-mail info_malaga@zerolatencyvr.es o por Instagram @zerolatencymalaga''; today''s hours shown 3pm-10pm (Monday).'
+  source_url: https://booking.zerolatencyvr.com/da/gift-voucher/malaga
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot (supplied 2026-11-02). Voucher price per ticket; the regular booking price per game may differ by game or day. Google's listing shows phone +34 604 82 73 01 while the operator page gives +34 951811105; Google's AI overview (age 10+, combo packs) is not used as a source.
+- field: description_long, links, booking_required
+  claim: 'Own Facebook page ''Zero Latency Malaga'': ''La mejor experiencia de realidad virtual en Málaga. Tan envolvente que parece real. Sin cables.''; price range ''Moderat''; Centro Comercial Miramar, Fuengirola 29640; languages Español and Inglés; services Reservations, Online booking; Instagram zerolatencymalaga; phone +34 951 81 11 05; info_malaga@zerolatencyvr.es; latest post 30 October (2026).'
+  source_url: https://www.facebook.com/zerolatencymalaga
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot (supplied 2026-11-02). The phone matches the operator's Málaga page, so +34 951 81 11 05 is used; Google's +34 604 82 73 01 is not recorded. Review and follower counts not recorded.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -139,14 +155,14 @@ review_issues:
   fields:
   - age_groups
   - family_score
-  description: The Málaga page says no fixed minimum age (minimum height per game); the chain FAQ says 13+. Confirm with the venue (+34 951811105) before any child suitability claim.
+  description: The Málaga page says no fixed minimum age (minimum height per game); the chain FAQ says 13+. Confirm with the venue (+34 951811105) before any child suitability claim. A Google AI overview (2026-11-02) says 'typically 10+'; AI summaries are not a source, so the conflict stands.
   retryable: true
   owner: fact_check
-- code: prices_not_readable
-  severity: warning
+- code: booking_prices_unconfirmed
+  severity: info
   fields:
   - cost_level
-  description: Prices are only shown in the booking flow, which was not readable. An Instagram excerpt mentioned a Tuesday price of €19.95 (date unknown); not recorded.
+  description: Gift-voucher price is €29.95 per ticket (own booking site, owner screenshot 2026-11-02); the regular per-game booking price and any day differences were not seen. Phone settled as +34 951 81 11 05 (operator page and own Facebook page agree).
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'

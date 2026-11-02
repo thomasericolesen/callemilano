@@ -136,7 +136,7 @@ review_issues:
   - visit_information
   - cost_level
   - age_groups
-  description: 'Rechecked 2026-11-02: the operator''s site only lists Fuengirola with a map link; no attractions, age limits, prices, hours or season. Needs the operator''s social pages (owner screenshot), a visit or a call (622 60 89 91).'
+  description: 'Rechecked 2026-11-02: the operator''s site only lists Fuengirola with a map link; no attractions, age limits, prices, hours or season. Needs the operator''s social pages (owner screenshot), a visit or a call (622 60 89 91). 2026-11-02: the chain''s Facebook page ''Sould Park España'' (owner screenshot) lists Fuengirola and Marbella among its locations, price range ''cheap'', phone 622 60 89 91 and WhatsApp 633 89 37 61, but nothing specific to this venue.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'

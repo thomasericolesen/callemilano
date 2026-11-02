@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/boleramijasdubaiboll
 related_places: []
 description_short: 'Bolera Mijas (Dubai Boll): bowling alley with bar in Las Lagunas, about 6 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Bolera Mijas (Dubai Boll) is a bowling alley at Plaza Polígono de, Pl. San Rafael, 4, y 5, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 6 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Mostly for adults and seniors. The chain''s page for the Mijas venue (checked 2026-11-02) describes bowling lanes, a bar with drinks, cocktails and snacks, themed evenings such as karaoke, large screens for live sport and birthday parties; phone 952 198933 or 654 159655. The same page also lists billiards, table football, trampolines and a ball pit, but its text is shared with the chain''s Jaén venue, so it is not clear that these are in Mijas. Opening hours and prices were not found on an own source. Check with the venue before visiting.'
+description_long: 'Bolera Mijas (Dubai Boll) is a bowling alley at Plaza Polígono de, Pl. San Rafael, 4, y 5, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 6 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Mostly for adults and seniors. The chain''s page for the Mijas venue (checked 2026-11-02) describes bowling lanes, a bar with drinks, cocktails and snacks, themed evenings such as karaoke, large screens for live sport and birthday parties; phone 952 198933 or 654 159655. Its own Facebook page (checked 2026-11-02) describes an entertainment centre with a restaurant, bowling, a children''s area, a bouncy castle and arcade games, ''fun for the whole family'', and a featured post shows an indoor trampoline area. Note that the owner''s own impression is that it is mostly used by adults and seniors. Opening hours and prices were not found on an own source. Check with the venue before visiting.'
 seo_title: Bolera Mijas (Dubai Boll), Mijas | CalleMilano draft record
 seo_description: 'Draft record for Bolera Mijas (Dubai Boll) (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -116,6 +116,14 @@ evidence:
   checked_by: Claude (nearby fact check 2026-11-02)
   confidence: medium
   notes: Read via Firecrawl on 2026-11-02 (page last modified 2023-11-13). The page's meta description names Jaén, so the facility list may be copied from the Jaén venue.
+- field: description_long, links
+  claim: 'Own Facebook page ''Bolera Mijas Dubai Boll'': ''Ven y disfruta de tu centro de entretenimiento en Mijas. Restaurante, bolera, zona infantil, castillo hinchable, recreativos... ¡Diversión asegurada para toda la familia!''; category Bowlingbane (bowling alley); Plaza Polígono de san Rafael 4 y 5, Las Lagunas de Mijas, 29651; phones 952198933 and 654159655; featured post 4 Nov 2021 (''¡Ven y siente el bowling! Celebra tus cumpleaños con nosotros'') with a photo of an indoor trampoline area.'
+  source_url: https://www.facebook.com/boleramijasdubaiboll
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot (supplied 2026-11-02). Confirms the family facilities for the Mijas venue (previously only on a chain page shared with Jaén). No hours or prices on the visible page; follower count not recorded.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -126,13 +134,12 @@ review_issues:
   description: 'Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place. Owner note: Mostly for adults and seniors.'
   retryable: true
   owner: human_editor
-- code: hours_prices_and_facilities_unverified
+- code: hours_and_prices_unverified
   severity: warning
   fields:
   - visit_information
   - cost_level
-  - food_available
-  description: 'No own source for hours or prices: third-party directories and a booking platform give different hours (from 16:00 or 16:30 to 00:00/02:00), and a Facebook search excerpt mentions a €4 Wednesday game (date unknown). Which games besides bowling are in Mijas is unclear. Needs owner screenshots of the Facebook page (facebook.com/boleramijasdubaiboll), a visit or a call.'
+  description: 'Facilities confirmed from the own Facebook page (2026-11-02): restaurant, bowling, children''s area, bouncy castle, arcade, trampoline area. Hours and prices still have no own source: third-party listings and a Google AI overview give Mon-Thu 16:00-00:00, Fri 16:00-02:00, Sat 16:15-02:00, Sun 12:00-00:00 and Wednesday offers (e.g. €4 per game); confirm from an own post or a call (952 19 89 33).'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
