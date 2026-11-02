@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - 20 local-extension draft records created (owner selection, no schema change)
+
+From `docs/local-extension-selection-2026-11-02.md`, created 20 records with status `draft` and allocated IDs: 6 `Excursions` routes and walks plus 3 `Excursions` sights (Senda Litoral La Cala, Paseo Marítimo de Fuengirola, Ermita del Calvario, Mirador del Compás, Puerto Colorado; Castillo Sohail, Castillo de Colomares, Puerto Marina Benalmádena), 1 `Nature` (Dunas de Artola, linked both ways with Cabopino/Artola), 3 `City` (Mijas Pueblo, Fuengirola town, Benalmádena Pueblo) and 7 `Family activities` (Teleférico, Selwo Marina, Parque de la Paloma, Crocodile Park, Sea Life, Mariposario, Maui Paddle Surf, Mijas Golf). Identity and coordinates from Google Places API; drive time from Routes API (Saturday 2026-11-07 10:00). Categories are Claude's choice from the schema definitions (issue `category_editorial_choice`). Boat trips wait for a provider sweep and reputation screen. Validation: 148 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Owner selection for the local extension (no records yet)
 
 Read the owner's 49 answers from the checklist page and recorded them in `docs/local-extension-selection-2026-11-02.md`: yes 38 (9 everyday life, 6 nature, 7 towns and culture, 8 experiences, 8 events), maybe 8 (four museums or sights, the stupa, riding club, sports centre, Spanish lessons), no 3 (library, vet, laundry). No place record, ID or register was changed.
