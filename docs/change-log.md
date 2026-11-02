@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Owner decisions on the local extension (no schema change)
+
+All five areas are in scope; everyday life goes on a separate practical-information page and events in a monthly season calendar, so no new category is needed. A private checklist page was published for the owner's selection. Recorded in `docs/owner-decisions-2026-11-02.md` (6-9).
+
 ## 2026-11-02 - Local extension candidate list (intake only, no records)
 
 Owner request: guests stay a few weeks across a long season. Added `docs/local-extension-intake-2026-11-02.md`: 41 candidates in four groups (everyday life, nature and walks, towns and culture, longer-stay experiences) with Google Places identity and Routes API drive times, plus a list of yearly events without dates. Two structure questions for the owner (where everyday-life places and events belong, since neither fits the six categories). No place record, ID or register was changed.

@@ -90,6 +90,10 @@ Dates change every year and must come from the town halls' official calendars be
 | Feria del Rosario (Fuengirola fair) | Fuengirola fairground | October | Noniná's posts point to this fair. |
 | Christmas lights and markets | Fuengirola, Mijas; Málaga's Calle Larios (40 min, outside the area) | December | |
 
+## Owner decisions (2026-11-02)
+
+Everyday life goes on a separate practical-information page; events go in a season calendar by month. Candidates are picked on the private checklist page https://claude.ai/artifact/N2M6tmgYi7MhVqPyfpUSa5 (see `docs/owner-decisions-2026-11-02.md`, decisions 6-9).
+
 ## Next step
 
 The owner picks candidates (and answers the two structure questions); records are then created, IDs allocated and facts checked as in the earlier rounds.
