@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 - One-hour band: towns and Málaga
+
+- Nine new records (IDs allocated, `excursions_4h` / `Tæt på`): puerto-banus (Excursions), san-pedro-alcantara, estepona-old-town, ojen, istan, benahavis, monda, coin, alora (City). Route-checked; descriptions checked against the Andalusian tourist board (andalucia.org) and Spain.info -> `needs_fact_check`. Parking and practical details still open; San Pedro's play-area claim has only a secondary source.
+- Folded in per the owner's selection: the mural route into estepona-old-town; Avenida del Mar (Dalí sculptures, Turismo Marbella) into marbella-old-town; Málaga city sights (Teatro Romano, Museo Picasso, MIMMA, Parque de Málaga, Muelle Uno, Museo del Automóvil y la Moda) into `malaga`, which moves from needs_editorial_review to needs_fact_check (issue `reopened_material_change`).
+- Álora: the castle is the town cemetery (Andalusian tourist board); noted in the record.
+
 ## 2026-11-02 - Restaurants near the one-hour beaches: records and first fact check
 
 - Owner selection read from the restaurant checklist: 17 yes. Rows rE04 and rF05 were duplicates of rE02 and rF01 in the first page version (name-matching error); fixed to Restaurante Marabierta and Restaurante Vista al Mar, the owner's answers to those two rows cleared, and the owner asked to choose again.
