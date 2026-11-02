@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Jay Jangles archived (owner decision)
+
+Owner decision: `jay-jangles` is removed from the guide; sources describe a nursery for enrolled children aged 1-6, not a visitor activity. Status `draft` -> `archived` with a `review_decision` from the editor-of-record; the record and its ID stay (ID must not be reused). The blocking issue `not_a_visitor_activity` is kept as the reason. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Equestrian Centre archived (owner decision)
 
 Owner decision: `equestrian-centre-chaparral` is a riding school, not a drop-in attraction, and is removed from the guide. Status `draft` -> `archived` with a `review_decision` from the editor-of-record; the record and its ID stay (ID must not be reused). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
