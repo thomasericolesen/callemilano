@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Maui Paddlesurf Club from owner screenshot (no schema change)
+
+`maui-paddle-surf-la-cala`: own Instagram (owner screenshot) gives the club's own name **Maui Paddlesurf Club (La Cala)** (ID and slug unchanged; registry name updated), address C/ La Butibamba 7, phone, and a summer camp for ages 5-14 (29 June-31 August, 10:00-14:00, €100/week, €30/day). Status `draft` -> `needs_fact_check`; linked one way to La Butibamba (the approved beach record was not edited). Regular hire and lesson prices remain open. Validation: 0 errors.
+
 ## 2026-11-02 - Local extension fact check, batch C: walks and nature (no schema change)
 
 `draft` -> `needs_fact_check` for 5: `dunas-de-artola` (andalucia.org: Natural Monument since 2003, three dune types, keep to marked paths), `senda-litoral-la-cala` (GR 92/E-12 overview; La Cala section details open), `paseo-maritimo-fuengirola` (only the council's 2021 cycle-lane article; `promenade_facts_thin`), `ermita-del-calvario-mijas` and `puerto-colorado-sierra-de-mijas` (Gran Senda family stage via the Via Crucis, search excerpt; 2018 municipal walk 7.5 km / 500 m; `trail_data_unread`). `mirador-del-compas` stays `draft` (no official source found). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
