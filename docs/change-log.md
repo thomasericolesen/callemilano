@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Fuengirola (centrum) re-approved (owner decision)
+
+`fuengirola-centro`: `needs_fact_check` -> `approved` by the owner after the older-people zone was added; `reopened_for_addition` closed; new `review_decision` recorded. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Older-people zone stays in Fuengirola (centrum) (owner decision)
 
 The owner decided to keep the Playa de San Francisco bathing zone for older people in `fuengirola-centro` despite San Francisco lying north of the port. Issue `reopened_for_addition` updated; the record stays `needs_fact_check` until the owner re-approves it. Validation: 0 errors.

@@ -22,3 +22,4 @@ Answers given in the session chat on 2026-11-02 (Claude asked; the owner chose f
 2. **Cabopino/Artola toilets:** "Ja, der er toiletter" - there are public toilets (owner's own local knowledge). `toilets_available: yes`.
 3. **Bathing zone for older people:** add it to `fuengirola-centro` (Playa de San Francisco) and re-open the approved record for fact check; the owner re-approves afterwards.
 4. **Older-people zone placement:** after being told that Playa de San Francisco lies north of the port while the `fuengirola-centro` point is south of it, the owner decided to keep the zone in `fuengirola-centro`.
+5. **Re-approval:** the owner re-approved `fuengirola-centro` with the older-people zone ("Ja, godkend den igen").

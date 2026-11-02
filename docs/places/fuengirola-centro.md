@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-FUENGIROLA-CENTRO-001
 slug: fuengirola-centro
 name: Fuengirola (centrum)
@@ -219,20 +219,16 @@ evidence:
   checked_by: Claude (beach follow-up 2026-11-02)
   confidence: medium
   notes: Playa de San Francisco lies between the port and Los Boliches (Malaga Hoy, secondary), i.e. north of the port, while this record's point (owner decision 2026-11-02) is south of the port. Whether San Francisco counts as part of this record's beach is for the owner. 2026 installation not confirmed.
-review_issues:
-- code: reopened_for_addition
-  severity: info
-  fields:
-  - description_long
-  - status
-  description: 'Owner decisions 2026-11-02: add the summer bathing zone for older people at Playa de San Francisco and keep it in this record although San Francisco lies north of the port and the record''s point south of it. Previous approval: 2026-11-02 by Eric Olesen (editor-of-record). Needs the owner''s re-approval; 2026 installation of the zone not confirmed (stated in the description).'
-  retryable: true
-  owner: human_editor
+review_issues: []
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
 last_verified: '2026-11-02'
 last_reviewed_at: '2026-11-02'
 next_review_at: '2027-04-01'
-review_decision: null
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: Re-approved by the owner in the session chat on 2026-11-02 after the addition of the summer bathing zone for older people at Playa de San Francisco (north of the port; 2026 installation not confirmed, as stated in the description). Earlier approval the same day on the beach approval page (docs/approval-decisions-2026-11-02.md) otherwise unchanged.
 redirects: []
 ---
