@@ -121,6 +121,14 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: no_official_source
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: No official page (Coín council, Junta de Andalucía) found for the Río Grande path on 2026-11-02. Bathing spots and safety stay undescribed until a source is found.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

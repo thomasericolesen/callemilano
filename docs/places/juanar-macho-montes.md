@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-JUANAR-MACHO-MONTES-001
 slug: juanar-macho-montes
 name: Juanar and Mirador del Macho Montés
@@ -73,12 +73,12 @@ visit_information:
 links:
   official_website: null
   booking: null
-  visitor_information: null
+  visitor_information: https://www.juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/el-macho-mont%C3%A9s/255035
   transport: null
   contact: null
 related_places: []
-description_short: 'Juanar and Mirador del Macho Montés: a forest area and viewpoint in the Sierra Blanca above Ojén, about 49 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Juanar and Mirador del Macho Montés is a forest area and viewpoint in the Sierra Blanca above Ojén. About 49 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: Viewpoint over the Mediterranean at the end of the El Juanar-Puerto Marbella trail in Sierra Blanca; about 49 min by car from Casa de la Familia.
+description_long: The Junta de Andalucía visitor window describes the Mirador del Macho Montés, also called the Puerto Rico or Marbella viewpoint, inside the Sierra Blanca Special Area of Conservation. It is the end of the signed trail "El Juanar-Puerto Marbella", more than 900 m above sea level, a balcony over the Mediterranean next to a sculpture of a mountain goat. About 49 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). By car, take the turn-off at km 23.8 of the A-355 (Monda-Marbella) towards the Refugio del Juanar; 100 m before the refuge a forest track on the left leads to a gate where the car is left, and the rest is on foot along the trail. The page does not give the walking distance, difficulty, parking or other facilities.
 seo_title: Juanar and Mirador del Macho Montés, Ojén | CalleMilano draft record
 seo_description: 'Draft record for Juanar and Mirador del Macho Montés (Ojén): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,23 @@ evidence:
   checked_by: Claude (intake pipeline 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long
+  claim: '"Enclavado en la Zona Especial de Conservación (ZEC) "Sierra Blanca" encontramos este mirador al que también se le conoce como "de Puerto Rico" o "de Marbella", constituyendo el final del sendero señalizado que hemos utilizado para llegar hasta él, denominado "El Juanar-Puerto Marbella"." / "En este mirador nos encontramos a más de 900 m de altura, disfrutando de un agradable balcón al Mediterráneo que culmina nuestra ruta senderista junto a la escultura de un macho montés"'
+  source_url: https://www.juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/el-macho-mont%C3%A9s/255035
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Junta de Andalucía page about the viewpoint only; the walking route page was not fetched.
+- field: description_long (access)
+  claim: '"Desde la carretera autonómica A-355 que une las localidades de Monda y Marbella tomamos el desvío existente en el p.k. 23''8 al Refugio del Juanar." / "Siguiendo la carretera de montaña al Juanar, y a 100 metros del Refugio, tomamos una pista forestal a la izquierda que seguiremos hasta encontrar una cancela, donde dejaremos el vehículo." / "Continuamos a pie por el trazado del sendero "El Juanar-Puerto Marbella" hasta el mirador, situado al final del sendero."'
+  source_url: https://www.juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/el-macho-mont%C3%A9s/255035
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: The gate sentence is not a stated parking facility.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,6 +126,18 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - description_long
+  - energy_level
+  - age_groups
+  - parking
+  - accessibility
+  - toilets_available
+  description: 'The Junta page covers the viewpoint, not the walking route: walking distance, time, difficulty and suitability for children are not stated. Parking and facilities (picnic area, toilets) not covered. Fetch the El Juanar-Puerto Marbella route page before assessing family suitability.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

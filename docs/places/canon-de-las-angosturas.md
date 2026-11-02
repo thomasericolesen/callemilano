@@ -121,6 +121,14 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: official_page_not_readable
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: Benahavís council page on the Río Guadalmina (https://www.benahavis.es/120/com1_md3_cd-62478/rio-guadalmina) blocks automated reading (HTTP 405; Firecrawl failed 2026-11-02). Needs an owner screenshot or another official source. River bathing and gorge safety must not be described without one.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

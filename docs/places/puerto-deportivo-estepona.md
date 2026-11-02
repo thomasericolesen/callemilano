@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-PUERTO-DEPORTIVO-ESTEPONA-001
 slug: puerto-deportivo-estepona
 name: Puerto Deportivo de Estepona
@@ -60,7 +60,7 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
   schedule: null
@@ -79,8 +79,8 @@ links:
 related_places:
 - estepona-old-town
 - playa-de-la-rada-estepona
-description_short: 'Puerto Deportivo de Estepona: Estepona''s marina, about 54 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Puerto Deportivo de Estepona is Estepona's marina. About 54 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: Estepona's marina with restaurants and leisure venues and a Sunday-morning craft market; about 54 min by car from Casa de la Familia.
+description_long: 'According to the operator''s website, the Puerto Deportivo de Estepona has 447 berths, the third largest capacity in the province. It describes the food and leisure offer inside the port as high level and a regular meeting point, and mentions a traditional craft market every Sunday morning. A news item on the page says the port has 45 businesses. About 54 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Address on the site: Torre de Control, 29680 Estepona. Parking, toilets, accessibility and costs are not stated on the page.'
 seo_title: Puerto Deportivo de Estepona, Estepona | CalleMilano draft record
 seo_description: 'Draft record for Puerto Deportivo de Estepona (Estepona): location and driving time from Casa de la Familia.'
 images: []
@@ -101,18 +101,31 @@ evidence:
   checked_by: Claude (intake pipeline 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long
+  claim: '"El Puerto Deportivo de Estepona, con 447 atraques , es el tercer puerto de la provincia en capacidad ." / "Mención aparte merece el tradicional mercadillo de artesanías que se desarrolla cada domingo por la mañana." / "mantiene su actividad comercial con 45 negocios en sus instalaciones"'
+  source_url: https://www.marinasmediterraneo.com/estepona
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Operator (Marinas del Mediterráneo) page; 45-businesses figure comes from a news item.
+- field: food_available
+  claim: '"Dentro del propio recinto portuario la oferta gastronómica y lúdica es de alto nivel , siendo punto de encuentro habitual de propios y extraños."'
+  source_url: https://www.marinasmediterraneo.com/estepona
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Marketing wording; no individual venues named.
+- field: description_long (address)
+  claim: '"Torre de Control 29680 Estepona"'
+  source_url: https://www.marinasmediterraneo.com/estepona
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: null
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,6 +136,18 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - parking
+  - toilets_available
+  - accessibility
+  - cost_level
+  - visit_information
+  - age_groups
+  description: Page covers marina facts only. Parking, toilets, accessibility, market hours and family suitability not found; no children-specific content quoted.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

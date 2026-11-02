@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-CUEVA-DEL-TESORO-001
 slug: cueva-del-tesoro
 name: Cueva del Tesoro
@@ -57,19 +57,19 @@ parking:
   source: null
   checked_at: null
 transport_options: []
-booking_required: unknown
+booking_required: true
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: 'Winter (1 Oct-30 Apr): 10:00-13:00 and 15:00-17:00. Summer (1 May-30 Sep): 10:30-13:00 and 16:30-19:00. Closed 24, 25, 31 Dec and 1, 6 Jan. Seasonal (Rincón de la Victoria tourism site, checked 2026-11-02).'
   typical_duration: null
-  booking_lead_time: null
-  valid_from: null
+  booking_lead_time: Advance booking required (online or by phone)
+  valid_from: '2026-11-02'
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: Children 0-3 free; children 4-14 EUR 4; adults 15-64 EUR 6 (Rincón de la Victoria tourism site)
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.turismoenrincon.es/cueva-del-tesoro/
   booking: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Cueva del Tesoro: a sea cave open to visitors at Rincón de la Victoria, about 43 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Cueva del Tesoro is a sea cave open to visitors at Rincón de la Victoria. About 43 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: Sea-origin cave with prehistoric remains at Rincón de la Victoria; advance booking needed. About 43 min by car from Casa de la Familia.
+description_long: 'Cueva del Tesoro is, according to the Rincón de la Victoria tourist site, one of only three caves of marine origin known in the world. Palaeolithic and Bronze Age remains and rock art were found in its galleries. About 43 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Winter season (1 October to 30 April): 10:00-13:00 and 15:00-17:00. Summer season (1 May to 30 September): 10:30-13:00 and 16:30-19:00. Closed on 24, 25 and 31 December and on 1 and 6 January. Tickets on the same page: children 0-3 free, children 4-14 EUR 4, adults 15-64 EUR 6. For safety, tickets must be booked in advance (online or by phone, 952 40 61 62). The cave is not fully accessible: most of it is low difficulty, a lift reaches the first chamber (the limit for visitors with reduced mobility), and the rest has flights of steps. Prices, hours and access are from the town''s tourism page, not a cave-owned site.'
 seo_title: Cueva del Tesoro, Rincón de la Victoria | CalleMilano draft record
 seo_description: 'Draft record for Cueva del Tesoro (Rincón de la Victoria): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,47 @@ evidence:
   checked_by: Claude (intake pipeline 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long
+  claim: '"Es una de las tres únicas cuevas de origen marino que se conocen en el mundo ." / "En las galerías de la Cueva del Tesoro se encontraron restos del Paleolítico y de la Edad de Bronce, así como muestras de Arte Rupestre."'
+  source_url: https://www.turismoenrincon.es/cueva-del-tesoro/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: null
+- field: visit_information.schedule
+  claim: '"El horario de acceso en la temporada de invierno (del 1 de octubre al 30 de abril) es de 10:00 horas a 13:00 horas y de 15:00 a 17:00 horas." / "El horario de acceso en la temporada de verano (del 1 de mayo al 30 de septiembre) es de 10:30 a 13:00 horas y de 16:30 a 19:00 horas." / "Los días 24, 25 y 31 de diciembre, y los días 1 y 6 de enero, la Cueva del Tesoro permanecerá cerrada."'
+  source_url: https://www.turismoenrincon.es/cueva-del-tesoro/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Seasonal.
+- field: visit_information.cost_basis
+  claim: '"Entrada de 0 a 3 años: Gratis" / "Entrada niños (4 a 14 años): 4 €" / "Entrada adultos (15 a 64 años): 6 €"'
+  source_url: https://www.turismoenrincon.es/cueva-del-tesoro/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Free guided visits Mon-Fri first opening hour with prior booking (max 25 people) also listed; not summarised.
+- field: booking_required
+  claim: '"Por motivos de seguridad es necesario sacar las entradas con reserva anticipada (compra on-line o llamada telefónica: 952-40-61-62)"'
+  source_url: https://www.turismoenrincon.es/cueva-del-tesoro/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: null
+- field: accessibility
+  claim: '"La Cueva del Tesoro no es accesible en su totalidad. La mayoría de la zona de la cueva son de dificultad baja." / "Existe la opción de bajar a la primera sala en ascensor, por lo que el acceso para personas con movilidad reducida se limitaría a dicha sala. El resto de la Cueva contiene diferentes tramos de escaleras."'
+  source_url: https://www.turismoenrincon.es/cueva-del-tesoro/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Accessibility ratings still need human review; structured accessibility object not changed.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,6 +150,17 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - cost_level
+  - parking
+  - toilets_available
+  - food_available
+  - accessibility
+  description: Source is the town tourism page, not a cave-owned site. Parking, toilets and food not covered. The family quote refers to the monthly guided themed visit, not the general visit, so child suitability is not set. cost_level tier and accessibility object left for human review.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

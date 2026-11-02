@@ -123,6 +123,13 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: source_covers_other_section
+  severity: info
+  fields:
+  - description_long
+  description: The Turismo Marbella page found (https://turismo.marbella.es/servicios/ruta-fotografica-de-marbella/paseo-maritimo-de-san-pedro-alcantara.html) covers the San Pedro Alcántara section, not the Marbella town section at this record's point. Find the town-section page before writing the description.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

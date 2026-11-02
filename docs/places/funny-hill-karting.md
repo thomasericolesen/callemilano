@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-FUNNY-HILL-KARTING-001
 slug: funny-hill-karting
 name: Funny Hill Karting
@@ -63,13 +63,13 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Monday to Friday 15:00-21:00; Saturdays, Sundays and public holidays 12:00-21:00. Whether this is seasonal is not stated (own website, checked 2026-11-02).
   typical_duration: null
   booking_lead_time: null
-  valid_from: null
+  valid_from: '2026-11-02'
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: EUR 20 per child, EUR 25 per adult, EUR 30 per kart, each 8 minutes (own website)
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://funnyhill.es/
   booking: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Funny Hill Karting: a go-kart track on the old Ojén road above Marbella, about 34 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Funny Hill Karting is a go-kart track on the old Ojén road above Marbella. About 34 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: Go-kart track with children's rides on the old Ojén road above Marbella; about 34 min by car from Casa de la Familia.
+description_long: 'Funny Hill Karting describes itself on its own website as a karting track with children''s attractions and hospitality. It lists bumper cars, a super jump, trampolines and more, and says the karts are safe and adaptable, so children can share the activity. About 34 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Own website opening hours: Monday to Friday 15:00-21:00; Saturdays, Sundays and public holidays 12:00-21:00. Prices listed: EUR 20 per child, EUR 25 per adult, EUR 30 per kart, each for 8 minutes. The page gives no minimum age or height for the karts. Address on the site: Carretera antigua de Ojén, Polígono 1, parcela 493, Cañada de Murta, 29610 Ojén-Marbella.'
 seo_title: Funny Hill Karting, Marbella | CalleMilano draft record
 seo_description: 'Draft record for Funny Hill Karting (Marbella): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,39 @@ evidence:
   checked_by: Claude (intake pipeline 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long
+  claim: '"Pista de karting, atracciones infantiles, hostelería y mucho más" / "Disponemos de todo tipo de atracciones infantiles como coches de choque, súper salto, camas elásticas y más." / "Comparte con tus amigos una carrera inolvidable en unos karts super seguros, adaptables y divertidos."'
+  source_url: https://funnyhill.es/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: null
+- field: visit_information.schedule
+  claim: '"De lunes a viernes de 15 a 21hs." / "Sábados, domingos y festivos de 12 a 21hs."'
+  source_url: https://funnyhill.es/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Seasonality not stated.
+- field: visit_information.cost_basis
+  claim: '"Precio: 20 € por niño - 8 minutos." / "Precio: 25 € por adulto - 8 minutos." / "Precio: 30 € por kart - 8 minutos."'
+  source_url: https://funnyhill.es/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: null
+- field: description_long (address)
+  claim: '"Dirección: Carretera antigua de Ojén, Poligono 1, parcela 493 Cañada de Murta, 29610 Ojén-Marbella ."'
+  source_url: https://funnyhill.es/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: null
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,6 +142,19 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - age_groups
+  - cost_level
+  - accessibility
+  - parking
+  - toilets_available
+  - food_available
+  - booking_required
+  description: Minimum age or height for karts is not stated on the page ('Para que también puedas compartir con los peques' only); ask the venue. Accessibility, parking, toilets, food details and booking not covered. 'hostelería' is mentioned but not described, so food_available left unknown.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

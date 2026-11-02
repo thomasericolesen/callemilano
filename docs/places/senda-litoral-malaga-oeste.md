@@ -121,6 +121,13 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: source_covers_other_section
+  severity: info
+  fields:
+  - description_long
+  description: The Málaga council page found (Paseo Litoral, El Candado-La Araña) is the eastern seafront, not the western Senda Litoral at this record's point; it also gives conflicting lengths (2,500 m vs 4 km). Find a page for the western section.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

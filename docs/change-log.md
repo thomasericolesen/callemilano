@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-02 - Agent pipeline and first pipeline batch (nature and experiences)
+
+- Owner decision: routine work moves to scripts and cheaper subagents. Added `tools/intake.py` (sweep, nearby, fetch, create, apply, checklist), `tools/templates/` (blank record, checklist page), `.claude/agents/` (`candidate-screener`, `source-reader` on Haiku; `record-writer` on Sonnet) and `docs/agent-pipeline.md`; pointer in `AGENTS.md`.
+- First batch via the pipeline: 11 new records (jardin-botanico-la-concepcion, juanar-macho-montes, canon-de-las-angosturas, rio-grande-coin, paseo-maritimo-marbella, cueva-del-tesoro, senda-litoral-malaga-oeste, funny-hill-karting, puerto-deportivo-estepona, aventura-amazonia-marbella, museo-aeronautico-malaga). Senda Litoral (30 min), Aventura Amazonia (21 min) and Museo Aeronáutico (28 min) are in the local layer, the rest in `excursions_4h` / `Tæt på`.
+- source-reader found official or own pages for 7; record-writer moved those 7 to `needs_fact_check`. Orchestrator spot-checked 12 quotes against the fetched pages (all verbatim). Still draft with a review issue: Angosturas (council page blocks automated reading), Río Grande (no official page found), Paseo Marítimo de Marbella and Senda Litoral Málaga (pages found cover other sections).
+- Not yet done: boat trips from Marbella (provider sweep and reputation screen first); Selwo Aventura already had a record.
+
 ## 2026-11-02 - One-hour band: towns and Málaga
 
 - Nine new records (IDs allocated, `excursions_4h` / `Tæt på`): puerto-banus (Excursions), san-pedro-alcantara, estepona-old-town, ojen, istan, benahavis, monda, coin, alora (City). Route-checked; descriptions checked against the Andalusian tourist board (andalucia.org) and Spain.info -> `needs_fact_check`. Parking and practical details still open; San Pedro's play-area claim has only a secondary source.
