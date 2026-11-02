@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: approved
 id: ES-AND-MAL-SANTA-ANA-DENIS-001
 slug: santa-ana-denis
 name: Restaurante Santa Ana Denis
@@ -88,8 +88,8 @@ related_places:
   note: Beachfront restaurant on Playa de Santa Ana.
 description_short: Beachfront restaurant on Playa de Santa Ana, Benalmádena Costa, serving paellas, seafood and espetos; about 27 minutes by car.
 description_long: 'Restaurante Santa Ana Denis is a beachfront restaurant on the Benalmádena Costa promenade at Playa de Santa Ana (local 4). Its own website lists paellas, seafood, grilled meat and fish on the espeto, phone 952 56 43 82, and describes the atmosphere as ideal for families and groups (the venue''s own wording, not an independent assessment). Route check: about 27 minutes from Casa de la Familia (Saturday 10:00, predicted traffic). Opening hours, season, prices, children''s facilities and accessibility are not confirmed. Prices and seasonal opening are not confirmed; check with the restaurant before visiting.'
-seo_title: Restaurante Santa Ana Denis, Benalmádena | CalleMilano draft record
-seo_description: 'Draft record for Restaurante Santa Ana Denis (Benalmádena): location, drive from Casa de la Familia and what is confirmed so far.'
+seo_title: Restaurante Santa Ana Denis, Benalmádena | CalleMilano
+seo_description: 'Restaurante Santa Ana Denis (Benalmádena): beach restaurant near Casa de la Familia, with drive time, what is confirmed and what to check before visiting.'
 images: []
 evidence:
 - field: name, municipality, food_available, links
@@ -140,19 +140,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
-review_issues:
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  description: energy_level Low is an editorial default for a restaurant visit; confirm it at editorial review.
-  retryable: false
-  owner: human_editor
+review_issues: []
 created_at: 2026-11-01
 updated_at: '2026-11-02'
 last_verified: 2026-11-01
-last_reviewed_at: null
+last_reviewed_at: 2026-11-02
 next_review_at: 2027-04-01
-review_decision: null
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: Approved by the owner on the approval page "CalleMilano godkendelse 8 poster" (saved 2026-11-02 07:08 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the family assessment of 2026-11-02. Practical details, prices and season stay unknown by owner decisions 7 and 8 (shown as "check before visiting"). SEO title and description had "draft record" removed at approval (wording only, no fact changed).
 redirects: []
 ---

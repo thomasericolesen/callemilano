@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: approved
 id: ES-AND-MAL-CHIRINGUITO-CRISTOBAL-001
 slug: chiringuito-cristobal
 name: Chiringuito Cristóbal
@@ -86,8 +86,8 @@ related_places:
   note: Beach bar on Playa La Butibamba.
 description_short: Beach bar (chiringuito) on Playa La Butibamba in La Cala de Mijas, listed by Turismo de Mijas; about 15 minutes by car from Casa de la Familia.
 description_long: 'Chiringuito Cristóbal is a beach bar on Playa La Butibamba (La Cala, Mijas), listed in the beach-bar section of the official Mijas tourism site with phone 692 899 163. Google lists it as Kiosko Cristóbal at C. Butibamba 26. Route check: about 15 minutes from Casa de la Familia (Saturday 10:00, predicted traffic). Opening hours, season, prices, menu, children''s facilities and accessibility are not confirmed by an official source; beach bars on this coast often reduce hours or close out of season, so check before going.'
-seo_title: Chiringuito Cristóbal, Mijas | CalleMilano draft record
-seo_description: 'Draft record for Chiringuito Cristóbal (Mijas): location, drive from Casa de la Familia and what is confirmed so far.'
+seo_title: Chiringuito Cristóbal, Mijas | CalleMilano
+seo_description: 'Chiringuito Cristóbal (Mijas): beach restaurant near Casa de la Familia, with drive time, what is confirmed and what to check before visiting.'
 images: []
 evidence:
 - field: name, municipality, food_available, links
@@ -138,19 +138,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
-review_issues:
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  description: energy_level Low is an editorial default for a restaurant visit; confirm it at editorial review.
-  retryable: false
-  owner: human_editor
+review_issues: []
 created_at: 2026-11-01
 updated_at: '2026-11-02'
 last_verified: 2026-11-01
-last_reviewed_at: null
+last_reviewed_at: 2026-11-02
 next_review_at: 2027-04-01
-review_decision: null
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: Approved by the owner on the approval page "CalleMilano godkendelse 8 poster" (saved 2026-11-02 07:08 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the family assessment of 2026-11-02. Practical details, prices and season stay unknown by owner decisions 7 and 8 (shown as "check before visiting"). SEO title and description had "draft record" removed at approval (wording only, no fact changed).
 redirects: []
 ---

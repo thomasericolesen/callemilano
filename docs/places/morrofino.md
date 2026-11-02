@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: approved
 id: ES-AND-MAL-MORROFINO-001
 slug: morrofino
 name: Morrofino
@@ -88,8 +88,8 @@ related_places:
   note: Short walk along the promenade to Los Álamos.
 description_short: Mediterranean restaurant on the Paseo Marítimo at Playamar, Torremolinos, with gluten-free, vegan and vegetarian options; about 29 minutes by car.
 description_long: 'Morrofino is a restaurant on the Paseo Marítimo in Playamar, Torremolinos (Paseo Marítimo 69, local 16). Its own website describes traditional and Mediterranean cooking with gluten-free, vegan and vegetarian options, opening hours 12:00-24:00 with Tuesday closed, and online table booking. Route check: about 29 minutes from Casa de la Familia (Saturday 10:00, predicted traffic), close to the 30-minute local-area limit. Prices, children''s menu, high chairs and accessibility are not confirmed by an official source. Prices and seasonal opening are not confirmed; check with the restaurant before visiting.'
-seo_title: Morrofino, Torremolinos | CalleMilano draft record
-seo_description: 'Draft record for Morrofino (Torremolinos): location, drive from Casa de la Familia and what is confirmed so far.'
+seo_title: Morrofino, Torremolinos | CalleMilano
+seo_description: 'Morrofino (Torremolinos): beach restaurant near Casa de la Familia, with drive time, what is confirmed and what to check before visiting.'
 images: []
 evidence:
 - field: name, municipality, food_available, links
@@ -140,26 +140,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
-review_issues:
-- code: driving_time_near_local_limit
-  severity: info
-  fields:
-  - driving_time_from_casa_de_la_familia
-  description: Routes API gives 29 min (Saturday 10:00), just under the 30-min local_30km limit; the Google Maps app figure may differ.
-  retryable: true
-  owner: human_editor
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  description: energy_level Low is an editorial default for a restaurant visit; confirm it at editorial review.
-  retryable: false
-  owner: human_editor
+review_issues: []
 created_at: 2026-11-01
 updated_at: '2026-11-02'
 last_verified: 2026-11-01
-last_reviewed_at: null
+last_reviewed_at: 2026-11-02
 next_review_at: 2027-04-01
-review_decision: null
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: 'Approved by the owner on the approval page "CalleMilano godkendelse 8 poster" (saved 2026-11-02 07:08 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the family assessment of 2026-11-02. Practical details, prices and season stay unknown by owner decisions 7 and 8 (shown as "check before visiting"). Acknowledged info notes, closed at approval: driving_time_near_local_limit: Routes API gives 29 min (Saturday 10:00), just under the 30-min local_30km limit; the Google Maps app figure may differ. SEO title and description had "draft record" removed at approval (wording only, no fact changed).'
 redirects: []
 ---

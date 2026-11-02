@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Six restaurants approved by the owner (no schema change)
+
+Owner decisions in `docs/approval-decisions-2026-11-02.md`. `los-marinos-paco`, `chiringuito-cristobal`, `chiringuito-los-moreno`, `la-mar-sala`, `morrofino` and `santa-ana-denis`: `needs_editorial_review` -> `approved`, with `review_decision`, `last_reviewed_at` and energy level Low confirmed; remaining info notes closed and quoted in the decision notes; "draft record" removed from SEO title/description. These are the first approved records in the catalogue. Not published. `castillo-ejido` and `la-butibamba` got no decision and stay in `needs_editorial_review`. Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Owner-approved family assessments written; eight records to editorial review (no schema change)
 
 - The owner corrected and approved the family assessment for 18 of 20 records (`docs/family-assessment-decisions-2026-11-02.md`). `age_groups` and `family_score` were written into those records, with an evidence entry each. `subjective_assessments_need_human_review` / `family_suitability_not_assessed` were closed and replaced by the info-level issue `energy_level_editorial_estimate` (energy, and for beaches the character label, still to be confirmed at editorial review). Not approved and unchanged: Chiringuito Rafael and Fuente de la Salud.
