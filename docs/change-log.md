@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 (late evening) - Directory leads: owner checklist (step 2 started)
+
+- Google sweep of the 25 unconverted rows in `data/restaurant-directory.csv` (all OPERATIONAL, 8-18 min by car). Flags: R-0109 Taco Tikka's address now shows "DA LEONE" on Google; R-0302 Chiringuito La Cubana's Google listing is named "CAMBIO DE UBICACIÓN" (moved).
+- Owner checklist published: https://claude.ai/artifact/VCrXrv5vKsUhruvVk6R9ZT (collection `choices`).
+- R-0102 Chiringuito La Mar Salá already exists as the approved record `la-mar-sala`; row status set to `konverteret` (new directory status value; `tools/trip.py` uses only `aktiv` rows, so converted rows are no longer read twice).
+
 ## 2026-11-02 (late evening) - La Sierra Restaurante = Cerrado del Águila (owner screenshot)
 
 - Owner screenshot of the own Facebook page "La Sierra Restaurante - Cerrado del Águila Golf and Resort" confirms that `la-sierra-restaurante` and `restaurante-cerrado-del-aguila` are the same venue (Google points about 10 m apart). Owner decision: keep `la-sierra-restaurante`; `restaurante-cerrado-del-aguila` archived with issue `duplicate_record` (ID kept, registry status `superseded_by_ES-AND-MAL-LA-SIERRA-RESTAURANTE-001`).
