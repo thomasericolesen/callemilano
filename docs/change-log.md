@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 (late evening) - Interactive trip agent: owner decisions (no schema change)
+
+- Recorded in `docs/webapp-byggeplan.md`: show records with status `needs_fact_check` or later in the app, non-approved ones labelled "Ikke endeligt godkendt", drafts hidden; build via GitHub connection and Claude Code; Ecco on Claude Sonnet 5.5; admins only at first. Voice v0 (phone) and the $20/month, 10-per-user-per-day caps remain proposals.
+
 ## 2026-11-02 (late evening) - Restaurants from callemilano.dk (owner instruction)
 
 - Owner instruction: the recommendations already on callemilano.dk (Lovable app "Vores Spanske Hjem", table `recommendations`) belong in the restaurant list. The site has 6 own restaurant recommendations (`kind` anbefaling) and 4 inspiration entries.

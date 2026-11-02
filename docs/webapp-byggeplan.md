@@ -1,6 +1,6 @@
 # Byggeplan: turforslag og tale i callemilano.dk
 
-Udkast 2026-11-01 til ejerens beslutning. Intet er bygget eller ændret i Lovable-projektet endnu.
+Udkast 2026-11-01. Ejerens beslutninger 2026-11-02 er indført nedenfor. Intet er bygget eller ændret i Lovable-projektet endnu (sidst ændret 2026-10-19).
 
 ## Udgangspunkt
 
@@ -106,7 +106,16 @@ Skønnet for Lovable-credits er usikkert: et credit-forbrug pr. besked afhænger
 **Billigere alternativ:** forbind Lovable-projektet med GitHub. Så kan Claude Code bygge koden her, og Lovable
 synkroniserer den uden at bruge credits til selve programmeringen.
 
-## Beslutninger til ejeren
+## Ejerbeslutninger 2026-11-02
+
+1. **Udkast-steder:** appen og turagenten viser poster med status `needs_fact_check` og senere (samme grænse som `tools/trip.py`). Poster, der ikke er godkendt, får mærkatet "Ikke endeligt godkendt". Rene udkast (`draft`) vises ikke.
+2. **Byggevej:** Lovable-projektet forbindes med GitHub; Claude Code bygger koden, og Lovable synkroniserer.
+3. **Model til Ecco:** Claude Sonnet 5.5 (kan skiftes senere).
+4. **Stemme:** telefonens gratis stemme og genkendelse først (version 0); Google Chirp senere (forslag; ikke afgjort).
+5. **Adgang:** kun admins i starten, indtil 2–3 rigtige ture er testet.
+6. **Udgiftsloft:** forslag $20/md. på Claude API og 10 turforslag pr. bruger pr. dag (ikke afgjort).
+
+## Beslutninger til ejeren (oprindeligt udkast)
 
 1. **Udkast-steder i appen:** skal poster, der ikke er godkendt, vises med "Udkast"-mærkat, eller kun godkendte?
    I dag vises intet fra repoet, fordi intet er publiceret.
