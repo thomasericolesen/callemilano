@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-02 (evening) - Restaurant price bands from own menus (owner confirmed bands)
+
+- Owner confirmed the price bands on 2026-11-02: adult main course + one drink; `€` under 15 €, `€€` 15-35 €, `€€€` over 35 €.
+- `source-reader` read 18 own-venue menu pages. 7 of them had prices: `cost_level` is now `€€` for `chiringuito-la-concha-el-palo`, `el-oceano-beach-hotel`, `la-lobezna-estepona`, `lounge-el-tropico`, `restaurante-casa-fernando-san-pedro`, `solo-beach-marbella` and `somos-de-banus`, with `visit_information.cost_basis`, `cost_checked_at` and verbatim evidence. Spot checks: La Concha (entrecot 14,00 €, caña 2,30 €) and Casa Fernando (entrecote 29.50 €) match the fetched pages.
+- Borderline cases have an info issue `cost_level_borderline` (Océano, El Trópico, Casa Fernando, Solo Beach, Somos de Banús); Somos de Banús may be `€€€` if the owner prefers.
+- No prices found on own pages: Asador Otola, Restaurante Hoyo 19, Tasca Laska, Upstairs. Blocked or unreadable: El Cachalote, Jack's Smokehouse, La Floja, El Ancla (PDF without text), Sky Bar Veramar (site moved to veramaraparthotel.com), Speakeasy, Taberna Casa Blanca. These stay `Unknown`.
+- Not changed: status, schema, categories, tags, approved records.
+
 ## 2026-11-02 - Trip planner merged with the intake pipeline (owner decisions 15-16)
 
 - Brought over from the unmerged branch `claude/awesome-clarke-tvlhrg` (work of 2026-11-01, entries below): `tools/trip.py`, `docs/trip-planner-agents.md`, `docs/webapp-byggeplan.md`, agents `alpha`, `charlie`, `ecco`, skills `/turforslag`, `/restaurant-indsamling`, `/aabningstider`, `data/holidays.csv`, `data/restaurant-areas.csv`, `data/restaurant-directory.csv` (26 Fuengirola-area leads), `trips/` (git-ignored).

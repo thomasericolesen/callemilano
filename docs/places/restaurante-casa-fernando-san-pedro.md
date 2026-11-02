@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: Tue-Sat 13:30-00:00; closed Sun-Mon (own site, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own menu: mains about 26-29,50 €; drink prices not on the page, so main plus one drink is at the upper edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.casafernandos.com/en/eng-home/
   booking: null
@@ -109,6 +109,14 @@ evidence:
   checked_by: Claude (one-hour restaurant fact check 2026-11-02)
   confidence: medium
   notes: Own website read with Firecrawl (direct quotes) on 2026-11-02.
+- field: cost_level
+  claim: '"Entrecote 29.50€"; "Sea bass 65.00€/kg"; "Seafood Paella 26.00€"'
+  source_url: https://www.casafernandos.com/en/eng-menu/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band set by orchestrator
+  confidence: high
+  notes: Menu lines quoted verbatim; name and price on adjacent lines joined with a space.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -126,6 +134,13 @@ review_issues:
   description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing. The site''s address was not read; that it is the same Casa Fernando as the Google listing on Av. del Mediterráneo 48, San Pedro, rests on the website link in the Google listing.'
   retryable: true
   owner: fact_check
+- code: cost_level_borderline
+  severity: info
+  fields:
+  - cost_level
+  description: Drink prices not on own menu page; cost_level €€ sits at the upper edge of the band.
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

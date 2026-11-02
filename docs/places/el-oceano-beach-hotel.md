@@ -61,15 +61,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own à la carte menu: mains 26-32 €; drink prices not on the page, so main plus one drink is at the upper edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.oceanohotel.com/
   booking: null
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bars fact check 2026-11-02)
   confidence: high
   notes: Homepage quoted via Firecrawl on 2026-11-02 (page modified 2026-10-25). The site calls its restaurant "award-winning"; that claim is not repeated as fact.
+- field: cost_level
+  claim: '"Fillet of Seabass 32 €"; "Thai Scented Chicken 28 €"; "Fish ‘n’ Chips 26 €"'
+  source_url: https://oceanohotel.com/restaurant/menus/a-la-carte
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band set by orchestrator
+  confidence: high
+  notes: Menu lines quoted verbatim; name and price on adjacent lines joined with a space.
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -140,6 +148,13 @@ review_issues:
   description: Not checked whether non-guests can use the Polynesian pool and pool bar, booking rules for dinner with music, or prices.
   retryable: true
   owner: fact_check
+- code: cost_level_borderline
+  severity: info
+  fields:
+  - cost_level
+  description: Drink prices not on own menu page; cost_level €€ sits at the upper edge of the band and may be €€€ with a drink.
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: '2026-11-02'
