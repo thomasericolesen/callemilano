@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Restaurant candidates near the one-hour beaches
+
+- Added `docs/one-hour-beach-restaurants-intake-2026-11-02.md`: 24 candidates near the six selected beaches, shortlisted from Google Places. Owner selects on a checklist page; no records created.
+
 ## 2026-11-02 - One-hour band: layer decision and beaches
 
 - Owner decision 12: catalogue group `Tæt på` means a route-checked drive of at most 60 min. Caminito del Rey, Sierra de las Nieves and Gibraltar moved to `Dagsture` in `data/layer-membership.csv`; note added to `AGENTS.md`; decisions 12-14 in `docs/owner-decisions-2026-11-02.md`.
