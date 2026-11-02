@@ -13,7 +13,7 @@ Start here. Details per step are in `docs/change-log.md` (entries dated 2026-11-
 - **Owner's website:** callemilano.dk is the Lovable project "Vores Spanske Hjem"; recommendations are in its database table `recommendations` (read with the Lovable MCP `query_database`, read-only use).
 
 ## State at hand-over
-- 220 records, 0 validation errors, catalog regenerated. Work is on branch `claude/vigilant-cray-dtqaxz` (PR to `main` opened 2026-11-02; merge status: check on GitHub).
+- 220 records, 0 validation errors, catalog regenerated. Work is on branch `claude/vigilant-cray-dtqaxz` (PR https://github.com/thomasericolesen/callemilano/pull/39 to `main`; check whether it is merged, and if so start from `main`).
 - Restaurants (non-bar, not archived): 68 records; 32 have `cost_level`, 36 are `Unknown`. Bars (18) are skipped by `tools/trip.py` and were not priced.
 - Price-band rule (owner decision 2026-11-01, confirmed 2026-11-02): adult main + one drink; `€` < 15 €, `€€` 15-35 €, `€€€` > 35 €. Own menu first; TheFork average price / Tripadvisor marking as a noted low-confidence fallback (owner decision 2026-11-02). Google Maps prices are never used (AGENTS.md).
 
