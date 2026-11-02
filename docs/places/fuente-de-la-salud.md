@@ -29,12 +29,14 @@ driving_time_from_casa_de_la_familia:
   checked_at: '2026-11-01'
   note: 'Routes API figure: 30 min with predicted Saturday 10:00 traffic (30 min without traffic), 20.5 km via AP-7; an avoid-tolls run gave 30 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 30 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
 age_groups:
-- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
   small_children: medium
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  children: medium
+  young_adults: medium
+  seniors: medium
 energy_level: Low
 seasonality:
 - Spring
@@ -171,17 +173,15 @@ evidence:
   checked_by: Claude (rocks rule check 2026-11-02)
   confidence: medium
   notes: 'Checked against the beach rule set by the owner on 2026-11-02 (https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md): rocks on a sand beach do not exclude it. Whether there are any rocks on this beach is not recorded and no longer matters for selection. Replaces review issue rocks_not_verified.'
-review_issues:
-- code: subjective_assessments_need_human_review
-  severity: warning
-  fields:
-  - family_score
-  - age_groups
-  - energy_level
-  - description_long
-  description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field. 2026-11-02: the owner did not approve the proposed values (see docs/family-assessment-decisions-2026-11-02.md); still open.'
-  retryable: false
-  owner: human_editor
+- field: age_groups, family_score
+  claim: 'Owner-approved family assessment: age groups Children (7-12), Young adults, Seniors; scores small_children medium, children medium, young_adults medium, seniors medium.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner approved Claude's earlier proposal in the session chat on 2026-11-02, after the rocks question was settled by the 2026-11-02 beach rule. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice.
+review_issues: []
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
 last_verified: '2026-10-29'

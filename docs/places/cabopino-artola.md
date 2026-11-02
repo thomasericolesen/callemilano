@@ -68,7 +68,7 @@ parking:
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
-toilets_available: unknown
+toilets_available: 'yes'
 food_available: unknown
 cost_level: Unknown
 visit_information:
@@ -90,7 +90,7 @@ related_places:
   relationship: nearby
   note: 'Place to eat: Chiringuito Las Dunas.'
 description_short: 'Cabopino/Artola, Marbella: Blue Flag 2026. Character (subjective): Natural (Danish: Natur). Draft; facts being checked against official sources.'
-description_long: 'Cabopino/Artola (Marbella). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): golden sand, moderate waves, about 1,200 x 30 m, high occupancy, away from built-up areas (from the Punta Ladrones developments to the Cabopino marina beach). Nudism is practised on parts of the beach; which part is not stated. Toilets and parasol/sunbed hire are listed. Places to eat: see the linked record for Chiringuito Las Dunas. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal and press sources (Marbella 2026, checked 2026-11-01): lifeguards daily 1 June-30 September and at weekends from Easter; assisted bathing with amphibious chairs from Easter to the end of September (booking 658 618 333; Cabopino named by local press). Toilets are listed only in the undated national tourism data, not yet by a dated municipal source. Owner''s own knowledge (2026-11-02): very fine sand that does not get deep quickly; nudism only on a smaller part of the beach; a small harbour area with restaurants close by. Character: Natural (Danish: Natur) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Cabopino/Artola (Marbella). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): golden sand, moderate waves, about 1,200 x 30 m, high occupancy, away from built-up areas (from the Punta Ladrones developments to the Cabopino marina beach). Nudism is practised on parts of the beach; which part is not stated. Toilets and parasol/sunbed hire are listed. Places to eat: see the linked record for Chiringuito Las Dunas. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal and press sources (Marbella 2026, checked 2026-11-01): lifeguards daily 1 June-30 September and at weekends from Easter; assisted bathing with amphibious chairs from Easter to the end of September (booking 658 618 333; Cabopino named by local press). Toilets: yes, according to the owner''s own local knowledge (2026-11-02); listed in the undated national tourism data but not on the provincial beach sheet, and not yet by a dated municipal source. Owner''s own knowledge (2026-11-02): very fine sand that does not get deep quickly; nudism only on a smaller part of the beach; a small harbour area with restaurants close by. Character: Natural (Danish: Natur) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Cabopino/Artola, Marbella | CalleMilano draft record
 seo_description: Draft record for Cabopino/Artola beach (Marbella). Facts are being checked against official sources.
 images: []
@@ -215,14 +215,15 @@ evidence:
   checked_by: Claude (beach follow-up 2026-11-02)
   confidence: medium
   notes: Read via Firecrawl on 2026-11-02 (sheet undated). Conflicts with spain.info, which lists toilets.
+- field: toilets_available
+  claim: There are public toilets at Cabopino/Artola beach.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: medium
+  notes: Owner answer in the session chat on 2026-11-02, recorded in docs/owner-decisions-2026-11-02.md. Owner's own local knowledge, not independently verified; agrees with spain.info, while the Diputación beach sheet does not list toilets.
 review_issues:
-- code: toilets_listed_but_unverified
-  severity: warning
-  fields:
-  - toilets_available
-  description: 'Toilets are listed by secondary sources (see description), but toilets_available is left unknown until a source is verified (owner decision 2026-10-29 for Cabopino/Artola; the same rule is applied to Castillo-Ejido and Fuengirola centrum). 2026-11-02: spain.info (official, undated) also lists toilets; still left unknown until a dated municipal source confirms them. 2026-11-02 (later): the Diputación de Málaga beach sheet lists showers, beach bars and parking but no toilets, so official sources now disagree; toilets_available stays unknown. Owner knowledge or Marbella''s beach department could settle it.'
-  retryable: true
-  owner: fact_check
 - code: nudist_zone_unlocated
   severity: info
   fields:

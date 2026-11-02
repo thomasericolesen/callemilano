@@ -14,7 +14,7 @@ Owner (editor-of-record) answers to the proposal in `docs/family-assessment-prop
 | `chiringuito-rafael` | **no** | unknown | unknown | unknown | unknown | - |  |
 | `el-bajondillo` | yes | medium | medium | high | high | Young adults, Seniors |  |
 | `fuengirola-centro` | yes | high | high | high | high | Small children, Children, Young adults, Seniors |  |
-| `fuente-de-la-salud` | **no** | medium | medium | medium | medium | Children, Young adults, Seniors |  |
+| `fuente-de-la-salud` | yes (later, in chat) | medium | medium | medium | medium | Children, Young adults, Seniors | Approved later on 2026-11-02 after the rocks rule |
 | `la-butibamba` | yes | medium | medium | medium | medium | Children, Young adults, Seniors | Tættere mod La Cala centrum mere børnevenligt men også bedre faciliteter (parasoller og strandsenge). |
 | `la-carihuela` | yes | medium | high | high | high | Children, Young adults, Seniors |  |
 | `la-mar-sala` | yes | medium | medium | high | medium | Children, Young adults, Seniors |  |
@@ -30,6 +30,6 @@ Questions:
 - Carvajal surface: **mixed** (sand with gravel and stones). Whether it has rocks is still open.
 - Los Álamos "young and lively": **unknown**. The claim stays out of the record.
 
-Not approved and left unchanged: Chiringuito Rafael (identity weak) and Fuente de la Salud (rocks also unknown).
+Not approved and left unchanged: Chiringuito Rafael (identity weak). Fuente de la Salud was approved later the same day in the session chat (see `docs/owner-decisions-2026-11-02.md`).
 
 Main differences from the proposal: the owner rates Boliches-Gaviotas, Cabopino-Artola, Castillo-Ejido and Fuengirola centro `high` for all four audiences, and includes young adults on most beaches ("De unge voksne er også dem med børn": the young adults are also the parents). La Butibamba was raised from `low` to `medium` for small children and seniors.
