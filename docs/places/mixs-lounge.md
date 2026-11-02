@@ -143,7 +143,7 @@ review_issues:
   fields:
   - name
   - slug
-  description: Google and Just Eat spell it "Mixs longe"; Uber Eats lists "Mixs Curry & Pizza" on the same street. Confirm the venue's own name before review; a name change keeps the ID.
+  description: 'Google and Just Eat spell it "Mixs longe"; Uber Eats lists "Mixs Curry & Pizza" on the same street. Confirm the venue''s own name before review; a name change keeps the ID. 2026-11-02: the owner does not know the place either; needs a visit or a direct contact before it can go further.'
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'

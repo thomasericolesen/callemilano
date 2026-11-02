@@ -1,11 +1,12 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-LOUNGE-EL-TROPICO-001
 slug: lounge-el-tropico
 name: Lounge El Trópico
 category: Restaurants
-tags: []
+tags:
+- Beach
 coordinates:
   latitude: 36.502223799999996
   longitude: -4.6796939
@@ -34,7 +35,10 @@ family_score:
   young_adults: unknown
   seniors: unknown
 energy_level: Low
-seasonality: []
+seasonality:
+- Spring
+- Summer
+- Autumn
 accessibility:
   overall: unknown
   mobility:
@@ -60,10 +64,10 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Daily 09:30-00:00, April to November (own website, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -71,14 +75,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: https://chiringuitoeltropico.com/
+  official_website: https://chiringuitoeltropico.com/en/home/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Lounge El Trópico: beach lounge bar, about 13 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Lounge El Trópico is a beach lounge bar at C. Reina Fabiola, 13, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'Lounge El Trópico: beach lounge bar, about 13 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Lounge El Trópico is a beach lounge bar at C. Reina Fabiola, 13, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own website: a beach bar on the Mijas Costa seafront promenade with more than 30 years in business, open continuously from 09:30 to midnight from April to November, for breakfast, lunch, dinner or a drink on the beach, with sunbeds and massage services; the menu runs from full English breakfasts to nachos, burgers and sharing platters, with cocktails, smoothies and sangria. Prices were not checked. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
 seo_title: Lounge El Trópico, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Lounge El Trópico (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +111,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: visit_information, seasonality, food_available, tags, description_long
+  claim: 'Own website: beach bar on the Mijas Costa promenade, 30+ years; open 09:30-midnight from April to November; breakfast, lunch, dinner, drinks; sunbeds and massage services; food from English breakfast to sharing platters; cocktails, smoothies, sangria.'
+  source_url: https://chiringuitoeltropico.com/en/home/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bars fact check 2026-11-02)
+  confidence: high
+  notes: Homepage quoted via Firecrawl on 2026-11-02 (page modified 2026-10-01). The site calls itself Chiringuito El Trópico; Google lists "Lounge El Tropico".
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,9 +136,16 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: prices_unknown
+  severity: info
+  fields:
+  - cost_level
+  description: Prices not checked.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

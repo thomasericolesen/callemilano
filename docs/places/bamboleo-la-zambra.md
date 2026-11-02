@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-BAMBOLEO-LA-ZAMBRA-001
 slug: bamboleo-la-zambra
 name: Bamboleo
@@ -137,18 +137,15 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: possible_overlap_la_zambra
-  severity: info
-  fields:
-  - related_places
-  description: Bamboleo belongs to La Zambra Resort (own record ES-AND-MAL-LA-ZAMBRA-RESORT-001). Owner may prefer to describe it there instead of a separate record.
-  retryable: false
-  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: 'Owner decision 2026-11-02: Bamboleo is described under La Zambra Resort (ES-AND-MAL-LA-ZAMBRA-RESORT-001) instead of having its own record. Kept as archive; the ID stays allocated.'
 redirects: []
 ---

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-EL-OCEANO-BEACH-HOTEL-001
 slug: el-oceano-beach-hotel
 name: El Oceano Beach Hotel
@@ -60,7 +60,7 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
   schedule: null
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34952587550
 related_places: []
-description_short: 'El Oceano Beach Hotel: beachfront hotel with restaurant and bar, about 17 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: El Oceano Beach Hotel is a beachfront hotel with restaurant and bar at Km 1026, C. Cádiz - Torrenueva, 31, 29649 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 17 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'El Oceano Beach Hotel: beachfront hotel with restaurant and bar, about 17 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'El Oceano Beach Hotel is a beachfront hotel with restaurant and bar at Km 1026, C. Cádiz - Torrenueva, 31, 29649 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 17 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own website: a beachfront hotel at Calle Cádiz de Torrenueva 31 (km 1026), Mijas Costa, with a restaurant that hosts live music almost every evening through the season, from piano sets to party nights, a lighter lunch menu and a pool bar at its Polynesian pool. Phone 952 587 550. Whether non-guests can use the pool bar, and prices, were not checked. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
 seo_title: El Oceano Beach Hotel, Mijas | CalleMilano draft record
 seo_description: 'Draft record for El Oceano Beach Hotel (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: food_available, links, description_long
+  claim: 'Own website: restaurant with live music almost every evening (UK and Spanish acts, e.g. piano sets by Johnny Baker, party nights) through the season; lite-bites lunch menu; pool bar at the Polynesian pool; address Km 1026, Calle Cádiz de Torrenueva 31, Mijas Costa 29649; phone +34 952 587 550.'
+  source_url: https://www.oceanohotel.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bars fact check 2026-11-02)
+  confidence: high
+  notes: Homepage quoted via Firecrawl on 2026-11-02 (page modified 2026-10-25). The site calls its restaurant "award-winning"; that claim is not repeated as fact.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,9 +132,17 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: non_guest_access_and_prices_unknown
+  severity: warning
+  fields:
+  - booking_required
+  - cost_level
+  description: Not checked whether non-guests can use the Polynesian pool and pool bar, booking rules for dinner with music, or prices.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

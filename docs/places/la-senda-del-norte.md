@@ -134,6 +134,14 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: social_page_not_read
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  description: Google links to the bar's own Instagram or Facebook page, which cannot be read without login (checked 2026-11-02). Hours and prices need checking.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: links.official_website
+  claim: Own website lafloja.com ("LAFLOJA - Vinos y Latas") gives the address Calle Larga 18, 29640 Fuengirola.
+  source_url: https://www.lafloja.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bars fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02; only the address was readable.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,6 +132,14 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: hours_and_prices_unknown
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  description: Own website confirms the address only; hours and prices need checking.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null
