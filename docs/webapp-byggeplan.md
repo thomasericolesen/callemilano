@@ -30,6 +30,13 @@ Find en tur → vælg 1–3 steder → dato + hvem (skriv ELLER 🎤 tal) → "L
    🔊 resumé læses op · turforslag vises · "Gem som PDF" / "Del" · gemmes under "Mine turforslag"
 ```
 
+## Status trin 1 (2026-11-02)
+
+- **Punkt 1 (eksport) er lavet:** `python3 tools/app_export.py` skriver `data/app-export/places.json` og `holidays.json`. Kør den efter ændringer i stedposter (afledte data som `data/place-catalog.csv`; ret aldrig i dem i hånden). Den 2026-11-02 gav den 144 steder (48 restauranter) og 28 helligdage. Kun det aktuelle område eksporteres (køretid højst 30 min eller medlem af et udflugtslag).
+- **Punkt 2 (import) er lavet på branch** `claude/vigilant-cray-dtqaxz` i app-repoet `thomasericolesen/callemilano-f388b2be` (synkroniseret med Lovable). Admin vælger `places.json` på Admin-siden. Simulering mod databasen 2026-11-02: 25 opdateres via stedets ID, 4 via Google place ID, Bioparc springes over (redaktionel side), 114 oprettes.
+- **Tekster:** nye steder kommer med postens engelske tekst (`text_language: "en"`); danske tekster, der allerede findes i appen, bevares. Dansk oversættelse er en åben opgave.
+- **Helligdage:** eksporteres nu, men tabellen i appen laves først med `planTrip` (punkt 3).
+
 ## Trin 1: turforslag med tekst
 
 1. **Eksport fra repoet:** et lille script laver `data/app-export/` (steder med status, restauranter, helligdage,
