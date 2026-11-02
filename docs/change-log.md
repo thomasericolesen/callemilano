@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 - Five more bars from owner screenshots (no schema change)
+
+- `draft` -> `needs_fact_check` (4), from the venues' own Facebook pages (`official_venue`, medium): `bar-burbujas` (late-night sparkling-wine cocktail bar, open Friday and Saturday from 22:00, "since 1986"; issue `closing_time_and_prices_unknown`), `la-terraza-de-panda` (terrace by the church on Plaza de la Constitución, open seven days from 12:00 per a post of 2 Nov 2026), `changueiro-bar-de-vinos` (hours from an undated image: Mon, Thu-Sat 12:00-16:00 and 19:00-23:30, Sun 12:00-16:00, closed Tue-Wed; `hours_conflicting` replaced by `hours_image_undated`), `red-and-white-fuengirola` (wine bar and Mediterranean restaurant; hours and prices unknown).
+- `sky-bar-veramar` stays `draft`: season and hours come only from a 2025 schedule image uploaded by a Google Maps user (`secondary`, low); per that schedule the bar is open mid-April to 31 October and closed in winter. New issue `season_from_user_photo`.
+- One-off event prices (New Year's Eve, Valentine's menu) and personal e-mail addresses not recorded. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Five bars checked from owner screenshots (no schema change)
 
 The owner supplied screenshots of Facebook pages. Facts taken from the venues' own pages (`official_venue`, medium confidence); review ratings, follower counts and personal e-mail addresses were not recorded. All three websites linked from the pages are gone (noninafuengirola.com and gruponautic.es do not resolve; cafeteatrofuengirola.com is a parked domain).
