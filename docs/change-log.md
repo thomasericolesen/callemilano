@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-02 - One-hour band: layer decision and beaches
+
+- Owner decision 12: catalogue group `Tæt på` means a route-checked drive of at most 60 min. Caminito del Rey, Sierra de las Nieves and Gibraltar moved to `Dagsture` in `data/layer-membership.csv`; note added to `AGENTS.md`; decisions 12-14 in `docs/owner-decisions-2026-11-02.md`.
+- Added to `excursions_4h` / `Tæt på`: playa-la-malagueta, selwo-aventura, mercado-de-atarazanas (existing records) and five new beach records.
+- New records (IDs allocated): playas-del-palo, playa-de-nagueles, playa-puerto-banus, playa-de-san-pedro-alcantara, playa-de-la-rada-estepona.
+- Fact check of all six selected beaches against Spain.info (Turespaña), Málaga City Council beach pages and ADEAC's Blue Flag 2026 list. All six meet the rocks rule. Blue Flag 2026: Malagueta, El Palo, Nagüeles-Casablanca, San Pedro (Guadalmina stretch); not Puerto Banús or any Estepona beach. Malagueta got coordinates and a new route check (41 min); its blocking issue is resolved.
+- Open: lifeguard seasons for 2027, Puerto Banús facilities (tourist-board page blocks automated reading), family assessments.
+
 ## 2026-11-02 - Owner selection for the one-hour band
 
 - Added `docs/one-hour-selection-2026-11-02.md`: 41 yes, 12 maybe, 1 no, read from the owner's checklist page. Avenida del Mar folds into Marbella old town, the mural route into Estepona old town, Málaga city items into `malaga`.

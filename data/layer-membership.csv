@@ -1,8 +1,8 @@
 slug,id,layer,catalogue_group,basis,note
-malaga,ES-AND-MAL-MALAGA-001,excursions_4h,Tæt på,route_checked_2026-10-15,"Moved back to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). 29.9 km straight-line; route-checked drive 36 min."
-sierra-de-las-nieves,ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
-tolox,ES-AND-MAL-TOLOX-001,excursions_4h,Tæt på,route_checked_2026-10-15,"Moved back to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). 27.7 km straight-line; route-checked drive 56 min."
-caminito-del-rey,ES-AND-MAL-CAMINITO-DEL-REY-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
+malaga,ES-AND-MAL-MALAGA-001,excursions_4h,Tæt på,route_checked_2026-10-15,Moved back to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). 29.9 km straight-line; route-checked drive 36 min.
+sierra-de-las-nieves,ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,"Moved from 'Tæt på' to 'Dagsture' per owner decision 12 (2026-11-02): 'Tæt på' means a route-checked drive of at most 60 min. Record drive time is over 60 min (editorial, not route-checked)."
+tolox,ES-AND-MAL-TOLOX-001,excursions_4h,Tæt på,route_checked_2026-10-15,Moved back to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). 27.7 km straight-line; route-checked drive 56 min.
+caminito-del-rey,ES-AND-MAL-CAMINITO-DEL-REY-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,Moved from 'Tæt på' to 'Dagsture' per owner decision 12 (2026-11-02): 'Tæt på' means a route-checked drive of at most 60 min. Routes API 2026-11-02: 71 min.
 setenil-de-las-bodegas,ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
 antequera,ES-AND-MAL-ANTEQUERA-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
 el-torcal-de-antequera,ES-AND-MAL-EL-TORCAL-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
@@ -14,10 +14,18 @@ sevilla,ES-AND-SEV-SEVILLA-001,excursions_4h,Længere væk,editorial_catalogue_n
 cordoba,ES-AND-COR-CORDOBA-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
 cadiz,ES-AND-CAD-CADIZ-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
 jerez-de-la-frontera,ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
-gibraltar,GI-GIBRALTAR-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
+gibraltar,GI-GIBRALTAR-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,"Moved from 'Tæt på' to 'Dagsture' per owner decision 12 (2026-11-02): 'Tæt på' means a route-checked drive of at most 60 min. Record drive time is over 60 min (editorial, not route-checked)."
 las-alpujarras,ES-AND-GRA-LAS-ALPUJARRAS-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
-marbella-old-town,ES-AND-MAL-MARBELLA-OLD-TOWN-001,excursions_4h,Tæt på,route_checked_2026-10-16,"Moved to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). route-checked drive 34 min. (data/route-checks-2026-10-16.csv)."
+marbella-old-town,ES-AND-MAL-MARBELLA-OLD-TOWN-001,excursions_4h,Tæt på,route_checked_2026-10-16,Moved to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). route-checked drive 34 min. (data/route-checks-2026-10-16.csv).
 ronda,ES-AND-MAL-RONDA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
 frigiliana,ES-AND-MAL-FRIGILIANA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
 baelo-claudia,ES-AND-CAD-BAELO-CLAUDIA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
 duna-de-bolonia,ES-AND-CAD-DUNA-DE-BOLONIA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
+playa-la-malagueta,ES-AND-MAL-PLAYA-LA-MALAGUETA-001,excursions_4h,Tæt på,route_checked_2026-11-01,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+selwo-aventura,ES-AND-MAL-SELWO-AVENTURA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+mercado-de-atarazanas,ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,excursions_4h,Tæt på,existing_record_route_value,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playas-del-palo,ES-AND-MAL-PLAYAS-DEL-PALO-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playa-de-nagueles,ES-AND-MAL-PLAYA-DE-NAGUELES-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playa-puerto-banus,ES-AND-MAL-PLAYA-PUERTO-BANUS-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playa-de-san-pedro-alcantara,ES-AND-MAL-PLAYA-DE-SAN-PEDRO-ALCANTARA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playa-de-la-rada-estepona,ES-AND-MAL-PLAYA-DE-LA-RADA-ESTEPONA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
