@@ -75,6 +75,35 @@ def wheelchair(d: dict) -> str:
     return {"yes": "ja", True: "ja", "no": "nej", False: "nej"}.get(v, "ukendt")
 
 
+def covers_schedule(e: dict) -> bool:
+    toks = {x.strip() for x in str(e.get("field", "")).split(",")}
+    return bool(toks & {"visit_information", "visit_information.schedule"})
+
+
+def trip_info(d: dict) -> dict:
+    """Fields the app's planTrip needs (same rules as tools/trip.py: opening_info, bars, rainy-day plan B)."""
+    vi = d.get("visit_information") or {}
+    tags = d.get("tags") or []
+    sched_dates = sorted(str(e.get("checked_at"))[:10] for e in d.get("evidence") or []
+                         if covers_schedule(e) and e.get("checked_at"))
+    text = (d.get("description_long") or "").lower()
+    contact = (d.get("links") or {}).get("contact") or ""
+    return {
+        "record_category": d["category"],
+        "municipality": d.get("municipality"),
+        "schedule": vi.get("schedule"),
+        "schedule_checked_at": sched_dates[-1] if sched_dates else None,
+        "valid_until": str(vi["valid_until"])[:10] if vi.get("valid_until") else None,
+        "needs_fixed_hours": d["category"] in ("Family activities", "Excursions") or "Museum" in tags,
+        "rainy_day": "Rainy day" in tags,
+        "is_bar": "keep an eye on your drink" in text or "take a taxi or uber" in text,
+        "phone": contact[4:] if contact.startswith("tel:") else None,
+        "booking_lead_time": vi.get("booking_lead_time"),
+        "typical_duration": vi.get("typical_duration"),
+        "updated_at": str(d.get("updated_at") or "")[:10] or None,
+    }
+
+
 def guide(d: dict, layer: str | None, drive: int | None) -> dict:
     tags = d.get("tags") or []
     themes = [THEME[t] for t in tags if t in THEME]
@@ -112,6 +141,7 @@ def guide(d: dict, layer: str | None, drive: int | None) -> dict:
                   "info": links.get("visitor_information")},
         "checked_at": checked[-1] if checked else None,
         "text_language": "en",
+        "trip": trip_info(d),
     }
 
 

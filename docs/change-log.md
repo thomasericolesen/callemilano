@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-02 (late evening) - planTrip in the app (trip agent step 1, point 3)
+
+- `tools/app_export.py`: each place's `guide` now carries a `trip` block (schedule and its check date, `valid_until`, fixed-hours need, rainy-day tag, bar flag, phone, booking lead time, typical duration). Export regenerated (144 places).
+- App repository branch `claude/vigilant-cray-dtqaxz`: `planTrip` server function and admin-only `/turforslag` page with the same rules as `tools/trip.py plan`; drizzle migration 0004 adds `public.holidays` (28 rows). Verified against `tools/trip.py` with live DGT data and the export: identical incidents and restaurant picks.
+
 ## 2026-11-02 (late evening) - App export and import (trip agent step 1, points 1-2)
 
 - New `tools/app_export.py` -> `data/app-export/places.json` (144 places, status `needs_fact_check` or later, primary area or layer membership; the app's `guide` schema) and `holidays.json` (28). Derived data; re-run after record changes.

@@ -53,7 +53,21 @@
      "info": "https://www.andalucia.org/es/alora"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Álora",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -128,7 +142,21 @@
      "info": "https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/"
     },
     "checked_at": "2026-10-29",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Antequera",
+     "schedule": "Alcazaba (Recinto Monumental): Mon-Sun and holidays 10:00-18:00, last entry 17:15; Tuesday (except holidays and eves) 14:00-18:00 with free entry. Real Colegiata de Santa María: Mon-Sun 10:00-18:00; Tuesday 14:00-18:00 free. Dolmens of Menga and Viera and of El Romeral: Tue-Sat 9:00-17:30, Sun 9:00-14:30, Monday closed (except eves of holidays), free entry; 2 Nov 9:00-14:30. The municipal page notes some changes around 1-3 Nov.",
+     "schedule_checked_at": "2026-10-29",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-29"
+    }
    }
   },
   {
@@ -178,7 +206,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Torremolinos",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -240,7 +282,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": "Seasonal. 2026 season from 1 May; daily 10:30-18:30 (July-August stated; other months per the park). Ticket offices close 1.5 h before closing, rides 15 min before closing. Closed from 14 September 2026 (homepage notice).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": "2026-09-13",
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952460404",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -301,7 +357,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": "Mon 12:00-24:00; Tue 12:00-18:00; Wed closed; Thu-Sun 12:00-24:00 (own website, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34604241785",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -354,7 +424,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -407,7 +491,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -466,7 +564,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Marbella",
+     "schedule": "Reservations office Mon-Fri 9:30-19:30; weekends, public holidays or same day 10:00-18:00 (park phone). Park opening days are in the website calendar; high season is Semana Santa, July and August (own website, checked 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": "Advance booking advised (own website)",
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -536,7 +648,21 @@
      "info": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/conjunto-arqueologico-de-baelo-claudia"
     },
     "checked_at": "2026-10-16",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Tarifa",
+     "schedule": "21 Mar–20 Jun: Tue–Sat 09:00–21:00, Sun/holidays 09:00–15:00. 21 Jun–20 Sep: Tue–Sat 09:00–15:00, Sun/holidays 09:00–15:00. 21 Sep–20 Mar: Tue–Sat 09:00–18:00, Sun/holidays 09:00–15:00. Closed Mondays (except 9 December). As published on the official Junta de Andalucía event page, which is dated 2024; reconfirm before publication since it may be outdated.",
+     "schedule_checked_at": "2026-10-16",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": "Individual visits are described as free, unscheduled access during opening hours ('acceso libre e individual'), no booking needed. Groups and guided visits require a reservation via the official page's booking link.",
+     "typical_duration": "1.5–3 hours (editorial planning estimate; guided visit length varies)",
+     "updated_at": "2026-10-16"
+    }
    }
   },
   {
@@ -584,7 +710,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -632,7 +772,21 @@
      "info": "https://www.andalucia.org/es/benahavis"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Benahavís",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -680,7 +834,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -733,7 +901,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -793,7 +975,21 @@
      "info": "https://www.bioparcfuengirola.es/en/prepare-your-visit/information-of-interest/faqs/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Fuengirola",
+     "schedule": "Open every day of the year from 10:00; closing time varies by season, ticket office closes one hour earlier (own FAQ).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "About 3 hours (own FAQ)",
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -845,7 +1041,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": true,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -906,7 +1116,21 @@
      "info": "https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -969,7 +1193,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1045,7 +1283,21 @@
      "info": "https://catedraldecadiz.com/horarios-visita-turistica/"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Cádiz",
+     "schedule": "Cathedral: Mon-Sat 10:00-20:00, Sun 13:30-20:00, last entry 19:00. Cathedral tower: Mon-Sat 10:00-20:00, Sun 12:00-15:00 and 16:00-20:00, last entry 19:30. Casa de la Contaduría: Mon-Sat 10:00-16:30. Special guided visit on 31 Oct and 1 Nov at 17:00.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -1093,7 +1345,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1170,7 +1436,21 @@
      "info": "https://caminitodelrey.info/informacion-practica/"
     },
     "checked_at": "2026-10-29",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Ardales",
+     "schedule": "Visitor reception centre (Puerto de las Atalayas): 8:00-14:30. Shuttle bus between the reception centre and the walkway exit at El Chorro: 7:40-20:00, about 15-20 min. The walk itself takes about 1 h 30 min - 2 h one way (linear route, not a loop). The operator recommends being parked at least 1 hour before the booked time. Seasonal changes are announced on the official site and its Telegram channel.",
+     "schedule_checked_at": "2026-10-29",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952470505",
+     "booking_lead_time": "Online booking (caminitodelrey.info) is the primary route, limited to 10 tickets per purchase; phone booking also available (+34 952 47 05 05), payment due on arrival. Tickets at the ticket office are sold only subject to availability — online booking in advance is effectively required, especially in high season.",
+     "typical_duration": "About 1 h 30 min - 2 h on the walkway, plus the shuttle (15-20 min) back to the car park",
+     "updated_at": "2026-10-29"
+    }
    }
   },
   {
@@ -1230,7 +1510,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1278,7 +1572,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1339,7 +1647,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1387,7 +1709,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1435,7 +1771,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1492,7 +1842,21 @@
      "info": "https://turismo.mijas.es/es/gastronomia/donde-comer/chiringuitos/chiringuito-cristobal"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34692899163",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1553,7 +1917,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Málaga",
+     "schedule": "Wed-Sun 11:30-19:00 (kitchen); closed Mon-Tue (own site, undated, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1614,7 +1992,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Málaga",
+     "schedule": "Summer: daily 11:00-17:00 and 18:00-23:30 (own site); winter hours not published.",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1676,7 +2068,21 @@
      "info": "https://www.facebook.com/chiringuitolasdunasdecabopino/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1737,7 +2143,21 @@
      "info": "https://turismo.mijas.es/es/gastronomia/donde-comer/chiringuitos/chiringuito-los-moreno"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34615673977",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1796,7 +2216,21 @@
      "info": "https://www.facebook.com/rafaelchiringuito/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1844,7 +2278,21 @@
      "info": "https://www.andalucia.org/es/coin"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Coín",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -1919,7 +2367,21 @@
      "info": "https://mezquita-catedraldecordoba.es/en/organiza-la-visita/entradas-y-horarios/"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Córdoba",
+     "schedule": "Mezquita-Catedral: on Friday 2026-10-30 the page showed 10:00-19:00 (it displays the current day's hours). Free visit Mon-Sat 8:30-9:30. Last entry half an hour before closing. Bell tower every half hour 9:30-18:30. Sunday and holiday hours were not retrieved.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "Roughly 1-2 hours for a standard self-guided visit (secondary-source estimate; not stated officially).",
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -1969,7 +2431,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2019,7 +2495,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Torremolinos",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2076,7 +2566,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Rincón de la Victoria",
+     "schedule": "Winter (1 Oct-30 Apr): 10:00-13:00 and 15:00-17:00. Summer (1 May-30 Sep): 10:30-13:00 and 16:30-19:00. Closed 24, 25, 31 Dec and 1, 6 Jan. Seasonal (Rincón de la Victoria tourism site, checked 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": "Advance booking required (online or by phone)",
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2139,7 +2643,21 @@
      "info": "https://www.juntadeandalucia.es/medioambiente/portal/areas-tematicas/espacios-protegidos/legislacion-autonomica-nacional/monumentos-naturales/monumento-natural-duna-bolonia"
     },
     "checked_at": "2026-10-16",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Tarifa",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "About 30 minutes one way (1,048 m), low difficulty, per the official trail page; longer if combined with the beach (editorial allowance).",
+     "updated_at": "2026-10-16"
+    }
    }
   },
   {
@@ -2187,7 +2705,21 @@
      "info": "https://www.andalucia.org/listing/dunas-de-artola-o-cabopino/15533102/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Nature",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2246,7 +2778,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Torremolinos",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2296,7 +2842,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2353,7 +2913,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Breakfast 09:00-12:00; bar (non-stop kitchen) and lunch 13:00-16:00; closed to the public 17:00; dinner from 20:30 (own website; days of the week and seasonality not stated)",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2406,7 +2980,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": "+34952587550",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2481,7 +3069,21 @@
      "info": "https://www.torcaldeantequera.com/informacion/como-visitar-el-torcal-de-antequera/"
     },
     "checked_at": "2026-10-29",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Nature",
+     "municipality": "Antequera",
+     "schedule": "The nature reserve has no opening hours (visit in daylight). Visitor centre Torcal Alto: Mon-Sun 9:30-17:00 according to the park's site and 9:30-17:30 according to the Antequera municipal tourism site (30-minute difference unresolved); 24, 31 Dec and 5 Jan shorter hours; 25 Dec, 1 and 6 Jan closed. The earlier 10:00-17:00 / 10:00-19:00 hours came from a secondary source and were wrong.",
+     "schedule_checked_at": "2026-10-29",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": "Self-guided visits need no booking; guided routes (e.g. 'Ruta de los Ammonites') should be booked ahead by phone or email as group sizes are limited.",
+     "typical_duration": "Green self-guided route ~45 min (1.5 km); Yellow self-guided route ~1h30 (2.8-3 km, circular); guided routes 3-5 hours.",
+     "updated_at": "2026-10-29"
+    }
    }
   },
   {
@@ -2529,7 +3131,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2577,7 +3193,21 @@
      "info": "https://www.spain.info/es/destino/estepona/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Estepona",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2634,7 +3264,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Monday closed; Tuesday 13:00-16:00 and 20:00-23:00 (own website). Wednesday to Sunday not quoted; check before visiting.",
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952468169",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2708,7 +3352,21 @@
      "info": "https://www.turismofrigiliana.es/es/la-oficina-de-turismo.html"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Frigiliana",
+     "schedule": "Museo Arqueológico, exhibition rooms and tourist office share the same hours (museum site): 16 Sep-1 Jul Mon-Fri 10:00-18:00, Sat 10:00-14:00 and 16:00-20:00, Sun 10:00-14:00; 1 Jul-15 Sep Mon-Sat 10:00-14:30 and 17:30-21:00, Sun 10:00-14:30. The tourist-office page instead gives Sat 10:00-18:00 in winter.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -2758,7 +3416,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "About 1 hour per game (own website)",
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2819,7 +3491,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2867,7 +3553,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2927,7 +3627,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -2986,7 +3700,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Marbella",
+     "schedule": "Monday to Friday 15:00-21:00; Saturdays, Sundays and public holidays 12:00-21:00. Whether this is seasonal is not stated (own website, checked 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3047,7 +3775,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Monday to Saturday 12:00-24:00 (kitchen 12:00-23:00); Sunday 12:00-19:00 (kitchen 12:00-18:00); open every day depending on weather conditions (own website; weather-dependent, not a seasonal timetable)",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34682199629",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3122,7 +3864,21 @@
      "info": "https://www.visitgibraltar.gi/see-and-do/gibraltar-nature-reserve-upper-rock"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Gibraltar",
+     "schedule": "Upper Rock Nature Reserve: 1 Oct-30 Apr opens 9:00, last ticket sale 17:15, last entry 17:45, closes 18:15. 1 May-30 Sep opens 9:30, closes 19:15. Subject to change. Cable car: ticket page shows 'Closed for refurbishment' (date of the notice unknown); normally daily 10:00-16:00 according to the same page.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -3197,7 +3953,21 @@
      "info": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Granada",
+     "schedule": "Alhambra day visit 15 Oct-31 Mar: daily 8:30-18:00 (ticket office 8:00-18:00). Night visit 15 Oct-31 Mar: Fri-Sat 20:00-21:30. Closed 25 Dec and 1 Jan. Summer (1 Apr-14 Oct): 8:30-20:00.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34858889002",
+     "booking_lead_time": "Not stated on the official page; secondary sources (not independently confirmed officially) consistently describe tickets as released roughly 3 months ahead and often selling out in high season — book as far in advance as possible.",
+     "typical_duration": "Around 3 hours for the general visit.",
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -3245,7 +4015,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3293,7 +4077,21 @@
      "info": "https://www.andalucia.org/es/istan"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Istán",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3350,7 +4148,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3403,7 +4215,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Nature",
+     "municipality": "Málaga",
+     "schedule": "Tuesday to Sunday. April to September 09:30-20:30; October to March 09:30-17:30. Closed 25 December and 1 January. Seasonal (own website, checked 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3478,7 +4304,21 @@
      "info": "https://www.jerez.es/webs-municipales/conjunto-monumental-del-alcazar/informacion/tarifas"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Jerez de la Frontera",
+     "schedule": "Alcázar de Jerez: daily 8:30-14:30 (tourist guide; the municipality's Facebook says valid from 1 March). Free Monday 13:30-14:30 in the winter season. Other sights (tourist guide, Oct 2026): Catedral Mon-Sat 10:00-19:00 (last access 18:00), Sun 13:00-19:00; Iglesia de San Miguel Mon-Sat 10:00-18:30, Sun closed; Museo Arqueológico Tue-Sat 9:00-15:00; Museo del Belén Tue-Sun 10:00-14:00.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34956149955",
+     "booking_lead_time": "Bodega tours bookable online, reportedly with same-day or next-day availability depending on capacity (via resellers; not confirmed on the bodega's own official page).",
+     "typical_duration": "Bodega tour (González Byass, if chosen as an activity) reported around 90 minutes, ending with a tasting.",
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -3526,7 +4366,21 @@
      "info": "https://www.juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/el-macho-mont%C3%A9s/255035"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Nature",
+     "municipality": "Ojén",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3583,7 +4437,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": "Mon-Fri 16:30-21:30; Sat, Sun and public holidays 12:00-21:30 (own website, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": true,
+     "is_bar": false,
+     "phone": "+34625396666",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3636,7 +4504,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3689,7 +4571,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3749,7 +4645,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3797,7 +4707,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3858,7 +4782,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Estepona",
+     "schedule": "Mon-Tue, Thu-Sat 13:00-23:00; Sun 12:00-16:30; Wednesday not listed (own site, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3925,7 +4863,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Every day 12:00-00:00 (own website, page modified 2026-10-29; no seasonal variation stated).",
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34951312241",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -3973,7 +4925,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4030,7 +4996,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34951741990",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4078,7 +5058,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4130,7 +5124,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34951311234",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4201,7 +5209,21 @@
      "info": "https://www.spain.info/en/destination/pampaneira"
     },
     "checked_at": "2026-10-15",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Nature",
+     "municipality": "Pampaneira",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-15"
+    }
    }
   },
   {
@@ -4260,7 +5282,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Torremolinos",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4317,7 +5353,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952665550",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4385,7 +5435,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Closed Mondays. Summer: Tue-Sat 12:30-22:30, Sun 12:30-17:30. Winter: Tue-Sun 10:00-18:00 (own website, read 2026-11-01; summer/winter dates not stated).",
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952661320",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4450,7 +5514,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": "Daily 09:30-00:00, April to November (own website, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4526,7 +5604,21 @@
      "info": "https://alcazabaygibralfaro.malaga.eu/es/visitas/horarios-y-tarifas/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Málaga",
+     "schedule": "Málaga Cathedral: 26 Oct–29 Mar Mon–Fri 10:30–18:30, Sat 10:30–18:00, Sun 14:00–18:00; 30 Mar–30 May Mon–Fri 10:30–19:30; 1 Jun–25 Oct Mon–Fri 10:30–20:00 (Sat/Sun unchanged). Last entry 45 min before close. Closed 25 Dec and 1 Jan. Alcazaba/Gibralfaro: winter (1 Nov–31 Mar) 9:00–18:00, summer (1 Apr–31 Oct) 9:00–20:00, last entry 1 h before close.",
+     "schedule_checked_at": "2026-10-29",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "~1–1.5 hours for the cathedral; allow extra time for the Alcazaba hill fortress",
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4593,7 +5685,21 @@
      "info": "https://turismo.marbella.es/vive/cultura/patrimonio-historico/casco-historico.html"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4643,7 +5749,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4700,7 +5820,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4750,7 +5884,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4812,7 +5960,21 @@
      "info": "https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=160"
     },
     "checked_at": "2026-11-01",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Málaga",
+     "schedule": "Monday–Saturday, 08:00–15:00 (Málaga City Council listing; recheck before visiting).",
+     "schedule_checked_at": "2026-10-04",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "45–90 minutes (editorial planning estimate)",
+     "updated_at": "2026-10-04"
+    }
    }
   },
   {
@@ -4869,7 +6031,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4927,7 +6103,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "1, 2 or 3 hours (own website)",
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -4977,7 +6167,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5025,7 +6229,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5077,7 +6295,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5129,7 +6361,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": true,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5177,7 +6423,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5225,7 +6485,21 @@
      "info": "https://www.andalucia.org/es/monda"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Monda",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5289,7 +6563,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Torremolinos",
+     "schedule": "12:00-24:00, closed Tuesday (own website, read 2026-11-01; no seasonal variation stated).",
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952185597",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5341,7 +6629,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": true,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5400,7 +6702,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Málaga",
+     "schedule": "Tuesday 10:00-20:00; Wednesday to Sunday 10:00-14:00; closed Mondays. Seasonality not stated (own website, checked 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5448,7 +6764,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5524,7 +6854,21 @@
      "info": "https://cuevadenerja.es/"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Nerja",
+     "schedule": "Cuevas de Nerja: period 1 (rest of the year) 9:15-16:30, last entry 15:30; period 2 (June-September, July, bridge holidays, Easter) 9:15-17:30, last entry 16:30. Closed 1 and 6 Jan, 15 May, 25 Dec. The Balcón de Europa is a free open viewpoint with no hours.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952521531",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -5572,7 +6916,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5620,7 +6978,21 @@
      "info": "https://www.andalucia.org/es/ojen"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Ojén",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5677,7 +7049,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952472606",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5727,7 +7113,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5777,7 +7177,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5825,7 +7239,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5881,7 +7309,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Estepona",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5937,7 +7379,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -5993,7 +7449,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6054,7 +7524,21 @@
      "info": "https://www.malaga.eu/la-ciudad/playas/la-malagueta/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Málaga",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "1–3 hours (editorial planning estimate)",
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6110,7 +7594,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6168,7 +7666,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Torremolinos",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6224,7 +7736,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Málaga",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6272,7 +7798,21 @@
      "info": "https://www.spain.info/es/destino/marbella/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6320,7 +7860,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6368,7 +7922,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Estepona",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6416,7 +7984,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6469,7 +8051,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6517,7 +8113,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6578,7 +8188,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Marbella",
+     "schedule": "Tue-Sat 13:30-00:00; closed Sun-Mon (own site, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6630,7 +8254,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952668191",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6687,7 +8325,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34622797207",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6735,7 +8387,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6811,7 +8477,21 @@
      "info": "https://turismoderonda.es/es/ronda/que_ver/cool_places,arquitectura_plazas_monumentos/puente_nuevo_de_ronda"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Ronda",
+     "schedule": "Puente Nuevo interpretation centre, valid from 1 Oct 2026 (official PDF): Mon and Sat 10:00-14:00 and 15:00-18:00; Tue-Fri 9:30-19:00; Sun and holidays 10:00-15:00. The web page says Tue-Fri 10:00-19:00 (last entry 18:30), Sun 10:00-15:00 (last entry 14:30), Mon/Sat 10:00-14:00 and 15:00-18:00 (last entry 17:30).",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -6859,7 +8539,21 @@
      "info": "https://www.spain.info/es/destino/marbella/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6919,7 +8613,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Beaches",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -6983,7 +8691,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-01",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952564382",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7033,7 +8755,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7107,7 +8843,21 @@
      "info": "https://www.selwo.es/en/horarios-y-precios/horarios"
     },
     "checked_at": "2026-11-01",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Estepona",
+     "schedule": "Check the official calendar for the chosen date; hours and activities can change.",
+     "schedule_checked_at": "2026-10-03",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-03"
+    }
    }
   },
   {
@@ -7157,7 +8907,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7205,7 +8969,21 @@
      "info": "https://www.andalucia.org/listing/la-senda-litoral-gr92-e12/21684102/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7279,7 +9057,21 @@
      "info": "https://andalucia.org/en/setenil-de-las-bodegas-information-services-setenil-de-las-bodegas"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Setenil de las Bodegas",
+     "schedule": "Not stated on the official tourism site. Two tourist offices are listed without hours: Oficina de Turismo, Calle Villa s/n (616 55 33 84) and Oficina de Turismo la Galería, C/ Constitución 25B (622 43 58 15).",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -7354,7 +9146,21 @@
      "info": "https://alcazarsevilla.org/prepara-la-visita/"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Sevilla",
+     "schedule": "Real Alcázar: 1 Oct-31 Mar 9:30-17:00 (clearing starts 17:45); 1 Apr-30 Sep 9:30-19:00 (clearing 19:45).",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "About 75 minutes for the cathedral visit.",
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -7429,7 +9235,21 @@
      "info": "https://sierradelasnieves.es/planifica/oficinas-de-turismo/"
     },
     "checked_at": "2026-10-15",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Nature",
+     "municipality": "Sierra de las Nieves",
+     "schedule": "Oficina de Turismo de El Burgo (per the Mancomunidad's own site): Wed-Thu 09:00-15:00, Fri-Sat 10:00-14:00 and 16:00-18:00, Sun 09:00-13:00, closed Mon-Tue. A new purpose-built national-park visitor centre at 'Conejeras' was reported under construction in 2025; whether it has opened as of 2026-10-15 is unconfirmed.",
+     "schedule_checked_at": "2026-10-15",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34658034452",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-15"
+    }
    }
   },
   {
@@ -7481,7 +9301,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34692425385",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7542,7 +9376,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Marbella",
+     "schedule": "Daily 09:00-21:00 (own site, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7599,7 +9447,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Marbella",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7651,7 +9513,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": true,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7699,7 +9575,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7760,7 +9650,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Marbella",
+     "schedule": "Daily 09:00-22:45 (group website, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7833,7 +9737,21 @@
      "info": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/visitas-al-castillo-de-guzman-el-bueno-tarifa-cadiz"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Tarifa",
+     "schedule": "Castillo de Guzmán el Bueno (Junta de Andalucía page, last changed 2025-02-11): Wed-Sun 10:00-16:00 (entry closes 15:15); Mon and Tue closed.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -7894,7 +9812,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Málaga",
+     "schedule": "Mon, Thu-Sun 12:00-00:00 (kitchen 12:00-23:00); closed Tue-Wed (own site, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -7944,7 +9876,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -8012,7 +9958,21 @@
      "info": "https://andalucia.org/en/tolox-health-and-beauty-balneario-de-tolox-2"
     },
     "checked_at": "2026-11-01",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Excursions",
+     "municipality": "Tolox",
+     "schedule": "Season 1 June - 16 October (spa's own site, re-read 2026-10-29). Closed for the season as of 29 October 2026. Dates for 2027 not published on the page.",
+     "schedule_checked_at": "2026-10-29",
+     "valid_until": "2026-10-16",
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952487091",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-29"
+    }
    }
   },
   {
@@ -8069,7 +10029,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": "Monday-Sunday 16:00-22:00 (own website, read 2026-11-02).",
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": true,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -8145,7 +10119,21 @@
      "info": "https://turismovejer.es/turismo-monumental/"
     },
     "checked_at": "2026-10-30",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Vejer de la Frontera",
+     "schedule": "Tourist office: Mon-Sat 10:00-14:00 and 16:00-18:00, Sun 10:00-14:00. Museo de Vejer (Palacio del Marqués de Tamarón): Tue-Sun 10:30-14:00 and 17:00-20:00. Museo Municipal de Costumbres y Tradiciones: Tue-Sat 10:30-14:00 and 17:00-20:00 (Mon and Sun closed). Castle: Sat and Sun 11:00-14:00 only. Iglesia del Divino Salvador: phone 660 650 066. Casa del Mayorazgo temporarily closed.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-30"
+    }
    }
   },
   {
@@ -8202,7 +10190,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   },
   {
@@ -8254,7 +10256,21 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en"
+    "text_language": "en",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": true,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-02"
+    }
    }
   }
  ]
