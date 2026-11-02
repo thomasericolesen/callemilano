@@ -14,7 +14,7 @@ Start here. Details per step are in `docs/change-log.md`; owner decisions 1-16 i
 - Old branch `claude/awesome-clarke-tvlhrg` is superseded by this merge; it can be closed without merging (its Fuengirola change was wrong for the beach record).
 
 ## Next, in suggested order
-1. **Restaurant price bands (started 2026-11-02 evening):** 7 records now have `cost_level` from own menus (all `€€`). Still `Unknown`: the 7 approved restaurant records (owner only), records with only social media or no site, and 11 own-site venues without readable prices (list in `docs/change-log.md`). Next: try TheFork/Tripadvisor € markings as a noted fallback (allowed by `docs/trip-planner-agents.md`), and the new Veramar Sky Bar URL.
+1. **Restaurant price bands (2026-11-02 evening):** 23 non-approved restaurant records now have `cost_level` (7 from own menus, 16 from TheFork/Tripadvisor as noted fallback). Waiting for owner: approval of `docs/cost-level-proposals-2026-11-02.md` (5 approved records), and whether Somos de Banús should be `€€€`. Still `Unknown`: 12 non-bar records listed in `docs/change-log.md` (identity checks for Juanito Juan and Cerrado del Águila / La Sierra first).
 2. **Convert directory leads:** turn the 26 rows in `data/restaurant-directory.csv` into records (`intake.py sweep` by name -> owner checklist -> `create` -> fact check), then mark the rows as converted.
 3. **First real `/turforslag`** with a local beach and Fuengirola town, to test end to end.
 4. **Open sources:** Angosturas (council page blocks robots), Río Grande Coín (no official page), Paseo Marítimo de Marbella and Senda Litoral Málaga (pages found cover other sections), Puerto Banús beach facilities, Juanar walking route.

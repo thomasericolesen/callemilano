@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: Wed-Sun 11:30-19:00 (kitchen); closed Mon-Tue (own site, undated, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: No prices on own site; Tripadvisor price marking "€€ - €€€" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35.
+  cost_checked_at: '2026-11-02'
 links:
   official_website: http://www.chiringuitoelcachalote.com/
   booking: null
@@ -109,6 +109,14 @@ evidence:
   checked_by: Claude (one-hour restaurant fact check 2026-11-02)
   confidence: high
   notes: Own website read with Firecrawl (direct quotes) on 2026-11-02.
+- field: cost_level
+  claim: '"€€ - €€€"'
+  source_url: https://www.tripadvisor.es/Restaurant_Review-g187438-d4788282-Reviews-Chiringuito_El_Cachalote-Malaga_Costa_del_Sol_Province_of_Malaga_Andalucia.html
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band set by orchestrator
+  confidence: low
+  notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of tripadvisor.es listing. Name and town match (Málaga).
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -126,6 +134,13 @@ review_issues:
   description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing.'
   retryable: true
   owner: fact_check
+- code: cost_level_secondary_source
+  severity: info
+  fields:
+  - cost_level
+  description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

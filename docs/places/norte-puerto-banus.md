@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: No prices on own site; Tripadvisor price marking "$$ - $$$" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35.
+  cost_checked_at: '2026-11-02'
 links:
   official_website: null
   booking: null
@@ -101,6 +101,14 @@ evidence:
   checked_by: Claude (one-hour restaurant intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: cost_level
+  claim: '"$$ - $$$"'
+  source_url: https://www.tripadvisor.com/Restaurant_Review-g1207898-d23587297-Reviews-or30-Norte-Puerto_Banus_Marbella_Costa_del_Sol_Province_of_Malaga_Andalucia.html
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band set by orchestrator
+  confidence: low
+  notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of the tripadvisor.com listing 'NORTE, Puerto Banus'. The .com site shows the marking with '$' symbols. Name and town match.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -127,6 +135,13 @@ review_issues:
   - description_long
   - visit_information
   description: No own website (or only a Facebook page) in the Google listing. Needs the owner's screenshots of the venue's own page or menu, or a visit.
+  retryable: true
+  owner: human_editor
+- code: cost_level_secondary_source
+  severity: info
+  fields:
+  - cost_level
+  description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
