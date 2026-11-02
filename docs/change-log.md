@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Season calendar, first draft (step 3, no records)
+
+Added `docs/season-calendar-draft.md` with the 8 selected events by month: fixed 2027 dates for Noche de San Juan (23-24 June, Benalmádena tourism), Feria de San Juan Arroyo de la Miel (24-29 June), Virgen del Carmen (16 July) and Feria del Rosario (6-12 October, 'always'); Semana Santa 2027 from the computed Easter date; Carnaval, Feria de Mijas (2026: 7-12 September), Reyes and Christmas await the councils' 2027 announcements. No place record changed.
+
 ## 2026-11-02 - Practical page: emergency info left to the website note (owner)
 
 The owner already has a note on emergency numbers and A&E on the website. `docs/practical-information-draft.md` now refers to it; the emergency numbers and the hospital entry moved to an appendix for comparison only. Recorded as owner decision 11.
