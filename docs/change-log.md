@@ -6,7 +6,7 @@
 - Created draft records for the 5 missing own recommendations: `cafe-nomad-fuengirola`, `heladeria-casa-esteban-fuengirola`, `marvelous-burger-fuengirola`, `utopia-la-cala`, `venta-los-condes` (10-25 min), and for the inspiration entry `restaurante-sheriff` (12 min; it had only a hand-written page in `docs/published/`). Each owner text is quoted verbatim in an owner-knowledge evidence entry and summarised in `description_long`; the same was added to the existing `asador-otola`.
 - `restaurante-sheriff`: blocking issue `possibly_closed` (Google CLOSED_TEMPORARILY; Mijas Tourism note cited on the gold page).
 - TheFork/Tripadvisor price lookup for 23 new records: 9 markings found (5 identity-confirmed by address), 14 none. Not applied yet: the orchestrator spot check could not run (Firecrawl credits exhausted; Tripadvisor blocks curl). Results listed in `docs/handoff-next-session.md`.
-- Not converted: inspiration entries Casas Cuevas Almagruz, Castillo de Monda and El Molino del Santo (hotels 45 min-2 h away; excursion layers) pending owner decision.
+- Owner decision 2026-11-02: Casas Cuevas Almagruz, Castillo de Monda and El Molino del Santo are not standalone excursions; they are visited for their restaurants, and other facilities are for hotel guests only. Created as `Restaurants` draft records in layer `excursions_4h`: `castillo-de-monda` (35 min, Tæt på, nearby Monda), `molino-del-santo` (105 min, Dagsture, nearby Ronda), `casas-cuevas-almagruz` (120 min, Længere væk; ID namespace corrected to `ES-AND-GRA` right after allocation). Info issue `guest_only_facilities` on each.
 
 ## 2026-11-02 (late evening) - Directory leads: owner checklist (step 2 started)
 
