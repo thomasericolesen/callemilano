@@ -1,5 +1,43 @@
 # Change log
 
+## 2026-11-02 - Six restaurants approved by the owner (no schema change)
+
+Owner decisions in `docs/approval-decisions-2026-11-02.md`. `los-marinos-paco`, `chiringuito-cristobal`, `chiringuito-los-moreno`, `la-mar-sala`, `morrofino` and `santa-ana-denis`: `needs_editorial_review` -> `approved`, with `review_decision`, `last_reviewed_at` and energy level Low confirmed; remaining info notes closed and quoted in the decision notes; "draft record" removed from SEO title/description. These are the first approved records in the catalogue. Not published. `castillo-ejido` and `la-butibamba` got no decision and stay in `needs_editorial_review`. Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Owner-approved family assessments written; eight records to editorial review (no schema change)
+
+- The owner corrected and approved the family assessment for 18 of 20 records (`docs/family-assessment-decisions-2026-11-02.md`). `age_groups` and `family_score` were written into those records, with an evidence entry each. `subjective_assessments_need_human_review` / `family_suitability_not_assessed` were closed and replaced by the info-level issue `energy_level_editorial_estimate` (energy, and for beaches the character label, still to be confirmed at editorial review). Not approved and unchanged: Chiringuito Rafael and Fuente de la Salud.
+- Owner knowledge added to descriptions with evidence entries: Cabopino-Artola (very fine sand, not deep quickly, nudism only on a smaller part, small harbour with restaurants), Castillo-Ejido (Marenostrum concert venue is part of the area), La Butibamba (towards La Cala centre more child-friendly, with parasols and sunbeds), Carvajal (mixed sand, gravel and stones).
+- Status `needs_fact_check` -> `needs_editorial_review` for the eight records left with only info-level issues: Castillo-Ejido, La Butibamba, Los Marinos Paco, Chiringuito Cristóbal, Chiringuito Los Moreno, La Mar Salá, Morrofino and Santa Ana Denis. Not approved; the editor-of-record decides.
+- Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Family assessment proposal for beaches and restaurants (proposal only)
+
+Added `docs/family-assessment-proposal-2026-11-02.md`: proposed `age_groups` and `family_score` for the 12 local beaches and 8 restaurants (owner decisions 2 and 6), with the rubric and the sourced facts behind each value. No record was changed; the values wait for the owner's corrections. Progress note added to `docs/approval-decisions-2026-11-01.md`.
+
+## 2026-11-02 - Beaches: Google Maps links, official beach data, unsourced claims removed (draft, no schema change)
+
+Next-session step 3 from `docs/approval-decisions-2026-11-01.md`, for the 12 active local beaches.
+
+- Google Maps links: `google_maps_url` and `external_ids.google_place_id` from Google Places API (New), with a `maps_identity` evidence entry; `google_maps_url_missing` closed. Boliches-Gaviotas uses the Playa de las Gaviotas listing (the record point is on it); Castillo-Ejido uses Playa del Ejido (about 180 m from the point, which is at the Castillo Sohail).
+- New warning `coordinates_far_from_named_beach` on Fuengirola centro: the accepted point lies about 2.5 km north-east of Google's "Playa de Fuengirola" (by the centre and port) and north of the Boliches-Gaviotas point. Coordinates not changed; owner to check.
+- Sand, size, waves, occupancy and listed services now come from spain.info (Turespaña official tourism portal, data from the national beach guide, undated). For Fuente de la Salud the source is andalucia.org (Junta de Andalucía), which also gives adapted toilets (`toilets_available: yes`). All evidence entries without a source URL were removed together with their claims in `description_long`: snapshot child-friendliness statements ("often recommended for children", "family-oriented", gentle slope), the anecdotal Facebook replies, unnamed or unverified beach bars, and unsourced "nearby" items. Beach descriptions now name only verified restaurant records ("see the linked record").
+- Notable differences from the old snapshot: Carvajal is listed as dark sand with gravel and cobbles (*bolos*), not "fine golden sand" (noted on `rocks_not_verified`); Castillo is white sand with a fenced dog-beach section; La Butibamba is listed as dark sand, while the owner's own knowledge (stones) is kept and the difference stated.
+- Closed: `secondary_sources_unverified`, `source_urls_missing`, `snapshot_restaurant_misidentified` (Castillo-Ejido), `snapshot_restaurants_wrong_beach` (La Carihuela), `lively_atmosphere_not_rated` (Los Álamos; the claim had no source). `description_short`/`seo_description` no longer call the record a snapshot draft.
+- Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
+## 2026-11-02 - Owner decisions 1, 3, 4, 5, 7 and 8 applied to beaches and restaurants (draft, no schema change)
+
+Applied the owner answers of 2026-11-01 (`docs/approval-decisions-2026-11-01.md`) to the 12 active local beaches and 8 restaurants. Each record gets one evidence entry per decision, pointing to the decisions file (`source_type: secondary`, the nearest schema value, with a note that it is an editor decision, not an external source). Status values are unchanged.
+
+- Decision 1 (all 12 beaches): owner-read Google marker accepted as the place point; `coordinates.source` and the drive-time note updated; `route_and_coordinates_owner_measured` closed.
+- Decision 3 (all 12 beaches): `seasonality` = `Spring`, `Summer`, `Autumn`; `seasonality_unknown` closed.
+- Decision 4: no rocks for Boliches-Gaviotas, Cabopino-Artola, Castillo-Ejido, Fuengirola centro and La Butibamba (`rocks_not_verified` closed; description updated). La Butibamba: owner clarified on 2026-11-02 that it is a stone beach (walnut- to plum-sized stones), not a rocky one; `rock_claim_source_conflict` closed. For Carvajal, El Bajondillo, Fuente de la Salud, La Carihuela, Los Álamos, Playamar and Santa Ana the owner does not know, so `rocks_not_verified` stays open with that noted. The old unsourced "rocks not mentioned" evidence entries were removed in all 12 beaches.
+- Decision 5 (all 12 beaches): practical details deliberately unknown; `practical_details_out_of_scope` closed and the decision kept as an evidence entry.
+- Decision 7 (8 restaurants): prices and season stay unknown with a "check before visiting" sentence in `description_long`; `season_and_prices_unverified` closed. Chiringuito Las Dunas keeps `winter_opening_unclear`.
+- Decision 8 (8 restaurants): practical details deliberately unknown; `practical_details_unverified` closed. Los Marinos Paco keeps its venue-confirmed `dog_friendly: partial` and `booking_required: false`.
+- Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-01 - Owner approval decisions recorded (not yet applied)
 
 The owner answered eight shared approval questions for the local beaches and restaurants (coordinates, family assessment, seasonality, rocks per beach, out-of-scope practical details, restaurant prices and season). Answers and the next-session plan are in `docs/approval-decisions-2026-11-01.md`. No record was changed in this entry.

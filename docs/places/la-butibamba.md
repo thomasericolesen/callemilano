@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-LA-BUTIBAMBA-001
 slug: la-butibamba
 name: La Butibamba
@@ -12,10 +12,11 @@ coordinates:
   longitude: -4.6843
   purpose: representative_point
   label: Google Maps marker (owner-read); not a parking point
-  source: Google Maps marker, read by Eric Olesen (owner); not an official source
+  source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
-google_maps_url: null
-external_ids: {}
+google_maps_url: https://maps.google.com/?cid=3068443427371340071
+external_ids:
+  google_place_id: ChIJSyJm-TQecw0RJ9HZNQpNlSo
 municipality: Mijas
 province: Málaga
 autonomous_community: Andalusia
@@ -26,15 +27,21 @@ driving_time_from_casa_de_la_familia:
   destination: La Butibamba, Mijas, Málaga, Spain (Google Maps marker, not a parking point)
   source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.5002,-4.6843); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5002%2C-4.6843&travelmode=driving
   checked_at: '2026-11-01'
-  note: 'Routes API figure: 15 min with predicted Saturday 10:00 traffic (15 min without traffic), 6.8 km via Arrabal Sector 13; an avoid-tolls run gave 15 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 16 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv.'
-age_groups: []
+  note: 'Routes API figure: 15 min with predicted Saturday 10:00 traffic (15 min without traffic), 6.8 km via Arrabal Sector 13; an avoid-tolls run gave 15 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 16 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
+age_groups:
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: medium
+  children: medium
+  young_adults: medium
+  seniors: medium
 energy_level: Low
-seasonality: []
+seasonality:
+- Spring
+- Summer
+- Autumn
 accessibility:
   overall: 'No assisted-bathing point at La Butibamba in 2026: Mijas places its adapted-beach posts at La Cala, El Bombo, Riviera and La Luna. Route, toilets and other accessibility details are not specified.'
   mobility:
@@ -83,10 +90,10 @@ related_places:
 - id: ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001
   relationship: nearby
   note: 'Place to eat: Chiringuito Los Moreno.'
-description_short: 'La Butibamba, Mijas: no Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'La Butibamba (Mijas). Not on the ADEAC Blue Flag 2026 list, so no indirect water-quality indication. Narrow beach, about 1,300 x 20 m, high occupancy. Owner (Eric): no rocks, only stones (walnut- to plum-sized). Play area. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Chiringuito Cristobal and Chiringuito Los Moreno (La Butiplaya). Nearby: Same area as La Cala. Rocks: owner states none, only stones; see review issues. Municipal sources (Mijas 2026, checked 2026-11-01): lifeguards daily 1 June-30 September 11:00-20:00 (local press: two towers at this beach and weekend cover in May and October); no assisted-bathing point at this beach (nearest: La Cala). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_short: 'La Butibamba, Mijas: no Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
+description_long: 'La Butibamba (Mijas). Not on the ADEAC Blue Flag 2026 list, so no indirect water-quality indication. Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): about 1,300 x 20 m, calm water, high occupancy, urban, joined to La Cala beach by the same shore; showers and parasol/sunbed hire are listed. The portal lists the composition as dark sand, but the owner''s own knowledge is that the beach is walnut- to plum-sized stones rather than sand. Places to eat: see the linked records for Chiringuito Cristóbal and Chiringuito Los Moreno. Rocks: none - it is a stone beach, not a rocky one (owner''s own knowledge, 2026-11-01). Municipal sources (Mijas 2026, checked 2026-11-01): lifeguards daily 1 June-30 September 11:00-20:00 (local press: two towers at this beach and weekend cover in May and October); no assisted-bathing point at this beach (nearest: La Cala). Owner''s own knowledge (2026-11-02): the end towards La Cala centre is more child-friendly and has better facilities (parasols and sunbeds). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: La Butibamba, Mijas | CalleMilano draft record
-seo_description: Draft record for La Butibamba beach (Mijas). Based on a dated secondary-source snapshot; facts are under verification.
+seo_description: Draft record for La Butibamba beach (Mijas). Facts are being checked against official sources.
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -105,30 +112,6 @@ evidence:
   checked_by: claude-sonnet-5-5 (draft 2026-10-29)
   confidence: medium
   notes: '[partial] Corroborating source, read via a WebFetch summary on 2026-10-29 (article not read in full). Supports the ADEAC check; does not replace it.'
-- field: description_long (sand, size, waves, occupancy)
-  claim: 'Narrow beach, about 1,300 x 20 m, high occupancy. Owner (Eric): no rocks, only stones (walnut- to plum-sized).'
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Source per snapshot: Idealista/MAPAMA, ''Playas de Mijas'', and Mancomunidad (per snapshot sources). URL not recorded in the snapshot. Not rechecked 2026-10-29.'
-- field: description_long (children, facilities, restaurants, experiences)
-  claim: Play area. | Chiringuito Cristobal and Chiringuito Los Moreno (La Butiplaya). | Same area as La Cala.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
-- field: description_long (rocks)
-  claim: Owner (Eric) states no rocks, only stones (walnut- to plum-sized); one tourist page mentions rock formations, which the owner rejected.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Owner decision recorded in the snapshot. Not checked against an independent source.'
 - field: driving_time_from_casa_de_la_familia
   claim: 'One-way drive from Casa de la Familia to La Butibamba, Mijas, Málaga, Spain (Google Maps marker, not a parking point): 15 min, 6.8 km (Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5002%2C-4.6843&travelmode=driving
@@ -161,84 +144,71 @@ evidence:
   checked_by: Claude (beach fact check 2026-11-01)
   confidence: high
   notes: Ayuntamiento de Mijas press release 2026-06-03, read 2026-11-01.
+- field: coordinates
+  claim: The owner accepts the Google Maps marker coordinates read on 2026-07-18 as this beach's place point.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
+- field: seasonality
+  claim: Beach seasonality is Spring, Summer and Autumn (same for all local beaches).
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
+- field: description_long (rocks, stones)
+  claim: No rocks or rock formations; the beach is a stone beach with walnut- to plum-sized stones. The tourist page that mentions rock formations is rejected.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decision 4, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Owner clarified in chat 2026-11-02: no rocks, but it is a stone beach. Owner''s own local knowledge, not independently verified.'
+- field: parking, transport_options, dog_friendly, cost_level, booking_required, food_available, visit_information
+  claim: 'Parking, transport, dogs, cost, booking and food are deliberately left unknown for beaches: adults look these up themselves.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+- field: google_maps_url, external_ids
+  claim: Google Places lists 'Playa de la Butibamba' (Playa de la Butibamba, P.º Mediterráneo, 6, 29649 Las Lagunas de Mijas, Málaga, España), place ID ChIJSyJm-TQecw0RJ9HZNQpNlSo, about 109 m from the record coordinates.
+  source_url: https://maps.google.com/?cid=3068443427371340071
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (Places API lookup 2026-11-02)
+  confidence: high
+  notes: Google Places API (New) searchText/searchNearby on 2026-11-02. Maps establishes identity and position only, not facilities or suitability.
+- field: description_long (sand, size, waves, occupancy, services)
+  claim: 'La Butibamba: composition sand, dark; calm waters; 1300 x 20 m; high occupancy; urban; next to the Cala del Moral stream, continuous with La Cala Mijas beach; services: parasol/sunbed/water-craft hire, showers, tourist office, bins, cleaning.'
+  source_url: https://www.spain.info/en/beach/butibamba/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (official beach data 2026-11-02)
+  confidence: medium
+  notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
+- field: age_groups, family_score
+  claim: 'Owner-approved family assessment: age groups Children (7-12), Young adults, Seniors; scores small_children medium, children medium, young_adults medium, seniors medium.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. Owner note: Tættere mod La Cala centrum mere børnevenligt men også bedre faciliteter (parasoller og strandsenge).. '
+- field: description_long (owner knowledge)
+  claim: 'Owner: towards La Cala centre the beach is more child-friendly and has better facilities (parasols and sunbeds).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: medium
+  notes: Owner's own local knowledge, given with the family assessment on 2026-11-02; not independently verified.
 review_issues:
-- code: route_and_coordinates_owner_measured
-  severity: warning
-  fields:
-  - coordinates
-  - driving_time_from_casa_de_la_familia
-  description: 'Coordinates were read by the owner from Google''s marker (2026-07-18) and are not an official visitor point. Driving time was route-checked with Google Routes API on 2026-11-01 (Saturday 10:00 predicted traffic) to those coordinates, so it inherits the marker''s precision. local_30km rule (owner decision 2026-10-29): at most 30 min by Google''s main figure.'
-  retryable: true
-  owner: fact_check
-- code: google_maps_url_missing
-  severity: info
-  fields:
-  - google_maps_url
-  description: No Maps link recorded on this draft.
-  retryable: true
-  owner: fact_check
-- code: subjective_assessments_need_human_review
-  severity: warning
-  fields:
-  - family_score
-  - age_groups
-  - energy_level
-  - description_long
-  description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
-  retryable: false
-  owner: human_editor
-- code: secondary_sources_unverified
-  severity: warning
-  fields:
-  - description_long
-  - toilets_available
-  - accessibility
-  - evidence
-  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
-  retryable: true
-  owner: fact_check
-- code: source_urls_missing
-  severity: warning
-  fields:
-  - evidence
-  description: The snapshot records source names, not URLs, for beach facts. Add URLs before fact check.
-  retryable: true
-  owner: fact_check
-- code: rocks_not_verified
-  severity: warning
-  fields:
-  - description_long
-  description: Rock status rests on the owner's decision; see rock_claim_source_conflict.
-  retryable: true
-  owner: fact_check
-- code: seasonality_unknown
-  severity: warning
-  fields:
-  - seasonality
-  description: The snapshot gives no seasonal information; left empty rather than guessed.
-  retryable: true
-  owner: fact_check
-- code: practical_details_out_of_scope
-  severity: info
-  fields:
-  - parking
-  - transport_options
-  - dog_friendly
-  - cost_level
-  - booking_required
-  - food_available
-  - visit_information
-  description: 'Parking and other practical details are intentionally left unknown (owner decision: adults look these up themselves).'
-  retryable: false
-  owner: human_editor
-- code: rock_claim_source_conflict
-  severity: warning
-  fields:
-  - description_long
-  - tags
-  description: 'One tourist page mentions rock formations; the owner rejected that claim (recorded in the 2026-10-15 snapshot: no rocks, only stones). Editor decision, not independently verified. Rocks exclude a beach under the project criterion.'
-  retryable: false
-  owner: human_editor
 - code: no_blue_flag_2026
   severity: info
   fields:
@@ -246,8 +216,16 @@ review_issues:
   description: Not on the ADEAC 2026 list, so there is no indirect water-quality indication (Blue Flag is used as proxy; NAYADE is not available).
   retryable: false
   owner: human_editor
+- code: energy_level_editorial_estimate
+  severity: info
+  fields:
+  - energy_level
+  - description_long
+  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
+  retryable: false
+  owner: human_editor
 created_at: '2026-10-29'
-updated_at: '2026-10-29'
+updated_at: '2026-11-02'
 last_verified: '2026-10-29'
 last_reviewed_at: null
 next_review_at: null

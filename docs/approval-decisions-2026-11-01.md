@@ -24,3 +24,12 @@ Owner (editor-of-record) answers, given on the checklist page "CalleMilano godke
 5. Still open beyond these decisions: Santa Ana lifeguard/facility cover (`santa_ana_not_named_in_2026_service`), Cabopino nudist zone and toilets, La Butibamba rock-claim source conflict, Chiringuito Rafael weak identity source, Las Dunas winter opening, the six legacy import drafts' identities.
 
 Run `python3 tools/places.py validate` (currently 68 records, 0 errors) and `python3 tools/places.py catalog` after record changes.
+
+## Progress 2026-11-02
+
+- Step 1 done: decisions 1, 3, 4, 5, 7 and 8 applied (see `docs/change-log.md`). La Butibamba: owner clarified it is a stone beach, not rocky; the rock conflict is closed.
+- Step 2: proposal in `docs/family-assessment-proposal-2026-11-02.md`, waiting for the owner's corrections. Not written into records.
+- Step 3 done for beaches: Google Maps links, official beach data (spain.info / andalucia.org), unsourced evidence and claims removed, beach descriptions link only to verified restaurant records. New open point: Fuengirola centro coordinates (`coordinates_far_from_named_beach`).
+- Step 4 waits for the owner's corrections to step 2.
+- Step 2 done (2026-11-02): owner answers in `docs/family-assessment-decisions-2026-11-02.md`, written into 18 records.
+- Step 4 started: eight records moved to `needs_editorial_review` (see change log); per-record approval still to be given by the owner.

@@ -12,10 +12,11 @@ coordinates:
   longitude: -4.523
   purpose: representative_point
   label: Google Maps marker (owner-read); not a parking point
-  source: Google Maps marker, read by Eric Olesen (owner); not an official source
+  source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
-google_maps_url: null
-external_ids: {}
+google_maps_url: https://maps.google.com/?cid=5101326988902011073
+external_ids:
+  google_place_id: ChIJb3NHnIz8cg0RwRCeUN6Ny0Y
 municipality: Benalmádena
 province: Málaga
 autonomous_community: Andalusia
@@ -26,16 +27,21 @@ driving_time_from_casa_de_la_familia:
   destination: Santa Ana (Torrebermeja-Santa Ana), Benalmádena, Málaga, Spain (Google Maps marker, not a parking point)
   source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.5921,-4.523); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5921%2C-4.523&travelmode=driving
   checked_at: '2026-11-01'
-  note: 'Routes API figure: 27 min with predicted Saturday 10:00 traffic (27 min without traffic), 19.7 km via AP-7; an avoid-tolls run gave 27 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 28 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv.'
+  note: 'Routes API figure: 27 min with predicted Saturday 10:00 traffic (27 min without traffic), 19.7 km via AP-7; an avoid-tolls run gave 27 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 28 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
 age_groups:
 - Small children (0-6)
+- Children (7-12)
+- Young adults
 family_score:
   small_children: medium
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  children: medium
+  young_adults: medium
+  seniors: medium
 energy_level: Low
-seasonality: []
+seasonality:
+- Spring
+- Summer
+- Autumn
 accessibility:
   overall: unknown
   mobility:
@@ -81,10 +87,10 @@ related_places:
 - id: ES-AND-MAL-SANTA-ANA-DENIS-001
   relationship: nearby
   note: 'Place to eat: Restaurante Santa Ana Denis.'
-description_short: 'Santa Ana (Torrebermeja-Santa Ana), Benalmádena: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Santa Ana (Torrebermeja-Santa Ana) (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Dark sand, moderate waves, about 500 x 15 m, high occupancy level. Blue Flag regained in 2026. Play area. Often recommended for families. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Promenade with restaurants and shops (not named). Nearby: View of Castillo Bil-Bil (exhibition centre). Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_short: 'Santa Ana (Torrebermeja-Santa Ana), Benalmádena: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
+description_long: 'Santa Ana (Torrebermeja-Santa Ana) (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand, moderate waves, about 500 x 15 m, high occupancy, urban; toilets, showers and a children''s area are listed (undated; see the review issue on 2026 services). Places to eat: see the linked record for Restaurante Santa Ana Denis. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Santa Ana (Torrebermeja-Santa Ana), Benalmádena | CalleMilano draft record
-seo_description: Draft record for Santa Ana (Torrebermeja-Santa Ana) beach (Benalmádena). Based on a dated secondary-source snapshot; facts are under verification.
+seo_description: Draft record for Santa Ana (Torrebermeja-Santa Ana) beach (Benalmádena). Facts are being checked against official sources.
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -103,30 +109,6 @@ evidence:
   checked_by: claude-sonnet-5-5 (draft 2026-10-29)
   confidence: medium
   notes: '[partial] Corroborating source, read via a WebFetch summary on 2026-10-29 (article not read in full). Supports the ADEAC check; does not replace it.'
-- field: description_long (sand, size, waves, occupancy)
-  claim: Dark sand, moderate waves, about 500 x 15 m, high occupancy level. Blue Flag regained in 2026.
-  source_url: null
-  source_type: official_tourism
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: medium
-  notes: '[partial] Source per snapshot: spain.info, page ''Santa Ana'' (MITECO-based). URL not recorded in the snapshot. Not rechecked 2026-10-29.'
-- field: description_long (children, facilities, restaurants, experiences)
-  claim: Play area. Often recommended for families. | Promenade with restaurants and shops (not named). | View of Castillo Bil-Bil (exhibition centre).
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
-- field: description_long (rocks)
-  claim: The sources reviewed do not mention rocks.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Absence of a mention is not confirmation that there are no rocks.'
 - field: driving_time_from_casa_de_la_familia
   claim: 'One-way drive from Casa de la Familia to Santa Ana (Torrebermeja-Santa Ana), Benalmádena, Málaga, Spain (Google Maps marker, not a parking point): 27 min, 19.7 km (Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5921%2C-4.523&travelmode=driving
@@ -143,76 +125,62 @@ evidence:
   checked_by: Claude (beach fact check 2026-11-01)
   confidence: medium
   notes: Ayuntamiento de Benalmádena news item 2026-06-05, read 2026-11-01. Absence from the list does not prove there is no cover; Malapesquera is nearby, but the source does not say which points cover Santa Ana.
+- field: coordinates
+  claim: The owner accepts the Google Maps marker coordinates read on 2026-07-18 as this beach's place point.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
+- field: seasonality
+  claim: Beach seasonality is Spring, Summer and Autumn (same for all local beaches).
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
+- field: parking, transport_options, dog_friendly, cost_level, booking_required, food_available, visit_information
+  claim: 'Parking, transport, dogs, cost, booking and food are deliberately left unknown for beaches: adults look these up themselves.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+- field: google_maps_url, external_ids
+  claim: Google Places lists 'Playa de Santa Ana' (Playa de Santa Ana, España), place ID ChIJb3NHnIz8cg0RwRCeUN6Ny0Y, about 4 m from the record coordinates.
+  source_url: https://maps.google.com/?cid=5101326988902011073
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (Places API lookup 2026-11-02)
+  confidence: high
+  notes: Google Places API (New) searchText/searchNearby on 2026-11-02. Maps establishes identity and position only, not facilities or suitability.
+- field: description_long (sand, size, waves, occupancy, services)
+  claim: 'Santa Ana (Benalmádena): sand, dark, moderate waves, 500 x 15 m, high occupancy, urban; services: parasol/sunbed/water-craft hire, toilets, showers, footwash, tourist office, children''s area.'
+  source_url: https://www.spain.info/es/playa/santa-ana-benalmadena/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (official beach data 2026-11-02)
+  confidence: medium
+  notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
+- field: age_groups, family_score
+  claim: 'Owner-approved family assessment: age groups Small children (0-6), Children (7-12), Young adults; scores small_children medium, children medium, young_adults medium, seniors medium.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
 review_issues:
-- code: route_and_coordinates_owner_measured
-  severity: warning
-  fields:
-  - coordinates
-  - driving_time_from_casa_de_la_familia
-  description: 'Coordinates were read by the owner from Google''s marker (2026-07-18) and are not an official visitor point. Driving time was route-checked with Google Routes API on 2026-11-01 (Saturday 10:00 predicted traffic) to those coordinates, so it inherits the marker''s precision. local_30km rule (owner decision 2026-10-29): at most 30 min by Google''s main figure.'
-  retryable: true
-  owner: fact_check
-- code: google_maps_url_missing
-  severity: info
-  fields:
-  - google_maps_url
-  description: No Maps link recorded on this draft.
-  retryable: true
-  owner: fact_check
-- code: subjective_assessments_need_human_review
-  severity: warning
-  fields:
-  - family_score
-  - age_groups
-  - energy_level
-  - description_long
-  description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field.'
-  retryable: false
-  owner: human_editor
-- code: secondary_sources_unverified
-  severity: warning
-  fields:
-  - description_long
-  - toilets_available
-  - accessibility
-  - evidence
-  description: 'Facilities, child-related statements and restaurant names come from tourist-site and hotel-chain guides (not independent). Opening hours not checked; many beach bars close out of season. Fact check 2026-11-01: lifeguard, toilet and accessibility claims checked against municipal/official sources where available (see evidence); beach-bar names, sand, depth and child-friendliness remain secondary.'
-  retryable: true
-  owner: fact_check
-- code: source_urls_missing
-  severity: warning
-  fields:
-  - evidence
-  description: The snapshot records source names, not URLs, for beach facts. Add URLs before fact check.
-  retryable: true
-  owner: fact_check
 - code: rocks_not_verified
   severity: warning
   fields:
   - description_long
-  description: Absence of any mention of rocks is not confirmation. The project criterion excludes beaches with rocks; a visit or an independent source is needed.
+  description: Absence of any mention of rocks is not confirmation, and the owner does not know (decision 4, 2026-11-01). The project criterion excludes beaches with rocks; a visit or an independent source is needed.
   retryable: true
   owner: fact_check
-- code: seasonality_unknown
-  severity: warning
-  fields:
-  - seasonality
-  description: The snapshot gives no seasonal information; left empty rather than guessed.
-  retryable: true
-  owner: fact_check
-- code: practical_details_out_of_scope
-  severity: info
-  fields:
-  - parking
-  - transport_options
-  - dog_friendly
-  - cost_level
-  - booking_required
-  - food_available
-  - visit_information
-  description: 'Parking and other practical details are intentionally left unknown (owner decision: adults look these up themselves).'
-  retryable: false
-  owner: human_editor
 - code: santa_ana_not_named_in_2026_service
   severity: warning
   fields:
@@ -221,8 +189,16 @@ review_issues:
   description: Benalmádena's 2026 beach-service announcement does not name Santa Ana / Torrebermeja among its nine lifeguard points or four accessibility points (Malapesquera is named). Confirm with the Delegación de Playas whether lifeguard cover and facilities apply to this beach before describing it as family-oriented with services.
   retryable: true
   owner: fact_check
+- code: energy_level_editorial_estimate
+  severity: info
+  fields:
+  - energy_level
+  - description_long
+  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
+  retryable: false
+  owner: human_editor
 created_at: '2026-10-29'
-updated_at: '2026-10-29'
+updated_at: '2026-11-02'
 last_verified: '2026-10-29'
 last_reviewed_at: null
 next_review_at: null

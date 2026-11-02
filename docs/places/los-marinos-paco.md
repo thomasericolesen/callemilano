@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-LOS-MARINOS-PACO-001
 slug: los-marinos-paco
 name: Los Marinos Paco
@@ -29,12 +29,16 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5708563,-4.5909912); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5708563%2C-4.5909912&travelmode=driving
   checked_at: '2026-11-01'
   note: 'Routes API figure: 17 min with predicted Saturday 10:00 traffic (18 min without traffic), 9.0 km via Cam. de Campanales. One predicted sample, not the Google Maps app''s main figure.'
-age_groups: []
+age_groups:
+- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: high
+  children: high
+  young_adults: medium
+  seniors: medium
 energy_level: Low
 seasonality: []
 accessibility:
@@ -83,9 +87,9 @@ related_places:
   relationship: nearby
   note: Beach restaurant on Carvajal beach.
 description_short: Family-run fish restaurant and beach bar on Carvajal beach, Fuengirola, with a children's menu and high chairs; about 17 minutes by car.
-description_long: 'Los Marinos Paco is a family-run beach restaurant, now in its third generation, at Paseo Marítimo Rey de España 158 on Carvajal beach in Fuengirola. Its own website lists a children''s menu and high chairs, gluten-free dishes and dogs welcome on the terrace. It is closed on Mondays; in summer it opens Tuesday-Saturday 12:30-22:30 and Sunday 12:30-17:30, in winter Tuesday-Sunday 10:00-18:00 (the website does not give the switch-over dates). Bookings are by phone only (952 66 13 20) and are recommended at weekends, on holidays and from June to September. Route check: about 17 minutes from Casa de la Familia (Saturday 10:00, predicted traffic). Prices and accessibility are not confirmed.'
-seo_title: Los Marinos Paco, Fuengirola | CalleMilano draft record
-seo_description: 'Draft record for Los Marinos Paco (Fuengirola): location, drive from Casa de la Familia and what is confirmed so far.'
+description_long: 'Los Marinos Paco is a family-run beach restaurant, now in its third generation, at Paseo Marítimo Rey de España 158 on Carvajal beach in Fuengirola. Its own website lists a children''s menu and high chairs, gluten-free dishes and dogs welcome on the terrace. It is closed on Mondays; in summer it opens Tuesday-Saturday 12:30-22:30 and Sunday 12:30-17:30, in winter Tuesday-Sunday 10:00-18:00 (the website does not give the switch-over dates). Bookings are by phone only (952 66 13 20) and are recommended at weekends, on holidays and from June to September. Route check: about 17 minutes from Casa de la Familia (Saturday 10:00, predicted traffic). Prices and accessibility are not confirmed. Prices and seasonal opening are not confirmed; check with the restaurant before visiting.'
+seo_title: Los Marinos Paco, Fuengirola | CalleMilano
+seo_description: 'Los Marinos Paco (Fuengirola): beach restaurant near Casa de la Familia, with drive time, what is confirmed and what to check before visiting.'
 images: []
 evidence:
 - field: name, municipality, food_available, links
@@ -120,40 +124,40 @@ evidence:
   checked_by: Claude (restaurant pilot 2026-11-01)
   confidence: high
   notes: Own website read on 2026-11-01. 'partial' for dogs because only the terrace is mentioned.
-review_issues:
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  description: The venue's own website states a children's menu and high chairs (see evidence); age groups and family scores are still left for the editor, and energy_level Low is an editorial default.
-  retryable: true
-  owner: human_editor
-- code: season_and_prices_unverified
-  severity: warning
-  fields:
-  - seasonality
-  - cost_level
-  - visit_information
-  description: Opening hours come from the venue's own website, but the dates when summer and winter hours switch, and prices, are not stated.
-  retryable: true
-  owner: fact_check
-- code: practical_details_unverified
-  severity: info
-  fields:
-  - parking
-  - transport_options
-  - toilets_available
-  - accessibility
-  description: Practical and accessibility details were not researched in the restaurant pilot.
-  retryable: true
-  owner: fact_check
+- field: seasonality, cost_level, visit_information
+  claim: Restaurant prices and season stay unknown, shown with a "check before visiting" note.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 7, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Venue-stated opening hours in visit_information remain dated facts.
+- field: parking, transport_options, toilets_available, accessibility, dog_friendly, booking_required
+  claim: Practical details for restaurants are deliberately left unknown, as for beaches.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 8, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Los Marinos Paco keeps its venue-confirmed dog_friendly (partial) and booking_required (false). Replaces review issue practical_details_unverified.
+- field: age_groups, family_score
+  claim: 'Owner-approved family assessment: age groups Small children (0-6), Children (7-12), Young adults, Seniors; scores small_children high, children high, young_adults medium, seniors medium.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
+review_issues: []
 created_at: 2026-11-01
-updated_at: 2026-11-01
+updated_at: '2026-11-02'
 last_verified: 2026-11-01
-last_reviewed_at: null
+last_reviewed_at: 2026-11-02
 next_review_at: 2027-04-01
-review_decision: null
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: Approved by the owner on the approval page "CalleMilano godkendelse 8 poster" (saved 2026-11-02 07:08 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the family assessment of 2026-11-02. Practical details, prices and season stay unknown by owner decisions 7 and 8 (shown as "check before visiting"). SEO title and description had "draft record" removed at approval (wording only, no fact changed).
 redirects: []
 ---
