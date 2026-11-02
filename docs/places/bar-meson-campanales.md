@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-BAR-MESON-CAMPANALES-001
 slug: bar-meson-campanales
 name: Bar Mesón Campanales
@@ -145,6 +145,10 @@ updated_at: '2026-11-02'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: 'Owner decision 2026-11-02: remove Bar Mesón Campanales from the guide (own Facebook page inactive since May 2016; probably closed). Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

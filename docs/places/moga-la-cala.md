@@ -146,7 +146,7 @@ review_issues:
   - visit_information
   - cost_level
   - links
-  description: Owner screenshot 2026-11-02 shows only a third-party reel (new opening, 19 July); the venue's own page is still not found. Hours and prices need checking.
+  description: No own website or social page found; the owner could not find one either (2026-11-02). Only a third-party reel (new opening, 19 July) confirms the bar. Hours and prices need a visit or a call.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'

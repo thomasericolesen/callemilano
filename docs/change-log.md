@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Three bars archived; MOGA has no own page (owner decisions)
+
+Owner decision: `bar-meson-campanales` (inactive since 2016), `el-rimero` (wine shop, inactive since 2020) and `terraza-chill-out-bar` (inactive since 2021) are removed from the guide. Status -> `archived` with a `review_decision` from the editor-of-record; records and IDs stay (IDs must not be reused). `moga-la-cala`: the owner could not find an own page either; it stays `draft` with the issue updated. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Last three bars from owner screenshots (no schema change)
 
 - `draft` -> `needs_fact_check` (2): `la-senda-del-norte` (café-bar with a covered street terrace; no hours or prices on its page), `mon-2-sun` ("the friendly family/community bar" at La Hacienda, Mijas Golf; outdoor seating, price range "cheap"; latest post December 2024 and mon2sun.es gone, issue `activity_unverified`).

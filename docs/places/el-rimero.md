@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-EL-RIMERO-001
 slug: el-rimero
 name: El Rimero
@@ -146,6 +146,10 @@ updated_at: '2026-11-02'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: 'Owner decision 2026-11-02: remove El Rimero from the guide (own page describes a wine shop, not a bar; no activity since 2020 and website gone). Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

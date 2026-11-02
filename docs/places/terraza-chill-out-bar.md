@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-TERRAZA-CHILL-OUT-BAR-001
 slug: terraza-chill-out-bar
 name: Terraza Chill Out Bar
@@ -145,6 +145,10 @@ updated_at: '2026-11-02'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: 'Owner decision 2026-11-02: remove Terraza Chill Out Bar from the guide (own Facebook page inactive since June 2021 with a placeholder phone number; probably closed). Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---
