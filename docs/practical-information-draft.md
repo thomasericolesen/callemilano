@@ -62,3 +62,10 @@ Identity, addresses not listed above and map links: Google Places API, 2026-11-0
 
 - Hospital Universitario Costa del Sol (public, SAS), Ctra. N-340 km 187, Marbella; about 26 min by car; switchboard 951 97 66 69; citizen information 951 97 66 64. [5]
 - The SAS line 951 03 14 37 appears as 'Urgencias' on both the hospital and the Las Lagunas health-centre pages; its purpose is unclear.
+
+### Comparison with the website (read 2026-11-02)
+
+The website's Kontakter page (Lovable project 'Vores Spanske Hjem', `src/routes/_authenticated/kontakter.tsx`, read-only via the Lovable connector) lists under 'Akut hjælp og skadestuer': **112** (all of Spain); **Hospital Quirónsalud Marbella** (private, +34 952 774 200, Avda. Severo Ochoa 22, 24-hour A&E for adults and children, children's A&E 0-14); **Vithas Xanit International Hospital** (private, +34 952 367 190, Avenida de los Argonautas s/n, Benalmádena, 24-hour A&E, separate children's A&E). The page says the facts come from the hospitals' own websites (checked October 2026) and that distances from the house were not measured.
+
+Not on the website but found here, for the owner to consider: the public hospital (Hospital Universitario Costa del Sol, Marbella, about 26 min), 061 for medical emergencies, Salud Responde 955 545 060, and the public health centre in Las Lagunas (Mon-Fri 08:00-20:00; Mijas council lists 902 50 50 61 for 24-hour urgent care). The website was not changed.
+
