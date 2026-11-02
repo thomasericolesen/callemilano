@@ -71,7 +71,7 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: null
+  official_website: https://www.instagram.com/changueirobardevinos/
   booking: null
   visitor_information: null
   transport: null
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: links.official_website
+  claim: The wine bar has its own Instagram account @changueirobardevinos (Calle Marbella 19, Fuengirola), which announced new opening hours in October 2026.
+  source_url: https://www.instagram.com/changueirobardevinos/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bars fact check 2026-11-02)
+  confidence: low
+  notes: Search excerpts read 2026-11-02; posts not read in full. Hours quoted by third-party Instagram accounts conflict, so none are recorded.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,6 +132,13 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: hours_conflicting
+  severity: warning
+  fields:
+  - visit_information
+  description: Hours seen in third-party posts conflict and the bar announced new hours in October 2026; read its own latest post before recording a schedule.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

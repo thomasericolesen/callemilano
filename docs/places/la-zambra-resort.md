@@ -79,7 +79,7 @@ links:
   contact: tel:+34951311234
 related_places: []
 description_short: 'La Zambra Resort: resort hotel (The Unbound Collection by Hyatt) with restaurant and spa, about 7 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'La Zambra Resort is a resort hotel (The Unbound Collection by Hyatt) with restaurant and spa at Av. de Louison Bobet, 9, 29650 Málaga. From Casa de la Familia it is about 7 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Restaurant and spa area (added by the owner). Its own website: a five-star resort on the site of the former Hotel Byblos (opened 1986, reopened as La Zambra in 2022), with four restaurants (Palmito from breakfast to late dinner, Picador for tapas with more than ninety wines by the glass, Bamboleo for sunset dining, La Bartola by the pool) plus Sarao for the night, and Mood Spa, described as one of the largest spas on the Costa del Sol, with Turkish baths and an indoor pool. It also runs two kids'' clubs (6 months-3 years and 4-10 years) daily 10:00-18:00 for hotel guests. The site does not say whether non-guests can use the restaurants or spa; check before visiting.'
+description_long: 'La Zambra Resort is a resort hotel (The Unbound Collection by Hyatt) with restaurant and spa at Av. de Louison Bobet, 9, 29650 Málaga. From Casa de la Familia it is about 7 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Restaurant and spa area (added by the owner). Its own website: a five-star resort on the site of the former Hotel Byblos (opened 1986, reopened as La Zambra in 2022), with four restaurants (Palmito from breakfast to late dinner, Picador for tapas with more than ninety wines by the glass, Bamboleo, its bar for sunset drinks and dining, La Bartola by the pool) plus Sarao for the night, and Mood Spa, described as one of the largest spas on the Costa del Sol, with Turkish baths and an indoor pool. It also runs two kids'' clubs (6 months-3 years and 4-10 years) daily 10:00-18:00 for hotel guests. The site does not say whether non-guests can use the restaurants or spa; check before visiting.'
 seo_title: La Zambra Resort, Mijas | CalleMilano draft record
 seo_description: 'Draft record for La Zambra Resort (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -116,6 +116,14 @@ evidence:
   checked_by: Claude (nearby fact check 2026-11-02)
   confidence: high
   notes: Read in full via Firecrawl on 2026-11-02. Access for non-guests is not stated.
+- field: description_long (Bamboleo)
+  claim: Bamboleo, the resort's sunset bar, is covered in this record rather than in a record of its own.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/bars-selection-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: 'Owner decision 2026-11-02. Bamboleo Google listing: ChIJrVLmhBThcg0RYTxHTR9r-N4 (Google 4.9 from 148 ratings on 2026-11-02, not used as a quality claim).'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning

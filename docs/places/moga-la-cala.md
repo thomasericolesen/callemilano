@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: description_long
+  claim: Local Facebook groups and a resident's Instagram post describe MOGA as a new cocktail bar on the Boulevard de La Cala, between La Salacia and La Casita Mexicana.
+  source_url: https://www.instagram.com/p/DaIzioBlJfj/
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (bars fact check 2026-11-02)
+  confidence: low
+  notes: Search excerpts read 2026-11-02; no own website or social page found.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,6 +132,15 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: no_official_source_found
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - links
+  description: No own website or social page found; hours and prices need checking.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

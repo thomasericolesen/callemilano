@@ -1,11 +1,12 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-UPSTAIRS-ROOFTOP-BAR-001
 slug: upstairs-rooftop-bar
 name: Upstairs Rooftop Bar
 category: Restaurants
-tags: []
+tags:
+- Viewpoint
 coordinates:
   latitude: 36.505252999999996
   longitude: -4.676908
@@ -57,13 +58,13 @@ parking:
   source: null
   checked_at: null
 transport_options: []
-booking_required: unknown
-dog_friendly: unknown
+booking_required: false
+dog_friendly: 'no'
 toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Monday-Sunday 16:00-22:00 (own website, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -71,14 +72,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: http://www.theorangehouselacala.com/upstairs
+  official_website: https://www.theorangehouselacala.com/upstairs
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Upstairs Rooftop Bar: rooftop bar at The Orange House, about 11 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Upstairs Rooftop Bar is a rooftop bar at The Orange House at C. Tolox, 3, Planta 5, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 11 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'Upstairs Rooftop Bar: rooftop bar at The Orange House, about 11 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Upstairs Rooftop Bar is a rooftop bar at The Orange House at C. Tolox, 3, Planta 5, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 11 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own website: a non-smoking, non-vaping rooftop bar without pets on the fifth floor of The Orange House Boutique Hotel, with sea views; it calls itself La Cala''s only rooftop bar. Open Monday to Sunday 16:00-22:00; everyone is welcome and no booking is needed (reception checks table availability). Prices were not checked. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
 seo_title: Upstairs Rooftop Bar, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Upstairs Rooftop Bar (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +108,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: visit_information, booking_required, dog_friendly, tags, description_long
+  claim: 'Own page: non smoking, non vaping, no pets rooftop bar on the 5th floor of The Orange House Boutique Hotel; sea views; "La Cala''s only rooftop bar"; open Monday-Sunday 16:00-22:00; "Everyone''s welcome"; no need to book.'
+  source_url: https://www.theorangehouselacala.com/upstairs
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bars fact check 2026-11-02)
+  confidence: high
+  notes: Quoted via Firecrawl (direct-quote mode) on 2026-11-02. Tag Viewpoint from the stated sea views from the rooftop.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,9 +133,16 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: prices_unknown
+  severity: info
+  fields:
+  - cost_level
+  description: Drink prices not checked.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

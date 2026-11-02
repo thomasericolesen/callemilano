@@ -136,7 +136,7 @@ review_issues:
   - name
   - category
   - description_long
-  description: Search on 2026-11-02 found nothing about an "Equestrian Centre" at Diseminado Chaparral 231. Google types it as a restaurant; it may be a riding centre with a bar. Owner to confirm what it is, or drop it.
+  description: 'Search on 2026-11-02 found nothing about an "Equestrian Centre" at Diseminado Chaparral 231. Google types it as a restaurant; it may be a riding centre with a bar. Owner to confirm what it is, or drop it. 2026-11-02: the owner does not know the place either; needs a visit or a direct contact before it can go further.'
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'

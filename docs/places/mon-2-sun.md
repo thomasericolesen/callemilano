@@ -134,6 +134,15 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: no_official_source_found
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - links
+  description: Search on 2026-11-02 found no own website or readable social page. Hours and prices need a direct check.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

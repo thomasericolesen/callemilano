@@ -134,6 +134,14 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: website_not_found
+  severity: warning
+  fields:
+  - links
+  - visit_information
+  description: The website Google lists (hotelveramar.com/skybar-fuengirola) redirects to a 404 page on 2026-11-02. Find the hotel's current site before relying on the listing.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

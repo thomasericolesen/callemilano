@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-02 - Bars fact check; Bamboleo merged into La Zambra (owner decisions, no schema change)
+
+- Owner decision: Bamboleo is described under La Zambra Resort; `bamboleo-la-zambra` archived (ID kept), La Zambra description and evidence updated. The owner does not know Mixs Lounge or Equestrian Centre either; noted on their issues.
+- Bars checked against own websites and social pages on 2026-11-02 (`draft` -> `needs_fact_check` for four): `upstairs-rooftop-bar` (non-smoking rooftop, daily 16:00-22:00, everyone welcome, no booking; tag `Viewpoint`), `lounge-el-tropico` (beach bar, 09:30-00:00 April-November, food, sunbeds; tag `Beach`), `el-oceano-beach-hotel` (restaurant with live music almost every evening, pool bar), `speakeasy-jazz-club-fuengirola` (concert tickets at 23:30, €56/€84 options; terms unclear).
+- Own channels found but not readable or incomplete: La Floja (address only), Changueiro (Instagram; hours conflicting), La Terraza de Panda (Instagram), Red & White (Facebook), Bar Burbujas, Terraza Chill Out, La Senda del Norte, Groove Bar. Sky Bar Veramar's listed website returns 404. No own source found: MOGA, Nautic, Café Teatro, Noniná, RetROCK BARt, Mon 2 Sun, El Rimero, Bar Mesón Campanales.
+- Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Walking times of 20 minutes or more removed (owner decision)
 
 Owner decision: show walking time only where guests can realistically walk. In 27 nearby records with a Google walking time of 20 minutes or more, the walking time was removed from `description_short`, `description_long`, the drive-time note and the route evidence; only the drive time remains. The 11 records under 20 minutes on foot keep it (Mixs Lounge, Singh Doner Kebab, Restaurante Cerros del Águila, El Gran Parque de Mijas, Equestrian Centre, Peña Al Tranco and the five buggy/quad operators). Intake doc annotated. Validation: 0 errors. Regenerated `data/place-catalog.csv`.

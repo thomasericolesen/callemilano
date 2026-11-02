@@ -71,7 +71,7 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: null
+  official_website: https://www.instagram.com/laterrazadepanda/
   booking: null
   visitor_information: null
   transport: null
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: links.official_website
+  claim: Own Instagram account @laterrazadepanda (Plaza de la Constitución, Fuengirola).
+  source_url: https://www.instagram.com/laterrazadepanda/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bars fact check 2026-11-02)
+  confidence: low
+  notes: Search excerpt read 2026-11-02; content not read.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,6 +132,14 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
+- code: social_page_not_read
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  description: Own Instagram found but not readable without login; hours and prices need checking.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null
