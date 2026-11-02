@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-02 - Taxi and train on the practical page
+
+- Owner asked for taxi numbers and local train stations before the one-hour work continues.
+- `docs/practical-information-draft.md`: new sections 'Taxi' (Radio Taxi Mijas from Mijas council's list, Radio Taxi de Fuengirola, Uber, nearest ranks) and 'Train (Cercanías C1)' (nearest stations with route-checked drive times, frequency and journey times from the CTMAM timetable, Renfe station facts). Sources 10-16. Parking and fares still open.
+
 ## 2026-11-02 - Intake for the 30-60 minute band
 
 - Owner asked to look at destinations beyond the local area but within about one hour's drive, with restaurants nearby or on the way.
