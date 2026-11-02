@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-02 (late evening) - Restaurants from callemilano.dk (owner instruction)
+
+- Owner instruction: the recommendations already on callemilano.dk (Lovable app "Vores Spanske Hjem", table `recommendations`) belong in the restaurant list. The site has 6 own restaurant recommendations (`kind` anbefaling) and 4 inspiration entries.
+- Created draft records for the 5 missing own recommendations: `cafe-nomad-fuengirola`, `heladeria-casa-esteban-fuengirola`, `marvelous-burger-fuengirola`, `utopia-la-cala`, `venta-los-condes` (10-25 min), and for the inspiration entry `restaurante-sheriff` (12 min; it had only a hand-written page in `docs/published/`). Each owner text is quoted verbatim in an owner-knowledge evidence entry and summarised in `description_long`; the same was added to the existing `asador-otola`.
+- `restaurante-sheriff`: blocking issue `possibly_closed` (Google CLOSED_TEMPORARILY; Mijas Tourism note cited on the gold page).
+- Not converted: inspiration entries Casas Cuevas Almagruz, Castillo de Monda and El Molino del Santo (hotels 45 min-2 h away; excursion layers) pending owner decision.
+
 ## 2026-11-02 (late evening) - Directory leads: owner checklist (step 2 started)
 
 - Google sweep of the 25 unconverted rows in `data/restaurant-directory.csv` (all OPERATIONAL, 8-18 min by car). Flags: R-0109 Taco Tikka's address now shows "DA LEONE" on Google; R-0302 Chiringuito La Cubana's Google listing is named "CAMBIO DE UBICACIÓN" (moved).

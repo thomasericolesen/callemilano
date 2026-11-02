@@ -79,7 +79,7 @@ links:
   contact: tel:+34604241785
 related_places: []
 description_short: 'Asador Otola: Basque grill (asador) at Cortijo la Herradura, about 6 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Asador Otola is a Basque grill (asador) at Cortijo la Herradura at Camino Viejo de Coín, 4, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 6 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Already among the owner''s recommendations, with a caveat: the meat has a much more intense flavour. Its own website describes Basque cooking with aged meats grilled over embers (more than 18 years in business), lists dishes such as beef and lamb, txuleton and grilled octopus, and gives opening hours of Monday 12:00-24:00, Tuesday 12:00-18:00, Wednesday closed, Thursday to Sunday 12:00-24:00 (phone 604 241 785). Prices, booking, children''s facilities and accessibility are not stated; check before visiting.'
+description_long: 'Asador Otola is a Basque grill (asador) at Cortijo la Herradura at Camino Viejo de Coín, 4, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 6 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Already among the owner''s recommendations, with a caveat: the meat has a much more intense flavour. Its own website describes Basque cooking with aged meats grilled over embers (more than 18 years in business), lists dishes such as beef and lamb, txuleton and grilled octopus, and gives opening hours of Monday 12:00-24:00, Tuesday 12:00-18:00, Wednesday closed, Thursday to Sunday 12:00-24:00 (phone 604 241 785). Prices, booking, children''s facilities and accessibility are not stated; check before visiting. Owner''s recommendation (callemilano.dk): A good steak restaurant; be careful with very long-aged meat such as Galician beef, which the owner finds tastes mostly of umami rather than meat - a small portion as a flavour enhancer is fine.'
 seo_title: Asador Otola, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Asador Otola (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -124,6 +124,14 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of the tripadvisor.es listing. The tripadvisor.com listing (d26732269, or30) shows '$$ - $$$' under PRICE. Name and town match (Las Lagunas de Mijas).
+- field: description_long (owner knowledge)
+  claim: God bøfrestaurant - men man bør være forsigtig med at vælge f.eks. galisisk, extremt modnet kød. Det har mistet “kødsmagen” og smager mest af “Umami “. En lille portion som smagsforstærker er fint
+  source_url: https://callemilano.dk/
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: medium
+  notes: 'Owner''s own recommendation (kind ''anbefaling'') on callemilano.dk, read from the Lovable app database 2026-11-02; site tags: -. Personal experience, not independently verified.'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning

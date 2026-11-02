@@ -50,6 +50,7 @@ ES-AND-MAL-CASTILLO-EJIDO-001,castillo-ejido,Castillo-Ejido,approved,Beaches,Bea
 ES-AND-MAL-CASTILLO-SOHAIL-001,castillo-sohail,Castillo Sohail,needs_fact_check,Excursions,,Fuengirola,Málaga,36.5253188,-4.6288218,3.2,yes,12 min,docs/places/castillo-sohail.md
 ES-AND-MAL-MULTICINES-ALFIL-FUENGIROLA-001,multicines-alfil-fuengirola,Multicines Alfil Fuengirola,needs_fact_check,Family activities,Rainy day,Fuengirola,Málaga,36.5375077,-4.6271906,3.2,yes,12 min,docs/places/multicines-alfil-fuengirola.md
 ES-AND-MAL-ANTONIO-PLAYA-FUENGIROLA-001,antonio-playa-fuengirola,Restaurante Antonio Playa,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5280257,-4.6260498,3.4,yes,10 min,docs/places/antonio-playa-fuengirola.md
+ES-AND-MAL-CAFE-NOMAD-FUENGIROLA-001,cafe-nomad-fuengirola,Café NOMAD,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5299519,-4.625333599999999,3.4,yes,10 min,docs/places/cafe-nomad-fuengirola.md
 ES-AND-MAL-CAFE-TEATRO-OCEAN-DRIVE-001,cafe-teatro-ocean-drive,Café Teatro by Ocean Drive,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5304043,-4.6250503,3.4,yes,10 min,docs/places/cafe-teatro-ocean-drive.md
 ES-AND-MAL-CHANGUEIRO-BAR-DE-VINOS-001,changueiro-bar-de-vinos,Changueiro Bar de Vinos,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.537848499999996,-4.6245668,3.4,yes,15 min,docs/places/changueiro-bar-de-vinos.md
 ES-AND-MAL-OLD-SWISS-HOUSE-FUENGIROLA-001,old-swiss-house-fuengirola,Old Swiss House,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5337161,-4.624188999999999,3.4,yes,13 min,docs/places/old-swiss-house-fuengirola.md
@@ -58,8 +59,11 @@ ES-AND-MAL-FUENGIROLA-TOWN-001,fuengirola-town,Fuengirola (town),needs_fact_chec
 ES-AND-MAL-GALI-GALI-FUENGIROLA-001,gali-gali-fuengirola,Gali Gali Beach Club,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5323365,-4.6239951,3.5,yes,12 min,docs/places/gali-gali-fuengirola.md
 ES-AND-MAL-LA-TERRAZA-DE-PANDA-001,la-terraza-de-panda,La Terraza de Panda,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.539166,-4.6234329999999995,3.5,yes,15 min,docs/places/la-terraza-de-panda.md
 ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001,nautic-bar-fuengirola,Nautic Cocktail & Drinks,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5384019,-4.623798799999999,3.5,yes,14 min,docs/places/nautic-bar-fuengirola.md
+ES-AND-MAL-RESTAURANTE-SHERIFF-001,restaurante-sheriff,Restaurante Sheriff,draft,Restaurants,Restaurant,Mijas,Málaga,36.504587,-4.6686863999999995,3.5,yes,12 min,docs/places/restaurante-sheriff.md
 ES-AND-MAL-BAR-BURBUJAS-001,bar-burbujas,Bar Burbujas,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.539403799999995,-4.622169599999999,3.6,yes,16 min,docs/places/bar-burbujas.md
+ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001,heladeria-casa-esteban-fuengirola,Heladería Casa Esteban,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.53738,-4.622,3.6,yes,15 min,docs/places/heladeria-casa-esteban-fuengirola.md
 ES-AND-MAL-LA-FLOJA-VINOS-Y-LATAS-001,la-floja-vinos-y-latas,La Floja Vinos y Latas,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.537504299999995,-4.6227108,3.6,yes,14 min,docs/places/la-floja-vinos-y-latas.md
+ES-AND-MAL-MARVELOUS-BURGER-FUENGIROLA-001,marvelous-burger-fuengirola,Marvelous Burger,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5386688,-4.6220028,3.6,yes,15 min,docs/places/marvelous-burger-fuengirola.md
 ES-AND-MAL-UPSTAIRS-ROOFTOP-BAR-001,upstairs-rooftop-bar,Upstairs Rooftop Bar,needs_fact_check,Restaurants,Viewpoint,Mijas,Málaga,36.505252999999996,-4.676908,3.6,yes,11 min,docs/places/upstairs-rooftop-bar.md
 ES-AND-MAL-FUENGIROLA-CENTRO-001,fuengirola-centro,Fuengirola (centrum),approved,Beaches,Beach,Fuengirola,Málaga,36.5372915,-4.6215859,3.7,yes,14 min,docs/places/fuengirola-centro.md
 ES-AND-MAL-SPEAKEASY-JAZZ-CLUB-FUENGIROLA-001,speakeasy-jazz-club-fuengirola,Speakeasy Jazz Club & Cocktails,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5405146,-4.6217781,3.7,yes,16 min,docs/places/speakeasy-jazz-club-fuengirola.md
@@ -76,6 +80,7 @@ ES-AND-MAL-CHIRINGUITO-CRISTOBAL-001,chiringuito-cristobal,Chiringuito Cristóba
 ES-AND-MAL-RETROCK-BART-001,retrock-bart,RetROCK BARt,needs_fact_check,Restaurants,,Mijas,Málaga,36.500899,-4.684403,4.3,yes,14 min,docs/places/retrock-bart.md
 ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001,chiringuito-los-moreno,Chiringuito Los Moreno,approved,Restaurants,Restaurant; Beach,Mijas,Málaga,36.4995404,-4.6837348,4.4,yes,15 min,docs/places/chiringuito-los-moreno.md
 ES-AND-MAL-LA-BUTIBAMBA-001,la-butibamba,La Butibamba,approved,Beaches,Beach,Mijas,Málaga,36.5002,-4.6843,4.4,yes,15 min,docs/places/la-butibamba.md
+ES-AND-MAL-UTOPIA-LA-CALA-001,utopia-la-cala,UTOPÍA,draft,Restaurants,Restaurant,Mijas,Málaga,36.500232,-4.6852730000000005,4.4,yes,14 min,docs/places/utopia-la-cala.md
 ES-AND-MAL-VEGETALIA-FUENGIROLA-001,vegetalia-fuengirola,Restaurante Vegetalia,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5529963,-4.617451,4.5,yes,16 min,docs/places/vegetalia-fuengirola.md
 ES-AND-MAL-FREIDURIA-EL-CHOCO-FUENGIROLA-001,freiduria-el-choco-fuengirola,Pulpería Freiduría El Choco,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5509163,-4.6153718999999995,4.6,yes,14 min,docs/places/freiduria-el-choco-fuengirola.md
 ES-AND-MAL-LOS-ENEBROS-FUENGIROLA-001,los-enebros-fuengirola,Restaurante Los Enebros,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5530316,-4.6162512,4.6,yes,15 min,docs/places/los-enebros-fuengirola.md
@@ -94,6 +99,7 @@ ES-AND-MAL-MIRADOR-DEL-COMPAS-001,mirador-del-compas,Mirador del Compás (Virgen
 ES-AND-MAL-ERMITA-DEL-CALVARIO-MIJAS-001,ermita-del-calvario-mijas,Ermita del Calvario (Mijas),needs_fact_check,Excursions,,Mijas,Málaga,36.5973956,-4.6401707,7.2,yes,20 min,docs/places/ermita-del-calvario-mijas.md
 ES-AND-MAL-MIJAS-PUEBLO-001,mijas-pueblo,Mijas Pueblo,needs_fact_check,City,,Mijas,Málaga,36.5967755,-4.6323067,7.3,yes,17 min,docs/places/mijas-pueblo.md
 ES-AND-MAL-LOS-MARINOS-PACO-001,los-marinos-paco,Los Marinos Paco,approved,Restaurants,Restaurant; Beach,Fuengirola,Málaga,36.5708563,-4.5909912,7.5,yes,17 min,docs/places/los-marinos-paco.md
+ES-AND-MAL-VENTA-LOS-CONDES-001,venta-los-condes,Venta los Condes,draft,Restaurants,Restaurant,Mijas,Málaga,36.6027124,-4.674296399999999,7.5,yes,25 min,docs/places/venta-los-condes.md
 ES-AND-MAL-CARVAJAL-001,carvajal,Carvajal,approved,Beaches,Beach,Fuengirola,Málaga,36.5725,-4.5881,7.8,yes,18 min,docs/places/carvajal.md
 ES-AND-MAL-KALIFATO-BENALMADENA-001,kalifato-benalmadena,Kalifato Lounge Beach Bar,draft,Restaurants,Restaurant,Benalmádena,Málaga,36.572894600000005,-4.5881899,7.8,yes,18 min,docs/places/kalifato-benalmadena.md
 ES-AND-MAL-SOLLO-FUENGIROLA-001,sollo-fuengirola,Sollo Restaurante,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5799411,-4.5953257,7.8,yes,17 min,docs/places/sollo-fuengirola.md
