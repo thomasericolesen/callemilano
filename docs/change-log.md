@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 (late evening) - Ecco in the app (trip agent step 1, point 4)
+
+- App PR thomasericolesen/callemilano-f388b2be#3: Ecco writes the Danish trip plan with Claude Sonnet 5.5 (owner decision) from `planTrip` data; structured output, no new facts (restaurants, weather figures and links come from data). Owner stored `ANTHROPIC_API_KEY` as a Lovable Cloud secret.
+
 ## 2026-11-02 (late evening) - planTrip in the app (trip agent step 1, point 3)
 
 - `tools/app_export.py`: each place's `guide` now carries a `trip` block (schedule and its check date, `valid_until`, fixed-hours need, rainy-day tag, bar flag, phone, booking lead time, typical duration). Export regenerated (144 places).
