@@ -131,7 +131,7 @@ review_issues:
   fields:
   - visit_information
   - cost_level
-  description: Opening hours and the per-game price for Miramar are not on a readable own page (an Instagram excerpt mentions €5.50 Mon-Thu and €7 at weekends; not recorded). Check the booking page or the venue.
+  description: 'Opening hours and the per-game price for Miramar are not on a readable own page (an Instagram excerpt mentions €5.50 Mon-Thu and €7 at weekends; not recorded). Check the booking page or the venue. 2026-11-02: the chain''s Facebook page ''Sould Park España'' (owner screenshot) lists Fuengirola and Marbella among its locations, price range ''cheap'', phone 622 60 89 91 and WhatsApp 633 89 37 61, but nothing specific to this venue.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'

@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 - Alfil own Facebook page; Sould Park chain page (no schema change)
+
+- `multicines-alfil-fuengirola`: own Facebook page (owner screenshot): eight screens, three with 3D X-PAND, opera and ballet season September 2026-May 2027, phone +34 952 59 35 87. Prices, parking and accessibility still open.
+- `sould-park-fuengirola`, `sould-park-bowling-miramar`: the chain's Facebook page has nothing venue-specific; noted on the open issues with its WhatsApp contact.
+- Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Zero Latency own Facebook page (no schema change)
 
 `zero-latency-miramar`: own Facebook page (owner screenshot) confirms online booking, Spanish and English, active posting (30 October) and phone +34 951 81 11 05, which settles the phone discrepancy with Google. Validation: 0 errors. Regenerated `data/place-catalog.csv`.

@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/cinealfilfuengirola
 related_places: []
 description_short: 'Multicines Alfil Fuengirola: cinema next to BIOPARC, about 12 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: Multicines Alfil Fuengirola is a cinema next to BIOPARC at C. Camilo José Cela, 6, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 12 minutes by car (Google route check, Saturday 10:00). The cinema's own website (checked 2026-11-02) shows the current programme with online ticket sales, including children's and animated films and recorded opera and ballet broadcasts. Prices, opening hours, parking, accessibility and the language of screenings are not on the website. Check with the venue before visiting.
+description_long: 'Multicines Alfil Fuengirola is a cinema next to BIOPARC at C. Camilo José Cela, 6, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 12 minutes by car (Google route check, Saturday 10:00). The cinema''s own website (checked 2026-11-02) shows the current programme with online ticket sales, including children''s and animated films and recorded opera and ballet broadcasts. Its own Facebook page adds: eight screens, three of them with 3D (X-PAND), an opera and ballet season from September 2026 to May 2027, weekly programme posts, and phone +34 952 59 35 87. Prices, parking, accessibility and the language of screenings are not given. Check with the venue before visiting.'
 seo_title: Multicines Alfil Fuengirola, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Multicines Alfil Fuengirola (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -108,6 +108,14 @@ evidence:
   checked_by: Claude (nearby fact check 2026-11-02)
   confidence: medium
   notes: Homepage read via Firecrawl on 2026-11-02. No price list, hours, parking or accessibility on the readable pages. The cinema's Facebook page appeared in search with a €3.50 promotion, but only as a search excerpt; not recorded.
+- field: description_long, links
+  claim: 'Own Facebook page ''Cine Alfil - Fuengirola'': ''8 Salas de cine. 3 salas con sistema 3D X-PAND. Programación de ópera, ballet.''; category Biograf; c/ Camilo José Cela nº 6, Fuengirola 29640; Instagram multicines_alfil_fuengirola; phone +34 952 59 35 87; featured post 9 Sep (2026): opera and ballet season 2026-2027, September to May; post 26 Oct: programme 30 October-5 November.'
+  source_url: https://www.facebook.com/cinealfilfuengirola
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Owner screenshot (supplied 2026-11-02). Review and follower counts not recorded.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -125,7 +133,7 @@ review_issues:
   - visit_information
   - parking
   - accessibility
-  description: The cinema website gives no prices, hours, parking, accessibility or screening language. Needs the cinema's own social pages (owner screenshot), a visit or a call.
+  description: Website and own Facebook page (2026-11-02) give screens, 3D, opera/ballet season and phone, but no ticket prices, parking, accessibility or screening language. A call (+34 952 59 35 87) or a visit could settle them.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
