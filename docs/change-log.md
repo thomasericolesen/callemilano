@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Equestrian Centre archived (owner decision)
+
+Owner decision: `equestrian-centre-chaparral` is a riding school, not a drop-in attraction, and is removed from the guide. Status `draft` -> `archived` with a `review_decision` from the editor-of-record; the record and its ID stay (ID must not be reused). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Mixs Longe identified from the owner's screenshot (no schema change)
 
 The owner supplied a screenshot of a Google search showing the venue's own Facebook page (`facebook.com/p/Mixs-Longe-61550506887933/`) and its Google listing. `mixs-lounge`: name corrected to the venue's own spelling **Mixs Longe** (ID and slug unchanged; registry name updated); own page describes a new Scandinavian and Italian restaurant in Cerros del Águila at Calle Buitre 45; Google lists it as Indian with phone +34 632 13 47 36, and Uber Eats has "Mixs Curry & Pizza" on the same street, so cuisine is left as an open issue. Google hours, the user-reported price range and Google's AI overview were not recorded. Closed `name_unconfirmed`, `no_official_website` and `facts_not_checked`; new `cuisine_and_hours_unverified`. Status `draft` -> `needs_fact_check`. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
