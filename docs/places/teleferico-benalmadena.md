@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-TELEFERICO-BENALMADENA-001
 slug: teleferico-benalmadena
 name: Teleférico Benalmádena
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: https://www.telefericobenalmadena.com/?utm_id=GMBtraffic&utm_medium=OrganicGMB&utm_source=google
+  official_website: https://www.telefericobenalmadena.com/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Teleférico Benalmádena: a cable car up Monte Calamorro, about 21 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Teleférico Benalmádena is a cable car up Monte Calamorro (Explanada del Tivoli, s/n, 29631 Benalmádena, Málaga, España). From Casa de la Familia it is about 21 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Teleférico Benalmádena: a cable car up Monte Calamorro, about 21 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Teleférico Benalmádena is a cable car up Monte Calamorro (Explanada del Tivoli, s/n, 29631 Benalmádena, Málaga, España). From Casa de la Familia it is about 21 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a cable car up Monte Calamorro with panoramic viewpoints, a birds-of-prey presentation and restaurants at the top. It opens to a day-by-day calendar (in November 2026 roughly 11:00 to 17:00-19:00 on open days; 1 November closed). Tickets (dynamic pricing): general (8+) from €17.90 online / €21.90 at the gate; reduced (from age 3 or 1 m tall up to 7, large families) from €12.90 / €16.90; one-way tickets available; under 1 m free. Children under 12 must ride with an adult in each cabin. Birds-of-prey show: children 3-11 €4, adults €7. Check before visiting.'
 seo_title: Teleférico Benalmádena, Benalmádena | CalleMilano draft record
 seo_description: 'Draft record for Teleférico Benalmádena (Benalmádena): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long, cost_level, visit_information
+  claim: 'Own price page: General (desde 8 años) online desde 17,90€, taquilla desde 21,90€; Reducida (infantil de 3 años o 1 m hasta 7, discapacidad + acompañante gratis, familias numerosas) 12,90€/16,90€; menores de 1 m gratis; solo ida desde 10,90€/9,90€; SelwoPack 3 parques desde 48,90€; dynamic pricing; ''los menores de 12 años deben ir acompañados de un adulto (mayor de 18 años) en cada cabina''. Hours page (calendar, November 2026): ranges 11:00-17:00/18:00/19:00; 1 Nov closed. Birds-of-prey page: niños 3-11 4,00€, adultos 7,00€.'
+  source_url: https://www.telefericobenalmadena.com/horarios-y-precios/precios
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02. Prices are dynamic or volatile; recheck before publication. Hours and bird-show prices from search excerpts of the own hours and bird-show pages.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,17 @@ review_issues:
   description: 'Category ''Family activities'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: calendar_and_weather
+  severity: warning
+  fields:
+  - visit_information
+  - seasonality
+  description: Opening follows a day-by-day calendar; weather or wind closures were not stated on the pages read. Check the calendar on the day.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

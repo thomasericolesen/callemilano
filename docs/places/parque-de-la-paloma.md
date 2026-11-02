@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-PARQUE-DE-LA-PALOMA-001
 slug: parque-de-la-paloma
 name: Parque de la Paloma
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Parque de la Paloma: a large park with animals and a lake, about 25 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Parque de la Paloma is a large park with animals and a lake (Av. Federico García Lorca, s/n, 29630 Benalmádena, Málaga, España). From Casa de la Familia it is about 25 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Parque de la Paloma: a large park with animals and a lake, about 25 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Parque de la Paloma is a large park with animals and a lake (Av. Federico García Lorca, s/n, 29630 Benalmádena, Málaga, España). From Casa de la Familia it is about 25 minutes by car (Google route check, Saturday 10:00). Andalusia''s official tourism site (checked 2026-11-02): Benalmádena''s main urban green space, over 200,000 m², with marked walking paths, an artificial lake, two modern playgrounds, trails, animals and places to eat; listed hours 09:00-23:00 for 2026. Whether entry is free is not stated in that source. Check before visiting.'
 seo_title: Parque de la Paloma, Benalmádena | CalleMilano draft record
 seo_description: 'Draft record for Parque de la Paloma (Benalmádena): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long, visit_information
+  claim: 'andalucia.org listing ''Parque de la Paloma'': Avenida Federico García Lorca s/n, 29631 Benalmádena; más de 200.000 m² de áreas verdes, zonas de paseo balizadas, un lago artificial, dos modernos parques infantiles, senderos, animales y zonas de restauración; fechas 1 Jan-31 Dec 2026, 09:00-23:00.'
+  source_url: https://www.andalucia.org/listing/parque-de-la-paloma/16577102/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Junta de Andalucía tourism portal, read via Firecrawl on 2026-11-02.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,18 @@ review_issues:
   description: 'Category ''Family activities'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: entry_and_facilities_to_confirm
+  severity: warning
+  fields:
+  - cost_level
+  - toilets_available
+  - accessibility
+  description: Free entry, toilets and accessibility are not stated by the official source; check with Benalmádena council.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

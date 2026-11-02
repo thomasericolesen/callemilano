@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Local extension fact check, batch A: attractions (no schema change)
+
+Checked against own or official sources on 2026-11-02; `draft` -> `needs_fact_check` for 7: `selwo-marina` (prices and age bands; seasonal calendar, winter unconfirmed), `parque-de-la-paloma` (andalucia.org: 200,000 m², lake, two playgrounds, animals; free entry not stated), `crocodile-park-torremolinos` (prices, guided-tour times; hours conflict on its own page), `sea-life-benalmadena` (open daily, adult €18.50 online / €21 door, child €11.50), `mariposario-benalmadena` (full hours and prices, open all year), `teleferico-benalmadena` (calendar opening, prices, under-12s with an adult per cabin), `mijas-golf` (two 18-hole courses; green fees not read). `maui-paddle-surf-la-cala` stays `draft` (Instagram only). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - 20 local-extension draft records created (owner selection, no schema change)
 
 From `docs/local-extension-selection-2026-11-02.md`, created 20 records with status `draft` and allocated IDs: 6 `Excursions` routes and walks plus 3 `Excursions` sights (Senda Litoral La Cala, Paseo Marítimo de Fuengirola, Ermita del Calvario, Mirador del Compás, Puerto Colorado; Castillo Sohail, Castillo de Colomares, Puerto Marina Benalmádena), 1 `Nature` (Dunas de Artola, linked both ways with Cabopino/Artola), 3 `City` (Mijas Pueblo, Fuengirola town, Benalmádena Pueblo) and 7 `Family activities` (Teleférico, Selwo Marina, Parque de la Paloma, Crocodile Park, Sea Life, Mariposario, Maui Paddle Surf, Mijas Golf). Identity and coordinates from Google Places API; drive time from Routes API (Saturday 2026-11-07 10:00). Categories are Claude's choice from the schema definitions (issue `category_editorial_choice`). Boat trips wait for a provider sweep and reputation screen. Validation: 148 records, 0 errors. Regenerated `data/place-catalog.csv`.

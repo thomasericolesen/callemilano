@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-MIJAS-GOLF-001
 slug: mijas-golf
 name: Mijas Golf
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: http://www.mijasgolf.org/
+  official_website: https://mijasgolf.org/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Mijas Golf: a golf club, about 7 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Mijas Golf is a golf club (Av. de Louison Bobet, 1, 3, 5, 29650 Las Lagunas de Mijas, Málaga, España). From Casa de la Familia it is about 7 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Mijas Golf: a golf club, about 7 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Mijas Golf is a golf club (Av. de Louison Bobet, 1, 3, 5, 29650 Las Lagunas de Mijas, Málaga, España). From Casa de la Familia it is about 7 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): two 18-hole courses, Los Lagos (rebuilt 2012) and Los Olivos, designed by Robert Trent Jones Sr., in the Mijas golf valley north of Fuengirola; with a restaurant and snack bar, rentals and pro shop, a practice area and online tee-time booking. Green fees were not readable. One of many golf courses near the house; a wider golf overview may be added later. Check before visiting.'
 seo_title: Mijas Golf, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Mijas Golf (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long, links
+  claim: 'Own homepage: Mijas Golf Club, 2 campos de 18 hoyos, Los Lagos y Los Olivos, diseñados por Robert Trent Jones snr; Los Lagos reconstruido en 2012; restaurante & snack bar, alquileres y servicios (pro shop), zona de prácticas, reservas online (TeeOne 2026, Golfmanager 2027).'
+  source_url: https://mijasgolf.org/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02 (page modified 2025-04-10).
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,17 @@ review_issues:
   description: 'Category ''Family activities'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: green_fees_unknown
+  severity: warning
+  fields:
+  - cost_level
+  - booking_required
+  description: Green fees and visitor rules sit in the booking system and were not read. Golf suits adults and seniors; whether juniors can play was not checked.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-SEA-LIFE-BENALMADENA-001
 slug: sea-life-benalmadena
 name: Sea Life Benalmádena
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: http://www.sealife.es/
+  official_website: https://www.visitsealife.com/benalmadena/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Sea Life Benalmádena: an aquarium at Puerto Marina, about 27 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Sea Life Benalmádena is an aquarium at Puerto Marina (Av. del Puerto Deportivo, s/n, 29630 Benalmádena, Málaga, España). From Casa de la Familia it is about 27 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Sea Life Benalmádena: an aquarium at Puerto Marina, about 27 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Sea Life Benalmádena is an aquarium at Puerto Marina (Av. del Puerto Deportivo, s/n, 29630 Benalmádena, Málaga, España). From Casa de la Familia it is about 27 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): an aquarium at Puerto Marina with marine habitats (sharks, a large green turtle, otters), open seven days a week with timed entry slots. Standard ticket: adults (15+) €18.50 online or €21 at the door; children €11.50 (the age band was not shown). Online tickets need a time slot and are not sold for the same day. Check before visiting.'
 seo_title: Sea Life Benalmádena, Benalmádena | CalleMilano draft record
 seo_description: 'Draft record for Sea Life Benalmádena (Benalmádena): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long, cost_level, booking_required
+  claim: 'Own tariffs page: Entrada Standard online 18,50€ por adulto (+15 años), taquilla 21€; 11,50€ por niño. Homepage: ''Abierto los 7 días de la semana''; online tickets need a time slot, up to 10% off, not for same-day purchase; VR combo +5€. Explora page: habitats with sharks and ''Yellow'', a green turtle over 100 kg; otters.'
+  source_url: https://www.visitsealife.com/benalmadena/tarifas/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02. Prices are dynamic or volatile; recheck before publication.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,17 @@ review_issues:
   description: 'Category ''Family activities'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: hours_and_child_ages_unconfirmed
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  description: Daily opening hours and the child age band were not readable; check the hours page (visitsealife.com/benalmadena/prepara-tu-visita/antes-de-tu-visita/horario/).
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

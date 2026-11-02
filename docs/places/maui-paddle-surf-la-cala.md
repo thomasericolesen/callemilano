@@ -130,6 +130,15 @@ review_issues:
   description: 'Category ''Family activities'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: social_page_not_read
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - age_groups
+  description: Google links only to the school's Instagram (instagram.com/mauipaddlesurf), which cannot be read without login (checked 2026-11-02). Needs an owner screenshot of the profile or a website.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

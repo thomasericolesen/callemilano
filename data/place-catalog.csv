@@ -21,7 +21,7 @@ ES-AND-MAL-ASADOR-OTOLA-001,asador-otola,Asador Otola,needs_fact_check,Restauran
 ES-AND-MAL-EL-MIRADOR-DEL-GOLF-001,el-mirador-del-golf,Restaurante El Mirador del Golf,draft,Restaurants,Restaurant,Mijas,Málaga,36.5466924,-4.666940299999999,1.3,yes,6 min,docs/places/el-mirador-del-golf.md
 ES-AND-MAL-BOLERA-MIJAS-DUBAI-BOLL-001,bolera-mijas-dubai-boll,Bolera Mijas (Dubai Boll),needs_fact_check,Family activities,Rainy day,Mijas,Málaga,36.5390424,-4.6466071,1.5,yes,6 min,docs/places/bolera-mijas-dubai-boll.md
 ES-AND-MAL-JUMPJOY-MIJAS-001,jumpjoy-mijas,JumpJoy Mijas,needs_fact_check,Family activities,Rainy day,Mijas,Málaga,36.5394096,-4.6468226999999995,1.5,yes,6 min,docs/places/jumpjoy-mijas.md
-ES-AND-MAL-MIJAS-GOLF-001,mijas-golf,Mijas Golf,draft,Family activities,,Mijas,Málaga,36.549289699999996,-4.6691512,1.6,yes,7 min,docs/places/mijas-golf.md
+ES-AND-MAL-MIJAS-GOLF-001,mijas-golf,Mijas Golf,needs_fact_check,Family activities,,Mijas,Málaga,36.549289699999996,-4.6691512,1.6,yes,7 min,docs/places/mijas-golf.md
 ES-AND-MAL-EL-RIMERO-001,el-rimero,El Rimero,archived,Restaurants,,Mijas,Málaga,36.5322871,-4.6447012999999995,1.7,yes,8 min,docs/places/el-rimero.md
 ES-AND-MAL-LA-SENDA-DEL-NORTE-001,la-senda-del-norte,La Senda del Norte,needs_fact_check,Restaurants,,Mijas,Málaga,36.5397837,-4.6440326999999995,1.7,yes,6 min,docs/places/la-senda-del-norte.md
 ES-AND-MAL-PARQUE-EL-ESPARRAGAL-001,parque-el-esparragal,Parque El Esparragal,needs_fact_check,Family activities,,Mijas,Málaga,36.5477938,-4.6740007,1.7,yes,7 min,docs/places/parque-el-esparragal.md
@@ -79,22 +79,22 @@ ES-AND-MAL-LOS-MARINOS-PACO-001,los-marinos-paco,Los Marinos Paco,approved,Resta
 ES-AND-MAL-CARVAJAL-001,carvajal,Carvajal,approved,Beaches,Beach,Fuengirola,Málaga,36.5725,-4.5881,7.8,yes,18 min,docs/places/carvajal.md
 ES-AND-MAL-CHIRINGUITO-LAS-DUNAS-CABOPINO-001,chiringuito-las-dunas-cabopino,Chiringuito Las Dunas,needs_fact_check,Restaurants,Restaurant; Beach,Marbella,Málaga,36.4860513,-4.7356401,8.5,yes,22 min,docs/places/chiringuito-las-dunas-cabopino.md
 ES-AND-MAL-CABOPINO-ARTOLA-001,cabopino-artola,Cabopino/Artola,needs_fact_check,Beaches,Beach; Nature,Marbella,Málaga,36.4853,-4.7427,9.1,yes,21 min,docs/places/cabopino-artola.md
-ES-AND-MAL-MARIPOSARIO-BENALMADENA-001,mariposario-benalmadena,Mariposario de Benalmádena (Monowa),draft,Family activities,,Benalmádena,Málaga,36.5890637,-4.5814641,9.4,yes,18 min,docs/places/mariposario-benalmadena.md
+ES-AND-MAL-MARIPOSARIO-BENALMADENA-001,mariposario-benalmadena,Mariposario de Benalmádena (Monowa),needs_fact_check,Family activities,,Benalmádena,Málaga,36.5890637,-4.5814641,9.4,yes,18 min,docs/places/mariposario-benalmadena.md
 ES-AND-MAL-DUNAS-DE-ARTOLA-001,dunas-de-artola,Dunas de Artola,draft,Nature,,Marbella,Málaga,36.485948,-4.7487129,9.5,yes,22 min,docs/places/dunas-de-artola.md
 ES-AND-MAL-CASTILLO-DE-COLOMARES-001,castillo-de-colomares,Castillo de Colomares,draft,Excursions,,Benalmádena,Málaga,36.590567,-4.572672,10.1,yes,20 min,docs/places/castillo-de-colomares.md
-ES-AND-MAL-TELEFERICO-BENALMADENA-001,teleferico-benalmadena,Teleférico Benalmádena,draft,Family activities,,Benalmádena,Málaga,36.5988798,-4.5398201,13.0,yes,21 min,docs/places/teleferico-benalmadena.md
-ES-AND-MAL-SELWO-MARINA-001,selwo-marina,Selwo Marina,draft,Family activities,,Benalmádena,Málaga,36.592469,-4.532156,13.3,yes,24 min,docs/places/selwo-marina.md
-ES-AND-MAL-PARQUE-DE-LA-PALOMA-001,parque-de-la-paloma,Parque de la Paloma,draft,Family activities,,Benalmádena,Málaga,36.5935284,-4.5293123,13.5,yes,25 min,docs/places/parque-de-la-paloma.md
+ES-AND-MAL-TELEFERICO-BENALMADENA-001,teleferico-benalmadena,Teleférico Benalmádena,needs_fact_check,Family activities,,Benalmádena,Málaga,36.5988798,-4.5398201,13.0,yes,21 min,docs/places/teleferico-benalmadena.md
+ES-AND-MAL-SELWO-MARINA-001,selwo-marina,Selwo Marina,needs_fact_check,Family activities,,Benalmádena,Málaga,36.592469,-4.532156,13.3,yes,24 min,docs/places/selwo-marina.md
+ES-AND-MAL-PARQUE-DE-LA-PALOMA-001,parque-de-la-paloma,Parque de la Paloma,needs_fact_check,Family activities,,Benalmádena,Málaga,36.5935284,-4.5293123,13.5,yes,25 min,docs/places/parque-de-la-paloma.md
 ES-AND-MAL-SANTA-ANA-DENIS-001,santa-ana-denis,Restaurante Santa Ana Denis,approved,Restaurants,Restaurant; Beach,Benalmádena,Málaga,36.5908659,-4.52638,13.6,yes,27 min,docs/places/santa-ana-denis.md
 ES-AND-MAL-SANTA-ANA-BENALMADENA-001,santa-ana-benalmadena,Santa Ana (Torrebermeja-Santa Ana),needs_fact_check,Beaches,Beach,Benalmádena,Málaga,36.5921,-4.523,14.0,yes,27 min,docs/places/santa-ana-benalmadena.md
 ES-AND-MAL-BENALMADENA-PUEBLO-001,benalmadena-pueblo,Benalmádena Pueblo,draft,City,,Benalmádena,Málaga,36.5964743,-4.5197688,14.4,yes,25 min,docs/places/benalmadena-pueblo.md
-ES-AND-MAL-SEA-LIFE-BENALMADENA-001,sea-life-benalmadena,Sea Life Benalmádena,draft,Family activities,,Benalmádena,Málaga,36.59664,-4.5152,14.8,yes,27 min,docs/places/sea-life-benalmadena.md
+ES-AND-MAL-SEA-LIFE-BENALMADENA-001,sea-life-benalmadena,Sea Life Benalmádena,needs_fact_check,Family activities,,Benalmádena,Málaga,36.59664,-4.5152,14.8,yes,27 min,docs/places/sea-life-benalmadena.md
 ES-AND-MAL-PUERTO-MARINA-BENALMADENA-001,puerto-marina-benalmadena,Puerto Marina Benalmádena,draft,Excursions,,Benalmádena,Málaga,36.5979187,-4.5122478,15.1,yes,28 min,docs/places/puerto-marina-benalmadena.md
 ES-AND-MAL-CHIRINGUITO-RAFAEL-001,chiringuito-rafael,Chiringuito Rafael,needs_fact_check,Restaurants,Restaurant; Beach,Benalmádena,Málaga,36.599392,-4.5102398,15.3,yes,28 min,docs/places/chiringuito-rafael.md
 ES-AND-MAL-FUENTE-DE-LA-SALUD-001,fuente-de-la-salud,Fuente de la Salud,needs_fact_check,Beaches,Beach,Benalmádena,Málaga,36.5986,-4.5102,15.3,yes,30 min,docs/places/fuente-de-la-salud.md
 ES-AND-MAL-LA-CARIHUELA-001,la-carihuela,La Carihuela (Montemar),approved,Beaches,Beach,Torremolinos,Málaga,36.6076,-4.5046,16.2,yes,31 min,docs/places/la-carihuela.md
 ES-AND-MAL-LOS-MONTEROS-001,los-monteros,Los Monteros (Adelfas),archived,Beaches,Beach; Nature,Marbella,Málaga,36.5027,-4.8392,16.2,yes,28 min,docs/places/los-monteros.md
-ES-AND-MAL-CROCODILE-PARK-TORREMOLINOS-001,crocodile-park-torremolinos,Crocodile Park Torremolinos,draft,Family activities,,Torremolinos,Málaga,36.624384299999996,-4.5089882999999995,16.9,yes,23 min,docs/places/crocodile-park-torremolinos.md
+ES-AND-MAL-CROCODILE-PARK-TORREMOLINOS-001,crocodile-park-torremolinos,Crocodile Park Torremolinos,needs_fact_check,Family activities,,Torremolinos,Málaga,36.624384299999996,-4.5089882999999995,16.9,yes,23 min,docs/places/crocodile-park-torremolinos.md
 ES-AND-MAL-AQUALAND-TORREMOLINOS-001,aqualand-torremolinos,Aqualand Torremolinos,needs_fact_check,Family activities,,Torremolinos,Málaga,36.6259897,-4.5082274,17.1,yes,24 min,docs/places/aqualand-torremolinos.md
 ES-AND-MAL-EL-BAJONDILLO-001,el-bajondillo,El Bajondillo,approved,Beaches,Beach,Torremolinos,Málaga,36.6271,-4.4916,18.3,yes,28 min,docs/places/el-bajondillo.md
 ES-AND-MAL-PLAYAMAR-001,playamar,Playamar,approved,Beaches,Beach,Torremolinos,Málaga,36.6306,-4.4887,18.8,yes,27 min,docs/places/playamar.md

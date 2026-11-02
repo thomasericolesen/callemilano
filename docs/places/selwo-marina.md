@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-SELWO-MARINA-001
 slug: selwo-marina
 name: Selwo Marina
@@ -71,14 +71,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: https://www.selwomarina.es/?utm_id=GMBtraffic&utm_medium=OrganicGMB&utm_source=google
+  official_website: https://www.selwomarina.es/
   booking: null
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Selwo Marina: a marine animal park, about 24 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Selwo Marina is a marine animal park (Parque de la Paloma s/n, 29630 Benalmádena, Málaga, España). From Casa de la Familia it is about 24 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Selwo Marina: a marine animal park, about 24 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Selwo Marina is a marine animal park (Parque de la Paloma s/n, 29630 Benalmádena, Málaga, España). From Casa de la Familia it is about 24 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a marine animal park with penguins, exotic birds and other species, educational presentations and keeper talks, and bookable animal encounters (penguins, squirrel monkeys). Tickets (dynamic pricing): general (ages 8-64) from €15.90 online / €17.90 at the gate; reduced (children from age 3 or 1 m tall up to 7, seniors 65+, large families) from €13.90; children under 3 and under 1 m free. It opens to a seasonal calendar; the 2026 Halloween season ran to 2 November, and winter opening was not confirmed. Check before visiting.'
 seo_title: Selwo Marina, Benalmádena | CalleMilano draft record
 seo_description: 'Draft record for Selwo Marina (Benalmádena): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,23 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long, cost_level
+  claim: 'Own price page: Entrada General (8-64) online from 15,90€, gate from 17,90€; Entrada Reducida (infantil 3 años o 1 m hasta 7, senior 65+, discapacidad + acompañante gratis, familias numerosas) from 13,90€; menores de 3 años y 1 m gratis; open-date ticket 23,90€; dynamic pricing; visits any day until end of season per the park''s opening calendar.'
+  source_url: https://www.selwomarina.es/horarios-y-precios/precios
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02. Prices are dynamic or volatile; recheck before publication.
+- field: description_long
+  claim: 'Own homepage: penguin and squirrel-monkey encounters (new 2026), educational exotic-bird presentation, keeper talks; Halloween season page: 19 October-2 November 2026.'
+  source_url: https://www.selwomarina.es/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Prices are dynamic or volatile; recheck before publication.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +133,17 @@ review_issues:
   description: 'Category ''Family activities'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: season_calendar_unconfirmed
+  severity: warning
+  fields:
+  - seasonality
+  - visit_information
+  description: The park opens to a seasonal calendar that Firecrawl could not read day by day; winter 2026-27 opening is unconfirmed. Check the calendar (selwomarina.es/horarios-y-precios/horarios) before recommending a visit.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-MARIPOSARIO-BENALMADENA-001
 slug: mariposario-benalmadena
 name: Mariposario de Benalmádena (Monowa)
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Mariposario de Benalmádena (Monowa): a butterfly park, about 18 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Mariposario de Benalmádena (Monowa) is a butterfly park (C. Muerdago, s/n, 29639 Benalmádena, Málaga, España). From Casa de la Familia it is about 18 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Mariposario de Benalmádena (Monowa): a butterfly park, about 18 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Mariposario de Benalmádena (Monowa) is a butterfly park (C. Muerdago, s/n, 29639 Benalmádena, Málaga, España). From Casa de la Familia it is about 18 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a butterfly park (Monowa) with hundreds of butterflies from Asia, America and Africa in a tropical garden, plus exotic birds, fish, moths and stick insects. Open every day: 25 October-28 March 10:00-18:00; 29 March-30 June Monday-Thursday 10:00-18:00 and Friday-Sunday 10:00-19:00; July-August 10:00-19:00; September as spring; 24 and 31 December until 15:00; last entry half an hour before closing. Tickets: adults €13.50, seniors 65+ and children 3-12 €11.50, under 3 free. Check before visiting.'
 seo_title: Mariposario de Benalmádena (Monowa), Benalmádena | CalleMilano draft record
 seo_description: 'Draft record for Mariposario de Benalmádena (Monowa) (Benalmádena): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long, visit_information, cost_level, seasonality
+  claim: 'Own homepage: hours 25 Oct-31 Dec and 1 Jan-28 Mar 10:00-18:00; 29 Mar-30 Jun Mon-Thu 10-18, Fri-Sun 10-19; 1 Jul-31 Aug 10-19; Sept Mon-Thu 10-18, Fri-Sun 10-19; 24 and 31 Dec close 15:00; last access 30 min before closing; ''365 días abiertos''. Tickets: general 13,50€, mayores 65+ 11,50€, niños 3-12 11,50€, niños -3 0€. Address Muérdago s/n, 29639 Benalmádena.'
+  source_url: https://monowa.es/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02. Prices are dynamic or volatile; recheck before publication. Page modified 2026-10-26.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -132,7 +127,7 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
