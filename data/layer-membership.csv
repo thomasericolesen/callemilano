@@ -1,8 +1,8 @@
 slug,id,layer,catalogue_group,basis,note
-malaga,ES-AND-MAL-MALAGA-001,excursions_4h,Tæt på,route_checked_2026-10-15,"Moved back to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). 29.9 km straight-line; route-checked drive 36 min."
-sierra-de-las-nieves,ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
-tolox,ES-AND-MAL-TOLOX-001,excursions_4h,Tæt på,route_checked_2026-10-15,"Moved back to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). 27.7 km straight-line; route-checked drive 56 min."
-caminito-del-rey,ES-AND-MAL-CAMINITO-DEL-REY-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
+malaga,ES-AND-MAL-MALAGA-001,excursions_4h,Tæt på,route_checked_2026-10-15,Moved back to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). 29.9 km straight-line; route-checked drive 36 min.
+sierra-de-las-nieves,ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,"Moved from 'Tæt på' to 'Dagsture' per owner decision 12 (2026-11-02): 'Tæt på' means a route-checked drive of at most 60 min. Record drive time is over 60 min (editorial, not route-checked)."
+tolox,ES-AND-MAL-TOLOX-001,excursions_4h,Tæt på,route_checked_2026-10-15,Moved back to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). 27.7 km straight-line; route-checked drive 56 min.
+caminito-del-rey,ES-AND-MAL-CAMINITO-DEL-REY-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,Moved from 'Tæt på' to 'Dagsture' per owner decision 12 (2026-11-02): 'Tæt på' means a route-checked drive of at most 60 min. Routes API 2026-11-02: 71 min.
 setenil-de-las-bodegas,ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
 antequera,ES-AND-MAL-ANTEQUERA-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
 el-torcal-de-antequera,ES-AND-MAL-EL-TORCAL-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,
@@ -14,10 +14,35 @@ sevilla,ES-AND-SEV-SEVILLA-001,excursions_4h,Længere væk,editorial_catalogue_n
 cordoba,ES-AND-COR-CORDOBA-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
 cadiz,ES-AND-CAD-CADIZ-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
 jerez-de-la-frontera,ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
-gibraltar,GI-GIBRALTAR-001,excursions_4h,Tæt på,editorial_catalogue_not_route_checked,
+gibraltar,GI-GIBRALTAR-001,excursions_4h,Dagsture,editorial_catalogue_not_route_checked,"Moved from 'Tæt på' to 'Dagsture' per owner decision 12 (2026-11-02): 'Tæt på' means a route-checked drive of at most 60 min. Record drive time is over 60 min (editorial, not route-checked)."
 las-alpujarras,ES-AND-GRA-LAS-ALPUJARRAS-001,excursions_4h,Længere væk,editorial_catalogue_not_route_checked,
-marbella-old-town,ES-AND-MAL-MARBELLA-OLD-TOWN-001,excursions_4h,Tæt på,route_checked_2026-10-16,"Moved to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). route-checked drive 34 min. (data/route-checks-2026-10-16.csv)."
+marbella-old-town,ES-AND-MAL-MARBELLA-OLD-TOWN-001,excursions_4h,Tæt på,route_checked_2026-10-16,Moved to excursions_4h per owner decision 2026-10-29: local_30km is now decided by Google Maps main driving time of at most 30 min (supersedes the 2026-10-15 straight-line placement). route-checked drive 34 min. (data/route-checks-2026-10-16.csv).
 ronda,ES-AND-MAL-RONDA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
 frigiliana,ES-AND-MAL-FRIGILIANA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
 baelo-claudia,ES-AND-CAD-BAELO-CLAUDIA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
 duna-de-bolonia,ES-AND-CAD-DUNA-DE-BOLONIA-001,excursions_4h,Dagsture,existing_record_not_route_checked,existing record; not edited by this package
+playa-la-malagueta,ES-AND-MAL-PLAYA-LA-MALAGUETA-001,excursions_4h,Tæt på,route_checked_2026-11-01,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+selwo-aventura,ES-AND-MAL-SELWO-AVENTURA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+mercado-de-atarazanas,ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,excursions_4h,Tæt på,existing_record_route_value,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playas-del-palo,ES-AND-MAL-PLAYAS-DEL-PALO-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playa-de-nagueles,ES-AND-MAL-PLAYA-DE-NAGUELES-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playa-puerto-banus,ES-AND-MAL-PLAYA-PUERTO-BANUS-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playa-de-san-pedro-alcantara,ES-AND-MAL-PLAYA-DE-SAN-PEDRO-ALCANTARA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+playa-de-la-rada-estepona,ES-AND-MAL-PLAYA-DE-LA-RADA-ESTEPONA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected for the one-hour band 2026-11-02 (docs/one-hour-selection-2026-11-02.md).
+el-andaluz-de-la-malagueta,ES-AND-MAL-EL-ANDALUZ-DE-LA-MALAGUETA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-la-malagueta 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+tasca-laska-malagueta,ES-AND-MAL-TASCA-LASKA-MALAGUETA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-la-malagueta 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+chiringuito-el-cachalote,ES-AND-MAL-CHIRINGUITO-EL-CACHALOTE-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-la-malagueta 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+chiringuito-la-concha-el-palo,ES-AND-MAL-CHIRINGUITO-LA-CONCHA-EL-PALO-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playas-del-palo 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+juanito-juan,ES-AND-MAL-JUANITO-JUAN-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playas-del-palo 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+casa-manuel-de-la-lonja,ES-AND-MAL-CASA-MANUEL-DE-LA-LONJA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playas-del-palo 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+somos-de-banus,ES-AND-MAL-SOMOS-DE-BANUS-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-puerto-banus 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+taberna-casa-blanca-banus,ES-AND-MAL-TABERNA-CASA-BLANCA-BANUS-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-puerto-banus 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+norte-puerto-banus,ES-AND-MAL-NORTE-PUERTO-BANUS-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-puerto-banus 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+jacks-smokehouse-puerto-banus,ES-AND-MAL-JACKS-SMOKEHOUSE-PUERTO-BANUS-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-puerto-banus 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+solo-beach-marbella,ES-AND-MAL-SOLO-BEACH-MARBELLA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-de-san-pedro-alcantara 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+restaurante-casa-fernando-san-pedro,ES-AND-MAL-RESTAURANTE-CASA-FERNANDO-SAN-PEDRO-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-de-san-pedro-alcantara 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+marisqueria-el-ancla-san-pedro,ES-AND-MAL-MARISQUERIA-EL-ANCLA-SAN-PEDRO-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-de-san-pedro-alcantara 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+restaurante-la-escollera-estepona,ES-AND-MAL-RESTAURANTE-LA-ESCOLLERA-ESTEPONA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-de-la-rada-estepona 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+la-lobezna-estepona,ES-AND-MAL-LA-LOBEZNA-ESTEPONA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-de-la-rada-estepona 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+chiringuito-central-beach-estepona,ES-AND-MAL-CHIRINGUITO-CENTRAL-BEACH-ESTEPONA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-de-la-rada-estepona 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).
+taberna-mar-de-alboran-estepona,ES-AND-MAL-TABERNA-MAR-DE-ALBORAN-ESTEPONA-001,excursions_4h,Tæt på,route_checked_2026-11-02,Owner selected restaurant near playa-de-la-rada-estepona 2026-11-02 (docs/one-hour-beach-restaurants-intake-2026-11-02.md).

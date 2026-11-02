@@ -1,0 +1,136 @@
+---
+schema_version: 1.0.0
+status: needs_fact_check
+id: ES-AND-MAL-RESTAURANTE-CASA-FERNANDO-SAN-PEDRO-001
+slug: restaurante-casa-fernando-san-pedro
+name: Restaurante Casa Fernando (San Pedro)
+category: Restaurants
+tags:
+- Restaurant
+coordinates:
+  latitude: 36.476132199999995
+  longitude: -4.9879999999999995
+  purpose: venue
+  label: Restaurante Casa Fernando, Av. del Mediterráneo, 48, 29670 San Pedro Alcántara, Málaga, España (Google Places listing)
+  source: Google Places API (New), place ChIJkRhFLzsqcw0RBpdnNOmq_60, read 2026-11-02
+  checked_at: '2026-11-02'
+google_maps_url: https://maps.google.com/?cid=12537927806206056198
+external_ids:
+  google_place_id: ChIJkRhFLzsqcw0RBpdnNOmq_60
+municipality: Marbella
+province: Málaga
+autonomous_community: Andalusia
+country: Spain
+driving_time_from_casa_de_la_familia:
+  duration: 40 min
+  origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
+  destination: Restaurante Casa Fernando, Av. del Mediterráneo, 48, 29670 San Pedro Alcántara, Málaga, España
+  source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875,-4.6626875) to the Google Places coordinates (36.476132199999995,-4.9879999999999995); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.476132199999995%2C-4.9879999999999995&travelmode=driving
+  checked_at: '2026-11-02'
+  note: 'Routes API figure: 40 min, 39.4 km. One predicted sample.'
+age_groups: []
+family_score:
+  small_children: unknown
+  children: unknown
+  young_adults: unknown
+  seniors: unknown
+energy_level: Low
+seasonality: []
+accessibility:
+  overall: unknown
+  mobility:
+    route: unknown
+    wheelchair_route: unknown
+    facilities: unknown
+  sensory:
+    notes: unknown
+  accessible_toilets: unknown
+  source: null
+  checked_at: null
+  confidence: unknown
+wheelchair_friendly: unknown
+parking:
+  availability: unknown
+  location_type: unknown
+  cost: unknown
+  restrictions: unknown
+  walk_distance: unknown
+  source: null
+  checked_at: null
+transport_options: []
+booking_required: unknown
+dog_friendly: unknown
+toilets_available: unknown
+food_available: 'yes'
+cost_level: Unknown
+visit_information:
+  schedule: Tue-Sat 13:30-00:00; closed Sun-Mon (own site, read 2026-11-02).
+  typical_duration: null
+  booking_lead_time: null
+  valid_from: null
+  valid_until: null
+  cost_basis: null
+  cost_checked_at: null
+links:
+  official_website: https://www.casafernandos.com/en/eng-home/
+  booking: null
+  visitor_information: null
+  transport: null
+  contact: null
+related_places:
+- playa-de-san-pedro-alcantara
+description_short: 'Casa Fernando: family-founded Spanish restaurant with fish and seafood, San Pedro de Alcántara.'
+description_long: Casa Fernando serves Spanish food with fresh fish and seafood; the restaurant was founded in 1977 in Marbella by a married couple (own website). Open Tuesday-Saturday 13:30-00:00, closed Sunday and Monday; phone +34 952 85 33 44.
+seo_title: Restaurante Casa Fernando (San Pedro), Marbella | CalleMilano
+seo_description: 'Restaurante Casa Fernando (San Pedro) (Marbella): food, opening hours and drive time from Casa de la Familia.'
+images: []
+evidence:
+- field: name, coordinates, google_maps_url, external_ids, municipality, related_places
+  claim: Google Places lists 'Restaurante Casa Fernando' at Av. del Mediterráneo, 48, 29670 San Pedro Alcántara, Málaga, España (36.476132199999995,-4.9879999999999995), business status OPERATIONAL, primary type seafood_restaurant; about 425 m straight line from the related beach point.
+  source_url: https://maps.google.com/?cid=12537927806206056198
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (one-hour restaurant intake 2026-11-02)
+  confidence: medium
+  notes: Google Places API (New) on 2026-11-02. Identity and position only. Owner selected this candidate on the restaurant checklist (docs/one-hour-beach-restaurants-intake-2026-11-02.md, row rE02).
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 40 min by car (39.4 km, Saturday 10:00 predicted traffic).'
+  source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.476132199999995%2C-4.9879999999999995&travelmode=driving
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (one-hour restaurant intake 2026-11-02)
+  confidence: medium
+  notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long, visit_information, food_available
+  claim: 'Own site: ''Authentic Spanish flavors in a familiar and cozy atmosphere, where the freshness of the sea and tradition are found in every dish''; ''founded in 1977 in Marbella by a married couple''; Tuesday to Saturday 13:30-00:00, Sunday and Monday closed; (+34) 952 85 33 44.'
+  source_url: https://www.casafernandos.com/en/eng-home/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (one-hour restaurant fact check 2026-11-02)
+  confidence: medium
+  notes: Own website read with Firecrawl (direct quotes) on 2026-11-02.
+review_issues:
+- code: family_suitability_not_assessed
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  description: Age groups and family scores are not assessed.
+  retryable: true
+  owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - cost_level
+  - booking_required
+  description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing. The site''s address was not read; that it is the same Casa Fernando as the Google listing on Av. del Mediterráneo 48, San Pedro, rests on the website link in the Google listing.'
+  retryable: true
+  owner: fact_check
+created_at: '2026-11-02'
+updated_at: '2026-11-02'
+last_verified: null
+last_reviewed_at: null
+next_review_at: null
+review_decision: null
+redirects: []
+---

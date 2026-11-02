@@ -1,5 +1,38 @@
 # Change log
 
+## 2026-11-02 - Restaurants near the one-hour beaches: records and first fact check
+
+- Owner selection read from the restaurant checklist: 17 yes. Rows rE04 and rF05 were duplicates of rE02 and rF01 in the first page version (name-matching error); fixed to Restaurante Marabierta and Restaurante Vista al Mar, the owner's answers to those two rows cleared, and the owner asked to choose again.
+- 17 new restaurant records (IDs allocated, `excursions_4h` / `Tæt på`, `related_places` set to the nearby beach), each with a Google Places identity and a Routes API drive time.
+- Fact check from own websites for 10: Tasca Láska, El Cachalote, La Concha (El Palo), Somos de Banús, Jack's Smokehouse, Solo Beach, Casa Fernando, El Ancla, La Lobezna, Casa Blanca Banús -> `needs_fact_check`. Seven without a readable own site stay `draft` with issue `no_readable_own_source`: El Andaluz de la Malagueta, Juanito Juan, Casa Manuel de la Lonja, Norte, Central Beach, La Escollera, Mar de Alborán.
+
+## 2026-11-02 - Restaurant candidates near the one-hour beaches
+
+- Added `docs/one-hour-beach-restaurants-intake-2026-11-02.md`: 24 candidates near the six selected beaches, shortlisted from Google Places. Owner selects on a checklist page; no records created.
+
+## 2026-11-02 - One-hour band: layer decision and beaches
+
+- Owner decision 12: catalogue group `Tæt på` means a route-checked drive of at most 60 min. Caminito del Rey, Sierra de las Nieves and Gibraltar moved to `Dagsture` in `data/layer-membership.csv`; note added to `AGENTS.md`; decisions 12-14 in `docs/owner-decisions-2026-11-02.md`.
+- Added to `excursions_4h` / `Tæt på`: playa-la-malagueta, selwo-aventura, mercado-de-atarazanas (existing records) and five new beach records.
+- New records (IDs allocated): playas-del-palo, playa-de-nagueles, playa-puerto-banus, playa-de-san-pedro-alcantara, playa-de-la-rada-estepona.
+- Fact check of all six selected beaches against Spain.info (Turespaña), Málaga City Council beach pages and ADEAC's Blue Flag 2026 list. All six meet the rocks rule. Blue Flag 2026: Malagueta, El Palo, Nagüeles-Casablanca, San Pedro (Guadalmina stretch); not Puerto Banús or any Estepona beach. Malagueta got coordinates and a new route check (41 min); its blocking issue is resolved.
+- Open: lifeguard seasons for 2027, Puerto Banús facilities (tourist-board page blocks automated reading), family assessments.
+
+## 2026-11-02 - Owner selection for the one-hour band
+
+- Added `docs/one-hour-selection-2026-11-02.md`: 41 yes, 12 maybe, 1 no, read from the owner's checklist page. Avenida del Mar folds into Marbella old town, the mural route into Estepona old town, Málaga city items into `malaga`.
+
+## 2026-11-02 - Taxi and train on the practical page
+
+- Owner asked for taxi numbers and local train stations before the one-hour work continues.
+- `docs/practical-information-draft.md`: new sections 'Taxi' (Radio Taxi Mijas from Mijas council's list, Radio Taxi de Fuengirola, Uber, nearest ranks) and 'Train (Cercanías C1)' (nearest stations with route-checked drive times, frequency and journey times from the CTMAM timetable, Renfe station facts). Sources 10-16. Parking and fares still open.
+
+## 2026-11-02 - Intake for the 30-60 minute band
+
+- Owner asked to look at destinations beyond the local area but within about one hour's drive, with restaurants nearby or on the way.
+- Added `docs/one-hour-intake-2026-11-02.md`: 54 candidates in seven groups (beaches, towns, Málaga city, coastal history, nature, experiences, and four places under 30 minutes found on the way), route-checked with Google Routes. No records created; selection pending on the owner's checklist page.
+- Open owner decision: which layer holds this band.
+
 ## 2026-11-02 - Season calendar, first draft (step 3, no records)
 
 Added `docs/season-calendar-draft.md` with the 8 selected events by month: fixed 2027 dates for Noche de San Juan (23-24 June, Benalmádena tourism), Feria de San Juan Arroyo de la Miel (24-29 June), Virgen del Carmen (16 July) and Feria del Rosario (6-12 October, 'always'); Semana Santa 2027 from the computed Easter date; Carnaval, Feria de Mijas (2026: 7-12 September), Reyes and Christmas await the councils' 2027 announcements. No place record changed.

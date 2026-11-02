@@ -32,3 +32,9 @@ Answers given in the session chat on 2026-11-02 (Claude asked; the owner chose f
 9. **Selection:** the owner picks candidates on a private checklist page ("CalleMilano udvidelse", https://claude.ai/artifact/N2M6tmgYi7MhVqPyfpUSa5); answers are stored in its `choices` collection.
 10. **Mirador del Compás:** fold into `mijas-pueblo` and archive the separate record.
 11. **Emergency numbers and A&E:** already covered by the owner's own note on the website; the practical page refers to it instead of repeating it.
+
+## One-hour band (session chat, 2026-11-02)
+
+12. **Layer for the 30-60 minute band:** the catalogue group `Tæt på` in layer `excursions_4h` now means a route-checked one-way drive of at most 60 minutes (Google Routes, Saturday 10:00). Places in `Tæt på` with a longer drive move to `Dagsture`: Caminito del Rey (71 min, route-checked 2026-11-02), Sierra de las Nieves and Gibraltar (record values over 60 min, not route-checked). No schema change.
+13. **Order of work:** beaches first (fact check against the rocks rule, lifeguards, toilets, parking), then restaurants near them.
+14. **Selection:** 41 yes, 12 maybe, 1 no on the checklist page https://claude.ai/artifact/D8D2RD48rZbacv93b3J2SW; see `docs/one-hour-selection-2026-11-02.md`.

@@ -19,6 +19,7 @@ CalleMilano is a family travel guide for guests at Casa de la Familia, starting 
 - This is the editor's instruction under the rule above that places beyond the primary area stay archive unless the editor says so: records in `excursions_4h` may be developed and fact-checked. Existing out-of-area records not listed in `data/layer-membership.csv` remain archive.
 - Records in this layer follow the same schema, evidence and review rules. Driving time must still be route-checked, never estimated.
 - Extension (owner decision 2026-10-16): layer `excursions_5h` covers route-checked one-way drives above about 4 h and up to about 5 h, for overnight routes. Portuguese places stay out of scope for now. Senior itineraries are in `docs/senior-itineraries.md`; see `docs/change-log.md`.
+- Catalogue group `Tæt på` (owner decision 2026-11-02, decision 12 in `docs/owner-decisions-2026-11-02.md`): places in `excursions_4h` with a route-checked one-way drive of at most 60 minutes. Longer drives go in `Dagsture` or `Længere væk`.
 
 ## Beach selection rule: rocks (owner decision 2026-11-02)
 
