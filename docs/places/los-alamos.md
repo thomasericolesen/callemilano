@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: approved
 id: ES-AND-MAL-LOS-ALAMOS-001
 slug: los-alamos
 name: Los Álamos
@@ -86,10 +86,10 @@ related_places:
 - id: ES-AND-MAL-MORROFINO-001
   relationship: nearby
   note: 'Place to eat: Morrofino.'
-description_short: 'Los Álamos, Torremolinos: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
+description_short: 'Los Álamos, Torremolinos: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt).'
 description_long: 'Los Álamos (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): golden sand, moderate waves, about 1,500 x 60 m, high occupancy, semi-urban, stretching from Torremolinos towards the mouth of the Guadalhorce; showers and parasol/sunbed hire are listed. Places to eat: see the linked record for Morrofino (on the promenade at Playamar). Rocks: a sand beach with easy access on foot, so it meets the project''s beach rule (owner decision 2026-11-02: only pure rock beaches, or beaches reached by climbing down rocks, are excluded). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
-seo_title: Los Álamos, Torremolinos | CalleMilano draft record
-seo_description: Draft record for Los Álamos beach (Torremolinos). Facts are being checked against official sources.
+seo_title: Los Álamos, Torremolinos | CalleMilano
+seo_description: 'Los Álamos beach (Torremolinos): what is confirmed, lifeguard season, facilities and drive time from Casa de la Familia.'
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -180,20 +180,16 @@ evidence:
   checked_by: Claude (rocks rule check 2026-11-02)
   confidence: medium
   notes: 'Checked against the beach rule set by the owner on 2026-11-02 (https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md): rocks on a sand beach do not exclude it. Whether there are any rocks on this beach is not recorded and no longer matters for selection. Replaces review issue rocks_not_verified.'
-review_issues:
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  - description_long
-  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
-  retryable: false
-  owner: human_editor
+review_issues: []
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
 last_verified: '2026-10-29'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-02'
+next_review_at: '2027-04-01'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: Approved by the owner on the beach approval page "CalleMilano strandgodkendelse" (saved 2026-11-02 07:25 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the character label Developed, and the family assessment of 2026-11-02. Practical details stay unknown by owner decision 5. "draft" wording removed from SEO title/description and description_short at approval (wording only, no fact changed).
 redirects: []
 ---

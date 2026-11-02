@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: approved
 id: ES-AND-MAL-CASTILLO-EJIDO-001
 slug: castillo-ejido
 name: Castillo-Ejido
@@ -85,10 +85,10 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Castillo-Ejido, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft; facts being checked against official sources.'
+description_short: 'Castillo-Ejido, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet).'
 description_long: 'Castillo-Ejido (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): Playa del Castillo is a large stretch of white sand, about 800 x 50 m, with moderate waves, high occupancy and a semi-urban setting close to the Castillo Sohail; it is described as suited to moragas (sardine skewers grilled in metal boats) and has a fenced dog-beach section. Toilets, showers and a sports area are listed. No restaurant on this beach has been verified yet. Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, assisted bathing, adapted showers and lifeguards are confirmed for this beach; moraga boats need a Policía Local authorisation and a prior municipal fee. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. The charter''s map legend for this beach does not list a children''s area (text layer; not a confirmed absence). The Marenostrum Fuengirola open-air concert venue is part of the same area, by the castle (owner''s own knowledge, 2026-11-02). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
-seo_title: Castillo-Ejido, Fuengirola | CalleMilano draft record
-seo_description: Draft record for Castillo-Ejido beach (Fuengirola). Facts are being checked against official sources.
+seo_title: Castillo-Ejido, Fuengirola | CalleMilano
+seo_description: 'Castillo-Ejido beach (Fuengirola): what is confirmed, lifeguard season, facilities and drive time from Casa de la Familia.'
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -219,20 +219,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given with the family assessment on 2026-11-02; not independently verified.
-review_issues:
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  - description_long
-  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
-  retryable: false
-  owner: human_editor
+review_issues: []
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
 last_verified: '2026-10-29'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-02'
+next_review_at: '2027-04-01'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: Approved by the owner on the beach approval page "CalleMilano strandgodkendelse" (saved 2026-11-02 07:25 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the character label Mixed, and the family assessment of 2026-11-02. Practical details stay unknown by owner decision 5. "draft" wording removed from SEO title/description and description_short at approval (wording only, no fact changed).
 redirects: []
 ---
