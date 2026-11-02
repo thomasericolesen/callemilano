@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-MIJAS-BUGGYS-001
 slug: mijas-buggys
 name: Mijas Buggys
@@ -58,19 +58,19 @@ parking:
   source: null
   checked_at: null
 transport_options: []
-booking_required: unknown
+booking_required: true
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
   schedule: null
-  typical_duration: null
+  typical_duration: 1, 2 or 3 hours (own website)
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Per buggy, own website 2026-11-02: 1 h sunset €120 (2-seat) / €150 (4-seat), June-September only; 2 h €145 / €235; 3 h €189 / €280.'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: http://www.mijasbuggys.com/
   booking: null
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Mijas Buggys: buggy tour operator, about 18 min on foot or 4 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Mijas Buggys is a buggy tour operator at C. la Higuera, 22, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 18 minutes on foot (1.35 km, Google's walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Mijas Buggys: buggy tour operator, about 18 min on foot or 4 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Mijas Buggys is a buggy tour operator at C. la Higuera, 22, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 18 minutes on foot (1.35 km, Google''s walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Its own website: guided Can-Am buggy tours in the Mijas hills, 2 and 3 hours all year and a 1-hour sunset tour from June to September. Prices per buggy: 1 hour (sunset) €120 for a 2-seater and €150 for a 4-seater; 2 hours €145 / €235; 3 hours €189 / €280. Includes check-in at the Mijas depot, a safety briefing, a guide and a bottle of water; goggles and bandanas can be rented or bought. Closed-toe shoes are compulsory for drivers. Minimum ages and licence rules were not found on the homepage.'
 seo_title: Mijas Buggys, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Mijas Buggys (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -100,20 +100,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5409423%2C-4.6584363&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+- field: booking_required, description_long, age rules
+  claim: 'Own website: 2 h and 3 h tours year-round, 1 h sunset tour June-September; prices per buggy 2-seater/4-seater: 1 h €120/€150, 2 h €145/€235, 3 h €189/€280; safety briefing, guide, water included; closed-toe footwear required for drivers.'
+  source_url: http://www.mijasbuggys.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Homepage quoted via Firecrawl (direct-quote mode) on 2026-11-02 (page modified 2026-08-12).
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -128,13 +123,12 @@ review_issues:
   fields:
   - age_groups
   - family_score
-  - description_long
-  description: Minimum age for drivers and passengers, driving-licence rules and safety equipment must come from the operator before any family rating.
+  description: The homepage gives no minimum age or licence rule; check the operator's terms before any family rating.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

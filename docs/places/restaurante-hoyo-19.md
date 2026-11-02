@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-RESTAURANTE-HOYO-19-001
 slug: restaurante-hoyo-19
 name: Restaurante Hoyo 19
@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34622797207
 related_places: []
-description_short: 'Restaurante Hoyo 19: Spanish restaurant on the Camino Viejo de Coín, about 20 min on foot or 4 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Restaurante Hoyo 19 is a Spanish restaurant on the Camino Viejo de Coín at Camino viejo de Coín, 0 km 4 , 700, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 20 minutes on foot (1.51 km, Google's walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Restaurante Hoyo 19: Spanish restaurant on the Camino Viejo de Coín, about 20 min on foot or 4 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Restaurante Hoyo 19 is a Spanish restaurant on the Camino Viejo de Coín at Camino viejo de Coín, 0 km 4 , 700, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 20 minutes on foot (1.51 km, Google's walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Its own small website (hosted on METRO's restaurant-site service) gives the address and phone 622 797 207 and opening hours from 08:00 to about 23:00 on most days with one closing day, but the day-by-day table could not be read reliably. Prices, menu, children's facilities and accessibility are not checked; check before visiting.
 seo_title: Restaurante Hoyo 19, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Restaurante Hoyo 19 (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -100,20 +100,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5438292%2C-4.6550717&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+- field: links.contact, description_long
+  claim: 'Own site: Restaurante Hoyo 19, Camino Viejo de Coín km 4.7, 29651 Las Lagunas de Mijas; phone +34 622 797 207 (also +34 951 322 558); opening hours 08:00-23:00 (one day 08:00-24:00, one day closed).'
+  source_url: https://restaurantehoyo19.metro.bar/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Quoted via Firecrawl on 2026-11-02; the weekday labels of the hours table were not all captured, so no schedule is recorded.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +118,17 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: hours_by_day_unclear
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  description: Hours by weekday, closing day, menu and prices still need checking.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
