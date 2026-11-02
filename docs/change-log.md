@@ -4,7 +4,7 @@
 
 - `fuente-de-la-salud`: owner approved the family assessment (all four audiences `medium`; Children, Young adults, Seniors); `subjective_assessments_need_human_review` closed.
 - `cabopino-artola`: `toilets_available: yes` from the owner's own local knowledge; `toilets_listed_but_unverified` closed.
-- `fuengirola-centro`: summer bathing zone for older people at Playa de San Francisco added with municipal sources; status `approved` -> `needs_fact_check` (material addition), previous `review_decision` cleared and noted on new issue `reopened_for_addition`; needs the owner's re-approval.
+- `fuengirola-centro`: summer bathing zone for older people at Playa de San Francisco added with municipal sources; status `approved` -> `needs_fact_check` (material addition), previous `review_decision` cleared and noted on new issue `reopened_for_addition`; needs the owner's re-approval. Correction the same day: Playa de San Francisco lies north of the port (towards Los Boliches) while the record's point is south of it; wording changed to say so, and the owner is asked to confirm the zone belongs in this record.
 - Decisions recorded in `docs/owner-decisions-2026-11-02.md` and `docs/family-assessment-decisions-2026-11-02.md`. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
 
 ## 2026-11-02 - Beach follow-ups (handoff point 5, no schema change)
