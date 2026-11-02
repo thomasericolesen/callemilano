@@ -1,0 +1,96 @@
+<title>{{TITLE}}</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column; each candidate is a row with a three-way choice and a note. */
+:root{--bg:#f6f4f0;--card:#fffdf9;--ink:#24211c;--muted:#6b6459;--line:#e2dccf;--accent:#1f6f6a;--yes:#2f7d4a;--no:#a3453a;--maybe:#a77a1c;
+--display:"Fraunces",Georgia,serif;--body:"Source Sans 3",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171613;--card:#211f1b;--ink:#ece6da;--muted:#a59d8e;--line:#36322b;--accent:#5fb3ab;--yes:#6cc28a;--no:#e0857a;--maybe:#e0b45a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171613;--card:#211f1b;--ink:#ece6da;--muted:#a59d8e;--line:#36322b;--accent:#5fb3ab;--yes:#6cc28a;--no:#e0857a;--maybe:#e0b45a;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--body)}
+.wrap{max-width:860px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font:600 2rem/1.15 var(--display);margin:0 0 6px;text-wrap:balance}
+h2{font:600 1.25rem/1.3 var(--display);margin:34px 0 10px;text-wrap:balance}
+.lede{color:var(--muted);max-width:65ch;margin:0}
+.status{display:flex;flex-wrap:wrap;gap:8px 16px;margin:16px 0 0;font-size:.92rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.status b{color:var(--ink)}
+.list{display:grid;gap:10px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:8px}
+.top{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;justify-content:space-between}
+.name{font-weight:600;min-width:0}
+.meta{color:var(--muted);font-size:.9rem;min-width:0}
+.meta a{color:var(--accent)}
+.choice{display:flex;gap:6px}
+.choice label{border:1px solid var(--line);border-radius:999px;padding:3px 12px;cursor:pointer;font-size:.9rem;user-select:none}
+.choice input{position:absolute;opacity:0;pointer-events:none}
+.choice input:focus-visible+span{outline:2px solid var(--accent);outline-offset:3px}
+.choice label.on-ja{border-color:var(--yes);color:var(--yes);font-weight:600}
+.choice label.on-nej{border-color:var(--no);color:var(--no);font-weight:600}
+.choice label.on-maaske{border-color:var(--maybe);color:var(--maybe);font-weight:600}
+textarea{width:100%;box-sizing:border-box;min-height:2.2em;resize:vertical;font:inherit;font-size:.92rem;background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+.saved{font-size:.8rem;color:var(--muted);min-height:1em}
+.banner{margin-top:14px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font-size:.92rem;color:var(--muted)}
+</style>
+<div class="wrap">
+<h1>{{HEADING}}</h1>
+<p class="lede">{{LEDE}}</p>
+<div class="status" id="status"><span>Indlæser dine tidligere valg …</span></div>
+<div class="banner" id="banner" hidden></div>
+<div id="groups"></div>
+</div>
+<script>
+const GROUPS = {{GROUPS}};
+const LAB = {ja:"Ja",nej:"Nej",maaske:"Måske"};
+const state = {};
+const total = GROUPS.reduce((n,g)=>n+g.items.length,0);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function render(){
+  const root=document.getElementById("groups"); root.innerHTML="";
+  for(const g of GROUPS){
+    const h=document.createElement("h2"); h.textContent=g.key+". "+g.da; root.appendChild(h);
+    const list=document.createElement("div"); list.className="list";
+    for(const it of g.items){
+      const el=document.createElement("div"); el.className="item"; el.dataset.id=it.id;
+      const links=[it.maps?`<a href="${esc(it.maps)}" target="_blank" rel="noopener">Kort</a>`:"",it.site?`<a href="${esc(it.site)}" target="_blank" rel="noopener">Hjemmeside</a>`:""].filter(Boolean).join(" · ");
+      el.innerHTML=`<div class="top"><div class="name">${esc(it.name)}</div>
+        <div class="choice" role="radiogroup" aria-label="Valg for ${esc(it.name)}">${Object.keys(LAB).map(k=>`<label><input type="radio" name="c-${it.id}" id="c-${it.id}-${k}" value="${k}"><span>${LAB[k]}</span></label>`).join("")}</div></div>
+        <div class="meta">${esc(it.what)}${it.drive?" · "+esc(it.drive)+" i bil":""}${links?" · "+links:""}${it.note?"<br>"+esc(it.note):""}</div>
+        <textarea id="n-${it.id}" placeholder="Note (valgfri)" aria-label="Note til ${esc(it.name)}"></textarea><div class="saved" aria-live="polite"></div>`;
+      list.appendChild(el);
+    }
+    root.appendChild(list);
+  }
+}
+function paint(id){
+  const s=state[id]||{}; const el=document.querySelector(`.item[data-id="${id}"]`); if(!el) return;
+  el.querySelectorAll(".choice label").forEach(l=>{const v=l.querySelector("input").value; l.className=s.choice===v?"on-"+v:""; l.querySelector("input").checked=s.choice===v;});
+  const ta=el.querySelector("textarea"); if(document.activeElement!==ta) ta.value=s.note||"";
+}
+function counts(){
+  const c={ja:0,nej:0,maaske:0}; for(const k in state){ if(c[state[k].choice]!==undefined) c[state[k].choice]++; }
+  const done=c.ja+c.nej+c.maaske;
+  document.getElementById("status").innerHTML=`<span><b>${done}</b> af ${total} besvaret</span><span>Ja <b>${c.ja}</b></span><span>Måske <b>${c.maaske}</b></span><span>Nej <b>${c.nej}</b></span>`;
+}
+render(); counts();
+(async()=>{
+  const banner=document.getElementById("banner");
+  const timer=setTimeout(()=>{banner.hidden=false;banner.textContent="Kunne ikke hente gemte valg endnu. Du kan stadig vælge; prøv at genindlæse siden senere.";},10000);
+  const db = window.claude ? await window.claude.use("db") : null;
+  if(!db){clearTimeout(timer);banner.hidden=false;banner.textContent="Valg kan ikke gemmes i denne visning. Åbn siden logget ind på claude.ai for at gemme.";document.querySelectorAll("input,textarea").forEach(x=>x.disabled=true);return;}
+  const col=db.collection("choices");
+  col.onSnapshot(snap=>{clearTimeout(timer);banner.hidden=true;
+    for(const d of snap.docs){ state[d.id]=d.data(); paint(d.id); } counts();
+  }, err=>{clearTimeout(timer);banner.hidden=false;banner.textContent="Kunne ikke hente gemte valg: "+(err&&err.message||"ukendt fejl");});
+  const timers={};
+  async function save(id){
+    const el=document.querySelector(`.item[data-id="${id}"]`); const s=el.querySelector(".saved");
+    const choice=(el.querySelector("input:checked")||{}).value||null; const note=el.querySelector("textarea").value.trim();
+    state[id]={choice,note}; paint(id); counts(); s.textContent="Gemmer …";
+    try{ await col.doc(id).set({choice,note,updated:new Date().toISOString()}); s.textContent="Gemt"; }
+    catch(e){ s.textContent="Ikke gemt: "+(e&&e.message||"fejl"); }
+  }
+  document.getElementById("groups").addEventListener("change",e=>{const it=e.target.closest(".item"); if(it&&e.target.type==="radio") save(it.dataset.id);});
+  document.getElementById("groups").addEventListener("input",e=>{const it=e.target.closest(".item"); if(it&&e.target.tagName==="TEXTAREA"){clearTimeout(timers[it.dataset.id]); timers[it.dataset.id]=setTimeout(()=>save(it.dataset.id),900);}});
+})();
+</script>

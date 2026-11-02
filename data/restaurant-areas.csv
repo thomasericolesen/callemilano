@@ -1,0 +1,6 @@
+area_id,name,municipality,place_slugs,priority,note
+fuengirola,"Fuengirola (Castillo, centrum, Los Boliches, Carvajal)",Fuengirola,castillo-ejido;fuengirola-centro;boliches-gaviotas;carvajal,1,Nærmeste område; fire strande på ca. 5 km kyst
+torremolinos,"Torremolinos (La Carihuela, El Bajondillo, Playamar, Los Álamos)",Torremolinos,la-carihuela;el-bajondillo;playamar;los-alamos,2,
+benalmadena,"Benalmádena (Santa Ana, Fuente de la Salud)",Benalmádena,santa-ana-benalmadena;fuente-de-la-salud,3,
+mijas-costa,Mijas Costa (La Butibamba),Mijas,la-butibamba,4,
+marbella-ost,"Marbella øst (Cabopino/Artola, Los Monteros)",Marbella,cabopino-artola;los-monteros,5,To adskilte steder ca. 9 km fra hinanden; samles kun som arbejdspakke

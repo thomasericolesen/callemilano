@@ -1,0 +1,29 @@
+date,name,scope,municipality,source_url,checked_at,note
+2026-01-01,Año Nuevo,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-01-06,Epifanía del Señor,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-02-28,Día de Andalucía,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-04-02,Jueves Santo,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-04-03,Viernes Santo,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-05-01,Fiesta del Trabajo,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-08-15,Asunción de la Virgen,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-10-12,Fiesta Nacional de España,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-11-01,"Todos los Santos (selve festdagen, søndag)",festdag_soendag,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,Fridagen er flyttet til 2/11; mange steder har søndagsåbent
+2026-11-02,Todos los Santos (flyttet fra søndag 1/11),andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-12-06,"Día de la Constitución (selve festdagen, søndag)",festdag_soendag,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,Fridagen er flyttet til 7/12
+2026-12-07,Día de la Constitución Española (flyttet fra søndag 6/12),andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-12-08,Día de la Inmaculada Concepción,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2026-12-25,Natividad del Señor,andalucia,,https://cdn.juntadeandalucia.es/boja/2025/93/BOJA25-093-00002-6889-01_00320489.pdf,2026-11-01,"Decreto 101/2025 (BOJA 93, 19-05-2025)"
+2027-01-01,Año Nuevo,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-01-06,Epifanía del Señor,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-02-28,"Día de Andalucía (selve festdagen, søndag)",festdag_soendag,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,Fridagen er flyttet til 1/3
+2027-03-01,Día de Andalucía (flyttet fra søndag 28/2),andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-03-25,Jueves Santo,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-03-26,Viernes Santo,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-05-01,Fiesta del Trabajo,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-08-15,"Asunción de la Virgen (selve festdagen, søndag)",festdag_soendag,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,Fridagen er flyttet til 16/8
+2027-08-16,Asunción de la Virgen (flyttet fra søndag 15/8),andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-10-12,Fiesta Nacional de España,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-11-01,Todos los Santos,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-12-06,Día de la Constitución Española,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-12-08,Día de la Inmaculada Concepción,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"
+2027-12-25,Natividad del Señor,andalucia,,https://www.juntadeandalucia.es/eboja/2026/84/BOJA26-084-00002-5812-01_00337048.pdf,2026-11-01,"Decreto 84/2026 (BOJA 84, 05-05-2026)"

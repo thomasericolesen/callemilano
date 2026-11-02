@@ -8,6 +8,10 @@ Canonical editable records are Markdown files with YAML front matter in `docs/pl
 
 The human editor-of-record owns final approval, taxonomy and schema changes, source disputes, accessibility/suitability escalation, and archive/correction decisions. Agents never set `published` and never deploy.
 
+## Implementation (2026-11-02)
+
+The stages below are implemented as scripts and subagents described in `docs/agent-pipeline.md`: Maps Import = `tools/intake.py sweep/create`; Fact Check = subagents `source-reader` and `record-writer`; Editorial and approval stay with the main session and the editor-of-record. No SEO agent exists yet.
+
 ## Intake and queue
 
 Every individual or bulk Maps import is entered into `data/import-queue.csv` with a stable intake ID, input URL/name, processing state, retry count, duplicate candidates, clarification question if any, active stage/owner, and last update. Batch progress is tracked per place, so one ambiguous or failed entry does not block unrelated entries.

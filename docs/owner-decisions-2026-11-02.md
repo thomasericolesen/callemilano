@@ -38,3 +38,8 @@ Answers given in the session chat on 2026-11-02 (Claude asked; the owner chose f
 12. **Layer for the 30-60 minute band:** the catalogue group `Tæt på` in layer `excursions_4h` now means a route-checked one-way drive of at most 60 minutes (Google Routes, Saturday 10:00). Places in `Tæt på` with a longer drive move to `Dagsture`: Caminito del Rey (71 min, route-checked 2026-11-02), Sierra de las Nieves and Gibraltar (record values over 60 min, not route-checked). No schema change.
 13. **Order of work:** beaches first (fact check against the rocks rule, lifeguards, toilets, parking), then restaurants near them.
 14. **Selection:** 41 yes, 12 maybe, 1 no on the checklist page https://claude.ai/artifact/D8D2RD48rZbacv93b3J2SW; see `docs/one-hour-selection-2026-11-02.md`.
+
+## Trip planner and restaurants (session chat, 2026-11-02)
+
+15. **Fuengirola:** the beach record `fuengirola-centro` keeps its point between the harbour and the Río Fuengirola bridge. Fuengirola's centre is Plaza de la Constitución (record `fuengirola-town`). The underground car park there is real and the owner uses it on every visit ("Parkeringskælderen er absolut ægte. Jeg bruger den hver gang jeg er i Spanien.").
+16. **One system:** the trip planner (Alpha-Ecco, branch `claude/awesome-clarke-tvlhrg`) and the intake pipeline are merged. Advance work (places, opening hours, restaurants) goes through the pipeline into place records; the trip plan (`tools/trip.py`, Ecco) reads those records. Restaurants are full place records; `data/restaurant-directory.csv` is a lead list.

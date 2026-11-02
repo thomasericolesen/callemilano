@@ -1,0 +1,80 @@
+# Blank place record used by tools/intake.py create. Unknown values follow docs/place-schema.md.
+schema_version: 1.0.0
+status: draft
+id: null
+slug: null
+name: null
+category: null
+tags: []
+coordinates: null
+google_maps_url: null
+external_ids: {}
+municipality: null
+province: Málaga
+autonomous_community: Andalusia
+country: Spain
+driving_time_from_casa_de_la_familia: null
+age_groups: []
+family_score:
+  small_children: unknown
+  children: unknown
+  young_adults: unknown
+  seniors: unknown
+energy_level: null
+seasonality: []
+accessibility:
+  overall: unknown
+  mobility:
+    route: unknown
+    wheelchair_route: unknown
+    facilities: unknown
+  sensory:
+    notes: unknown
+  accessible_toilets: unknown
+  source: null
+  checked_at: null
+  confidence: unknown
+wheelchair_friendly: unknown
+parking:
+  availability: unknown
+  location_type: unknown
+  cost: unknown
+  restrictions: unknown
+  walk_distance: unknown
+  source: null
+  checked_at: null
+transport_options: []
+booking_required: unknown
+dog_friendly: unknown
+toilets_available: unknown
+food_available: unknown
+cost_level: Unknown
+visit_information:
+  schedule: null
+  typical_duration: null
+  booking_lead_time: null
+  valid_from: null
+  valid_until: null
+  cost_basis: null
+  cost_checked_at: null
+links:
+  official_website: null
+  booking: null
+  visitor_information: null
+  transport: null
+  contact: null
+related_places: []
+description_short: null
+description_long: null
+seo_title: null
+seo_description: null
+images: []
+evidence: []
+review_issues: []
+created_at: null
+updated_at: null
+last_verified: null
+last_reviewed_at: null
+next_review_at: null
+review_decision: null
+redirects: []
