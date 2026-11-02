@@ -207,12 +207,20 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given with the family assessment on 2026-11-02; not independently verified.
+- field: toilets_available
+  claim: 'Diputación de Málaga beach sheet ''Artola - Cabopino'' lists services: walkway access, nautical hire, (free) parking, beach bars, showers, rescue equipment, sunbeds, cleaning, bins, danger signs, parasols; nudist sections. Toilets are not listed.'
+  source_url: https://www.malaga.es/es/laprovincia/naturaleza/lis_cd-4379/artola-cabo-pino
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (beach follow-up 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02 (sheet undated). Conflicts with spain.info, which lists toilets.
 review_issues:
 - code: toilets_listed_but_unverified
   severity: warning
   fields:
   - toilets_available
-  description: 'Toilets are listed by secondary sources (see description), but toilets_available is left unknown until a source is verified (owner decision 2026-10-29 for Cabopino/Artola; the same rule is applied to Castillo-Ejido and Fuengirola centrum). 2026-11-02: spain.info (official, undated) also lists toilets; still left unknown until a dated municipal source confirms them.'
+  description: 'Toilets are listed by secondary sources (see description), but toilets_available is left unknown until a source is verified (owner decision 2026-10-29 for Cabopino/Artola; the same rule is applied to Castillo-Ejido and Fuengirola centrum). 2026-11-02: spain.info (official, undated) also lists toilets; still left unknown until a dated municipal source confirms them. 2026-11-02 (later): the Diputación de Málaga beach sheet lists showers, beach bars and parking but no toilets, so official sources now disagree; toilets_available stays unknown. Owner knowledge or Marbella''s beach department could settle it.'
   retryable: true
   owner: fact_check
 - code: nudist_zone_unlocated

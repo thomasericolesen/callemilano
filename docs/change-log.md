@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-02 - Beach follow-ups (handoff point 5, no schema change)
+
+- `boliches-gaviotas`: bathing zone for older people resolved - it is at Playa de San Francisco by the port (Fuengirola council 2021, Fuengirola TV 2023, Fuengirola Accesible 2025), not on this beach. Description corrected; `elderly_bathing_zone_location_disputed` closed. The approved `fuengirola-centro` record was not edited; adding the zone there needs the owner (a material change re-opens fact check).
+- `santa-ana-benalmadena`: Blue Flag 2026 confirmed by Diputación de Málaga; Benalmádena (21 Aug 2026) lists loudspeaker points at Santa Ana and Torrebermeja. No 2026 source names a lifeguard post on this beach; issue kept and updated.
+- `cabopino-artola`: Diputación de Málaga's beach sheet lists no toilets (spain.info does); `toilets_available` stays unknown.
+- `chiringuito-rafael`: identity corroborated by independent listings; `weak_identity_source` lowered to info; season and hours still open.
+- `chiringuito-las-dunas-cabopino`: no new source on winter opening. `fuente-de-la-salud`: family assessment awaits the owner (the earlier blocker, rocks, was settled by the 2026-11-02 rule).
+- Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Three bars archived; MOGA has no own page (owner decisions)
 
 Owner decision: `bar-meson-campanales` (inactive since 2016), `el-rimero` (wine shop, inactive since 2020) and `terraza-chill-out-bar` (inactive since 2021) are removed from the guide. Status -> `archived` with a `review_decision` from the editor-of-record; records and IDs stay (IDs must not be reused). `moga-la-cala`: the owner could not find an own page either; it stays `draft` with the issue updated. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
