@@ -130,6 +130,15 @@ review_issues:
   description: 'Category ''Excursions'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: no_official_source_found
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  - energy_level
+  description: 'Searched 2026-11-02: no official page found for Mirador del Compás (Turismo de Mijas'' hiking page was not readable). Only Google identity so far; needs Turismo de Mijas or an owner screenshot.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

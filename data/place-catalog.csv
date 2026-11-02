@@ -59,10 +59,10 @@ ES-AND-MAL-NONINA-FUENGIROLA-001,nonina-fuengirola,Noniná,needs_fact_check,Rest
 ES-AND-MAL-RED-AND-WHITE-FUENGIROLA-001,red-and-white-fuengirola,Red & White,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5447602,-4.6203943999999995,3.9,yes,14 min,docs/places/red-and-white-fuengirola.md
 ES-AND-MAL-GROOVE-BAR-FUENGIROLA-001,groove-bar-fuengirola,Groove Music Bar,needs_fact_check,Restaurants,,Fuengirola,Málaga,36.5420832,-4.6183271,4.0,yes,16 min,docs/places/groove-bar-fuengirola.md
 ES-AND-MAL-LOUNGE-EL-TROPICO-001,lounge-el-tropico,Lounge El Trópico,needs_fact_check,Restaurants,Beach,Mijas,Málaga,36.502223799999996,-4.6796939,4.0,yes,13 min,docs/places/lounge-el-tropico.md
-ES-AND-MAL-PASEO-MARITIMO-FUENGIROLA-001,paseo-maritimo-fuengirola,Paseo Marítimo de Fuengirola,draft,Excursions,,Fuengirola,Málaga,36.5433212,-4.618598599999999,4.0,yes,16 min,docs/places/paseo-maritimo-fuengirola.md
+ES-AND-MAL-PASEO-MARITIMO-FUENGIROLA-001,paseo-maritimo-fuengirola,Paseo Marítimo de Fuengirola,needs_fact_check,Excursions,,Fuengirola,Málaga,36.5433212,-4.618598599999999,4.0,yes,16 min,docs/places/paseo-maritimo-fuengirola.md
 ES-AND-MAL-SOULD-PARK-FUENGIROLA-001,sould-park-fuengirola,Sould Park Fuengirola,draft,Family activities,,Fuengirola,Málaga,36.5434149,-4.6182096999999995,4.1,yes,18 min,docs/places/sould-park-fuengirola.md
 ES-AND-MAL-MAUI-PADDLE-SURF-LA-CALA-001,maui-paddle-surf-la-cala,Maui Paddle Surf (La Cala),draft,Family activities,,Mijas,Málaga,36.5011708,-4.6830377,4.2,yes,14 min,docs/places/maui-paddle-surf-la-cala.md
-ES-AND-MAL-SENDA-LITORAL-LA-CALA-001,senda-litoral-la-cala,Senda Litoral (La Cala de Mijas),draft,Excursions,,Mijas,Málaga,36.5013168,-4.6810890999999994,4.2,yes,13 min,docs/places/senda-litoral-la-cala.md
+ES-AND-MAL-SENDA-LITORAL-LA-CALA-001,senda-litoral-la-cala,Senda Litoral (La Cala de Mijas),needs_fact_check,Excursions,,Mijas,Málaga,36.5013168,-4.6810890999999994,4.2,yes,13 min,docs/places/senda-litoral-la-cala.md
 ES-AND-MAL-CHIRINGUITO-CRISTOBAL-001,chiringuito-cristobal,Chiringuito Cristóbal,approved,Restaurants,Restaurant; Beach,Mijas,Málaga,36.5003692,-4.682398,4.3,yes,15 min,docs/places/chiringuito-cristobal.md
 ES-AND-MAL-RETROCK-BART-001,retrock-bart,RetROCK BARt,needs_fact_check,Restaurants,,Mijas,Málaga,36.500899,-4.684403,4.3,yes,14 min,docs/places/retrock-bart.md
 ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001,chiringuito-los-moreno,Chiringuito Los Moreno,approved,Restaurants,Restaurant; Beach,Mijas,Málaga,36.4995404,-4.6837348,4.4,yes,15 min,docs/places/chiringuito-los-moreno.md
@@ -71,16 +71,16 @@ ES-AND-MAL-BOLICHES-GAVIOTAS-001,boliches-gaviotas,Boliches-Gaviotas,needs_fact_
 ES-AND-MAL-KARTING-EXPERIENCE-MIJAS-001,karting-experience-mijas,Karting Experience Mijas,needs_fact_check,Family activities,Adventure,Mijas,Málaga,36.567079899999996,-4.621423,5.1,yes,13 min,docs/places/karting-experience-mijas.md
 ES-AND-MAL-LA-MAR-SALA-001,la-mar-sala,La Mar Salá,approved,Restaurants,Restaurant; Beach,Fuengirola,Málaga,36.5576685,-4.6093624,5.4,yes,17 min,docs/places/la-mar-sala.md
 ES-AND-MAL-EL-OCEANO-BEACH-HOTEL-001,el-oceano-beach-hotel,El Oceano Beach Hotel,needs_fact_check,Restaurants,,Mijas,Málaga,36.4907937,-4.6946639,5.8,yes,17 min,docs/places/el-oceano-beach-hotel.md
-ES-AND-MAL-PUERTO-COLORADO-SIERRA-DE-MIJAS-001,puerto-colorado-sierra-de-mijas,Puerto Colorado (Sierra de Mijas),draft,Excursions,,Mijas,Málaga,36.597363699999995,-4.6620145,6.9,yes,23 min,docs/places/puerto-colorado-sierra-de-mijas.md
+ES-AND-MAL-PUERTO-COLORADO-SIERRA-DE-MIJAS-001,puerto-colorado-sierra-de-mijas,Puerto Colorado (Sierra de Mijas),needs_fact_check,Excursions,,Mijas,Málaga,36.597363699999995,-4.6620145,6.9,yes,23 min,docs/places/puerto-colorado-sierra-de-mijas.md
 ES-AND-MAL-MIRADOR-DEL-COMPAS-001,mirador-del-compas,Mirador del Compás,draft,Excursions,,Mijas,Málaga,36.5953395,-4.6358648,7.1,yes,21 min,docs/places/mirador-del-compas.md
-ES-AND-MAL-ERMITA-DEL-CALVARIO-MIJAS-001,ermita-del-calvario-mijas,Ermita del Calvario (Mijas),draft,Excursions,,Mijas,Málaga,36.5973956,-4.6401707,7.2,yes,20 min,docs/places/ermita-del-calvario-mijas.md
+ES-AND-MAL-ERMITA-DEL-CALVARIO-MIJAS-001,ermita-del-calvario-mijas,Ermita del Calvario (Mijas),needs_fact_check,Excursions,,Mijas,Málaga,36.5973956,-4.6401707,7.2,yes,20 min,docs/places/ermita-del-calvario-mijas.md
 ES-AND-MAL-MIJAS-PUEBLO-001,mijas-pueblo,Mijas Pueblo,needs_fact_check,City,,Mijas,Málaga,36.5967755,-4.6323067,7.3,yes,17 min,docs/places/mijas-pueblo.md
 ES-AND-MAL-LOS-MARINOS-PACO-001,los-marinos-paco,Los Marinos Paco,approved,Restaurants,Restaurant; Beach,Fuengirola,Málaga,36.5708563,-4.5909912,7.5,yes,17 min,docs/places/los-marinos-paco.md
 ES-AND-MAL-CARVAJAL-001,carvajal,Carvajal,approved,Beaches,Beach,Fuengirola,Málaga,36.5725,-4.5881,7.8,yes,18 min,docs/places/carvajal.md
 ES-AND-MAL-CHIRINGUITO-LAS-DUNAS-CABOPINO-001,chiringuito-las-dunas-cabopino,Chiringuito Las Dunas,needs_fact_check,Restaurants,Restaurant; Beach,Marbella,Málaga,36.4860513,-4.7356401,8.5,yes,22 min,docs/places/chiringuito-las-dunas-cabopino.md
 ES-AND-MAL-CABOPINO-ARTOLA-001,cabopino-artola,Cabopino/Artola,needs_fact_check,Beaches,Beach; Nature,Marbella,Málaga,36.4853,-4.7427,9.1,yes,21 min,docs/places/cabopino-artola.md
 ES-AND-MAL-MARIPOSARIO-BENALMADENA-001,mariposario-benalmadena,Mariposario de Benalmádena (Monowa),needs_fact_check,Family activities,,Benalmádena,Málaga,36.5890637,-4.5814641,9.4,yes,18 min,docs/places/mariposario-benalmadena.md
-ES-AND-MAL-DUNAS-DE-ARTOLA-001,dunas-de-artola,Dunas de Artola,draft,Nature,,Marbella,Málaga,36.485948,-4.7487129,9.5,yes,22 min,docs/places/dunas-de-artola.md
+ES-AND-MAL-DUNAS-DE-ARTOLA-001,dunas-de-artola,Dunas de Artola,needs_fact_check,Nature,,Marbella,Málaga,36.485948,-4.7487129,9.5,yes,22 min,docs/places/dunas-de-artola.md
 ES-AND-MAL-CASTILLO-DE-COLOMARES-001,castillo-de-colomares,Castillo de Colomares,needs_fact_check,Excursions,,Benalmádena,Málaga,36.590567,-4.572672,10.1,yes,20 min,docs/places/castillo-de-colomares.md
 ES-AND-MAL-TELEFERICO-BENALMADENA-001,teleferico-benalmadena,Teleférico Benalmádena,needs_fact_check,Family activities,,Benalmádena,Málaga,36.5988798,-4.5398201,13.0,yes,21 min,docs/places/teleferico-benalmadena.md
 ES-AND-MAL-SELWO-MARINA-001,selwo-marina,Selwo Marina,needs_fact_check,Family activities,,Benalmádena,Málaga,36.592469,-4.532156,13.3,yes,24 min,docs/places/selwo-marina.md

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-PUERTO-COLORADO-SIERRA-DE-MIJAS-001
 slug: puerto-colorado-sierra-de-mijas
 name: Puerto Colorado (Sierra de Mijas)
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Puerto Colorado (Sierra de Mijas): a trail area in the Sierra de Mijas, about 23 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Puerto Colorado (Sierra de Mijas) is a trail area in the Sierra de Mijas (29650 Mijas, Málaga, España). From Casa de la Familia it is about 23 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Puerto Colorado (Sierra de Mijas): a trail area in the Sierra de Mijas, about 23 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Puerto Colorado (Sierra de Mijas) is a trail area in the Sierra de Mijas (29650 Mijas, Málaga, España). From Casa de la Familia it is about 23 minutes by car (Google route check, Saturday 10:00). Puerto Colorado is the end point of a family stage of the Málaga provincial council's Gran Senda network (Sendero 07, Mijas - Puerto Colorado), which starts in Mijas village and passes the Ermita del Calvario. A 2018 Mijas council walking programme gives the route from the Via Crucis to Puerto Colorado as 7.5 km with 500 m of climb. Trail details were not yet read from the official page. Check conditions before setting out.
 seo_title: Puerto Colorado (Sierra de Mijas), Mijas | CalleMilano draft record
 seo_description: 'Draft record for Puerto Colorado (Sierra de Mijas) (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,23 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long
+  claim: 'Gran Senda de Málaga (Diputación de Málaga), ''Sendero 07. Mijas - Puerto Colorado (Familia)'': ''La etapa parte del casco urbano de Mijas en busca de la Ermita del Calvario por el Via Crucis, que cuenta con 14 estaciones y la parada final ...''.'
+  source_url: https://www.gransendademalaga.es/es/etapas/lis_cd-9508/sendero-07-mijas-puerto-colorado-familia
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: medium
+  notes: Search excerpt read 2026-11-02; the page itself blocked automated reading. Distance, time and difficulty not yet read.
+- field: description_long
+  claim: 'Turismo de Mijas guided-walk programme (December 2018): ''Via Crucis hasta la Ermita del Calvario, proseguiremos hasta Puerto Colorado ... Distancia: 7,5 Kms. Desnivel: 500 mts.'''
+  source_url: https://turismo.mijas.es/images/ocio/agenda/Programas%20de%20senderos/DICIEMBRE%20SENDERISMO%20EN%20MIJAS%20Diciembre%202018.pdf
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: low
+  notes: Search excerpt of a 2018 municipal guided-walk programme; figures describe that organised walk, not necessarily the signed trail.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +133,18 @@ review_issues:
   description: 'Category ''Excursions'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: trail_data_unread
+  severity: warning
+  fields:
+  - description_long
+  - energy_level
+  - accessibility
+  description: Official trail data were not read (Gran Senda page blocked automated reading). Needs an owner screenshot or Turismo de Mijas; parking and trailhead also to confirm.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

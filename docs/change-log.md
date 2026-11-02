@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Local extension fact check, batch C: walks and nature (no schema change)
+
+`draft` -> `needs_fact_check` for 5: `dunas-de-artola` (andalucia.org: Natural Monument since 2003, three dune types, keep to marked paths), `senda-litoral-la-cala` (GR 92/E-12 overview; La Cala section details open), `paseo-maritimo-fuengirola` (only the council's 2021 cycle-lane article; `promenade_facts_thin`), `ermita-del-calvario-mijas` and `puerto-colorado-sierra-de-mijas` (Gran Senda family stage via the Via Crucis, search excerpt; 2018 municipal walk 7.5 km / 500 m; `trail_data_unread`). `mirador-del-compas` stays `draft` (no official source found). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Local extension fact check, batch B: towns and sights (no schema change)
 
 `draft` -> `needs_fact_check` for 6, from official tourism portals (andalucia.org, Somos Fuengirola, This is Benalmádena) and own sites: `mijas-pueblo` (village and main sights; practicalities open), `fuengirola-town` (thin: portal tagline and tourist office only; issue `town_description_thin`), `benalmadena-pueblo` (old village at about 300 m, Plaza de España, Jardines del Muro, La Niña), `castillo-sohail` (history; Tue-Fri 10-14, weekends 10-18, closed Mon; free), `castillo-de-colomares` (seasonal hours, closed Mon; exterior visit only; price conflict on its own site), `puerto-marina-benalmadena` (1,140 moorings, Blue Flag, toilets, disabled facilities, parking). Validation: 0 errors. Regenerated `data/place-catalog.csv`.

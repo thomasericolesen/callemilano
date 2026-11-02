@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-PASEO-MARITIMO-FUENGIROLA-001
 slug: paseo-maritimo-fuengirola
 name: Paseo Marítimo de Fuengirola
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Paseo Marítimo de Fuengirola: Fuengirola''s seafront promenade, about 16 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Paseo Marítimo de Fuengirola is Fuengirola's seafront promenade (Puerto Deportivo Fuengirola, Local 301, 29640 Fuengirola, Málaga, España). From Casa de la Familia it is about 16 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Paseo Marítimo de Fuengirola: Fuengirola''s seafront promenade, about 16 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Paseo Marítimo de Fuengirola is Fuengirola's seafront promenade (Puerto Deportivo Fuengirola, Local 301, 29640 Fuengirola, Málaga, España). From Casa de la Familia it is about 16 minutes by car (Google route check, Saturday 10:00). Fuengirola council (2021) describes a cycle lane along the Los Boliches promenade, resurfaced that year. The promenade's total length and facilities were not found in an official source yet (secondary sources give about 7-8 km). Check conditions before setting out.
 seo_title: Paseo Marítimo de Fuengirola, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Paseo Marítimo de Fuengirola (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long
+  claim: 'Fuengirola council, 25 Nov 2021: ''El Ayuntamiento de Fuengirola renueva el pavimento del carril bici del Paseo Marítimo de Los Boliches'' (about 1,500 m² resurfaced with synthetic resin, new road markings).'
+  source_url: https://www.fuengirola.es/el-ayuntamiento-de-fuengirola-renueva-el-pavimento-del-carril-bici-del-paseo-maritimo-de-los-boliches/
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Secondary length figures (Tripadvisor 'over 7 km', a Facebook post 'nearly 8 km') not recorded.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,18 @@ review_issues:
   description: 'Category ''Excursions'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: promenade_facts_thin
+  severity: warning
+  fields:
+  - description_long
+  - accessibility
+  - toilets_available
+  description: Only the existence of a cycle lane is officially sourced. Length, sections, toilets and access need Fuengirola council or the tourism portal.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

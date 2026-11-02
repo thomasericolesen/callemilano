@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-SENDA-LITORAL-LA-CALA-001
 slug: senda-litoral-la-cala
 name: Senda Litoral (La Cala de Mijas)
@@ -73,12 +73,12 @@ visit_information:
 links:
   official_website: null
   booking: null
-  visitor_information: null
+  visitor_information: https://www.andalucia.org/listing/la-senda-litoral-gr92-e12/21684102/
   transport: null
   contact: null
 related_places: []
-description_short: 'Senda Litoral (La Cala de Mijas): the coastal boardwalk path (Senda Litoral) at La Cala de Mijas, about 13 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Senda Litoral (La Cala de Mijas) is the coastal boardwalk path (Senda Litoral) at La Cala de Mijas (29649 La Cala de Mijas, Málaga, España). From Casa de la Familia it is about 13 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, access and suitability have not been checked yet; check before visiting.
+description_short: 'Senda Litoral (La Cala de Mijas): the coastal boardwalk path (Senda Litoral) at La Cala de Mijas, about 13 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Senda Litoral (La Cala de Mijas) is the coastal boardwalk path (Senda Litoral) at La Cala de Mijas (29649 La Cala de Mijas, Málaga, España). From Casa de la Familia it is about 13 minutes by car (Google route check, Saturday 10:00). The Senda Litoral (GR 92 / E-12) is a signed long-distance coastal walk, according to Andalusia''s official tourism site (checked 2026-11-02): about 213 km through 14 Costa del Sol municipalities from Nerja to Manilva, in 12 stages, along promenades, cycle lanes, paths and wooden boardwalks, passing natural sites such as the Dunas de Artola and the rocky stretch between Calahonda and Calaburras in Mijas. It can be walked, and mostly ridden or mountain-biked. Details of the La Cala section (length, surface, pushchair and wheelchair access) were not found yet. Check conditions before setting out.'
 seo_title: Senda Litoral (La Cala de Mijas), Mijas | CalleMilano draft record
 seo_description: 'Draft record for Senda Litoral (La Cala de Mijas) (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
+- field: description_long
+  claim: 'andalucia.org ''La Senda Litoral - GR92 E12'': 14 municipios, Nerja (Balcón de Europa) to Manilva (Castillo de la Duquesa); paseos marítimos, carriles bici, caminos y pasarelas de madera; Dunas de Artola, tramo rocoso entre Calahonda y Calaburras (Mijas); homologado y señalizado en 2014; 212,91 km; 12 etapas; ''Puede ser recorrido a pie y, salvo algunos tramos, a caballo y en bicicleta de montaña''.'
+  source_url: https://www.andalucia.org/listing/la-senda-litoral-gr92-e12/21684102/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, access and facilities still need official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,9 +125,18 @@ review_issues:
   description: 'Category ''Excursions'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
   retryable: true
   owner: human_editor
+- code: local_section_unchecked
+  severity: warning
+  fields:
+  - accessibility
+  - description_long
+  - visit_information
+  description: The record point is at La Cala; the La Cala/Mijas section's length, surface and access (pushchairs, wheelchairs, bikes) need Mijas council's Senda Litoral page.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
