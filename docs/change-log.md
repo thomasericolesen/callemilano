@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Bolera Mijas facilities from its own page (no schema change)
+
+`bolera-mijas-dubai-boll`: own Facebook page (owner screenshot) confirms restaurant, bowling, children's area, bouncy castle, arcade and an indoor trampoline area for the Mijas venue; the owner's impression (mostly adults and seniors) is kept beside it. Issue narrowed to `hours_and_prices_unverified`. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Zero Latency voucher prices; Bolera leads (no schema change)
 
 - `zero-latency-miramar`: gift-voucher price €29.95 per ticket and group-booking contact from the own booking site (owner screenshot); `prices_not_readable` lowered to info `booking_prices_unconfirmed`; phone discrepancy between Google and the operator noted.
