@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: RetROCK BARt, P.º Costa del Sol, 29649 La Cala de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.500899,-4.684403); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.500899%2C-4.684403&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 14 min, 6.67 km. Walking: 82 min, 5.55 km. Daytime sample; evening traffic differs.'
+  note: 'Routes API figure: 14 min, 6.67 km. Daytime sample; evening traffic differs.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'RetROCK BARt: rock bar, about 14 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: RetROCK BARt is a rock bar at P.º Costa del Sol, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 14 minutes by car (Google route check, Saturday 10:00; evening traffic and parking differ) or 82 minutes on foot (5.55 km). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, plan a taxi or another way home. As in any bar, keep an eye on your drink.
+description_short: 'RetROCK BARt: rock bar, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
+description_long: RetROCK BARt is a rock bar at P.º Costa del Sol, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
 seo_title: RetROCK BARt, Mijas | CalleMilano draft record
 seo_description: 'Draft record for RetROCK BARt (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -91,14 +91,14 @@ evidence:
   checked_by: Claude (bars intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Identity and position only.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 14 min by car (6.67 km, Saturday 10:00 predicted traffic) and 82 min on foot (5.55 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 14 min by car (6.67 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.500899%2C-4.684403&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (bars intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes, DRIVE (TRAFFIC_AWARE_OPTIMAL, Saturday 2026-11-07 10:00) and WALK, from the project origin.
+  notes: 'Google Routes API computeRoutes, DRIVE (TRAFFIC_AWARE_OPTIMAL, Saturday 2026-11-07 10:00), from the project origin. Walking time removed 2026-11-02 (owner decision: guests reach bars in town by taxi or Uber).'
 - field: status (selection)
   claim: Selected by the owner for the guide on the bars selection page; passed a reputation screen on 2026-11-02.
   source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/bars-selection-2026-11-02.md

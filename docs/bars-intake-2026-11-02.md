@@ -51,6 +51,8 @@ Method as in `docs/nearby-intake-2026-11-02.md`: Google Places API (nearby searc
 | Lounge El Trópico | Beach lounge | 77 min (5.17 km) | 13 min | [Maps](https://maps.google.com/?cid=11274171202840296835) [site](https://chiringuitoeltropico.com/) | La Cala de Mijas. |
 | RetROCK BARt | Rock bar | 82 min (5.55 km) | 14 min | [Maps](https://maps.google.com/?cid=15889588323336428459) | La Cala de Mijas. |
 
+**Owner decision 2026-11-02:** walking times are not used for bars in town; guests go by taxi or Uber. The Walk column is kept here as intake data only.
+
 ## Observations
 
 - Only two bars are within a short walk (Ooo, 5 min; Asociación Chaparral, 17 min). The real bar choice is a 6-8 minute drive in Las Lagunas, or 10-16 minutes in Fuengirola and La Cala.

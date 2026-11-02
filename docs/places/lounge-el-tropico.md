@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: Lounge El Trópico, C. Reina Fabiola, 13, 29649 La Cala de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.502223799999996,-4.6796939); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.502223799999996%2C-4.6796939&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 13 min, 6.28 km. Walking: 77 min, 5.17 km. Daytime sample; evening traffic differs.'
+  note: 'Routes API figure: 13 min, 6.28 km. Daytime sample; evening traffic differs.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Lounge El Trópico: beach lounge bar, about 13 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Lounge El Trópico is a beach lounge bar at C. Reina Fabiola, 13, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car (Google route check, Saturday 10:00; evening traffic and parking differ) or 77 minutes on foot (5.17 km). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, plan a taxi or another way home. As in any bar, keep an eye on your drink.
+description_short: 'Lounge El Trópico: beach lounge bar, about 13 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
+description_long: Lounge El Trópico is a beach lounge bar at C. Reina Fabiola, 13, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
 seo_title: Lounge El Trópico, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Lounge El Trópico (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -91,14 +91,14 @@ evidence:
   checked_by: Claude (bars intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Identity and position only.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 13 min by car (6.28 km, Saturday 10:00 predicted traffic) and 77 min on foot (5.17 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 13 min by car (6.28 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.502223799999996%2C-4.6796939&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (bars intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes, DRIVE (TRAFFIC_AWARE_OPTIMAL, Saturday 2026-11-07 10:00) and WALK, from the project origin.
+  notes: 'Google Routes API computeRoutes, DRIVE (TRAFFIC_AWARE_OPTIMAL, Saturday 2026-11-07 10:00), from the project origin. Walking time removed 2026-11-02 (owner decision: guests reach bars in town by taxi or Uber).'
 - field: status (selection)
   claim: Selected by the owner for the guide on the bars selection page; passed a reputation screen on 2026-11-02.
   source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/bars-selection-2026-11-02.md

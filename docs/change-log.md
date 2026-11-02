@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Bars: walking times replaced by taxi/Uber wording (owner decision)
+
+Owner decision: walking times make no sense for bars in town; guests go by taxi or Uber. In the 22 bar records the walking time was removed from `description_long`, the drive-time note and the route evidence; descriptions now give the time "by car, taxi or Uber" and advise a taxi or Uber both ways when drinking. Intake and selection docs updated. Validation: 0 errors.
+
 ## 2026-11-02 - 22 bar draft records created; ByCosmos Skybar removed (owner decisions, no schema change)
 
 Owner selection and reputation screen in `docs/bars-selection-2026-11-02.md`. ByCosmos Skybar removed by owner decision after the screen (no record). Created 22 draft records (21 bars plus El Oceano Beach Hotel), category `Restaurants`, IDs allocated, with Google identity, Routes API drive and walking times, a general drink-safety note and taxi advice in each description, and open issues for facts, audience and the owner not having visited. Bamboleo linked to La Zambra Resort. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
