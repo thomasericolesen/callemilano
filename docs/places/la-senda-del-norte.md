@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-LA-SENDA-DEL-NORTE-001
 slug: la-senda-del-norte
 name: La Senda del Norte
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/profile.php?id=61551830938416
 related_places: []
-description_short: 'La Senda del Norte: bar (Google lists it as a restaurant), about 6 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: La Senda del Norte is a bar (Google lists it as a restaurant) at C. Río Aguas, 10, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 6 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'La Senda del Norte: café-bar with a street terrace in Las Lagunas, about 6 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: La Senda del Norte is a café-bar at C. Río Aguas, 10, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 6 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02) is listed as a restaurant; photos show a covered pavement terrace and specialty coffees, and a post from March shows latte art ('#arteencafe', '#lasendadelnortebar'). Opening hours, menu and prices were not given. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
 seo_title: La Senda del Norte, Mijas | CalleMilano draft record
 seo_description: 'Draft record for La Senda del Norte (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: description_long, links
+  claim: 'Own Facebook page ''La Senda del Norte'': category Restaurant; cover photo of the premises with the sign ''La Senda del Norte'' and a covered street terrace; profile photo of coffee drinks; post 16 March: ''En la senda del norte también nos tomamos en serio el arte jijiji #arteencafe #dibujosencafé #lasendadelnortebar''.'
+  source_url: https://www.facebook.com/profile.php?id=61551830938416
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review and follower counts not recorded. The page shows no address, phone or hours.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,17 +132,18 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: social_page_not_read
+- code: hours_and_prices_unknown
   severity: warning
   fields:
   - visit_information
   - cost_level
-  description: Google links to the bar's own Instagram or Facebook page, which cannot be read without login (checked 2026-11-02). Hours and prices need checking.
+  - food_available
+  description: Own page confirms the café-bar and its terrace but gives no hours, menu or prices. Needs a visit or the Instagram page.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 - Last three bars from owner screenshots (no schema change)
+
+- `draft` -> `needs_fact_check` (2): `la-senda-del-norte` (café-bar with a covered street terrace; no hours or prices on its page), `mon-2-sun` ("the friendly family/community bar" at La Hacienda, Mijas Golf; outdoor seating, price range "cheap"; latest post December 2024 and mon2sun.es gone, issue `activity_unverified`).
+- `terraza-chill-out-bar` stays `draft` with blocking `possibly_closed`: own page inactive since June 2021 and its phone number is a placeholder. Suggested: archive.
+- Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Four more bars from owner screenshots (no schema change)
 
 - `draft` -> `needs_fact_check` (2): `la-floja-vinos-y-latas` (own Facebook page confirms address and phone +34 952 31 47 63; hours and prices still unknown), `groove-bar-fuengirola` (renamed to its own name **Groove Music Bar**, ID and slug unchanged, registry name updated; live music Wednesday-Sunday, jam session Wednesdays 21:30, DJ Thursdays 23:00, food such as wings and pizza; new issue `hours_prices_and_entry_unknown`).
