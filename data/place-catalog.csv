@@ -1,6 +1,6 @@
 id,slug,name,status,category,tags,municipality,province,latitude,longitude,distance_km_from_casa,within_primary_radius,driving_time,record_file
 ES-AND-MAL-RESTAURANTE-CERROS-DEL-AGUILA-001,restaurante-cerros-del-aguila,Restaurante Cerros del Águila,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.534290399999996,-4.6607671999999996,0.2,yes,3 min,docs/places/restaurante-cerros-del-aguila.md
-ES-AND-MAL-MIXS-LOUNGE-001,mixs-lounge,Mixs Lounge,draft,Restaurants,Restaurant,Mijas,Málaga,36.5345521,-4.6598372999999995,0.3,yes,2 min,docs/places/mixs-lounge.md
+ES-AND-MAL-MIXS-LOUNGE-001,mixs-lounge,Mixs Longe,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.5345521,-4.6598372999999995,0.3,yes,2 min,docs/places/mixs-lounge.md
 ES-AND-MAL-SINGH-DONER-KEBAB-001,singh-doner-kebab,Singh Doner Kebab,draft,Restaurants,Restaurant,Mijas,Málaga,36.534591999999996,-4.6594489999999995,0.3,yes,2 min,docs/places/singh-doner-kebab.md
 ES-AND-MAL-AVENTOURALIA-001,aventouralia,Aventouralia,needs_fact_check,Family activities,Adventure,Mijas,Málaga,36.539927399999996,-4.6603245,0.5,yes,4 min,docs/places/aventouralia.md
 ES-AND-MAL-PENA-AL-TRANCO-001,pena-al-tranco,Peña Al Tranco,draft,Restaurants,Restaurant,Mijas,Málaga,36.540185199999996,-4.6601631,0.5,yes,4 min,docs/places/pena-al-tranco.md
