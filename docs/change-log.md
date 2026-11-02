@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Practical page: emergency info left to the website note (owner)
+
+The owner already has a note on emergency numbers and A&E on the website. `docs/practical-information-draft.md` now refers to it; the emergency numbers and the hospital entry moved to an appendix for comparison only. Recorded as owner decision 11.
+
 ## 2026-11-02 - Practical information page, first draft (step 2, no records)
 
 Added `docs/practical-information-draft.md` for the 9 everyday places the owner selected (owner decision 7): emergency numbers (112, 061, Salud Responde) from the Junta de Andalucía; Centro de Salud Las Lagunas (Mon-Fri 08:00-20:00) from Mijas council and SAS; Hospital Costa del Sol contacts from SAS; duty-pharmacy finder; market days from Turismo de Mijas and Fuengirola council (Las Lagunas Saturday, La Cala Wednesday and Saturday, Fuengirola Tuesday market and Saturday rastro, with fair-time exceptions); market hall and supermarkets by Google identity only. Shop hours remain open. No place record changed.

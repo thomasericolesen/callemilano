@@ -2,21 +2,15 @@
 
 **Status: draft for the owner, 2026-11-02.** Owner decision 7 (`docs/owner-decisions-2026-11-02.md`): everyday places go on a separate practical page, not in the place records. Facts below come from official sources checked on 2026-11-02 (see the source list); drive times are Google Routes API checks from Casa de la Familia (Saturday 10:00). Opening hours change: check before going. Text is in English like the place records; the language shown to guests is still open.
 
-## In an emergency
+## Emergencies and A&E
 
-- **112** - the single free emergency number for all of Andalusia (health, fire and rescue, police, civil protection). [1]
-- **061** - medical emergencies (life in danger). [1][2]
-- **Salud Responde, 955 545 060** - Andalusian health service information line. [1]
-- Mijas council lists **902 50 50 61** for 24-hour urgent care in the Las Lagunas area. [3]
+Emergency numbers and hospital emergency departments are covered by the owner's existing note on the website; this page does not repeat them. The facts found on 2026-11-02 are kept in the appendix below so the owner can check the website note against them.
 
 ## Health care
 
 | Place | What | Drive | Hours and contact | Map |
 |---|---|---|---|---|
 | Centro de Salud Las Lagunas | Public health centre (district head centre), C/ La Unión s/n | 10 min | Monday-Friday 08:00-20:00; phone 951 06 22 47; appointments 951 06 22 40 [3][4] | [Maps](https://maps.google.com/?cid=7732461281432162876) |
-| Hospital Universitario Costa del Sol | Public hospital (Servicio Andaluz de Salud), A-7 / N-340 km 187, Marbella | 26 min | Switchboard 951 97 66 69; citizen information 951 97 66 64 [5] | [Maps](https://maps.google.com/?cid=8244419514961687327) |
-
-Visitors from EU/EEA countries normally use the European Health Insurance Card in the public system; that is general advice to confirm with the guest's own insurer, not checked here.
 
 ## Pharmacies
 
@@ -57,5 +51,14 @@ Identity, addresses not listed above and map links: Google Places API, 2026-11-0
 ## Open points
 
 - Supermarket, pharmacy and market-hall hours (own sites or a visit).
-- Purpose of the SAS line 951 03 14 37.
 - Whether to add the riding club, sports centre or Spanish lessons ('maybe' in the owner's selection) to this page later.
+
+## Appendix: emergency facts found 2026-11-02 (for comparison with the website note, not for publication here)
+
+- **112** - the single free emergency number for all of Andalusia (health, fire and rescue, police, civil protection). [1]
+- **061** - medical emergencies (life in danger). [1][2]
+- **Salud Responde, 955 545 060** - Andalusian health service information line. [1]
+- Mijas council lists **902 50 50 61** for 24-hour urgent care in the Las Lagunas area. [3]
+
+- Hospital Universitario Costa del Sol (public, SAS), Ctra. N-340 km 187, Marbella; about 26 min by car; switchboard 951 97 66 69; citizen information 951 97 66 64. [5]
+- The SAS line 951 03 14 37 appears as 'Urgencias' on both the hospital and the Las Lagunas health-centre pages; its purpose is unclear.
