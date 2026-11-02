@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 - Zero Latency voucher prices; Bolera leads (no schema change)
+
+- `zero-latency-miramar`: gift-voucher price €29.95 per ticket and group-booking contact from the own booking site (owner screenshot); `prices_not_readable` lowered to info `booking_prices_unconfirmed`; phone discrepancy between Google and the operator noted.
+- `bolera-mijas-dubai-boll`: owner screenshot showed only a Google AI overview; its claims (8 lanes, extra games, hours, offers) are noted on the open issue as leads, not recorded as facts.
+- Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Cosmozone price list from owner screenshot (no schema change)
 
 `cosmozone-lasertag`: prices and pack contents from the venue's own price list (owner screenshot of cosmozone.es/en/, which Firecrawl cannot read): 1-hour laser tag €18 Mon-Fri / €20 weekends, 2-hour pack €28/€30, birthday pack €26/€28 (min. 10), extra room games €3/€4, Laser Maze from age 9. Issue narrowed to `hours_not_readable`. Validation: 0 errors. Regenerated `data/place-catalog.csv`.

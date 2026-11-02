@@ -132,7 +132,7 @@ review_issues:
   - visit_information
   - cost_level
   - food_available
-  description: 'No own source for hours or prices: third-party directories and a booking platform give different hours (from 16:00 or 16:30 to 00:00/02:00), and a Facebook search excerpt mentions a €4 Wednesday game (date unknown). Which games besides bowling are in Mijas is unclear. Needs owner screenshots of the Facebook page (facebook.com/boleramijasdubaiboll), a visit or a call.'
+  description: 'No own source for hours or prices: third-party directories and a booking platform give different hours (from 16:00 or 16:30 to 00:00/02:00), and a Facebook search excerpt mentions a €4 Wednesday game (date unknown). Which games besides bowling are in Mijas is unclear. Needs owner screenshots of the Facebook page (facebook.com/boleramijasdubaiboll), a visit or a call. 2026-11-02: an owner screenshot of Google''s AI overview lists 8 lanes, billiards, table football, arcade, air hockey, trampolines, a ball pit, café-bar with pizza, Wednesday offers (e.g. €4 per game) and hours Mon-Thu 16:00-00:00, Fri 16:00-02:00, Sat 16:15-02:00, Sun 12:00-00:00. AI summaries are not a source; use these only as leads to check on the own Facebook page (facebook.com/boleramijasdubaiboll).'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
