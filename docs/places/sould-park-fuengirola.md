@@ -99,6 +99,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: name, municipality
+  claim: Operator's amusement-park page lists 'Fuengirola' among its Sould Park parks (link to a Google Maps entry only), separately from CC Miramar.
+  source_url: https://www.souldpark.com/ocio/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: low
+  notes: Read via Firecrawl on 2026-11-02. Confirms the operator lists a Fuengirola park; no attractions, ages, prices, hours or season given.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -128,12 +136,12 @@ review_issues:
   - visit_information
   - cost_level
   - age_groups
-  description: 'Checked 2026-11-02: The chain website (souldpark.com) gives no readable details for the Fuengirola marina park. Needs another source or a direct check.'
+  description: 'Rechecked 2026-11-02: the operator''s site only lists Fuengirola with a map link; no attractions, age limits, prices, hours or season. Needs the operator''s social pages (owner screenshot), a visit or a call (622 60 89 91).'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

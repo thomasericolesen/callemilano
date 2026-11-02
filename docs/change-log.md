@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-02 - Nearby fact check, batch 4: remaining activities (no schema change)
+
+Checked against the venues' own, operator, council or shopping-centre sources on 2026-11-02.
+
+- `draft` -> `needs_fact_check` (7): `mk2-cinesur-miramar` (price list incl. under-12 and over-65 rates, free parking, 3D, bar, bus lines 1/4/5; accessibility not stated), `multicines-alfil-fuengirola` (programme incl. children's films and opera/ballet broadcasts; no prices or facilities on the website), `zero-latency-miramar` (standard hours, arena over 200 m², up to eight players, 15-30 min games; new warning `minimum_age_conflict`: Málaga page says no fixed minimum age with a minimum height, chain FAQ says 13+), `bolera-mijas-dubai-boll` (bowling, bar, karaoke and sport screens from the chain's Mijas page; other games may be copied from the Jaén venue; hours only from conflicting third-party sources, not recorded), `parque-el-esparragal` (fenced play area with 20 m zip line, swings and barbecues from Mijas council sources dated 2021; issue `sources_dated_2021`), `cosmozone-lasertag` (terms: no under-6s, under-15s need an adult in their team, 48 h cancellation; hours and prices still inside an unreadable booking widget), `sould-park-bowling-miramar` (opened June 2026 per CC Miramar: four lanes, 50+ arcade machines, pool, table football; operator: no bar at this venue, shoes free, prices shown when booking).
+- Still `draft`: `jay-jangles` - sources (Olive Press 2015, directory) describe a nursery for enrolled children aged 1-6, not a visitor play centre; new blocking issue `not_a_visitor_activity` for the owner (archive or confirm a drop-in offer). `sould-park-fuengirola` - the operator only lists Fuengirola with a map link; `details_not_readable` updated.
+- Search excerpts with prices (Instagram, Facebook) were noted on review issues but not recorded as facts.
+- Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Bars fact check; Bamboleo merged into La Zambra (owner decisions, no schema change)
 
 - Owner decision: Bamboleo is described under La Zambra Resort; `bamboleo-la-zambra` archived (ID kept), La Zambra description and evidence updated. The owner does not know Mixs Lounge or Equestrian Centre either; noted on their issues.

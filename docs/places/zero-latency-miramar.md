@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-ZERO-LATENCY-MIRAMAR-001
 slug: zero-latency-miramar
 name: Zero Latency Miramar
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Zero Latency Miramar: virtual-reality arena at the Miramar shopping centre, about 9 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Zero Latency Miramar is a virtual-reality arena at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Zero Latency Miramar: free-roam virtual-reality arena at the Miramar shopping centre, about 9 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Zero Latency Miramar is a free-roam virtual-reality arena at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). The operator''s pages (checked 2026-11-02): an arena of more than 200 m² where up to eight players move freely without cables; standard hours Monday-Thursday 15:00-22:00, Friday 13:00-23:00, Saturday 12:00-23:00 and Sunday 12:00-22:00 (the operator notes these may differ on the day). Games last 15-30 minutes, with packages of 45-60 minutes. The age rule is unclear: the Málaga page says there is no fixed minimum age but each game has a minimum height, while the operator''s general FAQ says players must be 13 or older. The FAQ also says the games are generally not suitable for pregnant players, people who need mobility assistance, who are deaf or blind, or who have heart conditions, and that VR can trigger seizures. Prices were not readable. Check with the venue before visiting.'
 seo_title: Zero Latency Miramar, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Zero Latency Miramar (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -100,20 +100,31 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: description_long, visit_information, links
+  claim: 'Málaga location page: CC Miramar, Avd. de la Encarnación s/n, 29640 Fuengirola; phone +34 951811105; standard hours Sun 12-22, Mon-Thu 15-22, Fri 13-23, Sat 12-23, ''may differ on the day''.'
+  source_url: https://zerolatencyvr.com/es/locations/malaga
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Read via Firecrawl on 2026-11-02.
+- field: description_long, age_groups
+  claim: 'Málaga page: arena over 200 m², up to eight players at once without cables or backpacks; ''No existe una edad mínima establecida, aunque los jugadores deben cumplir la altura mínima requerida para cada experiencia''.'
+  source_url: https://zerolatencyvr.com/es/malaga
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Conflicts with the general FAQ (13+).
+- field: description_long, accessibility, age_groups
+  claim: 'General FAQ: players must be 13 or older (recommended minimum, some venues differ); experiences last 15-30 min, packages 45-60 min; generally not suitable for pregnant players, people needing mobility assistance, deaf or blind players, or heart conditions; seizure warning; small-frame glasses usually fit.'
+  source_url: https://zerolatencyvr.com/es/faqs
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Read via Firecrawl on 2026-11-02. Chain-wide rules; the Málaga venue may differ.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +134,24 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: minimum_age_conflict
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  description: The Málaga page says no fixed minimum age (minimum height per game); the chain FAQ says 13+. Confirm with the venue (+34 951811105) before any child suitability claim.
+  retryable: true
+  owner: fact_check
+- code: prices_not_readable
+  severity: warning
+  fields:
+  - cost_level
+  description: Prices are only shown in the booking flow, which was not readable. An Instagram excerpt mentioned a Tuesday price of €19.95 (date unknown); not recorded.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

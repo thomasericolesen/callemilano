@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-MULTICINES-ALFIL-FUENGIROLA-001
 slug: multicines-alfil-fuengirola
 name: Multicines Alfil Fuengirola
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Multicines Alfil Fuengirola: cinema next to BIOPARC, about 12 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Multicines Alfil Fuengirola is a cinema next to BIOPARC at C. Camilo José Cela, 6, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 12 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Multicines Alfil Fuengirola: cinema next to BIOPARC, about 12 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Multicines Alfil Fuengirola is a cinema next to BIOPARC at C. Camilo José Cela, 6, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 12 minutes by car (Google route check, Saturday 10:00). The cinema's own website (checked 2026-11-02) shows the current programme with online ticket sales, including children's and animated films and recorded opera and ballet broadcasts. Prices, opening hours, parking, accessibility and the language of screenings are not on the website. Check with the venue before visiting.
 seo_title: Multicines Alfil Fuengirola, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Multicines Alfil Fuengirola (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -100,20 +100,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: description_long, links
+  claim: 'Cinema website shows the current programme (on 2026-11-02 including the children''s films ''Mascotas al rescate'' and ''Superthings: la película'', and opera/ballet broadcasts ''Carmen'', ''El Cascanueces'' and ''El lago de los cisnes'') with online ticket sales.'
+  source_url: https://www.cinesalfilfuengirola.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Homepage read via Firecrawl on 2026-11-02. No price list, hours, parking or accessibility on the readable pages. The cinema's Facebook page appeared in search with a €3.50 promotion, but only as a search excerpt; not recorded.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +118,19 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: prices_and_facilities_not_on_website
+  severity: warning
+  fields:
+  - cost_level
+  - visit_information
+  - parking
+  - accessibility
+  description: The cinema website gives no prices, hours, parking, accessibility or screening language. Needs the cinema's own social pages (owner screenshot), a visit or a call.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
