@@ -36,7 +36,7 @@ Opening hours not checked; Sunday and holiday opening varies.
 
 ## Taxi
 
-Taxis in Spain are licensed by the town council; Casa de la Familia is in Mijas, so the Mijas taxi association is the local one. Uber also operates in Mijas and Fuengirola, where local licensed drivers may take UberX requests. [12] Owner rule: guests going to bars use a taxi or Uber.
+Casa de la Familia is in Mijas, and Mijas council lists Radio Taxi Mijas as the local taxi service. Uber also operates in Mijas and Fuengirola, where local licensed drivers may take UberX requests. [12] Owner rule: guests going to bars use a taxi or Uber.
 
 | Company | Phone | Notes |
 |---|---|---|
