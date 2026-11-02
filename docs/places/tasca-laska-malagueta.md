@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: Mon, Thu-Sun 12:00-00:00 (kitchen 12:00-23:00); closed Tue-Wed (own site, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'No prices on own site; TheFork average price ("Precio medio: 24 €"; "€€ - €€€") falls in the 15-35 € band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35.'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://tascalaska.es/es/tasca-laska-malagueta/
   booking: null
@@ -109,6 +109,14 @@ evidence:
   checked_by: Claude (one-hour restaurant fact check 2026-11-02)
   confidence: high
   notes: Own website read with Firecrawl (direct quotes) on 2026-11-02.
+- field: cost_level
+  claim: '"Precio medio: 24 €"; "€€ - €€€"'
+  source_url: https://www.thefork.es/restaurante/tasca-laska-malagueta-r842451
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band set by orchestrator
+  confidence: low
+  notes: 'TheFork price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Two URLs used. The first quote is from the entry URL (thefork.es, search snippet ''Restaurante Tasca Láska Malagueta en Málaga''). The second quote is from a different URL: https://www.tripadvisor.es/Re'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -125,6 +133,13 @@ review_issues:
   description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing.'
   retryable: true
   owner: fact_check
+- code: cost_level_secondary_source
+  severity: info
+  fields:
+  - cost_level
+  description: cost_level is based on the TheFork price marking, not the own menu; replace when an own menu with prices is found.
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

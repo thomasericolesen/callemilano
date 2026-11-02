@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-LA-SIERRA-RESTAURANTE-001
 slug: la-sierra-restaurante
 name: La Sierra Restaurante
@@ -62,26 +62,26 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own Facebook page price range ''Moderat'' (Facebook''s middle price marking), read as the 15-35 € band; no menu prices seen. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35.'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.facebook.com/restlasierra
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34951741990
 related_places: []
-description_short: 'La Sierra Restaurante: restaurant in Urbanización Cerrado del Águila, about 5 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: La Sierra Restaurante is a restaurant in Urbanización Cerrado del Águila at Avenida Maria Civiero SN, Urb. Cerrado del Aguila, 29649 Malaga, Málaga. From Casa de la Familia it is about 5 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
-seo_title: La Sierra Restaurante, Mijas | CalleMilano draft record
-seo_description: 'Draft record for La Sierra Restaurante (Mijas): location and walking and driving time from Casa de la Familia.'
+description_short: La Sierra Restaurante at Cerrado del Águila Golf and Resort, about 5 min by car from Casa de la Familia; breakfast every day and views over the coast, according to its own page.
+description_long: La Sierra Restaurante is the restaurant of Cerrado del Águila Golf and Resort, Avenida María Civiero s/n, Mijas Costa. From Casa de la Familia it is about 5 minutes by car (Google route check, Saturday 10:00). Its own Facebook page describes it as 'nestled up in the hills of Mijas Costa' with views across the Costa del Sol, and advertises breakfast every day (Spanish, English, French and international). The page lists phone +34 951 74 19 90 and WhatsApp +34 657 88 53 32. Opening hours, menu prices, age rules and facilities have not been checked; contact the restaurant before visiting.
+seo_title: La Sierra Restaurante at Cerrado del Águila, Mijas | CalleMilano
+seo_description: 'La Sierra Restaurante at Cerrado del Águila Golf and Resort, Mijas Costa: breakfast every day and coast views, 5 min by car from Casa de la Familia.'
 images: []
 evidence:
 - field: name, coordinates, google_maps_url, external_ids, municipality, food_available
@@ -100,20 +100,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
+- field: name, description_long, links.contact, cost_level, food_available
+  claim: 'Own Facebook page: ''La Sierra Restaurante - Cerrado del Águila Golf and Resort''; ''Restaurant · Moderat''; ''Nestled up in the hills of Mijas Costa, La Sierra offers a fantastic dining experience. With breathtaking views that stretch across the Costa Del Sol''; ''Cerrado Del Aguila Golf and Resort, Avenida María Civiero S/N, Mijas, Spain, 29649''; ''+34 951 74 19 90''; WhatsApp ''+34 657 88 53 32''; Instagram ''lasierrarestaurante''; link ''tableagent.com''; post ''BREAKFASTS EVERYDAY SPANISH - ENGLISH - FRENCH - INTERNATIONAL JUST A SHORT DRIVE FROM FUENGIROLA & LA CALA''.'
+  source_url: https://www.facebook.com/restlasierra
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (main session) from owner screenshot
+  confidence: medium
+  notes: 'Owner screenshot of the public Facebook page supplied 2026-11-02 (interface in Danish: ''Moderat'' = Facebook price range Moderate). Confirms that La Sierra Restaurante and the Google listing ''Restaurante Cerrado del Águila'' are the same venue. Ratings and the e-mail address not recorded. ''tableagent.com'' suggests online booking; exact booking URL not seen.'
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,6 +118,17 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - visit_information
+  - booking_required
+  - accessibility
+  - toilets_available
+  - seasonality
+  description: Identity, contact, price range and daily breakfast from own Facebook page (owner screenshot). Opening hours, menu prices, booking link, age rules and facilities still open.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

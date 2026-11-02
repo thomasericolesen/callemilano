@@ -64,15 +64,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'No own website; Tripadvisor price marking ''€€ - €€€'' read as the middle band. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: null
   booking: null
@@ -145,6 +145,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
+- field: cost_level
+  claim: '"Precio. €€ - €€€"'
+  source_url: https://www.tripadvisor.es/Restaurant_Review-g1892987-d10475750-Reviews-or15-Chiringuito_Los_Moreno-La_Cala_de_Mijas_Mijas_Costa_del_Sol_Province_of_Ma.html
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band approved by owner 2026-11-02
+  confidence: low
+  notes: Tripadvisor price marking from search excerpt; no ratings recorded.
 review_issues: []
 created_at: 2026-11-01
 updated_at: '2026-11-02'

@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'No own website. Tripadvisor price marking ''€€ - €€€'' (listing ''Restaurante Juanito'', same address) read as the middle band. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35. Fallback source per docs/trip-planner-agents.md.'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: null
   booking: null
@@ -101,6 +101,14 @@ evidence:
   checked_by: Claude (one-hour restaurant intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: cost_level, name (identity)
+  claim: 'Tripadvisor listing ''RESTAURANTE JUANITO, Málaga'': "€€ - €€€"; photo pages of the same listing (d2715918): "Avenida de Salvador Allende 26, 29017 Malaga Spain".'
+  source_url: https://www.tripadvisor.es/Restaurant_Review-g187438-d2715918-Reviews-Restaurante_Juanito-Malaga_Costa_del_Sol_Province_of_Malaga_Andalucia.html
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (main session); source-reader agent
+  confidence: low
+  notes: Search excerpts only; no ratings or reviews recorded. Identity confirmed by address match with the Google listing 'Juanito Juan, Av. Salvador Allende, 26' (owner screenshot of Google Maps 2026-11-02, which also shows a user-reported 20-30 € per person; Google is not used as price source under AGENTS.md).
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -127,6 +135,13 @@ review_issues:
   - description_long
   - visit_information
   description: No own website (or only a Facebook page) in the Google listing. Needs the owner's screenshots of the venue's own page or menu, or a visit.
+  retryable: true
+  owner: human_editor
+- code: cost_level_secondary_source
+  severity: info
+  fields:
+  - cost_level
+  description: cost_level is based on the Tripadvisor price marking, not an own menu; no own website exists. Replace if a menu with prices is found.
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'

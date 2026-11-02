@@ -68,7 +68,7 @@ ES-AND-MAL,ES-AND-MAL-SINGH-DONER-KEBAB-001,singh-doner-kebab,Singh Doner Kebab,
 ES-AND-MAL,ES-AND-MAL-PENA-AL-TRANCO-001,pena-al-tranco,Peña Al Tranco,allocated,2026-11-02
 ES-AND-MAL,ES-AND-MAL-EQUESTRIAN-CENTRE-CHAPARRAL-001,equestrian-centre-chaparral,Equestrian Centre,allocated,2026-11-02
 ES-AND-MAL,ES-AND-MAL-LA-SIERRA-RESTAURANTE-001,la-sierra-restaurante,La Sierra Restaurante,allocated,2026-11-02
-ES-AND-MAL,ES-AND-MAL-RESTAURANTE-CERRADO-DEL-AGUILA-001,restaurante-cerrado-del-aguila,Restaurante Cerrado del Águila,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-RESTAURANTE-CERRADO-DEL-AGUILA-001,restaurante-cerrado-del-aguila,Restaurante Cerrado del Águila,superseded_by_ES-AND-MAL-LA-SIERRA-RESTAURANTE-001,2026-11-02
 ES-AND-MAL,ES-AND-MAL-COURTSIDE-BY-WISSLER-001,courtside-by-wissler,Courtside by Wissler,allocated,2026-11-02
 ES-AND-MAL,ES-AND-MAL-VENTA-LA-MORENA-001,venta-la-morena,Venta La Morena,allocated,2026-11-02
 ES-AND-MAL,ES-AND-MAL-RESTAURANTE-HOYO-19-001,restaurante-hoyo-19,Restaurante Hoyo 19,allocated,2026-11-02
@@ -184,3 +184,33 @@ ES-AND-MAL,ES-AND-MAL-FUNNY-HILL-KARTING-001,funny-hill-karting,Funny Hill Karti
 ES-AND-MAL,ES-AND-MAL-PUERTO-DEPORTIVO-ESTEPONA-001,puerto-deportivo-estepona,Puerto Deportivo de Estepona,allocated,2026-11-02
 ES-AND-MAL,ES-AND-MAL-AVENTURA-AMAZONIA-MARBELLA-001,aventura-amazonia-marbella,Aventura Amazonia Marbella,allocated,2026-11-02
 ES-AND-MAL,ES-AND-MAL-MUSEO-AERONAUTICO-MALAGA-001,museo-aeronautico-malaga,Museo Aeronáutico de Málaga,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-LOS-ENEBROS-FUENGIROLA-001,los-enebros-fuengirola,Restaurante Los Enebros,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-JUAN-PLAYA-FUENGIROLA-001,juan-playa-fuengirola,Juan Playa Restaurante,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-MONNALISA-FUENGIROLA-001,monnalisa-fuengirola,Monnalisa,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-KAMURA-SUSHI-FUENGIROLA-001,kamura-sushi-fuengirola,Kamura Sushi,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-DA-VINCI-LOS-BOLICHES-001,da-vinci-los-boliches,Da Vinci Los Boliches,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-MESON-SALVADOR-FUENGIROLA-001,meson-salvador-fuengirola,Mesón Salvador,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-FREIDURIA-EL-CHOCO-FUENGIROLA-001,freiduria-el-choco-fuengirola,Pulpería Freiduría El Choco,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-VEGETALIA-FUENGIROLA-001,vegetalia-fuengirola,Restaurante Vegetalia,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-BURGER-KING-MIRAMAR-001,burger-king-miramar,Burger King (C.C. Miramar),allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-THE-GOOD-BURGER-MIRAMAR-001,the-good-burger-miramar,The Good Burger (TGB) Miramar,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-CASA-CARMEN-MIRAMAR-001,casa-carmen-miramar,Casa Carmen Miramar,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-RAGAZZI-FUENGIROLA-001,ragazzi-fuengirola,Ragazzi Pizza & Pasta,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-FOSTERS-HOLLYWOOD-MIRAMAR-001,fosters-hollywood-miramar,Foster's Hollywood (C.C. Miramar),allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-LA-TAGLIATELLA-MIRAMAR-001,la-tagliatella-miramar,La Tagliatella (C.C. Miramar),allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-ANTONIO-PLAYA-FUENGIROLA-001,antonio-playa-fuengirola,Restaurante Antonio Playa,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-GALI-GALI-FUENGIROLA-001,gali-gali-fuengirola,Gali Gali Beach Club,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-OLD-SWISS-HOUSE-FUENGIROLA-001,old-swiss-house-fuengirola,Old Swiss House,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-KALIFATO-BENALMADENA-001,kalifato-benalmadena,Kalifato Lounge Beach Bar,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-MIAS-PIZZORANTE-FUENGIROLA-001,mias-pizzorante-fuengirola,Mia's Pizzorante,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-SOLLO-FUENGIROLA-001,sollo-fuengirola,Sollo Restaurante,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-EL-HIGUERON-FUENGIROLA-001,el-higueron-fuengirola,Restaurante El Higuerón,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-CAFE-NOMAD-FUENGIROLA-001,cafe-nomad-fuengirola,Café NOMAD,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001,heladeria-casa-esteban-fuengirola,Heladería Casa Esteban,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-MARVELOUS-BURGER-FUENGIROLA-001,marvelous-burger-fuengirola,Marvelous Burger,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-UTOPIA-LA-CALA-001,utopia-la-cala,UTOPÍA,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-VENTA-LOS-CONDES-001,venta-los-condes,Venta los Condes,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-RESTAURANTE-SHERIFF-001,restaurante-sheriff,Restaurante Sheriff,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-CASTILLO-DE-MONDA-001,castillo-de-monda,Hotel-Restaurante Castillo de Monda,allocated,2026-11-02
+ES-AND-MAL,ES-AND-MAL-MOLINO-DEL-SANTO-001,molino-del-santo,Restaurante El Molino del Santo,allocated,2026-11-02
+ES-AND-GRA,ES-AND-GRA-CASAS-CUEVAS-ALMAGRUZ-001,casas-cuevas-almagruz,Casas Cuevas Almagruz,allocated,2026-11-02

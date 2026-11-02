@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: 'Summer: daily 11:00-17:00 and 18:00-23:30 (own site); winter hours not published.'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own menu: mains about 14-23 € (rice 9 € pp, min. 2) plus caña 2,30 € gives about 16-25 € per adult. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.chiringuitolaconcha.com/
   booking: null
@@ -109,6 +109,14 @@ evidence:
   checked_by: Claude (one-hour restaurant fact check 2026-11-02)
   confidence: high
   notes: Own website read with Firecrawl (direct quotes) on 2026-11-02.
+- field: cost_level
+  claim: '"Dorada a la plancha o al espeto 23,00€"; "Entrecot de ternera (Halal) 14,00€"; "Paella de Marisco 9,00€/ pers."; "Caña Cerveza 2,30€"; "Copa de Vino 3,50€"'
+  source_url: https://chiringuitolaconcha.com/carta/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band set by orchestrator
+  confidence: high
+  notes: Menu lines quoted verbatim; name and price on adjacent lines joined with a space.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
