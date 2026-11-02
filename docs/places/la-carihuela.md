@@ -12,7 +12,7 @@ coordinates:
   longitude: -4.5046
   purpose: representative_point
   label: Google Maps marker (owner-read); not a parking point
-  source: Google Maps marker, read by Eric Olesen (owner); not an official source
+  source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
 google_maps_url: null
 external_ids: {}
@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: La Carihuela (Montemar), Torremolinos, Málaga, Spain (Google Maps marker, not a parking point)
   source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.6076,-4.5046); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.6076%2C-4.5046&travelmode=driving
   checked_at: '2026-11-01'
-  note: 'Routes API figure: 31 min with predicted Saturday 10:00 traffic (31 min without traffic), 21.1 km via AP-7; an avoid-tolls run gave 31 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 30 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv.'
+  note: 'Routes API figure: 31 min with predicted Saturday 10:00 traffic (31 min without traffic), 21.1 km via AP-7; an avoid-tolls run gave 31 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 30 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
 age_groups:
 - Small children (0-6)
 family_score:
@@ -35,7 +35,10 @@ family_score:
   young_adults: unknown
   seniors: unknown
 energy_level: Low
-seasonality: []
+seasonality:
+- Spring
+- Summer
+- Autumn
 accessibility:
   overall: 'Torremolinos'' official tourism site (page updated 2026-05-11) states that its four main beaches, including La Carihuela, have extra-wide wooden walkways from the promenade to the bathing area, an assisted-bathing point staffed by specialised personnel with amphibious chairs and crutches (appointment by phone 697 61 04 60), and fully accessible toilets, showers and changing rooms plus shaded areas for people with disabilities. Bathing season: Easter week (Friday before Palm Sunday to Easter Monday) and 1 June-30 September. The per-beach accessibility map embedded on the page shows adapted toilets, accessible showers and reserved parking.'
   mobility:
@@ -79,7 +82,7 @@ links:
   contact: null
 related_places: []
 description_short: 'La Carihuela (Montemar), Torremolinos: Blue Flag 2026. Character (subjective): Developed, fishing-village feel (Danish: Tilrettelagt, fiskerlandsbypræg). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'La Carihuela (Montemar) (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Fine sand. Calm and shallow at the entrance according to a hotel-chain guide. Often recommended for children. Lifeguards and a Red Cross post. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Arrozante, Morrofino, Toro Azul, Moma Beach Club, La Despensa Familiar and others (location check 2026-11-01: Morrofino is at Playamar, Paseo Marítimo 69, and Arrozante is inside the Occidental Torremolinos Playa hotel grounds, so neither is on La Carihuela; the others are unchecked). Sardine skewers (espetos) are the speciality. Nearby: Former fishing village with Paseo Maritimo, old town and the church of Nuestra Señora del Carmen. Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. The Red Cross post is not confirmed by an official source. Character: Developed, fishing-village feel (Danish: Tilrettelagt, fiskerlandsbypræg) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'La Carihuela (Montemar) (Torremolinos). Blue Flag 2026 (used as proxy for water quality). Fine sand. Calm and shallow at the entrance according to a hotel-chain guide. Often recommended for children. Lifeguards and a Red Cross post. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): Arrozante, Morrofino, Toro Azul, Moma Beach Club, La Despensa Familiar and others (location check 2026-11-01: Morrofino is at Playamar, Paseo Marítimo 69, and Arrozante is inside the Occidental Torremolinos Playa hotel grounds, so neither is on La Carihuela; the others are unchecked). Sardine skewers (espetos) are the speciality. Nearby: Former fishing village with Paseo Maritimo, old town and the church of Nuestra Señora del Carmen. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Official tourism source (checked 2026-11-01): accessible walkways, a staffed assisted-bathing point and accessible toilets; bathing season Easter week and 1 June-30 September. The Red Cross post is not confirmed by an official source. Character: Developed, fishing-village feel (Danish: Tilrettelagt, fiskerlandsbypræg) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: La Carihuela (Montemar), Torremolinos | CalleMilano draft record
 seo_description: Draft record for La Carihuela (Montemar) beach (Torremolinos). Based on a dated secondary-source snapshot; facts are under verification.
 images: []
@@ -116,14 +119,6 @@ evidence:
   checked_by: strandoversigt-snapshot (Eric/Claude)
   confidence: low
   notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
-- field: description_long (rocks)
-  claim: The sources reviewed do not mention rocks.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Absence of a mention is not confirmation that there are no rocks.'
 - field: driving_time_from_casa_de_la_familia
   claim: 'One-way drive from Casa de la Familia to La Carihuela (Montemar), Torremolinos, Málaga, Spain (Google Maps marker, not a parking point): 31 min, 21.1 km (Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.6076%2C-4.5046&travelmode=driving
@@ -156,15 +151,31 @@ evidence:
   checked_by: Claude (restaurant pilot 2026-11-01)
   confidence: medium
   notes: Listing excerpts (TripAdvisor, Trip.com) read as search results 2026-11-01; the hotel's own Barceló pages confirm the restaurant name but were not read for the address.
+- field: coordinates
+  claim: The owner accepts the Google Maps marker coordinates read on 2026-07-18 as this beach's place point.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
+- field: seasonality
+  claim: Beach seasonality is Spring, Summer and Autumn (same for all local beaches).
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
+- field: parking, transport_options, dog_friendly, cost_level, booking_required, food_available, visit_information
+  claim: 'Parking, transport, dogs, cost, booking and food are deliberately left unknown for beaches: adults look these up themselves.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
 review_issues:
-- code: route_and_coordinates_owner_measured
-  severity: warning
-  fields:
-  - coordinates
-  - driving_time_from_casa_de_la_familia
-  description: 'Coordinates were read by the owner from Google''s marker (2026-07-18) and are not an official visitor point. Driving time was route-checked with Google Routes API on 2026-11-01 (Saturday 10:00 predicted traffic) to those coordinates, so it inherits the marker''s precision. local_30km rule (owner decision 2026-10-29): at most 30 min by Google''s main figure.'
-  retryable: true
-  owner: fact_check
 - code: google_maps_url_missing
   severity: info
   fields:
@@ -203,29 +214,9 @@ review_issues:
   severity: warning
   fields:
   - description_long
-  description: Absence of any mention of rocks is not confirmation. The project criterion excludes beaches with rocks; a visit or an independent source is needed.
+  description: Absence of any mention of rocks is not confirmation, and the owner does not know (decision 4, 2026-11-01). The project criterion excludes beaches with rocks; a visit or an independent source is needed.
   retryable: true
   owner: fact_check
-- code: seasonality_unknown
-  severity: warning
-  fields:
-  - seasonality
-  description: The snapshot gives no seasonal information; left empty rather than guessed.
-  retryable: true
-  owner: fact_check
-- code: practical_details_out_of_scope
-  severity: info
-  fields:
-  - parking
-  - transport_options
-  - dog_friendly
-  - cost_level
-  - booking_required
-  - food_available
-  - visit_information
-  description: 'Parking and other practical details are intentionally left unknown (owner decision: adults look these up themselves).'
-  retryable: false
-  owner: human_editor
 - code: snapshot_restaurants_wrong_beach
   severity: warning
   fields:
@@ -234,7 +225,7 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: '2026-10-29'
-updated_at: '2026-10-29'
+updated_at: '2026-11-02'
 last_verified: '2026-10-29'
 last_reviewed_at: null
 next_review_at: null

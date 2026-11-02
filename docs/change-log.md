@@ -1,5 +1,17 @@
 # Change log
 
+## 2026-11-02 - Owner decisions 1, 3, 4, 5, 7 and 8 applied to beaches and restaurants (draft, no schema change)
+
+Applied the owner answers of 2026-11-01 (`docs/approval-decisions-2026-11-01.md`) to the 12 active local beaches and 8 restaurants. Each record gets one evidence entry per decision, pointing to the decisions file (`source_type: secondary`, the nearest schema value, with a note that it is an editor decision, not an external source). Status values are unchanged.
+
+- Decision 1 (all 12 beaches): owner-read Google marker accepted as the place point; `coordinates.source` and the drive-time note updated; `route_and_coordinates_owner_measured` closed.
+- Decision 3 (all 12 beaches): `seasonality` = `Spring`, `Summer`, `Autumn`; `seasonality_unknown` closed.
+- Decision 4: no rocks for Boliches-Gaviotas, Cabopino-Artola, Castillo-Ejido, Fuengirola centro and La Butibamba (`rocks_not_verified` closed; description updated). La Butibamba: owner clarified on 2026-11-02 that it is a stone beach (walnut- to plum-sized stones), not a rocky one; `rock_claim_source_conflict` closed. For Carvajal, El Bajondillo, Fuente de la Salud, La Carihuela, Los Álamos, Playamar and Santa Ana the owner does not know, so `rocks_not_verified` stays open with that noted. The old unsourced "rocks not mentioned" evidence entries were removed in all 12 beaches.
+- Decision 5 (all 12 beaches): practical details deliberately unknown; `practical_details_out_of_scope` closed and the decision kept as an evidence entry.
+- Decision 7 (8 restaurants): prices and season stay unknown with a "check before visiting" sentence in `description_long`; `season_and_prices_unverified` closed. Chiringuito Las Dunas keeps `winter_opening_unclear`.
+- Decision 8 (8 restaurants): practical details deliberately unknown; `practical_details_unverified` closed. Los Marinos Paco keeps its venue-confirmed `dog_friendly: partial` and `booking_required: false`.
+- Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-01 - Owner approval decisions recorded (not yet applied)
 
 The owner answered eight shared approval questions for the local beaches and restaurants (coordinates, family assessment, seasonality, rocks per beach, out-of-scope practical details, restaurant prices and season). Answers and the next-session plan are in `docs/approval-decisions-2026-11-01.md`. No record was changed in this entry.

@@ -83,7 +83,7 @@ related_places:
   relationship: nearby
   note: Beach restaurant on Carvajal beach.
 description_short: Family-run fish restaurant and beach bar on Carvajal beach, Fuengirola, with a children's menu and high chairs; about 17 minutes by car.
-description_long: 'Los Marinos Paco is a family-run beach restaurant, now in its third generation, at Paseo Marítimo Rey de España 158 on Carvajal beach in Fuengirola. Its own website lists a children''s menu and high chairs, gluten-free dishes and dogs welcome on the terrace. It is closed on Mondays; in summer it opens Tuesday-Saturday 12:30-22:30 and Sunday 12:30-17:30, in winter Tuesday-Sunday 10:00-18:00 (the website does not give the switch-over dates). Bookings are by phone only (952 66 13 20) and are recommended at weekends, on holidays and from June to September. Route check: about 17 minutes from Casa de la Familia (Saturday 10:00, predicted traffic). Prices and accessibility are not confirmed.'
+description_long: 'Los Marinos Paco is a family-run beach restaurant, now in its third generation, at Paseo Marítimo Rey de España 158 on Carvajal beach in Fuengirola. Its own website lists a children''s menu and high chairs, gluten-free dishes and dogs welcome on the terrace. It is closed on Mondays; in summer it opens Tuesday-Saturday 12:30-22:30 and Sunday 12:30-17:30, in winter Tuesday-Sunday 10:00-18:00 (the website does not give the switch-over dates). Bookings are by phone only (952 66 13 20) and are recommended at weekends, on holidays and from June to September. Route check: about 17 minutes from Casa de la Familia (Saturday 10:00, predicted traffic). Prices and accessibility are not confirmed. Prices and seasonal opening are not confirmed; check with the restaurant before visiting.'
 seo_title: Los Marinos Paco, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Los Marinos Paco (Fuengirola): location, drive from Casa de la Familia and what is confirmed so far.'
 images: []
@@ -120,6 +120,22 @@ evidence:
   checked_by: Claude (restaurant pilot 2026-11-01)
   confidence: high
   notes: Own website read on 2026-11-01. 'partial' for dogs because only the terrace is mentioned.
+- field: seasonality, cost_level, visit_information
+  claim: Restaurant prices and season stay unknown, shown with a "check before visiting" note.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 7, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Venue-stated opening hours in visit_information remain dated facts.
+- field: parking, transport_options, toilets_available, accessibility, dog_friendly, booking_required
+  claim: Practical details for restaurants are deliberately left unknown, as for beaches.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 8, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Los Marinos Paco keeps its venue-confirmed dog_friendly (partial) and booking_required (false). Replaces review issue practical_details_unverified.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -130,27 +146,8 @@ review_issues:
   description: The venue's own website states a children's menu and high chairs (see evidence); age groups and family scores are still left for the editor, and energy_level Low is an editorial default.
   retryable: true
   owner: human_editor
-- code: season_and_prices_unverified
-  severity: warning
-  fields:
-  - seasonality
-  - cost_level
-  - visit_information
-  description: Opening hours come from the venue's own website, but the dates when summer and winter hours switch, and prices, are not stated.
-  retryable: true
-  owner: fact_check
-- code: practical_details_unverified
-  severity: info
-  fields:
-  - parking
-  - transport_options
-  - toilets_available
-  - accessibility
-  description: Practical and accessibility details were not researched in the restaurant pilot.
-  retryable: true
-  owner: fact_check
 created_at: 2026-11-01
-updated_at: 2026-11-01
+updated_at: '2026-11-02'
 last_verified: 2026-11-01
 last_reviewed_at: null
 next_review_at: 2027-04-01

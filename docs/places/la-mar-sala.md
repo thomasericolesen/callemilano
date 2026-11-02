@@ -83,7 +83,7 @@ related_places:
   relationship: nearby
   note: Beach bar on the Los Boliches stretch of the Fuengirola promenade.
 description_short: Beach bar with a serviced sunbed area on the Los Boliches promenade, Fuengirola, open daily 12:00-midnight; about 17 minutes by car.
-description_long: 'La Mar Salá is a beach bar on the Paseo Marítimo Rey de España (number 95) at Playa de los Boliches in Fuengirola. Its own website gives daily opening hours of 12:00 to midnight, a sunbed lounge area with food and drink service, and booking through its contact page (phone 951 31 22 41). Google places it at the boundary between the Los Boliches and Fuengirola centre stretches. Route check: about 17 minutes from Casa de la Familia (Saturday 10:00, predicted traffic). Children''s facilities, prices and accessibility are not confirmed.'
+description_long: 'La Mar Salá is a beach bar on the Paseo Marítimo Rey de España (number 95) at Playa de los Boliches in Fuengirola. Its own website gives daily opening hours of 12:00 to midnight, a sunbed lounge area with food and drink service, and booking through its contact page (phone 951 31 22 41). Google places it at the boundary between the Los Boliches and Fuengirola centre stretches. Route check: about 17 minutes from Casa de la Familia (Saturday 10:00, predicted traffic). Children''s facilities, prices and accessibility are not confirmed. Prices and seasonal opening are not confirmed; check with the restaurant before visiting.'
 seo_title: La Mar Salá, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for La Mar Salá (Fuengirola): location, drive from Casa de la Familia and what is confirmed so far.'
 images: []
@@ -112,6 +112,22 @@ evidence:
   checked_by: Claude (restaurant pilot 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; predicted-traffic estimate for one departure time.
+- field: seasonality, cost_level, visit_information
+  claim: Restaurant prices and season stay unknown, shown with a "check before visiting" note.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 7, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Venue-stated opening hours in visit_information remain dated facts.
+- field: parking, transport_options, toilets_available, accessibility, dog_friendly, booking_required
+  claim: Practical details for restaurants are deliberately left unknown, as for beaches.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 8, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_unverified.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -122,29 +138,8 @@ review_issues:
   description: No source on children's menu, high chairs, play area or family suitability was checked; age groups and family scores are left unknown/empty and energy_level Low is an editorial default for a restaurant visit. Needs editor assessment.
   retryable: true
   owner: human_editor
-- code: season_and_prices_unverified
-  severity: warning
-  fields:
-  - seasonality
-  - cost_level
-  - visit_information
-  description: Season, opening hours (where not stated) and prices are not confirmed by an official source; beach bars often change hours out of season.
-  retryable: true
-  owner: fact_check
-- code: practical_details_unverified
-  severity: info
-  fields:
-  - parking
-  - transport_options
-  - dog_friendly
-  - toilets_available
-  - accessibility
-  - booking_required
-  description: Practical and accessibility details were not researched in the restaurant pilot.
-  retryable: true
-  owner: fact_check
 created_at: 2026-11-01
-updated_at: 2026-11-01
+updated_at: '2026-11-02'
 last_verified: 2026-11-01
 last_reviewed_at: null
 next_review_at: 2027-04-01

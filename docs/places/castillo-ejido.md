@@ -12,7 +12,7 @@ coordinates:
   longitude: -4.6288
   purpose: representative_point
   label: Google Maps marker (owner-read); not a parking point
-  source: Google Maps marker, read by Eric Olesen (owner); not an official source
+  source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
   checked_at: '2026-07-18'
 google_maps_url: null
 external_ids: {}
@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: Castillo-Ejido, Fuengirola, Málaga, Spain (Google Maps marker, not a parking point)
   source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.5253,-4.6288); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5253%2C-4.6288&travelmode=driving
   checked_at: '2026-11-01'
-  note: 'Routes API figure: 12 min with predicted Saturday 10:00 traffic (12 min without traffic), 5.3 km via Av. Leopoldo Werner; an avoid-tolls run gave 12 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 12 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv.'
+  note: 'Routes API figure: 12 min with predicted Saturday 10:00 traffic (12 min without traffic), 5.3 km via Av. Leopoldo Werner; an avoid-tolls run gave 12 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 12 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -34,7 +34,10 @@ family_score:
   young_adults: unknown
   seniors: unknown
 energy_level: Low
-seasonality: []
+seasonality:
+- Spring
+- Summer
+- Autumn
 accessibility:
   overall: Fuengirola's 2026 service charter states that each of its four beaches has an adapted plot with assisted bathing by lifeguards (adapted showers, sunbeds, amphibious chairs and crutches, and a hoist), in the same period as the lifeguard service; that ramps connect every beach with the promenade; and that all 15 municipal beach toilets are adapted for reduced mobility. The Playa El Castillo map in the charter shows toilets, an assisted-bathing area, adapted showers and adapted parking. The charter also places an ostomy-adapted toilet module at Playa El Castillo. Route surface and gradient to the platform are not specified.
   mobility:
@@ -78,7 +81,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Castillo-Ejido, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft from a dated secondary-source snapshot; not fact-checked.'
-description_long: 'Castillo-Ejido (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, dark sand. Toilets, showers, sunshades, access for people with reduced mobility, assisted bathing and lifeguards listed. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): none confirmed (the snapshot''s ''Marenostrum'' is Marenostrum Fuengirola, an open-air concert venue by the Castillo Sohail, not a beach bar). Sardine skewers in ''moragas'' (metal boats) require advance booking. Nearby: Castillo de Sohail at the river mouth; green area with basketball courts, paths and a zip line (tirolina). Rocks: not mentioned in the sources reviewed (absence of mention, not a confirmed absence). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, assisted bathing, adapted showers and lifeguards are confirmed for this beach; moraga boats need a Policía Local authorisation and a prior municipal fee. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. The charter''s map legend for this beach does not list a children''s area (text layer; not a confirmed absence). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Castillo-Ejido (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Fine, dark sand. Toilets, showers, sunshades, access for people with reduced mobility, assisted bathing and lifeguards listed. Eating places named in tourist sources (opening hours not checked; many beach bars close out of season): none confirmed (the snapshot''s ''Marenostrum'' is Marenostrum Fuengirola, an open-air concert venue by the Castillo Sohail, not a beach bar). Sardine skewers in ''moragas'' (metal boats) require advance booking. Nearby: Castillo de Sohail at the river mouth; green area with basketball courts, paths and a zip line (tirolina). Rocks: none, according to the owner''s own local knowledge (2026-11-01). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, assisted bathing, adapted showers and lifeguards are confirmed for this beach; moraga boats need a Policía Local authorisation and a prior municipal fee. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. The charter''s map legend for this beach does not list a children''s area (text layer; not a confirmed absence). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Castillo-Ejido, Fuengirola | CalleMilano draft record
 seo_description: Draft record for Castillo-Ejido beach (Fuengirola). Based on a dated secondary-source snapshot; facts are under verification.
 images: []
@@ -123,14 +126,6 @@ evidence:
   checked_by: strandoversigt-snapshot (Eric/Claude)
   confidence: low
   notes: '[unverified] Hotel-chain and tourist-site guides (Hoteles.net, Barcelo, Cargest, Mijas tourism and others), not independent. Opening hours and child-friendliness not checked.'
-- field: description_long (rocks)
-  claim: The sources reviewed do not mention rocks.
-  source_url: null
-  source_type: secondary
-  checked_at: '2026-10-15'
-  checked_by: strandoversigt-snapshot (Eric/Claude)
-  confidence: low
-  notes: '[unverified] Absence of a mention is not confirmation that there are no rocks.'
 - field: driving_time_from_casa_de_la_familia
   claim: 'One-way drive from Casa de la Familia to Castillo-Ejido, Fuengirola, Málaga, Spain (Google Maps marker, not a parking point): 12 min, 5.3 km (Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5253%2C-4.6288&travelmode=driving
@@ -171,15 +166,39 @@ evidence:
   checked_by: Claude (restaurant pilot 2026-11-01)
   confidence: high
   notes: Own website (event listings) and own Instagram description, read as search results 2026-11-01.
+- field: coordinates
+  claim: The owner accepts the Google Maps marker coordinates read on 2026-07-18 as this beach's place point.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
+- field: seasonality
+  claim: Beach seasonality is Spring, Summer and Autumn (same for all local beaches).
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
+- field: description_long (rocks)
+  claim: No rocks on this beach.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 4, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Owner's own local knowledge, not independently verified.
+- field: parking, transport_options, dog_friendly, cost_level, booking_required, food_available, visit_information
+  claim: 'Parking, transport, dogs, cost, booking and food are deliberately left unknown for beaches: adults look these up themselves.'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
 review_issues:
-- code: route_and_coordinates_owner_measured
-  severity: warning
-  fields:
-  - coordinates
-  - driving_time_from_casa_de_la_familia
-  description: 'Coordinates were read by the owner from Google''s marker (2026-07-18) and are not an official visitor point. Driving time was route-checked with Google Routes API on 2026-11-01 (Saturday 10:00 predicted traffic) to those coordinates, so it inherits the marker''s precision. local_30km rule (owner decision 2026-10-29): at most 30 min by Google''s main figure.'
-  retryable: true
-  owner: fact_check
 - code: google_maps_url_missing
   severity: info
   fields:
@@ -214,33 +233,6 @@ review_issues:
   description: The snapshot records source names, not URLs, for beach facts. Add URLs before fact check.
   retryable: true
   owner: fact_check
-- code: rocks_not_verified
-  severity: warning
-  fields:
-  - description_long
-  description: Absence of any mention of rocks is not confirmation. The project criterion excludes beaches with rocks; a visit or an independent source is needed.
-  retryable: true
-  owner: fact_check
-- code: seasonality_unknown
-  severity: warning
-  fields:
-  - seasonality
-  description: The snapshot gives no seasonal information; left empty rather than guessed.
-  retryable: true
-  owner: fact_check
-- code: practical_details_out_of_scope
-  severity: info
-  fields:
-  - parking
-  - transport_options
-  - dog_friendly
-  - cost_level
-  - booking_required
-  - food_available
-  - visit_information
-  description: 'Parking and other practical details are intentionally left unknown (owner decision: adults look these up themselves).'
-  retryable: false
-  owner: human_editor
 - code: snapshot_restaurant_misidentified
   severity: warning
   fields:
@@ -249,7 +241,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-10-29'
-updated_at: '2026-10-29'
+updated_at: '2026-11-02'
 last_verified: '2026-10-29'
 last_reviewed_at: null
 next_review_at: null

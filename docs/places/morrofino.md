@@ -85,7 +85,7 @@ related_places:
   relationship: nearby
   note: Short walk along the promenade to Los Álamos.
 description_short: Mediterranean restaurant on the Paseo Marítimo at Playamar, Torremolinos, with gluten-free, vegan and vegetarian options; about 29 minutes by car.
-description_long: 'Morrofino is a restaurant on the Paseo Marítimo in Playamar, Torremolinos (Paseo Marítimo 69, local 16). Its own website describes traditional and Mediterranean cooking with gluten-free, vegan and vegetarian options, opening hours 12:00-24:00 with Tuesday closed, and online table booking. Route check: about 29 minutes from Casa de la Familia (Saturday 10:00, predicted traffic), close to the 30-minute local-area limit. Prices, children''s menu, high chairs and accessibility are not confirmed by an official source.'
+description_long: 'Morrofino is a restaurant on the Paseo Marítimo in Playamar, Torremolinos (Paseo Marítimo 69, local 16). Its own website describes traditional and Mediterranean cooking with gluten-free, vegan and vegetarian options, opening hours 12:00-24:00 with Tuesday closed, and online table booking. Route check: about 29 minutes from Casa de la Familia (Saturday 10:00, predicted traffic), close to the 30-minute local-area limit. Prices, children''s menu, high chairs and accessibility are not confirmed by an official source. Prices and seasonal opening are not confirmed; check with the restaurant before visiting.'
 seo_title: Morrofino, Torremolinos | CalleMilano draft record
 seo_description: 'Draft record for Morrofino (Torremolinos): location, drive from Casa de la Familia and what is confirmed so far.'
 images: []
@@ -114,6 +114,22 @@ evidence:
   checked_by: Claude (restaurant pilot 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; predicted-traffic estimate for one departure time.
+- field: seasonality, cost_level, visit_information
+  claim: Restaurant prices and season stay unknown, shown with a "check before visiting" note.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 7, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Venue-stated opening hours in visit_information remain dated facts.
+- field: parking, transport_options, toilets_available, accessibility, dog_friendly, booking_required
+  claim: Practical details for restaurants are deliberately left unknown, as for beaches.
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 8, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_unverified.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -124,27 +140,6 @@ review_issues:
   description: No source on children's menu, high chairs, play area or family suitability was checked; age groups and family scores are left unknown/empty and energy_level Low is an editorial default for a restaurant visit. Needs editor assessment.
   retryable: true
   owner: human_editor
-- code: season_and_prices_unverified
-  severity: warning
-  fields:
-  - seasonality
-  - cost_level
-  - visit_information
-  description: Season, opening hours (where not stated) and prices are not confirmed by an official source; beach bars often change hours out of season.
-  retryable: true
-  owner: fact_check
-- code: practical_details_unverified
-  severity: info
-  fields:
-  - parking
-  - transport_options
-  - dog_friendly
-  - toilets_available
-  - accessibility
-  - booking_required
-  description: Practical and accessibility details were not researched in the restaurant pilot.
-  retryable: true
-  owner: fact_check
 - code: driving_time_near_local_limit
   severity: info
   fields:
@@ -153,7 +148,7 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: 2026-11-01
-updated_at: 2026-11-01
+updated_at: '2026-11-02'
 last_verified: 2026-11-01
 last_reviewed_at: null
 next_review_at: 2027-04-01
