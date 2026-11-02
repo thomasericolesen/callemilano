@@ -49,13 +49,13 @@ accessibility:
   confidence: unknown
 wheelchair_friendly: unknown
 parking:
-  availability: unknown
-  location_type: unknown
+  availability: 'yes'
+  location_type: onsite
   cost: unknown
   restrictions: unknown
-  walk_distance: unknown
-  source: null
-  checked_at: null
+  walk_distance: Under or next to Plaza de la Constitución, by the church and the post office
+  source: Owner's own repeated use (Eric Olesen, editor-of-record), confirmed 2026-11-02; arrival point chosen by the owner 2026-11-01
+  checked_at: '2026-11-02'
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
@@ -107,6 +107,22 @@ evidence:
   checked_by: Claude (local extension fact check 2026-11-02)
   confidence: medium
   notes: Read via Firecrawl on 2026-11-02. Search excerpts; the portal's pages on the old centre were not found in this pass.
+- field: parking
+  claim: 'The underground car park at Plaza de la Constitución (by the church and the post office) exists and is the owner''s normal arrival point in Fuengirola: ''Parkeringskælderen er absolut ægte. Jeg bruger den hver gang jeg er i Spanien.'''
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md
+  source_type: secondary
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner's first-hand knowledge given in the session chat 2026-11-02 (decision 15). source_type is the nearest schema value. Opening hours, prices and the exact entrance are not recorded.
+  checked_at: '2026-11-02'
+- field: driving_time_from_casa_de_la_familia (owner sample)
+  claim: 'Owner''s Google Maps check 2026-11-01 (Sunday about 19:00) to Pl. de la Constitución: 16 min, 6.4 km via Av. Leopoldo Werner; alternatives 17 min / 6.6 km and 16 min / 6.3 km.'
+  source_url: https://github.com/thomasericolesen/callemilano/tree/claude/awesome-clarke-tvlhrg
+  source_type: secondary
+  checked_by: Eric Olesen (owner), screenshot 2026-11-01; moved from the beach record by Claude 2026-11-02
+  confidence: medium
+  notes: Recorded on 2026-11-01 in the beach record by mistake (branch claude/awesome-clarke-tvlhrg, not merged). Matches this record's Routes API figure (15 min). The record keeps the Routes API value as its driving time.
+  checked_at: '2026-11-02'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning

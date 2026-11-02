@@ -1,5 +1,33 @@
 # Change log
 
+## 2026-11-02 - Trip planner merged with the intake pipeline (owner decisions 15-16)
+
+- Brought over from the unmerged branch `claude/awesome-clarke-tvlhrg` (work of 2026-11-01, entries below): `tools/trip.py`, `docs/trip-planner-agents.md`, `docs/webapp-byggeplan.md`, agents `alpha`, `charlie`, `ecco`, skills `/turforslag`, `/restaurant-indsamling`, `/aabningstider`, `data/holidays.csv`, `data/restaurant-areas.csv`, `data/restaurant-directory.csv` (26 Fuengirola-area leads), `trips/` (git-ignored).
+- Not brought over: the branch's change to `fuengirola-centro` (it moved the approved beach record's point to Plaza de la Constitución). Owner clarification 2026-11-02: the beach point stays between the harbour and the Río Fuengirola bridge; the town centre is Plaza de la Constitución, which is the separate record `fuengirola-town`. The owner-confirmed underground car park at Plaza de la Constitución is now in `fuengirola-town` (parking, evidence).
+- Owner decision 16: restaurants are full place records. `tools/trip.py` reads restaurant records first (bars excluded) and uses directory rows only for places not yet recorded; price band comes from `cost_level`. Alpha and Charlie follow the shared pipeline rules (fetch first, record changes only via `tools/intake.py apply`, reviews only as low-confidence leads) and run on Sonnet; Ecco on Sonnet.
+
+## 2026-11-01 (later) - Trip planner restructured into two phases (owner decision, no schema change)
+
+Owner decision 2026-11-01: replace five agents per trip plan with two phases. Branch `claude/awesome-clarke-tvlhrg`.
+
+- Phase 1 (advance work): `/restaurant-indsamling` (Charlie, per area) and new `/aabningstider` (Alpha mode A, updates `visit_information` and evidence in place records under the normal workflow, status unchanged).
+- Phase 2 (trip plan): `python3 tools/trip.py plan` gathers places, nearby suggestions, opening status, holidays, weather and advice, DGT traffic, restaurants and automatic checks into `trips/<id>/plan.json`; Alpha mode B runs a quick check only for places marked `kræver_tjek` and writes `hours-check.json` without editing records; Ecco writes the plan and PDF.
+- Bravo (weather/traffic) and Delta (quality checks) are now rules in `tools/trip.py`; their agent files are removed.
+- New: `data/restaurant-areas.csv` (5 areas covering the 13 local places), `data/holidays.csv` (Andalusian holidays 2026 and 2027 from Decreto 101/2025, BOJA 93 of 19-05-2025, and Decreto 84/2026, BOJA 84 of 05-05-2026; local municipal holidays not yet added), `area_id` column in `data/restaurant-directory.csv`, commands `plan` and `hours-status`.
+- Opening hours count as current when the latest evidence for `visit_information` or `visit_information.schedule` is at most 60 days old and `valid_until` has not passed. On 2026-11-01 only `tolox` needs work (season ended 2026-10-16).
+- Not changed: schema, categories, tags, enums, layers, place records.
+
+## 2026-11-01 - Trip planner agents (Alpha-Ecco) and light restaurant directory (owner decisions, no schema change)
+
+Owner request: make CalleMilano interactive; when guests pick one or more places, agents prepare a printable trip plan. Branch `claude/awesome-clarke-tvlhrg`.
+
+- Owner decisions 2026-11-01 (answered in session): the host runs `/turforslag` (guest self-service later); restaurants are collected in advance and refreshed about every 3 months; price bands per adult main course + one drink: `billig` < EUR 15, `mellem` EUR 15-35, `dyr` > EUR 35; delivery as one PDF for print and phone (native push postponed); restaurants within about 10 min walk (800 m straight line), widened to about 3 km only when short; restaurants stored in a light directory, not as place records; free data sources first (Open-Meteo with met.no fallback, DGT DATEX II incidents, no paid traffic forecast); plans written in Danish.
+- New: `.claude/agents/{alpha,bravo,charlie,delta,ecco}.md`, `.claude/skills/turforslag/`, `.claude/skills/restaurant-indsamling/`, `tools/trip.py`, `data/restaurant-directory.csv` (header only, no rows yet), `docs/trip-planner-agents.md`. Trip working files go to `trips/` (git-ignored, may hold guest details).
+- `data/restaurant-directory.csv` is a light list outside the place-record lifecycle: no IDs in `data/place-id-registry.csv`, not in `data/place-catalog.csv`. Restaurants that deserve an editorial page stay full records in `docs/places/`.
+- Trip plans may use records not yet `approved`, marked "Udkast" in the PDF; archive places are refused by `tools/trip.py`.
+- Not changed: schema, categories, tags, enums, layers, place records.
+- Open: restaurant directory is empty; first `/restaurant-indsamling` run needed, starting with the local layer.
+
 ## 2026-11-02 - Agent pipeline and first pipeline batch (nature and experiences)
 
 - Owner decision: routine work moves to scripts and cheaper subagents. Added `tools/intake.py` (sweep, nearby, fetch, create, apply, checklist), `tools/templates/` (blank record, checklist page), `.claude/agents/` (`candidate-screener`, `source-reader` on Haiku; `record-writer` on Sonnet) and `docs/agent-pipeline.md`; pointer in `AGENTS.md`.

@@ -44,6 +44,18 @@ Discovery input from the owner's Google Takeout export (2026-10-05), list "Proje
 
 The export contains no coordinates. Coordinates were assigned from general place knowledge (`approx` = known town/feature, town-level accuracy; `uncertain` = ambiguous name or inferred from the Maps feature-ID cluster; `origin` = the Casa address itself). Unplaced rows carry a region hint inferred from the feature ID. Coordinates must be confirmed from the Maps listing when a record is created; they are for triage only.
 
+### `restaurant-directory.csv` (light directory, owner decision 2026-11-01)
+
+Lead list of restaurants near places, collected by the agent Charlie (owner decision 2026-11-02: restaurants become full place records once selected; tools/trip.py reads records first). Rows are not place records: outside the lifecycle, the ID registry and the catalog. Columns, value lists and source rules are in `docs/trip-planner-agents.md`; validate with `python3 tools/trip.py check-restaurants`.
+
+### `restaurant-areas.csv` (owner decision 2026-11-01)
+
+Collection areas for the restaurant directory: `area_id`, `name`, `municipality`, `place_slugs` (semicolon-separated), `priority`, `note`. Work grouping only; restaurant lookup is still per place within walking distance.
+
+### `holidays.csv` (owner decision 2026-11-01)
+
+Public holidays used by `tools/trip.py plan`: `date`, `name`, `scope` (`andalucia`, `festdag_soendag` for the actual feast day when the day off moves to Monday, `local`), `municipality` (local only), `source_url`, `checked_at`, `note`. Sources are the BOJA decrees; add a year when the next decree is published.
+
 ## Recommendation prototype datasets (analytical, non-canonical)
 
 These feed `docs/recommendation-engine-spec.md` and the V1–V3 analyses. Values are **editorial estimates** unless a `source` column says otherwise. All keyed by `destination` (display name), not by place ID.

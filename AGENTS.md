@@ -33,6 +33,10 @@ Check composition and access against official sources where available (see `docs
 
 Routine intake and fact-check work uses `tools/intake.py` and the subagents in `.claude/agents/` (`candidate-screener`, `source-reader`, `record-writer`) as described in `docs/agent-pipeline.md`. Subagents never approve, never change category/tags/family scores, and never set a status beyond `needs_fact_check`; the main session spot-checks their quotes before committing.
 
+## Trip plans (owner decisions 2026-11-01 and 2026-11-02)
+
+Trip plans work in two phases, described in `docs/trip-planner-agents.md`. Advance work (places, opening hours via Alpha, restaurants via Charlie) follows the pipeline rules above and ends in place records; restaurants are full place records and `data/restaurant-directory.csv` is only a lead list. The trip plan is `/turforslag`: `tools/trip.py plan` (weather, traffic, holidays and automatic checks; former agents Bravo and Delta) and the agent Ecco, who writes the Danish text and PDF. Trip working files and PDFs go to `trips/` and are not committed.
+
 ## Canonical project files
 
 - Place records: `docs/places/` (canonical editable place data).
