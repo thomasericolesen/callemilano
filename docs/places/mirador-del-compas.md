@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: archived
 id: ES-AND-MAL-MIRADOR-DEL-COMPAS-001
 slug: mirador-del-compas
 name: Mirador del Compás (Virgen de la Peña)
@@ -76,10 +76,7 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places:
-- id: ES-AND-MAL-MIJAS-PUEBLO-001
-  relationship: part_of
-  note: Viewpoint and hermitage in Mijas Pueblo.
+related_places: []
 description_short: 'Mirador del Compás (Virgen de la Peña): viewpoint by the Virgen de la Peña hermitage in Mijas Pueblo, about 21 min by car from Casa de la Familia. Draft; partly fact-checked.'
 description_long: Mirador del Compás, also called Mirador Virgen de la Peña, is a viewpoint beside the Ermita de la Virgen de la Peña on Avenida del Compás in Mijas Pueblo, with wide views over the Costa del Sol. From Casa de la Familia it is about 21 minutes by car (Google route check, Saturday 10:00). The hermitage, built into the rock, holds a carved wooden image of the Virgin said to have been found in 1586; the Santuario de la Virgen de la Peña is one of the village sights named by Andalusia's official tourism site. It is in the village itself, not a mountain hike. Opening of the hermitage and access for wheelchairs and pushchairs were not checked. Check before visiting.
 seo_title: Mirador del Compás (Virgen de la Peña), Mijas | CalleMilano draft record
@@ -102,7 +99,7 @@ evidence:
   checked_by: Claude (local extension intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time over 20 minutes, so not shown (owner rule).
-- field: name, coordinates, description_long
+- field: description_long (Mirador del Compás)
   claim: 'Google Places: ''Ermita de la Virgen de la Peña'', Av. del Compás 7, 29650 Mijas (36.5955369,-4.6356259), about 30 m from the ''Mirador del Compás'' point (36.5953395,-4.6358648); ''Santuario de la Virgen de la Peña'', Av. del Compás 8.'
   source_url: https://maps.google.com/?cid=9334915565214010936
   source_type: maps_identity
@@ -110,7 +107,7 @@ evidence:
   checked_by: Claude (local extension fact check 2026-11-02)
   confidence: high
   notes: Places API text search 2026-11-02; shows the viewpoint is in Mijas Pueblo, not on a mountain trail.
-- field: name, description_long
+- field: description_long (Mirador del Compás)
   claim: '''El Mirador Virgen de la Peña es también conocido como Mirador del Compás. Se encuentra junto a la Ermita de la Virgen de la Peña. Este mirador deja unas vistas impresionantes de la Costa del Sol.'' Ermita: ''La imagen de la virgen está tallada en madera y fue descubierta en el año 1586.'''
   source_url: https://www.allincarhire.com/es/mijas-mirador.php
   source_type: secondary
@@ -143,14 +140,6 @@ review_issues:
   description: 'Age groups, family scores and tags not assessed; energy_level Low (corrected 2026-11-02 from High: the viewpoint is in the village, not a hike).'
   retryable: true
   owner: human_editor
-- code: possible_merge_with_mijas_pueblo
-  severity: info
-  fields:
-  - status
-  - related_places
-  description: 'The viewpoint lies inside Mijas Pueblo next to the Virgen de la Peña hermitage. Owner decision: keep as its own record (linked to Mijas Pueblo) or fold it into the Mijas Pueblo record and archive this one.'
-  retryable: true
-  owner: human_editor
 - code: official_detail_missing
   severity: info
   fields:
@@ -164,6 +153,10 @@ updated_at: '2026-11-02'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: 'Owner decision 2026-11-02: the viewpoint lies inside Mijas Pueblo, so it is described in the mijas-pueblo record instead. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

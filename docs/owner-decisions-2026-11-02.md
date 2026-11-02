@@ -30,3 +30,4 @@ Answers given in the session chat on 2026-11-02 (Claude asked; the owner chose f
 7. **Everyday life:** goes on a separate practical-information page outside the place records (markets may still become records). No schema change.
 8. **Events:** a season calendar page by month, with official dates per year, linked from the relevant places.
 9. **Selection:** the owner picks candidates on a private checklist page ("CalleMilano udvidelse", https://claude.ai/artifact/N2M6tmgYi7MhVqPyfpUSa5); answers are stored in its `choices` collection.
+10. **Mirador del Compás:** fold into `mijas-pueblo` and archive the separate record.

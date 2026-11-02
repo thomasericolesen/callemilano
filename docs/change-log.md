@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Mirador del Compás folded into Mijas Pueblo (owner decision)
+
+The viewpoint and the Virgen de la Peña hermitage are now described in `mijas-pueblo` (description and evidence moved); `mirador-del-compas` archived with a `review_decision` (ID kept, not reused). Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Mirador del Compás corrected (owner tip, no schema change)
 
 The owner pointed out that Mirador del Compás is also called Mirador Virgen de la Peña. Google's positions confirm the point is about 30 m from the Ermita de la Virgen de la Peña in Mijas Pueblo, so the record's earlier description ('a viewpoint in the Sierra de Mijas reached on foot') and `energy_level: High` were wrong. Corrected: name **Mirador del Compás (Virgen de la Peña)** (ID and slug unchanged; registry updated), description, `energy_level: Low`, linked to `mijas-pueblo`; status `draft` -> `needs_fact_check`. New info issue `possible_merge_with_mijas_pueblo` for the owner. Intake doc wording corrected. Validation: 0 errors.

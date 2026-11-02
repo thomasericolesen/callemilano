@@ -76,12 +76,9 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places:
-- id: ES-AND-MAL-MIRADOR-DEL-COMPAS-001
-  relationship: nearby
-  note: Mirador del Compás / Virgen de la Peña viewpoint in the village.
+related_places: []
 description_short: 'Mijas Pueblo: the white village of Mijas on the mountainside, about 17 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Mijas Pueblo is the white village of Mijas on the mountainside (29650 Mijas, Málaga, España). From Casa de la Familia it is about 17 minutes by car (Google route check, Saturday 10:00). Andalusia''s official tourism site (checked 2026-11-02): a village of Moorish layout spread along the slope of the Sierra de Mijas like a balcony, white houses against green pines, one of the most attractive views on the coast. Sights include the Santuario de la Virgen de la Peña, the bullring, and the group formed by the Iglesia de la Concepción, the auditorium and its gardens. Parking, donkey taxis and accessibility were not checked. Check before visiting.'
+description_long: 'Mijas Pueblo is the white village of Mijas on the mountainside (29650 Mijas, Málaga, España). From Casa de la Familia it is about 17 minutes by car (Google route check, Saturday 10:00). Andalusia''s official tourism site (checked 2026-11-02): a village of Moorish layout spread along the slope of the Sierra de Mijas like a balcony, white houses against green pines, one of the most attractive views on the coast. Sights include the Santuario de la Virgen de la Peña, the bullring, and the group formed by the Iglesia de la Concepción, the auditorium and its gardens. Beside the Virgen de la Peña hermitage, built into the rock on Avenida del Compás, is the Mirador del Compás (also called Mirador Virgen de la Peña), a viewpoint with wide views over the Costa del Sol. Parking, donkey taxis and accessibility were not checked. Check before visiting.'
 seo_title: Mijas Pueblo, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Mijas Pueblo (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -110,6 +107,22 @@ evidence:
   checked_by: Claude (local extension fact check 2026-11-02)
   confidence: high
   notes: Read via Firecrawl on 2026-11-02.
+- field: description_long (Mirador del Compás)
+  claim: 'Google Places: ''Ermita de la Virgen de la Peña'', Av. del Compás 7, 29650 Mijas (36.5955369,-4.6356259), about 30 m from the ''Mirador del Compás'' point (36.5953395,-4.6358648); ''Santuario de la Virgen de la Peña'', Av. del Compás 8.'
+  source_url: https://maps.google.com/?cid=9334915565214010936
+  source_type: maps_identity
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: high
+  notes: Places API text search 2026-11-02; shows the viewpoint is in Mijas Pueblo, not on a mountain trail.
+- field: description_long (Mirador del Compás)
+  claim: '''El Mirador Virgen de la Peña es también conocido como Mirador del Compás. Se encuentra junto a la Ermita de la Virgen de la Peña. Este mirador deja unas vistas impresionantes de la Costa del Sol.'' Ermita: ''La imagen de la virgen está tallada en madera y fue descubierta en el año 1586.'''
+  source_url: https://www.allincarhire.com/es/mijas-mirador.php
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (local extension fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot (supplied 2026-11-02) of a car-hire company's travel page; secondary. The two names agree with Google's positions.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
