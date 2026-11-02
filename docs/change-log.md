@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-02 (late evening) - La Sierra Restaurante = Cerrado del Águila (owner screenshot)
+
+- Owner screenshot of the own Facebook page "La Sierra Restaurante - Cerrado del Águila Golf and Resort" confirms that `la-sierra-restaurante` and `restaurante-cerrado-del-aguila` are the same venue (Google points about 10 m apart). Owner decision: keep `la-sierra-restaurante`; `restaurante-cerrado-del-aguila` archived with issue `duplicate_record` (ID kept, registry status `superseded_by_ES-AND-MAL-LA-SIERRA-RESTAURANTE-001`).
+- `la-sierra-restaurante`: from the page, address at Cerrado del Águila Golf and Resort, phone +34 951 74 19 90, WhatsApp, daily breakfast, coast views; `cost_level` `€€` from the page's Facebook price range "Moderate"; status `draft` -> `needs_fact_check`. Ratings and e-mail not recorded. Hours, menu prices and booking link still open.
+- `restaurante-cerros-del-aguila` (the bar and grill at the Cerros del Águila sports area) is a different place and is unchanged.
+
 ## 2026-11-02 (evening) - Restaurant price bands from own menus (owner confirmed bands)
 
 - Owner confirmed the price bands on 2026-11-02: adult main course + one drink; `€` under 15 €, `€€` 15-35 €, `€€€` over 35 €.

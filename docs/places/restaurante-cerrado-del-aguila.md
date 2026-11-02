@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-RESTAURANTE-CERRADO-DEL-AGUILA-001
 slug: restaurante-cerrado-del-aguila
 name: Restaurante Cerrado del Águila
@@ -130,6 +130,13 @@ review_issues:
   description: Google lists no website; facts may have to come from a social page or a direct contact.
   retryable: true
   owner: fact_check
+- code: duplicate_record
+  severity: info
+  fields:
+  - name
+  description: 'Owner decision 2026-11-02 (Facebook screenshot): same venue as La Sierra Restaurante (ES-AND-MAL-LA-SIERRA-RESTAURANTE-001). Archived; ID kept, not reused.'
+  retryable: false
+  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null
