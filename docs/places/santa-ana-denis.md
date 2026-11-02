@@ -67,15 +67,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own menu: mains about 18,50-26 €, house wine glass 4,00 €; about 22-30 € per adult. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.restaurantesantaanadenis.com/
   booking: null
@@ -140,6 +140,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
+- field: cost_level
+  claim: '"Merluza a la plancha / Grilled hake / 18,50 €"; "Pez espada a la plancha / Grilled sword fish / 18,50 €"; "Gambas a la plancha de Málaga / Grilled prawns / 26,00 €"; "Copa de vino de la casa / 4,00 €"; "Botella de cerveza / 3,50 €"'
+  source_url: https://www.restaurantesantaanadenis.com/carta
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band approved by owner 2026-11-02
+  confidence: high
+  notes: Own carta; name, translation and price joined with ' / '.
 review_issues: []
 created_at: 2026-11-01
 updated_at: '2026-11-02'

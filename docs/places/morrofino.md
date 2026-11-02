@@ -64,15 +64,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: 12:00-24:00, closed Tuesday (own website, read 2026-11-01; no seasonal variation stated).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own menu: mains about 19,90-20,90 €; TheFork average price 18 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://morrofinoplayamar.com/
   booking: https://reservas.morrofinoplayamar.com/reservar/morrofino
@@ -140,6 +140,22 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
+- field: cost_level
+  claim: '"Medallones de Solomillo de Cerdo con Salsa de Vino Málaga y Champiñones acompañado de Arroz 19.90 €"; "Salmón Glaseado 20.90 €"'
+  source_url: https://tucartaonline.com/menu/restaurante-morrofino
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band approved by owner 2026-11-02
+  confidence: high
+  notes: Own online carta (tucartaonline.com linked from own site).
+- field: cost_level
+  claim: '"Precio medio: 18 €"; "€€ - €€€"'
+  source_url: https://www.thefork.es/restaurante/morrofino-r809773
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band approved by owner 2026-11-02
+  confidence: low
+  notes: TheFork/Tripadvisor price marking from search excerpt; no ratings recorded.
 review_issues: []
 created_at: 2026-11-01
 updated_at: '2026-11-02'

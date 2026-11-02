@@ -13,4 +13,4 @@ Regel (ejerbeslutning 2026-11-01, bekræftet 2026-11-02): voksens hovedret + én
 | `chiringuito-los-moreno` | €€ | Ingen egen side; Tripadvisor "Precio. €€ - €€€". | tripadvisor.es (lav) |
 | `chiringuito-cristobal` | – (forbliver Unknown) | Ingen matchende TheFork-/Tripadvisor-side fundet. | – |
 
-Svar fx: "Godkendt alle", eller nævn dem, der skal ændres.
+**Status:** Godkendt af ejeren 2026-11-02 (alle fem). Indført i stedposterne samme dag.

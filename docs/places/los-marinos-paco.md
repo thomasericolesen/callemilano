@@ -67,15 +67,15 @@ booking_required: false
 dog_friendly: partial
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: 'Closed Mondays. Summer: Tue-Sat 12:30-22:30, Sun 12:30-17:30. Winter: Tue-Sun 10:00-18:00 (own website, read 2026-11-01; summer/winter dates not stated).'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own menu: mains about 17-26 € (seafood paella 35 € for min. 2 people); main plus one drink about 20-30 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.losmarinospaco.es/
   booking: null
@@ -148,6 +148,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
+- field: cost_level
+  claim: '"Rosada a la plancha Grilled red snapper 17,00 €"; "Paella de marisco Mínimo 2 personas 35,00 €"; "Entrecot Angus Angus entrecôte 26,00 €"; "Vino selección de la casa 3/4 18,00 €"'
+  source_url: https://www.losmarinospaco.es/carta.html
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: source-reader agent; band approved by owner 2026-11-02
+  confidence: high
+  notes: Own carta; only a bottle wine price is listed.
 review_issues: []
 created_at: 2026-11-01
 updated_at: '2026-11-02'
