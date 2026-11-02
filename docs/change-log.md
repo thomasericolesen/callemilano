@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Owner selection for the one-hour band
+
+- Added `docs/one-hour-selection-2026-11-02.md`: 41 yes, 12 maybe, 1 no, read from the owner's checklist page. Avenida del Mar folds into Marbella old town, the mural route into Estepona old town, Málaga city items into `malaga`.
+
 ## 2026-11-02 - Taxi and train on the practical page
 
 - Owner asked for taxi numbers and local train stations before the one-hour work continues.
