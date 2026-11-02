@@ -39,7 +39,7 @@
 | Paseo Marítimo de Fuengirola | Seafront promenade | 16 min | - | [Maps](https://maps.google.com/?cid=6988601565795265057) | Long, flat walk; overlaps the beach records. |
 | Dunas de Artola | Protected dune area (Monumento Natural) | 22 min | - | [Maps](https://maps.google.com/?cid=2023393761717013454) [site](http://www.andalucia.org/es/espacios-naturales/monumento-natural/dunas-de-artola-o-cabopino/) | Next to Cabopino beach; earlier noted as a possible Nature record. |
 | Ermita del calvario | Hermitage on a hill path above Mijas Pueblo | 20 min | - | [Maps](https://maps.google.com/?cid=8550360456943018492) | Walk up from the village; trail details to check. |
-| Mirador del Compás | Viewpoint in the Sierra de Mijas | 21 min | - | [Maps](https://maps.google.com/?cid=3160074190169528299) | Reached on foot; difficulty to check. |
+| Mirador del Compás | Viewpoint by the Virgen de la Peña hermitage in Mijas Pueblo (corrected 2026-11-02) | 21 min | - | [Maps](https://maps.google.com/?cid=3160074190169528299) | Also called Mirador Virgen de la Peña; in the village, not a hike. |
 | Puerto Colorado | Mountain trail area (Sierra de Mijas) | 23 min | - | [Maps](https://maps.google.com/?cid=12173458180607337478) | Trailhead and route to check. |
 
 ## 3. Towns and culture (would fill `City` / `Excursions` locally)

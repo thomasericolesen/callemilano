@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Mirador del Compás corrected (owner tip, no schema change)
+
+The owner pointed out that Mirador del Compás is also called Mirador Virgen de la Peña. Google's positions confirm the point is about 30 m from the Ermita de la Virgen de la Peña in Mijas Pueblo, so the record's earlier description ('a viewpoint in the Sierra de Mijas reached on foot') and `energy_level: High` were wrong. Corrected: name **Mirador del Compás (Virgen de la Peña)** (ID and slug unchanged; registry updated), description, `energy_level: Low`, linked to `mijas-pueblo`; status `draft` -> `needs_fact_check`. New info issue `possible_merge_with_mijas_pueblo` for the owner. Intake doc wording corrected. Validation: 0 errors.
+
 ## 2026-11-02 - Maui Paddlesurf Club from owner screenshot (no schema change)
 
 `maui-paddle-surf-la-cala`: own Instagram (owner screenshot) gives the club's own name **Maui Paddlesurf Club (La Cala)** (ID and slug unchanged; registry name updated), address C/ La Butibamba 7, phone, and a summer camp for ages 5-14 (29 June-31 August, 10:00-14:00, €100/week, €30/day). Status `draft` -> `needs_fact_check`; linked one way to La Butibamba (the approved beach record was not edited). Regular hire and lesson prices remain open. Validation: 0 errors.

@@ -76,7 +76,10 @@ links:
   visitor_information: null
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-MIRADOR-DEL-COMPAS-001
+  relationship: nearby
+  note: Mirador del Compás / Virgen de la Peña viewpoint in the village.
 description_short: 'Mijas Pueblo: the white village of Mijas on the mountainside, about 17 min by car from Casa de la Familia. Draft; partly fact-checked.'
 description_long: 'Mijas Pueblo is the white village of Mijas on the mountainside (29650 Mijas, Málaga, España). From Casa de la Familia it is about 17 minutes by car (Google route check, Saturday 10:00). Andalusia''s official tourism site (checked 2026-11-02): a village of Moorish layout spread along the slope of the Sierra de Mijas like a balcony, white houses against green pines, one of the most attractive views on the coast. Sights include the Santuario de la Virgen de la Peña, the bullring, and the group formed by the Iglesia de la Concepción, the auditorium and its gardens. Parking, donkey taxis and accessibility were not checked. Check before visiting.'
 seo_title: Mijas Pueblo, Mijas | CalleMilano draft record
