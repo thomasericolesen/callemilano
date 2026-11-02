@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-NONINA-FUENGIROLA-001
 slug: nonina-fuengirola
 name: Noniná
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.facebook.com/profile.php?id=61551225957378
 related_places: []
-description_short: 'Noniná: bar, about 15 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Noniná is a bar at C. Puerto, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 15 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_short: 'Noniná: flamenco bar at the port of Fuengirola, about 15 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Noniná (also 'Noniná puerto de Fuengirola') is a flamenco bar at C. Puerto, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 15 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02) describes it as a bar with flamenco, slogan 'Tú eres parte del espectáculo', phone +34 685 39 43 25 (also WhatsApp). Recent posts advertise a 'Día de la Fiesta Flamenca' with arroz caldoso and live music on 7 October from 15:00, and images refer to the Feria de Fuengirola 2026, so the venue may be tied to the October fair; regular opening days, hours and prices are not given. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
 seo_title: Noniná, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Noniná (Fuengirola): location and drive time from Casa de la Familia.'
 images: []
@@ -107,17 +107,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Screen: Google rating and count, 5 Google reviews, and web/news searches for drink spiking; nothing was found for this venue. The owner does not know the bar personally. Not a guarantee.'
+- field: description_long, links
+  claim: 'Own Facebook page ''Noniná (Noniná puerto de Fuengirola)'': category Bar, ''flamenco''; address Calle puerto de Fuengirola; phone +34 685 39 43 25; link noninafuengirola.com; post 5 Oct: ''Día de la Fiesta Flamenca - Arroz Caldoso y Música en Vivo - 7 de Octubre - desde las 15:00 h''; photo titles ''Feria de Fuengirola 2026''.'
+  source_url: https://www.facebook.com/profile.php?id=61551225957378
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: medium
+  notes: Owner screenshot of the page (supplied 2026-11-02). Review ratings and follower counts not recorded. The linked website noninafuengirola.com did not resolve (DNS failure) on 2026-11-02. The page lists a personal e-mail address; not recorded.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - food_available
-  description: Created from Google identity and route checks only. Hours, prices, music, food and accessibility need the venue's own sources.
-  retryable: true
-  owner: fact_check
 - code: audience_not_assessed
   severity: warning
   fields:
@@ -134,18 +132,18 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: no_official_source_found
+- code: possibly_seasonal_venue
   severity: warning
   fields:
+  - seasonality
   - visit_information
   - cost_level
-  - links
-  description: Search on 2026-11-02 found no own website or readable social page. Hours and prices need a direct check.
+  description: Posts point to events around the Feria de Fuengirola (October 2026); it is unclear whether Noniná is open all year, and hours and prices are not given. Confirm with the venue (+34 685 39 43 25) before recommending it.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

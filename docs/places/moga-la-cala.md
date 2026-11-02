@@ -78,7 +78,7 @@ links:
   contact: null
 related_places: []
 description_short: 'MOGA: cocktail bar on the Boulevard de La Cala, about 13 min by car, taxi or Uber from Casa de la Familia. Draft; facts not yet checked.'
-description_long: MOGA is a cocktail bar on the Boulevard de La Cala at Blvd. de la Cala, 49, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Opening hours, prices, music and atmosphere have not been checked yet; check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
+description_long: MOGA is a cocktail bar on the Boulevard de La Cala at Blvd. de la Cala, 49, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). A local Facebook reel from 19 July presents it as a new opening, with the sign 'MOGA Cocktail Bar - La Cala de Mijas' and a screen showing football. No own website or social page has been found; opening hours, prices, music and atmosphere have not been checked. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.
 seo_title: MOGA, Mijas | CalleMilano draft record
 seo_description: 'Draft record for MOGA (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bars fact check 2026-11-02)
   confidence: low
   notes: Search excerpts read 2026-11-02; no own website or social page found.
+- field: description_long
+  claim: 'Facebook reel by ''La Cala de Mijas hangout & friends'' with Bromley Estates Marbella, 19 July: ''Have you been? New Opening in La Cala de Mijas''; video shows the illuminated sign ''MOGA Cocktail Bar La Cala de Mijas'' and a TV showing football inside.'
+  source_url: https://www.facebook.com/reel/1568225194931710
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (bar fact check 2026-11-02)
+  confidence: low
+  notes: Owner screenshot (supplied 2026-11-02). Third-party promotional reel (a community page with an estate agency), not the venue's own channel; the year is not shown.
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -138,12 +146,12 @@ review_issues:
   - visit_information
   - cost_level
   - links
-  description: No own website or social page found; hours and prices need checking.
+  description: Owner screenshot 2026-11-02 shows only a third-party reel (new opening, 19 July); the venue's own page is still not found. Hours and prices need checking.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-02 - Five bars checked from owner screenshots (no schema change)
+
+The owner supplied screenshots of Facebook pages. Facts taken from the venues' own pages (`official_venue`, medium confidence); review ratings, follower counts and personal e-mail addresses were not recorded. All three websites linked from the pages are gone (noninafuengirola.com and gruponautic.es do not resolve; cafeteatrofuengirola.com is a parked domain).
+
+- `draft` -> `needs_fact_check` (4): `nonina-fuengirola` (flamenco bar at the port; posts tie it to the Feria de Fuengirola 2026, new issue `possibly_seasonal_venue`), `retrock-bart` (rock bar, Paseo Costa del Sol 10, price range "cheap", dogs on a lead welcome; latest post December 2025, new issue `activity_unverified`), `nautic-bar-fuengirola` (renamed to its own name **Nautic Cocktail & Drinks**, ID and slug unchanged, registry name updated; gin and premium-spirits bar; latest post August 2023, `activity_unverified`), `cafe-teatro-ocean-drive` (lounge terrace with live music and cocktails, current event posters; house number 4 on own page vs 5 on Google, new issue `hours_prices_and_entry_unknown`).
+- `moga-la-cala` stays `draft`: only a third-party reel (new opening, 19 July, year not shown) recorded as `secondary`, low confidence.
+- Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Jay Jangles archived (owner decision)
 
 Owner decision: `jay-jangles` is removed from the guide; sources describe a nursery for enrolled children aged 1-6, not a visitor activity. Status `draft` -> `archived` with a `review_decision` from the editor-of-record; the record and its ID stay (ID must not be reused). The blocking issue `not_a_visitor_activity` is kept as the reason. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
