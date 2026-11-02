@@ -86,7 +86,7 @@ related_places:
   relationship: nearby
   note: 'Place to eat: Chiringuito Rafael.'
 description_short: 'Fuente de la Salud, Benalmádena: Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
-description_long: 'Fuente de la Salud (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Official regional tourism listing (andalucia.org, Junta de Andalucía; undated, read 2026-11-02): Benalmádena''s easternmost beach, next to the marina (Puerto Deportivo) and bordering Torremolinos, fine sand, about 150 m long, with adapted toilets. Places to eat: see the linked record for Chiringuito Rafael. Rocks: not confirmed either way (not mentioned in the sources reviewed, and not known to the owner). Municipal source (Benalmádena, 2026-06-05, checked 2026-11-01): a lifeguard point and an accessibility point / adapted beach at Fuente de la Salud; intensive lifeguard season 15 May-15 October, plus Easter week and the following weekends. A play area is not confirmed by an official source. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
+description_long: 'Fuente de la Salud (Benalmádena). Blue Flag 2026 (used as proxy for water quality). Official regional tourism listing (andalucia.org, Junta de Andalucía; undated, read 2026-11-02): Benalmádena''s easternmost beach, next to the marina (Puerto Deportivo) and bordering Torremolinos, fine sand, about 150 m long, with adapted toilets. Places to eat: see the linked record for Chiringuito Rafael. Rocks: a fine sand beach with easy access on foot, so it meets the project''s beach rule (owner decision 2026-11-02: only pure rock beaches, or beaches reached by climbing down rocks, are excluded). Municipal source (Benalmádena, 2026-06-05, checked 2026-11-01): a lifeguard point and an accessibility point / adapted beach at Fuente de la Salud; intensive lifeguard season 15 May-15 October, plus Easter week and the following weekends. A play area is not confirmed by an official source. Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
 seo_title: Fuente de la Salud, Benalmádena | CalleMilano draft record
 seo_description: Draft record for Fuente de la Salud beach (Benalmádena). Facts are being checked against official sources.
 images: []
@@ -163,6 +163,14 @@ evidence:
   checked_by: Claude (official beach data 2026-11-02)
   confidence: medium
   notes: Junta de Andalucía official tourism portal; undated listing. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
+- field: description_long (rocks rule)
+  claim: 'Not a pure rock beach and not reached by climbing down rocks: andalucia.org lists fine sand next to the marina; Benalmádena lists an accessibility point / adapted beach here (see the accessibility evidence).'
+  source_url: https://www.andalucia.org/listing/playa-fuente-de-la-salud/18944102/
+  source_type: official_tourism
+  checked_at: '2026-11-02'
+  checked_by: Claude (rocks rule check 2026-11-02)
+  confidence: medium
+  notes: 'Checked against the beach rule set by the owner on 2026-11-02 (https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md): rocks on a sand beach do not exclude it. Whether there are any rocks on this beach is not recorded and no longer matters for selection. Replaces review issue rocks_not_verified.'
 review_issues:
 - code: subjective_assessments_need_human_review
   severity: warning
@@ -174,13 +182,6 @@ review_issues:
   description: 'Character (Natural/Mixed/Developed) and family suitability are subjective. Rule used (confirmed by the owner 2026-10-29): small_children=medium only where the snapshot has an explicit child or family statement, otherwise unknown; no other audience rated. energy_level is an editorial estimate for a required field. 2026-11-02: the owner did not approve the proposed values (see docs/family-assessment-decisions-2026-11-02.md); still open.'
   retryable: false
   owner: human_editor
-- code: rocks_not_verified
-  severity: warning
-  fields:
-  - description_long
-  description: Absence of any mention of rocks is not confirmation, and the owner does not know (decision 4, 2026-11-01). The project criterion excludes beaches with rocks; a visit or an independent source is needed.
-  retryable: true
-  owner: fact_check
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
 last_verified: '2026-10-29'

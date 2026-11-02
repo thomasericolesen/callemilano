@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-FUENGIROLA-CENTRO-001
 slug: fuengirola-centro
 name: Fuengirola (centrum)
@@ -8,12 +8,12 @@ category: Beaches
 tags:
 - Beach
 coordinates:
-  latitude: 36.5573
-  longitude: -4.6095
+  latitude: 36.5372915
+  longitude: -4.6215859
   purpose: representative_point
-  label: Google Maps marker (owner-read); not a parking point
-  source: Google Maps marker, read by Eric Olesen (owner) 2026-07-18; accepted as the record's place point by the owner on 2026-11-01 (decision 1). Not an official visitor point.
-  checked_at: '2026-07-18'
+  label: Google Places 'Playa de Fuengirola' (Paseo Marítimo Rey de España 27), between the marina and the Río Fuengirola bridge; not a parking point
+  source: Google Places API (New), place ChIJW7YnnGvicg0RYBrJB5dCNTU, read 2026-11-02; point chosen per owner decision 2026-11-02 (near the harbour, between the harbour and the bridge over the Río Fuengirola). Replaces the owner-read marker 36.5573,-4.6095 accepted on 2026-11-01.
+  checked_at: '2026-11-02'
 google_maps_url: https://maps.google.com/?cid=3834043874213960288
 external_ids:
   google_place_id: ChIJW7YnnGvicg0RYBrJB5dCNTU
@@ -22,12 +22,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: 17 min
+  duration: 14 min
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
-  destination: Fuengirola (centrum), Fuengirola, Málaga, Spain (Google Maps marker, not a parking point)
-  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.5573,-4.6095); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5573%2C-4.6095&travelmode=driving
-  checked_at: '2026-11-01'
-  note: 'Routes API figure: 17 min with predicted Saturday 10:00 traffic (17 min without traffic), 7.0 km via Cam. de Campanales; an avoid-tolls run gave 17 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 18 min (2026-07-18): Google Maps, measured by Eric Olesen (owner). Batch: data/route-checks-2026-11-01-local.csv. Owner decision 2026-11-01: the owner-read marker is accepted as the place point, so this route check stands.'
+  destination: Playa de Fuengirola, Paseo Marítimo Rey de España 27, Fuengirola (Google Places point; not a parking point)
+  source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.5372915,-4.6215859); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5372915%2C-4.6215859&travelmode=driving
+  checked_at: '2026-11-02'
+  note: 'Routes API figure: 14 min with predicted Saturday 10:00 traffic (14.5 min without traffic), 6.2 km via Av. de Andalucía. One predicted sample, not the Google Maps app''s main figure. Previous value 17 min (Routes API 2026-11-01) to the old point 36.5573,-4.6095, which lay near Las Gaviotas.'
 age_groups:
 - Small children (0-6)
 - Children (7-12)
@@ -115,14 +115,6 @@ evidence:
   checked_by: claude-sonnet-5-5 (draft 2026-10-29)
   confidence: medium
   notes: '[partial] Corroborating source, read via a WebFetch summary on 2026-10-29 (article not read in full). Supports the ADEAC check; does not replace it.'
-- field: driving_time_from_casa_de_la_familia
-  claim: 'One-way drive from Casa de la Familia to Fuengirola (centrum), Fuengirola, Málaga, Spain (Google Maps marker, not a parking point): 17 min, 7.0 km (Saturday 10:00 predicted traffic).'
-  source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5573%2C-4.6095&travelmode=driving
-  source_type: secondary
-  checked_at: '2026-11-01'
-  checked_by: Claude (Routes API batch 2026-11-01)
-  confidence: medium
-  notes: Google Routes API computeRoutes; destination = record coordinates (36.5573,-4.6095). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
 - field: toilets_available, accessibility
   claim: The 2026 service charter's map of Playa de Fuengirola lists toilets, an assisted-bathing area, adapted showers and adapted parking; all 15 municipal beach toilets are adapted for reduced mobility; ramps connect every beach with the promenade. The same map lists a children's area and trampolines.
   source_url: https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf
@@ -147,14 +139,6 @@ evidence:
   checked_by: Claude (beach fact check 2026-11-01)
   confidence: high
   notes: Same charter.
-- field: coordinates
-  claim: The owner accepts the Google Maps marker coordinates read on 2026-07-18 as this beach's place point.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
-  source_type: secondary
-  checked_at: '2026-11-01'
-  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
-  confidence: high
-  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
 - field: seasonality
   claim: Beach seasonality is Spring, Summer and Autumn (same for all local beaches).
   source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
@@ -180,13 +164,13 @@ evidence:
   confidence: high
   notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
 - field: google_maps_url, external_ids
-  claim: Google Places lists 'Playa de Fuengirola' (Playa de Fuengirola, P.º Marítimo Rey de España, 27, 29640 Fuengirola, Málaga, España), place ID ChIJW7YnnGvicg0RYBrJB5dCNTU, about 2469 m from the record coordinates.
+  claim: Google Places lists 'Playa de Fuengirola' (Playa de Fuengirola, P.º Marítimo Rey de España, 27, 29640 Fuengirola, Málaga, España), place ID ChIJW7YnnGvicg0RYBrJB5dCNTU; since 2026-11-02 its location is the record's coordinates.
   source_url: https://maps.google.com/?cid=3834043874213960288
   source_type: maps_identity
   checked_at: '2026-11-02'
   checked_by: Claude (Places API lookup 2026-11-02)
-  confidence: medium
-  notes: Google Places API (New) searchText/searchNearby on 2026-11-02. Maps establishes identity and position only, not facilities or suitability. The record point is about 2.5 km north-east of this listing, close to Playa de las Gaviotas; see review issue coordinates_far_from_named_beach.
+  confidence: high
+  notes: Google Places API (New) searchText on 2026-11-02. Maps establishes identity and position only, not facilities or suitability.
 - field: description_long (sand, size, waves, occupancy, services)
   claim: 'Playa Fuengirola: in the town centre, includes Santa Amalia and Fuengirola; sand, golden, calm water, 1650 x 30 m, high occupancy, urban; services: toilets, showers, footwash, sports area, children''s area.'
   source_url: https://www.spain.info/es/playa/fuengirola/
@@ -203,15 +187,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
   notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
+- field: coordinates
+  claim: The place point should lie near the Fuengirola harbour, or between the harbour and the bridge over the Río Fuengirola; Google's Playa de Fuengirola point (36.5372915,-4.6215859) lies about 500 m south of the marina (36.5417,-4.6187) and north of the Puente de la Armada Española at the river mouth (36.5261,-4.6273).
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  confidence: high
+  notes: Owner decision 2026-11-02; positions of marina and bridge from Google Places API on 2026-11-02. Editor decision, not an external fact source; source_type is the nearest schema value.
+- field: driving_time_from_casa_de_la_familia
+  claim: 'One-way drive from Casa de la Familia to Playa de Fuengirola (Google Places point): 14 min, 6.2 km (Saturday 10:00 predicted traffic).'
+  source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5372915%2C-4.6215859&travelmode=driving
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (Routes API 2026-11-02)
+  confidence: medium
+  notes: Google Routes API computeRoutes; destination = record coordinates. Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
 review_issues:
-- code: coordinates_far_from_named_beach
-  severity: warning
-  fields:
-  - coordinates
-  - driving_time_from_casa_de_la_familia
-  description: The accepted place point (36.5573, -4.6095) lies about 2.5 km north-east of Google's 'Playa de Fuengirola' listing (36.5373, -4.6216, Paseo Marítimo Rey de España 27, by the town centre and port) and about 380 m from Playa de las Gaviotas, i.e. north of the Boliches-Gaviotas record point (36.5544, -4.6116). The point may sit on the wrong stretch of beach. Owner to check; the route check (driving time) would change by a minute or two at most.
-  retryable: true
-  owner: human_editor
 - code: energy_level_editorial_estimate
   severity: info
   fields:
@@ -222,7 +214,7 @@ review_issues:
   owner: human_editor
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
-last_verified: '2026-10-29'
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

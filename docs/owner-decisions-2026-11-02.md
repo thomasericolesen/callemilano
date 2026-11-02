@@ -1,0 +1,15 @@
+# Owner decisions, 2026-11-02 (rocks rule and Fuengirola point)
+
+Given by the owner (editor-of-record) in the working session on 2026-11-02, after PR #25 was merged.
+
+## 1. Beach selection rule for rocks (replaces the earlier rule)
+
+- A beach that is **purely a rock beach** is excluded.
+- A beach where you **have to climb down over rocks** to reach it is excluded.
+- **Rocks on a sand beach do not exclude it.**
+
+The earlier working rule ("the project criterion excludes beaches with rocks") no longer applies. Evidence for the rule check: the beach's composition (sand or not) and its access (easy foot access, promenade, ramps or accessible walkways), from official sources where available.
+
+## 2. Place point for Fuengirola centro
+
+The point should lie near Fuengirola's harbour, or between the harbour and the bridge over the Río Fuengirola. Applied: Google Places "Playa de Fuengirola" (36.5372915, -4.6215859, Paseo Marítimo Rey de España 27), about 500 m south of the marina (Puerto Deportivo, 36.5417, -4.6187) and north of the Puente de la Armada Española at the river mouth (36.5261, -4.6273). This replaces the owner-read marker (36.5573, -4.6095) accepted on 2026-11-01, which lay near Las Gaviotas.

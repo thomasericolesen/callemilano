@@ -20,6 +20,14 @@ CalleMilano is a family travel guide for guests at Casa de la Familia, starting 
 - Records in this layer follow the same schema, evidence and review rules. Driving time must still be route-checked, never estimated.
 - Extension (owner decision 2026-10-16): layer `excursions_5h` covers route-checked one-way drives above about 4 h and up to about 5 h, for overnight routes. Portuguese places stay out of scope for now. Senior itineraries are in `docs/senior-itineraries.md`; see `docs/change-log.md`.
 
+## Beach selection rule: rocks (owner decision 2026-11-02)
+
+- Exclude a beach that is purely a rock beach.
+- Exclude a beach that can only be reached by climbing down over rocks.
+- Rocks on a sand beach do not exclude it.
+
+Check composition and access against official sources where available (see `docs/owner-decisions-2026-11-02.md`). This replaces the earlier working rule that any rocks excluded a beach.
+
 ## Canonical project files
 
 - Place records: `docs/places/` (canonical editable place data).
