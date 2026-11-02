@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Eight local beaches approved by the owner (no schema change)
+
+Owner decisions in `docs/approval-decisions-2026-11-02.md` (second round, new approval page). `castillo-ejido`, `la-butibamba`, `carvajal`, `el-bajondillo`, `fuengirola-centro`, `la-carihuela`, `los-alamos` and `playamar`: `needs_editorial_review` -> `approved`, with `review_decision`, energy level Low and character label confirmed, `last_reviewed_at` 2026-11-02 and `next_review_at` 2027-04-01. Remaining info notes closed and quoted in the decision notes; "draft" wording removed from SEO title/description and `description_short`. Not published. Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - New rocks rule for beaches; Fuengirola centro point moved (owner decisions)
 
 Owner decisions in `docs/owner-decisions-2026-11-02.md`.

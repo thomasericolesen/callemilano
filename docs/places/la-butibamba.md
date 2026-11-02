@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: approved
 id: ES-AND-MAL-LA-BUTIBAMBA-001
 slug: la-butibamba
 name: La Butibamba
@@ -90,10 +90,10 @@ related_places:
 - id: ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001
   relationship: nearby
   note: 'Place to eat: Chiringuito Los Moreno.'
-description_short: 'La Butibamba, Mijas: no Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt). Draft; facts being checked against official sources.'
+description_short: 'La Butibamba, Mijas: no Blue Flag 2026. Character (subjective): Developed (Danish: Tilrettelagt).'
 description_long: 'La Butibamba (Mijas). Not on the ADEAC Blue Flag 2026 list, so no indirect water-quality indication. Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): about 1,300 x 20 m, calm water, high occupancy, urban, joined to La Cala beach by the same shore; showers and parasol/sunbed hire are listed. The portal lists the composition as dark sand, but the owner''s own knowledge is that the beach is walnut- to plum-sized stones rather than sand. Places to eat: see the linked records for Chiringuito Cristóbal and Chiringuito Los Moreno. Rocks: none - it is a stone beach, not a rocky one (owner''s own knowledge, 2026-11-01). Municipal sources (Mijas 2026, checked 2026-11-01): lifeguards daily 1 June-30 September 11:00-20:00 (local press: two towers at this beach and weekend cover in May and October); no assisted-bathing point at this beach (nearest: La Cala). Owner''s own knowledge (2026-11-02): the end towards La Cala centre is more child-friendly and has better facilities (parasols and sunbeds). Character: Developed (Danish: Tilrettelagt) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
-seo_title: La Butibamba, Mijas | CalleMilano draft record
-seo_description: Draft record for La Butibamba beach (Mijas). Facts are being checked against official sources.
+seo_title: La Butibamba, Mijas | CalleMilano
+seo_description: 'La Butibamba beach (Mijas): what is confirmed, lifeguard season, facilities and drive time from Casa de la Familia.'
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -208,27 +208,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given with the family assessment on 2026-11-02; not independently verified.
-review_issues:
-- code: no_blue_flag_2026
-  severity: info
-  fields:
-  - description_long
-  description: Not on the ADEAC 2026 list, so there is no indirect water-quality indication (Blue Flag is used as proxy; NAYADE is not available).
-  retryable: false
-  owner: human_editor
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  - description_long
-  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
-  retryable: false
-  owner: human_editor
+review_issues: []
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
 last_verified: '2026-10-29'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-02'
+next_review_at: '2027-04-01'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: 'Approved by the owner on the beach approval page "CalleMilano strandgodkendelse" (saved 2026-11-02 07:25 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the character label Developed, and the family assessment of 2026-11-02. Practical details stay unknown by owner decision 5. Acknowledged info notes, closed at approval: no_blue_flag_2026: Not on the ADEAC 2026 list, so there is no indirect water-quality indication (Blue Flag is used as proxy; NAYADE is not available). "draft" wording removed from SEO title/description and description_short at approval (wording only, no fact changed).'
 redirects: []
 ---

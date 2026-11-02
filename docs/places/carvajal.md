@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: approved
 id: ES-AND-MAL-CARVAJAL-001
 slug: carvajal
 name: Carvajal
@@ -87,10 +87,10 @@ related_places:
 - id: ES-AND-MAL-LOS-MARINOS-PACO-001
   relationship: nearby
   note: 'Place to eat: Los Marinos Paco.'
-description_short: 'Carvajal, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet). Draft; facts being checked against official sources.'
+description_short: 'Carvajal, Fuengirola: Blue Flag 2026. Character (subjective): Mixed (Danish: Blandet).'
 description_long: 'Carvajal (Fuengirola). Blue Flag 2026 (used as proxy for water quality). Official tourism data (spain.info, Turespaña; undated, read 2026-11-02): dark sand mixed with gravel and cobbles (bolos), calm water, about 450 x 25 m, high occupancy (especially at the western end), urban; showers and parasol hire are listed, and the train stops right in front of the beach. Places to eat: see the linked record for Los Marinos Paco. Rocks: a sand mixed with gravel and cobbles beach with easy access on foot, so it meets the project''s beach rule (owner decision 2026-11-02: only pure rock beaches, or beaches reached by climbing down rocks, are excluded). Municipal sources (Fuengirola Carta de Servicios 2026, checked 2026-11-01): toilets, a children''s area, assisted bathing and lifeguards are confirmed for the Fuengirola part of this beach. Lifeguards (Fuengirola Carta de Servicios 2026): daily 1 June-30 September 11:00-20:00; Easter week and weekends/holidays from the weekend after Easter Sunday to 31 May and from the weekend after 30 September to 15 October, 11:00-19:00. Carvajal also extends into Benalmádena, which lists its own accessibility point at Carvajal (2026). The owner confirms a mix of sand with gravel and stones (2026-11-02). Character: Mixed (Danish: Blandet) - subjective assessment from the sources'' description of urbanisation, not an official category. Family suitability and energy level are subjective estimates and not safety advice.'
-seo_title: Carvajal, Fuengirola | CalleMilano draft record
-seo_description: Draft record for Carvajal beach (Fuengirola). Facts are being checked against official sources.
+seo_title: Carvajal, Fuengirola | CalleMilano
+seo_description: 'Carvajal beach (Fuengirola): what is confirmed, lifeguard season, facilities and drive time from Casa de la Familia.'
 images: []
 evidence:
 - field: description_long (Blue Flag 2026)
@@ -213,20 +213,16 @@ evidence:
   checked_by: Claude (rocks rule check 2026-11-02)
   confidence: medium
   notes: 'Checked against the beach rule set by the owner on 2026-11-02 (https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md): rocks on a sand beach do not exclude it. Whether there are any rocks on this beach is not recorded and no longer matters for selection. Replaces review issue rocks_not_verified.'
-review_issues:
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  - description_long
-  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
-  retryable: false
-  owner: human_editor
+review_issues: []
 created_at: '2026-10-29'
 updated_at: '2026-11-02'
 last_verified: '2026-10-29'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-02'
+next_review_at: '2027-04-01'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-02'
+  notes: Approved by the owner on the beach approval page "CalleMilano strandgodkendelse" (saved 2026-11-02 07:25 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the character label Mixed, and the family assessment of 2026-11-02. Practical details stay unknown by owner decision 5. "draft" wording removed from SEO title/description and description_short at approval (wording only, no fact changed).
 redirects: []
 ---
