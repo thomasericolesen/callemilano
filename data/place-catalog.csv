@@ -1,32 +1,32 @@
 id,slug,name,status,category,tags,municipality,province,latitude,longitude,distance_km_from_casa,within_primary_radius,driving_time,record_file
-ES-AND-MAL-RESTAURANTE-CERROS-DEL-AGUILA-001,restaurante-cerros-del-aguila,Restaurante Cerros del Águila,draft,Restaurants,Restaurant,Mijas,Málaga,36.534290399999996,-4.6607671999999996,0.2,yes,3 min,docs/places/restaurante-cerros-del-aguila.md
+ES-AND-MAL-RESTAURANTE-CERROS-DEL-AGUILA-001,restaurante-cerros-del-aguila,Restaurante Cerros del Águila,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.534290399999996,-4.6607671999999996,0.2,yes,3 min,docs/places/restaurante-cerros-del-aguila.md
 ES-AND-MAL-MIXS-LOUNGE-001,mixs-lounge,Mixs Lounge,draft,Restaurants,Restaurant,Mijas,Málaga,36.5345521,-4.6598372999999995,0.3,yes,2 min,docs/places/mixs-lounge.md
 ES-AND-MAL-SINGH-DONER-KEBAB-001,singh-doner-kebab,Singh Doner Kebab,draft,Restaurants,Restaurant,Mijas,Málaga,36.534591999999996,-4.6594489999999995,0.3,yes,2 min,docs/places/singh-doner-kebab.md
 ES-AND-MAL-AVENTOURALIA-001,aventouralia,Aventouralia,draft,Family activities,Adventure,Mijas,Málaga,36.539927399999996,-4.6603245,0.5,yes,4 min,docs/places/aventouralia.md
 ES-AND-MAL-PENA-AL-TRANCO-001,pena-al-tranco,Peña Al Tranco,draft,Restaurants,Restaurant,Mijas,Málaga,36.540185199999996,-4.6601631,0.5,yes,4 min,docs/places/pena-al-tranco.md
 ES-AND-MAL-RANGERS-SAFARI-TOURS-001,rangers-safari-tours,Rangers Safari Tours,draft,Family activities,Adventure,Mijas,Málaga,36.5398286,-4.6602783,0.5,yes,3 min,docs/places/rangers-safari-tours.md
-ES-AND-MAL-BIGFOOT-BUGGY-TOURS-001,bigfoot-buggy-tours,Bigfoot Buggy Tours,draft,Family activities,Adventure,Mijas,Málaga,36.540579199999996,-4.658856699999999,0.6,yes,4 min,docs/places/bigfoot-buggy-tours.md
+ES-AND-MAL-BIGFOOT-BUGGY-TOURS-001,bigfoot-buggy-tours,Bigfoot Buggy Tours,needs_fact_check,Family activities,Adventure,Mijas,Málaga,36.540579199999996,-4.658856699999999,0.6,yes,4 min,docs/places/bigfoot-buggy-tours.md
 ES-AND-MAL-EQUESTRIAN-CENTRE-CHAPARRAL-001,equestrian-centre-chaparral,Equestrian Centre,draft,Restaurants,Restaurant,Mijas,Málaga,36.5400742,-4.6594660999999995,0.6,yes,4 min,docs/places/equestrian-centre-chaparral.md
 ES-AND-MAL-ATV-ADVENTURES-MIJAS-001,atv-adventures-mijas,ATV Adventures,draft,Family activities,Adventure,Mijas,Málaga,36.5410031,-4.6583355,0.7,yes,4 min,docs/places/atv-adventures-mijas.md
-ES-AND-MAL-EL-GRAN-PARQUE-DE-MIJAS-001,el-gran-parque-de-mijas,El Gran Parque de Mijas,draft,Family activities,,Mijas,Málaga,36.539559499999996,-4.656531,0.7,yes,3 min,docs/places/el-gran-parque-de-mijas.md
+ES-AND-MAL-EL-GRAN-PARQUE-DE-MIJAS-001,el-gran-parque-de-mijas,El Gran Parque de Mijas,needs_fact_check,Family activities,,Mijas,Málaga,36.539559499999996,-4.656531,0.7,yes,3 min,docs/places/el-gran-parque-de-mijas.md
 ES-AND-MAL-MIJAS-BUGGYS-001,mijas-buggys,Mijas Buggys,draft,Family activities,Adventure,Mijas,Málaga,36.5409423,-4.6584363,0.7,yes,4 min,docs/places/mijas-buggys.md
 ES-AND-MAL-COURTSIDE-BY-WISSLER-001,courtside-by-wissler,Courtside by Wissler,draft,Restaurants,Restaurant,Mijas,Málaga,36.5273667,-4.660711099999999,0.9,yes,4 min,docs/places/courtside-by-wissler.md
 ES-AND-MAL-LA-SIERRA-RESTAURANTE-001,la-sierra-restaurante,La Sierra Restaurante,draft,Restaurants,Restaurant,Mijas,Málaga,36.527434299999996,-4.6613722,0.9,yes,5 min,docs/places/la-sierra-restaurante.md
 ES-AND-MAL-RESTAURANTE-CERRADO-DEL-AGUILA-001,restaurante-cerrado-del-aguila,Restaurante Cerrado del Águila,draft,Restaurants,Restaurant,Mijas,Málaga,36.5273981,-4.6614132999999995,0.9,yes,5 min,docs/places/restaurante-cerrado-del-aguila.md
 ES-AND-MAL-RESTAURANTE-HOYO-19-001,restaurante-hoyo-19,Restaurante Hoyo 19,draft,Restaurants,Restaurant,Mijas,Málaga,36.5438292,-4.6550717,1.1,yes,4 min,docs/places/restaurante-hoyo-19.md
 ES-AND-MAL-SOL-Y-SOMBRA-MIJAS-001,sol-y-sombra-mijas,Sol y Sombra,draft,Restaurants,Restaurant,Mijas,Málaga,36.5439067,-4.6549985,1.1,yes,4 min,docs/places/sol-y-sombra-mijas.md
-ES-AND-MAL-VENTA-LA-MORENA-001,venta-la-morena,Venta La Morena,draft,Restaurants,Restaurant,Mijas,Málaga,36.54382100000001,-4.6565385,1.1,yes,4 min,docs/places/venta-la-morena.md
+ES-AND-MAL-VENTA-LA-MORENA-001,venta-la-morena,Venta La Morena,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.54382100000001,-4.6565385,1.1,yes,4 min,docs/places/venta-la-morena.md
 ES-AND-MAL-RESTAURANTE-EL-GOLF-MIJAS-001,restaurante-el-golf-mijas,Restaurante El Golf,draft,Restaurants,Restaurant,Mijas,Málaga,36.5461604,-4.6586579,1.2,yes,5 min,docs/places/restaurante-el-golf-mijas.md
-ES-AND-MAL-ASADOR-OTOLA-001,asador-otola,Asador Otola,draft,Restaurants,Restaurant,Mijas,Málaga,36.540219199999996,-4.6490593,1.3,yes,6 min,docs/places/asador-otola.md
+ES-AND-MAL-ASADOR-OTOLA-001,asador-otola,Asador Otola,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.540219199999996,-4.6490593,1.3,yes,6 min,docs/places/asador-otola.md
 ES-AND-MAL-EL-MIRADOR-DEL-GOLF-001,el-mirador-del-golf,Restaurante El Mirador del Golf,draft,Restaurants,Restaurant,Mijas,Málaga,36.5466924,-4.666940299999999,1.3,yes,6 min,docs/places/el-mirador-del-golf.md
 ES-AND-MAL-BOLERA-MIJAS-DUBAI-BOLL-001,bolera-mijas-dubai-boll,Bolera Mijas (Dubai Boll),draft,Family activities,Rainy day,Mijas,Málaga,36.5390424,-4.6466071,1.5,yes,6 min,docs/places/bolera-mijas-dubai-boll.md
 ES-AND-MAL-JUMPJOY-MIJAS-001,jumpjoy-mijas,JumpJoy Mijas,draft,Family activities,,Mijas,Málaga,36.5394096,-4.6468226999999995,1.5,yes,6 min,docs/places/jumpjoy-mijas.md
 ES-AND-MAL-PARQUE-EL-ESPARRAGAL-001,parque-el-esparragal,Parque El Esparragal,draft,Family activities,,Mijas,Málaga,36.5477938,-4.6740007,1.7,yes,7 min,docs/places/parque-el-esparragal.md
-ES-AND-MAL-LA-ZAMBRA-RESORT-001,la-zambra-resort,La Zambra Resort,draft,Restaurants,Restaurant,Mijas,Málaga,36.5529094,-4.6667533,1.9,yes,7 min,docs/places/la-zambra-resort.md
+ES-AND-MAL-LA-ZAMBRA-RESORT-001,la-zambra-resort,La Zambra Resort,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.5529094,-4.6667533,1.9,yes,7 min,docs/places/la-zambra-resort.md
 ES-AND-MAL-ZOOLOCO-PARTY-001,zooloco-party,Zooloco Party,draft,Family activities,,Mijas,Málaga,36.5394839,-4.641249999999999,2.0,yes,8 min,docs/places/zooloco-party.md
 ES-AND-MAL-COSMOZONE-LASERTAG-001,cosmozone-lasertag,Cosmozone Lasertag,draft,Family activities,,Mijas,Málaga,36.534731,-4.6353832,2.4,yes,8 min,docs/places/cosmozone-lasertag.md
 ES-AND-MAL-JAY-JANGLES-001,jay-jangles,Jay Jangles,draft,Family activities,,Mijas,Málaga,36.551564,-4.6824603,2.5,yes,8 min,docs/places/jay-jangles.md
-ES-AND-MAL-AQUAMIJAS-001,aquamijas,Aquamijas,draft,Family activities,,Mijas,Málaga,36.538292999999996,-4.6330707,2.7,yes,10 min,docs/places/aquamijas.md
+ES-AND-MAL-AQUAMIJAS-001,aquamijas,Aquamijas,needs_fact_check,Family activities,,Mijas,Málaga,36.538292999999996,-4.6330707,2.7,yes,10 min,docs/places/aquamijas.md
 ES-AND-MAL-FUENGIROLA-ADVENTURE-GOLF-001,fuengirola-adventure-golf,Fuengirola Adventure Golf,draft,Family activities,,Fuengirola,Málaga,36.532201,-4.632048999999999,2.8,yes,9 min,docs/places/fuengirola-adventure-golf.md
 ES-AND-MAL-KARTING-EXPERIENCE-MIRAMAR-001,karting-experience-miramar,Karting Experience Miramar,draft,Family activities,Adventure,Fuengirola,Málaga,36.5299432,-4.632412,2.8,yes,9 min,docs/places/karting-experience-miramar.md
 ES-AND-MAL-MK2-CINESUR-MIRAMAR-001,mk2-cinesur-miramar,mk2 Cinesur Miramar,draft,Family activities,Rainy day,Fuengirola,Málaga,36.5282529,-4.6328854,2.8,yes,10 min,docs/places/mk2-cinesur-miramar.md

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-ASADOR-OTOLA-001
 slug: asador-otola
 name: Asador Otola
@@ -64,7 +64,7 @@ toilets_available: unknown
 food_available: 'yes'
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Mon 12:00-24:00; Tue 12:00-18:00; Wed closed; Thu-Sun 12:00-24:00 (own website, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -72,14 +72,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: http://www.asadorotola.com/
+  official_website: https://www.asadorotola.com/es
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34604241785
 related_places: []
-description_short: 'Asador Otola: Basque grill (asador) at Cortijo la Herradura, about 29 min on foot or 6 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'Asador Otola is a Basque grill (asador) at Cortijo la Herradura at Camino Viejo de Coín, 4, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 29 minutes on foot (2.17 km, Google''s walking route) or about 6 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Already among the owner''s recommendations, with a caveat: the meat has a much more intense flavour. Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.'
+description_short: 'Asador Otola: Basque grill (asador) at Cortijo la Herradura, about 29 min on foot or 6 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Asador Otola is a Basque grill (asador) at Cortijo la Herradura at Camino Viejo de Coín, 4, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 29 minutes on foot (2.17 km, Google''s walking route) or about 6 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Already among the owner''s recommendations, with a caveat: the meat has a much more intense flavour. Its own website describes Basque cooking with aged meats grilled over embers (more than 18 years in business), lists dishes such as beef and lamb, txuleton and grilled octopus, and gives opening hours of Monday 12:00-24:00, Tuesday 12:00-18:00, Wednesday closed, Thursday to Sunday 12:00-24:00 (phone 604 241 785). Prices, booking, children''s facilities and accessibility are not stated; check before visiting.'
 seo_title: Asador Otola, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Asador Otola (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -108,20 +108,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given on the nearby selection page on 2026-11-02; not independently verified.
+- field: visit_information, links, description_long
+  claim: 'Own website: Basque asador specialising in aged meats on the grill, 18+ years; address Camino Viejo de Coín km 1.4, Mijas; hours Mon 12-24, Tue 12-18, Wed closed, Thu-Sun 12-24; phone +34 604 241 785.'
+  source_url: https://www.asadorotola.com/es
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Homepage read via Firecrawl (structured extraction) on 2026-11-02; hours and phone are page text. The site gives km 1.4 while Google gives km 4; same venue name and Cortijo la Herradura.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -131,9 +126,18 @@ review_issues:
   description: 'Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place. Owner note: Already among the owner''s recommendations, with a caveat: the meat has a much more intense flavour.'
   retryable: true
   owner: human_editor
+- code: prices_booking_children_unknown
+  severity: warning
+  fields:
+  - cost_level
+  - booking_required
+  - accessibility
+  description: Own website gives hours and menu but no prices, booking rules, children's facilities or accessibility.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

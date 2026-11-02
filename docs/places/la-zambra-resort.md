@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-LA-ZAMBRA-RESORT-001
 slug: la-zambra-resort
 name: La Zambra Resort
@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34951311234
 related_places: []
-description_short: 'La Zambra Resort: resort hotel (The Unbound Collection by Hyatt) with restaurant and spa, about 45 min on foot or 7 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'La Zambra Resort is a resort hotel (The Unbound Collection by Hyatt) with restaurant and spa at Av. de Louison Bobet, 9, 29650 Málaga. From Casa de la Familia it is about 45 minutes on foot (3.29 km, Google''s walking route) or about 7 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Restaurant and spa area (added by the owner). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.'
+description_short: 'La Zambra Resort: resort hotel (The Unbound Collection by Hyatt) with restaurant and spa, about 45 min on foot or 7 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'La Zambra Resort is a resort hotel (The Unbound Collection by Hyatt) with restaurant and spa at Av. de Louison Bobet, 9, 29650 Málaga. From Casa de la Familia it is about 45 minutes on foot (3.29 km, Google''s walking route) or about 7 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Restaurant and spa area (added by the owner). Its own website: a five-star resort on the site of the former Hotel Byblos (opened 1986, reopened as La Zambra in 2022), with four restaurants (Palmito from breakfast to late dinner, Picador for tapas with more than ninety wines by the glass, Bamboleo for sunset dining, La Bartola by the pool) plus Sarao for the night, and Mood Spa, described as one of the largest spas on the Costa del Sol, with Turkish baths and an indoor pool. It also runs two kids'' clubs (6 months-3 years and 4-10 years) daily 10:00-18:00 for hotel guests. The site does not say whether non-guests can use the restaurants or spa; check before visiting.'
 seo_title: La Zambra Resort, Mijas | CalleMilano draft record
 seo_description: 'Draft record for La Zambra Resort (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -108,20 +108,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given on the nearby selection page on 2026-11-02; not independently verified.
+- field: description_long, links
+  claim: 'Own page: former Hotel Byblos (1986), reopened 2022; four restaurants (Palmito, Picador, Bamboleo, La Bartola) and Sarao; Mood Spa with Turkish baths and indoor pool, yoga and Pilates daily; kids clubs 6 m-3 y and 4-10 y, daily 10:00-18:00; address Avenida Louison Bobet 9, 29650 Mijas; phone +34 951 31 12 34.'
+  source_url: https://www.hyatt.com/unbound-collection/en-US/agpub-la-zambra-resort
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Read in full via Firecrawl on 2026-11-02. Access for non-guests is not stated.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -131,9 +126,18 @@ review_issues:
   description: 'Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place. Owner note: Restaurant and spa area (added by the owner).'
   retryable: true
   owner: human_editor
+- code: non_guest_access_unknown
+  severity: warning
+  fields:
+  - description_long
+  - booking_required
+  - cost_level
+  description: The resort site does not say whether non-guests can eat in the restaurants or use the spa, or at what price. Confirm with the resort before recommending it to guests of Casa de la Familia.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

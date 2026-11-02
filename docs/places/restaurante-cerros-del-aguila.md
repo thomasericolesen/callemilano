@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-RESTAURANTE-CERROS-DEL-AGUILA-001
 slug: restaurante-cerros-del-aguila
 name: Restaurante Cerros del Águila
@@ -78,7 +78,7 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Restaurante Cerros del Águila: bar and grill at the sports area of Urbanización Cerros del Águila, about 7 min on foot or 3 min by car from Casa de la Familia. Draft; facts not yet checked.'
+description_short: 'Restaurante Cerros del Águila: bar and grill at the sports area of Urbanización Cerros del Águila, about 7 min on foot or 3 min by car from Casa de la Familia. Draft; partly fact-checked.'
 description_long: 'Restaurante Cerros del Águila is a bar and grill at the sports area of Urbanización Cerros del Águila at Urb. Cerros del Águila. Zona deportiva. Num 5, 29650 Mijas Costa, Málaga. From Casa de la Familia it is about 7 minutes on foot (0.48 km, Google''s walking route) or about 3 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Our very local, well-known restaurant. The sports area also has a pool with a lifeguard, a tennis court and a play area; the pool opens seasonally and you must bring the pool card. Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.'
 seo_title: Restaurante Cerros del Águila, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Restaurante Cerros del Águila (Mijas): location and walking and driving time from Casa de la Familia.'
@@ -109,19 +109,6 @@ evidence:
   confidence: medium
   notes: Owner's own local knowledge, given on the nearby selection page on 2026-11-02; not independently verified.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -138,9 +125,18 @@ review_issues:
   description: Google lists no website; facts may have to come from a social page or a direct contact.
   retryable: true
   owner: fact_check
+- code: no_official_source_found
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - description_long
+  description: No website, official listing or own social page found on 2026-11-02 (only Tripadvisor and directory listings). Hours, menu and prices need a direct check or the owner's confirmation. Pool, tennis and play area are the owner's own knowledge; access to the pool appears to need a pool card.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

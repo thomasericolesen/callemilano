@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-BIGFOOT-BUGGY-TOURS-001
 slug: bigfoot-buggy-tours
 name: Bigfoot Buggy Tours
@@ -58,7 +58,7 @@ parking:
   source: null
   checked_at: null
 transport_options: []
-booking_required: unknown
+booking_required: true
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
@@ -72,14 +72,14 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: http://www.bigfootbuggytours.com/
-  booking: null
+  official_website: https://www.bigfootbuggytours.com/
+  booking: https://www.bigfootbuggytours.com/tours
   visitor_information: null
   transport: null
   contact: null
 related_places: []
-description_short: 'Bigfoot Buggy Tours: buggy tour operator, about 17 min on foot or 4 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'Bigfoot Buggy Tours is a buggy tour operator at Diseminado el Chapparal, C. la Higuera, 6, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 17 minutes on foot (1.3 km, Google''s walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: For adventurous adults with petrol in their blood. Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.'
+description_short: 'Bigfoot Buggy Tours: buggy tour operator, about 17 min on foot or 4 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Bigfoot Buggy Tours is a buggy tour operator at Diseminado el Chapparal, C. la Higuera, 6, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 17 minutes on foot (1.3 km, Google''s walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: For adventurous adults with petrol in their blood. Its own website describes guided off-road tours in the Sierra de Mijas in 2- and 4-seater buggies (Arctic Wildcat and Can-Am), booked online. Safety rules on the site: drivers need a full car driving licence (type B; provisional licences not accepted); passengers must be at least 4 years old, booster seats are provided and a height of at least 1 metre is recommended; seat belts at all times; closed-toe shoes required; tours run in light rain (buggies have roofs). Tour lengths and prices are shown only in the booking system and were not checked.'
 seo_title: Bigfoot Buggy Tours, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Bigfoot Buggy Tours (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -108,20 +108,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given on the nearby selection page on 2026-11-02; not independently verified.
+- field: booking_required, description_long, age rules
+  claim: 'Safety FAQ: full type-B driving licence required to drive (provisional not accepted), otherwise passenger only; minimum age 4, booster seats provided, at least 1 m height recommended; seat belts compulsory; closed-toe shoes; operates in light rain, buggies have roofs. Homepage: Arctic Wildcat and Can-Am buggies, 2- and 4-seaters, booking via FareHarbor.'
+  source_url: https://www.bigfootbuggytours.com/safety-rules
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Safety page read in full via Firecrawl on 2026-11-02; homepage read the same day.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -131,18 +126,17 @@ review_issues:
   description: 'Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place. Owner note: For adventurous adults with petrol in their blood.'
   retryable: true
   owner: human_editor
-- code: age_and_licence_rules_unknown
-  severity: warning
+- code: tour_lengths_and_prices_unknown
+  severity: info
   fields:
-  - age_groups
-  - family_score
-  - description_long
-  description: Minimum age for drivers and passengers, driving-licence rules and safety equipment must come from the operator before any family rating.
+  - visit_information
+  - cost_level
+  description: Tour lengths, prices and the meeting point are only in the booking system and were not checked.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

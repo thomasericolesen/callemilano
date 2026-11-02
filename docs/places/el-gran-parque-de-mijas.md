@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-EL-GRAN-PARQUE-DE-MIJAS-001
 slug: el-gran-parque-de-mijas
 name: El Gran Parque de Mijas
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'El Gran Parque de Mijas: large public park in Las Lagunas de Mijas, about 13 min on foot or 3 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'El Gran Parque de Mijas is a large public park in Las Lagunas de Mijas at Cl. Buitre, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 13 minutes on foot (1.01 km, Google''s walking route) or about 3 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Suitable for children, with water and play areas. Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.'
+description_short: 'El Gran Parque de Mijas: large public park in Las Lagunas de Mijas, about 13 min on foot or 3 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'El Gran Parque de Mijas is a large public park in Las Lagunas de Mijas at Cl. Buitre, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 13 minutes on foot (1.01 km, Google''s walking route) or about 3 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Suitable for children, with water and play areas. Mijas Town Hall opened a splash park in the Gran Parque on 12 June 2026: 430 m², 41 interactive water features, open daily 10:00-22:00 in its season, room for 65 children, with three age zones (1-3, 4-9 and 10-11 years); children under 8 must be with an adult and babies must wear swim nappies; no balls, bikes or similar. Municipal media later reported that the water games closed for the season (date not confirmed). The rest of the park''s facilities and opening hours have not been checked.'
 seo_title: El Gran Parque de Mijas, Mijas | CalleMilano draft record
 seo_description: 'Draft record for El Gran Parque de Mijas (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -107,20 +107,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner's own local knowledge, given on the nearby selection page on 2026-11-02; not independently verified.
+- field: description_long (splash park)
+  claim: 'Mijas Town Hall, 12 June 2026: splash park in the Gran Parque opened that day; 430 m2, 41 interactive elements; daily 10:00-22:00; max 65 children; zones baby 1-3, kids 4-9, teen 10-11; under-8s accompanied by an adult; swim nappies compulsory for babies; no balloons, balls, motor vehicles or bicycles; closed, recycled water circuit.'
+  source_url: https://www.mijas.es/portal/el-ayuntamiento-de-mijas-abre-el-splash-park-del-gran-parque-una-zona-infantil-acuatica-con-41-elementos-interactivos/
+  source_type: government
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Read in full via Firecrawl on 2026-11-02.
+- field: description_long (season end)
+  claim: Municipal media (Mijas Comunicación) report that the Gran Parque water games have closed their season.
+  source_url: https://x.com/MijasCom/status/2107018132921430263
+  source_type: secondary
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: low
+  notes: Search excerpt only, read 2026-11-02; closing date not stated in the excerpt.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -137,9 +140,19 @@ review_issues:
   description: Google lists no website; facts may have to come from a social page or a direct contact.
   retryable: true
   owner: fact_check
+- code: park_facilities_and_hours_unknown
+  severity: warning
+  fields:
+  - visit_information
+  - toilets_available
+  - parking
+  - accessibility
+  description: Only the splash park is sourced. Park opening hours, playgrounds, toilets and parking need a municipal source; the 2027 splash-park season is not announced.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
