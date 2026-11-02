@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - 22 bar draft records created; ByCosmos Skybar removed (owner decisions, no schema change)
+
+Owner selection and reputation screen in `docs/bars-selection-2026-11-02.md`. ByCosmos Skybar removed by owner decision after the screen (no record). Created 22 draft records (21 bars plus El Oceano Beach Hotel), category `Restaurants`, IDs allocated, with Google identity, Routes API drive and walking times, a general drink-safety note and taxi advice in each description, and open issues for facts, audience and the owner not having visited. Bamboleo linked to La Zambra Resort. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Zooloco Party archived (owner decision)
 
 Owner decision: remove Zooloco Party from the guide (a private party room for hire, not a drop-in attraction). `docs/places/zooloco-party.md`: status `archived` with `review_decision`; the record is kept and its ID stays allocated. Owner bar selection saved the same day (22 of 27 candidates plus El Oceano Beach Hotel); reputation screening of the selected bars was reported to the owner before any record is created. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
