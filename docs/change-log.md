@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Zooloco Party archived (owner decision)
+
+Owner decision: remove Zooloco Party from the guide (a private party room for hire, not a drop-in attraction). `docs/places/zooloco-party.md`: status `archived` with `review_decision`; the record is kept and its ID stays allocated. Owner bar selection saved the same day (22 of 27 candidates plus El Oceano Beach Hotel); reputation screening of the selected bars was reported to the owner before any record is created. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Bars and cocktail bars candidate list (intake only, no records)
 
 Owner observation: the guide lacks places for adults and seniors, especially bars and cocktail bars. Added `docs/bars-intake-2026-11-02.md`: 27 bars, wine bars, cocktail and rooftop bars within about 16 minutes' drive (2 within walking distance, 7 in Las Lagunas/Mijas Golf, 14 in Fuengirola, 4 in La Cala de Mijas), with Google Places identity and Routes API walking and driving times. No place record, ID or register was changed.
