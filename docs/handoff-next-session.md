@@ -20,3 +20,21 @@ Start here. Details per step are in `docs/change-log.md`; owner decisions 1-16 i
 4. **Open sources:** Angosturas (council page blocks robots), Río Grande Coín (no official page), Paseo Marítimo de Marbella and Senda Litoral Málaga (pages found cover other sections), Puerto Banús beach facilities, Juanar walking route.
 5. **Owner input:** re-answer Marabierta and Vista al Mar on https://claude.ai/artifact/1uvFqCZBd5LEWGDDS3aVr7; screenshots for 7 restaurants without own sites (El Andaluz, Juanito Juan, Casa Manuel de la Lonja, Norte, Central Beach, La Escollera, Mar de Alborán); family assessments for the new records; Marbella boat trips (provider sweep and reputation screen first).
 6. Still open from earlier: bars to confirm by phone/visit, beach lifeguard seasons 2027, 2027 event dates in `docs/season-calendar-draft.md`, owner review of `docs/practical-information-draft.md`.
+
+## Pending: price markings found 2026-11-02, not yet applied
+
+Owner said to use TheFork/Tripadvisor for the new restaurant records without readable own prices. The lookup ran, but Firecrawl credits ran out before the orchestrator spot check (Tripadvisor returns 403 to curl and WebFetch), so nothing was written. Next session: spot-check at least two lines (credits reset 2026-11-03 15:55 UTC), then apply `€€` for the five identity-confirmed rows (`secondary`, low confidence, issue `cost_level_secondary_source`). For the four unconfirmed rows, confirm the address first; Sollo (TheFork 250 €) and El Higuerón (`$$$$`) would be `€€€`.
+
+| Record | Marking | Identity by address | URL |
+|---|---|---|---|
+| `juan-playa-fuengirola` | tripadvisor "$$ - $$$" | no | https://www.tripadvisor.com/Restaurants-g315915-c33-zfp5-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
+| `vegetalia-fuengirola` | tripadvisor "€€ - €€€" | yes | https://www.tripadvisor.es/Restaurant_Review-g315915-d984713-Reviews-Vegetalia_Fuengirola-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
+| `ragazzi-fuengirola` | tripadvisor "$$ - $$$" | yes | https://www.tripadvisor.com/Restaurant_Review-g315915-d8401666-Reviews-Ragazzi-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
+| `fosters-hollywood-miramar` | tripadvisor "$$ - $$$" | yes | https://www.tripadvisor.com/Restaurant_Review-g315915-d4025871-Reviews-Foster_s_Hollywood-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
+| `la-tagliatella-miramar` | tripadvisor "$$ - $$$" | yes | https://www.tripadvisor.com/Restaurant_Review-g315915-d23330362-Reviews-La_Tagliatella_Fuengirola-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
+| `kalifato-benalmadena` | tripadvisor "$$ - $$$" | yes | https://www.tripadvisor.com/Restaurant_Review-g562812-d984662-Reviews-El_Kalifato-Benalmadena_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
+| `sollo-fuengirola` | thefork "Precio medio: 250 €" | no | https://www.thefork.es/restaurante/sollo-r869790 |
+| `freiduria-el-choco-fuengirola` | tripadvisor "$$ - $$$" | no | https://www.tripadvisor.com/Restaurant_Review-g315915-d2480160-Reviews-Freiduria_Pulperia_El_Choco-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
+| `el-higueron-fuengirola` | tripadvisor "$$$$" | no | https://www.tripadvisor.com/Restaurant_Review-g315915-d1003583-Reviews-or45-El_Higueron_Restaurante-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andaluci.html |
+
+No TheFork/Tripadvisor listing found: `monnalisa-fuengirola`, `kamura-sushi-fuengirola`, `da-vinci-los-boliches`, `meson-salvador-fuengirola`, `burger-king-miramar`, `the-good-burger-miramar`, `casa-carmen-miramar`, `antonio-playa-fuengirola`, `cafe-nomad-fuengirola`, `heladeria-casa-esteban-fuengirola`, `marvelous-burger-fuengirola`, `utopia-la-cala`, `venta-los-condes`, `restaurante-sheriff`. For these, owner screenshots (menu or Facebook) are the remaining route.

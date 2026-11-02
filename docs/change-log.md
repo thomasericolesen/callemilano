@@ -5,6 +5,7 @@
 - Owner instruction: the recommendations already on callemilano.dk (Lovable app "Vores Spanske Hjem", table `recommendations`) belong in the restaurant list. The site has 6 own restaurant recommendations (`kind` anbefaling) and 4 inspiration entries.
 - Created draft records for the 5 missing own recommendations: `cafe-nomad-fuengirola`, `heladeria-casa-esteban-fuengirola`, `marvelous-burger-fuengirola`, `utopia-la-cala`, `venta-los-condes` (10-25 min), and for the inspiration entry `restaurante-sheriff` (12 min; it had only a hand-written page in `docs/published/`). Each owner text is quoted verbatim in an owner-knowledge evidence entry and summarised in `description_long`; the same was added to the existing `asador-otola`.
 - `restaurante-sheriff`: blocking issue `possibly_closed` (Google CLOSED_TEMPORARILY; Mijas Tourism note cited on the gold page).
+- TheFork/Tripadvisor price lookup for 23 new records: 9 markings found (5 identity-confirmed by address), 14 none. Not applied yet: the orchestrator spot check could not run (Firecrawl credits exhausted; Tripadvisor blocks curl). Results listed in `docs/handoff-next-session.md`.
 - Not converted: inspiration entries Casas Cuevas Almagruz, Castillo de Monda and El Molino del Santo (hotels 45 min-2 h away; excursion layers) pending owner decision.
 
 ## 2026-11-02 (late evening) - Directory leads: owner checklist (step 2 started)
