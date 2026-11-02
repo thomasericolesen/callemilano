@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-02 - Nearby fact check, batch 3: activities a short drive away (no schema change)
+
+Checked against the venues' own websites on 2026-11-02.
+
+- `needs_fact_check` now: `jumpjoy-mijas` (indoor, air-conditioned park over 5,000 m², age zones, grip socks, hours; tag `Rainy day`), `bioparc-fuengirola` (open daily from 10:00, ~3 h visit, under-3s free, child rate 3-9, fully accessible, café, no outside food, no pets, discounted car park opposite), `fuengirola-adventure-golf` (19 holes, ~1 h, bar and restaurant), `karting-experience-miramar` and `karting-experience-mijas` (track descriptions; price lists not clearly tied to each track), `aqualand-torremolinos` (opening days in November 2026, 10:00-17:00/18:00), `zooloco-party` (private party room for hire only; new warning `private_hire_only` for the owner).
+- Not readable, still `draft` with `details_not_readable`: `cosmozone-lasertag`, `sould-park-fuengirola`, `sould-park-bowling-miramar`.
+- Not yet checked: cinemas (mk2 Miramar, Alfil), Zero Latency, Bolera Mijas, Jay Jangles, Parque El Esparragal.
+- Validation: 106 records, 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Restaurante Cerros del Águila: own Facebook page (no schema change)
 
 The owner supplied a screenshot of the restaurant's own Facebook page (profile id 100054645841442). Recorded as an `official_venue` source: Spanish restaurant, outdoor seating, dine-in, phone +34 952 66 81 91, address Urbanización Cerrado del Aguila s/n. "Always open" is not recorded as a schedule. `no_official_source_found` replaced by `hours_and_prices_unverified`; status `draft` -> `needs_fact_check`. Validation unchanged (0 errors). Regenerated `data/place-catalog.csv`.

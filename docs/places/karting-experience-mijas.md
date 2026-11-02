@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-KARTING-EXPERIENCE-MIJAS-001
 slug: karting-experience-mijas
 name: Karting Experience Mijas
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Karting Experience Mijas: outdoor karting track, about 105 min on foot or 13 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Karting Experience Mijas is a outdoor karting track at Lugar Diseminado Arroyo Pajares, Poligono, 4 Parcela 127, 29650 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 105 minutes on foot (7.39 km, Google's walking route) or about 13 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Karting Experience Mijas: outdoor karting track, about 105 min on foot or 13 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Karting Experience Mijas is a outdoor karting track at Lugar Diseminado Arroyo Pajares, Poligono, 4 Parcela 127, 29650 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 105 minutes on foot (7.39 km, Google''s walking route) or about 13 minutes by car (Google route check, Saturday 10:00). The operator''s website: Karting Mijas is a 900 m outdoor circuit in a natural setting, with long straights and technical bends, and a bar-café terrace overlooking the track. The page shows kart prices from €12 to €30 per session but does not clearly tie each price list to this track; age rules and opening hours were not checked.'
 seo_title: Karting Experience Mijas, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Karting Experience Mijas (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -100,20 +100,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.567079899999996%2C-4.621423&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+- field: description_long
+  claim: 'Operator website: Karting Mijas, 900 m circuit in a natural setting, long straights and technical curves, bar-café terrace overlooking the races; link to its own tariff page (kartingexperience.com/tarifas/).'
+  source_url: https://kartingexperience.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Homepage quoted via Firecrawl on 2026-11-02.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +118,18 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: prices_and_hours_by_track_unclear
+  severity: warning
+  fields:
+  - cost_level
+  - visit_information
+  - age_groups
+  description: Read kartingexperience.com/tarifas/ to tie prices and age rules to this track; opening hours not checked.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

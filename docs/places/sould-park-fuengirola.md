@@ -122,6 +122,15 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: details_not_readable
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - age_groups
+  description: 'Checked 2026-11-02: The chain website (souldpark.com) gives no readable details for the Fuengirola marina park. Needs another source or a direct check.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

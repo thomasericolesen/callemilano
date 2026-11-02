@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-FUENGIROLA-ADVENTURE-GOLF-001
 slug: fuengirola-adventure-golf
 name: Fuengirola Adventure Golf
@@ -64,7 +64,7 @@ food_available: unknown
 cost_level: Unknown
 visit_information:
   schedule: null
-  typical_duration: null
+  typical_duration: About 1 hour per game (own website)
   booking_lead_time: null
   valid_from: null
   valid_until: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Fuengirola Adventure Golf: mini golf course in the Parque Fluvial, about 50 min on foot or 9 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Fuengirola Adventure Golf is a mini golf course in the Parque Fluvial at Parque Fluvial, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 50 minutes on foot (3.67 km, Google's walking route) or about 9 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Fuengirola Adventure Golf: mini golf course in the Parque Fluvial, about 50 min on foot or 9 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Fuengirola Adventure Golf is a mini golf course in the Parque Fluvial at Parque Fluvial, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 50 minutes on foot (3.67 km, Google's walking route) or about 9 minutes by car (Google route check, Saturday 10:00). Its own website describes a 19-hole adventure mini golf course for all ages, with a bar and restaurant; a game takes about one hour. Opening hours and prices were not readable on the homepage.
 seo_title: Fuengirola Adventure Golf, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Fuengirola Adventure Golf (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -99,20 +99,15 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.532201%2C-4.632048999999999&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+- field: visit_information.typical_duration, description_long
+  claim: 'Own website (page metadata): "19 hole putting adventure for all ages and skills with bar and restaurant"; "A game of Adventure Golf takes approximately 1hr".'
+  source_url: http://www.fuengirolaadventuregolf.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: medium
+  notes: Read from the homepage description and social metadata via Firecrawl on 2026-11-02; body text not captured.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - seasonality
-  - accessibility
-  - booking_required
-  - food_available
-  - toilets_available
-  description: Created from Google Places identity and route checks only. Opening hours, season, prices, age rules, booking and facilities still need the venue's own or official sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -122,9 +117,17 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
+- code: hours_and_prices_unknown
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  description: Opening hours and prices still need checking.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
-last_verified: null
+last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
