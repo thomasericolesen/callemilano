@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-FREIDURIA-EL-CHOCO-FUENGIROLA-001
 slug: freiduria-el-choco-fuengirola
 name: Pulpería Freiduría El Choco
@@ -58,13 +58,13 @@ parking:
   source: null
   checked_at: null
 transport_options: []
-booking_required: unknown
+booking_required: false
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Monday closed; Tuesday 13:00-16:00 and 20:00-23:00 (own website). Wednesday to Sunday not quoted; check before visiting.
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34952468169
 related_places: []
-description_short: 'Pulpería Freiduría El Choco: a fried-fish and octopus restaurant, about 14 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Pulpería Freiduría El Choco is a fried-fish and octopus restaurant. About 14 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Freiduria El Choco: fried-fish restaurant in Fuengirola; closed Mondays, no reservations (own website).'
+description_long: Freiduria El Choco is on Calle Francisco Cano in Fuengirola, as given on its own website. The website lists Monday as closed and two service periods on the other days (13:00-16:00 and 20:00-23:00). It states that it does not take reservations, so families should expect to wait for a table at busy times. The website text we read gave no menu, prices or children's facilities, so these are not confirmed.
 seo_title: Pulpería Freiduría El Choco, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Pulpería Freiduría El Choco (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -100,6 +100,22 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule; booking_required
+  claim: '"Monday\n\nClosed"; "Tuesday\n\n13:00 - 16:0020:00 - 23:00"; "Please note that we do not take reservations."'
+  source_url: https://freiduriaelchoco.es/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Read via Firecrawl query, not full page. Wednesday to Sunday same hours as Tuesday per reader notes only (not quoted). No seasonality stated.
+- field: links.contact; address
+  claim: '"952 46 81 69"; "Calle Francisco Cano, 13, 29640 Fuengirlola, Málaga."'
+  source_url: https://freiduriaelchoco.es/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Address spelled 'Fuengirlola' on the page, quoted as printed.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -122,6 +138,23 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - accessibility
+  - parking
+  description: Menu, prices and children's facilities not found in the fetched text. Wed-Sun hours not individually quoted.
+  retryable: true
+  owner: fact_check
+- code: schedule_partly_quoted
+  severity: warning
+  fields:
+  - visit_information
+  description: Only Monday and Tuesday were quoted from the own website (read via Firecrawl); the reader reported Wednesday-Sunday as the same hours as Tuesday, but this is not quoted. Re-read the page before treating the week as open.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

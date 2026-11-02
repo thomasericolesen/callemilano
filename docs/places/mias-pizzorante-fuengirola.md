@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-MIAS-PIZZORANTE-FUENGIROLA-001
 slug: mias-pizzorante-fuengirola
 name: Mia's Pizzorante
@@ -61,16 +61,16 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
-cost_level: Unknown
+food_available: 'yes'
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta: mains about 18-21 €; drinks from 4,50 €; main plus a drink about 22-26 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35.'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: https://miaspizzorante.com/
   booking: null
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Mia''s Pizzorante: an Italian pizza restaurant, about 17 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Mia's Pizzorante is an Italian pizza restaurant. About 17 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Mia''s Pizzorante: Italian restaurant on Playa de Carvajal, Fuengirola, facing the Mediterranean (own website).'
+description_long: Mia's Pizzorante says on its own website that it is at Playa de Carvajal, Fuengirola, facing the Mediterranean. The online carta lists pasta dishes such as pappardelle with beef fillet and porcini (21,00 EUR), garganelli alla Mia's (18,00 EUR) and tagliolini alla Norcina (18,50 EUR), and take-away is offered. The site has a button to reserve a table online. Opening hours, a children's menu and a street address were not found on the page.
 seo_title: Mia's Pizzorante, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Mia''s Pizzorante (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -100,6 +100,14 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: cost_level (menu prices); description_long
+  claim: '"PAPPARDELLE AL FILLETO DI MANZO CON PORCINI" "21,00 €"; "GARGANELLI ALLA MIA''S" "18,00 €"; "TAGLIOLINI ALLA NORCINA" "18,50 €"; "PINOT GRIGIO BLUSH I.G.T VAJA" "4,50 € / 21,90 €"; "Reserva aquí tu mesa"; "Estamos en Playa de Carvajal, Fuengirola , frente al Mediterráneo."'
+  source_url: https://miaspizzorante.com/nuestra-carta/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Own carta page read via curl. Wine prices have no printed glass/bottle label. No phone number, hours or street address. Booking button only; no statement that booking is required. Price band left to orchestrator.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -122,6 +130,17 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - booking_required
+  - accessibility
+  - parking
+  description: Pasta prices read. Hours, phone, kids menu, street address, booking requirement not found.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

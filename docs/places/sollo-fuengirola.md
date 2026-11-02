@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-SOLLO-FUENGIROLA-001
 slug: sollo-fuengirola
 name: Sollo Restaurante
@@ -61,7 +61,7 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
   schedule: null
@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34692425385
 related_places: []
-description_short: 'Sollo Restaurante: a fine-dining restaurant at Reserva del Higuerón, about 17 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Sollo Restaurante is a fine-dining restaurant at Reserva del Higuerón. About 17 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Sollo: restaurant on Av. del Higuerón, Fuengirola; own website has a menu page and online booking.'
+description_long: Sollo's own website gives its address as Av. del Higuerón, 48, 29640 Fuengirola, and has a "RESERVA AHORA" booking button and a phone number (+34 692 425 385). The menu page we read showed no dish prices, opening hours or children's information, so these are not confirmed.
 seo_title: Sollo Restaurante, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Sollo Restaurante (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -100,6 +100,14 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: links.contact; address; booking
+  claim: '"+34 692 425 385"; "RESERVA AHORA"; "Av. del Higuerón, 48. 29640 Fuengirola"; "Málaga. España."'
+  source_url: https://www.sollo.es/es/menu-sollo/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Menu page navigation only; no prices, hours or kids info in fetched text. Booking button does not state whether booking is required.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -122,6 +130,17 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - booking_required
+  - accessibility
+  - parking
+  description: Only address, phone and booking button read. Hours, prices, kids facilities not found.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-EL-HIGUERON-FUENGIROLA-001
 slug: el-higueron-fuengirola
 name: Restaurante El Higuerón
@@ -50,21 +50,21 @@ accessibility:
   confidence: unknown
 wheelchair_friendly: unknown
 parking:
-  availability: unknown
-  location_type: unknown
+  availability: 'yes'
+  location_type: onsite
   cost: unknown
   restrictions: unknown
   walk_distance: unknown
-  source: null
-  checked_at: null
+  source: Own website (elhigueron.com), read 2026-11-02
+  checked_at: '2026-11-02'
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Breakfast 09:00-12:00; bar (non-stop kitchen) and lunch 13:00-16:00; closed to the public 17:00; dinner from 20:30 (own website; days of the week and seasonality not stated)
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Restaurante El Higuerón: a restaurant above the coast by the A-7 at Higuerón, about 16 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Restaurante El Higuerón is a restaurant above the coast by the A-7 at Higuerón. About 16 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'El Higueron: restaurant on the slopes of the Sierra de Mijas with breakfast, lunch and dinner service and private parking (own website).'
+description_long: According to its own website, El Higueron lies on the foothills of the Sierra de Mijas and has private parking with more than 100 spaces. The website lists breakfast 09:00-12:00, a bar with non-stop kitchen and lunch 13:00-16:00, closing to the public at 17:00 and dinner from 20:30. Days of the week are not stated in the text we read. Prices, booking and children's facilities were not found.
 seo_title: Restaurante El Higuerón, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Restaurante El Higuerón (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -100,6 +100,22 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule
+  claim: '"Desayunos (Breakfast) 09:00 – 12:00"; "Bar (Cocina non-Stop) 13:00 – 16:00"; "Almuerzo (Lunch) 13:00 – 16:00"; "Cierre al público 17:00h"; "Cena (Dinner) 20:30h"'
+  source_url: http://elhigueron.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Read via Firecrawl query after curl 503. No days of week; no street address on page.
+- field: parking.availability, parking.location_type
+  claim: '"Además, contamos con parking privado con más de 100 plazas"; "Nos situamos en las faldas de la Sierra de Mijas"'
+  source_url: http://elhigueron.com/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Parking quote taken from reader notes, not from a quote entry; cost and restrictions unknown.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -122,6 +138,16 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - booking_required
+  - accessibility
+  description: Meal times read without days. Prices, phone, booking, kids facilities not found.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

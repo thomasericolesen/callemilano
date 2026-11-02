@@ -122,6 +122,15 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: no_readable_own_source
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  - cost_level
+  description: NO_OFFICIAL_SOURCE.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null

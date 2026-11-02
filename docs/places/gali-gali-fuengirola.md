@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-GALI-GALI-FUENGIROLA-001
 slug: gali-gali-fuengirola
 name: Gali Gali Beach Club
@@ -61,25 +61,25 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
-cost_level: Unknown
+food_available: 'yes'
+cost_level: €€
 visit_information:
-  schedule: null
+  schedule: Monday to Saturday 12:00-24:00 (kitchen 12:00-23:00); Sunday 12:00-19:00 (kitchen 12:00-18:00); open every day depending on weather conditions (own website; weather-dependent, not a seasonal timetable)
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta: mains about 14-20 € (e.g. lenguado 17,50 €, pluma ibérica 20,00 €); main plus a drink about 17-24 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35.'
+  cost_checked_at: '2026-11-02'
 links:
   official_website: http://galigali.es/
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34682199629
 related_places: []
-description_short: 'Gali Gali Beach Club: a beach club and chiringuito on the Paseo Marítimo, about 12 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Gali Gali Beach Club is a beach club and chiringuito on the Paseo Marítimo. About 12 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Gali Gali: beachfront chiringuito on the Paseo Maritimo of Fuengirola, open daily, weather permitting (own website).'
+description_long: 'Gali Gali describes itself on its own website as a chiringuito on the Paseo Maritimo Rey de Espana in Fuengirola, with the line "Quiero mi mesa junto al mar". It is open every day depending on weather conditions: Monday to Saturday 12:00-24:00 (kitchen 12:00-23:00) and Sunday 12:00-19:00 (kitchen 12:00-18:00). The carta shows dishes such as grilled sole (17.50 EUR), grilled Iberian pork (20.00 EUR) and spaghetti bolognese (14.00 EUR). The page offers table or sunbed reservation, but does not state whether booking is required. A children''s menu is not stated.'
 seo_title: Gali Gali Beach Club, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Gali Gali Beach Club (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -100,6 +100,30 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule
+  claim: '"Lunes a Sábado de 12:00-24:00, cocina de 12:00-23:00"; "Domingo  12:00-19:00, cocina de 12:00-18:00"; "Abierto todos los días (según condiciones meteorológicas)"'
+  source_url: https://galigali.es/nuestra-carta
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Own carta page read via curl. Seasonality not stated.
+- field: cost_level (menu prices)
+  claim: '"Lenguado a la plancha con patatas baby y tomates cherry" "17.50€"; "Pluma ibérica a la plancha con ensalada o patatas" "20,00€"; "Espaguetis boloñesa" "14.00€"'
+  source_url: https://galigali.es/nuestra-carta
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Dish and price were on separate lines. No drink prices. Price band left to orchestrator.
+- field: links.contact; address; booking
+  claim: '"Teléfono: 682 199 629"; "Dirección: Paseo Marítimo Rey de España, Fuengirola"; "Quiero mi mesa junto al mar"'
+  source_url: https://galigali.es/nuestra-carta
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Page has 'Reserva fácil, sin complicaciones.' and 'Reservar Mesa o Hamaca' but no statement that booking is required. The carta lists chicken burger and fingers under 'Pasta' with no kids-menu label; not recorded as a kids menu.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -122,6 +146,16 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - cost_level
+  - booking_required
+  - accessibility
+  - parking
+  description: Hours, dish prices and phone read from own site. Drink prices, kids menu, booking requirement not stated.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-02'
 last_verified: null
