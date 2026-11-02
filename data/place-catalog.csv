@@ -82,6 +82,7 @@ ES-AND-MAL-CABOPINO-ARTOLA-001,cabopino-artola,Cabopino/Artola,needs_fact_check,
 ES-AND-MAL-MARIPOSARIO-BENALMADENA-001,mariposario-benalmadena,Mariposario de Benalmádena (Monowa),needs_fact_check,Family activities,,Benalmádena,Málaga,36.5890637,-4.5814641,9.4,yes,18 min,docs/places/mariposario-benalmadena.md
 ES-AND-MAL-DUNAS-DE-ARTOLA-001,dunas-de-artola,Dunas de Artola,needs_fact_check,Nature,,Marbella,Málaga,36.485948,-4.7487129,9.5,yes,22 min,docs/places/dunas-de-artola.md
 ES-AND-MAL-CASTILLO-DE-COLOMARES-001,castillo-de-colomares,Castillo de Colomares,needs_fact_check,Excursions,,Benalmádena,Málaga,36.590567,-4.572672,10.1,yes,20 min,docs/places/castillo-de-colomares.md
+ES-AND-MAL-AVENTURA-AMAZONIA-MARBELLA-001,aventura-amazonia-marbella,Aventura Amazonia Marbella,draft,Family activities,,Marbella,Málaga,36.497053099999995,-4.7743019,10.9,yes,21 min,docs/places/aventura-amazonia-marbella.md
 ES-AND-MAL-TELEFERICO-BENALMADENA-001,teleferico-benalmadena,Teleférico Benalmádena,needs_fact_check,Family activities,,Benalmádena,Málaga,36.5988798,-4.5398201,13.0,yes,21 min,docs/places/teleferico-benalmadena.md
 ES-AND-MAL-SELWO-MARINA-001,selwo-marina,Selwo Marina,needs_fact_check,Family activities,,Benalmádena,Málaga,36.592469,-4.532156,13.3,yes,24 min,docs/places/selwo-marina.md
 ES-AND-MAL-PARQUE-DE-LA-PALOMA-001,parque-de-la-paloma,Parque de la Paloma,needs_fact_check,Family activities,,Benalmádena,Málaga,36.5935284,-4.5293123,13.5,yes,25 min,docs/places/parque-de-la-paloma.md
@@ -98,15 +99,21 @@ ES-AND-MAL-COIN-001,coin,Coín,needs_fact_check,City,,Coín,Málaga,36.6622421,-
 ES-AND-MAL-CROCODILE-PARK-TORREMOLINOS-001,crocodile-park-torremolinos,Crocodile Park Torremolinos,needs_fact_check,Family activities,,Torremolinos,Málaga,36.624384299999996,-4.5089882999999995,16.9,yes,23 min,docs/places/crocodile-park-torremolinos.md
 ES-AND-MAL-AQUALAND-TORREMOLINOS-001,aqualand-torremolinos,Aqualand Torremolinos,needs_fact_check,Family activities,,Torremolinos,Málaga,36.6259897,-4.5082274,17.1,yes,24 min,docs/places/aqualand-torremolinos.md
 ES-AND-MAL-OJEN-001,ojen,Ojén,needs_fact_check,City,,Ojén,Málaga,36.5654302,-4.8553046,17.5,yes,41 min,docs/places/ojen.md
+ES-AND-MAL-FUNNY-HILL-KARTING-001,funny-hill-karting,Funny Hill Karting,draft,Family activities,,Marbella,Málaga,36.5431404,-4.8651938,18.1,yes,34 min,docs/places/funny-hill-karting.md
 ES-AND-MAL-EL-BAJONDILLO-001,el-bajondillo,El Bajondillo,approved,Beaches,Beach,Torremolinos,Málaga,36.6271,-4.4916,18.3,yes,28 min,docs/places/el-bajondillo.md
 ES-AND-MAL-MONDA-001,monda,Monda,needs_fact_check,City,,Monda,Málaga,36.6306259,-4.835327899999999,18.7,yes,35 min,docs/places/monda.md
 ES-AND-MAL-PLAYAMAR-001,playamar,Playamar,approved,Beaches,Beach,Torremolinos,Málaga,36.6306,-4.4887,18.8,yes,27 min,docs/places/playamar.md
 ES-AND-MAL-MORROFINO-001,morrofino,Morrofino,approved,Restaurants,Restaurant,Torremolinos,Málaga,36.633802,-4.4878468,19.0,yes,29 min,docs/places/morrofino.md
 ES-AND-MAL-LOS-ALAMOS-001,los-alamos,Los Álamos,approved,Beaches,Beach,Torremolinos,Málaga,36.6349,-4.4856,19.3,yes,28 min,docs/places/los-alamos.md
 ES-AND-MAL-MARBELLA-OLD-TOWN-001,marbella-old-town,Marbella Old Town,needs_fact_check,City,Historic town; Museum; Restaurant; Half day,Marbella,Málaga,36.5101033,-4.8849716,20.1,yes,35 min,docs/places/marbella-old-town.md
+ES-AND-MAL-RIO-GRANDE-COIN-001,rio-grande-coin,Río Grande (Coín),draft,Nature,,Coín,Málaga,36.688942,-4.787760899999999,20.4,yes,40 min,docs/places/rio-grande-coin.md
+ES-AND-MAL-JUANAR-MACHO-MONTES-001,juanar-macho-montes,Juanar and Mirador del Macho Montés,draft,Nature,,Ojén,Málaga,36.564912199999995,-4.890884799999999,20.6,yes,49 min,docs/places/juanar-macho-montes.md
+ES-AND-MAL-PASEO-MARITIMO-MARBELLA-001,paseo-maritimo-marbella,Paseo Marítimo de Marbella,draft,Excursions,,Marbella,Málaga,36.507252799999996,-4.8971162,21.2,yes,37 min,docs/places/paseo-maritimo-marbella.md
+ES-AND-MAL-MUSEO-AERONAUTICO-MALAGA-001,museo-aeronautico-malaga,Museo Aeronáutico de Málaga,draft,Family activities,,Málaga,Málaga,36.669914399999996,-4.4811323,22.0,yes,28 min,docs/places/museo-aeronautico-malaga.md
 ES-AND-MAL-PLAYA-DE-NAGUELES-001,playa-de-nagueles,Playa de Nagüeles,needs_fact_check,Beaches,Beach,Marbella,Málaga,36.5022476,-4.9213001,23.4,yes,36 min,docs/places/playa-de-nagueles.md
 ES-AND-MAL-ISTAN-001,istan,Istán,needs_fact_check,City,,Istán,Málaga,36.58209850000001,-4.9497007,26.1,yes,57 min,docs/places/istan.md
 ES-AND-MAL-PLAYA-PUERTO-BANUS-001,playa-puerto-banus,Playa de Puerto Banús,needs_fact_check,Beaches,Beach,Marbella,Málaga,36.4898088,-4.9490514,26.1,yes,36 min,docs/places/playa-puerto-banus.md
+ES-AND-MAL-SENDA-LITORAL-MALAGA-OESTE-001,senda-litoral-malaga-oeste,Senda Litoral (Málaga west),draft,Excursions,,Málaga,Málaga,36.689676,-4.4423341999999995,26.1,yes,30 min,docs/places/senda-litoral-malaga-oeste.md
 ES-AND-MAL-SOMOS-DE-BANUS-001,somos-de-banus,Somos de Banús,needs_fact_check,Restaurants,Restaurant,Marbella,Málaga,36.4897645,-4.9496195,26.1,yes,39 min,docs/places/somos-de-banus.md
 ES-AND-MAL-JACKS-SMOKEHOUSE-PUERTO-BANUS-001,jacks-smokehouse-puerto-banus,Jacks Smokehouse (Puerto Banús),needs_fact_check,Restaurants,Restaurant,Marbella,Málaga,36.4885233,-4.9510252,26.3,yes,41 min,docs/places/jacks-smokehouse-puerto-banus.md
 ES-AND-MAL-NORTE-PUERTO-BANUS-001,norte-puerto-banus,Norte Puerto Banús,draft,Restaurants,Restaurant,Marbella,Málaga,36.4906174,-4.9514172,26.3,yes,37 min,docs/places/norte-puerto-banus.md
@@ -124,12 +131,15 @@ ES-AND-MAL-EL-ANDALUZ-DE-LA-MALAGUETA-001,el-andaluz-de-la-malagueta,El Andaluz 
 ES-AND-MAL-TASCA-LASKA-MALAGUETA-001,tasca-laska-malagueta,Tasca Láska Malagueta,needs_fact_check,Restaurants,Restaurant,Málaga,Málaga,36.7193155,-4.4091223,30.5,no,43 min,docs/places/tasca-laska-malagueta.md
 ES-AND-MAL-CHIRINGUITO-EL-CACHALOTE-001,chiringuito-el-cachalote,Chiringuito El Cachalote,needs_fact_check,Restaurants,Restaurant,Málaga,Málaga,36.719982699999996,-4.405285699999999,30.8,no,39 min,docs/places/chiringuito-el-cachalote.md
 ES-AND-MAL-ALORA-001,alora,Álora,needs_fact_check,City,,Álora,Málaga,36.819586799999996,-4.704041699999999,31.8,no,50 min,docs/places/alora.md
+ES-AND-MAL-JARDIN-BOTANICO-LA-CONCEPCION-001,jardin-botanico-la-concepcion,Jardín Botánico Histórico La Concepción,draft,Nature,,Málaga,Málaga,36.7601029,-4.4262669,32.7,no,36 min,docs/places/jardin-botanico-la-concepcion.md
 ES-AND-MAL-JUANITO-JUAN-001,juanito-juan,Juanito Juan,draft,Restaurants,Restaurant,Málaga,Málaga,36.719518099999995,-4.3619905999999995,33.7,no,42 min,docs/places/juanito-juan.md
+ES-AND-MAL-CANON-DE-LAS-ANGOSTURAS-001,canon-de-las-angosturas,Cañón de las Angosturas (Benahavís),draft,Nature,,Benahavís,Málaga,36.5172039,-5.0399199999999995,33.8,no,46 min,docs/places/canon-de-las-angosturas.md
 ES-AND-MAL-PLAYAS-DEL-PALO-001,playas-del-palo,Playas de El Palo,needs_fact_check,Beaches,Beach,Málaga,Málaga,36.718318599999996,-4.3602063,33.8,no,44 min,docs/places/playas-del-palo.md
 ES-AND-MAL-CHIRINGUITO-LA-CONCHA-EL-PALO-001,chiringuito-la-concha-el-palo,Chiringuito La Concha (El Palo),needs_fact_check,Restaurants,Restaurant,Málaga,Málaga,36.7190139,-4.3596761,33.9,no,43 min,docs/places/chiringuito-la-concha-el-palo.md
 ES-AND-MAL-CASA-MANUEL-DE-LA-LONJA-001,casa-manuel-de-la-lonja,Casa Manuel de la Lonja,draft,Restaurants,Restaurant,Málaga,Málaga,36.7185771,-4.3571322,34.0,no,46 min,docs/places/casa-manuel-de-la-lonja.md
 ES-AND-MAL-BENAHAVIS-001,benahavis,Benahavís,needs_fact_check,City,,Benahavís,Málaga,36.5174193,-5.0450107,34.2,no,48 min,docs/places/benahavis.md
 ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,sierra-de-las-nieves,Sierra de las Nieves,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Full day,Sierra de las Nieves,Málaga,36.7904469,-4.9480972,38.1,no,79 min,docs/places/sierra-de-las-nieves.md
+ES-AND-MAL-CUEVA-DEL-TESORO-001,cueva-del-tesoro,Cueva del Tesoro,draft,Excursions,,Rincón de la Victoria,Málaga,36.719695699999995,-4.2975807,38.5,no,43 min,docs/places/cueva-del-tesoro.md
 ES-AND-MAL-SELWO-AVENTURA-001,selwo-aventura,Selwo Aventura,needs_fact_check,Family activities,Nature; Adventure; Full day,Estepona,Málaga,36.462831,-5.0856,38.7,no,46 min,docs/places/selwo-aventura.md
 ES-AND-MAL-CAMINITO-DEL-REY-001,caminito-del-rey,Caminito del Rey,needs_editorial_review,Excursions,Nature; Hiking; Adventure; Viewpoint; Full day,Ardales,Málaga,36.914782,-4.8080823,44.1,no,65 min,docs/places/caminito-del-rey.md
 ES-AND-MAL-ESTEPONA-OLD-TOWN-001,estepona-old-town,Estepona old town,needs_fact_check,City,,Estepona,Málaga,36.4257878,-5.145206,44.8,no,53 min,docs/places/estepona-old-town.md
@@ -137,6 +147,7 @@ ES-AND-MAL-CHIRINGUITO-CENTRAL-BEACH-ESTEPONA-001,chiringuito-central-beach-este
 ES-AND-MAL-PLAYA-DE-LA-RADA-ESTEPONA-001,playa-de-la-rada-estepona,Playa de la Rada (Estepona),needs_fact_check,Beaches,Beach,Estepona,Málaga,36.4187341,-5.152143,45.7,no,54 min,docs/places/playa-de-la-rada-estepona.md
 ES-AND-MAL-RESTAURANTE-LA-ESCOLLERA-ESTEPONA-001,restaurante-la-escollera-estepona,Restaurante La Escollera (Estepona),draft,Restaurants,Restaurant,Estepona,Málaga,36.4163478,-5.1546519,45.9,no,53 min,docs/places/restaurante-la-escollera-estepona.md
 ES-AND-MAL-LA-LOBEZNA-ESTEPONA-001,la-lobezna-estepona,La Lobezna (Estepona),needs_fact_check,Restaurants,Restaurant,Estepona,Málaga,36.4203681,-5.1562643,46.0,no,54 min,docs/places/la-lobezna-estepona.md
+ES-AND-MAL-PUERTO-DEPORTIVO-ESTEPONA-001,puerto-deportivo-estepona,Puerto Deportivo de Estepona,draft,Excursions,,Estepona,Málaga,36.4148347,-5.1571843,46.2,no,54 min,docs/places/puerto-deportivo-estepona.md
 ES-AND-MAL-TABERNA-MAR-DE-ALBORAN-ESTEPONA-001,taberna-mar-de-alboran-estepona,Taberna Mar de Alborán (Estepona),draft,Restaurants,Restaurant,Estepona,Málaga,36.4159394,-5.1588487999999995,46.3,no,52 min,docs/places/taberna-mar-de-alboran-estepona.md
 ES-AND-MAL-EL-TORCAL-001,el-torcal-de-antequera,El Torcal de Antequera,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Half day,Antequera,Málaga,36.961079,-4.5584866,48.2,no,85 min,docs/places/el-torcal-de-antequera.md
 ES-AND-MAL-RONDA-001,ronda,Ronda,needs_editorial_review,City,Historic town; Viewpoint; Nature; Full day,Ronda,Málaga,36.741564,-5.165708,50.4,no,90 min,docs/places/ronda.md
