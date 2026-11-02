@@ -78,7 +78,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Cosmozone Lasertag: laser tag venue in Las Lagunas, about 8 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Cosmozone Lasertag is a laser tag venue at Av. de Andalucía, 15, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 8 minutes by car (Google route check, Saturday 10:00). The venue''s terms (checked 2026-11-02): children under 6 cannot take part; players from 15 count as adults, and players under 15 must have at least one adult in their team. Games are booked online; arrive 15 minutes early for instructions, and cancellations are possible up to 48 hours before. Opening hours, prices and game length were not readable. Check with the venue before visiting.'
+description_long: 'Cosmozone Lasertag is a laser tag venue at Av. de Andalucía, 15, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 8 minutes by car (Google route check, Saturday 10:00). The venue''s terms (checked 2026-11-02): children under 6 cannot take part; players from 15 count as adults, and players under 15 must have at least one adult in their team. Games are booked online; arrive 15 minutes early for instructions, and cancellations are possible up to 48 hours before. Its own price list (checked 2026-11-02): the 1-hour ''Optimal'' pack is three 15-minute laser tag games with explanation and short breaks, €18 per person Monday-Friday and €20 at weekends; the 2-hour ''Premium'' pack adds 45-50 minutes in five rooms with other games (ball room, laser maze from age 9, button fight, interactive floor, laser shooting), €28/€30 per person; a 3-hour birthday pack (minimum 10 players, one drink each) is €26/€28 per person. After a pack, extra room games cost €3-4 per person per game when available, and a VIP party room is €30. Outside drinks are not allowed. Opening hours were not readable. Check with the venue before visiting.'
 seo_title: Cosmozone Lasertag, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Cosmozone Lasertag (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -107,6 +107,14 @@ evidence:
   checked_by: Claude (nearby fact check 2026-11-02)
   confidence: high
   notes: Read via Firecrawl on 2026-11-02 (page modified 2025-10-28). The homepage only renders the Funbutler booking widget; hours and prices are inside it.
+- field: description_long, cost_level, visit_information
+  claim: 'Own website price list (''Price list Cosmozone''): Optimal 1 hour - 1 hour laser tag, 3 games of 15 min incl. explanation and short breaks, Mon-Fri 18€/person, Sat-Sun 20€/person; Premium 2 hours - 1 hour laser tag plus 45-50 minutes in 5 rooms with other games, party area can be included, VIP party area +30€, Mon-Fri 28€, Sat-Sun 30€; Birthday 3 hours, minimum 10 persons - laser tag, other game rooms 45-50 min, party area 3 hours, 1 drink per player, outside drinks not permitted, Mon-Fri 26€, Sat-Sun 28€. Game rooms (only after completing a pack, if available): The Ball Room max 5, The Laser Maze max 2 and 9+, The Button Fight max 4, The Interactive Floor max 4, Laser Shooting max 4 - each Mon-Fri 3€, Sat-Sun 4€ per person per game; VIP party room 1-2 hours 30€.'
+  source_url: https://cosmozone.es/en/
+  source_type: official_venue
+  checked_at: '2026-11-02'
+  checked_by: Claude (nearby fact check 2026-11-02)
+  confidence: high
+  notes: Owner screenshot (supplied 2026-11-02) of the price-list pop-up on the venue's own site; the page renders only through a JavaScript booking widget that Firecrawl could not read. The price list is undated; prices are volatile, recheck before publication.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -117,12 +125,11 @@ review_issues:
   description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
   retryable: true
   owner: human_editor
-- code: hours_and_prices_not_readable
+- code: hours_not_readable
   severity: warning
   fields:
   - visit_information
-  - cost_level
-  description: 'Rechecked 2026-11-02: hours, prices and game length are only inside the booking widget, which was not readable. Needs an owner screenshot of the booking page or a call (+34 604 40 38 61).'
+  description: Prices and game lengths now come from the own price list (owner screenshot 2026-11-02). Opening hours are still only inside the booking widget; needs a screenshot of the booking calendar or a call (+34 604 40 38 61).
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'

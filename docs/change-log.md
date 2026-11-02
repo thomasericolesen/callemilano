@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Cosmozone price list from owner screenshot (no schema change)
+
+`cosmozone-lasertag`: prices and pack contents from the venue's own price list (owner screenshot of cosmozone.es/en/, which Firecrawl cannot read): 1-hour laser tag €18 Mon-Fri / €20 weekends, 2-hour pack €28/€30, birthday pack €26/€28 (min. 10), extra room games €3/€4, Laser Maze from age 9. Issue narrowed to `hours_not_readable`. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Fuengirola (centrum) re-approved (owner decision)
 
 `fuengirola-centro`: `needs_fact_check` -> `approved` by the owner after the older-people zone was added; `reopened_for_addition` closed; new `review_decision` recorded. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
