@@ -27,7 +27,7 @@ driving_time_from_casa_de_la_familia:
   destination: Restaurante Hoyo 19, Camino viejo de Coín, 0 km 4 , 700, 29651 Las Lagunas de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5438292,-4.6550717); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5438292%2C-4.6550717&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 4 min, 1.58 km. Walking (Routes API WALK, same day): 20 min, 1.51 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 4 min, 1.58 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: tel:+34622797207
 related_places: []
-description_short: 'Restaurante Hoyo 19: Spanish restaurant on the Camino Viejo de Coín, about 20 min on foot or 4 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: Restaurante Hoyo 19 is a Spanish restaurant on the Camino Viejo de Coín at Camino viejo de Coín, 0 km 4 , 700, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 20 minutes on foot (1.51 km, Google's walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Its own small website (hosted on METRO's restaurant-site service) gives the address and phone 622 797 207 and opening hours from 08:00 to about 23:00 on most days with one closing day, but the day-by-day table could not be read reliably. Prices, menu, children's facilities and accessibility are not checked; check before visiting.
+description_short: 'Restaurante Hoyo 19: Spanish restaurant on the Camino Viejo de Coín, about 4 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Restaurante Hoyo 19 is a Spanish restaurant on the Camino Viejo de Coín at Camino viejo de Coín, 0 km 4 , 700, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 4 minutes by car (Google route check, Saturday 10:00). Its own small website (hosted on METRO's restaurant-site service) gives the address and phone 622 797 207 and opening hours from 08:00 to about 23:00 on most days with one closing day, but the day-by-day table could not be read reliably. Prices, menu, children's facilities and accessibility are not checked; check before visiting.
 seo_title: Restaurante Hoyo 19, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Restaurante Hoyo 19 (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -92,14 +92,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 4 min by car (1.58 km, Saturday 10:00 predicted traffic) and 20 min on foot (1.51 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 4 min by car (1.58 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5438292%2C-4.6550717&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5438292%2C-4.6550717&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 - field: links.contact, description_long
   claim: 'Own site: Restaurante Hoyo 19, Camino Viejo de Coín km 4.7, 29651 Las Lagunas de Mijas; phone +34 622 797 207 (also +34 951 322 558); opening hours 08:00-23:00 (one day 08:00-24:00, one day closed).'
   source_url: https://restaurantehoyo19.metro.bar/

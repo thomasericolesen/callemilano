@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: Fuengirola Adventure Golf, Parque Fluvial, 29640 Fuengirola, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.532201,-4.632048999999999); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.532201%2C-4.632048999999999&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 9 min, 4.5 km. Walking (Routes API WALK, same day): 50 min, 3.67 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 9 min, 4.5 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Fuengirola Adventure Golf: mini golf course in the Parque Fluvial, about 50 min on foot or 9 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: Fuengirola Adventure Golf is a mini golf course in the Parque Fluvial at Parque Fluvial, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 50 minutes on foot (3.67 km, Google's walking route) or about 9 minutes by car (Google route check, Saturday 10:00). Its own website describes a 19-hole adventure mini golf course for all ages, with a bar and restaurant; a game takes about one hour. Opening hours and prices were not readable on the homepage.
+description_short: 'Fuengirola Adventure Golf: mini golf course in the Parque Fluvial, about 9 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Fuengirola Adventure Golf is a mini golf course in the Parque Fluvial at Parque Fluvial, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). Its own website describes a 19-hole adventure mini golf course for all ages, with a bar and restaurant; a game takes about one hour. Opening hours and prices were not readable on the homepage.
 seo_title: Fuengirola Adventure Golf, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Fuengirola Adventure Golf (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -91,14 +91,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 9 min by car (4.5 km, Saturday 10:00 predicted traffic) and 50 min on foot (3.67 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 9 min by car (4.5 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.532201%2C-4.632048999999999&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.532201%2C-4.632048999999999&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 - field: visit_information.typical_duration, description_long
   claim: 'Own website (page metadata): "19 hole putting adventure for all ages and skills with bar and restaurant"; "A game of Adventure Golf takes approximately 1hr".'
   source_url: http://www.fuengirolaadventuregolf.com/

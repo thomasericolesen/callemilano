@@ -27,7 +27,7 @@ driving_time_from_casa_de_la_familia:
   destination: Courtside by Wissler, Bulevar Marie Curie, 7, 29649 Las Lagunas de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5273667,-4.660711099999999); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5273667%2C-4.660711099999999&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 4 min, 2.08 km. Walking (Routes API WALK, same day): 24 min, 1.64 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 4 min, 2.08 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Courtside by Wissler: restaurant on Bulevar Marie Curie, about 24 min on foot or 4 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Courtside by Wissler is a restaurant on Bulevar Marie Curie at Bulevar Marie Curie, 7, 29649 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 24 minutes on foot (1.64 km, Google's walking route) or about 4 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Courtside by Wissler: restaurant on Bulevar Marie Curie, about 4 min by car from Casa de la Familia. Draft; facts not yet checked.'
+description_long: Courtside by Wissler is a restaurant on Bulevar Marie Curie at Bulevar Marie Curie, 7, 29649 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 4 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
 seo_title: Courtside by Wissler, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Courtside by Wissler (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -92,14 +92,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 4 min by car (2.08 km, Saturday 10:00 predicted traffic) and 24 min on foot (1.64 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 4 min by car (2.08 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5273667%2C-4.660711099999999&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5273667%2C-4.660711099999999&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 review_issues:
 - code: facts_not_checked
   severity: warning

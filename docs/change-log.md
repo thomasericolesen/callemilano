@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-02 - Walking times of 20 minutes or more removed (owner decision)
+
+Owner decision: show walking time only where guests can realistically walk. In 27 nearby records with a Google walking time of 20 minutes or more, the walking time was removed from `description_short`, `description_long`, the drive-time note and the route evidence; only the drive time remains. The 11 records under 20 minutes on foot keep it (Mixs Lounge, Singh Doner Kebab, Restaurante Cerros del Águila, El Gran Parque de Mijas, Equestrian Centre, Peña Al Tranco and the five buggy/quad operators). Intake doc annotated. Validation: 0 errors. Regenerated `data/place-catalog.csv`.
+
 ## 2026-11-02 - Bars: walking times replaced by taxi/Uber wording (owner decision)
 
 Owner decision: walking times make no sense for bars in town; guests go by taxi or Uber. In the 22 bar records the walking time was removed from `description_long`, the drive-time note and the route evidence; descriptions now give the time "by car, taxi or Uber" and advise a taxi or Uber both ways when drinking. Intake and selection docs updated. Validation: 0 errors.

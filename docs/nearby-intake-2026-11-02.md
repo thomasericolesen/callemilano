@@ -56,6 +56,8 @@
 | Karting Experience Mijas | Karting | 105 min (7.39 km) | 13 min | [Maps](https://maps.google.com/?cid=17589244124378412984) [site](https://kartingexperience.com/) |  |
 | Aqualand Torremolinos | Water park | 279 min (20.07 km) | 24 min | [Maps](https://maps.google.com/?cid=9914473178869368523) [site](http://www.aqualand.es/torremolinos) | Named by the owner. Season from 1 April 2026; own schedule page shows opening days in October 2026. |
 
+**Owner decision 2026-11-02:** walking times of 20 minutes or more are not shown in the records; the Walk column is kept here as intake data only.
+
 ## Observations
 
 - **Truly walkable (under about 20 minutes):** three eateries (Mixs Lounge, Singh Doner Kebab, Restaurante Cerros del Águila) and, at 13-18 minutes, El Gran Parque de Mijas and the five buggy/quad operators on Calle la Higuera / El Membrillo. Equestrian Centre, Peña Al Tranco and the Camino Viejo de Coín restaurants are 16-21 minutes on foot.

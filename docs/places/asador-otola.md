@@ -27,7 +27,7 @@ driving_time_from_casa_de_la_familia:
   destination: Asador Otola, Camino Viejo de Coín, 4, 29651 Las Lagunas de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.540219199999996,-4.6490593); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.540219199999996%2C-4.6490593&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 6 min, 2.24 km. Walking (Routes API WALK, same day): 29 min, 2.17 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 6 min, 2.24 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: tel:+34604241785
 related_places: []
-description_short: 'Asador Otola: Basque grill (asador) at Cortijo la Herradura, about 29 min on foot or 6 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Asador Otola is a Basque grill (asador) at Cortijo la Herradura at Camino Viejo de Coín, 4, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 29 minutes on foot (2.17 km, Google''s walking route) or about 6 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Already among the owner''s recommendations, with a caveat: the meat has a much more intense flavour. Its own website describes Basque cooking with aged meats grilled over embers (more than 18 years in business), lists dishes such as beef and lamb, txuleton and grilled octopus, and gives opening hours of Monday 12:00-24:00, Tuesday 12:00-18:00, Wednesday closed, Thursday to Sunday 12:00-24:00 (phone 604 241 785). Prices, booking, children''s facilities and accessibility are not stated; check before visiting.'
+description_short: 'Asador Otola: Basque grill (asador) at Cortijo la Herradura, about 6 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Asador Otola is a Basque grill (asador) at Cortijo la Herradura at Camino Viejo de Coín, 4, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 6 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Already among the owner''s recommendations, with a caveat: the meat has a much more intense flavour. Its own website describes Basque cooking with aged meats grilled over embers (more than 18 years in business), lists dishes such as beef and lamb, txuleton and grilled octopus, and gives opening hours of Monday 12:00-24:00, Tuesday 12:00-18:00, Wednesday closed, Thursday to Sunday 12:00-24:00 (phone 604 241 785). Prices, booking, children''s facilities and accessibility are not stated; check before visiting.'
 seo_title: Asador Otola, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Asador Otola (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -92,14 +92,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 6 min by car (2.24 km, Saturday 10:00 predicted traffic) and 29 min on foot (2.17 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 6 min by car (2.24 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.540219199999996%2C-4.6490593&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.540219199999996%2C-4.6490593&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 - field: description_long (owner knowledge)
   claim: 'Already among the owner''s recommendations, with a caveat: the meat has a much more intense flavour.'
   source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/nearby-selection-2026-11-02.md

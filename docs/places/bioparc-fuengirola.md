@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: BIOPARC Fuengirola, C. Camilo José Cela, 6, y 8, 29640 Fuengirola, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5368411,-4.6277631); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5368411%2C-4.6277631&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 12 min, 4.83 km. Walking (Routes API WALK, same day): 60 min, 4.35 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 12 min, 4.83 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'BIOPARC Fuengirola: zoo in central Fuengirola, about 60 min on foot or 12 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'BIOPARC Fuengirola is a zoo in central Fuengirola at C. Camilo José Cela, 6, y 8, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 60 minutes on foot (4.35 km, Google''s walking route) or about 12 minutes by car (Google route check, Saturday 10:00). Its own FAQ: open every day of the year from 10:00, closing time varying by season (ticket office closes an hour earlier); the average visit is about 3 hours. Children under 3 enter free, the child rate is for ages 3-9, and the standard rate from 10; tickets bought online 24 hours ahead are €1 cheaper. The park says it is fully accessible for reduced mobility and pushchairs. There is a café inside; outside food is not allowed except for babies, children''s snacks and food for intolerances. No pets (assistance dogs excepted). No own car park: the Plaza España car park opposite gives visitors a 50% discount voucher. Ticket prices were not checked.'
+description_short: 'BIOPARC Fuengirola: zoo in central Fuengirola, about 12 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'BIOPARC Fuengirola is a zoo in central Fuengirola at C. Camilo José Cela, 6, y 8, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 12 minutes by car (Google route check, Saturday 10:00). Its own FAQ: open every day of the year from 10:00, closing time varying by season (ticket office closes an hour earlier); the average visit is about 3 hours. Children under 3 enter free, the child rate is for ages 3-9, and the standard rate from 10; tickets bought online 24 hours ahead are €1 cheaper. The park says it is fully accessible for reduced mobility and pushchairs. There is a café inside; outside food is not allowed except for babies, children''s snacks and food for intolerances. No pets (assistance dogs excepted). No own car park: the Plaza España car park opposite gives visitors a 50% discount voucher. Ticket prices were not checked.'
 seo_title: BIOPARC Fuengirola, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for BIOPARC Fuengirola (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -92,14 +92,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 12 min by car (4.83 km, Saturday 10:00 predicted traffic) and 60 min on foot (4.35 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 12 min by car (4.83 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5368411%2C-4.6277631&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5368411%2C-4.6277631&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 - field: visit_information, seasonality, parking, accessibility, food_available, dog_friendly, description_long
   claim: 'Own FAQ: open every day from 10:00, closing varies, ticket office closes 1 h earlier; average visit ~3 h; under-3s free, child rate 3-9, standard from 10; online 24 h ahead €1 cheaper; fully accessible for reduced mobility and pushchairs; BIOPARC Café inside; no outside food except babies, children''s snacks, intolerances; no pets except assistance dogs; no own parking, Plaza España car park opposite with 50% discount voucher; no bikes, balls or balloons.'
   source_url: https://www.bioparcfuengirola.es/en/prepare-your-visit/information-of-interest/faqs/

@@ -27,7 +27,7 @@ driving_time_from_casa_de_la_familia:
   destination: La Zambra Resort, Av. de Louison Bobet, 9, 29650 Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5529094,-4.6667533); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5529094%2C-4.6667533&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 7 min, 3.44 km. Walking (Routes API WALK, same day): 45 min, 3.29 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 7 min, 3.44 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: tel:+34951311234
 related_places: []
-description_short: 'La Zambra Resort: resort hotel (The Unbound Collection by Hyatt) with restaurant and spa, about 45 min on foot or 7 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'La Zambra Resort is a resort hotel (The Unbound Collection by Hyatt) with restaurant and spa at Av. de Louison Bobet, 9, 29650 Málaga. From Casa de la Familia it is about 45 minutes on foot (3.29 km, Google''s walking route) or about 7 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Restaurant and spa area (added by the owner). Its own website: a five-star resort on the site of the former Hotel Byblos (opened 1986, reopened as La Zambra in 2022), with four restaurants (Palmito from breakfast to late dinner, Picador for tapas with more than ninety wines by the glass, Bamboleo for sunset dining, La Bartola by the pool) plus Sarao for the night, and Mood Spa, described as one of the largest spas on the Costa del Sol, with Turkish baths and an indoor pool. It also runs two kids'' clubs (6 months-3 years and 4-10 years) daily 10:00-18:00 for hotel guests. The site does not say whether non-guests can use the restaurants or spa; check before visiting.'
+description_short: 'La Zambra Resort: resort hotel (The Unbound Collection by Hyatt) with restaurant and spa, about 7 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'La Zambra Resort is a resort hotel (The Unbound Collection by Hyatt) with restaurant and spa at Av. de Louison Bobet, 9, 29650 Málaga. From Casa de la Familia it is about 7 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Restaurant and spa area (added by the owner). Its own website: a five-star resort on the site of the former Hotel Byblos (opened 1986, reopened as La Zambra in 2022), with four restaurants (Palmito from breakfast to late dinner, Picador for tapas with more than ninety wines by the glass, Bamboleo for sunset dining, La Bartola by the pool) plus Sarao for the night, and Mood Spa, described as one of the largest spas on the Costa del Sol, with Turkish baths and an indoor pool. It also runs two kids'' clubs (6 months-3 years and 4-10 years) daily 10:00-18:00 for hotel guests. The site does not say whether non-guests can use the restaurants or spa; check before visiting.'
 seo_title: La Zambra Resort, Mijas | CalleMilano draft record
 seo_description: 'Draft record for La Zambra Resort (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -92,14 +92,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 7 min by car (3.44 km, Saturday 10:00 predicted traffic) and 45 min on foot (3.29 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 7 min by car (3.44 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5529094%2C-4.6667533&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5529094%2C-4.6667533&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 - field: description_long (owner knowledge)
   claim: Restaurant and spa area (added by the owner).
   source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/nearby-selection-2026-11-02.md

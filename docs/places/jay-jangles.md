@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: Jay Jangles, La Cala Hills, C. Tomillo de la Torre, Local 3, 29650 Costa, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.551564,-4.6824603); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.551564%2C-4.6824603&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 8 min, 4.59 km. Walking (Routes API WALK, same day): 58 min, 4.33 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 8 min, 4.59 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Jay Jangles: play centre in La Cala Hills, about 58 min on foot or 8 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Jay Jangles is a play centre in La Cala Hills at La Cala Hills, C. Tomillo de la Torre, Local 3, 29650 Costa, Málaga. From Casa de la Familia it is about 58 minutes on foot (4.33 km, Google's walking route) or about 8 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'Jay Jangles: play centre in La Cala Hills, about 8 min by car from Casa de la Familia. Draft; facts not yet checked.'
+description_long: Jay Jangles is a play centre in La Cala Hills at La Cala Hills, C. Tomillo de la Torre, Local 3, 29650 Costa, Málaga. From Casa de la Familia it is about 8 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
 seo_title: Jay Jangles, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Jay Jangles (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -91,14 +91,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 8 min by car (4.59 km, Saturday 10:00 predicted traffic) and 58 min on foot (4.33 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 8 min by car (4.59 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.551564%2C-4.6824603&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.551564%2C-4.6824603&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 review_issues:
 - code: facts_not_checked
   severity: warning

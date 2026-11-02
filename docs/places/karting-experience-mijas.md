@@ -27,7 +27,7 @@ driving_time_from_casa_de_la_familia:
   destination: Karting Experience Mijas, Lugar Diseminado Arroyo Pajares, Poligono, 4 Parcela 127, 29650 Las Lagunas de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.567079899999996,-4.621423); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.567079899999996%2C-4.621423&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 13 min, 7.11 km. Walking (Routes API WALK, same day): 105 min, 7.39 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 13 min, 7.11 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Karting Experience Mijas: outdoor karting track, about 105 min on foot or 13 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Karting Experience Mijas is a outdoor karting track at Lugar Diseminado Arroyo Pajares, Poligono, 4 Parcela 127, 29650 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 105 minutes on foot (7.39 km, Google''s walking route) or about 13 minutes by car (Google route check, Saturday 10:00). The operator''s website: Karting Mijas is a 900 m outdoor circuit in a natural setting, with long straights and technical bends, and a bar-café terrace overlooking the track. The page shows kart prices from €12 to €30 per session but does not clearly tie each price list to this track; age rules and opening hours were not checked.'
+description_short: 'Karting Experience Mijas: outdoor karting track, about 13 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: 'Karting Experience Mijas is a outdoor karting track at Lugar Diseminado Arroyo Pajares, Poligono, 4 Parcela 127, 29650 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car (Google route check, Saturday 10:00). The operator''s website: Karting Mijas is a 900 m outdoor circuit in a natural setting, with long straights and technical bends, and a bar-café terrace overlooking the track. The page shows kart prices from €12 to €30 per session but does not clearly tie each price list to this track; age rules and opening hours were not checked.'
 seo_title: Karting Experience Mijas, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Karting Experience Mijas (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -92,14 +92,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 13 min by car (7.11 km, Saturday 10:00 predicted traffic) and 105 min on foot (7.39 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 13 min by car (7.11 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.567079899999996%2C-4.621423&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.567079899999996%2C-4.621423&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 - field: description_long
   claim: 'Operator website: Karting Mijas, 900 m circuit in a natural setting, long straights and technical curves, bar-café terrace overlooking the races; link to its own tariff page (kartingexperience.com/tarifas/).'
   source_url: https://kartingexperience.com/

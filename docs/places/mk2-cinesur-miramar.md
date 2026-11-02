@@ -27,7 +27,7 @@ driving_time_from_casa_de_la_familia:
   destination: mk2 Cinesur Miramar, Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5282529,-4.6328854); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5282529%2C-4.6328854&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 10 min, 4.58 km. Walking (Routes API WALK, same day): 49 min, 3.62 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 10 min, 4.58 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'mk2 Cinesur Miramar: cinema at the Miramar shopping centre, about 49 min on foot or 10 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: mk2 Cinesur Miramar is a cinema at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 49 minutes on foot (3.62 km, Google's walking route) or about 10 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
+description_short: 'mk2 Cinesur Miramar: cinema at the Miramar shopping centre, about 10 min by car from Casa de la Familia. Draft; facts not yet checked.'
+description_long: mk2 Cinesur Miramar is a cinema at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 10 minutes by car (Google route check, Saturday 10:00). Opening hours, prices, age rules and facilities have not been checked yet; check with the venue before visiting.
 seo_title: mk2 Cinesur Miramar, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for mk2 Cinesur Miramar (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -92,14 +92,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 10 min by car (4.58 km, Saturday 10:00 predicted traffic) and 49 min on foot (3.62 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 10 min by car (4.58 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5282529%2C-4.6328854&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5282529%2C-4.6328854&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 review_issues:
 - code: facts_not_checked
   severity: warning

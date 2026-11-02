@@ -26,7 +26,7 @@ driving_time_from_casa_de_la_familia:
   destination: Zooloco Party, C. Río Almanzora, 15, 29651 Las Lagunas de Mijas, Málaga
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5394839,-4.641249999999999); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5394839%2C-4.641249999999999&travelmode=driving
   checked_at: '2026-11-02'
-  note: 'Routes API figure: 8 min, 3.25 km. Walking (Routes API WALK, same day): 41 min, 2.98 km. One predicted sample, not the Google Maps app''s main figure.'
+  note: 'Routes API figure: 8 min, 3.25 km. One predicted sample, not the Google Maps app''s main figure.'
 age_groups: []
 family_score:
   small_children: unknown
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Zooloco Party: indoor play and party centre, about 41 min on foot or 8 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: Zooloco Party is a indoor play and party centre at C. Río Almanzora, 15, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 41 minutes on foot (2.98 km, Google's walking route) or about 8 minutes by car (Google route check, Saturday 10:00). Its own website describes a private children's party room rented by the day for birthdays, class parties or family gatherings (adults and children), 200 m² with a bouncy castle, trampolines, a ball pit and a small football pitch, suited to children up to 12. It does not describe open play for drop-in visitors.
+description_short: 'Zooloco Party: indoor play and party centre, about 8 min by car from Casa de la Familia. Draft; partly fact-checked.'
+description_long: Zooloco Party is a indoor play and party centre at C. Río Almanzora, 15, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 8 minutes by car (Google route check, Saturday 10:00). Its own website describes a private children's party room rented by the day for birthdays, class parties or family gatherings (adults and children), 200 m² with a bouncy castle, trampolines, a ball pit and a small football pitch, suited to children up to 12. It does not describe open play for drop-in visitors.
 seo_title: Zooloco Party, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Zooloco Party (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -91,14 +91,14 @@ evidence:
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
   notes: Google Places API (New) on 2026-11-02. Maps establishes identity and position only, not hours, prices, facilities or suitability.
-- field: driving_time_from_casa_de_la_familia, description_long (walking time)
-  claim: 'From Casa de la Familia: 8 min by car (3.25 km, Saturday 10:00 predicted traffic) and 41 min on foot (2.98 km).'
+- field: driving_time_from_casa_de_la_familia
+  claim: 'From Casa de la Familia: 8 min by car (3.25 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5394839%2C-4.641249999999999&travelmode=driving
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Claude (nearby intake 2026-11-02)
   confidence: medium
-  notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5394839%2C-4.641249999999999&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
+  notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 - field: description_long
   claim: 'Own website: "Sala privada de ocio infantil" - room rented per day for children''s birthdays, class parties or family gatherings; 200 m2 with bouncy castle, trampolines, ball pit, football pitch; for children up to 12; Calle Río Almanzora 15, Las Lagunas.'
   source_url: http://www.zoolocoparty.com/
