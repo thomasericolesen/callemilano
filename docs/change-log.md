@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-02 (late evening) - App export and import (trip agent step 1, points 1-2)
+
+- New `tools/app_export.py` -> `data/app-export/places.json` (144 places, status `needs_fact_check` or later, primary area or layer membership; the app's `guide` schema) and `holidays.json` (28). Derived data; re-run after record changes.
+- App repository `thomasericolesen/callemilano-f388b2be` (Lovable sync) branch `claude/vigilant-cray-dtqaxz`: import of the export with file upload, matching by ID, then Google place ID, keeps Danish texts and family rows, skips editorial pages; "Ikke endeligt godkendt" labels; restaurants left out of "Find en tur". Typecheck and build pass; not merged.
+
+## 2026-11-02 (late evening) - Interactive trip agent: owner decisions (no schema change)
+
+- Recorded in `docs/webapp-byggeplan.md`: show records with status `needs_fact_check` or later in the app, non-approved ones labelled "Ikke endeligt godkendt", drafts hidden; build via GitHub connection and Claude Code; Ecco on Claude Sonnet 5.5; admins only at first. Voice v0 (phone) and the $20/month, 10-per-user-per-day caps remain proposals.
+
 ## 2026-11-02 (late evening) - Restaurants from callemilano.dk (owner instruction)
 
 - Owner instruction: the recommendations already on callemilano.dk (Lovable app "Vores Spanske Hjem", table `recommendations`) belong in the restaurant list. The site has 6 own restaurant recommendations (`kind` anbefaling) and 4 inspiration entries.

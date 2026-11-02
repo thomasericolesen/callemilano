@@ -25,6 +25,10 @@ Start here. Details per step are in `docs/change-log.md` (entries dated 2026-11-
 5. callemilano.dk: 5 owner recommendations created (Café NOMAD, Heladería Casa Esteban, Marvelous Burger, UTOPÍA, Venta los Condes) with the owner's text as owner-knowledge evidence; same added to Asador Otola; Restaurante Sheriff created with blocking issue `possibly_closed`.
 6. Hotels Castillo de Monda, El Molino del Santo, Casas Cuevas Almagruz created as `Restaurants` in `excursions_4h` (owner: not standalone excursions; facilities guest-only).
 
+## Trip agent in the app (callemilano.dk)
+- App code: `thomasericolesen/callemilano-f388b2be` (Lovable syncs `main`). Branch `claude/vigilant-cray-dtqaxz` has the new import (step 1, points 1-2); owner merges, then runs the import on the Admin page with `data/app-export/places.json`.
+- Next: point 3 (`planTrip` on the app server + `holidays` table), point 4 (Ecco on Claude Sonnet 5.5, admin-only page; owner adds an Anthropic API key as a Lovable Cloud secret). Danish texts for imported places are an open task. See `docs/webapp-byggeplan.md`.
+
 ## Next, in suggested order (2026-11-03)
 1. **After 16:55 Danish time:** spot-check two lines from the pending price table below, then apply. Confirm the address for the four unconfirmed rows before applying.
 2. **Fact check the 9 new website/hotel records** (source-reader -> record-writer): own sites cafenomadfuengirola.com, utopialacala.com, ventaloscondes.com, elsheriff.com (confirm Sheriff open/closed by phone +34 952 493 722), castillodemonda.com, molinodelsanto.com, cuevasalmagruz.com; for the hotels, whether non-residents can eat and whether booking is needed. Heladería Casa Esteban and Marvelous Burger have no own site.
