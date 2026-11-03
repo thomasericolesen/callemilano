@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta PDF (July 2026, linked from the own Linktree): 12 quoted burgers 11,99-15,50 € (median about 14,25 €) plus caña 1,90 € gives about 16,15 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-03'
 links:
   official_website: https://linktr.ee/marvel0usburger
   booking: null
@@ -108,6 +108,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Owner''s own recommendation (kind ''anbefaling'') on callemilano.dk, read from the Lovable app database 2026-11-02; site tags: børn, burger, aftensmad. Personal experience, not independently verified.'
+- field: cost_level
+  claim: '"hulk 15.50€" ; "punisher 14.50€" ; "SPIDER MAN 11.99€" ; "VENOM 12.99€" ; "thanos 13.99€" ; "DEADPOOL 13.99€" ; "thor 13.99€" ; "Ironman 14.99€" ; "capitan america 14.99€" ; "loki 13.99€" ; "black panther 15.50€" ; "wolverine 13.99€" ; "Caña 1.90€" ; "Copa Vino 4.50€" ; "Coca Cola / Zero 2.80€"'
+  source_url: https://drive.google.com/file/d/1Ps2AWsa5nytJmIP4bAPMIVJxotF_Kvc8/view?usp=sharing
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: 'Method: playwright. Linktree page (intake headless Chromium, method recorded as playwright) links to Google Drive PDFs. Used the Spanish carta (''carta español marvelous 2026 (julio).pdf'', 2 pages, read through the Drive viewer text). Source layout is messy: ''drax 15.99€'' and ''dr. strange 13.99€'' were NOT quoted because the name/price pairing is unclear. BLACK WIDOW 14.50€ omitted to stay at 12 lines. Carta does not state a branch; Fuengirola not confirmed from the text. Drinks ''Caña'' and ''Copa Vino'' lines are from page 2 of the same PDF.'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -131,7 +139,7 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

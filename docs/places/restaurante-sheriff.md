@@ -69,8 +69,8 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta (la_carta.cfm): 12 quoted mains 12,00-26,20 € (median 16,70 €); no drink prices, so the band is € only if a drink costs at most 3,30 €. Owner decision 2026-11-03: stays Unknown until the restaurant is confirmed open and a drink price is known. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-03'
 links:
   official_website: http://www.elsheriff.com/
   booking: null
@@ -108,6 +108,14 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Listed on callemilano.dk as inspiration (published-restaurante-sheriff). Hand-written gold page in docs/published/ is not a record.
+- field: cost_level
+  claim: '"Pollo asado 14,20 €" ; "Pollo al ajillo 15,30 €" ; "Pollo al curry 17,90 €" ; "Chuletas de cerdo 14,70 €" ; "Hamburguesa adulto 14,00 €" ; "Solomillo de cerdo 23,60 €" ; "Entrecot plancha 26,20 €" ; "Pizza sheriff 30 cm 16,50 €" ; "Spaguetti bolognese 12,00 €" ; "Lenguado plancha 20,10 €" ; "Salmón a la plancha 22,20 €" ; "Rosada a la plancha 16,90 €"'
+  source_url: http://www.elsheriff.com/la_carta.cfm
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: 'Method: curl. Followed La Carta (curl). In the source each dish name and price sit on separate lines; joined here with a space and the leading item number removed. Carta has no drink prices. Address on page: Calle Playa del Chaparral 4, Mijas Costa (La Cala); name matches ''Restaurante Sheriff La Cala Tranquila''. Home page itself has no prices.'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -138,8 +146,15 @@ review_issues:
   description: Google Places reports CLOSED_TEMPORARILY (2026-11-02); docs/published/restaurante-sheriff.md cites a Mijas Tourism note 'Cerrado desde el 28 de febrero', while the own site still lists hours. Confirm by phone (+34 952 493 722) before recommending.
   retryable: true
   owner: fact_check
+- code: cost_level_borderline
+  severity: info
+  description: Median main 16,70 € without a drink price; € or €€ depends on the drink. Left Unknown by owner decision 2026-11-03; confirm opening (issue possibly_closed) and a drink price by phone +34 952 493 722.
+  fields:
+  - cost_level
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

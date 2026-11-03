@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own menu PDF: 12 quoted mains 9,50-15,50 € (median 13,40 €) plus caña 2,90 € gives about 16,30 € per adult. The PDF names no branch; matched to Ragazzi Fuengirola by its own website. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-03'
 links:
   official_website: https://www.ragazzi.es/
   booking: null
@@ -100,6 +100,14 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: cost_level
+  claim: '"SPAGHETTI ALLA BOLOGNESE ... 12.90" ; "SPAGHETTI ALLA CARBONARA ... 12.90" ; "GNOCCHI ALLA SORRENTINA ... 14.30" ; "RAVIOLI RICOTTA E SPINACI ... 15.50" ; "LASAÑA ... 15.50" ; "RISOTTO AL POLLO ... 15.50" ; "TORTELLINI RAGAZZI ... 15.50" ; "MARGHERITA ... 9.50" ; "PROSCIUTTO ... 11.90" ; "CAPRICCIOSA ... 13.30" ; "HAMBURGUESA DE POLLO / CHICKEN BURGER ..... 11.50" ; "CALIFORNIA BURGER 200 GR ..... 13.50" ; "CERVEZA CAÑA / SMALL GLASS .....2.90" ; "COPA DE VINO DE LA CASA TINTO. BLANCO, ROSADO .....3.90" ; "REFRESCOS / SOFT DRINK .....3.20"'
+  source_url: https://www.ragazzi.es/carta/menu.pdf
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: 'Method: firecrawl. Home has no prices; its menu links are a PDF (menu.pdf) that curl could not read (needs_firecrawl). Firecrawl read menu.pdf (2 pages, dot leaders kept as in source). Quotes are Firecrawl''s text extraction of the PDF, trimmed after the price. The ''carta delivery'' PDF (cartadelivery.pdf) was not read. Home page places the restaurant on Paseo Marítimo Rey de España, Fuengirola; the PDF is an unbranded carta, so the branch match is by name only.'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -131,8 +139,15 @@ review_issues:
   description: BLOCKED.
   retryable: true
   owner: fact_check
+- code: menu_branch_unconfirmed
+  severity: info
+  description: The menu PDF linked from the own website names no branch; prices assumed to apply to the Fuengirola restaurant. Text read via Firecrawl (image PDF).
+  fields:
+  - cost_level
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

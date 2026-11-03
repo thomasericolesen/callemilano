@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own website: 4 quoted favourites 10,90-14,20 € (median 13,20 €); drink prices not quoted, so main plus one drink stays under 20 € unless the drink costs more than 6,80 €. Owner decision 2026-11-03: €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-03'
 links:
   official_website: https://cafenomadfuengirola.com/
   booking: null
@@ -108,6 +108,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Owner''s own recommendation (kind ''anbefaling'') on callemilano.dk, read from the Lovable app database 2026-11-02; site tags: børn, morgenmad. Personal experience, not independently verified.'
+- field: cost_level
+  claim: '"So-fish-ticated 12.90 €" ; "Avoholic 10.90 €" ; "Nomad poké bowl 14.20 €" ; "Green Ocean 13.50 €"'
+  source_url: https://cafenomadfuengirola.com/
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: 'Method: curl. Home page has 4 prices in the ''The favourites'' section (name line and price line in source, joined here). Home already has prices, so the menu page was not followed per the rule. The full menu is https://cafenomadfuengirola.com/menu.html (link text ''See the menu''); it may give more main-course lines if the orchestrator asks for it. No drink prices on home.'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -130,8 +138,15 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: cost_level_borderline
+  severity: info
+  description: No drink price quoted; € assumes a drink under 6,80 € (owner decision 2026-11-03). Full menu at https://cafenomadfuengirola.com/menu.html not read.
+  fields:
+  - cost_level
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

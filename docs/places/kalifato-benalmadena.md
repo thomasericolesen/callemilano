@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta PDF (May 2026): 12 quoted mains 10,50-27,00 € (median 20,75 €) plus soft drink 3,00 € gives about 23,75 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-03'
 links:
   official_website: http://www.kalifatobeach.es/
   booking: null
@@ -100,6 +100,14 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: cost_level
+  claim: '"Kalifato 19.50€ 200gr." ; "Hamburguesa vegana 15.50€" ; "Hamburguesa con patatas fritas 10.50€" ; "Espagueti boloñesa 11.50€" ; "Chuletillas de cordero lechal / Baby Lamb chops 23.00€" ; "Solomillo de Angus / Angus sirloin grilled 27.00€" ; "Pechuga de pollo a la parrilla / Grilled chicken breast 14.50€" ; "Gambas a la plancha 22.00€" ; "Pulpo a la gallega / Galician-style octopus | 22.00€" ; "Rosada plancha / Grilled King klip | 16.50€" ; "Lubina a la espalda / Grilled seabass | 22.00€" ; "Salmón asado / Grilled salmon fillet | 22.50€" ; "Refrescos / softdrink | 3.00€" ; "Copa gastro de cerveza / Glass of draft beer | 4.50€" ; "Copa blanco casa | 4.00€" ; "Pinta de cerveza / Pint of beer / 50cl | 5.50€"'
+  source_url: https://www.kalifatobeach.com/wp-content/uploads/2026/07/carta-kalifato-2026-mayo.pdf
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: 'Method: firecrawl. Home has no prices; its ''OUR MENU'' link is a PDF (8 pages, filename ''carta-kalifato-2026-mayo'') that curl could not read; Firecrawl read it. Quotes are Firecrawl''s text extraction; table rows are kept with their ''|'' separators. The PDF is on kalifatobeach.com while the home is kalifatobeach.es. The Cocktails PDF was not read. Some carta rows (e.g. ''Calamar plancha 29.00'', ''Atún a la parrilla 24.80'', ''Calamares 16.00'') also exist; 12 chosen.'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -132,7 +140,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

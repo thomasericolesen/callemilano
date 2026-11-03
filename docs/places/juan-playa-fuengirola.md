@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta PDF 2026: 12 quoted mains 10,00-24,00 € (median 16,75 €). Draught beer: the table lists ''CAÑA "VICTORIA" (33CL)'' and ''CAÑA EN COPA'' with 2,90 € and 3,60 € without a clear pairing; with 2,90 € the total is 19,65 € (€), with 3,60 € it is 20,35 € (€€). Owner decision 2026-11-03: €€ until the caña price is clear. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-03'
 links:
   official_website: https://www.juanplaya.es/
   booking: null
@@ -100,6 +100,14 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: cost_level
+  claim: '"ESCALOPE DE POLLO 14,00€" ; "FILETE DE POLLO A LA PLANCHA 13,25€" ; "ENTRECOTTE A LA PARRILLA (350G/400G.) 24,00€" ; "HAMBURGUESA CON PATATAS 10,95€" ; "CHISTORRA DE NAVARRA AL ESPETO 10,00€" ; "SALMÓN A LA PLANCHA 19,00€" ; "MERLUZA A LA PLANCHA O FRITA 20,00€" ; "LENGUADO A LA PLANCHA 21,50€" ; "PEZ ESPADA A LA PLANCHA 17,50€" ; "ROSADA A LA PLANCHA (CON GUARNICIÓN) 16,00€" ; "PESCADILLA 16,00€" ; "GAMBAS A LA PLANCHA (200 GRS.) 23,00€" ; "VICTORIA (BOTELLA- BOTTLE) 3,50€" ; "COCA COLA 3,25€" ; "RIOJA CRIANZA 4,50€"'
+  source_url: https://juanplaya.es/wp-content/uploads/2026/07/INTERIORES-JUAN-PLAYA_CARTA-2026.pdf
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: 'Method: curl. Home has no prices; carta PDF read with pdftotext (intake, downloaded with curl). Mains taken from the Carne and Pescado/Marisco sections (12 of the list shown; the PDF has many more fish and shellfish lines). Drink lines are from a two-column drinks table: the caña prices (''CAÑA "VICTORIA" (33CL)'' 2,90€ and ''CAÑA EN COPA'' 3,60€) could not be paired reliably, so they were not quoted. Prices in the PDF are per dish; ''precio por persona'' items (arroces, parrillada, zarzuela) were not used.'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -131,8 +139,15 @@ review_issues:
   description: BLOCKED.
   retryable: true
   owner: fact_check
+- code: cost_level_borderline
+  severity: info
+  description: € or €€ depends on which caña costs 2,90 € in the carta PDF; €€ by owner decision 2026-11-03.
+  fields:
+  - cost_level
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
