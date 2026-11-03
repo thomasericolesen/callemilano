@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-03 (evening) - Lounge El Trópico is a restaurant, not a bar (owner decision)
+
+- Owner decision 2026-11-03 (with the own website https://chiringuitoeltropico.com/en/home/, read again with curl the same day): Lounge El Trópico serves breakfast, lunch and dinner and is treated as a beach restaurant (chiringuito), like Chiringuito Los Moreno. It came in through the bars intake (`docs/bars-intake-2026-11-02.md`).
+- `lounge-el-tropico`: `description_long` no longer carries the bar advice ("take a taxi or Uber", "keep an eye on your drink"), so `tools/app_export.py` no longer flags it as a bar and `/turforslag` can use it; it now names the own-site name Chiringuito El Trópico and the menu prices already in the evidence. Issue `prices_unknown` removed (prices were read 2026-11-02, `cost_level` `€`). Name, ID, slug, category, tags and status (`needs_fact_check`) unchanged.
+- App export regenerated.
+
 ## 2026-11-03 (evening) - New restaurant price bands (owner decision)
 
 - Owner decision 2026-11-03, replacing the 15/35 € bands of 2026-11-01: price = the median main course on the menu + one drink per adult; `€` under 20 €, `€€` 20-50 €, `€€€` over 50 €. Reason: a fast-food meal in Denmark costs 120-140 kr (about 16-19 €), so the old `€` limit was below what guests see as cheap, and no record had `€`.

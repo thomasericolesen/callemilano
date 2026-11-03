@@ -82,7 +82,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Lounge El Trópico: beach lounge bar, about 13 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Lounge El Trópico is a beach lounge bar at C. Reina Fabiola, 13, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own website: a beach bar on the Mijas Costa seafront promenade with more than 30 years in business, open continuously from 09:30 to midnight from April to November, for breakfast, lunch, dinner or a drink on the beach, with sunbeds and massage services; the menu runs from full English breakfasts to nachos, burgers and sharing platters, with cocktails, smoothies and sangria. Prices were not checked. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.'
+description_long: 'Lounge El Trópico (Chiringuito El Trópico on its own website) is a beach restaurant (chiringuito) at C. Reina Fabiola, 13, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car (Google route check, Saturday 10:00). Its own website: a beach bar on the Mijas Costa seafront promenade with more than 30 years in business, open continuously from 09:30 to midnight from April to November, for breakfast, lunch, dinner or a drink on the beach, with sunbeds and massage services; the menu runs from full English breakfasts to nachos, burgers and sharing platters, with cocktails, smoothies and sangria. Its own menu lists, for example, a cheeseburger at 8,50 €, grilled chicken fillet with chips at 14,50 € and beers from 2,00 € (read 2026-11-02).'
 seo_title: Lounge El Trópico, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Lounge El Trópico (Mijas): location and drive time from Casa de la Familia.'
 images: []
@@ -144,13 +144,6 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: prices_unknown
-  severity: info
-  fields:
-  - cost_level
-  description: Prices not checked.
-  retryable: true
-  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-03'
 last_verified: '2026-11-02'
