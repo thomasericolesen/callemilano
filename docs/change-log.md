@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-03 (late evening) - AI-turplan merged into Turforslag (owner decision)
+
+- Owner decision 2026-11-03: the Lovable page "AI-turplan" (`/ai-tur`, OpenAI through the Lovable AI Gateway) is merged into `/turforslag`. Owner chose admin-only access at first; no model preference was given, so Claude is used (same key and spending cap as Ecco, one provider).
+- App PR thomasericolesen/callemilano-f388b2be#7: a "Beskriv jeres ønske" box on `/turforslag`; Claude picks 1-3 places from the app catalog (restaurants included, bars excluded) and the server keeps only catalog ids; the picks become the selected places and the wish goes to Ecco. `/ai-tur` redirects to `/turforslag`; admins get a "Turforslag" menu item.
+
 ## 2026-11-03 (late evening) - Fact check: five priced restaurants to needs_fact_check
 
 - `source-reader` read the own sites (home, contact and menu pages; 1 Firecrawl call) for Ragazzi, Marvelous Burger, Café NOMAD, Kalifato and Juan Playa; `record-writer` wrote descriptions, evidence, schedules (Ragazzi 12:30-23:30 except Tuesday; Café NOMAD daily 9:00-15:00; Juan Playa daily 13:00-17:00 and 19:00-23:00; season not stated), phone links and booking notes. All five `draft` -> `needs_fact_check`; `no_readable_own_source` and `facts_not_checked` resolved, `facts_partly_checked` added (hours for Marvelous Burger and Kalifato, children's facilities, accessibility, season, parking). Marvelous Burger has no phone (only a WhatsApp booking link on its Linktree). Sheriff left out (possibly closed).
