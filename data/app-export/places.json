@@ -8243,17 +8243,22 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": null,
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Restaurante Cerros del Águila: bar and grill at the sports area of Urbanización Cerros del Águila, about 7 min on foot or 3 min by car from Casa de la Familia. Draft; partly fact-checked.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Pris",
+      "text": "Owner's own knowledge (2026-11-03): a typical main plus a beer or a glass of wine costs under 20 €. No menu prices seen; the own Facebook page shows the price range \"moderate\". Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+     }
+    ],
     "links": {
      "official": "https://www.facebook.com/profile.php?id=100054645841442",
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
@@ -8267,7 +8272,7 @@
      "phone": "+34952668191",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },

@@ -1,9 +1,10 @@
 # Change log
 
-## 2026-11-03 (evening) - Lounge El Trópico is a restaurant, not a bar (owner decision)
+## 2026-11-03 (evening) - Lounge El Trópico is a restaurant; Cerros del Águila priced € (owner decisions)
 
 - Owner decision 2026-11-03 (with the own website https://chiringuitoeltropico.com/en/home/, read again with curl the same day): Lounge El Trópico serves breakfast, lunch and dinner and is treated as a beach restaurant (chiringuito), like Chiringuito Los Moreno. It came in through the bars intake (`docs/bars-intake-2026-11-02.md`).
 - `lounge-el-tropico`: `description_long` no longer carries the bar advice ("take a taxi or Uber", "keep an eye on your drink"), so `tools/app_export.py` no longer flags it as a bar and `/turforslag` can use it; it now names the own-site name Chiringuito El Trópico and the menu prices already in the evidence. Issue `prices_unknown` removed (prices were read 2026-11-02, `cost_level` `€`). Name, ID, slug, category, tags and status (`needs_fact_check`) unchanged.
+- `restaurante-cerros-del-aguila`: `cost_level` `Unknown` -> `€` on the owner's own knowledge (owner, 2026-11-03: a typical main plus a beer or a glass of wine is under 20 €; "sæt mig som kilde"). Evidence `confidence: low`; the own Facebook page's price range "moderate" is recorded as a conflict resolved by the editor-of-record; info issue `cost_level_owner_source`. Status unchanged (`needs_fact_check`).
 - App export regenerated.
 
 ## 2026-11-03 (evening) - New restaurant price bands (owner decision)
