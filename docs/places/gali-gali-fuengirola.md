@@ -69,7 +69,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own carta: mains about 14-20 € (e.g. lenguado 17,50 €, pluma ibérica 20,00 €); main plus a drink about 17-24 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35.'
+  cost_basis: 'Own carta: quoted mains 14,00, 17,50 and 20,00 € (median 17,50 €); drink prices not on the page, so main plus one drink is about 20 € (borderline € / €€). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: http://galigali.es/
@@ -157,7 +157,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

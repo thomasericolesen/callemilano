@@ -69,7 +69,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own website: mains from about 18,50-22 €, cocktails 12 €; main plus one drink about 30-34 €, upper edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_basis: 'Own website: main tartar de atún 22 €, cocktails 12 €; main plus one drink about 34 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://solobeachmarbella.com/
@@ -133,15 +133,8 @@ review_issues:
   description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing.'
   retryable: true
   owner: fact_check
-- code: cost_level_borderline
-  severity: info
-  fields:
-  - cost_level
-  description: Main plus a cocktail lands at about 30-34 €; €€ is the upper edge of the band.
-  retryable: true
-  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

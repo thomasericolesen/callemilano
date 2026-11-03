@@ -4,6 +4,8 @@ Disse stedposter er `approved`, så agenter må ikke ændre dem. Ejeren godkende
 
 Regel (ejerbeslutning 2026-11-01, bekræftet 2026-11-02): voksens hovedret + én drikkevare; € under 15 €, €€ 15–35 €, €€€ over 35 €.
 
+> Erstattet 2026-11-03: den midterste hovedret + én drikkevare; € under 20 €, €€ 20–50 €, €€€ over 50 €. Se `docs/change-log.md`.
+
 | Stedpost | Forslag | Grundlag | Kilde |
 |---|---|---|---|
 | `los-marinos-paco` | €€ | Egen carta: "Rosada a la plancha Grilled red snapper 17,00 €", "Entrecot Angus Angus entrecôte 26,00 €", "Paella de marisco Mínimo 2 personas 35,00 €" (dvs. 17,50 € pr. person). Ingen glas-/fadølspris, kun flaske vin 18,00 €. | https://www.losmarinospaco.es/carta.html (egen side, høj sikkerhed) |

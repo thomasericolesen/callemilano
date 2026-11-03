@@ -62,14 +62,14 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: €€
+cost_level: €
 visit_information:
   schedule: Mon-Tue, Thu-Sat 13:00-23:00; Sun 12:00-16:30; Wednesday not listed (own site, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own menu: mains about 13,50-21 € plus caña 1,60 € gives about 15-23 € per adult. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_basis: 'Own menu: quoted mains 13,50, 14,75 and 21,00 € (median 14,75 €) plus caña 1,60 € gives about 16,35 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.lalobezna.es/en/
@@ -135,7 +135,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

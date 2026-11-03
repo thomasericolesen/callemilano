@@ -69,7 +69,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own carta: mains about 15-32 € (spaghetti 15,00 €, salmon 19,00 €, Black Angus entrecôte 32,00 €); typical main plus a drink about 20-25 €, with steaks near the top of the band. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35.'
+  cost_basis: 'Own carta: quoted mains 15,00, 19,00 and 32,00 € (median 19,00 €); drink prices not on the page, so main plus one drink is just over 20 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://restaurantelosenebros.com/
@@ -161,11 +161,11 @@ review_issues:
   severity: info
   fields:
   - cost_level
-  description: Own à la carte puts a typical meal in €€, but steaks (32 €) plus a drink and the 39 € Menú Especial are €€€; the directory lead had 'dyr'.
+  description: Median quoted main 19 € plus a drink is just over 20 €; drink prices are not on the page, so the band is €€ at its lower edge.
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

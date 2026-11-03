@@ -15,7 +15,7 @@ Start here. Details per step are in `docs/change-log.md` (entries dated 2026-11-
 ## State at hand-over
 - 220 records, 0 validation errors, catalog regenerated. Work is on branch `claude/vigilant-cray-dtqaxz` (PR https://github.com/thomasericolesen/callemilano/pull/39 to `main`; check whether it is merged, and if so start from `main`).
 - Restaurants (non-bar, not archived): 68 records; 32 have `cost_level`, 36 are `Unknown`. Bars (18) are skipped by `tools/trip.py` and were not priced.
-- Price-band rule (owner decision 2026-11-01, confirmed 2026-11-02): adult main + one drink; `€` < 15 €, `€€` 15-35 €, `€€€` > 35 €. Own menu first; TheFork average price / Tripadvisor marking as a noted low-confidence fallback (owner decision 2026-11-02). Google Maps prices are never used (AGENTS.md).
+- Price-band rule (owner decision 2026-11-03, replaces the 15/35 € rule of 2026-11-01): median main on the menu + one drink; `€` < 20 €, `€€` 20-50 €, `€€€` > 50 €. Own menu first; TheFork average price / Tripadvisor marking as a noted low-confidence fallback (owner decision 2026-11-02). Google Maps prices are never used (AGENTS.md).
 
 ### Done 2026-11-02 evening
 1. `cost_level` from own menus for 11 records and from TheFork/Tripadvisor for 17; five approved records priced after owner approval (`docs/cost-level-proposals-2026-11-02.md`); Somos de Banús `€€€` (owner).

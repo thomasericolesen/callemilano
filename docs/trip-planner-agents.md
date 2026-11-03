@@ -55,7 +55,7 @@ Navnene lever videre. **Alpha** og **Charlie** er indsamlingsagenter. **Bravo** 
 1. **Værten kører det.** En selvbetjeningsløsning for gæster kan bygges senere oven på `tools/trip.py plan`.
 2. **To faser** (forarbejde + hurtigt turforslag) i stedet for fem agenter, der arbejder ved hvert turforslag.
 3. **Restauranter indsamles på forhånd pr. område** og opdateres ca. hver 3. måned.
-4. **Prisklasser** (voksens hovedret + én drikkevare): billig < 15 €, mellem 15–35 €, dyr > 35 €.
+4. **Prisklasser** (den midterste hovedret på menuen + én drikkevare; ejerbeslutning 2026-11-03, erstatter 15/35 €): billig < 20 €, mellem 20–50 €, dyr > 50 €.
 5. **Afstand restaurant–sted:** ca. 10 minutters gang (≤ 800 m luftlinje). Det udvides kun ved mangel, til ca. 3 km
    markeret "kort kørsel".
 6. **Restauranter i et let katalog**, ikke som fulde stedposter.

@@ -69,7 +69,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own Facebook page price range ''Moderat'' (Facebook''s middle price marking), read as the 15-35 € band; no menu prices seen. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35.'
+  cost_basis: 'Own Facebook page price range ''Moderat'' (Facebook''s middle price marking), read as the €€ band; no menu prices seen. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.facebook.com/restlasierra
@@ -130,7 +130,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

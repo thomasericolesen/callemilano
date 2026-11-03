@@ -1,6 +1,6 @@
 {
  "manifest": {
-  "generated": "2026-11-02",
+  "generated": "2026-11-03",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
   "places": 144,
@@ -348,7 +348,7 @@
      },
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
      }
     ],
     "links": {
@@ -370,7 +370,7 @@
      "phone": "+34604241785",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -1908,7 +1908,7 @@
      },
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
      }
     ],
     "links": {
@@ -1930,7 +1930,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -1972,7 +1972,7 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": "middel",
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Chiringuito La Concha: espetos and seafood on the beach at El Palo.",
@@ -1983,7 +1983,7 @@
      },
      {
       "label": "Pris",
-      "text": "Own menu: mains about 14-23 € (rice 9 € pp, min. 2) plus caña 2,30 € gives about 16-25 € per adult. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own menu: quoted mains 9,00 € pp (rice, min. 2), 14,00 € and 23,00 € (median 14,00 €) plus caña 2,30 € gives about 16,30 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -2005,7 +2005,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -2059,7 +2059,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
      }
     ],
     "links": {
@@ -2081,7 +2081,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -2134,7 +2134,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "No own website; Tripadvisor price marking '€€ - €€€' read as the middle band. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "No own website; Tripadvisor price marking '€€ - €€€' read as the middle band. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -2156,7 +2156,7 @@
      "phone": "+34615673977",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -2207,7 +2207,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
      }
     ],
     "links": {
@@ -2229,7 +2229,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -2971,7 +2971,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "Own à la carte menu: mains 26-32 €; drink prices not on the page, so main plus one drink is at the upper edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own à la carte menu: quoted mains 26, 28 and 32 € (median 28 €); drink prices not on the page, so main plus one drink is about 30 € or more, inside 20-50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -2993,7 +2993,7 @@
      "phone": "+34952587550",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -3766,7 +3766,7 @@
      },
      {
       "label": "Pris",
-      "text": "Own carta: mains about 14-20 € (e.g. lenguado 17,50 €, pluma ibérica 20,00 €); main plus a drink about 17-24 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35."
+      "text": "Own carta: quoted mains 14,00, 17,50 and 20,00 € (median 17,50 €); drink prices not on the page, so main plus one drink is about 20 € (borderline € / €€). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -3788,7 +3788,7 @@
      "phone": "+34682199629",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -4139,7 +4139,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
      }
     ],
     "links": {
@@ -4161,7 +4161,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -4762,7 +4762,7 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": "middel",
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "La Lobezna, Estepona: bar-restaurant with seafood, Spanish and Latin American dishes.",
@@ -4773,7 +4773,7 @@
      },
      {
       "label": "Pris",
-      "text": "Own menu: mains about 13,50-21 € plus caña 1,60 € gives about 15-23 € per adult. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own menu: quoted mains 13,50, 14,75 and 21,00 € (median 14,75 €) plus caña 1,60 € gives about 16,35 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -4795,7 +4795,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -4854,7 +4854,7 @@
      },
      {
       "label": "Pris",
-      "text": "No prices on own carta; Tripadvisor price marking '€€ - €€€' read as the middle band. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "No prices on own carta; Tripadvisor price marking '€€ - €€€' read as the middle band. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -4876,7 +4876,7 @@
      "phone": "+34951312241",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -4987,7 +4987,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "Own Facebook page price range 'Moderat' (Facebook's middle price marking), read as the 15-35 € band; no menu prices seen. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35."
+      "text": "Own Facebook page price range 'Moderat' (Facebook's middle price marking), read as the €€ band; no menu prices seen. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -5009,7 +5009,7 @@
      "phone": "+34951741990",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -5344,7 +5344,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "Own carta: mains about 15-32 € (spaghetti 15,00 €, salmon 19,00 €, Black Angus entrecôte 32,00 €); typical main plus a drink about 20-25 €, with steaks near the top of the band. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35."
+      "text": "Own carta: quoted mains 15,00, 19,00 and 32,00 € (median 19,00 €); drink prices not on the page, so main plus one drink is just over 20 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -5366,7 +5366,7 @@
      "phone": "+34952665550",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -5426,7 +5426,7 @@
      },
      {
       "label": "Pris",
-      "text": "Own menu: mains about 17-26 € (seafood paella 35 € for min. 2 people); main plus one drink about 20-30 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own menu: quoted mains 17,00 €, 26,00 € and seafood paella 35,00 € for min. 2 (17,50 € pp); median 17,50 €. Only a bottle of house wine (18,00 €) is priced, so main plus one drink is about 20 € (borderline € / €€). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -5448,7 +5448,7 @@
      "phone": "+34952661320",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -5494,7 +5494,7 @@
     "themes": [
      "strand"
     ],
-    "cost_level": "middel",
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Lounge El Trópico: beach lounge bar, about 13 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
@@ -5505,7 +5505,7 @@
      },
      {
       "label": "Pris",
-      "text": "Own menu: mains about 8,50-14,90 € plus beer from 2,00 €; typical main with a drink about 11-18 €, lower edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own menu: quoted mains 8,50, 14,50 and 14,90 € (median 14,50 €) plus beer from 2,00 € gives about 16,50 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -5527,7 +5527,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -5811,7 +5811,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
      }
     ],
     "links": {
@@ -5833,7 +5833,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -6022,7 +6022,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "Own carta: mains about 18-21 €; drinks from 4,50 €; main plus a drink about 22-26 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35."
+      "text": "Own carta: quoted mains 18,00, 18,50 and 21,00 € (median 18,50 €) plus wine glass 4,50 € gives about 23 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -6044,7 +6044,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -6554,7 +6554,7 @@
      },
      {
       "label": "Pris",
-      "text": "Own menu: mains about 19,90-20,90 €; TheFork average price 18 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own menu: quoted mains 19,90 and 20,90 € (median about 20,40 €); TheFork average price 18 €. Main plus one drink is over 20 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -6576,7 +6576,7 @@
      "phone": "+34952185597",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -7040,7 +7040,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "Own website: set menus 27-30 € per person (Chateaubriand menu 30 €); children's menu 7,50 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35."
+      "text": "Own website: set menus 27-30 € per person (Chateaubriand menu 30 €); children's menu 7,50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -7062,7 +7062,7 @@
      "phone": "+34952472606",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -8179,7 +8179,7 @@
      },
      {
       "label": "Pris",
-      "text": "Own menu: mains about 26-29,50 €; drink prices not on the page, so main plus one drink is at the upper edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own menu: quoted mains 26,00 and 29,50 € (median about 27,75 €); drink prices not on the page, so main plus one drink is about 30 € or more, inside 20-50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -8201,7 +8201,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -8316,7 +8316,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
      }
     ],
     "links": {
@@ -8338,7 +8338,7 @@
      "phone": "+34622797207",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -8682,7 +8682,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "Own menu: mains about 18,50-26 €, house wine glass 4,00 €; about 22-30 € per adult. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own menu: quoted mains 18,50, 18,50 and 26,00 € (median 18,50 €) plus beer 3,50 € gives about 22 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -8704,7 +8704,7 @@
      "phone": "+34952564382",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -9367,7 +9367,7 @@
      },
      {
       "label": "Pris",
-      "text": "Own website: mains from about 18,50-22 €, cocktails 12 €; main plus one drink about 30-34 €, upper edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own website: main tartar de atún 22 €, cocktails 12 €; main plus one drink about 34 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -9389,7 +9389,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -9641,7 +9641,7 @@
      },
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
      }
     ],
     "links": {
@@ -9663,7 +9663,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -9803,7 +9803,7 @@
      },
      {
       "label": "Pris",
-      "text": "No prices on own site; TheFork average price (\"Precio medio: 24 €\"; \"€€ - €€€\") falls in the 15-35 € band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; TheFork average price (\"Precio medio: 24 €\"; \"€€ - €€€\") is inside the 20-50 € band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -9825,7 +9825,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -10181,7 +10181,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"Precio. €€ - €€€.\" read as the middle band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35."
+      "text": "No prices on own site; Tripadvisor price marking \"Precio. €€ - €€€.\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
      }
     ],
     "links": {
@@ -10203,7 +10203,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
