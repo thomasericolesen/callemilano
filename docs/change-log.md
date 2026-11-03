@@ -2,8 +2,8 @@
 
 ## 2026-11-03 (late evening) - AI-turplan merged into Turforslag (owner decision)
 
-- Owner decision 2026-11-03: the Lovable page "AI-turplan" (`/ai-tur`, OpenAI through the Lovable AI Gateway) is merged into `/turforslag`. Owner chose admin-only access at first; no model preference was given, so Claude is used (same key and spending cap as Ecco, one provider).
-- App PR thomasericolesen/callemilano-f388b2be#7: a "Beskriv jeres ønske" box on `/turforslag`; Claude picks 1-3 places from the app catalog (restaurants included, bars excluded) and the server keeps only catalog ids; the picks become the selected places and the wish goes to Ecco. `/ai-tur` redirects to `/turforslag`; admins get a "Turforslag" menu item.
+- Owner decision 2026-11-03: the Lovable page "AI-turplan" (`/ai-tur`, OpenAI through the Lovable AI Gateway) is merged into `/turforslag`. Owner chose admin-only access at first and then asked for consensus between OpenAI and Claude, not either/or.
+- App PR thomasericolesen/callemilano-f388b2be#7: a "Beskriv jeres ønske" box on `/turforslag`; Claude and OpenAI (Lovable AI Gateway) each pick 1-3 places in parallel from the same catalog; places both pick come first ("Claude og OpenAI enige"), single-model picks fill up to 3 and are marked; if one model fails the other's picks are used with a "no consensus" note. Ecco still writes the text with Claude. The catalog includes restaurants and excludes bars, and the server keeps only catalog ids; the picks become the selected places and the wish goes to Ecco. `/ai-tur` redirects to `/turforslag`; admins get a "Turforslag" menu item.
 
 ## 2026-11-03 (late evening) - Fact check: five priced restaurants to needs_fact_check
 
