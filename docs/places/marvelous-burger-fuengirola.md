@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-MARVELOUS-BURGER-FUENGIROLA-001
 slug: marvelous-burger-fuengirola
 name: Marvelous Burger
@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta PDF (July 2026, linked from the own Linktree): 12 quoted burgers 11,99-15,50 € (median about 14,25 €) plus caña 1,90 € gives about 16,15 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-03'
 links:
   official_website: https://linktr.ee/marvel0usburger
   booking: null
@@ -78,8 +78,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Marvelous Burger: a burger restaurant in central Fuengirola, about 15 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'Marvelous Burger is a burger restaurant in central Fuengirola. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet. Owner''s recommendation (callemilano.dk): Really tasty smash burgers.'
+description_short: 'Marvelous Burger: burger restaurant at C. de la Cruz 10 in Fuengirola, about 15 min by car from Casa de la Familia.'
+description_long: 'Marvelous Burger is a burger restaurant at C. de la Cruz, 10 in central Fuengirola. Its own Linktree says each burger comes with homemade fries and links to delivery and to a table reservation via WhatsApp ("Reservar mesa en Marvelous"). About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Burgers on the own menu (July 2026) cost about 11,99-15,50 € (price check, 2026-11-03). Opening hours, children''s facilities and accessibility were not found on the own Linktree. Owner''s recommendation (callemilano.dk): Really tasty smash burgers.'
 seo_title: Marvelous Burger, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Marvelous Burger (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -108,18 +108,39 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Owner''s own recommendation (kind ''anbefaling'') on callemilano.dk, read from the Lovable app database 2026-11-02; site tags: børn, burger, aftensmad. Personal experience, not independently verified.'
+- field: cost_level
+  claim: '"hulk 15.50€" ; "punisher 14.50€" ; "SPIDER MAN 11.99€" ; "VENOM 12.99€" ; "thanos 13.99€" ; "DEADPOOL 13.99€" ; "thor 13.99€" ; "Ironman 14.99€" ; "capitan america 14.99€" ; "loki 13.99€" ; "black panther 15.50€" ; "wolverine 13.99€" ; "Caña 1.90€" ; "Copa Vino 4.50€" ; "Coca Cola / Zero 2.80€"'
+  source_url: https://drive.google.com/file/d/1Ps2AWsa5nytJmIP4bAPMIVJxotF_Kvc8/view?usp=sharing
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: 'Method: playwright. Linktree page (intake headless Chromium, method recorded as playwright) links to Google Drive PDFs. Used the Spanish carta (''carta español marvelous 2026 (julio).pdf'', 2 pages, read through the Drive viewer text). Source layout is messy: ''drax 15.99€'' and ''dr. strange 13.99€'' were NOT quoted because the name/price pairing is unclear. BLACK WIDOW 14.50€ omitted to stay at 12 lines. Carta does not state a branch; Fuengirola not confirmed from the text. Drinks ''Caña'' and ''Copa Vino'' lines are from page 2 of the same PDF.'
+- field: description_long
+  claim: '"Cada burger viene con patatas fritas caseras" ; "DELIVERY"'
+  source_url: https://linktr.ee/marvel0usburger
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Linktree read via curl 2026-11-03; menu PDF (July 2026) linked from it, page 1 of 2 read.
+- field: description_long
+  claim: '"Reservar mesa en Marvelous"'
+  source_url: https://linktr.ee/marvel0usburger
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Link opens WhatsApp. The number in the link is not recorded as a restaurant phone.
+- field: address
+  claim: '"C. de la Cruz, 10, Fuengirola"'
+  source_url: https://linktr.ee/marvel0usburger
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Matches the Google Places identity.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,8 +151,18 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - visit_information
+  - booking_required
+  - accessibility
+  - parking
+  description: 'Own Linktree read. Still open: opening hours and season, phone number as text, children''s menu/high chairs, accessibility, parking, whether booking is required.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

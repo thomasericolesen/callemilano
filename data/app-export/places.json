@@ -3,7 +3,7 @@
   "generated": "2026-11-03",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
-  "places": 144,
+  "places": 149,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership"
  },
@@ -1297,6 +1297,81 @@
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-10-30"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-CAFE-NOMAD-FUENGIROLA-001",
+   "slug": "cafe-nomad-fuengirola",
+   "name": "Café NOMAD",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.5299519,
+   "lng": -4.625333599999999,
+   "google_maps_url": "https://maps.google.com/?cid=14354984446097864982",
+   "google_place_id": "ChIJORomslricg0RFrnrOUwmN8c",
+   "url": "https://cafenomadfuengirola.com/",
+   "tags": [
+    "spisested"
+   ],
+   "description": "Café NOMAD is a café at Paseo Marítimo Rey de España 3 in Fuengirola. Its own website describes breakfast, brunch and lunch facing the sea, with glass doors folded back onto the promenade, parasols on the sand and \"sandy feet welcome\". It is open daily 9:00-15:00 according to the own website, which does not say whether this changes by season. The own website says walk-ins are always welcome; booking just means a table is waiting, which matters most at weekends and for groups. About 10 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Favourites on the own website cost about 10,90-14,20 € (price check, 2026-11-03). Nothing about children's facilities or accessibility was found. Owner's recommendation (callemilano.dk): Very good for breakfast.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 10,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": "lav",
+    "booking_required": false,
+    "wheelchair": "ukendt",
+    "summary": "Café NOMAD: sea-facing café for breakfast, brunch and lunch on the Paseo Marítimo in Fuengirola, about 10 min by car from Casa de la Familia.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Daily 9:00-15:00 (own website); season not stated."
+     },
+     {
+      "label": "Pris",
+      "text": "Own website: 4 quoted favourites 10,90-14,20 € (median 13,20 €); drink prices not quoted, so main plus one drink stays under 20 € unless the drink costs more than 6,80 €. Owner decision 2026-11-03: €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+     }
+    ],
+    "links": {
+     "official": "https://cafenomadfuengirola.com/",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-03",
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Daily 9:00-15:00 (own website); season not stated.",
+     "schedule_checked_at": "2026-11-03",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34951536411",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -4322,6 +4397,81 @@
    }
   },
   {
+   "id": "ES-AND-MAL-JUAN-PLAYA-FUENGIROLA-001",
+   "slug": "juan-playa-fuengirola",
+   "name": "Juan Playa Restaurante",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.5550533,
+   "lng": -4.6115601999999996,
+   "google_maps_url": "https://maps.google.com/?cid=3740879446821611363",
+   "google_place_id": "ChIJpQQye2vicg0RY6dcbwlG6jM",
+   "url": "https://www.juanplaya.es/",
+   "tags": [
+    "spisested"
+   ],
+   "description": "Juan Playa is a restaurant on the beach in Fuengirola. Its own website lists fresh fish espetos and a selection of paellas and rice dishes. The own website says it is open every day 13:00-17:00 and 19:00-23:00 and does not say whether this changes by season. Reservations are by phone (+34 952 660 717). About 16 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Main courses on the own menu (2026) cost about 10,00-24,00 € (price check, 2026-11-03). The own website gives no street address; the location here comes from Google Places. Children's facilities and accessibility were not found.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 16,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": "middel",
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Juan Playa: beach restaurant in Fuengirola with fresh fish espetos, paellas and rice dishes, about 16 min by car from Casa de la Familia.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Daily 13:00-17:00 and 19:00-23:00 (own website); season not stated."
+     },
+     {
+      "label": "Pris",
+      "text": "Own carta PDF 2026: 12 quoted mains 10,00-24,00 € (median 16,75 €). Draught beer: the table lists 'CAÑA \"VICTORIA\" (33CL)' and 'CAÑA EN COPA' with 2,90 € and 3,60 € without a clear pairing; with 2,90 € the total is 19,65 € (€), with 3,60 € it is 20,35 € (€€). Owner decision 2026-11-03: €€ until the caña price is clear. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+     }
+    ],
+    "links": {
+     "official": "https://www.juanplaya.es/",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-03",
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Daily 13:00-17:00 and 19:00-23:00 (own website); season not stated.",
+     "schedule_checked_at": "2026-11-03",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952660717",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-03"
+    }
+   }
+  },
+  {
    "id": "ES-AND-MAL-JUANAR-MACHO-MONTES-001",
    "slug": "juanar-macho-montes",
    "name": "Juanar and Mirador del Macho Montés",
@@ -4451,6 +4601,77 @@
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-02"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-KALIFATO-BENALMADENA-001",
+   "slug": "kalifato-benalmadena",
+   "name": "Kalifato Lounge Beach Bar",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Benalmádena",
+   "lat": 36.572894600000005,
+   "lng": -4.5881899,
+   "google_maps_url": "https://maps.google.com/?cid=6257269945064622695",
+   "google_place_id": "ChIJvZpUlQHjcg0RZwpO09xJ1lY",
+   "url": "http://www.kalifatobeach.es/",
+   "tags": [
+    "spisested"
+   ],
+   "description": "Kalifato is a beach bar at Playa Carvajal, 6 in Benalmádena; its own website is named Kalifato Beach. The own website describes a beach bar in a unique enclave on the Costa del Sol, specialised in Mediterranean cuisine, and says you can go there for breakfast, lunch and dinner. To reserve a table the own website says to call. About 18 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Main courses on the own menu (May 2026) cost about 10,50-27,00 € (price check, 2026-11-03). Opening hours, children's facilities and accessibility were not found on the own website.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 18,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": "middel",
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Kalifato (own site: Kalifato Beach): Mediterranean beach bar at Playa Carvajal, Benalmádena, about 18 min by car from Casa de la Familia.",
+    "practical": [
+     {
+      "label": "Pris",
+      "text": "Own carta PDF (May 2026): 12 quoted mains 10,50-27,00 € (median 20,75 €) plus soft drink 3,00 € gives about 23,75 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+     }
+    ],
+    "links": {
+     "official": "http://www.kalifatobeach.es/",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-03",
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952568259",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-03"
     }
    }
   },
@@ -5826,6 +6047,77 @@
      "municipality": "Marbella",
      "schedule": null,
      "schedule_checked_at": "2026-11-02",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-03"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-MARVELOUS-BURGER-FUENGIROLA-001",
+   "slug": "marvelous-burger-fuengirola",
+   "name": "Marvelous Burger",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.5386688,
+   "lng": -4.6220028,
+   "google_maps_url": "https://maps.google.com/?cid=8155955310575303574",
+   "google_place_id": "ChIJyc8hycbjcg0RljvNkiTGL3E",
+   "url": "https://linktr.ee/marvel0usburger",
+   "tags": [
+    "spisested"
+   ],
+   "description": "Marvelous Burger is a burger restaurant at C. de la Cruz, 10 in central Fuengirola. Its own Linktree says each burger comes with homemade fries and links to delivery and to a table reservation via WhatsApp (\"Reservar mesa en Marvelous\"). About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Burgers on the own menu (July 2026) cost about 11,99-15,50 € (price check, 2026-11-03). Opening hours, children's facilities and accessibility were not found on the own Linktree. Owner's recommendation (callemilano.dk): Really tasty smash burgers.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 15,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": "lav",
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Marvelous Burger: burger restaurant at C. de la Cruz 10 in Fuengirola, about 15 min by car from Casa de la Familia.",
+    "practical": [
+     {
+      "label": "Pris",
+      "text": "Own carta PDF (July 2026, linked from the own Linktree): 12 quoted burgers 11,99-15,50 € (median about 14,25 €) plus caña 1,90 € gives about 16,15 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+     }
+    ],
+    "links": {
+     "official": "https://linktr.ee/marvel0usburger",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-03",
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -7998,6 +8290,81 @@
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-02"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-RAGAZZI-FUENGIROLA-001",
+   "slug": "ragazzi-fuengirola",
+   "name": "Ragazzi Pizza & Pasta",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.5311859,
+   "lng": -4.6245826999999995,
+   "google_maps_url": "https://maps.google.com/?cid=8888242209747828090",
+   "google_place_id": "ChIJ0YFNqRLicg0Rev2mpTJhWXs",
+   "url": "https://www.ragazzi.es/",
+   "tags": [
+    "spisested"
+   ],
+   "description": "Ragazzi Pizza & Pasta is an Italian restaurant on the Paseo Marítimo Rey de España in Fuengirola. Its own website says it serves traditional pasta dishes, lasagne, cannelloni and Neapolitan pizza made with fresh sourdough. The own website gives opening hours of 12:30 to 23:30, except Tuesday; it does not say whether this changes by season. The own website also offers take-away and delivery. About 11 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Main courses on the own menu cost about 9,50-15,50 € (price check, 2026-11-03). Nothing about children's facilities, accessibility or booking rules was found on the own website.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 11,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": "lav",
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Ragazzi Pizza & Pasta: Italian restaurant on the Paseo Marítimo in Fuengirola with pasta and pizza, about 11 min by car from Casa de la Familia.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "12:30-23:30, closed Tuesday (own website); season not stated."
+     },
+     {
+      "label": "Pris",
+      "text": "Own menu PDF: 12 quoted mains 9,50-15,50 € (median 13,40 €) plus caña 2,90 € gives about 16,30 € per adult. The PDF names no branch; matched to Ragazzi Fuengirola by its own website. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+     }
+    ],
+    "links": {
+     "official": "https://www.ragazzi.es/",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-03",
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "12:30-23:30, closed Tuesday (own website); season not stated.",
+     "schedule_checked_at": "2026-11-03",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952478055",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-03"
     }
    }
   },

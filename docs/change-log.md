@@ -1,5 +1,18 @@
 # Change log
 
+## 2026-11-03 (late evening) - Fact check: five priced restaurants to needs_fact_check
+
+- `source-reader` read the own sites (home, contact and menu pages; 1 Firecrawl call) for Ragazzi, Marvelous Burger, Café NOMAD, Kalifato and Juan Playa; `record-writer` wrote descriptions, evidence, schedules (Ragazzi 12:30-23:30 except Tuesday; Café NOMAD daily 9:00-15:00; Juan Playa daily 13:00-17:00 and 19:00-23:00; season not stated), phone links and booking notes. All five `draft` -> `needs_fact_check`; `no_readable_own_source` and `facts_not_checked` resolved, `facts_partly_checked` added (hours for Marvelous Burger and Kalifato, children's facilities, accessibility, season, parking). Marvelous Burger has no phone (only a WhatsApp booking link on its Linktree). Sheriff left out (possibly closed).
+- Orchestrator spot checks against the live pages: Ragazzi "12:30 a 23:30h", Café NOMAD "9.00 — 15.00", Juan Playa "13:00h a 17:00h", Kalifato phone "952 56 82 59", and Ragazzi take-away/delivery (evidence added).
+- Catalog and app export regenerated: Ragazzi, Marvelous Burger and Café NOMAD now reach the app as `€`, Kalifato and Juan Playa as `€€`.
+
+## 2026-11-03 (late evening) - Price check batch 1: restaurants within 30 minutes
+
+- First batch with the free fetch steps: `source-reader` read own sites and menus for 21 restaurants within 30 min of Casa de la Familia (La Mar Salá skipped: approved; La Zambra: hotel resort). 5 Firecrawl calls (Ragazzi and Kalifato PDFs are images). Spot checks by the orchestrator against the live sources: Sheriff (Pollo asado 14,20 €, Entrecot plancha 26,20 €, Spaguetti bolognese 12,00 €) and Juan Playa (Escalope de pollo 14,00 €, Hamburguesa con patatas 10,95 €, Coca Cola 3,25 €) match.
+- New `cost_level` (median quoted main + one drink, rule of 2026-11-03): `ragazzi-fuengirola` `€` (about 16,30 €; issue `menu_branch_unconfirmed`), `marvelous-burger-fuengirola` `€` (about 16,15 €), `kalifato-benalmadena` `€€` (about 23,75 €). Owner decisions on borderline cases: `cafe-nomad-fuengirola` `€` (median 13,20 €, no drink price), `juan-playa-fuengirola` `€€` (median 16,75 €; caña 2,90 or 3,60 € not pairable in the PDF), `restaurante-sheriff` stays `Unknown` (median 16,70 €, no drink price, possibly closed). Borderline cases carry `cost_level_borderline`. Evidence quotes verbatim; statuses unchanged (draft).
+- No prices on the own pages: Restaurante Hoyo 19, Asador Otola, El Mirador del Golf, La Tagliatella, Burger King (only a "desde 3,50€" bundle), Casa Carmen, The Good Burger, Freiduría El Choco, Kamura Sushi (image menu), El Higuerón, Sollo (only a 180 € tasting menu). Blocked: Foster's Hollywood (403), Da Vinci Los Boliches (DNS failure; URL to check), UTOPÍA and Venta los Condes (PDFs not readable).
+- Catalog and app export regenerated.
+
 ## 2026-11-03 (late evening) - Free page fetching before Firecrawl (owner request)
 
 - Owner asked for an alternative to Firecrawl (credits ran out on 2026-11-02). `tools/intake.py fetch` now tries free steps in order: curl; PDF text with `pdftotext` (also when the server says the page is a PDF); headless Chromium through the new `tools/render_page.mjs` (Node Playwright, already installed in the cloud environment) when curl is blocked, empty or needs JavaScript. Only pages that still fail are marked `needs_firecrawl`. Facebook/Instagram URLs are marked `login_wall` (no tool gets past the login; owner screenshot instead). `_status.json` now records `method` and up to ten menu/carta/PDF links per page.

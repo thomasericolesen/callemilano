@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-CAFE-NOMAD-FUENGIROLA-001
 slug: cafe-nomad-fuengirola
 name: Café NOMAD
@@ -58,28 +58,28 @@ parking:
   source: null
   checked_at: null
 transport_options: []
-booking_required: unknown
+booking_required: false
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
-  schedule: null
+  schedule: Daily 9:00-15:00 (own website); season not stated.
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own website: 4 quoted favourites 10,90-14,20 € (median 13,20 €); drink prices not quoted, so main plus one drink stays under 20 € unless the drink costs more than 6,80 €. Owner decision 2026-11-03: €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-03'
 links:
   official_website: https://cafenomadfuengirola.com/
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34951536411
 related_places: []
-description_short: 'Café NOMAD: a café on the Paseo Marítimo, about 10 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'Café NOMAD is a café on the Paseo Marítimo. About 10 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet. Owner''s recommendation (callemilano.dk): Very good for breakfast.'
+description_short: 'Café NOMAD: sea-facing café for breakfast, brunch and lunch on the Paseo Marítimo in Fuengirola, about 10 min by car from Casa de la Familia.'
+description_long: 'Café NOMAD is a café at Paseo Marítimo Rey de España 3 in Fuengirola. Its own website describes breakfast, brunch and lunch facing the sea, with glass doors folded back onto the promenade, parasols on the sand and "sandy feet welcome". It is open daily 9:00-15:00 according to the own website, which does not say whether this changes by season. The own website says walk-ins are always welcome; booking just means a table is waiting, which matters most at weekends and for groups. About 10 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Favourites on the own website cost about 10,90-14,20 € (price check, 2026-11-03). Nothing about children''s facilities or accessibility was found. Owner''s recommendation (callemilano.dk): Very good for breakfast.'
 seo_title: Café NOMAD, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Café NOMAD (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -108,18 +108,55 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Owner''s own recommendation (kind ''anbefaling'') on callemilano.dk, read from the Lovable app database 2026-11-02; site tags: børn, morgenmad. Personal experience, not independently verified.'
+- field: cost_level
+  claim: '"So-fish-ticated 12.90 €" ; "Avoholic 10.90 €" ; "Nomad poké bowl 14.20 €" ; "Green Ocean 13.50 €"'
+  source_url: https://cafenomadfuengirola.com/
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: 'Method: curl. Home page has 4 prices in the ''The favourites'' section (name line and price line in source, joined here). Home already has prices, so the menu page was not followed per the rule. The full menu is https://cafenomadfuengirola.com/menu.html (link text ''See the menu''); it may give more main-course lines if the orchestrator asks for it. No drink prices on home.'
+- field: description_long
+  claim: '"Breakfast, brunch and lunch, facing the sea" ; "Glass doors folded back onto the promenade, parasols on the sand, sandy feet welcome."'
+  source_url: https://cafenomadfuengirola.com/
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Home page, /contact and /menu.html read via curl 2026-11-03.
+- field: visit_information.schedule
+  claim: '"Monday — Friday 9.00 — 15.00" ; "Saturday 9.00 — 15.00" ; "Sunday 9.00 — 15.00"'
+  source_url: https://cafenomadfuengirola.com/contact
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Seasonal status not stated.
+- field: booking_required
+  claim: '"Walk-ins are always welcome — booking just means a table is waiting, which matters most at weekends and for groups." ; "A booking is only held once we have answered you. We reply by phone or email."'
+  source_url: https://cafenomadfuengirola.com/contact
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Booking is optional, so booking_required is false.
+- field: links.contact
+  claim: '"+34 951 53 64 11"'
+  source_url: https://cafenomadfuengirola.com/contact
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: ''
+- field: address
+  claim: '"Paseo Marítimo Rey de España 3" ; "29640 Fuengirola, Málaga"'
+  source_url: https://cafenomadfuengirola.com/contact
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Matches the Google Places identity.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,8 +167,24 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: cost_level_borderline
+  severity: info
+  description: No drink price quoted; € assumes a drink under 6,80 € (owner decision 2026-11-03). Full menu at https://cafenomadfuengirola.com/menu.html not read.
+  fields:
+  - cost_level
+  retryable: true
+  owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - visit_information
+  - accessibility
+  - parking
+  description: 'Own website read. Still open: whether hours change by season, children''s menu/high chairs, accessibility, parking, full menu prices (see cost_level_borderline).'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
