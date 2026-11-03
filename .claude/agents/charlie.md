@@ -33,7 +33,7 @@ Fuengirola). Søg én gang for hele området, og fordel så restauranterne på s
 
 ## Regler (ejerbeslutning 2026-11-01)
 
-- **Prisklasse** (voksens hovedret + én drikkevare): `billig` < 15 €, `mellem` 15–35 €, `dyr` > 35 €.
+- **Prisklasse** (den midterste hovedret på menuen + én drikkevare, ejerbeslutning 2026-11-03): `billig` < 20 €, `mellem` 20–50 €, `dyr` > 50 €.
   Find den helst fra egen menu. Ellers kan TheFork/Tripadvisor bruges (€ = billig, €€ = mellem, €€€+ = dyr).
   Skriv kilden i `price_basis`.
 - **Kilder:** restaurantens egen side, menu eller officielle sociale profil først. Google Maps-opslaget bruges kun

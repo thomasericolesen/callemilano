@@ -62,14 +62,14 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: €€
+cost_level: €
 visit_information:
   schedule: 'Summer: daily 11:00-17:00 and 18:00-23:30 (own site); winter hours not published.'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own menu: mains about 14-23 € (rice 9 € pp, min. 2) plus caña 2,30 € gives about 16-25 € per adult. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_basis: 'Own menu: quoted mains 9,00 € pp (rice, min. 2), 14,00 € and 23,00 € (median 14,00 €) plus caña 2,30 € gives about 16,30 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.chiringuitolaconcha.com/
@@ -134,7 +134,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

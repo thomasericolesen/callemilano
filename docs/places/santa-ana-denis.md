@@ -74,7 +74,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own menu: mains about 18,50-26 €, house wine glass 4,00 €; about 22-30 € per adult. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_basis: 'Own menu: quoted mains 18,50, 18,50 and 26,00 € (median 18,50 €) plus beer 3,50 € gives about 22 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.restaurantesantaanadenis.com/
@@ -150,7 +150,7 @@ evidence:
   notes: Own carta; name, translation and price joined with ' / '.
 review_issues: []
 created_at: 2026-11-01
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: 2026-11-01
 last_reviewed_at: 2026-11-02
 next_review_at: 2027-04-01

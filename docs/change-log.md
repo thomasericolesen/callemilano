@@ -1,5 +1,15 @@
 # Change log
 
+## 2026-11-03 (evening) - New restaurant price bands (owner decision)
+
+- Owner decision 2026-11-03, replacing the 15/35 € bands of 2026-11-01: price = the median main course on the menu + one drink per adult; `€` under 20 €, `€€` 20-50 €, `€€€` over 50 €. Reason: a fast-food meal in Denmark costs 120-140 kr (about 16-19 €), so the old `€` limit was below what guests see as cheap, and no record had `€`.
+- Recomputed from the quoted menu prices already in each record's evidence (median of the quoted mains plus the cheapest quoted drink; no new fetches): `chiringuito-la-concha-el-palo` (about 16,30 €), `la-lobezna-estepona` (about 16,35 €) and `lounge-el-tropico` (about 16,50 €) move from `€€` to `€`. All other own-menu records stay `€€`; `cost_basis` rewritten with the median for each.
+- Borderline, kept `€€`: `gali-gali-fuengirola` and `los-marinos-paco` (median main 17,50 €, no single-drink price). `los-enebros-fuengirola` (median 19 € + drink) stays `€€` at the lower edge.
+- `cost_level_borderline` issues removed where the old band edge no longer applies (Océano, El Trópico, Casa Fernando, Solo Beach).
+- Tripadvisor, TheFork and Facebook price markings stay `€€` until an own menu is found; only the rule text in `cost_basis` changed (approved records Chiringuito Los Moreno, La Mar Salá, Los Marinos Paco, Morrofino and Santa Ana Denis: rule text only, level unchanged).
+- Not changed, waiting for the owner: `somos-de-banus` is `€€€` by owner decision 2026-11-02, but its median main (29 €) plus a drink is `€€` under the new rule.
+- Rule text updated in `tools/trip.py` (PDF labels), `.claude/agents/charlie.md`, `docs/trip-planner-agents.md`, `docs/handoff-next-session.md` and a note in `docs/cost-level-proposals-2026-11-02.md`. The band column in `data/restaurant-directory.csv` (lead list) was computed under the old rule and is not recomputed.
+
 ## 2026-11-02 (late evening) - Ecco in the app (trip agent step 1, point 4)
 
 - App PR thomasericolesen/callemilano-f388b2be#3: Ecco writes the Danish trip plan with Claude Sonnet 5.5 (owner decision) from `planTrip` data; structured output, no new facts (restaurants, weather figures and links come from data). Owner stored `ANTHROPIC_API_KEY` as a Lovable Cloud secret.

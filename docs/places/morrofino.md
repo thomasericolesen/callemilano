@@ -71,7 +71,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own menu: mains about 19,90-20,90 €; TheFork average price 18 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_basis: 'Own menu: quoted mains 19,90 and 20,90 € (median about 20,40 €); TheFork average price 18 €. Main plus one drink is over 20 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://morrofinoplayamar.com/
@@ -158,7 +158,7 @@ evidence:
   notes: TheFork/Tripadvisor price marking from search excerpt; no ratings recorded.
 review_issues: []
 created_at: 2026-11-01
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: 2026-11-01
 last_reviewed_at: 2026-11-02
 next_review_at: 2027-04-01

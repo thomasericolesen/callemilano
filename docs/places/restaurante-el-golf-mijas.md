@@ -69,7 +69,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: No prices on own site; TheFork average price ("Average price€26"; "€€ - €€€") falls in the 15-35 € band. Fallback source per docs/trip-planner-agents.md; band rule adult main + one drink, € <15, €€ 15-35, €€€ >35.
+  cost_basis: 'No prices on own site; TheFork average price ("Average price€26"; "€€ - €€€") is inside the 20-50 € band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N'
   cost_checked_at: '2026-11-02'
 links:
   official_website: null
@@ -146,7 +146,7 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

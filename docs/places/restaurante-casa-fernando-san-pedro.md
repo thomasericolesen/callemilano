@@ -69,7 +69,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own menu: mains about 26-29,50 €; drink prices not on the page, so main plus one drink is at the upper edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_basis: 'Own menu: quoted mains 26,00 and 29,50 € (median about 27,75 €); drink prices not on the page, so main plus one drink is about 30 € or more, inside 20-50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.casafernandos.com/en/eng-home/
@@ -134,15 +134,8 @@ review_issues:
   description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing. The site''s address was not read; that it is the same Casa Fernando as the Google listing on Av. del Mediterráneo 48, San Pedro, rests on the website link in the Google listing.'
   retryable: true
   owner: fact_check
-- code: cost_level_borderline
-  severity: info
-  fields:
-  - cost_level
-  description: Drink prices not on own menu page; cost_level €€ sits at the upper edge of the band.
-  retryable: true
-  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

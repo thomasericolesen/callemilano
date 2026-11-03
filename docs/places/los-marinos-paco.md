@@ -74,7 +74,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own menu: mains about 17-26 € (seafood paella 35 € for min. 2 people); main plus one drink about 20-30 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_basis: 'Own menu: quoted mains 17,00 €, 26,00 € and seafood paella 35,00 € for min. 2 (17,50 € pp); median 17,50 €. Only a bottle of house wine (18,00 €) is priced, so main plus one drink is about 20 € (borderline € / €€). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.losmarinospaco.es/
@@ -158,7 +158,7 @@ evidence:
   notes: Own carta; only a bottle wine price is listed.
 review_issues: []
 created_at: 2026-11-01
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: 2026-11-01
 last_reviewed_at: 2026-11-02
 next_review_at: 2027-04-01

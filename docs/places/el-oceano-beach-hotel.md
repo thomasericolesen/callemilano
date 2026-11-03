@@ -68,7 +68,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own à la carte menu: mains 26-32 €; drink prices not on the page, so main plus one drink is at the upper edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_basis: 'Own à la carte menu: quoted mains 26, 28 and 32 € (median 28 €); drink prices not on the page, so main plus one drink is about 30 € or more, inside 20-50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.oceanohotel.com/
@@ -148,15 +148,8 @@ review_issues:
   description: Not checked whether non-guests can use the Polynesian pool and pool bar, booking rules for dinner with music, or prices.
   retryable: true
   owner: fact_check
-- code: cost_level_borderline
-  severity: info
-  fields:
-  - cost_level
-  description: Drink prices not on own menu page; cost_level €€ sits at the upper edge of the band and may be €€€ with a drink.
-  retryable: true
-  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

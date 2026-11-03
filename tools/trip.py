@@ -934,8 +934,8 @@ def render_html(t):
             p.append(f"<div class='small'>{e(tr['note'])}</div>")
 
     rs = t.get("restaurants") or {}
-    labels = [("dyr", "Dyre (over 35 € pr. voksen)"), ("mellem", "Mellem (15–35 € pr. voksen)"),
-              ("billig", "Billige (under 15 € pr. voksen)")]
+    labels = [("dyr", "Dyre (over 50 € pr. voksen)"), ("mellem", "Mellem (20–50 € pr. voksen)"),
+              ("billig", "Billige (under 20 € pr. voksen)")]
     if any(rs.get(k) for k, _ in labels):
         p.append("<h2>Spisesteder</h2>")
         for key, lab in labels:

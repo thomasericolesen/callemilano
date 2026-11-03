@@ -65,14 +65,14 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: €€
+cost_level: €
 visit_information:
   schedule: Daily 09:30-00:00, April to November (own website, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own menu: mains about 8,50-14,90 € plus beer from 2,00 €; typical main with a drink about 11-18 €, lower edge of 15-35 €. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
+  cost_basis: 'Own menu: quoted mains 8,50, 14,50 and 14,90 € (median 14,50 €) plus beer from 2,00 € gives about 16,50 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://chiringuitoeltropico.com/en/home/
@@ -151,15 +151,8 @@ review_issues:
   description: Prices not checked.
   retryable: true
   owner: fact_check
-- code: cost_level_borderline
-  severity: info
-  fields:
-  - cost_level
-  description: Burger with a beer stays under 15 €; cost_level €€ is the lower edge of the band.
-  retryable: true
-  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
