@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Owner''s own knowledge (2026-11-03): a typical main plus a beer or a glass of wine costs under 20 €. No menu prices seen; the own Facebook page shows the price range "moderate". Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-03'
 links:
   official_website: https://www.facebook.com/profile.php?id=100054645841442
   booking: null
@@ -116,6 +116,14 @@ evidence:
   checked_by: Eric Olesen (owner) supplied a screenshot; recorded by Claude 2026-11-02
   confidence: medium
   notes: Read from the owner's screenshot of the page on 2026-11-02 (Danish interface). "Always open" is not recorded as a schedule. The page gives "Cerrado del Aguila" and postcode 29649, Google gives "Cerros del Águila, zona deportiva 5" and 29650; same venue by name and photo of the restaurant arch. The page's star recommendations are not used.
+- field: cost_level
+  claim: Owner, 2026-11-03, asked whether a typical main plus a beer or a glass of wine costs under 20 €, answered "Ja, sæt mig som kilde" (yes, use me as the source); earlier the same day the owner called the restaurant cheap ("billig").
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/change-log.md
+  source_type: secondary
+  checked_at: '2026-11-03'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-03
+  confidence: low
+  notes: Owner's own local knowledge, not a menu. Conflicts with the Facebook price range "moderate" (2026-11-02); the editor-of-record resolved the conflict in favour of own knowledge.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -138,11 +146,18 @@ review_issues:
   fields:
   - visit_information
   - cost_level
-  description: The own Facebook page gives phone, services and a "moderate" price range but no real opening hours or menu. Hours, season (the pool is seasonal per the owner) and prices need a direct check.
+  description: The own Facebook page gives phone and services but no real opening hours or menu. Hours and season (the pool is seasonal per the owner) need a direct check; cost_level € rests on the owner's knowledge and should be confirmed with a menu or a visit.
   retryable: true
   owner: fact_check
+- code: cost_level_owner_source
+  severity: info
+  fields:
+  - cost_level
+  description: cost_level € comes from the owner's own knowledge (2026-11-03), not a menu; the Facebook page says "moderate". Replace with menu prices when a menu or an owner screenshot is available.
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-03'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

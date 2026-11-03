@@ -5469,7 +5469,7 @@
    "tags": [
     "strand"
    ],
-   "description": "Lounge El Trópico is a beach lounge bar at C. Reina Fabiola, 13, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own website: a beach bar on the Mijas Costa seafront promenade with more than 30 years in business, open continuously from 09:30 to midnight from April to November, for breakfast, lunch, dinner or a drink on the beach, with sunbeds and massage services; the menu runs from full English breakfasts to nachos, burgers and sharing platters, with cocktails, smoothies and sangria. Prices were not checked. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.",
+   "description": "Lounge El Trópico (Chiringuito El Trópico on its own website) is a beach restaurant (chiringuito) at C. Reina Fabiola, 13, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 13 minutes by car (Google route check, Saturday 10:00). Its own website: a beach bar on the Mijas Costa seafront promenade with more than 30 years in business, open continuously from 09:30 to midnight from April to November, for breakfast, lunch, dinner or a drink on the beach, with sunbeds and massage services; the menu runs from full English breakfasts to nachos, burgers and sharing platters, with cocktails, smoothies and sangria. Its own menu lists, for example, a cheeseburger at 8,50 €, grilled chicken fillet with chips at 14,50 € and beers from 2,00 € (read 2026-11-02).",
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -5523,7 +5523,7 @@
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
-     "is_bar": true,
+     "is_bar": false,
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
@@ -8243,17 +8243,22 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": null,
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Restaurante Cerros del Águila: bar and grill at the sports area of Urbanización Cerros del Águila, about 7 min on foot or 3 min by car from Casa de la Familia. Draft; partly fact-checked.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Pris",
+      "text": "Owner's own knowledge (2026-11-03): a typical main plus a beer or a glass of wine costs under 20 €. No menu prices seen; the own Facebook page shows the price range \"moderate\". Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+     }
+    ],
     "links": {
      "official": "https://www.facebook.com/profile.php?id=100054645841442",
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
@@ -8267,7 +8272,7 @@
      "phone": "+34952668191",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-03"
     }
    }
   },
