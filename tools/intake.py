@@ -8,9 +8,12 @@ Subcommands (all JSON in / JSON out, so agents never need to read raw pages):
   nearby  IN.json OUT.json      Several candidates around a point (e.g. restaurants by a beach).
           IN: [{"key": "...", "lat": .., "lng": .., "queries": ["..."], "max_m": 1200}]
           Ratings/review counts are returned only for shortlisting; never copy them into records.
-  fetch   IN.json OUTDIR        Fetch pages with curl and save plain text (OUTDIR/<key>.txt).
-          IN: [{"key": "...", "url": "..."}]. Writes OUTDIR/_status.json; pages that block
-          (403/405/CAPTCHA/empty) are marked "needs_firecrawl".
+  fetch   IN.json OUTDIR        Fetch pages and save plain text (OUTDIR/<key>.txt). Free steps first:
+          curl; PDFs via pdftotext; pages that need JavaScript via headless Chromium
+          (tools/render_page.mjs, Playwright). IN: [{"key": "...", "url": "..."}]. Writes
+          OUTDIR/_status.json with method and menu/carta/PDF links to follow; pages that still
+          block (403/429/CAPTCHA/empty) are marked "needs_firecrawl"; Facebook/Instagram pages are
+          marked "login_wall" (use an owner screenshot instead).
   create  IN.json               Create draft records from sweep results + editorial fields.
           IN: [{"sweep": "sweep.json", "key": "...", "slug": "...", "name": "...",
                 "category": "...", "municipality": "...", "what": "...", "energy": "Low",
@@ -40,8 +43,10 @@ import html as htmlmod
 import json
 import math
 import re
+import shutil
 import subprocess
 import sys
+import urllib.parse
 from pathlib import Path
 
 import yaml
@@ -149,19 +154,101 @@ def _text(raw):
     return "\n".join(l for l in lines if l)
 
 
+MENU_LINK = re.compile(r"(?i)menu|men[uú]|carta|card|\.pdf")
+RENDER = Path(__file__).with_name("render_page.mjs")
+
+
+def _blocked(code, txt):
+    return (str(code) != "200" or len(txt) < 300
+            or bool(re.search(r"(?i)captcha|verify you are human|enable javascript|iniciar sesi[oó]n en facebook"
+                              r"|log ?in(to| to) facebook", txt[:2000])))
+
+
+LOGIN_WALL = re.compile(r"(?i)^https?://([a-z0-9-]+\.)?(facebook|instagram)\.com/")
+
+
+def _curl(url, dest=None):
+    args = ["curl", "-sSL", "-m", "30", "-A", "Mozilla/5.0 (CalleMilano fact check)",
+            "-w", "\n%{http_code} %{content_type}", url]
+    if dest:
+        args[1:1] = ["-o", str(dest)]
+    r = subprocess.run(args, capture_output=True, text=True, errors="ignore")
+    body, _, tail = r.stdout.rpartition("\n")
+    code, _, ctype = tail.partition(" ")
+    return (body if not dest else ""), code, ctype
+
+
+def _pdf_text(url, tmpdir):
+    """Download a PDF and extract its text with pdftotext (poppler); '' if unavailable."""
+    dest = Path(tmpdir) / "page.pdf"
+    _, code, _ = _curl(url, dest)
+    if code != "200" or not shutil.which("pdftotext"):
+        return code, ""
+    r = subprocess.run(["pdftotext", "-layout", str(dest), "-"], capture_output=True, text=True, errors="ignore")
+    return code, "\n".join(l.rstrip() for l in r.stdout.split("\n") if l.strip())
+
+
+def _render(url, timeout_ms=45000):
+    """Render with headless Chromium via tools/render_page.mjs; None if Node/Playwright is missing."""
+    if not shutil.which("node") or not RENDER.exists():
+        return None
+    try:
+        r = subprocess.run(["node", str(RENDER), url, str(timeout_ms)], capture_output=True, text=True,
+                           timeout=timeout_ms / 1000 + 30, errors="ignore")
+        o = json.loads(r.stdout.strip().splitlines()[-1])
+    except (subprocess.TimeoutExpired, json.JSONDecodeError, IndexError):
+        return {"error": "render_failed"}
+    return None if o.get("error") == "playwright_not_installed" else o
+
+
+def _links(raw, base):
+    out = []
+    for href, label in re.findall(r'(?is)<a[^>]+href="([^"#][^"]*)"[^>]*>(.*?)</a>', raw):
+        label = re.sub(r"<[^>]+>|\s+", " ", label).strip()[:80]
+        if MENU_LINK.search(href + " " + label):
+            out.append({"text": label, "href": urllib.parse.urljoin(base, htmlmod.unescape(href))})
+    return out[:20]
+
+
 def cmd_fetch(inp, outdir):
+    """curl -> PDF text -> headless Chromium -> needs_firecrawl. Free steps first (owner, 2026-11-03)."""
     outdir = Path(outdir); outdir.mkdir(parents=True, exist_ok=True); status = {}
     for it in json.load(open(inp)):
-        r = subprocess.run(["curl", "-sSL", "-m", "30", "-A", "Mozilla/5.0 (CalleMilano fact check)",
-                            "-w", "\n%{http_code}", it["url"]], capture_output=True, text=True, errors="ignore")
-        body, _, code = r.stdout.rpartition("\n")
-        txt = _text(body) if code == "200" else ""
-        blocked = (code != "200" or len(txt) < 300 or re.search(r"(?i)captcha|verify you are human|enable javascript", txt[:2000]))
-        (outdir / f"{it['key']}.txt").write_text(f"URL: {it['url']}\nFETCHED: {TODAY}\nHTTP: {code}\n\n{txt}")
-        status[it["key"]] = {"url": it["url"], "http": code, "chars": len(txt),
-                             "result": "needs_firecrawl" if blocked else "ok"}
-        print(f"{it['key']}: {status[it['key']]['result']} ({code}, {len(txt)} chars)")
-    json.dump(status, open(outdir / "_status.json", "w"), indent=1)
+        url = it["url"]; method = "curl"; links = []
+        if LOGIN_WALL.search(url):
+            # Neither curl, Chromium nor Firecrawl gets past the login wall: use an owner screenshot.
+            (outdir / f"{it['key']}.txt").write_text(f"URL: {url}\nFETCHED: {TODAY}\nMETHOD: none\n\n")
+            status[it["key"]] = {"url": url, "http": None, "chars": 0, "method": "none",
+                                 "result": "login_wall", "menu_links": []}
+            print(f"{it['key']}: login_wall (owner screenshot needed)")
+            continue
+        if re.search(r"(?i)\.pdf(\?|$)", url):
+            code, txt = _pdf_text(url, outdir); method = "pdf"
+        else:
+            body, code, ctype = _curl(url)
+            if "pdf" in ctype.lower():
+                code, txt = _pdf_text(url, outdir); method = "pdf"
+            else:
+                txt = _text(body) if code == "200" else ""
+                links = _links(body, url) if code == "200" else []
+                if _blocked(code, txt):
+                    o = _render(url)
+                    if o and not o.get("error"):
+                        rtxt = o.get("text") or ""
+                        if not _blocked(o.get("http"), rtxt) and len(rtxt) > len(txt):
+                            code, txt, method = str(o.get("http")), rtxt, "playwright"
+                        links = o.get("menu_links") or links
+        blocked = _blocked(code, txt)
+        (outdir / f"{it['key']}.txt").write_text(f"URL: {url}\nFETCHED: {TODAY}\nHTTP: {code}\nMETHOD: {method}\n\n{txt}")
+        status[it["key"]] = {"url": url, "http": code, "chars": len(txt), "method": method,
+                             "result": "needs_firecrawl" if blocked else "ok",
+                             "menu_links": [l for l in links if l["href"] != url][:10]}
+        print(f"{it['key']}: {status[it['key']]['result']} ({method}, {code}, {len(txt)} chars, "
+              f"{len(status[it['key']]['menu_links'])} menu links)")
+    pdf = outdir / "page.pdf"
+    if pdf.exists():
+        pdf.unlink()
+    json.dump(status, open(outdir / "_status.json", "w"), indent=1, ensure_ascii=False)
 
 
 def _slug_ok(slug):

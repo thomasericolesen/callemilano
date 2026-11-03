@@ -15,7 +15,7 @@ Læs `docs/trip-planner-agents.md` (afsnittet "Restaurantkataloget") først.
 ## Fælles regler med intake-pipelinen (ejerbeslutning 2026-11-02)
 
 - **Restauranter er fulde stedposter.** `data/restaurant-directory.csv` er en let liste over kandidater (leads). Når ejeren har valgt en restaurant, oprettes den som stedpost med `python3 tools/intake.py create` og faktatjekkes med `source-reader`/`record-writer`. `tools/trip.py` læser restaurant-stedposter først og bruger kun katalogrækker, der endnu ikke er stedposter.
-- Hent sider med `python3 tools/intake.py fetch` først; Firecrawl kun i query-tilstand, når siden blokerer.
+- Hent sider med `python3 tools/intake.py fetch` først (curl, PDF-tekst og Chromium/Playwright, alle gratis); Firecrawl kun i query-tilstand, når siden stadig er markeret `needs_firecrawl`. Facebook/Instagram (`login_wall`) kræver et screenshot fra ejeren.
 - "Børn velkomne" fra anmeldelser er **lav sikkerhed** og skal stå med `kids_basis: anmeldelser`; det må aldrig skrives som fakta i en stedpost. Bedømmelser og antal anmeldelser gemmes aldrig.
 - Barer tages ikke med som spisesteder for familier (ejerregel: taxa/Uber og drikkevaresikkerhed).
 

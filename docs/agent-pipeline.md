@@ -25,7 +25,7 @@ Work files go in the session scratchpad, not in the repo. Only records, data reg
 ## Cost rules
 
 - One subagent call per batch, not per place; subagents reply in a few lines and leave details in files.
-- `intake.py fetch` (curl) before Firecrawl; Firecrawl only in `query` mode with `directQuote`, never full markdown.
+- `intake.py fetch` first: curl, then PDF text (pdftotext), then headless Chromium (`tools/render_page.mjs`, Playwright); all free. Firecrawl only for pages still marked `needs_firecrawl`, and only in `query` mode with `directQuote`, never full markdown. Facebook/Instagram are `login_wall`: ask the owner for a screenshot. Finding an official URL uses `WebSearch` before `firecrawl_search` (owner request 2026-11-03).
 - The orchestrator reads JSON summaries, not pages.
 - Re-use the templates in `tools/templates/`; do not write one-off record scripts.
 

@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-03 (late evening) - Free page fetching before Firecrawl (owner request)
+
+- Owner asked for an alternative to Firecrawl (credits ran out on 2026-11-02). `tools/intake.py fetch` now tries free steps in order: curl; PDF text with `pdftotext` (also when the server says the page is a PDF); headless Chromium through the new `tools/render_page.mjs` (Node Playwright, already installed in the cloud environment) when curl is blocked, empty or needs JavaScript. Only pages that still fail are marked `needs_firecrawl`. Facebook/Instagram URLs are marked `login_wall` (no tool gets past the login; owner screenshot instead). `_status.json` now records `method` and up to ten menu/carta/PDF links per page.
+- Test on 17 pages from the last blocked or price-less batches (2026-11-03): El Ancla's PDF carta, earlier recorded as "PDF without text", gives 8 018 characters with prices; Tasca Laska's PDF menu reads in full; Upstairs read via Chromium when curl got 429. Still blocked: Tripadvisor (403), Speakeasy (403), Sky Bar Veramar (404, site moved). Jack's Smokehouse and La Floja have no menu text on their home pages for any tool. No records were changed by the test.
+- `source-reader`: follows up to three menu/carta/PDF links when prices are asked for, reports `login_wall`, uses `WebSearch` before `firecrawl_search` to find an official URL, and records `method` (`curl`, `pdf`, `playwright`, `firecrawl`). Same order in `alpha`, `charlie` and `docs/agent-pipeline.md`.
+
 ## 2026-11-03 (evening) - Lounge El Trópico is a restaurant; Cerros del Águila priced € (owner decisions)
 
 - Owner decision 2026-11-03 (with the own website https://chiringuitoeltropico.com/en/home/, read again with curl the same day): Lounge El Trópico serves breakfast, lunch and dinner and is treated as a beach restaurant (chiringuito), like Chiringuito Los Moreno. It came in through the bars intake (`docs/bars-intake-2026-11-02.md`).

@@ -10,7 +10,7 @@ Du er **Alpha**, CalleMilanos agent for åbningstider. Læs `AGENTS.md` og `docs
 
 ## Fælles regler med intake-pipelinen (ejerbeslutning 2026-11-02)
 
-- Hent sider med `python3 tools/intake.py fetch` først; brug kun web-søgning/Firecrawl (query-tilstand) hvis siden blokerer.
+- Hent sider med `python3 tools/intake.py fetch` først (curl, PDF-tekst og Chromium/Playwright, alle gratis); brug kun web-søgning/Firecrawl (query-tilstand) hvis siden stadig er markeret `needs_firecrawl`. Facebook/Instagram (`login_wall`) kræver et screenshot fra ejeren.
 - Fase 1: skriv ændringer i stedposter **kun** via et apply-fil og `python3 tools/intake.py apply` (samme format som agenten `record-writer`). Evidens er ordrette citater med URL og dato. Status må højst blive `needs_fact_check`; godkendte poster røres ikke (scriptet afviser dem) men noteres til redaktøren.
 - Svar orkestratoren med få linjer; detaljer ligger i filer.
 
