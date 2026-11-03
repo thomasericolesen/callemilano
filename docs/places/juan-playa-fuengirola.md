@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-JUAN-PLAYA-FUENGIROLA-001
 slug: juan-playa-fuengirola
 name: Juan Playa Restaurante
@@ -64,7 +64,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: €€
 visit_information:
-  schedule: null
+  schedule: Daily 13:00-17:00 and 19:00-23:00 (own website); season not stated.
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34952660717
 related_places: []
-description_short: 'Juan Playa Restaurante: a beachside restaurant on the Paseo Marítimo, about 16 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Juan Playa Restaurante is a beachside restaurant on the Paseo Marítimo. About 16 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Juan Playa: beach restaurant in Fuengirola with fresh fish espetos, paellas and rice dishes, about 16 min by car from Casa de la Familia.'
+description_long: Juan Playa is a restaurant on the beach in Fuengirola. Its own website lists fresh fish espetos and a selection of paellas and rice dishes. The own website says it is open every day 13:00-17:00 and 19:00-23:00 and does not say whether this changes by season. Reservations are by phone (+34 952 660 717). About 16 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Main courses on the own menu (2026) cost about 10,00-24,00 € (price check, 2026-11-03). The own website gives no street address; the location here comes from Google Places. Children's facilities and accessibility were not found.
 seo_title: Juan Playa Restaurante, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Juan Playa Restaurante (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -108,18 +108,31 @@ evidence:
   checked_by: record-writer agent
   confidence: high
   notes: 'Method: curl. Home has no prices; carta PDF read with pdftotext (intake, downloaded with curl). Mains taken from the Carne and Pescado/Marisco sections (12 of the list shown; the PDF has many more fish and shellfish lines). Drink lines are from a two-column drinks table: the caña prices (''CAÑA "VICTORIA" (33CL)'' 2,90€ and ''CAÑA EN COPA'' 3,60€) could not be paired reliably, so they were not quoted. Prices in the PDF are per dish; ''precio por persona'' items (arroces, parrillada, zarzuela) were not used.'
+- field: description_long
+  claim: '"Ubicado en la idílica playa de Fuengirola, brindamos una experiencia culinaria inigualable" ; "Espetos de Pescado Fresco" ; "Selección Exquisita de Paellas y Arroces"'
+  source_url: https://www.juanplaya.es/
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Home page and /es/contacto read via curl 2026-11-03.
+- field: visit_information.schedule
+  claim: '"Abrimos todos los días de 13:00h a 17:00h y de 19:00h a 23:00h"'
+  source_url: https://www.juanplaya.es/
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Seasonal status not stated.
+- field: links.contact
+  claim: '"Llámanos y Reserva:" ; "+34 952 660 717"'
+  source_url: https://www.juanplaya.es/es/contacto
+  source_type: official_venue
+  checked_at: '2026-11-03'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Same line also written 'HAZ TU RESERVA - 952 66 07 17' on the home page.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,15 +143,6 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
-- code: no_readable_own_source
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  description: BLOCKED.
-  retryable: true
-  owner: fact_check
 - code: cost_level_borderline
   severity: info
   description: € or €€ depends on which caña costs 2,90 € in the carta PDF; €€ by owner decision 2026-11-03.
@@ -146,6 +150,16 @@ review_issues:
   - cost_level
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - visit_information
+  - booking_required
+  - accessibility
+  - parking
+  description: 'Own website read. Still open: street address (none on the site), whether hours change by season, children''s menu/high chairs, accessibility, parking, whether booking is required (site invites to call and reserve).'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
 updated_at: '2026-11-03'
 last_verified: null

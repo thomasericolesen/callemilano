@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-03 (late evening) - Fact check: five priced restaurants to needs_fact_check
+
+- `source-reader` read the own sites (home, contact and menu pages; 1 Firecrawl call) for Ragazzi, Marvelous Burger, Café NOMAD, Kalifato and Juan Playa; `record-writer` wrote descriptions, evidence, schedules (Ragazzi 12:30-23:30 except Tuesday; Café NOMAD daily 9:00-15:00; Juan Playa daily 13:00-17:00 and 19:00-23:00; season not stated), phone links and booking notes. All five `draft` -> `needs_fact_check`; `no_readable_own_source` and `facts_not_checked` resolved, `facts_partly_checked` added (hours for Marvelous Burger and Kalifato, children's facilities, accessibility, season, parking). Marvelous Burger has no phone (only a WhatsApp booking link on its Linktree). Sheriff left out (possibly closed).
+- Orchestrator spot checks against the live pages: Ragazzi "12:30 a 23:30h", Café NOMAD "9.00 — 15.00", Juan Playa "13:00h a 17:00h", Kalifato phone "952 56 82 59", and Ragazzi take-away/delivery (evidence added).
+- Catalog and app export regenerated: Ragazzi, Marvelous Burger and Café NOMAD now reach the app as `€`, Kalifato and Juan Playa as `€€`.
+
 ## 2026-11-03 (late evening) - Price check batch 1: restaurants within 30 minutes
 
 - First batch with the free fetch steps: `source-reader` read own sites and menus for 21 restaurants within 30 min of Casa de la Familia (La Mar Salá skipped: approved; La Zambra: hotel resort). 5 Firecrawl calls (Ragazzi and Kalifato PDFs are images). Spot checks by the orchestrator against the live sources: Sheriff (Pollo asado 14,20 €, Entrecot plancha 26,20 €, Spaguetti bolognese 12,00 €) and Juan Playa (Escalope de pollo 14,00 €, Hamburguesa con patatas 10,95 €, Coca Cola 3,25 €) match.
