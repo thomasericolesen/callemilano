@@ -1,62 +1,45 @@
-# Handover for the next session (written 2026-11-02, 21:20 Danish time)
+# Handover for the next session (written 2026-11-03, 21:30 Danish time)
 
-Start here. Details per step are in `docs/change-log.md` (entries dated 2026-11-02 evening/late evening); owner decisions 1-16 in `docs/owner-decisions-2026-11-02.md`. Confirm today's date with a tool before any time-sensitive step (owner preference).
+Start here. Details in `docs/change-log.md` (entries dated 2026-11-03) and the owner-facing summary in `docs/status-rapport-2026-11-03.md` (Danish, written for an independent review in ChatGPT). Confirm today's date with a tool before any time-sensitive step (owner preference).
 
 ## How we work now
 - **One system, two phases.** Advance work (places, opening hours, restaurants) goes into place records via `tools/intake.py` and subagents; trip plans (`/turforslag`) read those records via `tools/trip.py` and the agent Ecco. See `docs/agent-pipeline.md` and `docs/trip-planner-agents.md`.
 - **Subagents** (in `.claude/agents/`, loaded at session start): `candidate-screener` and `source-reader` (Haiku), `record-writer`, `alpha`, `charlie`, `ecco` (Sonnet). The main session keeps owner dialogue, decisions, spot checks (at least two quotes per batch), commits and PRs.
-- **Cost rules:** curl via `intake.py fetch` before Firecrawl; Firecrawl only in query mode; read JSON summaries, not pages; one subagent call per batch.
+- **Cost rules:** `intake.py fetch` first (curl, PDF text, headless Chromium; all free, PR #45); Firecrawl only for pages still `needs_firecrawl`, only in query mode; Facebook/Instagram are `login_wall` (owner screenshot); read JSON summaries, not pages; one subagent call per batch.
 - Optional for the owner: add `"Bash(python3 tools/intake.py *)"` to `allow` in `.claude/settings.json` (agents may not edit it).
 - Restaurants are full place records; `data/restaurant-directory.csv` is a lead list; converted rows have status `konverteret`, owner-rejected rows `fravalgt` (only `aktiv` rows are read by `tools/trip.py`).
 
-- **Firecrawl:** credits ran out on 2026-11-02; the daily allowance resets 2026-11-03 at 15:55 UTC (16:55 Danish time). Tripadvisor blocks curl and WebFetch (403), so TheFork/Tripadvisor work must wait for that reset.
+- **Firecrawl:** the owner got an e-mail that all credits were used (the allowance ran out on 2026-11-02 and reset 2026-11-03 16:55 Danish time); about 6 calls were used on 2026-11-03 after the reset and worked. Check the balance in the Firecrawl dashboard before a large batch. Tripadvisor blocks curl, Chromium and WebFetch (403); tools that evade bot protection are not used (owner agreed 2026-11-03).
 - **Owner's website:** callemilano.dk is the Lovable project "Vores Spanske Hjem"; recommendations are in its database table `recommendations` (read with the Lovable MCP `query_database`, read-only use).
 
 ## State at hand-over
-- 220 records, 0 validation errors, catalog regenerated. Work is on branch `claude/vigilant-cray-dtqaxz` (PR https://github.com/thomasericolesen/callemilano/pull/39 to `main`; check whether it is merged, and if so start from `main`).
-- Restaurants (non-bar, not archived): 68 records; 32 have `cost_level`, 36 are `Unknown`. Bars (18) are skipped by `tools/trip.py` and were not priced.
-- Price-band rule (owner decision 2026-11-03, replaces the 15/35 € rule of 2026-11-01): median main on the menu + one drink; `€` < 20 €, `€€` 20-50 €, `€€€` > 50 €. Own menu first; TheFork average price / Tripadvisor marking as a noted low-confidence fallback (owner decision 2026-11-02). Google Maps prices are never used (AGENTS.md).
+- 220 records, 0 validation errors. Restaurants (non-bar, not archived): 69; `€` 7, `€€` 31, `€€€` 1, `Unknown` 30. App export: 149 places; local `€` restaurants (≤ 30 min): Cerros del Águila, Café NOMAD, Ragazzi, Lounge El Trópico, Marvelous Burger.
+- Price-band rule (owner decision 2026-11-03, replaces the 15/35 € rule): median main on the menu + one drink; `€` < 20 €, `€€` 20-50 €, `€€€` > 50 €.
+- Places repo: work on branch `claude/trusting-fermat-1trzme`; the change-log entries for the app decisions, this handover and the status report are in an open PR (check whether merged; if so start from `main`).
+- App (`thomasericolesen/callemilano-f388b2be`, Lovable syncs `main`): `/turforslag` is admin-only and in the admin menu. Ecco (Claude Sonnet 5.5) works against the live API. Free-text wish -> Claude and OpenAI (Lovable AI Gateway) suggest 1-3 places by consensus (#7, live, tested by the owner). `/ai-tur` redirects. Open PR thomasericolesen/callemilano-f388b2be#8: distance between stops instead of summed drive times, "Foreslå noget andet", "Start forfra", "Ny søgning".
+- Lovable Publish does not run `drizzle/migrations/`; schema changes must be applied with the Lovable `query_database` tool after the owner merges (see 2026-11-02 entries).
 
-### Done 2026-11-02 evening
-1. `cost_level` from own menus for 11 records and from TheFork/Tripadvisor for 17; five approved records priced after owner approval (`docs/cost-level-proposals-2026-11-02.md`); Somos de Banús `€€€` (owner).
-2. La Sierra Restaurante = Cerrado del Águila (owner screenshot): kept `la-sierra-restaurante` (now `needs_fact_check`, `€€`), archived `restaurante-cerrado-del-aguila`.
-3. Juanito Juan identity confirmed by address; `€€`.
-4. Directory: owner checklist https://claude.ai/artifact/VCrXrv5vKsUhruvVk6R9ZT -> 21 new records (7 `needs_fact_check`, 14 draft with `no_readable_own_source`); 3 `fravalgt`; KFC (R-0201) "maybe", still `skal tjekkes`.
-5. callemilano.dk: 5 owner recommendations created (Café NOMAD, Heladería Casa Esteban, Marvelous Burger, UTOPÍA, Venta los Condes) with the owner's text as owner-knowledge evidence; same added to Asador Otola; Restaurante Sheriff created with blocking issue `possibly_closed`.
-6. Hotels Castillo de Monda, El Molino del Santo, Casas Cuevas Almagruz created as `Restaurants` in `excursions_4h` (owner: not standalone excursions; facilities guest-only).
+## Tomorrow (2026-11-04), in suggested order
+1. **App PR #8:** owner merges and publishes; re-run "La Butibamba + Lounge El Trópico" (Ecco should now say about 470 m on foot) and try "Foreslå noget andet" and "Ny søgning".
+2. **Weather:** Open-Meteo did not answer in both live tests on 2026-11-03 (met.no fallback, no rain % or UV). Find out why (daily quota from the Lovable server, blocking, or the request) and fix.
+3. **Route-checked drive time between stops** (Google Routes, as `tools/intake.py` does from the house) for the 1-3 chosen stops, so `from_previous` gets minutes instead of only straight-line distance.
+4. **Ecco polish:** "Sevärdighed" (Swedish ä) seen once; keep the guest text short; check that `host_notes` are useful (they are folded on the page).
+5. **Owner by phone:** Restaurante Sheriff open or closed (+34 952 493 722, then a drink price for the band); Old Swiss House hours and street number 26/28.
+6. **Owner screenshots** (menus or Facebook): Venta La Morena, La Sierra Restaurante (Facebook `login_wall`), UTOPÍA and Venta los Condes (PDF menus unreadable), Kamura Sushi (image menu), Heladería Casa Esteban, Monnalisa, Mesón Salvador, Casa Carmen, Antonio Playa, Da Vinci Los Boliches (website does not resolve; check URL).
+7. **Price check batch 2** (own menus, free fetch): Marisquería El Ancla (PDF carta readable), Tasca Laska (PDF), Taberna Casa Blanca (carta page), Chiringuito El Cachalote; then fact check, as for batch 1.
+8. **Owner decisions still open:** Somos de Banús `€€€` (owner 2026-11-02) vs `€€` under the new rule; KFC yes/no; Marabierta and Vista al Mar on https://claude.ai/artifact/1uvFqCZBd5LEWGDDS3aVr7; family assessments for the new records.
+9. **Next product step (status report):** the smallest turkort: save a trip and reopen it from "Mine ture" on a phone. A per-user daily cap before Turforslag opens to the family (each suggestion costs Claude and Lovable AI credits).
+10. **Parity:** `tools/trip.py` (places repo, used by the Ecco subagent for PDFs) still prints the summed one-way drive time; align it with app PR #8 (`from_previous`, `first_stop_driving_min`).
+11. Still open from earlier: Danish texts for imported places (`text_language: en`), open sources (Angosturas, Río Grande Coín, Paseo Marítimo de Marbella, Senda Litoral Málaga, Puerto Banús facilities, Juanar), bars to confirm, lifeguard seasons 2027, 2027 event dates, owner review of `docs/practical-information-draft.md`.
 
-## Trip agent in the app (callemilano.dk)
-- App code: `thomasericolesen/callemilano-f388b2be` (Lovable syncs `main`). Branch `claude/vigilant-cray-dtqaxz` has the new import (step 1, points 1-2); owner merges, then runs the import on the Admin page with `data/app-export/places.json`.
-- Point 3 (`planTrip`, `/turforslag`, `holidays` table) is merged and live (thomasericolesen/callemilano-f388b2be#2); places re-imported with the `trip` block (143 rows). Publish in Lovable does NOT run `drizzle/migrations/`: migration 0004 (holidays, 28 rows) was applied by Claude with the Lovable `query_database` tool on 2026-11-02 after the owner merged it; it is idempotent if Lovable runs it later. Point 4 (Ecco on Claude Sonnet 5.5, `writeTrip`, "Lav turforslag" on `/turforslag`) is in thomasericolesen/callemilano-f388b2be#3; the owner stored `ANTHROPIC_API_KEY` as a Lovable Cloud secret on 2026-11-02 (spending cap set in the Anthropic Console by the owner). Not yet tested against the live API. Then: point 4 follow-ups (Ecco on Claude Sonnet 5.5, admin-only page; owner adds an Anthropic API key as a Lovable Cloud secret). Danish texts for imported places are an open task. See `docs/webapp-byggeplan.md`.
+## Pending Tripadvisor/TheFork markings (found 2026-11-02, not applied)
+Under the new bands, Tripadvisor "$$ - $$$" still reads as `€€` (low confidence). Ragazzi, Kalifato and Juan Playa were priced from own menus on 2026-11-03 and are no longer pending. Remaining (spot-check needs Firecrawl, Tripadvisor 403 elsewhere; confirm identity by address first where marked "no"):
 
-## Next, in suggested order (2026-11-03)
-0. **First:** check whether thomasericolesen/callemilano-f388b2be#3 (Ecco) and thomasericolesen/callemilano#42 (docs) are merged and published. Then run a first real "Lav turforslag" on callemilano.dk/turforslag together with the owner, and adjust Ecco's text and tone from the result. Ecco has not yet been tested against the live Claude API.
-1. **After 16:55 Danish time:** spot-check two lines from the pending price table below, then apply. Confirm the address for the four unconfirmed rows before applying.
-2. **Fact check the 9 new website/hotel records** (source-reader -> record-writer): own sites cafenomadfuengirola.com, utopialacala.com, ventaloscondes.com, elsheriff.com (confirm Sheriff open/closed by phone +34 952 493 722), castillodemonda.com, molinodelsanto.com, cuevasalmagruz.com; for the hotels, whether non-residents can eat and whether booking is needed. Heladería Casa Esteban and Marvelous Burger have no own site.
-3. **Owner screenshots** (fastest route where sites are blocked or missing): menus or Facebook pages for Monnalisa, Kamura Sushi, Da Vinci, Mesón Salvador, Casa Carmen, TGB, Burger King, Antonio Playa, Heladería Casa Esteban, Marvelous Burger, UTOPÍA, Venta los Condes; earlier list: El Andaluz, Casa Manuel de la Lonja, Norte, Central Beach, La Escollera, Mar de Alborán, Chiringuito Cristóbal.
-4. **Old Swiss House:** resolve `source_conflict` (hours and street number 26/28) by phone or owner knowledge. **El Choco:** re-read Wednesday-Sunday hours.
-5. **First real `/turforslag`** with a local beach and Fuengirola town, to test end to end (Fuengirola now has many priced restaurants).
-6. **Open sources:** Angosturas (council page blocks robots), Río Grande Coín (no official page), Paseo Marítimo de Marbella and Senda Litoral Málaga, Puerto Banús beach facilities, Juanar walking route.
-7. **Owner input still open:** re-answer Marabierta and Vista al Mar on https://claude.ai/artifact/1uvFqCZBd5LEWGDDS3aVr7; family assessments for the new records; KFC yes/no; Marbella boat trips (provider sweep and reputation screen first).
-8. Still open from earlier: bars to confirm by phone/visit, beach lifeguard seasons 2027, 2027 event dates in `docs/season-calendar-draft.md`, owner review of `docs/practical-information-draft.md`.
-
-### Restaurants still without `cost_level` (36, non-bar)
-antonio-playa-fuengirola, burger-king-miramar, cafe-nomad-fuengirola, casa-carmen-miramar, casas-cuevas-almagruz, castillo-de-monda, chiringuito-cristobal (approved; owner only), courtside-by-wissler, da-vinci-los-boliches, el-andaluz-de-la-malagueta, el-higueron-fuengirola, fosters-hollywood-miramar, freiduria-el-choco-fuengirola, heladeria-casa-esteban-fuengirola, juan-playa-fuengirola, kalifato-benalmadena, kamura-sushi-fuengirola, la-tagliatella-miramar, la-zambra-resort, marvelous-burger-fuengirola, meson-salvador-fuengirola, mixs-lounge, molino-del-santo, monnalisa-fuengirola, pena-al-tranco, ragazzi-fuengirola, restaurante-cerros-del-aguila, restaurante-sheriff, singh-doner-kebab, sol-y-sombra-mijas, sollo-fuengirola, taberna-mar-de-alboran-estepona, the-good-burger-miramar, utopia-la-cala, vegetalia-fuengirola, venta-los-condes.
-
-## Pending: price markings found 2026-11-02, not yet applied
-
-Owner said to use TheFork/Tripadvisor for the new restaurant records without readable own prices. The lookup ran, but Firecrawl credits ran out before the orchestrator spot check (Tripadvisor returns 403 to curl and WebFetch), so nothing was written. Next session: spot-check at least two lines (credits reset 2026-11-03 15:55 UTC), then apply `€€` for the five identity-confirmed rows (`secondary`, low confidence, issue `cost_level_secondary_source`). For the four unconfirmed rows, confirm the address first; Sollo (TheFork 250 €) and El Higuerón (`$$$$`) would be `€€€`.
-
-| Record | Marking | Identity by address | URL |
-|---|---|---|---|
-| `juan-playa-fuengirola` | tripadvisor "$$ - $$$" | no | https://www.tripadvisor.com/Restaurants-g315915-c33-zfp5-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
-| `vegetalia-fuengirola` | tripadvisor "€€ - €€€" | yes | https://www.tripadvisor.es/Restaurant_Review-g315915-d984713-Reviews-Vegetalia_Fuengirola-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
-| `ragazzi-fuengirola` | tripadvisor "$$ - $$$" | yes | https://www.tripadvisor.com/Restaurant_Review-g315915-d8401666-Reviews-Ragazzi-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
-| `fosters-hollywood-miramar` | tripadvisor "$$ - $$$" | yes | https://www.tripadvisor.com/Restaurant_Review-g315915-d4025871-Reviews-Foster_s_Hollywood-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
-| `la-tagliatella-miramar` | tripadvisor "$$ - $$$" | yes | https://www.tripadvisor.com/Restaurant_Review-g315915-d23330362-Reviews-La_Tagliatella_Fuengirola-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
-| `kalifato-benalmadena` | tripadvisor "$$ - $$$" | yes | https://www.tripadvisor.com/Restaurant_Review-g562812-d984662-Reviews-El_Kalifato-Benalmadena_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
-| `sollo-fuengirola` | thefork "Precio medio: 250 €" | no | https://www.thefork.es/restaurante/sollo-r869790 |
-| `freiduria-el-choco-fuengirola` | tripadvisor "$$ - $$$" | no | https://www.tripadvisor.com/Restaurant_Review-g315915-d2480160-Reviews-Freiduria_Pulperia_El_Choco-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andalucia.html |
-| `el-higueron-fuengirola` | tripadvisor "$$$$" | no | https://www.tripadvisor.com/Restaurant_Review-g315915-d1003583-Reviews-or45-El_Higueron_Restaurante-Fuengirola_Costa_del_Sol_Province_of_Malaga_Andaluci.html |
-
-No TheFork/Tripadvisor listing found: `monnalisa-fuengirola`, `kamura-sushi-fuengirola`, `da-vinci-los-boliches`, `meson-salvador-fuengirola`, `burger-king-miramar`, `the-good-burger-miramar`, `casa-carmen-miramar`, `antonio-playa-fuengirola`, `cafe-nomad-fuengirola`, `heladeria-casa-esteban-fuengirola`, `marvelous-burger-fuengirola`, `utopia-la-cala`, `venta-los-condes`, `restaurante-sheriff`. For these, owner screenshots (menu or Facebook) are the remaining route.
+| Record | Marking | Identity by address |
+|---|---|---|
+| `vegetalia-fuengirola` | tripadvisor "€€ - €€€" | yes |
+| `fosters-hollywood-miramar` | tripadvisor "$$ - $$$" | yes |
+| `la-tagliatella-miramar` | tripadvisor "$$ - $$$" | yes |
+| `freiduria-el-choco-fuengirola` | tripadvisor "$$ - $$$" | no |
+| `el-higueron-fuengirola` | tripadvisor "$$$$" | no |
+| `sollo-fuengirola` | thefork "Precio medio: 250 €" (own site: 180 € tasting menu) | no |
