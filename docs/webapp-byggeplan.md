@@ -37,7 +37,9 @@ Find en tur → vælg 1–3 steder → dato + hvem (skriv ELLER 🎤 tal) → "L
 - **Tekster:** nye steder kommer med postens engelske tekst (`text_language: "en"`); danske tekster, der allerede findes i appen, bevares. Dansk oversættelse er en åben opgave.
 - **Helligdage:** tabellen `public.holidays` laves med drizzle-migration 0004 i app-repoet (punkt 3).
 - **Punkt 3 (`planTrip`) er lavet på branch** `claude/vigilant-cray-dtqaxz` i app-repoet: `src/lib/trip-plan.ts` (regler fra `tools/trip.py plan`), server-funktionen `planTrip` (kun admins) og siden `/turforslag` (menuen for admins). Eksporten har nu en `trip`-blok pr. sted (åbningstider og tjekdato, faste åbningstider, regnvejrsdag, bar, telefon). Afprøvet 2026-11-02 med eksporten og live-data: DGT-hændelser og spisesteder er identiske med `tools/trip.py`; met.no-reserven virker. Open-Meteo havde lukket testmaskinens IP for dagen (dagskvote), så den gren blev testet via fejlhåndteringen.
-- **Efter merge:** kør eksporten igen og importér `places.json` på ny, så stederne får `trip`-blokken.
+- **Efter merge:** kør eksporten igen og importér `places.json` på ny, så stederne får `trip`-blokken. (Gjort 2026-11-02; migration 0004 kørt manuelt, fordi Publish ikke kører `drizzle/migrations/`.)
+- **Punkt 4 (Ecco) er lavet** i PR thomasericolesen/callemilano-f388b2be#3: `src/lib/ecco.server.ts` med Eccos instrukser, fast svarformat (zod) og Claude Sonnet 5.5 via `@anthropic-ai/sdk` (effort medium, cache på instrukserne, `fallbacks: "default"`). Ecco skriver kun tekst; restauranter, vejrtal og links vises direkte fra data. Nøglen `ANTHROPIC_API_KEY` er en Lovable Cloud-hemmelighed. Ikke afprøvet mod den rigtige API før merge (ingen nøgle i udviklingsmiljøet).
+- **Ikke lavet endnu:** "Gem som PDF"/"Del", gemte turforslag pr. bruger ("Mine turforslag") og loftet på 10 turforslag pr. bruger pr. dag. Indtil da er udgiftsloftet i Anthropic Console værnet.
 
 ## Trin 1: turforslag med tekst
 
