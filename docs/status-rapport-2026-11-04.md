@@ -15,7 +15,7 @@ Siden i går aftes er fire ting sket:
 - Vejrfejlen er fundet og afhjulpet.
 - Ejeren har præciseret, hvad samarbejdet mellem OpenAI og Claude skal bruges til.
 
-Alt er merget. Den sidste app-ændring (#11) er endnu ikke udgivet på callemilano.dk.
+Alt er merget og udgivet på callemilano.dk. Den sidste app-ændring (#11) blev udgivet kl. ca. 11.50, men er ikke testet med et turforslag endnu.
 
 ## 2. Sket siden sidste rapport
 
@@ -24,7 +24,7 @@ Alt er merget. Den sidste app-ændring (#11) er endnu ikke udgivet på callemila
 | Afstand mellem stop i luftlinje ("ca. 470 m til fods") i stedet for summerede køretider fra huset | Live, testet af ejeren | #8 |
 | "Foreslå noget andet", "Start forfra", "Ny søgning"; valgte steder nummereret i rækkefølge | Live, testet af ejeren | #9 |
 | Vejr: korte forsøg mod Open-Meteo, fejlårsagen vises, cache | Live, og det afslørede årsagen (se afsnit 3) | #10 |
-| Vejr fra met.no med UV og solopgang + Claude vælger steder, OpenAI kun som reserve | **Merget, ikke udgivet** | #11 |
+| Vejr fra met.no med UV og solopgang + Claude vælger steder, OpenAI kun som reserve | Live, ikke testet endnu | #11 |
 
 Dokumentation i places-repoet: #47–#50 (overdragelse og ændringslog).
 
@@ -53,7 +53,7 @@ Resten er uændret: Smagemenu delvist, kategori uden navn og frit ønske fungere
 
 ## 6. Kendte mangler
 
-- **#11 er ikke udgivet.** Det er første punkt næste gang.
+- **#11 er live, men ikke testet** med et turforslag. Det er første punkt næste gang.
 - **Køretid mellem stop** er stadig kun i luftlinje, ikke route-tjekket via Google.
 - **Regnrisiko i procent** mangler, fordi met.no ikke har den for Spanien. AEMET kan løse det.
 - **Små tekstfejl:** Ecco skrev "Køb hjemmefra" i stedet for "Kør hjemmefra". Restauranter står som "åbent område" uden åbningstider. Teksten "0 af 0" er fjernet med #11.
