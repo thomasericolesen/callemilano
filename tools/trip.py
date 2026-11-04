@@ -135,6 +135,33 @@ def maps_dir_url(lat, lon):
     return f"https://www.google.com/maps/dir/?{q}"
 
 
+def route_minutes_between(origin, destination, departure_time):
+    """Return traffic-aware Google route time between stops, or None when unavailable."""
+    body = {"origin": {"location": {"latLng": {"latitude": origin["lat"], "longitude": origin["lon"]}}},
+            "destination": {"location": {"latLng": {"latitude": destination["lat"], "longitude": destination["lon"]}}},
+            "travelMode": "DRIVE", "routingPreference": "TRAFFIC_AWARE_OPTIMAL", "departureTime": departure_time}
+    try:
+        response = subprocess.run(
+            ["curl", "-sS", "-m", "20", "-X", "POST", "https://routes.googleapis.com/directions/v2:computeRoutes",
+             "-H", "Content-Type: application/json", "-H", "X-Goog-Api-Key: dummy",
+             "-H", "X-Goog-FieldMask: routes.duration,routes.distanceMeters", "-d", json.dumps(body)],
+            capture_output=True, text=True, timeout=25, check=False)
+        route = (json.loads(response.stdout or "{}").get("routes") or [{}])[0]
+        match = re.fullmatch(r"(\d+(?:\.\d+)?)s", route.get("duration", ""))
+        if response.returncode == 0 and match:
+            return round(float(match.group(1)) / 60)
+    except (OSError, subprocess.TimeoutExpired, ValueError, TypeError):
+        pass
+    return None
+
+
+def next_route_departure():
+    departure = dt.date.today() + dt.timedelta(days=1)
+    while departure.weekday() != 5:
+        departure += dt.timedelta(days=1)
+    return f"{departure.isoformat()}T09:00:00Z"
+
+
 def fetch(url, timeout=40, retries=4):
     """Hent en URL; ved HTTP 429/5xx prøves igen med stigende ventetid (2, 4, 8, 16 s)."""
     import time
@@ -748,6 +775,8 @@ def cmd_plan(args):
     rest_rows = [r for r in load_restaurants() if r.get("status") == "aktiv"]
     any_wet = False
     stops = []
+    route_departure = next_route_departure()
+    previous = None
     for p in chosen:
         op = opening_info(p, today)
         hol = holidays_on(args.date, p["municipality"])
@@ -756,12 +785,24 @@ def cmd_plan(args):
                        else ([], False))
         any_wet = any_wet or wet
         rest = lookup_restaurants(p, group["has_children"], rest_rows, today)
+        from_previous = None
+        if previous:
+            straight_line_m = round(haversine_km(previous["lat"], previous["lon"],
+                                                 p["lat"], p["lon"]) * 1000)
+            leg_minutes = route_minutes_between(previous, p, route_departure)
+            from_previous = {"slug": previous["slug"], "name": previous["name"],
+                             "reach": "drive", "straight_line_m": straight_line_m,
+                             "drive_min": leg_minutes,
+                             "source": "Google Routes API computeRoutes" if leg_minutes is not None else None,
+                             "route_checked": leg_minutes is not None}
         stops.append({"slug": p["slug"], "name": p["name"], "category": p["category"], "tags": p["tags"],
                       "municipality": p["municipality"], "layer": p["layer"],
                       "driving_time": p["driving_time"], "driving_min": p["driving_min"],
+                      "from_previous": from_previous,
                       "maps_url": maps_dir_url(p["lat"], p["lon"]), "opening": op, "holidays": hol,
                       "weather": w, "weather_advice": advice, "traffic": t_by.get(p["slug"]),
                       "restaurants": rest})
+        previous = p
         s_ = p["slug"]
         if op["record_status"] not in ("approved", "published"):
             chk("info", "udkast", f"{p['name']}: stedposten er '{op['record_status']}', ikke godkendt.", s_)
@@ -802,7 +843,6 @@ def cmd_plan(args):
             chk("info", "tilgængelighed", f"{p['name']}: tilgængelighed er ikke vurderet af redaktøren; "
                 "omtal den som ukendt, medmindre stedposten har det.", s_)
 
-    total = sum((s_["driving_min"] or 0) for s_ in stops)
     levels = {c["level"] for c in checks}
     verdict = ("blokeret" if "blokeret" in levels else "kræver_tjek" if "tjek" in levels
                else "ok_med_forbehold" if "forbehold" in levels else "ok")
@@ -811,8 +851,8 @@ def cmd_plan(args):
         "weekday": wd,
         "origin": ORIGIN_NAME, "group": group, "wishes": args.wishes or "",
         "stops": stops,
+        "first_stop_driving_min": stops[0]["driving_min"] if stops else None,
         "suggestions": nearby_suggestions(places, chosen, any_wet, group["small_children"]),
-        "sum_one_way_driving_min_from_casa": total,
         "weather_source": weather.get("source"), "weather_note": weather.get("note"),
         "traffic_source": {"source": traffic.get("source"), "url": traffic.get("source_url"),
                            "dgt_publication_time": traffic.get("dgt_publication_time"),
