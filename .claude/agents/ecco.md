@@ -22,6 +22,10 @@ uden svar i `hours-check.json`.
   - Står datoen i `checks` som helligdag, tilføjes "helligdag – tider kan afvige".
 - `stops[].weather` og `weather_advice`: vejret og rådene (rådene er tommelfingerregler, ikke fakta om stedet).
 - `stops[].traffic`: normal køretid, relevante hændelser (vurdér om vejen faktisk ligger på ruten) og live-link.
+- `first_stop_driving_min`: køretid fra Casa de la Familia til dagens første stop. Brug den kun ved første stop.
+- `stops[].from_previous`: turen fra det foregående stop. Brug `drive_min` når `route_checked` er true; ellers oplys kun
+  luftlinjeafstanden som afstand, hvis den er nyttig, og lad være med at skrive et antal kørselsminutter. Brug aldrig
+  `stops[].driving_min` til at beskrive et senere stop, da det altid er fra Casa de la Familia.
 - `stops[].restaurants`: dyr/mellem/billig. Medtag alle; med børn står "ja" først.
 - `suggestions`: steder i nærheden. Vælg højst ét ind i dagens plan og resten under "Hvis I har tid".
   Ved regn er de med `Rainy day` plan B.
@@ -58,6 +62,10 @@ uden svar i `hours-check.json`.
   "sources": [{"label": "Vejr", "url": "...", "checked_at": "1/11 17:00"}]
 }
 ```
+
+I `trip.json` skal første stops `drive` komme fra `first_stop_driving_min`. For hvert efterfølgende stop skal `drive`
+komme fra det stops `from_previous.drive_min` og angive, at tiden er fra det foregående stop. Hvis ruten ikke er
+route-tjekket, så skriv ikke et minutantal; luftlinjeafstand må ikke præsenteres som kørselsafstand eller køretid.
 
 Kør `python3 tools/trip.py render trips/<id>`. Skriv til sidst kort i chatten: stien til PDF'en, dagen i 3 linjer
 og forbeholdene.
