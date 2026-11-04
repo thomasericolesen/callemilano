@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-04 - Weather source and the role of OpenAI (owner decisions)
+
+- Open-Meteo: the live site showed "HTTP 429: Daily API request limit exceeded" (free quota per IP; the Lovable server shares IPs). App PR thomasericolesen/callemilano-f388b2be#10 (merged) retries with short timeouts, keeps the reason and caches; #11 makes met.no the effective source with clear-sky UV and sunrise/sunset. met.no has no precipitation probability or gusts for Spain. Option noted for later: AEMET OpenData (official, free API key, rain probability and UV per municipality).
+- Owner decision: consensus between OpenAI and Claude was meant for development (the two systems challenging each other to get the best, most robust and most interactive model), not for agreeing on trip plans. In the app, Claude picks places (as Ecco writes the text) and OpenAI is only a fallback when Claude does not answer (owner chose this over Claude only). App PR #11.
+
 ## 2026-11-03 (late evening) - AI-turplan merged into Turforslag (owner decision)
 
 - Owner decision 2026-11-03: the Lovable page "AI-turplan" (`/ai-tur`, OpenAI through the Lovable AI Gateway) is merged into `/turforslag`. Owner chose admin-only access at first and then asked for consensus between OpenAI and Claude, not either/or.
