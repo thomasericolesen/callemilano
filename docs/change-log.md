@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-04 (afternoon) - Self-test instead of trial and error (owner decision)
+
+- Owner decision: stop the trial-and-error loop (owner merging, publishing and making manual trip plans after every small fix). App PRs thomasericolesen/callemilano-f388b2be#12 and #13 add a self-test: 14 scenarios with automatic checks on plan data, place suggestions and Ecco's text (`src/lib/selftest.ts`), a local runner against a DB snapshot with live weather/traffic (`scripts/selftest-local.mts`, `OPEN_METEO_DOWN=1` mimics the Lovable server), and `POST /api/selftest` on the live site with real keys (`scripts/selftest-remote.mts`; token in `public.selftest_tokens`, RLS, service role only, expires after 90 days; table created with the Lovable `query_database` tool). An independent review agent checked the code before the owner merged.
+- Fixes found by the self-test: met.no sent a truncated cached answer for Puerto Colorado (now 3 decimals, then 4, then compact); restaurants without hours showed as "åbent område" (now "ring og tjek"); Ecco left out "Kør hjemmefra" with three stops, wrote "Sevärdighed" and promised a waterfall that is not in the data (prompt rules plus `tidyEcco()`); met.no UV "0" a few days ahead (daytime hours only).
+- Result on https://callemilano.dk after #13: 14 of 14 scenarios OK (4 warnings: met.no has no UV beyond about 2 days).
+
 ## 2026-11-04 - Weather source and the role of OpenAI (owner decisions)
 
 - Open-Meteo: the live site showed "HTTP 429: Daily API request limit exceeded" (free quota per IP; the Lovable server shares IPs). App PR thomasericolesen/callemilano-f388b2be#10 (merged) retries with short timeouts, keeps the reason and caches; #11 makes met.no the effective source with clear-sky UV and sunrise/sunset. met.no has no precipitation probability or gusts for Spain. Option noted for later: AEMET OpenData (official, free API key, rain probability and UV per municipality).
