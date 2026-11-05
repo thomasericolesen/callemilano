@@ -80,21 +80,22 @@ Sidste kørsel på callemilano.dk var 4. november efter #13: **14/14 OK**.
 
 ## 6. Status lige nu
 
-**Åben PR, der venter på ejeren:** [callemilano-f388b2be#14](https://github.com/thomasericolesen/callemilano-f388b2be/pull/14) – route-tjekket køre- og gangtid mellem stop.
-- Opslagene går gennem Lovables gateway (Routes), med projektets egen nøgle som reserve.
-- Lokalt er alt grønt med rigtige ruter, fx 7 min til fods fra La Butibamba til El Trópico og 14 min i bil fra Puerto Colorado til El Higuerón.
-- **Næste skridt:** Ejeren merger og publicerer. Kør derefter selvtesten mod callemilano.dk.
-- **Hvis `køretid_mellem_stop` fejler:** Læs `route_error`, som indeholder årsagen fra både gatewayen og den egne nøgle. Det mest sandsynlige er et forkert navn på gateway-stien eller -nøglen. Bekræft det med ejeren og Lovable.
+**App-repoet (`callemilano-f388b2be`):** PR #14 (ruter mellem stop) og #17 (AEMET-connector) er merget. Lovable-projektet er publiceret på `1911a510ea55c902bd3248d7dd6703b5dea6e70f`. PR #18 blev lukket som overflødig, fordi dens rettelse allerede var på `main`.
+- Live-selvtesten blev kørt 5. november: **14/14 scenarier OK**, inkl. `aemet-live`.
+- Ruteopslagene i appen går gennem Lovables Google Maps-gateway med projektets egen nøgle som reserve.
+
+**Places-repoet (`callemilano`):** PR #54 er merget (`b13fd38`) og tilføjer route-tjekket tid mellem stop. Ejeren har besluttet, at disse beregninger bruger det aktuelle tidspunkt; lørdagsstandard er droppet. Den opfølgende ændring og regressionstest er under forberedelse.
+- `X-Goog-Api-Key: dummy` er den tilsigtede session-proxy-konvention i agentmiljøet, dokumenteret i `tools/intake.py`; den er ikke en rigtig Google-nøgle.
 
 **places-repoet:** 220 stedposter, 0 valideringsfejl, `main` er ren.
 
 ## 7. Opgaveliste (prioriteret)
 
-1. **Afslut #14:** Selvtest på callemilano.dk efter Publish (afsnit 4).
-2. **Regnrisiko i procent:** AEMET OpenData (officiel, gratis API-nøgle, som ejeren registrerer på opendata.aemet.es; regnrisiko og UV pr. kommune). Spørg ejeren før der bygges, fordi nøglen skal ligge som en hemmelighed i Lovable Cloud.
-3. **Turkort ("Mine ture"):** gem en tur, åbn den igen på telefonen. Det er det næste produktskridt i statusrapporterne.
+1. **Afslut #14:** Færdig. Live-selvtesten efter Publish gav 14/14 OK 5. november.
+2. **Regnrisiko i procent:** AEMET OpenData er koblet til Lovable Cloud; `aemet-live` bestod. Overvågning og brugerfladens integration hører til den normale Turforslag-validering.
+3. **Turkort ("Mine ture"):** næste produktskridt. Gem en tur, og åbn den igen på telefonen.
 4. **Loft pr. bruger** før Turforslag åbnes for familien, fordi hvert forslag og hver tekst koster Claude-kald.
-5. **Afstemning:** `tools/trip.py` i places-repoet, som bruges af Ecco-agenten til PDF'er, viser stadig den gamle summerede køretid. Den skal følge appen (`from_previous`, `first_stop_driving_min` og tid mellem stop).
+5. **Afstemning:** `tools/trip.py` i places-repoet bruger nu `from_previous` og `first_stop_driving_min` via PR #54. Opfølgning: brug aktuelt tidspunkt for ruteopslag mellem stop (ejerbeslutning 2026-11-05); den faste lørdagsafgang skal ikke længere bruges dér.
 6. **Data (pristjek runde 2 og faktatjek):**
    - El Ancla, Tasca Laska, Taberna Casa Blanca og El Cachalote.
    - Brug `tools/intake.py fetch`: curl → pdftotext → Chromium. Firecrawl kun som sidste udvej.

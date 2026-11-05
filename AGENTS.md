@@ -35,7 +35,7 @@ Routine intake and fact-check work uses `tools/intake.py` and the subagents in `
 
 ## Trip plans (owner decisions 2026-11-01 and 2026-11-02)
 
-Trip plans work in two phases, described in `docs/trip-planner-agents.md`. Advance work (places, opening hours via Alpha, restaurants via Charlie) follows the pipeline rules above and ends in place records; restaurants are full place records and `data/restaurant-directory.csv` is only a lead list. The trip plan is `/turforslag`: `tools/trip.py plan` (weather, traffic, holidays and automatic checks; former agents Bravo and Delta) and the agent Ecco, who writes the Danish text and PDF. Trip working files and PDFs go to `trips/` and are not committed.
+Trip plans work in two phases, described in `docs/trip-planner-agents.md`. Advance work (places, opening hours via Alpha, restaurants via Charlie) follows the pipeline rules above and ends in place records; restaurants are full place records and `data/restaurant-directory.csv` is only a lead list. The trip plan is `/turforslag`: `tools/trip.py plan` (weather, traffic, holidays and automatic checks; former agents Bravo and Delta) and the agent Ecco, who writes the Danish text and PDF. For between-stop Google Routes checks, use the current time as `departureTime`, not a standardized Saturday or the requested plan date (owner decision 2026-11-05). Trip working files and PDFs go to `trips/` and are not committed.
 
 ## Canonical project files
 

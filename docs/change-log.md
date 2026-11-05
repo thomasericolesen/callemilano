@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-05 — Use the current time for between-stop route estimates (owner decision)
+
+- Owner decision: Google Routes between-stop estimates use the current instant, rather than the next Saturday or the requested trip date. The Saturday assumption was introduced to standardize route comparisons, but observed weekday variation did not justify it. `tools/trip.py` now sends the current UTC instant as the Routes API `departureTime`; the separate static place-intake route checks are unchanged.
+- Added a focused unit test for the UTC timestamp and route request payload. No place records or route-check evidence were changed.
+
 ## 2026-11-04 (afternoon) - Self-test instead of trial and error (owner decision)
 
 - Owner decision: stop the trial-and-error loop (owner merging, publishing and making manual trip plans after every small fix). App PRs thomasericolesen/callemilano-f388b2be#12 and #13 add a self-test: 14 scenarios with automatic checks on plan data, place suggestions and Ecco's text (`src/lib/selftest.ts`), a local runner against a DB snapshot with live weather/traffic (`scripts/selftest-local.mts`, `OPEN_METEO_DOWN=1` mimics the Lovable server), and `POST /api/selftest` on the live site with real keys (`scripts/selftest-remote.mts`; token in `public.selftest_tokens`, RLS, service role only, expires after 90 days; table created with the Lovable `query_database` tool). An independent review agent checked the code before the owner merged.

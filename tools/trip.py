@@ -155,11 +155,10 @@ def route_minutes_between(origin, destination, departure_time):
     return None
 
 
-def next_route_departure():
-    departure = dt.date.today() + dt.timedelta(days=1)
-    while departure.weekday() != 5:
-        departure += dt.timedelta(days=1)
-    return f"{departure.isoformat()}T09:00:00Z"
+def current_route_departure(now=None):
+    """Return the current instant as UTC RFC 3339 for Google Routes traffic estimates."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    return now.astimezone(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
 def fetch(url, timeout=40, retries=4):
@@ -775,7 +774,7 @@ def cmd_plan(args):
     rest_rows = [r for r in load_restaurants() if r.get("status") == "aktiv"]
     any_wet = False
     stops = []
-    route_departure = next_route_departure()
+    route_departure = current_route_departure()
     previous = None
     for p in chosen:
         op = opening_info(p, today)
