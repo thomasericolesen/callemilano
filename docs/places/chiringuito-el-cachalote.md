@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: €€
+cost_level: €
 visit_information:
-  schedule: Wed-Sun 11:30-19:00 (kitchen); closed Mon-Tue (own site, undated, read 2026-11-02).
+  schedule: Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (own site, undated, read 2026-11-05).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'No prices on own site; Tripadvisor price marking "€€ - €€€" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N'
-  cost_checked_at: '2026-11-02'
+  cost_basis: 'Own menu (image pages on the /menu/ page, files named ''BORRADOR-V2-MENU'', uploaded February 2026): 23 portion-priced fish, seafood and paella dishes 11,00-24,00 € (median 15,00 €; per-100 g fish, the single espeto and the two-portion fritura left out) plus draught beer 2,90 € gives about 17,90 € per adult. Bread and service 1,20 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-05'
 links:
   official_website: http://www.chiringuitoelcachalote.com/
   booking: null
@@ -80,7 +80,7 @@ links:
 related_places:
 - playa-la-malagueta
 description_short: 'Chiringuito El Cachalote: family-run fish beach restaurant on Malagueta beach since 1980, with sardine espetos.'
-description_long: 'Chiringuito El Cachalote is a family business on the Paseo Marítimo Pablo Ruiz Picasso by Calle Gutemberg, on Malagueta beach, serving Málaga-style fried fish (''pescaíto''), seafood and grilled sardine espetos since 1980 (own website). Opening hours on the site: Wednesday-Sunday 11:30-19:00 (kitchen); closed Monday and Tuesday. The hours are not dated, so check before going, especially outside summer.'
+description_long: 'Chiringuito El Cachalote is a family business on the Paseo Marítimo Pablo Ruiz Picasso by Calle Gutemberg, on Malagueta beach, serving Málaga-style fried fish (''pescaíto''), seafood and grilled sardine espetos since 1980 (own website). Opening hours on the site: Wednesday-Sunday 11:30-19:00, kitchen 12:00-18:00; closed Monday and Tuesday. The hours are not dated, so check before going, especially outside summer.'
 seo_title: Chiringuito El Cachalote, Málaga | CalleMilano
 seo_description: 'Chiringuito El Cachalote (Málaga): food, opening hours and drive time from Casa de la Familia.'
 images: []
@@ -117,6 +117,22 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of tripadvisor.es listing. Name and town match (Málaga).
+- field: cost_level
+  claim: '"Caña de sardinas 11,00" ; "Gambones (6 unidades) 21,00" ; "Pata de pulpo con guarnición 24,00" ; "Gambas (12-18 unidades) 21,00" ; "Rosada (Plancha o frita) 14,00" ; "Langostinos (10 unidades) 12,00" ; "Pez espada con guarnición 18,00" ; "Lenguado con guarnición 18,00" ; "Boquerones al limón 14,00" ; "Boquerones 13,00" ; "Puntillitas 17,00" ; "Calamaritos 12,00" ; "Calamares (Pota)* 12,00" ; "Jibia frita/plancha 14,00" ; "Pulpo 18,00" ; "Adobo 13,00" ; "Salmonetitos 14,00" ; "Pulpo a la gallega 22,00" ; "Paella mixta (precio por persona) 15,00" ; "Paella de marisco (precio por persona) 17,00" ; "Paella de pollo (precio por persona) 15,00" ; "Paella vegetal (precio por persona) 15,00" ; "Arroz con bogavante (precio por persona) 24,00" ; "Cerveza //Tinto de verano 2,90" ; "Refrescos 3,00 (23,7 cl)" ; "Servicio y pan 1,20"'
+  source_url: http://chiringuitoelcachalote.com/menu/
+  source_type: official_venue
+  checked_at: '2026-11-05'
+  checked_by: Claude (main session)
+  confidence: medium
+  notes: 'Method: curl of the page HTML; the menu is only images (BORRADOR-V2-MENU_Pagina_3 to _8, wp-content/uploads/2026/02, Last-Modified 13 Feb 2026), read visually by the main session. ''Borrador'' means draft, so prices may differ on site. Per-100 g items (dorada, pargo, lubina, calamar 5-6 €/100 g), ''Espeto de sardinas 5,50'' and ''Fritura malagueña (equivalente a 2 raciones) 26,00'' were not counted as single mains.'
+- field: visit_information.schedule
+  claim: '"HORARIO (de miércoles a domingo) 11:30h – 19:00h cocina 12:00h – 18:00h Lunes y martes CERRADO por descanso del personal" ; "inicio temporada 2026"'
+  source_url: http://www.chiringuitoelcachalote.com/
+  source_type: official_venue
+  checked_at: '2026-11-05'
+  checked_by: Claude (main session)
+  confidence: medium
+  notes: 'Method: curl. Corrects the 2026-11-02 reading, which gave 11:30-19:00 as kitchen hours.'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -129,20 +145,19 @@ review_issues:
 - code: facts_partly_checked
   severity: warning
   fields:
-  - cost_level
   - booking_required
-  description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing.'
+  description: 'Own website checked 2026-11-02; prices from the own menu 2026-11-05. Still open: booking_required. Opening hours change by season; check before publishing.'
   retryable: true
   owner: fact_check
-- code: cost_level_secondary_source
+- code: cost_level_menu_draft
   severity: info
   fields:
   - cost_level
-  description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
+  description: cost_level € (about 17,90 €) is from menu images named 'BORRADOR' (draft), uploaded February 2026; was €€ from Tripadvisor. Check the menu on site.
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-05'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

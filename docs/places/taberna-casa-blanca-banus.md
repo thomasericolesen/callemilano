@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: €€
+cost_level: €
 visit_information:
   schedule: Daily 09:00-22:45 (group website, read 2026-11-02).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'No prices on own site; Tripadvisor price marking "€€ - €€€" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N'
-  cost_checked_at: '2026-11-02'
+  cost_basis: 'Own food menu PDF for Casa Blanca Puerto Banús (file dated 02-10-26, Last-Modified 5 Oct 2026): the 12 meat and fish plates in ''LONJA Y MERCADO'' 14,00-29,00 € (median 16,25 €; fried aubergines and Padrón peppers left out) plus a San Miguel caña 2,70 € gives about 18,95 € per adult (borderline € / €€). Most of the menu is tapas, pinchos and shared plates. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-05'
 links:
   official_website: https://grupocasalola.com/
   booking: null
@@ -117,6 +117,22 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of tripadvisor.es listing 'Taberna Casa Blanca Banús - Marbella'. Name and town match. A different listing 'TABERNA CASABLANCA, Marbella' exists and was not used.
+- field: cost_level
+  claim: '"LOMO ALTO ARGENTINO N U E V O ··· 29,00" ; "PRESA IBÉRICA ESTILO CASABLANCA··· 22,00" ; "GAMBAS DE HUELVA··· 14,50" ; "SOLOMILLO DE TERNERA··· 29,00" ; "BOQUERONES VICTORIANOS 100% Malagueños··· 15,00" ; "BUCHONES DE ROSADA··· 15,00" ; "CAZÓN EN ADOBO··· 14,00" ; "ROSADA PLANCHA··· 14,50" ; "CALAMARES FRITOS (NACIONAL)··· 17,50" ; "PULPO AL GRILL··· 18,50" ; "LOMO DE ATÚN A LA PLANCHA··· 24,00" ; "GAMBITAS FRITAS··· 15,00" ; "DESPACHO DE COMIDAS · PRECIOS CON EL IVA INCLUIDO ·" ; "PUERTO BANÚS No.05"'
+  source_url: https://grupocasalola.com/wp-content/uploads/2025/07/casa-blanca-banus-comidas-02-10-26.pdf
+  source_type: official_venue
+  checked_at: '2026-11-05'
+  checked_by: Claude (main session)
+  confidence: medium
+  notes: 'Method: pdf (pdftotext). Linked from https://grupocasalola.com/carta/casa-blanca-puerto-banus-carta-web/ (''Comidas''). Dot leaders shortened to ''···''. The two-column PDF text was matched to the ''LONJA Y MERCADO'' heading by layout; ''BERENJENAS FRITAS 12,00'' and ''PIMIENTOS DE PADRÓN 11,00'' sit in the same column but are vegetable plates and were not counted (with them the median is 15,00 €, still €).'
+- field: cost_level
+  claim: '"SAN MIGUEL · Caña 2,70 · Pinta 5,00" ; "COCA-COLA, FANTA · 3,70" ; "Copa VINO DE LA CASA · 4,20"'
+  source_url: https://grupocasalola.com/wp-content/uploads/2025/07/casa-blanca-banus-bebidas-02-10-26.pdf
+  source_type: official_venue
+  checked_at: '2026-11-05'
+  checked_by: Claude (main session)
+  confidence: medium
+  notes: 'Method: pdf (pdftotext). Linked from the same carta page (''Bebidas''). With a soft drink (3,70 €) the total is about 19,95 €, still €.'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -129,20 +145,19 @@ review_issues:
 - code: facts_partly_checked
   severity: warning
   fields:
-  - cost_level
   - booking_required
-  description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing.'
+  description: 'Own website checked 2026-11-02; prices from the own menu 2026-11-05. Still open: booking_required. Opening hours change by season; check before publishing.'
   retryable: true
   owner: fact_check
-- code: cost_level_secondary_source
+- code: cost_level_borderline
   severity: info
   fields:
   - cost_level
-  description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
+  description: € (about 18,95 € with a caña, 19,95 € with a soft drink) is close to the 20 € edge; was €€ from Tripadvisor. Owner may prefer €€.
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-05'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

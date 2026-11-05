@@ -69,8 +69,8 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'No prices on own site; Tripadvisor price marking "€€ - €€€" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N'
-  cost_checked_at: '2026-11-02'
+  cost_basis: 'Own carta PDF (Last-Modified August 2022): 19 portion-priced meat, tuna, fish, pasta and rice dishes 18-45 € (median 25 €; per-kg fish and shellfish left out); no drink prices in the carta, so main plus one drink is about 27 € or more, inside 20-50 €. Bread 2 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-05'
 links:
   official_website: https://www.elanclarestaurante.com/
   booking: null
@@ -117,6 +117,14 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Listing is titled 'EL ANCLA RESTAURANTE, San Pedro de Alcántara'. Key says 'Marisquería El Ancla San Pedro Marbella'. Matched on name and locality. Name variant to confirm.
+- field: cost_level
+  claim: '"49 Filetes de lomo a la plancha 18€" ; "50 San Jacobo 19€" ; "51 Rabo de toro 24€" ; "52 Solomillo de ternera, plancha o a la pimienta 32€" ; "55 Lomo de atún encebollado 25€" ; "56 Lomo de atún a la plancha 25€" ; "57 Huevo roto con atún 25€" ; "58 Tataki de atún con salsa nikkey 25€" ; "38 Rosada frita con patatas 18€" ; "39 Merluza a la plancha o a la romana 23€" ; "40 Brocheta de rape 28€" ; "41 Rape frito o a la plancha 28€" ; "42 Salmón a la plancha 28€" ; "73 Raviolis rellenos de setas con salsa de trufa 26€" ; "74 Lingüini con almejas 29€" ; "75 Lingüini con carabineros 45€" ; "35 Caldoso de marisco (mínimo 2 personas) (p/p) 25€" ; "36 Paella de pollo y verduras (mínimo 2 personas) (p/p) 25€" ; "Paella negra de gambas y calamar (mínimo 2 personas) (p/p) 28€" ; "76 Nuggets de pollo con patatas fritas 13€" ; "Servicio de pan 2€ / 10% IVA incluido"'
+  source_url: https://www.elanclarestaurante.com/wp-content/uploads/2021/03/CartaESP_SP.pdf
+  source_type: official_venue
+  checked_at: '2026-11-05'
+  checked_by: Claude (main session)
+  confidence: medium
+  notes: 'Method: pdf (pdftotext), linked as ''CARTA EN PDF'' from the home page. Server Last-Modified 8 Aug 2022, so prices may have risen; the band would stay €€ unless they rose by about 100 %. Children''s dishes (PLATOS INFANTILES 13-18 €) not counted. The linked POOL BAR MENU PDF has no drink prices either.'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -130,20 +138,19 @@ review_issues:
   severity: warning
   fields:
   - visit_information
-  - cost_level
   - booking_required
-  description: 'Own website checked 2026-11-02. Still open: visit_information, cost_level. Opening hours change by season; check before publishing.'
+  description: 'Own website checked 2026-11-02; prices from the own menu 2026-11-05. Still open: visit_information (opening hours), booking_required. Opening hours change by season; check before publishing.'
   retryable: true
   owner: fact_check
-- code: cost_level_secondary_source
+- code: menu_possibly_outdated
   severity: info
   fields:
   - cost_level
-  description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
+  description: The own carta PDF was last modified in August 2022; prices on site may be higher. The band (€€) is unlikely to change.
   retryable: true
-  owner: human_editor
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-05'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
