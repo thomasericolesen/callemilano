@@ -7,6 +7,7 @@
 - `tasca-laska-malagueta`: own digital menu for the Malagueta branch (the PDF on the branch page is the Avenida branch's menu, same main prices), median 18,00 € + glass of wine 3,80 € = about 21,80 € -> stays `€€`. All facts in `facts_partly_checked` are now checked, so the issue is closed.
 - `taberna-casa-blanca-banus`: own Puerto Banús menus (dated 02-10-26), median 'Lonja y mercado' plate 16,25 € + caña 2,70 € = about 18,95 € -> `€€` to `€`. New info issue `cost_level_borderline` (close to 20 €; owner may prefer `€€`).
 - `chiringuito-el-cachalote`: own menu images (named 'BORRADOR', February 2026), median 15,00 € + draught beer 2,90 € = about 17,90 € -> `€€` to `€`. New info issue `cost_level_menu_draft`. Schedule corrected from the own site: open 11:30-19:00, kitchen 12:00-18:00 (the earlier record gave 11:30-19:00 as kitchen hours).
+- Owner decision 2026-11-05 (later): Casa Blanca Banús is `€`; `cost_level_borderline` removed and the decision noted in `cost_basis`. App database row updated with the same guide.
 - All four: `cost_level_secondary_source` closed; the stray trailing "N" in three `cost_basis` texts is gone. Older secondary evidence entries are kept. Statuses unchanged (`needs_fact_check`). Validation 0 errors; catalog and app export regenerated.
 
 ## 2026-11-05 — Use the current time for between-stop route estimates (owner decision)

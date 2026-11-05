@@ -69,7 +69,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own food menu PDF for Casa Blanca Puerto Banús (file dated 02-10-26, Last-Modified 5 Oct 2026): the 12 meat and fish plates in ''LONJA Y MERCADO'' 14,00-29,00 € (median 16,25 €; fried aubergines and Padrón peppers left out) plus a San Miguel caña 2,70 € gives about 18,95 € per adult (borderline € / €€). Most of the menu is tapas, pinchos and shared plates. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_basis: 'Own food menu PDF for Casa Blanca Puerto Banús (file dated 02-10-26, Last-Modified 5 Oct 2026): the 12 meat and fish plates in ''LONJA Y MERCADO'' 14,00-29,00 € (median 16,25 €; fried aubergines and Padrón peppers left out) plus a San Miguel caña 2,70 € gives about 18,95 € per adult; owner decision 2026-11-05: € (close to the 20 € edge). Most of the menu is tapas, pinchos and shared plates. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
   cost_checked_at: '2026-11-05'
 links:
   official_website: https://grupocasalola.com/
@@ -149,13 +149,6 @@ review_issues:
   description: 'Own website checked 2026-11-02; prices from the own menu 2026-11-05. Still open: booking_required. Opening hours change by season; check before publishing.'
   retryable: true
   owner: fact_check
-- code: cost_level_borderline
-  severity: info
-  fields:
-  - cost_level
-  description: € (about 18,95 € with a caña, 19,95 € with a soft drink) is close to the 20 € edge; was €€ from Tripadvisor. Owner may prefer €€.
-  retryable: true
-  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-05'
 last_verified: null
