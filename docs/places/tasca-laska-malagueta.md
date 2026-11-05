@@ -69,8 +69,8 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'No prices on own site; TheFork average price ("Precio medio: 24 €"; "€€ - €€€") is inside the 20-50 € band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
-  cost_checked_at: '2026-11-02'
+  cost_basis: 'Own digital menu for the Malagueta branch (tascalaska.es/QR/Malagueta): 17 rice (per person), meat and fish mains 13,00-32,00 € (median 18,00 €) plus the cheapest glass of wine 3,80 € (wine list September 2025) gives about 21,80 € per adult. Bread 1,50 € and olives 0,50 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-05'
 links:
   official_website: https://tascalaska.es/es/tasca-laska-malagueta/
   booking: null
@@ -117,6 +117,22 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: 'TheFork price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Two URLs used. The first quote is from the entry URL (thefork.es, search snippet ''Restaurante Tasca Láska Malagueta en Málaga''). The second quote is from a different URL: https://www.tripadvisor.es/Re'
+- field: cost_level
+  claim: '"Arroz de verduras 13.00€ Precio por persona." ; "Arroz de pollo 16.00€" ; "Arroz de ibéricos 19.00€" ; "Arroz mixto 17.00€" ; "Arroz de mariscos 18.00€" ; "Arroz negro 19.00€" ; "Arroz de costillas glaseadas con shiitake 21.00€" ; "Arroz con pulpo y gambas peladas 21.00€" ; "Arroz meloso con pulpo y gambas 23.00€" ; "Arroz meloso con pulpo, langostinos y bogavante 32.00€" ; "Codillo a baja temperatura con patatas baby 19.00€" ; "Secreto ibérico con patatas fritas y pimientos asados 17.00€" ; "Pechuga de pollo con coleslaw 14.00€" ; "Magret de pato 15.00€" ; "Pulpo flor a la plancha 24.00€" ; "Buchones de rosada con patatas fritas 14.00€" ; "Lubina a la plancha 17.00€"'
+  source_url: https://tascalaska.es/QR/Malagueta/web.php?lang=es
+  source_type: official_venue
+  checked_at: '2026-11-05'
+  checked_by: Claude (main session)
+  confidence: medium
+  notes: 'Method: curl. The PDF menu ''MENU-ES-220926'' linked on the branch page carries the QR link /QR/Avenida and ''Visítanos también en Tasca láska Malagueta'', so it is the other branch''s menu; its main-course prices are the same. Rice dishes are for at least two people. Starters (tiradito 17,00 €, carpaccio 13,00 €) not counted.'
+- field: cost_level
+  claim: '"COPA 3.8€ 19€ Cortijo la Fuente A.S." ; "COPA 3.8€ 19€ Acappela"'
+  source_url: https://tascalaska.es/wp-content/uploads/2025/09/TASKA-LASKA-Vinos-sept-2025.pdf
+  source_type: official_venue
+  checked_at: '2026-11-05'
+  checked_by: Claude (main session)
+  confidence: medium
+  notes: 'Method: pdf (pdftotext). Wine list September 2025 (Last-Modified 22 Sep 2025), linked from the home page; not stated per branch. Beer and soft-drink prices not found on the site. Column layout: the 3.8 € glass price is printed above the wine name.'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -126,22 +142,8 @@ review_issues:
   description: Age groups and family scores are not assessed.
   retryable: true
   owner: human_editor
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - cost_level
-  description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing.'
-  retryable: true
-  owner: fact_check
-- code: cost_level_secondary_source
-  severity: info
-  fields:
-  - cost_level
-  description: cost_level is based on the TheFork price marking, not the own menu; replace when an own menu with prices is found.
-  retryable: true
-  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-05'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

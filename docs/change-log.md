@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-05 - Price check batch 2: own menus for four restaurants
+
+- Owner request (handover task 2): replace the TheFork/Tripadvisor price markings with own-menu prices for El Ancla, Tasca Láska Malagueta, Taberna Casa Blanca Banús and Chiringuito El Cachalote. Fetched with `tools/intake.py fetch` (curl and pdftotext; no Firecrawl calls). El Cachalote's menu is image-only and was read visually by the main session. Rule of 2026-11-03: median main + one drink.
+- `marisqueria-el-ancla-san-pedro`: own carta PDF, median main 25 €, no drink prices -> stays `€€`. New info issue `menu_possibly_outdated` (PDF last modified August 2022).
+- `tasca-laska-malagueta`: own digital menu for the Malagueta branch (the PDF on the branch page is the Avenida branch's menu, same main prices), median 18,00 € + glass of wine 3,80 € = about 21,80 € -> stays `€€`. All facts in `facts_partly_checked` are now checked, so the issue is closed.
+- `taberna-casa-blanca-banus`: own Puerto Banús menus (dated 02-10-26), median 'Lonja y mercado' plate 16,25 € + caña 2,70 € = about 18,95 € -> `€€` to `€`. New info issue `cost_level_borderline` (close to 20 €; owner may prefer `€€`).
+- `chiringuito-el-cachalote`: own menu images (named 'BORRADOR', February 2026), median 15,00 € + draught beer 2,90 € = about 17,90 € -> `€€` to `€`. New info issue `cost_level_menu_draft`. Schedule corrected from the own site: open 11:30-19:00, kitchen 12:00-18:00 (the earlier record gave 11:30-19:00 as kitchen hours).
+- All four: `cost_level_secondary_source` closed; the stray trailing "N" in three `cost_basis` texts is gone. Older secondary evidence entries are kept. Statuses unchanged (`needs_fact_check`). Validation 0 errors; catalog and app export regenerated.
+
 ## 2026-11-05 — Use the current time for between-stop route estimates (owner decision)
 
 - Owner decision: Google Routes between-stop estimates use the current instant, rather than the next Saturday or the requested trip date. The Saturday assumption was introduced to standardize route comparisons, but observed weekday variation did not justify it. `tools/trip.py` now sends the current UTC instant as the Routes API `departureTime`; the separate static place-intake route checks are unchanged.

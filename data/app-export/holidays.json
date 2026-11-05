@@ -1,6 +1,6 @@
 {
  "manifest": {
-  "generated": "2026-11-03",
+  "generated": "2026-11-05",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
   "places": 149,

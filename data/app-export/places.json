@@ -1,6 +1,6 @@
 {
  "manifest": {
-  "generated": "2026-11-03",
+  "generated": "2026-11-05",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
   "places": 149,
@@ -1951,7 +1951,7 @@
    "tags": [
     "spisested"
    ],
-   "description": "Chiringuito El Cachalote is a family business on the Paseo Marítimo Pablo Ruiz Picasso by Calle Gutemberg, on Malagueta beach, serving Málaga-style fried fish ('pescaíto'), seafood and grilled sardine espetos since 1980 (own website). Opening hours on the site: Wednesday-Sunday 11:30-19:00 (kitchen); closed Monday and Tuesday. The hours are not dated, so check before going, especially outside summer.",
+   "description": "Chiringuito El Cachalote is a family business on the Paseo Marítimo Pablo Ruiz Picasso by Calle Gutemberg, on Malagueta beach, serving Málaga-style fried fish ('pescaíto'), seafood and grilled sardine espetos since 1980 (own website). Opening hours on the site: Wednesday-Sunday 11:30-19:00, kitchen 12:00-18:00; closed Monday and Tuesday. The hours are not dated, so check before going, especially outside summer.",
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -1972,18 +1972,18 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": "middel",
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Chiringuito El Cachalote: family-run fish beach restaurant on Malagueta beach since 1980, with sardine espetos.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Wed-Sun 11:30-19:00 (kitchen); closed Mon-Tue (own site, undated, read 2026-11-02)."
+      "text": "Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (own site, undated, read 2026-11-05)."
      },
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
+      "text": "Own menu (image pages on the /menu/ page, files named 'BORRADOR-V2-MENU', uploaded February 2026): 23 portion-priced fish, seafood and paella dishes 11,00-24,00 € (median 15,00 €; per-100 g fish, the single espeto and the two-portion fritura left out) plus draught beer 2,90 € gives about 17,90 € per adult. Bread and service 1,20 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -1991,13 +1991,13 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-05",
     "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Málaga",
-     "schedule": "Wed-Sun 11:30-19:00 (kitchen); closed Mon-Tue (own site, undated, read 2026-11-02).",
-     "schedule_checked_at": "2026-11-02",
+     "schedule": "Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (own site, undated, read 2026-11-05).",
+     "schedule_checked_at": "2026-11-05",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -2005,7 +2005,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-05"
     }
    }
   },
@@ -6032,7 +6032,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
+      "text": "Own carta PDF (Last-Modified August 2022): 19 portion-priced meat, tuna, fish, pasta and rice dishes 18-45 € (median 25 €; per-kg fish and shellfish left out); no drink prices in the carta, so main plus one drink is about 27 € or more, inside 20-50 €. Bread 2 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -6040,7 +6040,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-05",
     "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
@@ -6054,7 +6054,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-05"
     }
    }
   },
@@ -10002,7 +10002,7 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": "middel",
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Taberna Casa Blanca Banús: Málaga-style taverna from Grupo Casa Lola in Puerto Banús.",
@@ -10013,7 +10013,7 @@
      },
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
+      "text": "Own food menu PDF for Casa Blanca Puerto Banús (file dated 02-10-26, Last-Modified 5 Oct 2026): the 12 meat and fish plates in 'LONJA Y MERCADO' 14,00-29,00 € (median 16,25 €; fried aubergines and Padrón peppers left out) plus a San Miguel caña 2,70 € gives about 18,95 € per adult (borderline € / €€). Most of the menu is tapas, pinchos and shared plates. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -10021,7 +10021,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-05",
     "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
@@ -10035,7 +10035,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-05"
     }
    }
   },
@@ -10175,7 +10175,7 @@
      },
      {
       "label": "Pris",
-      "text": "No prices on own site; TheFork average price (\"Precio medio: 24 €\"; \"€€ - €€€\") is inside the 20-50 € band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Own digital menu for the Malagueta branch (tascalaska.es/QR/Malagueta): 17 rice (per person), meat and fish mains 13,00-32,00 € (median 18,00 €) plus the cheapest glass of wine 3,80 € (wine list September 2025) gives about 21,80 € per adult. Bread 1,50 € and olives 0,50 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -10183,7 +10183,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-05",
     "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
@@ -10197,7 +10197,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-05"
     }
    }
   },
