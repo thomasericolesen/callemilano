@@ -1,0 +1,621 @@
+{
+ "ES-AND-MAL-ASADOR-OTOLA-001": {
+  "source_sha": "4f8ab3f52304f716",
+  "summary": "Asador Otola: baskisk grillrestaurant (asador) ved Cortijo la Herradura, ca. 6 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag 12.00-24.00; tirsdag 12.00-18.00; onsdag lukket; torsdag-søndag 12.00-24.00 (egen hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-BAR-BURBUJAS-001": {
+  "source_sha": "e2c4bda4dd9a17d9",
+  "summary": "Bar Burbujas: natbar med cocktails på mousserende vin i det centrale Fuengirola, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-CAFE-NOMAD-FUENGIROLA-001": {
+  "source_sha": "30d408106534ef4d",
+  "summary": "Café NOMAD: café med havudsigt til morgenmad, brunch og frokost på Paseo Marítimo i Fuengirola, ca. 10 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Hver dag 9.00-15.00 (egen hjemmeside); sæson ikke oplyst."
+   },
+   {
+    "label": "Pris",
+    "text": "4 udvalgte retter til 10,90-14,20 € (typisk 13,20 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster under 20 €, medmindre drikken koster over 6,80 €."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-CAFE-TEATRO-OCEAN-DRIVE-001": {
+  "source_sha": "c734460733bb82b3",
+  "summary": "Café Teatro by Ocean Drive: lounge-terrasse med levende musik og cocktails på promenaden i Fuengirola, ca. 10 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-CHANGUEIRO-BAR-DE-VINOS-001": {
+  "source_sha": "072f1fa18f5cddb9",
+  "summary": "Changueiro Bar de Vinos: vinbar i det centrale Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-CHIRINGUITO-CRISTOBAL-001": {
+  "source_sha": "4cda3253b8b16dba",
+  "summary": "Strandbar (chiringuito) på Playa La Butibamba i La Cala de Mijas, opført af Turismo de Mijas; ca. 15 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-CHIRINGUITO-EL-CACHALOTE-001": {
+  "source_sha": "9971b9a630286e7d",
+  "summary": "Chiringuito El Cachalote: familiedrevet strandrestaurant med fisk på Malagueta-stranden siden 1980, med sardiner på espeto.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Onsdag-søndag 11.30-19.00, køkkenet 12.00-18.00; lukket mandag-tirsdag (egen hjemmeside, ikke dateret, læst 5. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Fisk, skaldyr og paella 11,00-24,00 € pr. portion, fadøl 2,90 €. Ca. 17,90 € pr. voksen for en hovedret og en drik. Brød og service 1,20 € ekstra. Menuen på hjemmesiden er en kladde, så priserne kan afvige."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-CHIRINGUITO-LA-CONCHA-EL-PALO-001": {
+  "source_sha": "fdef267c280b6636",
+  "summary": "Chiringuito La Concha: espetos og fisk og skaldyr på stranden i El Palo.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Sommer: hver dag 11.00-17.00 og 18.00-23.30 (egen hjemmeside); vintertider er ikke offentliggjort."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter 9,00 € pr. person (ris, min. 2 personer), 14,00 € og 23,00 € (typisk 14,00 €). Med en caña til 2,30 € bliver det ca. 16,30 € pr. voksen for en hovedret og en drik."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-CHIRINGUITO-LAS-DUNAS-CABOPINO-001": {
+  "source_sha": "f98d2d2bc55a1c81",
+  "summary": "Strandbar (chiringuito) på Cabopino-stranden, Marbella; sæsonåben, ca. 22 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001": {
+  "source_sha": "8b62cedfba961efa",
+  "summary": "Strandbar (chiringuito) ved La Butiplaya i La Cala de Mijas, opført af Turismo de Mijas; ca. 15 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-CHIRINGUITO-RAFAEL-001": {
+  "source_sha": "56c185824ae11702",
+  "summary": "Sæsonåben strandbar på Playa de la Salud (Fuente de la Salud), Benalmádena, nær Puerto Marina; ca. 28 min i bil.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-EL-HIGUERON-FUENGIROLA-001": {
+  "source_sha": "264d02f60f433436",
+  "summary": "El Higuerón: restaurant på skråningerne af Sierra de Mijas med morgenmad, frokost og middag og privat parkering (egen hjemmeside).",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Morgenmad 9.00-12.00; bar (køkkenet er åbent hele tiden) og frokost 13.00-16.00; lukket for gæster kl. 17.00; middag fra 20.30 (egen hjemmeside; ugedage og sæson ikke oplyst)."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-EL-OCEANO-BEACH-HOTEL-001": {
+  "source_sha": "7de44601dd3b7608",
+  "summary": "El Oceano Beach Hotel: hotel ved stranden med restaurant og bar, ca. 17 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Hovedretter på à la carte-menuen 26, 28 og 32 € (typisk 28 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 30 € eller mere."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-FREIDURIA-EL-CHOCO-FUENGIROLA-001": {
+  "source_sha": "545153c020dbef6c",
+  "summary": "Freiduría El Choco: restaurant med friturestegt fisk i Fuengirola; lukket mandag, ingen bordreservation (egen hjemmeside).",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag lukket; tirsdag 13.00-16.00 og 20.00-23.00 (egen hjemmeside). Onsdag-søndag er ikke oplyst; tjek før besøget."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-GALI-GALI-FUENGIROLA-001": {
+  "source_sha": "aaf3bfba8b1b130a",
+  "summary": "Gali Gali: chiringuito ved stranden på Paseo Marítimo i Fuengirola, åbent hver dag, hvis vejret tillader det (egen hjemmeside).",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-lørdag 12.00-24.00 (køkken 12.00-23.00); søndag 12.00-19.00 (køkken 12.00-18.00); åbent hver dag afhængigt af vejret (egen hjemmeside; vejrafhængigt, ikke en sæsonplan)."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter 14,00, 17,50 og 20,00 € (typisk 17,50 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 20 €."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-GROOVE-BAR-FUENGIROLA-001": {
+  "source_sha": "dd54a970244c2a1f",
+  "summary": "Groove Music Bar: bar med levende musik ved lystbådehavnen i Fuengirola, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-JACKS-SMOKEHOUSE-PUERTO-BANUS-001": {
+  "source_sha": "f677425517029df1",
+  "summary": "Jack's Smokehouse, Puerto Banús: barbecuerestaurant i New York-stil i havnen.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-JUAN-PLAYA-FUENGIROLA-001": {
+  "source_sha": "fbfee59768076c90",
+  "summary": "Juan Playa: strandrestaurant i Fuengirola med frisk fisk på espeto, paellaer og risretter, ca. 16 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Hver dag 13.00-17.00 og 19.00-23.00 (egen hjemmeside); sæson ikke oplyst."
+   },
+   {
+    "label": "Pris",
+    "text": "12 hovedretter til 10,00-24,00 € (typisk 16,75 €). Fadøl (caña) koster 2,90 € eller 3,60 €; en hovedret og en drik bliver derfor ca. 19,65-20,35 € pr. voksen."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-KALIFATO-BENALMADENA-001": {
+  "source_sha": "0bd508908ac02a3c",
+  "summary": "Kalifato (på egen hjemmeside: Kalifato Beach): middelhavsstrandbar på Playa Carvajal i Benalmádena, ca. 18 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "12 hovedretter til 10,50-27,00 € (typisk 20,75 €). Med en sodavand til 3,00 € bliver det ca. 23,75 € pr. voksen for en hovedret og en drik."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LA-FLOJA-VINOS-Y-LATAS-001": {
+  "source_sha": "da3d1a19868f2c14",
+  "summary": "La Floja Vinos y Latas: lille vinbar i det centrale Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LA-LOBEZNA-ESTEPONA-001": {
+  "source_sha": "20a49e55aa4f4eb7",
+  "summary": "La Lobezna, Estepona: bar-restaurant med fisk og skaldyr samt spanske og latinamerikanske retter.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-tirsdag og torsdag-lørdag 13.00-23.00; søndag 12.00-16.30; onsdag ikke oplyst (egen hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter 13,50, 14,75 og 21,00 € (typisk 14,75 €). Med en caña til 1,60 € bliver det ca. 16,35 € pr. voksen for en hovedret og en drik."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LA-MAR-SALA-001": {
+  "source_sha": "6b49b41a9a464058",
+  "summary": "Strandbar med betjent solsengeområde på promenaden i Los Boliches, Fuengirola, åben hver dag 12.00-24.00; ca. 17 min i bil.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Hver dag 12.00-24.00 (egen hjemmeside, siden opdateret 29. okt. 2026); ingen sæsonvariation oplyst."
+   },
+   {
+    "label": "Pris",
+    "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LA-SENDA-DEL-NORTE-001": {
+  "source_sha": "1f1f214d7236f192",
+  "summary": "La Senda del Norte: café-bar med terrasse ud mod gaden i Las Lagunas, ca. 6 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LA-SIERRA-RESTAURANTE-001": {
+  "source_sha": "a207b3142c8e1cdf",
+  "summary": "La Sierra Restaurante på Cerrado del Águila Golf and Resort, ca. 5 min i bil fra Casa de la Familia; morgenmad hver dag og udsigt over kysten ifølge stedets egen side.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Prisniveau ifølge stedets Facebook-side: moderat (€€). Ingen menupriser set. Tjek menuen på stedet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LA-TERRAZA-DE-PANDA-001": {
+  "source_sha": "da2ea26b86a8af70",
+  "summary": "La Terraza de Panda: cocktailterrasse på Plaza de la Constitución i det centrale Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LA-ZAMBRA-RESORT-001": {
+  "source_sha": "fa4470f6f71a55d6",
+  "summary": "La Zambra Resort: resorthotel (The Unbound Collection by Hyatt) med restaurant og spa, ca. 7 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LOS-ENEBROS-FUENGIROLA-001": {
+  "source_sha": "868e72e0ff1a5c9d",
+  "summary": "Restaurante Los Enebros: middelhavsrestaurant i Los Boliches med madmenu på egen hjemmeside; lukket mandag.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Hovedretter 15,00, 19,00 og 32,00 € (typisk 19,00 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster lidt over 20 €."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LOS-MARINOS-PACO-001": {
+  "source_sha": "904db0cdf656213e",
+  "summary": "Familiedrevet fiskerestaurant og strandbar på Carvajal-stranden i Fuengirola, med børnemenu og højstole; ca. 17 min i bil.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Lukket mandag. Sommer: tirsdag-lørdag 12.30-22.30, søndag 12.30-17.30. Vinter: tirsdag-søndag 10.00-18.00 (egen hjemmeside, læst 1. nov. 2026; datoer for sommer/vinter ikke oplyst)."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter 17,00 € og 26,00 €; paella med skaldyr 35,00 € for min. 2 personer (17,50 € pr. person). Kun en flaske husets vin (18,00 €) har pris, så en hovedret og en drik bliver ca. 20 €."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-LOUNGE-EL-TROPICO-001": {
+  "source_sha": "0648a72f17e5e7dc",
+  "summary": "Lounge El Trópico: strandlounge og bar, ca. 13 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Dagligt 09.30-24.00, april-november (egen hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter 8,50, 14,50 og 14,90 €, øl fra 2,00 €. Ca. 16,50 € pr. voksen for en hovedret og en drik."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-MARISQUERIA-EL-ANCLA-SAN-PEDRO-001": {
+  "source_sha": "dde82d9a86f2fddb",
+  "summary": "El Ancla: fiske- og skaldyrsrestaurant ved havet i San Pedro de Alcántara.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Restauranten har åbent 13.00-23.00; om sommeren lukket mandag undtagen helligdage, for vinteren er ingen lukkedag oplyst (egen kontaktside, ikke dateret, læst 8. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Kød, tun, fisk, pasta og risretter 18-45 € pr. portion; drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 27 € eller mere. Brød 2 € ekstra. Menukortet er fra 2022, så priserne kan være højere."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-MARVELOUS-BURGER-FUENGIROLA-001": {
+  "source_sha": "d582771b78135326",
+  "summary": "Marvelous Burger: burgerrestaurant på C. de la Cruz 10 i Fuengirola, ca. 15 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "12 burgere til 11,99-15,50 €, caña 1,90 €. Ca. 16,15 € pr. voksen for en burger og en drik (menu fra juli 2026)."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-MIAS-PIZZORANTE-FUENGIROLA-001": {
+  "source_sha": "a05d1ad0a85483b4",
+  "summary": "Mia's Pizzorante: italiensk restaurant på Playa de Carvajal i Fuengirola, med udsigt over Middelhavet.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Hovedretter 18,00, 18,50 og 21,00 €, glas vin 4,50 €. Ca. 23 € pr. voksen for en hovedret og en drik."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-MIXS-LOUNGE-001": {
+  "source_sha": "367a2dddbf661d8e",
+  "summary": "Mixs Longe: restaurant i Cerros del Águila (ifølge stedets egen side skandinavisk og italiensk), ca. 5 min til fods eller 2 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-MON-2-SUN-001": {
+  "source_sha": "b8a233cad733fb9e",
+  "summary": "Mon 2 Sun: hyggelig bar for lokalsamfundet ved La Hacienda Mijas Golf, ca. 8 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-MORROFINO-001": {
+  "source_sha": "b208f1f306898385",
+  "summary": "Middelhavsrestaurant på Paseo Marítimo ved Playamar, Torremolinos, med glutenfri, vegansk og vegetarisk mad; ca. 29 min i bil.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "12.00-24.00, lukket tirsdag (egen hjemmeside, læst 1. nov. 2026; ingen sæsonvariation oplyst)."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter 19,90 og 20,90 €; TheFork angiver en gennemsnitspris på 18 €. En hovedret og en drik koster over 20 €."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001": {
+  "source_sha": "c4244da3893d7b13",
+  "summary": "Nautic Cocktail & Drinks: gin- og cocktailbar i det centrale Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-NONINA-FUENGIROLA-001": {
+  "source_sha": "7741617812831e6a",
+  "summary": "Noniná: flamencobar ved havnen i Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-OLD-SWISS-HOUSE-FUENGIROLA-001": {
+  "source_sha": "feb01c1365cbbf3b",
+  "summary": "Old Swiss House: restaurant i Fuengirola med Superman-børnemenu. Det anbefales at booke bord i forvejen på telefon.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Menuer til 27-30 € pr. person (Chateaubriand-menu 30 €). Børnemenu 7,50 €."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-RAGAZZI-FUENGIROLA-001": {
+  "source_sha": "85da2d10e81a4d01",
+  "summary": "Ragazzi Pizza & Pasta: italiensk restaurant på Paseo Marítimo i Fuengirola med pasta og pizza, ca. 11 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "12.30-23.30, lukket tirsdag (egen hjemmeside); sæson ikke oplyst."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter 9,50-15,50 €, caña 2,90 €. Ca. 16,30 € pr. voksen for en hovedret og en drik."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-RED-AND-WHITE-FUENGIROLA-001": {
+  "source_sha": "a5349c894a9707ca",
+  "summary": "Red & White: vinbar og middelhavsrestaurant i Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-RESTAURANTE-CASA-FERNANDO-SAN-PEDRO-001": {
+  "source_sha": "fa6fbfc0cc64fd43",
+  "summary": "Casa Fernando: spansk restaurant grundlagt af en familie, med fisk og skaldyr, i San Pedro de Alcántara.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tirsdag-lørdag 13.30-24.00; lukket søndag-mandag (egen hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter 26,00 og 29,50 €. Drikkevarepriser fremgår ikke; en hovedret og en drik koster ca. 30 € eller mere."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-RESTAURANTE-CERROS-DEL-AGUILA-001": {
+  "source_sha": "7be3018558ca3b69",
+  "summary": "Restaurante Cerros del Águila: bar og grill ved sportsområdet i Urbanización Cerros del Águila, ca. 7 min til fods eller 3 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Ifølge husets ejer koster en typisk hovedret plus en øl eller et glas vin under 20 €. Menupriser ikke set."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-RESTAURANTE-HOYO-19-001": {
+  "source_sha": "e6636206307d63c7",
+  "summary": "Restaurante Hoyo 19: spansk restaurant på Camino Viejo de Coín, ca. 4 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-RETROCK-BART-001": {
+  "source_sha": "ed60b000e58c27f2",
+  "summary": "RetROCK BARt: rockbar i La Cala de Mijas, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-SANTA-ANA-DENIS-001": {
+  "source_sha": "559cd138dab61fc5",
+  "summary": "Restaurant ved stranden Playa de Santa Ana i Benalmádena Costa med paellaer, fisk og skaldyr og espetos; ca. 27 min i bil.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Hovedretter 18,50, 18,50 og 26,00 €, øl 3,50 €. Ca. 22 € pr. voksen for en hovedret og en drik."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-SOLLO-FUENGIROLA-001": {
+  "source_sha": "ca8e47ab18ad9eb7",
+  "summary": "Sollo: restaurant på Av. del Higuerón i Fuengirola. Hjemmesiden har menu og online booking.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-SOLO-BEACH-MARBELLA-001": {
+  "source_sha": "2f08dd296ec72fdc",
+  "summary": "Solo Beach: middelhavsrestaurant og solsenge på sandet i San Pedro de Alcántara.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Dagligt 09.00-21.00 (egen hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedret (tartar de atún) 22 €, cocktails 12 €. Ca. 34 € pr. voksen for en hovedret og en drik."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-SOMOS-DE-BANUS-001": {
+  "source_sha": "6bc1babe336a32c6",
+  "summary": "Somos de Banús: middelhavsrestaurant ved stranden i Puerto Banús.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Hovedretter 25-38 €. Drikkevarepriser fremgår ikke; en hovedret og en drik koster ca. 31-35 €."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-SPEAKEASY-JAZZ-CLUB-FUENGIROLA-001": {
+  "source_sha": "22e7945f12c4c9ec",
+  "summary": "Speakeasy Jazz Club & Cocktails: jazzklub og cocktailbar, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-TABERNA-CASA-BLANCA-BANUS-001": {
+  "source_sha": "b31ca009cc8da20c",
+  "summary": "Taberna Casa Blanca Banús: taverna i Málaga-stil fra Grupo Casa Lola i Puerto Banús.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Dagligt 09.00-22.45 (gruppens hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Retter i afsnittet 'LONJA Y MERCADO' 14,00-29,00 €, San Miguel caña 2,70 €. Ca. 18,95 € pr. voksen for en ret og en drik. Det meste af menuen er tapas, pinchos og retter til deling."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-TASCA-LASKA-MALAGUETA-001": {
+  "source_sha": "7d26bcd1a3fabf20",
+  "summary": "Tasca Láska Malagueta: risretter og tapas ca. 150 m fra stranden Malagueta.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag og torsdag-søndag 12.00-24.00 (køkkenet 12.00-23.00); lukket tirsdag-onsdag (egen hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Risretter (pris pr. person, min. 2), kød- og fiskeretter 13,00-32,00 €, glas vin fra 3,80 €. Ca. 21,80 € pr. voksen for en hovedret og en drik. Brød 1,50 € og oliven 0,50 € ekstra."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-UPSTAIRS-ROOFTOP-BAR-001": {
+  "source_sha": "7592d4fdc2809e4c",
+  "summary": "Upstairs Rooftop Bar: tagbar ved The Orange House, ca. 11 min i bil, taxa eller Uber fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-søndag 16.00-22.00 (egen hjemmeside, læst 2. nov. 2026)."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-VENTA-LA-MORENA-001": {
+  "source_sha": "6808c5b7bad0de99",
+  "summary": "Venta La Morena: venta (landevejsrestaurant) med grill på Camino Viejo de Coín, ca. 4 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent)"
+ }
+}

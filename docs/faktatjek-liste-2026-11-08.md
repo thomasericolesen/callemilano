@@ -1,5 +1,7 @@
 # Faktatjek til søndag 8. november 2026
 
+**Status 8. november (eftermiddag):** Sheriff er arkiveret (lukket), Somos de Banús er €€, og KFC er fravalgt (Erics beslutninger). Afsnit B er gennemgået: kun Ragazzi (afdeling bekræftet) og El Ancla (åbningstider og telefon) gav nye fakta. De øvrige steder i B har stadig ingen priser på egne sider, så de skal enten tjekkes med screenshots eller på stedet. Las Dunas, Rafael og El Golf (Mijas) har ingen egen hjemmeside og hører derfor nu til screenshot-listen.
+
 Udarbejdet 5. november 2026 ud fra de åbne review-issues i `docs/places/`. Steder uden for Andalusien, der ligger i arkivet, er udeladt. Det samme gælder de generelle punkter om familievurdering, som står på alle poster.
 
 ## A. Kræver Eric (opkald, screenshot eller beslutning)

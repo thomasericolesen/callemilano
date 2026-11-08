@@ -6,7 +6,7 @@
   "places": 149,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 0,
+  "danish": 53,
   "danish_stale": []
  },
  "holidays": [
