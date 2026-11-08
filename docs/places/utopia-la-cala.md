@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-UTOPIA-LA-CALA-001
 slug: utopia-la-cala
 name: UTOPÍA
@@ -62,24 +62,24 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
-  schedule: null
+  schedule: Wednesday-Sunday 17:00-02:00, kitchen 17:30-23:30; closed Monday and Tuesday (own website, read 2026-11-08).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta PDF (2026): 14 burgers 14,50-19,00 € (median 16,50 €), served with fries; other dishes 10-16 € (wagyu steak 39 €); kids'' hot dog with fries 8,50 €. No drink prices in the carta; main plus one drink is under 20 € only if the drink costs under 3,50 € (borderline). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-08'
 links:
   official_website: https://utopialacala.com/
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34604347578
 related_places: []
-description_short: 'UTOPÍA: a burger, hot-dog and nachos restaurant in La Cala de Mijas, about 14 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'UTOPÍA is a burger, hot-dog and nachos restaurant in La Cala de Mijas. About 14 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet. Owner''s recommendation (callemilano.dk): A pleasant restaurant with a simple menu of burgers, hot dogs and nachos; nice atmosphere, fine with children, and tasty chili con carne.'
+description_short: 'UTOPÍA: a burger, hot-dog and nachos restaurant in La Cala de Mijas, about 14 min by car from Casa de la Familia. Partly fact-checked.'
+description_long: 'UTOPÍA is a burger, hot-dog and nachos restaurant at Calle Fuengirola s/n (Local 8) in La Cala de Mijas, open Wednesday to Sunday in the evening (17:00-02:00, kitchen 17:30-23:30) and closed Monday and Tuesday (own website). Burgers cost 14,50-19 € with fries, and there is a kids'' section (''Para los más peques''). Bookings via the website. About 14 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Owner''s recommendation (callemilano.dk): A pleasant restaurant with a simple menu of burgers, hot dogs and nachos; nice atmosphere, fine with children, and tasty chili con carne.'
 seo_title: UTOPÍA, Mijas | CalleMilano draft record
 seo_description: 'Draft record for UTOPÍA (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -108,18 +108,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Owner''s own recommendation (kind ''anbefaling'') on callemilano.dk, read from the Lovable app database 2026-11-02; site tags: børn, burger, hotdogs, aftensmad. Personal experience, not independently verified.'
+- field: visit_information.schedule; links.contact; address; booking
+  claim: '"*Lunes y Martes Cerrado*" ; "De Miércoles a Domingo" ; "de 17:00 a 02:00" ; "Horario de Cocina" ; "de 17:30 a 23:30" ; "C/ Fuengirola, S/N, Local 8." ; "La Cala de Mijas, 29649, Málaga" ; "+34 604 347 578" ; "Haz tu reserva"'
+  source_url: https://utopialacala.com/
+  source_type: official_venue
+  checked_at: '2026-11-08'
+  checked_by: source-reader agent
+  confidence: medium
+  notes: 'Method: curl.'
+- field: cost_level; children
+  claim: '"Classic Burger 16,5 €" ; "Old School Burger 16,5 €" ; "BBQ Burger 16,5 €" ; "Chili Cheese Burger 16,5 €" ; "Chipotle Burger 17 €" ; "Mexican Burger 17 €" ; "Blue Burger 17 €" ; "Italian Burger 17 €" ; "American Burger 19 €" ; "Cheese Burger 15 €" ; "Pulled Pork Burger 14,5 €" ; "Pulled Pork Pro 15,5 €" ; "Burger de Pollo 15,5 €" ; "Veggie Burger 15 €" ; "Todas las hamburguesas van acompañadas de patatas fritas y salsa tártara." ; "Para los más peques" ; "Perrito caliente con cebolla frita, ketchup y patatas fritas 8,5€"'
+  source_url: https://utopialacala.com/wp-content/uploads/2026/07/Carta-espanol26.pdf
+  source_type: official_venue
+  checked_at: '2026-11-08'
+  checked_by: source-reader agent (Firecrawl); burger page checked against the rendered PDF by Claude (main session)
+  confidence: medium
+  notes: Image PDF (no text layer); read via Firecrawl query mode and the burger column verified by the main session from a 130-dpi render. No drink prices in the carta.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,8 +135,24 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - accessibility
+  - booking_required
+  - seasonality
+  description: 'Own website and carta read 2026-11-08. Still open: accessibility, whether booking is required, high chairs, season.'
+  retryable: true
+  owner: fact_check
+- code: cost_level_borderline
+  severity: info
+  fields:
+  - cost_level
+  description: Median burger 16,50 € without a drink price; € holds only if a drink costs under 3,50 €. Check a drink price on site.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

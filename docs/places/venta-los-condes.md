@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-VENTA-LOS-CONDES-001
 slug: venta-los-condes
 name: Venta los Condes
@@ -62,24 +62,24 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €€
 visit_information:
-  schedule: null
+  schedule: Tuesday-Sunday 13:00-22:00, kitchen 13:00-16:00 and 18:00-21:00; closed Monday (own website, read 2026-11-08).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own menu PDF (dated 31.03.26): grilled mains 21-59 € (median about 31 €: burger 21, ribs 28, pork fillet 28, pork belly 28, duck 30, entrecôte 400 g 32, lamb 33, lamb shanks 33, fillet steak 34, rib eye 500 g 59); kids'' menu 9 € incl. a soft drink and a scoop of ice cream. Main plus one drink is well inside 20-50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-08'
 links:
   official_website: https://ventaloscondes.com/
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34951744179
 related_places: []
-description_short: 'Venta los Condes: a grill restaurant in the hills above Mijas, about 25 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'Venta los Condes is a grill restaurant in the hills above Mijas. About 25 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet. Owner''s recommendation (callemilano.dk): Tasty, always beautifully presented food; meat is cooked over an open grill. A little expensive, but good.'
+description_short: 'Venta los Condes: a grill restaurant in the hills above Mijas, about 25 min by car from Casa de la Familia. Partly fact-checked.'
+description_long: 'Venta los Condes is a grill restaurant in the hills above Mijas (Lugar Sierra Blanca 9), open Tuesday to Sunday 13:00-22:00 with the kitchen open 13:00-16:00 and 18:00-21:00, closed on Monday (own website). Grilled meat mains cost about 21-59 €, and there is a kids'' menu at 9 € including a drink and ice cream. Book by phone (+34 951 744 179) or WhatsApp (+34 633 329 808). About 25 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Owner''s recommendation (callemilano.dk): Tasty, always beautifully presented food; meat is cooked over an open grill. A little expensive, but good.'
 seo_title: Venta los Condes, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Venta los Condes (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -108,18 +108,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: 'Owner''s own recommendation (kind ''anbefaling'') on callemilano.dk, read from the Lovable app database 2026-11-02; site tags: aftensmad, steak. Personal experience, not independently verified.'
+- field: visit_information.schedule; links.contact; address; booking
+  claim: '"MONDAY" "CLOSED" ; "TUESDAY - SUNDAY" "13:00 - 22:00" ; "kitchen" "13:00 - 16:00" "18:00 - 21:00" ; "Lugar Sierra Blanca, 9, Mijas, Málaga 29650 Mijas, Spain." ; "+34 951 744 179" ; "+34 633 329 808" ; "CALL OR TEXT US ON WHATSAPP TO BOOK YOUR TABLE TODAY!"'
+  source_url: https://ventaloscondes.com/
+  source_type: official_venue
+  checked_at: '2026-11-08'
+  checked_by: source-reader agent
+  confidence: medium
+  notes: 'Method: curl.'
+- field: cost_level; children
+  claim: '"Char Grilled Entrecôte (400gr) With Natural Jus & Fries 32 €" ; "Jimmy’s Famous BBQ Ribs with BBQ or Asian Sauce & French Fries 28 €" ; "Grilled Duck Breast with a Sweet Malaga Wine Sauce, Vegetables & Gratin Potatoes 30€" ; "Char Grilled Fillet Steak (300gr) with Fried Onion, Natural Jus & Fries 34 €" ; "Slow Braised Lamb Shanks ... 33 €" ; "Char Grilled Iberian Pork Fillet ... 28 €" ; "Char Grilled Lamb Chops ... 33 €" ; "Rib Eye Steak (500gr) For One or Two People ... 59 €" ; "Slow Coal Roasted Pork Belly ... 28 €" ; "Burger With Smoked Bacon, Cheese, The Secret “Los Condes” Sauce & Fries 21 €" ; "MENÚ INFANTIL 9 € KIDS MENU" ; "Bebida y Bola de Helado a Elegir A Soft Drink & a Ball Of Ice Cream of Choice"'
+  source_url: https://ventaloscondes.com/wp-content/uploads/2026/04/Venta-Los-Condes-Menu.pdf
+  source_type: official_venue
+  checked_at: '2026-11-08'
+  checked_by: source-reader agent (Firecrawl)
+  confidence: low
+  notes: Image PDF (no text layer); read via Firecrawl query mode, not checked character by character. 10 of the menu's mains quoted. Kids' menu from the separate kids' menu PDF on the same site. Band €€ holds for any plausible reading.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,8 +135,17 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - accessibility
+  - seasonality
+  - parking
+  description: 'Own website and menus read 2026-11-08. Still open: accessibility, season, parking, high chairs; menu prices read by machine from an image PDF.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

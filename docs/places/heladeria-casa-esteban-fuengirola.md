@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001
 slug: heladeria-casa-esteban-fuengirola
 name: Heladería Casa Esteban
@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34952192942
 related_places: []
-description_short: 'Heladería Casa Esteban: an ice-cream parlour on the Paseo Marítimo, about 15 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'Heladería Casa Esteban is an ice-cream parlour on the Paseo Marítimo. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet. Owner''s recommendation (callemilano.dk): Good ice cream.'
+description_short: 'Heladería Casa Esteban: artisan ice-cream parlour on the Paseo Marítimo in Fuengirola (one of three shops), about 15 min by car from Casa de la Familia. Partly fact-checked.'
+description_long: 'Heladería Casa Esteban is an artisan ice-cream parlour with three shops (Mijas Pueblo, La Cala de Mijas and Fuengirola); this record is the Fuengirola shop at Paseo Marítimo Rey de España 26 (phone 952 19 29 42), according to the shop''s own Instagram and Facebook pages. Opening hours and prices are not published there; check before going. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Family recommendation (Christian, callemilano.dk): Good ice cream.'
 seo_title: Heladería Casa Esteban, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Heladería Casa Esteban (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -105,21 +105,18 @@ evidence:
   source_url: https://callemilano.dk/
   source_type: secondary
   checked_at: '2026-11-02'
-  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
+  checked_by: Christian (family member, per Eric 2026-11-08); recorded by Claude 2026-11-02
   confidence: medium
-  notes: 'Owner''s own recommendation (kind ''anbefaling'') on callemilano.dk, read from the Lovable app database 2026-11-02; site tags: børn, is. Personal experience, not independently verified.'
+  notes: 'Family recommendation by Christian (corrected 2026-11-08; first recorded as the owner''s) (kind ''anbefaling'') on callemilano.dk, read from the Lovable app database 2026-11-02; site tags: børn, is. Personal experience, not independently verified.'
+- field: address; links.contact
+  claim: '"Mijas Pueblo: Pasaje Esteban Moreno 1 952485216 La Cala de Mijas: Calle Marbella 3 952493549 Fuengirola: Paseo Marítimo Rey de España 26 952192942." ; "Nos encontramos en calle Marbella n3, La Cala de Mijas, Paseo Marítimo Rey de España n26, Fuengirola y pasaje Esteban Moreno n1, Mijas pueblo."'
+  source_url: https://www.instagram.com/heladeriacasaesteban
+  source_type: official_venue
+  checked_at: '2026-11-08'
+  checked_by: Claude (main session), Tavily search excerpts
+  confidence: medium
+  notes: Search excerpts of the shop's own Instagram profile and Facebook page (https://www.facebook.com/heladeriacasaesteban); the pages themselves are behind a login wall. Matches the Google Places point on the Paseo Marítimo in Fuengirola.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -130,8 +127,17 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - seasonality
+  description: 'Address and phone from the shop''s own social pages (search excerpts, 2026-11-08). Still open: opening hours, season, prices; no own website.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

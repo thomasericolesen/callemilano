@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-08 (night) - Three family suggestions fact-checked (owner request)
+
+- The three `nyt_sted` items on the owner's feedback list (UTOPÍA and Venta los Condes from Eric, Heladería Casa Esteban from Christian) were closed in the app; the places already existed as drafts.
+- `utopia-la-cala` -> `needs_fact_check`: hours (Wed-Sun 17:00-02:00), address, phone, booking, kids' section and burger prices (median 16,50 €; burger page verified from a rendered PDF) -> `€` with `cost_level_borderline` (no drink prices).
+- `venta-los-condes` -> `needs_fact_check`: hours (Tue-Sun 13:00-22:00), phone/WhatsApp booking, kids' menu 9 €, grilled mains 21-59 € (median about 31 €) -> `€€` (menu read by Firecrawl from an image PDF, low confidence).
+- `heladeria-casa-esteban-fuengirola` -> `needs_fact_check`: Fuengirola shop at Paseo Marítimo Rey de España 26, phone, from the shop's own Instagram/Facebook (search excerpts); hours and prices still open. Recommendation attribution corrected to Christian.
+- Danish app texts for all three. Export 154 places, 130 in Danish. Note: the subagent still had the pre-switch tool list and used Firecrawl (which has credits again); Tavily could not open these PDFs.
+
 ## 2026-11-08 (late evening) - Owner answers to the decision list
 
 - Setenil and Zahara: no call to the tourist offices. The towns are free to walk; the ticketed castles get approximate prices from travel sites (Setenil about 2 EUR combined ticket; Zahara 3,50 EUR adult, free under 4) with a "check online before going" note. Issues `hours_prices_missing` and `tower_hours_prices_unverified` closed; info issue `sight_prices_unofficial` added.

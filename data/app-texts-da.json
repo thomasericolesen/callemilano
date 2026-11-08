@@ -476,6 +476,13 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001": {
+  "source_sha": "2b6e7cd76269217d",
+  "summary": "Heladería Casa Esteban: hjemmelavet is på Paseo Marítimo i Fuengirola (én af tre butikker), ca. 15 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
  "ES-AND-MAL-ISTAN-001": {
   "source_sha": "e43a5fe71438ed82",
   "summary": "Istán: lille hvid landsby med stejle gader fra Al-Andalus-tiden i Sierra de las Nieves.",
@@ -1197,6 +1204,22 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-UTOPIA-LA-CALA-001": {
+  "source_sha": "925b88ec3fc3767e",
+  "summary": "UTOPÍA: restaurant med burgere, hotdogs og nachos i La Cala de Mijas, ca. 14 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Onsdag-søndag 17.00-02.00, køkkenet 17.30-23.30; lukket mandag og tirsdag (egen hjemmeside, læst 8. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "14 burgere til 14,50-19,00 € med pommes frites (typisk 16,50 €); andre retter 10-16 € (wagyu-bøf 39 €); hotdog til børn med pommes frites 8,50 €. Drikkepriser er ikke oplyst."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
  "ES-AND-MAL-VENTA-LA-MORENA-001": {
   "source_sha": "6808c5b7bad0de99",
   "summary": "Venta La Morena: venta (landevejsrestaurant) med grill på Camino Viejo de Coín, ca. 4 min i bil fra Casa de la Familia.",
@@ -1208,6 +1231,22 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-VENTA-LOS-CONDES-001": {
+  "source_sha": "ef5c8d06f764dc68",
+  "summary": "Venta los Condes: grillrestaurant i bjergene over Mijas, ca. 25 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tirsdag-søndag 13.00-22.00, køkkenet 13.00-16.00 og 18.00-21.00; lukket mandag (egen hjemmeside, læst 8. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Grillretter 21-59 € (typisk ca. 31 €; entrecôte 400 g 32 €, rib eye 500 g 59 €). Børnemenu 9 € inkl. sodavand og en kugle is."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-ZERO-LATENCY-MIRAMAR-001": {
   "source_sha": "a2a81e4beca175bc",

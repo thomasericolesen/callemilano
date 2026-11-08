@@ -3,10 +3,10 @@
   "generated": "2026-11-08",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
-  "places": 151,
+  "places": 154,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 127,
+  "danish": 130,
   "danish_stale": []
  },
  "records": [
@@ -4106,6 +4106,72 @@
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-02"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001",
+   "slug": "heladeria-casa-esteban-fuengirola",
+   "name": "Heladería Casa Esteban",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.53738,
+   "lng": -4.622,
+   "google_maps_url": "https://maps.google.com/?cid=2461320907400808140",
+   "google_place_id": "ChIJxcDPWADjcg0RzAbeG1NeKCI",
+   "url": null,
+   "tags": [
+    "spisested"
+   ],
+   "description": "Heladería Casa Esteban is an artisan ice-cream parlour with three shops (Mijas Pueblo, La Cala de Mijas and Fuengirola); this record is the Fuengirola shop at Paseo Marítimo Rey de España 26 (phone 952 19 29 42), according to the shop's own Instagram and Facebook pages. Opening hours and prices are not published there; check before going. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Family recommendation (Christian, callemilano.dk): Good ice cream.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 15,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": null,
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Heladería Casa Esteban: hjemmelavet is på Paseo Marítimo i Fuengirola (én af tre butikker), ca. 15 min i bil fra Casa de la Familia.",
+    "practical": [],
+    "links": {
+     "official": null,
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-08",
+    "text_language": "da",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952192942",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-08"
     }
    }
   },
@@ -10515,6 +10581,81 @@
    }
   },
   {
+   "id": "ES-AND-MAL-UTOPIA-LA-CALA-001",
+   "slug": "utopia-la-cala",
+   "name": "UTOPÍA",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Mijas",
+   "lat": 36.500232,
+   "lng": -4.6852730000000005,
+   "google_maps_url": "https://maps.google.com/?cid=13178421323865988363",
+   "google_place_id": "ChIJY5UFvzQecw0RCx13LV8o47Y",
+   "url": "https://utopialacala.com/",
+   "tags": [
+    "spisested"
+   ],
+   "description": "UTOPÍA is a burger, hot-dog and nachos restaurant at Calle Fuengirola s/n (Local 8) in La Cala de Mijas, open Wednesday to Sunday in the evening (17:00-02:00, kitchen 17:30-23:30) and closed Monday and Tuesday (own website). Burgers cost 14,50-19 € with fries, and there is a kids' section ('Para los más peques'). Bookings via the website. About 14 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Owner's recommendation (callemilano.dk): A pleasant restaurant with a simple menu of burgers, hot dogs and nachos; nice atmosphere, fine with children, and tasty chili con carne.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 14,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": "lav",
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "UTOPÍA: restaurant med burgere, hotdogs og nachos i La Cala de Mijas, ca. 14 min i bil fra Casa de la Familia.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Onsdag-søndag 17.00-02.00, køkkenet 17.30-23.30; lukket mandag og tirsdag (egen hjemmeside, læst 8. nov. 2026)."
+     },
+     {
+      "label": "Pris",
+      "text": "14 burgere til 14,50-19,00 € med pommes frites (typisk 16,50 €); andre retter 10-16 € (wagyu-bøf 39 €); hotdog til børn med pommes frites 8,50 €. Drikkepriser er ikke oplyst."
+     }
+    ],
+    "links": {
+     "official": "https://utopialacala.com/",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-08",
+    "text_language": "da",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": "Wednesday-Sunday 17:00-02:00, kitchen 17:30-23:30; closed Monday and Tuesday (own website, read 2026-11-08).",
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34604347578",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-08"
+    }
+   }
+  },
+  {
    "id": "ES-AND-CAD-VEJER-DE-LA-FRONTERA-001",
    "slug": "vejer-de-la-frontera",
    "name": "Vejer de la Frontera",
@@ -10672,6 +10813,81 @@
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-03"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-VENTA-LOS-CONDES-001",
+   "slug": "venta-los-condes",
+   "name": "Venta los Condes",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Mijas",
+   "lat": 36.6027124,
+   "lng": -4.674296399999999,
+   "google_maps_url": "https://maps.google.com/?cid=2466543150861547175",
+   "google_place_id": "ChIJgSUqt-Ljcg0Rp3ZGau3rOiI",
+   "url": "https://ventaloscondes.com/",
+   "tags": [
+    "spisested"
+   ],
+   "description": "Venta los Condes is a grill restaurant in the hills above Mijas (Lugar Sierra Blanca 9), open Tuesday to Sunday 13:00-22:00 with the kitchen open 13:00-16:00 and 18:00-21:00, closed on Monday (own website). Grilled meat mains cost about 21-59 €, and there is a kids' menu at 9 € including a drink and ice cream. Book by phone (+34 951 744 179) or WhatsApp (+34 633 329 808). About 25 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Owner's recommendation (callemilano.dk): Tasty, always beautifully presented food; meat is cooked over an open grill. A little expensive, but good.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 25,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": "middel",
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Venta los Condes: grillrestaurant i bjergene over Mijas, ca. 25 min i bil fra Casa de la Familia.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Tirsdag-søndag 13.00-22.00, køkkenet 13.00-16.00 og 18.00-21.00; lukket mandag (egen hjemmeside, læst 8. nov. 2026)."
+     },
+     {
+      "label": "Pris",
+      "text": "Grillretter 21-59 € (typisk ca. 31 €; entrecôte 400 g 32 €, rib eye 500 g 59 €). Børnemenu 9 € inkl. sodavand og en kugle is."
+     }
+    ],
+    "links": {
+     "official": "https://ventaloscondes.com/",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-08",
+    "text_language": "da",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Mijas",
+     "schedule": "Tuesday-Sunday 13:00-22:00, kitchen 13:00-16:00 and 18:00-21:00; closed Monday (own website, read 2026-11-08).",
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34951744179",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-08"
     }
    }
   },
