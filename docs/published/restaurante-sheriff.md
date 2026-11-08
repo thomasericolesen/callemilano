@@ -1,5 +1,7 @@
 # Restaurante Sheriff
 
+> **Archived 2026-11-08:** the restaurant is closed (owner decision). The app page was deleted; a copy is in `docs/archive/app-rows/restaurante-sheriff-2026-11-08.json`. Do not republish.
+
 **A long-running, beachfront restaurant serving seafood, Spanish dishes and familiar family options**  
 **Address:** Calle Playa del Chaparral 4, Mijas Costa, Málaga  
 **Telephone:** +34 952 493 722  
