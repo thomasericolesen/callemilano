@@ -80,12 +80,12 @@ Eric vil have færre, større leveringer, så det hele samles i **én app-PR**. 
 3. Eric prøver siden på telefonen som admin.
 4. Eric slår `family_trip_access` til, når han er klar. Selvtesten køres igen med familiescenarierne.
 
-## Beslutninger, Eric skal træffe
+## Erics beslutninger 8. november (aften)
 
-1. **Fælles dagligt loft:** 20 AI-handlinger pr. dag for hele familien? Månedsloft i kroner?
-2. **Gemte ture:** private, eller skal de kunne deles med familien?
-3. **Familiens 107 egne inspirationsrækker:** vises med mærket "Familiens forslag" (forslag), eller gøres de til forslag på Erics liste?
-4. **Barer:** under Restauranter med mærket "Bar" (forslag), eller som en syvende knap?
+1. **Fælles dagligt loft:** 20 AI-handlinger pr. dag for hele familien. Intet månedsloft i kroner for nu.
+2. **Gemte ture:** private som udgangspunkt; ejeren kan dele en tur med familien (knap "Del med familien"). Delte ture kan ses, ikke redigeres, af familie og admins. Serveren gemmer planen selv, når en tur deles, så delt indhold ikke kommer fra browseren.
+3. **Familiens egne inspirationssteder uden turdata (107):** vises under deres kategori med mærket "Familiens forslag"; de kan ikke bruges i et turforslag.
+4. **Barer:** under Restauranter med mærket "Bar".
 
 ## Omfang og risiko
 
