@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-08 (evening) - Olvera and Zahara back in the excursion layer; three stale app rows hidden (owner decision)
+
+- Five app rows came from an early import (2026-10-19) and were never refreshed because their records are not in `data/layer-membership.csv`.
+- Owner decision: `olvera-castle` (110 min) and `zahara-de-la-sierra` (130 min) added to `excursions_4h`, group `Dagsture`, like Setenil, Ronda and Vejer (fact-checked together on 2026-10-30; drive times from the owner's Google Maps screenshots). Danish app texts added for both. Export now 151 places, 127 in Danish.
+- Owner decision: `palmeral-de-las-sorpresas`, `los-canos-de-meca` and `aracena` stay archive (records incomplete); their app rows are hidden with guide status `archived` (app change in callemilano-f388b2be), rows kept.
+
 ## 2026-11-08 (evening) - Danish texts for the remaining app places
 
 - `data/app-texts-da.json`: Danish `summary` and `practical` texts for 72 more places (31 sights, 16 beaches, 12 towns, 10 excursions, 3 nature), three translator subagents; every price and opening-hours text compared with its English source by the main session. 125 of the 149 exported places now go to the app in Danish. The 24 places whose Danish texts were written in the app are left out, so the app keeps those texts.
