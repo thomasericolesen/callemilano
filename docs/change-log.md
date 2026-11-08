@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-08 (evening) - Danish texts for the remaining app places
+
+- `data/app-texts-da.json`: Danish `summary` and `practical` texts for 72 more places (31 sights, 16 beaches, 12 towns, 10 excursions, 3 nature), three translator subagents; every price and opening-hours text compared with its English source by the main session. 125 of the 149 exported places now go to the app in Danish. The 24 places whose Danish texts were written in the app are left out, so the app keeps those texts.
+- App export regenerated (`manifest.danish` 125, no stale). No place records changed.
+
 ## 2026-11-08 (evening) - Oplev page decisions and category images (owner decisions)
 
 - Owner decisions: one app page "Oplev" replaces Inspiration, Find en tur, Turforslag and Anbefalinger; feedback replaces Anbefalinger (Eric's list, no automatic changes, no time limit); family-wide AI cap 20 per day; saved trips private but shareable; family's own places without trip data shown as "Familiens forslag"; bars under Restaurants. Plan: `docs/byggeplan-oplev.md`; mockup https://claude.ai/artifact/3hvQeqQLi1ek2kp92Acs5j.

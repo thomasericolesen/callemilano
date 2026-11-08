@@ -1,4 +1,34 @@
 {
+ "ES-AND-MAL-ALORA-001": {
+  "source_sha": "6344d5e7c0d8b1f5",
+  "summary": "Álora: hvid by på en bakke over Guadalhorce-dalen med stejle gader op til slottet.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-AQUALAND-TORREMOLINOS-001": {
+  "source_sha": "8b989c89a984a3a4",
+  "summary": "Aqualand Torremolinos: vandland, ca. 24 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-AQUAMIJAS-001": {
+  "source_sha": "a20bff2e2a906d6d",
+  "summary": "Aquamijas: sæsonåbent vandland, ca. 10 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Sæson. Sæsonen 2026 starter 1. maj; dagligt 10.30-18.30 (opgivet for juli-august; øvrige måneder efter parkens oplysninger). Billetkontoret lukker 1,5 time før lukketid, forlystelserne 15 min før. Lukket fra 14. sep. 2026 (besked på hjemmesiden)."
+   },
+   {
+    "label": "Pris",
+    "text": "Webpriser 2026: almindelig (12+ år) 32,50 €, junior (7-11 år) 25 €, barn (3-6 år) 18,50 €, senior (65+) 25 €; familiebillet (2 voksne + 2 børn på 3-11 år) 99,50 €. Eftermiddagsbilletter fra kl. 15.00 i billetkontoret: maj, juni og september 18 € / 13,50 € / 11,50 €; juli-august 25 € / 18 € / 13,50 €."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-ASADOR-OTOLA-001": {
   "source_sha": "4f8ab3f52304f716",
   "summary": "Asador Otola: baskisk grillrestaurant (asador) ved Cortijo la Herradura, ca. 6 min i bil fra Casa de la Familia.",
@@ -15,12 +45,96 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-ATV-ADVENTURES-MIJAS-001": {
+  "source_sha": "383dd98e1707601d",
+  "summary": "ATV Adventures: arrangør af quad- og buggyture, ca. 18 min til fods eller 4 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-AVENTOURALIA-001": {
+  "source_sha": "8e52427d0ff490db",
+  "summary": "Aventouralia: arrangør af quad- og buggyture, ca. 17 min til fods eller 4 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-AVENTURA-AMAZONIA-MARBELLA-001": {
+  "source_sha": "79a60d5fda0d64ce",
+  "summary": "Eventyrpark i trætoppene med seks baner, 500 m fra stranden; minimumsalder og -højde gælder pr. bane. Ca. 21 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Reservationskontor mandag-fredag 9.30-19.30; weekender, helligdage eller samme dag 10.00-18.00 (parkens telefon). Åbningsdage står i kalenderen på hjemmesiden; højsæson er Semana Santa, juli og august (egen hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Voksne (fra 16 år): 24 € i lavsæson / 27 € i højsæson; børn 3-6 år sammen med en voksen: 10 € / 12 € (egen hjemmeside). Priser for juniorer og andre børn er ikke oplyst."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-BAR-BURBUJAS-001": {
   "source_sha": "e2c4bda4dd9a17d9",
   "summary": "Bar Burbujas: natbar med cocktails på mousserende vin i det centrale Fuengirola, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
   "practical": [],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-BENAHAVIS-001": {
+  "source_sha": "969696fc31971021",
+  "summary": "Benahavís: hvid bjerglandsby i den mest bjergrige kommune på det vestlige Costa del Sol.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-BENALMADENA-PUEBLO-001": {
+  "source_sha": "ac95351eeb790a59",
+  "summary": "Benalmádena Pueblo: Benalmádenas gamle landsby, ca. 25 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-BIGFOOT-BUGGY-TOURS-001": {
+  "source_sha": "186831055fd15c95",
+  "summary": "Bigfoot Buggy Tours: arrangør af buggyture, ca. 17 min til fods eller 4 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-BIOPARC-FUENGIROLA-001": {
+  "source_sha": "cf235790ab56b109",
+  "summary": "BIOPARC Fuengirola: zoo i centrum af Fuengirola, ca. 12 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Åbent hver dag hele året fra 10.00; lukketid varierer efter sæson, billetkontoret lukker én time tidligere (parkens egen FAQ)."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-BOLERA-MIJAS-DUBAI-BOLL-001": {
+  "source_sha": "daa07744bef38006",
+  "summary": "Bolera Mijas (Dubai Boll): bowlinghal med bar i Las Lagunas, ca. 6 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-BOLICHES-GAVIOTAS-001": {
+  "source_sha": "e65f16767e4b83e6",
+  "summary": "Boliches-Gaviotas, Fuengirola: Blåt Flag 2026. Karakter (vurdering): tilrettelagt.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-CABOPINO-ARTOLA-001": {
+  "source_sha": "9e9465452060f7b2",
+  "summary": "Cabopino/Artola, Marbella: Blåt Flag 2026. Karakter (vurdering): natur.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-CAFE-NOMAD-FUENGIROLA-001": {
   "source_sha": "30d408106534ef4d",
@@ -44,6 +158,34 @@
   "practical": [],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-CARVAJAL-001": {
+  "source_sha": "abb61da494086900",
+  "summary": "Carvajal, Fuengirola: Blåt Flag 2026. Karakter (vurdering): blandet.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-CASTILLO-DE-COLOMARES-001": {
+  "source_sha": "72ffdd2ade55fa78",
+  "summary": "Castillo de Colomares: et monument i form af et slot i Benalmádena, ca. 20 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-CASTILLO-EJIDO-001": {
+  "source_sha": "08e0fbbfcb571598",
+  "summary": "Castillo-Ejido, Fuengirola: Blåt Flag 2026. Karakter (vurdering): blandet.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-CASTILLO-SOHAIL-001": {
+  "source_sha": "eb3b28c65b10830e",
+  "summary": "Castillo Sohail: et slot over udløbet af Río Fuengirola, ca. 12 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-CHANGUEIRO-BAR-DE-VINOS-001": {
   "source_sha": "072f1fa18f5cddb9",
@@ -127,6 +269,64 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-COIN-001": {
+  "source_sha": "960d50f91a2342dc",
+  "summary": "Coín: marketsby inde i landet ved foden af kystbjergene, med kirker og naturperler i nærheden.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-COSMOZONE-LASERTAG-001": {
+  "source_sha": "121c653b0e492ff4",
+  "summary": "Cosmozone Lasertag: lasertag i Las Lagunas, ca. 8 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-CROCODILE-PARK-TORREMOLINOS-001": {
+  "source_sha": "7a1bebd768d4580c",
+  "summary": "Crocodile Park Torremolinos: krokodillepark, ca. 23 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-CUEVA-DEL-TESORO-001": {
+  "source_sha": "26894eef4da3a0a0",
+  "summary": "Grotte dannet af havet med forhistoriske rester ved Rincón de la Victoria; kræver forhåndsbooking. Ca. 43 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Vinter (1. okt.-30. apr.): 10.00-13.00 og 15.00-17.00. Sommer (1. maj-30. sep.): 10.30-13.00 og 16.30-19.00. Lukket 24., 25., 31. dec. og 1., 6. jan. Sæsonåbent (Rincón de la Victorias turistside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Børn 0-3 år gratis; børn 4-14 år 4 €; voksne 15-64 år 6 € (Rincón de la Victorias turistside)."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-DUNAS-DE-ARTOLA-001": {
+  "source_sha": "eeeea73420cf04ae",
+  "summary": "Dunas de Artola: et fredet klitområde ved siden af Cabopino-stranden, ca. 22 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-EL-BAJONDILLO-001": {
+  "source_sha": "6681b6d09497f5ce",
+  "summary": "El Bajondillo, Torremolinos: Blåt Flag 2026. Karakter (vurdering): tilrettelagt.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-EL-GRAN-PARQUE-DE-MIJAS-001": {
+  "source_sha": "f46d1dcc00a4d4bf",
+  "summary": "El Gran Parque de Mijas: stor offentlig park i Las Lagunas de Mijas, ca. 13 min til fods eller 3 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-EL-HIGUERON-FUENGIROLA-001": {
   "source_sha": "264d02f60f433436",
   "summary": "El Higuerón: restaurant på skråningerne af Sierra de Mijas med morgenmad, frokost og middag og privat parkering (egen hjemmeside).",
@@ -151,6 +351,20 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-ERMITA-DEL-CALVARIO-MIJAS-001": {
+  "source_sha": "e533652feec4dbb2",
+  "summary": "Ermita del Calvario (Mijas): et eremitkapel på en sti op ad bakken over Mijas Pueblo, ca. 20 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-ESTEPONA-OLD-TOWN-001": {
+  "source_sha": "1e5f89a2b27975a7",
+  "summary": "Esteponas gamle bydel: hvide gader fyldt med blomsterkrukker, Plaza de las Flores og en mural-rute under åben himmel.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-FREIDURIA-EL-CHOCO-FUENGIROLA-001": {
   "source_sha": "545153c020dbef6c",
   "summary": "Freiduría El Choco: restaurant med friturestegt fisk i Fuengirola; lukket mandag, ingen bordreservation (egen hjemmeside).",
@@ -162,6 +376,50 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-FUENGIROLA-ADVENTURE-GOLF-001": {
+  "source_sha": "459b108e80d8d29e",
+  "summary": "Fuengirola Adventure Golf: minigolfbane i Parque Fluvial, ca. 9 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-FUENGIROLA-CENTRO-001": {
+  "source_sha": "931ad1467d08da19",
+  "summary": "Fuengirola (centrum), Fuengirola: Blåt Flag 2026. Karakter (vurdering): tilrettelagt.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-FUENGIROLA-TOWN-001": {
+  "source_sha": "11546de13ab4a33f",
+  "summary": "Fuengirola (by): byen Fuengirola; målet er hovedtorvet, Plaza de la Constitución, ca. 15 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-FUENTE-DE-LA-SALUD-001": {
+  "source_sha": "02100e1b4250d263",
+  "summary": "Fuente de la Salud, Benalmádena: Blåt Flag 2026. Karakter (vurdering): tilrettelagt.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-FUNNY-HILL-KARTING-001": {
+  "source_sha": "4160ac6003f8be9d",
+  "summary": "Gokartbane med børnekørsel på den gamle Ojén-vej over Marbella, ca. 34 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "mandag-fredag 15.00-21.00; lørdag, søndag og helligdage 12.00-21.00. Om det er sæsonbestemt, er ikke oplyst (egen hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "20 € pr. barn, 25 € pr. voksen, 30 € pr. kart, hver på 8 minutter."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-GALI-GALI-FUENGIROLA-001": {
   "source_sha": "aaf3bfba8b1b130a",
@@ -186,6 +444,13 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-ISTAN-001": {
+  "source_sha": "e43a5fe71438ed82",
+  "summary": "Istán: lille hvid landsby med stejle gader fra Al-Andalus-tiden i Sierra de las Nieves.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-JACKS-SMOKEHOUSE-PUERTO-BANUS-001": {
   "source_sha": "f677425517029df1",
   "summary": "Jack's Smokehouse, Puerto Banús: barbecuerestaurant i New York-stil i havnen.",
@@ -197,6 +462,18 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-JARDIN-BOTANICO-LA-CONCEPCION-001": {
+  "source_sha": "3777ab06ba77d3d6",
+  "summary": "Historisk subtropisk botanisk have nord for Málaga, åben tirsdag-søndag, ca. 36 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tirsdag-søndag. April-september 9.30-20.30; oktober-marts 9.30-17.30. Lukket 25. december og 1. januar. Sæsonbestemt (egen hjemmeside, læst 2. nov. 2026)."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-JUAN-PLAYA-FUENGIROLA-001": {
   "source_sha": "fbfee59768076c90",
@@ -214,6 +491,25 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-JUANAR-MACHO-MONTES-001": {
+  "source_sha": "c03af2ecee900abd",
+  "summary": "Udsigtspunkt over Middelhavet for enden af stien El Juanar-Puerto Marbella i Sierra Blanca, ca. 49 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-JUMPJOY-MIJAS-001": {
+  "source_sha": "421b561098f1a77f",
+  "summary": "JumpJoy Mijas: trampolin- og legecenter, ca. 6 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "mandag-fredag 16.30-21.30; lørdag, søndag og helligdage 12.00-21.30 (egen hjemmeside, læst 2. nov. 2026)."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-KALIFATO-BENALMADENA-001": {
   "source_sha": "0bd508908ac02a3c",
   "summary": "Kalifato (på egen hjemmeside: Kalifato Beach): middelhavsstrandbar på Playa Carvajal i Benalmádena, ca. 18 min i bil fra Casa de la Familia.",
@@ -225,6 +521,27 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-KARTING-EXPERIENCE-MIJAS-001": {
+  "source_sha": "6ce5b812af442585",
+  "summary": "Karting Experience Mijas: gokartbane udendørs, ca. 13 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-KARTING-EXPERIENCE-MIRAMAR-001": {
+  "source_sha": "7e12e1aa6baa550b",
+  "summary": "Karting Experience Miramar: gokartbane ved indkøbscentret Miramar, ca. 9 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-LA-BUTIBAMBA-001": {
+  "source_sha": "45ed28391392e1cd",
+  "summary": "La Butibamba, Mijas: intet Blåt Flag i 2026. Karakter (vurdering): tilrettelagt.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-LA-FLOJA-VINOS-Y-LATAS-001": {
   "source_sha": "da3d1a19868f2c14",
@@ -298,6 +615,13 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-LOS-ALAMOS-001": {
+  "source_sha": "3865e63e690a4e27",
+  "summary": "Los Álamos, Torremolinos: Blåt Flag 2026. Karakter (vurdering): tilrettelagt.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-LOS-ENEBROS-FUENGIROLA-001": {
   "source_sha": "868e72e0ff1a5c9d",
   "summary": "Restaurante Los Enebros: middelhavsrestaurant i Los Boliches med madmenu på egen hjemmeside; lukket mandag.",
@@ -342,6 +666,13 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-MARIPOSARIO-BENALMADENA-001": {
+  "source_sha": "ef097ffe8cfa8ac1",
+  "summary": "Mariposario de Benalmádena (Monowa): sommerfuglepark, ca. 18 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-MARISQUERIA-EL-ANCLA-SAN-PEDRO-001": {
   "source_sha": "dde82d9a86f2fddb",
   "summary": "El Ancla: fiske- og skaldyrsrestaurant ved havet i San Pedro de Alcántara.",
@@ -370,6 +701,13 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-MAUI-PADDLE-SURF-LA-CALA-001": {
+  "source_sha": "54c4b804bedd25c0",
+  "summary": "Maui Paddlesurf Club (La Cala): paddle-surf- og kajakskole med udlejning i La Cala, ca. 14 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-MIAS-PIZZORANTE-FUENGIROLA-001": {
   "source_sha": "a05d1ad0a85483b4",
   "summary": "Mia's Pizzorante: italiensk restaurant på Playa de Carvajal i Fuengirola, med udsigt over Middelhavet.",
@@ -382,6 +720,32 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-MIJAS-BUGGYS-001": {
+  "source_sha": "e50195504625ff0c",
+  "summary": "Mijas Buggys: buggyture, ca. 18 min til fods eller 4 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Pr. buggy (egen hjemmeside, 2. nov. 2026): 1 time ved solnedgang 120 € (2 pladser) / 150 € (4 pladser), kun juni-september; 2 timer 145 € / 235 €; 3 timer 189 € / 280 €."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-MIJAS-GOLF-001": {
+  "source_sha": "baa1f9168f94537e",
+  "summary": "Mijas Golf: golfklub, ca. 7 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-MIJAS-PUEBLO-001": {
+  "source_sha": "51e32c33d5e1a2ff",
+  "summary": "Mijas Pueblo: den hvide landsby Mijas på bjergsiden, ca. 17 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-MIXS-LOUNGE-001": {
   "source_sha": "367a2dddbf661d8e",
   "summary": "Mixs Longe: restaurant i Cerros del Águila (ifølge stedets egen side skandinavisk og italiensk), ca. 5 min til fods eller 2 min i bil fra Casa de la Familia.",
@@ -389,12 +753,26 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-MK2-CINESUR-MIRAMAR-001": {
+  "source_sha": "6f76806602a6253a",
+  "summary": "mk2 Cinesur Miramar: biograf i indkøbscentret Miramar, ca. 10 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-MON-2-SUN-001": {
   "source_sha": "b8a233cad733fb9e",
   "summary": "Mon 2 Sun: hyggelig bar for lokalsamfundet ved La Hacienda Mijas Golf, ca. 8 min i bil, taxa eller Uber fra Casa de la Familia.",
   "practical": [],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-MONDA-001": {
+  "source_sha": "64667273050993bf",
+  "summary": "Monda: hvidkalket landsby under en genopbygget borg, nu hotel, i udkanten af Sierra de las Nieves.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-MORROFINO-001": {
   "source_sha": "b208f1f306898385",
@@ -412,6 +790,29 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-MULTICINES-ALFIL-FUENGIROLA-001": {
+  "source_sha": "326f69afc712d02e",
+  "summary": "Multicines Alfil Fuengirola: biograf ved siden af BIOPARC, ca. 12 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-MUSEO-AERONAUTICO-MALAGA-001": {
+  "source_sha": "418c24ad2a5d9dbd",
+  "summary": "Flymuseum ved Málagas lufthavn med gratis entré og gratis parkering ifølge museets hjemmeside; ca. 28 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tirsdag 10.00-20.00; onsdag-søndag 10.00-14.00; lukket mandag. Sæsonvariation er ikke oplyst (egen hjemmeside, læst 2. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Gratis entré ifølge museets egen hjemmeside."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001": {
   "source_sha": "c4244da3893d7b13",
   "summary": "Nautic Cocktail & Drinks: gin- og cocktailbar i det centrale Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
@@ -426,6 +827,13 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-OJEN-001": {
+  "source_sha": "56e1727e26fe8fe8",
+  "summary": "Ojén: hvidkalket landsby på en bjergskråning over Marbella og indgang til Juanar-dalen.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-OLD-SWISS-HOUSE-FUENGIROLA-001": {
   "source_sha": "feb01c1365cbbf3b",
   "summary": "Old Swiss House: restaurant i Fuengirola med Superman-børnemenu. Det anbefales at booke bord i forvejen på telefon.",
@@ -437,6 +845,97 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-PARQUE-DE-LA-PALOMA-001": {
+  "source_sha": "f0c6e401d154f6b0",
+  "summary": "Parque de la Paloma: stor park med dyr og en sø, ca. 25 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PARQUE-EL-ESPARRAGAL-001": {
+  "source_sha": "6270ab986ac5b41b",
+  "summary": "Parque El Esparragal: offentlig park med indhegnet legeplads og grillpladser i Urbanización Mijas Golf, ca. 7 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PASEO-MARITIMO-FUENGIROLA-001": {
+  "source_sha": "92c083fbaa56ecc2",
+  "summary": "Paseo Marítimo de Fuengirola: Fuengirolas strandpromenade, ca. 16 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PLAYA-DE-LA-RADA-ESTEPONA-001": {
+  "source_sha": "466720f05a4874e3",
+  "summary": "Playa de la Rada, Estepona: lang bystrand med roligt vand og en promenade med haveanlæg.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PLAYA-DE-NAGUELES-001": {
+  "source_sha": "ea847a619d73a47d",
+  "summary": "Playa de Nagüeles, Marbella: strand med gylden sand på Golden Mile; Blåt Flag 2026 (Nagüeles-Casablanca).",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PLAYA-DE-SAN-PEDRO-ALCANTARA-001": {
+  "source_sha": "8d399698f253106a",
+  "summary": "Playa de San Pedro de Alcántara, Marbella: strand med sand og småsten, promenade og strandrestauranter.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PLAYA-PUERTO-BANUS-001": {
+  "source_sha": "2a59c27767b056bc",
+  "summary": "Playa de Puerto Banús, Marbella: strand med gylden sand ved siden af lystbådehavnen og med en lang promenade.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PLAYAMAR-001": {
+  "source_sha": "e75f9741481eaefa",
+  "summary": "Playamar, Torremolinos: Blåt Flag 2026. Karakter (vurdering): tilrettelagt.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PLAYAS-DEL-PALO-001": {
+  "source_sha": "9235d534cdca180b",
+  "summary": "Playas de El Palo, Málaga: sandstrande i fiskerkvarteret med både på sandet; Blåt Flag 2026.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PUERTO-BANUS-001": {
+  "source_sha": "015b6f09a857e55a",
+  "summary": "Puerto Banús: Marbellas luksuriøse lystbådehavn og forlystelsesområde ved siden af stranden.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PUERTO-COLORADO-SIERRA-DE-MIJAS-001": {
+  "source_sha": "4657424a513a4f94",
+  "summary": "Puerto Colorado (Sierra de Mijas): område med stier i Sierra de Mijas, ca. 23 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PUERTO-DEPORTIVO-ESTEPONA-001": {
+  "source_sha": "5811a9c6ed444128",
+  "summary": "Esteponas lystbådehavn med restauranter og fritidstilbud samt håndværkermarked søndag formiddag; ca. 54 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-PUERTO-MARINA-BENALMADENA-001": {
+  "source_sha": "a114a7b9f4c7cb79",
+  "summary": "Puerto Marina Benalmádena: Benalmádenas lystbådehavn med butikker og restauranter, ca. 28 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-RAGAZZI-FUENGIROLA-001": {
   "source_sha": "85da2d10e81a4d01",
@@ -453,6 +952,13 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-RANGERS-SAFARI-TOURS-001": {
+  "source_sha": "c3e1d90dce67f6f8",
+  "summary": "Rangers Safari Tours: udbyder af buggy- og quadture, ca. 17 min til fods eller 3 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-RED-AND-WHITE-FUENGIROLA-001": {
   "source_sha": "a5349c894a9707ca",
@@ -508,6 +1014,20 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-SAN-PEDRO-ALCANTARA-001": {
+  "source_sha": "2ff45dfa87141a0c",
+  "summary": "San Pedro Alcántara: by i Marbella Kommune med en boulevardpark i centrum.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-SANTA-ANA-BENALMADENA-001": {
+  "source_sha": "cfa9bb202acec6a5",
+  "summary": "Santa Ana (Torrebermeja-Santa Ana), Benalmádena: Blåt Flag 2026. Karakter (vurdering): tilrettelagt.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-SANTA-ANA-DENIS-001": {
   "source_sha": "559cd138dab61fc5",
   "summary": "Restaurant ved stranden Playa de Santa Ana i Benalmádena Costa med paellaer, fisk og skaldyr og espetos; ca. 27 min i bil.",
@@ -519,6 +1039,27 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-SEA-LIFE-BENALMADENA-001": {
+  "source_sha": "728c66ea63f94a16",
+  "summary": "Sea Life Benalmádena: akvarium ved Puerto Marina, ca. 27 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-SELWO-MARINA-001": {
+  "source_sha": "ad74006a15a07619",
+  "summary": "Selwo Marina: park med havdyr, ca. 24 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-SENDA-LITORAL-LA-CALA-001": {
+  "source_sha": "ca526d54842e0bcd",
+  "summary": "Senda Litoral (La Cala de Mijas): kyststi langs havet ved La Cala de Mijas, ca. 13 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-SOLLO-FUENGIROLA-001": {
   "source_sha": "ca8e47ab18ad9eb7",
@@ -554,6 +1095,13 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-SOULD-PARK-BOWLING-MIRAMAR-001": {
+  "source_sha": "bc3e0935c8f82d93",
+  "summary": "Sould Park Bowling Miramar: bowlinghal og arkade i Miramar-indkøbscentret, ca. 9 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-SPEAKEASY-JAZZ-CLUB-FUENGIROLA-001": {
   "source_sha": "22e7945f12c4c9ec",
@@ -594,6 +1142,13 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-TELEFERICO-BENALMADENA-001": {
+  "source_sha": "db23f3092e2aa5de",
+  "summary": "Teleférico Benalmádena: svævebane op på Monte Calamorro, ca. 21 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
  "ES-AND-MAL-UPSTAIRS-ROOFTOP-BAR-001": {
   "source_sha": "7592d4fdc2809e4c",
   "summary": "Upstairs Rooftop Bar: tagbar ved The Orange House, ca. 11 min i bil, taxa eller Uber fra Casa de la Familia.",
@@ -617,5 +1172,28 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-ZERO-LATENCY-MIRAMAR-001": {
+  "source_sha": "a2a81e4beca175bc",
+  "summary": "Zero Latency Miramar: virtual reality-arena med fri bevægelse i Miramar-indkøbscentret, ca. 9 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "GI-GIBRALTAR-001": {
+  "source_sha": "a4eef94c1ac4a7aa",
+  "summary": "Gibraltar, britisk oversøisk territorium nået over landegrænsen fra La Línea, byder på berberaber og vid udsigt over strædet i Upper Rock Nature Reserve samt shopping på Main Street. Klippens kendte svævebane er lukket for renovering til mindst 2027.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Upper Rock Nature Reserve: 1. okt.-30. apr. åbner 9.00, sidste billetsalg 17.15, sidste indgang 17.45, lukker 18.15. 1. maj-30. sep. åbner 9.30, lukker 19.15. Ændringer kan forekomme. Svævebane: billetsiden viser \"Closed for refurbishment\" (datoen for meddelelsen er ukendt); normalt dagligt 10.00-16.00 ifølge samme side."
+   },
+   {
+    "label": "Pris",
+    "text": "Upper Rock Nature Reserve: voksne (over 11 år) 30 GBP, børn 5-11 år 22 GBP, 0-4 år gratis. Svævebanen kan ikke bookes, mens den er markeret lukket."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  }
 }
