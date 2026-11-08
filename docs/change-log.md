@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-08 (evening) - Sheriff page removed from the app (owner decision)
+
+- Owner instruction "Slet Sheriff": the hand-written inspiration page `published-restaurante-sheriff` in the app table `recommendations` was deleted (no diary tags referenced it). A full copy of the row is in `docs/archive/app-rows/restaurante-sheriff-2026-11-08.json`; `docs/published/restaurante-sheriff.md` is marked archived. The place record stays `archived`.
+- Same day, after PR #58: the 53 restaurant guides in the app were updated from the export (Danish texts, Somos de Banús €€, El Ancla hours); remote self-test 16/16 OK (2 UV warnings from met.no).
+
 ## 2026-11-08 - Owner decisions, price check batch 3 and Danish restaurant texts for the app
 
 - Owner decisions 2026-11-08: `restaurante-sheriff` is closed (not a seasonal closure) -> status `archived`, ID kept, info issue `closed_permanently`, owner statement in the evidence ledger; `somos-de-banus` `€€€` -> `€€` (median main about 29 € + drink, rule of 2026-11-03); directory lead R-0201 KFC -> `fravalgt`.
