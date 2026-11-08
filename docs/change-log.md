@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-08 (late evening) - Price bands from guest menu photos (owner decision)
+
+- Owner decision: guest photos of menus (Google Maps, and the owner's own screenshots of Tripadvisor/Google) may be used for the price band, recorded as `secondary`, confidence `low`, with info issue `cost_level_menu_photo`.
+- From the owner's screenshots: `casa-manuel-de-la-lonja` €€ -> € (grilled fish and meat 9-18 €, median about 12 €); `restaurante-la-escollera-estepona` €€ -> € (seafood raciones median 15,50 €, no drink price; `cost_level_borderline`).
+- From Google Maps guest photos fetched with the Places API (up to 10 photos per place, 21 restaurants checked; only 2 more had a readable menu): `el-andaluz-de-la-malagueta` Unknown -> € (median main 13,50 €); `taberna-mar-de-alboran-estepona` Unknown -> € (median 13,50 €; fish column spot-checked). `norte-puerto-banus` only had a breakfast menu (not used).
+- All four records stay `draft`, so the app is unchanged. Validation 0 errors.
+
 ## 2026-11-08 (evening) - Olvera and Zahara back in the excursion layer; three stale app rows hidden (owner decision)
 
 - Five app rows came from an early import (2026-10-19) and were never refreshed because their records are not in `data/layer-membership.csv`.

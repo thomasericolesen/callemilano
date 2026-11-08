@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: €€
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'No prices on own site; Tripadvisor price marking "$$ - $$$" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N'
-  cost_checked_at: '2026-11-02'
+  cost_basis: 'Guest photos of the printed menu on Google (uploaded about 3 weeks and 7 months before 2026-11-08): seafood raciones 12,00-26,00 € (median about 15,50 €; per-kg and ''S.M.'' items left out); starters and salads 4,00-16,50 €; IVA included. No drink prices; main plus one drink is under 20 € if the drink costs under 4,50 € (borderline). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-08'
 links:
   official_website: https://m.facebook.com/Restaurante-La-Escollera-Estepona-183448945056268/
   booking: null
@@ -109,6 +109,14 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of tripadvisor.com listing 'RESTAURANTE LA ESCOLLERA, Estepona'. The .com site shows '$' symbols. Name and town match.
+- field: cost_level
+  claim: 'Menu photos (read by Claude from the owner''s screenshots): "33. Gambones al Pil-Pil ... 14,00 €" ; "34. Gambas cocidas 7,50 € 12,00 €" ; "36. Gambones a la plancha 16,00 €" ; "37. Gambas blancas de Estepona 23,50 €" ; "18. Almejas chirlas 14,50 €" ; "19. Almejas chirlas (Estepona) 18,00 €" ; "20. Mejillones al vapor 7,50 € 13,50 €" ; "21. Mejillones marinera con vino blanco 15,00 €" ; "25. Navajas a la plancha 7,50 € 14,00 €" ; "27. Coquinas de Estepona 19,50 €" ; "28. Coquinas de Estepona XXL 22,00 €" ; "31. Almejas de Carril XXL 26,00 €" ; "I.V.A. incluido"'
+  source_url: https://www.google.com/search?q=la+escollera+estepona
+  source_type: secondary
+  checked_at: '2026-11-08'
+  checked_by: Eric Olesen (screenshots); read by Claude (main session)
+  confidence: low
+  notes: 'Guest photos in Google''s image panel (uploaders ''Tatia...'' about 7 months ago and ''Eva Cam...'' about 3 weeks ago); the fish and fried sections were not in the photos. Owner decision 2026-11-08: guest menu photos may be used for the price band, marked low confidence.'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -137,15 +145,22 @@ review_issues:
   description: No own website (or only a Facebook page) in the Google listing. Needs the owner's screenshots of the venue's own page or menu, or a visit.
   retryable: true
   owner: human_editor
-- code: cost_level_secondary_source
+- code: cost_level_menu_photo
   severity: info
   fields:
   - cost_level
-  description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
+  description: Price band from guest photos of the menu; replace when an own menu is found.
+  retryable: true
+  owner: fact_check
+- code: cost_level_borderline
+  severity: info
+  fields:
+  - cost_level
+  description: Median seafood ración 15,50 € without a drink price; € holds if a drink costs under 4,50 €.
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
