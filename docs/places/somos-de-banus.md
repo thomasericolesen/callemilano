@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: €€€
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own menu: mains 25-38 € (median about 29 €); drink prices not on own menu. Owner decision 2026-11-02: expensive band. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01).'
-  cost_checked_at: '2026-11-02'
+  cost_basis: 'Own menu: mains 25-38 € (median about 29 €); drink prices not on own menu, so main plus one drink is about 31-35 €, inside 20-50 €. Owner decision 2026-11-08: €€ under the 2026-11-03 rule (replaces the 2026-11-02 choice of €€€). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-08'
 links:
   official_website: https://somosbanus.com/
   booking: null
@@ -130,13 +130,12 @@ review_issues:
   severity: warning
   fields:
   - visit_information
-  - cost_level
   - booking_required
-  description: 'Own website checked 2026-11-02. Still open: visit_information, cost_level. Opening hours change by season; check before publishing.'
+  description: 'Own website checked 2026-11-02; price band set by owner 2026-11-08. Still open: visit_information. Opening hours change by season; check before publishing.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

@@ -64,7 +64,7 @@ toilets_available: unknown
 food_available: 'yes'
 cost_level: €€
 visit_information:
-  schedule: null
+  schedule: Restaurant 13:00-23:00 in summer (closed Monday except public holidays) and in winter (no closing day stated); own contact page, undated (page last modified 2021), read 2026-11-08.
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -76,11 +76,11 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34952787496
 related_places:
 - playa-de-san-pedro-alcantara
 description_short: 'El Ancla: seafood restaurant on the seafront at San Pedro de Alcántara.'
-description_long: El Ancla is a seafood restaurant that describes itself as 'located in a privileged spot on the shore of the Mediterranean' (own website). Opening hours, prices and booking were not readable on the site.
+description_long: El Ancla is a seafood restaurant that describes itself as 'located in a privileged spot on the shore of the Mediterranean' at San Pedro de Alcántara, with a saltwater pool and hammock service (own website). The contact page gives restaurant hours of 13:00-23:00, with Monday closed in summer except on public holidays; the page is undated, so check before going. Bookings by phone only (952 787 496 or 952 789 328).
 seo_title: Marisquería El Ancla (San Pedro), Marbella | CalleMilano
 seo_description: 'Marisquería El Ancla (San Pedro) (Marbella): food, opening hours and drive time from Casa de la Familia.'
 images: []
@@ -125,6 +125,22 @@ evidence:
   checked_by: Claude (main session)
   confidence: medium
   notes: 'Method: pdf (pdftotext), linked as ''CARTA EN PDF'' from the home page. Server Last-Modified 8 Aug 2022, so prices may have risen; the band would stay €€ unless they rose by about 100 %. Children''s dishes (PLATOS INFANTILES 13-18 €) not counted. The linked POOL BAR MENU PDF has no drink prices either.'
+- field: visit_information.schedule
+  claim: '"HORARIO DE VERANO RESTAURANTE 13:00 a 23:00 Lunes cerrado (excepto festivos)" ; "HORARIO DE INVIERNO 13:00h a 23.00h"'
+  source_url: https://www.elanclarestaurante.com/contacto/
+  source_type: official_venue
+  checked_at: '2026-11-08'
+  checked_by: source-reader agent; spot-checked by Claude (main session)
+  confidence: medium
+  notes: 'Method: curl. Page schema dateModified 2021-07-20, so the hours may be old. The winter block names no closing day.'
+- field: links.contact
+  claim: '"TELÉFONOS 952 787 496 / 952 789 328" ; "No admitimos reservas por email , las reservas deben realizarse únicamente por teléfono, gracias."'
+  source_url: https://www.elanclarestaurante.com/contacto/
+  source_type: official_venue
+  checked_at: '2026-11-08'
+  checked_by: source-reader agent; spot-checked by Claude (main session)
+  confidence: medium
+  notes: 'Method: curl. Other numbers on the page are for the pool/hammocks and a shop.'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -134,14 +150,6 @@ review_issues:
   description: Age groups and family scores are not assessed.
   retryable: true
   owner: human_editor
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - visit_information
-  - booking_required
-  description: 'Own website checked 2026-11-02; prices from the own menu 2026-11-05. Still open: visit_information (opening hours), booking_required. Opening hours change by season; check before publishing.'
-  retryable: true
-  owner: fact_check
 - code: menu_possibly_outdated
   severity: info
   fields:
@@ -149,8 +157,15 @@ review_issues:
   description: The own carta PDF was last modified in August 2022; prices on site may be higher. The band (€€) is unlikely to change.
   retryable: true
   owner: fact_check
+- code: facts_partly_checked
+  severity: warning
+  fields:
+  - booking_required
+  description: 'Own website checked 2026-11-02 and 2026-11-08 (prices, hours, phone). Still open: booking_required. Hours page is undated; check before publishing.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-05'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

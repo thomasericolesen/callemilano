@@ -1,5 +1,15 @@
 # Change log
 
+## 2026-11-08 - Owner decisions, price check batch 3 and Danish restaurant texts for the app
+
+- Owner decisions 2026-11-08: `restaurante-sheriff` is closed (not a seasonal closure) -> status `archived`, ID kept, info issue `closed_permanently`, owner statement in the evidence ledger; `somos-de-banus` `€€€` -> `€€` (median main about 29 € + drink, rule of 2026-11-03); directory lead R-0201 KFC -> `fravalgt`.
+- Price check batch 3 (two `source-reader` runs, `tools/intake.py fetch`; Firecrawl only for blocked pages): no own-menu prices found for Asador Otola, El Mirador del Golf, Jack's Smokehouse or Restaurante Hoyo 19; no own website found for Chiringuito Las Dunas, Chiringuito Rafael or Restaurante El Golf (Mijas). These keep their Tripadvisor/TheFork band. Still no prices or still blocked: Burger King, Casa Carmen, Da Vinci Los Boliches (DNS failure), Foster's Hollywood (403), La Tagliatella, The Good Burger. No records changed for these.
+- `ragazzi-fuengirola`: own website names only the Fuengirola restaurant, so `menu_branch_unconfirmed` is closed (spot-checked). Price unchanged (`€`).
+- `marisqueria-el-ancla-san-pedro`: hours (13:00-23:00; Monday closed in summer except holidays) and booking phone from the own contact page (undated, last modified 2021; spot-checked); bookings by phone only.
+- `chiringuito-el-cachalote`: the menu page still has only the February 2026 'BORRADOR' images; `cost_level_menu_draft` stays.
+- Danish texts for the app (owner request, handover task 3): new `data/app-texts-da.json` with Danish `summary` and `practical` texts for all 53 exported restaurants and bars (two translator subagents plus the main session; every price text compared with its English source, two corrected). `tools/app_export.py` sends them with `text_language: "da"` only while a hash of the English texts still matches; otherwise it falls back to English and lists the place in `manifest.danish_stale`. New test `tests/test_app_export_danish.py`. Described in `docs/webapp-byggeplan.md`.
+- Validation 220 records, 0 errors; catalog and app export regenerated.
+
 ## 2026-11-05 - Price check batch 2: own menus for four restaurants
 
 - Owner request (handover task 2): replace the TheFork/Tripadvisor price markings with own-menu prices for El Ancla, Tasca Láska Malagueta, Taberna Casa Blanca Banús and Chiringuito El Cachalote. Fetched with `tools/intake.py fetch` (curl and pdftotext; no Firecrawl calls). El Cachalote's menu is image-only and was read visually by the main session. Rule of 2026-11-03: median main + one drink.

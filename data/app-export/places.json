@@ -1,11 +1,13 @@
 {
  "manifest": {
-  "generated": "2026-11-05",
+  "generated": "2026-11-08",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
   "places": 149,
   "holidays": 28,
-  "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership"
+  "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
+  "danish": 53,
+  "danish_stale": []
  },
  "records": [
   {
@@ -340,15 +342,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Asador Otola: Basque grill (asador) at Cortijo la Herradura, about 6 min by car from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Asador Otola: baskisk grillrestaurant (asador) ved Cortijo la Herradura, ca. 6 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Mon 12:00-24:00; Tue 12:00-18:00; Wed closed; Thu-Sun 12:00-24:00 (own website, read 2026-11-02)."
+      "text": "Mandag 12.00-24.00; tirsdag 12.00-18.00; onsdag lukket; torsdag-søndag 12.00-24.00 (egen hjemmeside, læst 2. nov. 2026)."
      },
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
+      "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
      }
     ],
     "links": {
@@ -357,7 +359,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -702,7 +704,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Bar Burbujas: late-night cocktail bar specialising in sparkling-wine cocktails in central Fuengirola, about 16 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Bar Burbujas: natbar med cocktails på mousserende vin i det centrale Fuengirola, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": "https://www.instagram.com/barburbujas",
@@ -710,7 +712,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -1341,15 +1343,15 @@
     "cost_level": "lav",
     "booking_required": false,
     "wheelchair": "ukendt",
-    "summary": "Café NOMAD: sea-facing café for breakfast, brunch and lunch on the Paseo Marítimo in Fuengirola, about 10 min by car from Casa de la Familia.",
+    "summary": "Café NOMAD: café med havudsigt til morgenmad, brunch og frokost på Paseo Marítimo i Fuengirola, ca. 10 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Daily 9:00-15:00 (own website); season not stated."
+      "text": "Hver dag 9.00-15.00 (egen hjemmeside); sæson ikke oplyst."
      },
      {
       "label": "Pris",
-      "text": "Own website: 4 quoted favourites 10,90-14,20 € (median 13,20 €); drink prices not quoted, so main plus one drink stays under 20 € unless the drink costs more than 6,80 €. Owner decision 2026-11-03: €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "4 udvalgte retter til 10,90-14,20 € (typisk 13,20 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster under 20 €, medmindre drikken koster over 6,80 €."
      }
     ],
     "links": {
@@ -1358,7 +1360,7 @@
      "info": null
     },
     "checked_at": "2026-11-03",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -1412,7 +1414,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Café Teatro by Ocean Drive: lounge terrace with live music and cocktails on the Fuengirola promenade, about 10 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Café Teatro by Ocean Drive: lounge-terrasse med levende musik og cocktails på promenaden i Fuengirola, ca. 10 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
@@ -1420,7 +1422,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -1838,7 +1840,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Changueiro Bar de Vinos: wine bar in central Fuengirola, about 15 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Changueiro Bar de Vinos: vinbar i det centrale Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": "https://www.instagram.com/changueirobardevinos/",
@@ -1846,7 +1848,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -1909,7 +1911,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Beach bar (chiringuito) on Playa La Butibamba in La Cala de Mijas, listed by Turismo de Mijas; about 15 minutes by car from Casa de la Familia.",
+    "summary": "Strandbar (chiringuito) på Playa La Butibamba i La Cala de Mijas, opført af Turismo de Mijas; ca. 15 min i bil fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
@@ -1917,7 +1919,7 @@
      "info": "https://turismo.mijas.es/es/gastronomia/donde-comer/chiringuitos/chiringuito-cristobal"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -1975,15 +1977,15 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Chiringuito El Cachalote: family-run fish beach restaurant on Malagueta beach since 1980, with sardine espetos.",
+    "summary": "Chiringuito El Cachalote: familiedrevet strandrestaurant med fisk på Malagueta-stranden siden 1980, med sardiner på espeto.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (own site, undated, read 2026-11-05)."
+      "text": "Onsdag-søndag 11.30-19.00, køkkenet 12.00-18.00; lukket mandag-tirsdag (egen hjemmeside, ikke dateret, læst 5. nov. 2026)."
      },
      {
       "label": "Pris",
-      "text": "Own menu (image pages on the /menu/ page, files named 'BORRADOR-V2-MENU', uploaded February 2026): 23 portion-priced fish, seafood and paella dishes 11,00-24,00 € (median 15,00 €; per-100 g fish, the single espeto and the two-portion fritura left out) plus draught beer 2,90 € gives about 17,90 € per adult. Bread and service 1,20 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Fisk, skaldyr og paella 11,00-24,00 € pr. portion, fadøl 2,90 €. Ca. 17,90 € pr. voksen for en hovedret og en drik. Brød og service 1,20 € ekstra. Menuen på hjemmesiden er en kladde, så priserne kan afvige."
      }
     ],
     "links": {
@@ -1992,7 +1994,7 @@
      "info": null
     },
     "checked_at": "2026-11-05",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Málaga",
@@ -2050,15 +2052,15 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Chiringuito La Concha: espetos and seafood on the beach at El Palo.",
+    "summary": "Chiringuito La Concha: espetos og fisk og skaldyr på stranden i El Palo.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Summer: daily 11:00-17:00 and 18:00-23:30 (own site); winter hours not published."
+      "text": "Sommer: hver dag 11.00-17.00 og 18.00-23.30 (egen hjemmeside); vintertider er ikke offentliggjort."
      },
      {
       "label": "Pris",
-      "text": "Own menu: quoted mains 9,00 € pp (rice, min. 2), 14,00 € and 23,00 € (median 14,00 €) plus caña 2,30 € gives about 16,30 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 9,00 € pr. person (ris, min. 2 personer), 14,00 € og 23,00 € (typisk 14,00 €). Med en caña til 2,30 € bliver det ca. 16,30 € pr. voksen for en hovedret og en drik."
      }
     ],
     "links": {
@@ -2067,7 +2069,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Málaga",
@@ -2130,11 +2132,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Beach bar (chiringuito) at Cabopino beach, Marbella; seasonal, about 22 minutes by car from Casa de la Familia.",
+    "summary": "Strandbar (chiringuito) på Cabopino-stranden, Marbella; sæsonåben, ca. 22 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
+      "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
      }
     ],
     "links": {
@@ -2143,7 +2145,7 @@
      "info": "https://www.facebook.com/chiringuitolasdunasdecabopino/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Marbella",
@@ -2205,11 +2207,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Beach bar (chiringuito) at La Butiplaya, La Cala de Mijas, listed by Turismo de Mijas; about 15 minutes by car from Casa de la Familia.",
+    "summary": "Strandbar (chiringuito) ved La Butiplaya i La Cala de Mijas, opført af Turismo de Mijas; ca. 15 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Pris",
-      "text": "No own website; Tripadvisor price marking '€€ - €€€' read as the middle band. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
      }
     ],
     "links": {
@@ -2218,7 +2220,7 @@
      "info": "https://turismo.mijas.es/es/gastronomia/donde-comer/chiringuitos/chiringuito-los-moreno"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -2278,11 +2280,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Seasonal beach bar on Playa de la Salud (Fuente de la Salud), Benalmádena, near Puerto Marina; about 28 minutes by car.",
+    "summary": "Sæsonåben strandbar på Playa de la Salud (Fuente de la Salud), Benalmádena, nær Puerto Marina; ca. 28 min i bil.",
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
+      "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
      }
     ],
     "links": {
@@ -2291,7 +2293,7 @@
      "info": "https://www.facebook.com/rafaelchiringuito/"
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Benalmádena",
@@ -2975,11 +2977,11 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "El Higueron: restaurant on the slopes of the Sierra de Mijas with breakfast, lunch and dinner service and private parking (own website).",
+    "summary": "El Higuerón: restaurant på skråningerne af Sierra de Mijas med morgenmad, frokost og middag og privat parkering (egen hjemmeside).",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Breakfast 09:00-12:00; bar (non-stop kitchen) and lunch 13:00-16:00; closed to the public 17:00; dinner from 20:30 (own website; days of the week and seasonality not stated)"
+      "text": "Morgenmad 9.00-12.00; bar (køkkenet er åbent hele tiden) og frokost 13.00-16.00; lukket for gæster kl. 17.00; middag fra 20.30 (egen hjemmeside; ugedage og sæson ikke oplyst)."
      }
     ],
     "links": {
@@ -2988,7 +2990,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -3042,11 +3044,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "El Oceano Beach Hotel: beachfront hotel with restaurant and bar, about 17 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "El Oceano Beach Hotel: hotel ved stranden med restaurant og bar, ca. 17 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own à la carte menu: quoted mains 26, 28 and 32 € (median 28 €); drink prices not on the page, so main plus one drink is about 30 € or more, inside 20-50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter på à la carte-menuen 26, 28 og 32 € (typisk 28 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 30 € eller mere."
      }
     ],
     "links": {
@@ -3055,7 +3057,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -3326,11 +3328,11 @@
     "cost_level": null,
     "booking_required": false,
     "wheelchair": "ukendt",
-    "summary": "Freiduria El Choco: fried-fish restaurant in Fuengirola; closed Mondays, no reservations (own website).",
+    "summary": "Freiduría El Choco: restaurant med friturestegt fisk i Fuengirola; lukket mandag, ingen bordreservation (egen hjemmeside).",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Monday closed; Tuesday 13:00-16:00 and 20:00-23:00 (own website). Wednesday to Sunday not quoted; check before visiting."
+      "text": "Mandag lukket; tirsdag 13.00-16.00 og 20.00-23.00 (egen hjemmeside). Onsdag-søndag er ikke oplyst; tjek før besøget."
      }
     ],
     "links": {
@@ -3339,7 +3341,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -3833,15 +3835,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Gali Gali: beachfront chiringuito on the Paseo Maritimo of Fuengirola, open daily, weather permitting (own website).",
+    "summary": "Gali Gali: chiringuito ved stranden på Paseo Marítimo i Fuengirola, åbent hver dag, hvis vejret tillader det (egen hjemmeside).",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Monday to Saturday 12:00-24:00 (kitchen 12:00-23:00); Sunday 12:00-19:00 (kitchen 12:00-18:00); open every day depending on weather conditions (own website; weather-dependent, not a seasonal timetable)"
+      "text": "Mandag-lørdag 12.00-24.00 (køkken 12.00-23.00); søndag 12.00-19.00 (køkken 12.00-18.00); åbent hver dag afhængigt af vejret (egen hjemmeside; vejrafhængigt, ikke en sæsonplan)."
      },
      {
       "label": "Pris",
-      "text": "Own carta: quoted mains 14,00, 17,50 and 20,00 € (median 17,50 €); drink prices not on the page, so main plus one drink is about 20 € (borderline € / €€). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 14,00, 17,50 og 20,00 € (typisk 17,50 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 20 €."
      }
     ],
     "links": {
@@ -3850,7 +3852,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -4082,7 +4084,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Groove Music Bar: live-music bar at the Fuengirola marina, about 16 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Groove Music Bar: bar med levende musik ved lystbådehavnen i Fuengirola, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": "https://www.facebook.com/groovemusicbar",
@@ -4090,7 +4092,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -4210,11 +4212,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Jack's Smokehouse, Puerto Banús: New York-style barbecue restaurant in the port.",
+    "summary": "Jack's Smokehouse, Puerto Banús: barbecuerestaurant i New York-stil i havnen.",
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
+      "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
      }
     ],
     "links": {
@@ -4223,7 +4225,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Marbella",
@@ -4437,15 +4439,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Juan Playa: beach restaurant in Fuengirola with fresh fish espetos, paellas and rice dishes, about 16 min by car from Casa de la Familia.",
+    "summary": "Juan Playa: strandrestaurant i Fuengirola med frisk fisk på espeto, paellaer og risretter, ca. 16 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Daily 13:00-17:00 and 19:00-23:00 (own website); season not stated."
+      "text": "Hver dag 13.00-17.00 og 19.00-23.00 (egen hjemmeside); sæson ikke oplyst."
      },
      {
       "label": "Pris",
-      "text": "Own carta PDF 2026: 12 quoted mains 10,00-24,00 € (median 16,75 €). Draught beer: the table lists 'CAÑA \"VICTORIA\" (33CL)' and 'CAÑA EN COPA' with 2,90 € and 3,60 € without a clear pairing; with 2,90 € the total is 19,65 € (€), with 3,60 € it is 20,35 € (€€). Owner decision 2026-11-03: €€ until the caña price is clear. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "12 hovedretter til 10,00-24,00 € (typisk 16,75 €). Fadøl (caña) koster 2,90 € eller 3,60 €; en hovedret og en drik bliver derfor ca. 19,65-20,35 € pr. voksen."
      }
     ],
     "links": {
@@ -4454,7 +4456,7 @@
      "info": null
     },
     "checked_at": "2026-11-03",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -4645,11 +4647,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Kalifato (own site: Kalifato Beach): Mediterranean beach bar at Playa Carvajal, Benalmádena, about 18 min by car from Casa de la Familia.",
+    "summary": "Kalifato (på egen hjemmeside: Kalifato Beach): middelhavsstrandbar på Playa Carvajal i Benalmádena, ca. 18 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own carta PDF (May 2026): 12 quoted mains 10,50-27,00 € (median 20,75 €) plus soft drink 3,00 € gives about 23,75 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "12 hovedretter til 10,50-27,00 € (typisk 20,75 €). Med en sodavand til 3,00 € bliver det ca. 23,75 € pr. voksen for en hovedret og en drik."
      }
     ],
     "links": {
@@ -4658,7 +4660,7 @@
      "info": null
     },
     "checked_at": "2026-11-03",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Benalmádena",
@@ -4920,7 +4922,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "La Floja Vinos y Latas: small wine bar in central Fuengirola, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "La Floja Vinos y Latas: lille vinbar i det centrale Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": "https://www.lafloja.com/",
@@ -4928,7 +4930,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -4986,15 +4988,15 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "La Lobezna, Estepona: bar-restaurant with seafood, Spanish and Latin American dishes.",
+    "summary": "La Lobezna, Estepona: bar-restaurant med fisk og skaldyr samt spanske og latinamerikanske retter.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Mon-Tue, Thu-Sat 13:00-23:00; Sun 12:00-16:30; Wednesday not listed (own site, read 2026-11-02)."
+      "text": "Mandag-tirsdag og torsdag-lørdag 13.00-23.00; søndag 12.00-16.30; onsdag ikke oplyst (egen hjemmeside, læst 2. nov. 2026)."
      },
      {
       "label": "Pris",
-      "text": "Own menu: quoted mains 13,50, 14,75 and 21,00 € (median 14,75 €) plus caña 1,60 € gives about 16,35 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 13,50, 14,75 og 21,00 € (typisk 14,75 €). Med en caña til 1,60 € bliver det ca. 16,35 € pr. voksen for en hovedret og en drik."
      }
     ],
     "links": {
@@ -5003,7 +5005,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Estepona",
@@ -5067,15 +5069,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Beach bar with a serviced sunbed area on the Los Boliches promenade, Fuengirola, open daily 12:00-midnight; about 17 minutes by car.",
+    "summary": "Strandbar med betjent solsengeområde på promenaden i Los Boliches, Fuengirola, åben hver dag 12.00-24.00; ca. 17 min i bil.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Every day 12:00-00:00 (own website, page modified 2026-10-29; no seasonal variation stated)."
+      "text": "Hver dag 12.00-24.00 (egen hjemmeside, siden opdateret 29. okt. 2026); ingen sæsonvariation oplyst."
      },
      {
       "label": "Pris",
-      "text": "No prices on own carta; Tripadvisor price marking '€€ - €€€' read as the middle band. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
      }
     ],
     "links": {
@@ -5084,7 +5086,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -5138,7 +5140,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "La Senda del Norte: café-bar with a street terrace in Las Lagunas, about 6 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "La Senda del Norte: café-bar med terrasse ud mod gaden i Las Lagunas, ca. 6 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": "https://www.instagram.com/lasendadelnortebar/",
@@ -5146,7 +5148,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -5204,11 +5206,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "La Sierra Restaurante at Cerrado del Águila Golf and Resort, about 5 min by car from Casa de la Familia; breakfast every day and views over the coast, according to its own page.",
+    "summary": "La Sierra Restaurante på Cerrado del Águila Golf and Resort, ca. 5 min i bil fra Casa de la Familia; morgenmad hver dag og udsigt over kysten ifølge stedets egen side.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own Facebook page price range 'Moderat' (Facebook's middle price marking), read as the €€ band; no menu prices seen. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Prisniveau ifølge stedets Facebook-side: moderat (€€). Ingen menupriser set. Tjek menuen på stedet."
      }
     ],
     "links": {
@@ -5217,7 +5219,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -5271,7 +5273,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "La Terraza de Panda: cocktail terrace on Plaza de la Constitución in central Fuengirola, about 15 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "La Terraza de Panda: cocktailterrasse på Plaza de la Constitución i det centrale Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": "https://www.instagram.com/laterrazadepanda/",
@@ -5279,7 +5281,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -5337,7 +5339,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "La Zambra Resort: resort hotel (The Unbound Collection by Hyatt) with restaurant and spa, about 7 min by car from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "La Zambra Resort: resorthotel (The Unbound Collection by Hyatt) med restaurant og spa, ca. 7 min i bil fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": "https://www.hyatt.com/unbound-collection/en-US/agpub-la-zambra-resort",
@@ -5345,7 +5347,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -5561,11 +5563,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Restaurante Los Enebros: Mediterranean restaurant in Los Boliches with a food menu on its own website; closed Mondays.",
+    "summary": "Restaurante Los Enebros: middelhavsrestaurant i Los Boliches med madmenu på egen hjemmeside; lukket mandag.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own carta: quoted mains 15,00, 19,00 and 32,00 € (median 19,00 €); drink prices not on the page, so main plus one drink is just over 20 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 15,00, 19,00 og 32,00 € (typisk 19,00 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster lidt over 20 €."
      }
     ],
     "links": {
@@ -5574,7 +5576,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -5639,15 +5641,15 @@
     "cost_level": "middel",
     "booking_required": false,
     "wheelchair": "ukendt",
-    "summary": "Family-run fish restaurant and beach bar on Carvajal beach, Fuengirola, with a children's menu and high chairs; about 17 minutes by car.",
+    "summary": "Familiedrevet fiskerestaurant og strandbar på Carvajal-stranden i Fuengirola, med børnemenu og højstole; ca. 17 min i bil.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Closed Mondays. Summer: Tue-Sat 12:30-22:30, Sun 12:30-17:30. Winter: Tue-Sun 10:00-18:00 (own website, read 2026-11-01; summer/winter dates not stated)."
+      "text": "Lukket mandag. Sommer: tirsdag-lørdag 12.30-22.30, søndag 12.30-17.30. Vinter: tirsdag-søndag 10.00-18.00 (egen hjemmeside, læst 1. nov. 2026; datoer for sommer/vinter ikke oplyst)."
      },
      {
       "label": "Pris",
-      "text": "Own menu: quoted mains 17,00 €, 26,00 € and seafood paella 35,00 € for min. 2 (17,50 € pp); median 17,50 €. Only a bottle of house wine (18,00 €) is priced, so main plus one drink is about 20 € (borderline € / €€). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 17,00 € og 26,00 €; paella med skaldyr 35,00 € for min. 2 personer (17,50 € pr. person). Kun en flaske husets vin (18,00 €) har pris, så en hovedret og en drik bliver ca. 20 €."
      }
     ],
     "links": {
@@ -5656,7 +5658,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -5718,15 +5720,15 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Lounge El Trópico: beach lounge bar, about 13 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Lounge El Trópico: strandlounge og bar, ca. 13 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Daily 09:30-00:00, April to November (own website, read 2026-11-02)."
+      "text": "Dagligt 09.30-24.00, april-november (egen hjemmeside, læst 2. nov. 2026)."
      },
      {
       "label": "Pris",
-      "text": "Own menu: quoted mains 8,50, 14,50 and 14,90 € (median 14,50 €) plus beer from 2,00 € gives about 16,50 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 8,50, 14,50 og 14,90 €, øl fra 2,00 €. Ca. 16,50 € pr. voksen for en hovedret og en drik."
      }
     ],
     "links": {
@@ -5735,7 +5737,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -6004,7 +6006,7 @@
    "tags": [
     "spisested"
    ],
-   "description": "El Ancla is a seafood restaurant that describes itself as 'located in a privileged spot on the shore of the Mediterranean' (own website). Opening hours, prices and booking were not readable on the site.",
+   "description": "El Ancla is a seafood restaurant that describes itself as 'located in a privileged spot on the shore of the Mediterranean' at San Pedro de Alcántara, with a saltwater pool and hammock service (own website). The contact page gives restaurant hours of 13:00-23:00, with Monday closed in summer except on public holidays; the page is undated, so check before going. Bookings by phone only (952 787 496 or 952 789 328).",
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -6028,11 +6030,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "El Ancla: seafood restaurant on the seafront at San Pedro de Alcántara.",
+    "summary": "El Ancla: fiske- og skaldyrsrestaurant ved havet i San Pedro de Alcántara.",
     "practical": [
      {
+      "label": "Åbningstider",
+      "text": "Restauranten har åbent 13.00-23.00; om sommeren lukket mandag undtagen helligdage, for vinteren er ingen lukkedag oplyst (egen kontaktside, ikke dateret, læst 8. nov. 2026)."
+     },
+     {
       "label": "Pris",
-      "text": "Own carta PDF (Last-Modified August 2022): 19 portion-priced meat, tuna, fish, pasta and rice dishes 18-45 € (median 25 €; per-kg fish and shellfish left out); no drink prices in the carta, so main plus one drink is about 27 € or more, inside 20-50 €. Bread 2 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Kød, tun, fisk, pasta og risretter 18-45 € pr. portion; drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 27 € eller mere. Brød 2 € ekstra. Menukortet er fra 2022, så priserne kan være højere."
      }
     ],
     "links": {
@@ -6040,21 +6046,21 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-05",
-    "text_language": "en",
+    "checked_at": "2026-11-08",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Marbella",
-     "schedule": null,
-     "schedule_checked_at": "2026-11-02",
+     "schedule": "Restaurant 13:00-23:00 in summer (closed Monday except public holidays) and in winter (no closing day stated); own contact page, undated (page last modified 2021), read 2026-11-08.",
+     "schedule_checked_at": "2026-11-08",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
      "is_bar": false,
-     "phone": null,
+     "phone": "+34952787496",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-05"
+     "updated_at": "2026-11-08"
     }
    }
   },
@@ -6099,11 +6105,11 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Marvelous Burger: burger restaurant at C. de la Cruz 10 in Fuengirola, about 15 min by car from Casa de la Familia.",
+    "summary": "Marvelous Burger: burgerrestaurant på C. de la Cruz 10 i Fuengirola, ca. 15 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own carta PDF (July 2026, linked from the own Linktree): 12 quoted burgers 11,99-15,50 € (median about 14,25 €) plus caña 1,90 € gives about 16,15 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "12 burgere til 11,99-15,50 €, caña 1,90 €. Ca. 16,15 € pr. voksen for en burger og en drik (menu fra juli 2026)."
      }
     ],
     "links": {
@@ -6112,7 +6118,7 @@
      "info": null
     },
     "checked_at": "2026-11-03",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -6310,11 +6316,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Mia's Pizzorante: Italian restaurant on Playa de Carvajal, Fuengirola, facing the Mediterranean (own website).",
+    "summary": "Mia's Pizzorante: italiensk restaurant på Playa de Carvajal i Fuengirola, med udsigt over Middelhavet.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own carta: quoted mains 18,00, 18,50 and 21,00 € (median 18,50 €) plus wine glass 4,50 € gives about 23 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 18,00, 18,50 og 21,00 €, glas vin 4,50 €. Ca. 23 € pr. voksen for en hovedret og en drik."
      }
     ],
     "links": {
@@ -6323,7 +6329,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -6579,7 +6585,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Mixs Longe: restaurant in Cerros del Águila (own page: Scandinavian and Italian), about 5 min on foot or 2 min by car from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Mixs Longe: restaurant i Cerros del Águila (ifølge stedets egen side skandinavisk og italiensk), ca. 5 min til fods eller 2 min i bil fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
@@ -6587,7 +6593,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -6707,7 +6713,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Mon 2 Sun: friendly community bar at La Hacienda Mijas Golf, about 8 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Mon 2 Sun: hyggelig bar for lokalsamfundet ved La Hacienda Mijas Golf, ca. 8 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
@@ -6715,7 +6721,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -6838,15 +6844,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Mediterranean restaurant on the Paseo Marítimo at Playamar, Torremolinos, with gluten-free, vegan and vegetarian options; about 29 minutes by car.",
+    "summary": "Middelhavsrestaurant på Paseo Marítimo ved Playamar, Torremolinos, med glutenfri, vegansk og vegetarisk mad; ca. 29 min i bil.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "12:00-24:00, closed Tuesday (own website, read 2026-11-01; no seasonal variation stated)."
+      "text": "12.00-24.00, lukket tirsdag (egen hjemmeside, læst 1. nov. 2026; ingen sæsonvariation oplyst)."
      },
      {
       "label": "Pris",
-      "text": "Own menu: quoted mains 19,90 and 20,90 € (median about 20,40 €); TheFork average price 18 €. Main plus one drink is over 20 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 19,90 og 20,90 €; TheFork angiver en gennemsnitspris på 18 €. En hovedret og en drik koster over 20 €."
      }
     ],
     "links": {
@@ -6855,7 +6861,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Torremolinos",
@@ -7048,7 +7054,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Nautic Cocktail & Drinks: gin and cocktail bar in central Fuengirola, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Nautic Cocktail & Drinks: gin- og cocktailbar i det centrale Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
@@ -7056,7 +7062,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -7200,7 +7206,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Noniná: flamenco bar at the port of Fuengirola, about 15 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Noniná: flamencobar ved havnen i Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
@@ -7208,7 +7214,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -7328,11 +7334,11 @@
     "cost_level": "middel",
     "booking_required": true,
     "wheelchair": "ukendt",
-    "summary": "Old Swiss House: restaurant in Fuengirola with a Superman kids menu; booking in advance by phone advised (own website).",
+    "summary": "Old Swiss House: restaurant i Fuengirola med Superman-børnemenu. Det anbefales at booke bord i forvejen på telefon.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own website: set menus 27-30 € per person (Chateaubriand menu 30 €); children's menu 7,50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Menuer til 27-30 € pr. person (Chateaubriand-menu 30 €). Børnemenu 7,50 €."
      }
     ],
     "links": {
@@ -7341,7 +7347,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -8334,15 +8340,15 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Ragazzi Pizza & Pasta: Italian restaurant on the Paseo Marítimo in Fuengirola with pasta and pizza, about 11 min by car from Casa de la Familia.",
+    "summary": "Ragazzi Pizza & Pasta: italiensk restaurant på Paseo Marítimo i Fuengirola med pasta og pizza, ca. 11 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "12:30-23:30, closed Tuesday (own website); season not stated."
+      "text": "12.30-23.30, lukket tirsdag (egen hjemmeside); sæson ikke oplyst."
      },
      {
       "label": "Pris",
-      "text": "Own menu PDF: 12 quoted mains 9,50-15,50 € (median 13,40 €) plus caña 2,90 € gives about 16,30 € per adult. The PDF names no branch; matched to Ragazzi Fuengirola by its own website. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 9,50-15,50 €, caña 2,90 €. Ca. 16,30 € pr. voksen for en hovedret og en drik."
      }
     ],
     "links": {
@@ -8350,8 +8356,8 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-03",
-    "text_language": "en",
+    "checked_at": "2026-11-08",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -8364,7 +8370,7 @@
      "phone": "+34952478055",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-08"
     }
    }
   },
@@ -8472,7 +8478,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Red & White: wine bar and Mediterranean restaurant in Fuengirola, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Red & White: vinbar og middelhavsrestaurant i Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": "https://www.facebook.com/61569418832240/",
@@ -8480,7 +8486,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -8538,15 +8544,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Casa Fernando: family-founded Spanish restaurant with fish and seafood, San Pedro de Alcántara.",
+    "summary": "Casa Fernando: spansk restaurant grundlagt af en familie, med fisk og skaldyr, i San Pedro de Alcántara.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Tue-Sat 13:30-00:00; closed Sun-Mon (own site, read 2026-11-02)."
+      "text": "Tirsdag-lørdag 13.30-24.00; lukket søndag-mandag (egen hjemmeside, læst 2. nov. 2026)."
      },
      {
       "label": "Pris",
-      "text": "Own menu: quoted mains 26,00 and 29,50 € (median about 27,75 €); drink prices not on the page, so main plus one drink is about 30 € or more, inside 20-50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 26,00 og 29,50 €. Drikkevarepriser fremgår ikke; en hovedret og en drik koster ca. 30 € eller mere."
      }
     ],
     "links": {
@@ -8555,7 +8561,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Marbella",
@@ -8613,11 +8619,11 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Restaurante Cerros del Águila: bar and grill at the sports area of Urbanización Cerros del Águila, about 7 min on foot or 3 min by car from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Restaurante Cerros del Águila: bar og grill ved sportsområdet i Urbanización Cerros del Águila, ca. 7 min til fods eller 3 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Owner's own knowledge (2026-11-03): a typical main plus a beer or a glass of wine costs under 20 €. No menu prices seen; the own Facebook page shows the price range \"moderate\". Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Ifølge husets ejer koster en typisk hovedret plus en øl eller et glas vin under 20 €. Menupriser ikke set."
      }
     ],
     "links": {
@@ -8626,7 +8632,7 @@
      "info": null
     },
     "checked_at": "2026-11-03",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -8684,11 +8690,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Restaurante Hoyo 19: Spanish restaurant on the Camino Viejo de Coín, about 4 min by car from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Restaurante Hoyo 19: spansk restaurant på Camino Viejo de Coín, ca. 4 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"€€ - €€€\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
+      "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
      }
     ],
     "links": {
@@ -8697,7 +8703,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -8751,7 +8757,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "RetROCK BARt: rock bar in La Cala de Mijas, about 14 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "RetROCK BARt: rockbar i La Cala de Mijas, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
@@ -8759,7 +8765,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -9050,11 +9056,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Beachfront restaurant on Playa de Santa Ana, Benalmádena Costa, serving paellas, seafood and espetos; about 27 minutes by car.",
+    "summary": "Restaurant ved stranden Playa de Santa Ana i Benalmádena Costa med paellaer, fisk og skaldyr og espetos; ca. 27 min i bil.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own menu: quoted mains 18,50, 18,50 and 26,00 € (median 18,50 €) plus beer 3,50 € gives about 22 € per adult. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedretter 18,50, 18,50 og 26,00 €, øl 3,50 €. Ca. 22 € pr. voksen for en hovedret og en drik."
      }
     ],
     "links": {
@@ -9063,7 +9069,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Benalmádena",
@@ -9665,7 +9671,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Sollo: restaurant on Av. del Higuerón, Fuengirola; own website has a menu page and online booking.",
+    "summary": "Sollo: restaurant på Av. del Higuerón i Fuengirola. Hjemmesiden har menu og online booking.",
     "practical": [],
     "links": {
      "official": "https://www.sollo.es/es/",
@@ -9673,7 +9679,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -9731,15 +9737,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Solo Beach: Mediterranean beach restaurant and sunbeds on the sand at San Pedro de Alcántara.",
+    "summary": "Solo Beach: middelhavsrestaurant og solsenge på sandet i San Pedro de Alcántara.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Daily 09:00-21:00 (own site, read 2026-11-02)."
+      "text": "Dagligt 09.00-21.00 (egen hjemmeside, læst 2. nov. 2026)."
      },
      {
       "label": "Pris",
-      "text": "Own website: main tartar de atún 22 €, cocktails 12 €; main plus one drink about 34 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Hovedret (tartar de atún) 22 €, cocktails 12 €. Ca. 34 € pr. voksen for en hovedret og en drik."
      }
     ],
     "links": {
@@ -9748,7 +9754,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Marbella",
@@ -9803,14 +9809,14 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": "hoej",
+    "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Somos de Banús: Mediterranean restaurant by the beach at Puerto Banús.",
+    "summary": "Somos de Banús: middelhavsrestaurant ved stranden i Puerto Banús.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own menu: mains 25-38 € (median about 29 €); drink prices not on own menu. Owner decision 2026-11-02: expensive band. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Hovedretter 25-38 €. Drikkevarepriser fremgår ikke; en hovedret og en drik koster ca. 31-35 €."
      }
     ],
     "links": {
@@ -9819,7 +9825,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Marbella",
@@ -9832,7 +9838,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-08"
     }
    }
   },
@@ -9939,7 +9945,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Speakeasy Jazz Club & Cocktails: jazz club and cocktail bar, about 16 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Speakeasy Jazz Club & Cocktails: jazzklub og cocktailbar, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": "https://speakeasy-jazz-club.sumupstore.com/productos",
@@ -9947,7 +9953,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -10005,15 +10011,15 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Taberna Casa Blanca Banús: Málaga-style taverna from Grupo Casa Lola in Puerto Banús.",
+    "summary": "Taberna Casa Blanca Banús: taverna i Málaga-stil fra Grupo Casa Lola i Puerto Banús.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Daily 09:00-22:45 (group website, read 2026-11-02)."
+      "text": "Dagligt 09.00-22.45 (gruppens hjemmeside, læst 2. nov. 2026)."
      },
      {
       "label": "Pris",
-      "text": "Own food menu PDF for Casa Blanca Puerto Banús (file dated 02-10-26, Last-Modified 5 Oct 2026): the 12 meat and fish plates in 'LONJA Y MERCADO' 14,00-29,00 € (median 16,25 €; fried aubergines and Padrón peppers left out) plus a San Miguel caña 2,70 € gives about 18,95 € per adult; owner decision 2026-11-05: € (close to the 20 € edge). Most of the menu is tapas, pinchos and shared plates. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Retter i afsnittet 'LONJA Y MERCADO' 14,00-29,00 €, San Miguel caña 2,70 €. Ca. 18,95 € pr. voksen for en ret og en drik. Det meste af menuen er tapas, pinchos og retter til deling."
      }
     ],
     "links": {
@@ -10022,7 +10028,7 @@
      "info": null
     },
     "checked_at": "2026-11-05",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Marbella",
@@ -10167,15 +10173,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Tasca Láska Malagueta: rice dishes and tapas about 150 m from Malagueta beach.",
+    "summary": "Tasca Láska Malagueta: risretter og tapas ca. 150 m fra stranden Malagueta.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Mon, Thu-Sun 12:00-00:00 (kitchen 12:00-23:00); closed Tue-Wed (own site, read 2026-11-02)."
+      "text": "Mandag og torsdag-søndag 12.00-24.00 (køkkenet 12.00-23.00); lukket tirsdag-onsdag (egen hjemmeside, læst 2. nov. 2026)."
      },
      {
       "label": "Pris",
-      "text": "Own digital menu for the Malagueta branch (tascalaska.es/QR/Malagueta): 17 rice (per person), meat and fish mains 13,00-32,00 € (median 18,00 €) plus the cheapest glass of wine 3,80 € (wine list September 2025) gives about 21,80 € per adult. Bread 1,50 € and olives 0,50 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Risretter (pris pr. person, min. 2), kød- og fiskeretter 13,00-32,00 €, glas vin fra 3,80 €. Ca. 21,80 € pr. voksen for en hovedret og en drik. Brød 1,50 € og oliven 0,50 € ekstra."
      }
     ],
     "links": {
@@ -10184,7 +10190,7 @@
      "info": null
     },
     "checked_at": "2026-11-05",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Málaga",
@@ -10388,11 +10394,11 @@
     "cost_level": null,
     "booking_required": false,
     "wheelchair": "ukendt",
-    "summary": "Upstairs Rooftop Bar: rooftop bar at The Orange House, about 11 min by car, taxi or Uber from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Upstairs Rooftop Bar: tagbar ved The Orange House, ca. 11 min i bil, taxa eller Uber fra Casa de la Familia.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Monday-Sunday 16:00-22:00 (own website, read 2026-11-02)."
+      "text": "Mandag-søndag 16.00-22.00 (egen hjemmeside, læst 2. nov. 2026)."
      }
     ],
     "links": {
@@ -10401,7 +10407,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -10549,11 +10555,11 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Venta La Morena: venta (roadside restaurant) with grill on the Camino Viejo de Coín, about 4 min by car from Casa de la Familia. Draft; partly fact-checked.",
+    "summary": "Venta La Morena: venta (landevejsrestaurant) med grill på Camino Viejo de Coín, ca. 4 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Pris",
-      "text": "No prices on own site; Tripadvisor price marking \"Precio. €€ - €€€.\" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N"
+      "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
      }
     ],
     "links": {
@@ -10562,7 +10568,7 @@
      "info": null
     },
     "checked_at": "2026-11-02",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",

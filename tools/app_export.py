@@ -13,10 +13,18 @@ Owner decisions 2026-11-02 (docs/webapp-byggeplan.md):
 The output is derived data, like data/place-catalog.csv: never edit it by hand; re-run this script after
 record changes. The structured `guide` object follows the app's schema in src/lib/guide.ts. Texts are the
 records' English texts; Danish texts already written in the app are kept by the app's import.
+
+Danish texts (owner request 2026-11-08): data/app-texts-da.json holds Danish `summary` and `practical` per
+place ID, each tied to a hash (`source_sha`) of the English texts it was translated from. When the hash still
+matches, the export sends the Danish texts with text_language "da"; when the English texts have changed
+(new price, new hours), the export falls back to English and lists the place under manifest.danish_stale, so a
+stale translation never hides a newer fact. `--da-todo OUT.json` writes the places that need a (new)
+translation, with the English texts and their hash.
 """
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 import re
 import sys
@@ -28,6 +36,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 PLACES = ROOT / "docs" / "places"
 OUT = ROOT / "data" / "app-export"
+DA_FILE = ROOT / "data" / "app-texts-da.json"
 SHOWN = {"needs_fact_check", "needs_editorial_review", "approved", "published"}
 LOCAL_MAX_MIN = 30
 
@@ -145,7 +154,34 @@ def guide(d: dict, layer: str | None, drive: int | None) -> dict:
     }
 
 
-def main(check_only: bool) -> None:
+def source_sha(g: dict) -> str:
+    """Hash of the English texts a Danish translation is made from."""
+    src = json.dumps({"summary": g.get("summary"), "practical": g.get("practical")}, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(src.encode("utf-8")).hexdigest()[:16]
+
+
+def apply_danish(places: list[dict], da: dict) -> tuple[int, list[str], list[dict]]:
+    """Swap in current Danish texts; return (count applied, stale ids, todo list)."""
+    applied, stale, todo = 0, [], []
+    for p in places:
+        g = p["guide"]
+        sha = source_sha(g)
+        t = da.get(p["id"])
+        if t and t.get("source_sha") == sha:
+            g["summary"] = t.get("summary") or g["summary"]
+            g["practical"] = t.get("practical") or g["practical"]
+            g["text_language"] = "da"
+            applied += 1
+            continue
+        if t:
+            stale.append(p["id"])
+        todo.append({"id": p["id"], "name": p["name"], "category": p["category"], "source_sha": sha,
+                     "summary": g.get("summary"), "practical": g.get("practical"),
+                     "previous_da": t if t else None})
+    return applied, stale, todo
+
+
+def main(check_only: bool, da_todo: str | None = None) -> None:
     membership = {r["slug"]: r for r in csv.DictReader(open(ROOT / "data" / "layer-membership.csv", encoding="utf-8"))}
     places, skipped = [], {"status": 0, "out_of_area": 0}
     for f in sorted(PLACES.glob("*.md")):
@@ -172,6 +208,12 @@ def main(check_only: bool) -> None:
             "catalogue_group": mem["catalogue_group"] if mem else None,
             "guide": guide(d, mem["layer"] if mem else None, drive),
         })
+    da = json.loads(DA_FILE.read_text(encoding="utf-8")) if DA_FILE.exists() else {}
+    da_applied, da_stale, todo = apply_danish(places, da)
+    print(f"danish: {da_applied} applied, {len(da_stale)} stale {da_stale}")
+    if da_todo:
+        Path(da_todo).write_text(json.dumps(todo, ensure_ascii=False, indent=1) + "\n")
+        print(f"wrote {da_todo} ({len(todo)} places without current Danish texts)")
     holidays = [{k: r[k] for k in ("date", "name", "scope", "municipality", "source_url")}
                 for r in csv.DictReader(open(ROOT / "data" / "holidays.csv", encoding="utf-8"))]
     by_cat: dict[str, int] = {}
@@ -183,11 +225,13 @@ def main(check_only: bool) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     manifest = {"generated": date.today().isoformat(), "source": "thomasericolesen/callemilano",
                 "script": "tools/app_export.py", "places": len(places), "holidays": len(holidays),
-                "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership"}
+                "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
+                "danish": da_applied, "danish_stale": da_stale}
     (OUT / "places.json").write_text(json.dumps({"manifest": manifest, "records": places}, ensure_ascii=False, indent=1) + "\n")
     (OUT / "holidays.json").write_text(json.dumps({"manifest": manifest, "holidays": holidays}, ensure_ascii=False, indent=1) + "\n")
     print(f"wrote {OUT.relative_to(ROOT)}/places.json and holidays.json")
 
 
 if __name__ == "__main__":
-    main("--check" in sys.argv)
+    todo_path = sys.argv[sys.argv.index("--da-todo") + 1] if "--da-todo" in sys.argv else None
+    main("--check" in sys.argv, todo_path)
