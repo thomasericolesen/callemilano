@@ -3,10 +3,10 @@
   "generated": "2026-11-08",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
-  "places": 149,
+  "places": 151,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 125,
+  "danish": 127,
   "danish_stale": []
  },
  "records": [
@@ -7365,6 +7365,92 @@
    }
   },
   {
+   "id": "ES-AND-CAD-OLVERA-CASTLE-001",
+   "slug": "olvera-castle",
+   "name": "Olvera Castle",
+   "category": "sevaerdighed",
+   "record_category": "Family activities",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Unknown",
+   "lat": null,
+   "lng": null,
+   "google_maps_url": "https://maps.app.goo.gl/4cZJ8eRQH47aHH146",
+   "google_place_id": null,
+   "url": null,
+   "tags": [
+    "udsigt",
+    "historisk-by"
+   ],
+   "description": "Why interesting: The castle and steep white-town setting make this a combined heritage and viewpoint visit. The old streets climb toward the monument, so the approach may be tiring for visitors with limited mobility. Editorial suitability by audience (low / medium / high): Small children (0-6) low, Children (7-12) medium, Teenagers (13-17) high, Adults high, Seniors low. These are estimates for planning, not guarantees or safety advice. Estimated duration: 1–2 hours including the castle and short old-town walk (editorial planning estimate). Seasonality: All year. Weather and practical notes: The official tourism office lists seasonal opening hours and advises visitors to check the current castle price with its office. Expect slopes and steps; access details for mobility-impaired visitors are not specified in the cited source. Check for current schedule changes. Booking: false.",
+   "catalogue_group": "Dagsture",
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "udflugt_4t",
+    "drive_minutes": 110,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [
+     "boern",
+     "unge_voksne"
+    ],
+    "fit": {
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "lav"
+    },
+    "energy": "middel",
+    "seasons": [
+     "foraar",
+     "sommer",
+     "efteraar",
+     "vinter"
+    ],
+    "themes": [
+     "udsigt",
+     "historisk-by",
+     "familieaktivitet"
+    ],
+    "cost_level": null,
+    "booking_required": false,
+    "wheelchair": "ukendt",
+    "summary": "Borg fra nasridernes tid over den gamle bydel i Olvera i Sierra de Cádiz.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Borgen: om sommeren dagligt 10.00-20.00; om vinteren dagligt 10.00-19.00 (uden pause). Hvornår sæsonen skifter, er ikke oplyst. En anden kommunal side (ændret 2023) angiver 10.00-20.00 hele året – tjek før besøget."
+     },
+     {
+      "label": "Pris",
+      "text": "Den officielle turistside skriver 'Consultar con Oficina de Turismo' (spørg turistkontoret). Ifølge uddrag fra en kommunal side og kommunens Facebook: 2 € pr. person, 1 € for grupper (25+), gratis for beboere – ikke bekræftet på den nuværende officielle side."
+     }
+    ],
+    "links": {
+     "official": null,
+     "booking": null,
+     "info": "https://www.turismoolvera.es/informacion"
+    },
+    "checked_at": "2026-10-30",
+    "text_language": "da",
+    "trip": {
+     "record_category": "Family activities",
+     "municipality": "Unknown",
+     "schedule": "Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous). Dates of the season change are not stated. A second municipal page (changed 2023) gives 10:00-20:00 all year.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": true,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": "1–2 hours including the castle and short old-town walk (editorial planning estimate)",
+     "updated_at": "2026-10-30"
+    }
+   }
+  },
+  {
    "id": "ES-AND-MAL-PARQUE-DE-LA-PALOMA-001",
    "slug": "parque-de-la-paloma",
    "name": "Parque de la Paloma",
@@ -10582,6 +10668,94 @@
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-03"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001",
+   "slug": "zahara-de-la-sierra",
+   "name": "Zahara de la Sierra",
+   "category": "by",
+   "record_category": "City",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Zahara de la Sierra",
+   "lat": 36.840068,
+   "lng": -5.388687,
+   "google_maps_url": "https://maps.google.com/?q=Zahara+de+la+Sierra%2C+C%C3%A1diz%2C+Spain",
+   "google_place_id": null,
+   "url": "https://www.zaharadelasierra.es/turismo-zahara",
+   "tags": [
+    "historisk-by",
+    "udsigt",
+    "natur"
+   ],
+   "description": "Zahara de la Sierra's municipal tourism site highlights its historic heritage, viewpoints, and the Torre del Homenaje at the castle's highest point. The municipal tourism office is used as the representative arrival pin. Reaching elevated viewpoints involves walking uphill; exact route gradients, step-free access, parking, facilities, monument schedules, and summer suitability have not been verified. The town's tourism office notes that guided visits pause during the hottest part of summer, so check current conditions before planning.",
+   "catalogue_group": "Dagsture",
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "udflugt_4t",
+    "drive_minutes": 130,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
+    "fit": {
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "lav"
+    },
+    "energy": "hoej",
+    "seasons": [
+     "foraar",
+     "efteraar",
+     "vinter"
+    ],
+    "themes": [
+     "historisk-by",
+     "udsigt",
+     "natur"
+    ],
+    "cost_level": null,
+    "booking_required": false,
+    "wheelchair": "ukendt",
+    "summary": "Hvid bjerglandsby i Sierra de Grazalema med en borg og et tårn fra nasridernes tid, mange udsigtspunkter og en badestrand ved søen tæt på; ca. 2 t 10 min i bil fra Casa de la Familia (Google Maps).",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Turistkontoret (kommunens hjemmeside): dagligt 9.30-14.00 og 18.00-21.15. Teksten nævner, at der ikke er guidede ture 'før efter sommeren', så det er sandsynligvis sommertider og kan være forældet. Torre del Homenaje: ingen åbningstider på kommunens sider."
+     },
+     {
+      "label": "Pris",
+      "text": "Ikke oplyst på kommunens sider. Ifølge ikke-officielle kilder: 3,50 € pr. voksen, gratis under 4 år – ikke bekræftet."
+     }
+    ],
+    "links": {
+     "official": "https://www.zaharadelasierra.es/turismo-zahara",
+     "booking": null,
+     "info": "https://www.zaharadelasierra.es/turismo/villa-medieval"
+    },
+    "checked_at": "2026-10-30",
+    "text_language": "da",
+    "trip": {
+     "record_category": "City",
+     "municipality": "Zahara de la Sierra",
+     "schedule": "Tourist office (municipal site): daily 9:30-14:00 and 18:00-21:15. The text mentions no guided tours 'until after summer', so these are probably summer hours and may be out of date. Torre del Homenaje: no opening hours on the municipal pages.",
+     "schedule_checked_at": "2026-10-30",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-10-30"
     }
    }
   },

@@ -1,4 +1,36 @@
 {
+ "ES-AND-CAD-OLVERA-CASTLE-001": {
+  "source_sha": "6fd9bddc34d164b7",
+  "summary": "Borg fra nasridernes tid over den gamle bydel i Olvera i Sierra de Cádiz.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Borgen: om sommeren dagligt 10.00-20.00; om vinteren dagligt 10.00-19.00 (uden pause). Hvornår sæsonen skifter, er ikke oplyst. En anden kommunal side (ændret 2023) angiver 10.00-20.00 hele året – tjek før besøget."
+   },
+   {
+    "label": "Pris",
+    "text": "Den officielle turistside skriver 'Consultar con Oficina de Turismo' (spørg turistkontoret). Ifølge uddrag fra en kommunal side og kommunens Facebook: 2 € pr. person, 1 € for grupper (25+), gratis for beboere – ikke bekræftet på den nuværende officielle side."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001": {
+  "source_sha": "76fc1199725f71e0",
+  "summary": "Hvid bjerglandsby i Sierra de Grazalema med en borg og et tårn fra nasridernes tid, mange udsigtspunkter og en badestrand ved søen tæt på; ca. 2 t 10 min i bil fra Casa de la Familia (Google Maps).",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Turistkontoret (kommunens hjemmeside): dagligt 9.30-14.00 og 18.00-21.15. Teksten nævner, at der ikke er guidede ture 'før efter sommeren', så det er sandsynligvis sommertider og kan være forældet. Torre del Homenaje: ingen åbningstider på kommunens sider."
+   },
+   {
+    "label": "Pris",
+    "text": "Ikke oplyst på kommunens sider. Ifølge ikke-officielle kilder: 3,50 € pr. voksen, gratis under 4 år – ikke bekræftet."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
  "ES-AND-MAL-ALORA-001": {
   "source_sha": "6344d5e7c0d8b1f5",
   "summary": "Álora: hvid by på en bakke over Guadalhorce-dalen med stejle gader op til slottet.",
