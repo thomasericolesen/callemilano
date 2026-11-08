@@ -1,5 +1,27 @@
 # Change log
 
+## 2026-11-08 (night) - Three family suggestions fact-checked (owner request)
+
+- The three `nyt_sted` items on the owner's feedback list (UTOPÍA and Venta los Condes from Eric, Heladería Casa Esteban from Christian) were closed in the app; the places already existed as drafts.
+- `utopia-la-cala` -> `needs_fact_check`: hours (Wed-Sun 17:00-02:00), address, phone, booking, kids' section and burger prices (median 16,50 €; burger page verified from a rendered PDF) -> `€` with `cost_level_borderline` (no drink prices).
+- `venta-los-condes` -> `needs_fact_check`: hours (Tue-Sun 13:00-22:00), phone/WhatsApp booking, kids' menu 9 €, grilled mains 21-59 € (median about 31 €) -> `€€` (menu read by Firecrawl from an image PDF, low confidence).
+- `heladeria-casa-esteban-fuengirola` -> `needs_fact_check`: Fuengirola shop at Paseo Marítimo Rey de España 26, phone, from the shop's own Instagram/Facebook (search excerpts); hours and prices still open. Recommendation attribution corrected to Christian.
+- Danish app texts for all three. Export 154 places, 130 in Danish. Note: the subagent still had the pre-switch tool list and used Firecrawl (which has credits again); Tavily could not open these PDFs.
+
+## 2026-11-08 (late evening) - Owner answers to the decision list
+
+- Setenil and Zahara: no call to the tourist offices. The towns are free to walk; the ticketed castles get approximate prices from travel sites (Setenil about 2 EUR combined ticket; Zahara 3,50 EUR adult, free under 4) with a "check online before going" note. Issues `hours_prices_missing` and `tower_hours_prices_unverified` closed; info issue `sight_prices_unofficial` added.
+- Juan Playa stays €€; Café NOMAD stays € (`cost_level_borderline` closed on both).
+- Old Swiss House: the owner's screenshot of the own website settles the conflict: Tuesday closed, Wednesday dinner only, Monday and Thursday-Sunday lunch and dinner; address Calle Marina Nacional 28 (Google lists 26). `source_conflict` closed. Danish app texts for Old Swiss House and Zahara refreshed.
+- Tavily replaces Firecrawl (no credits): `source-reader`, `alpha`, `charlie`, `docs/agent-pipeline.md` and `.claude/settings.json` now use `tavily_search` / `tavily_extract`; `tools/intake.py fetch` marks blocked pages `needs_extract` instead of `needs_firecrawl`.
+
+## 2026-11-08 (late evening) - Price bands from guest menu photos (owner decision)
+
+- Owner decision: guest photos of menus (Google Maps, and the owner's own screenshots of Tripadvisor/Google) may be used for the price band, recorded as `secondary`, confidence `low`, with info issue `cost_level_menu_photo`.
+- From the owner's screenshots: `casa-manuel-de-la-lonja` €€ -> € (grilled fish and meat 9-18 €, median about 12 €); `restaurante-la-escollera-estepona` €€ -> € (seafood raciones median 15,50 €, no drink price; `cost_level_borderline`).
+- From Google Maps guest photos fetched with the Places API (up to 10 photos per place, 21 restaurants checked; only 2 more had a readable menu): `el-andaluz-de-la-malagueta` Unknown -> € (median main 13,50 €); `taberna-mar-de-alboran-estepona` Unknown -> € (median 13,50 €; fish column spot-checked). `norte-puerto-banus` only had a breakfast menu (not used).
+- All four records stay `draft`, so the app is unchanged. Validation 0 errors.
+
 ## 2026-11-08 (evening) - Olvera and Zahara back in the excursion layer; three stale app rows hidden (owner decision)
 
 - Five app rows came from an early import (2026-10-19) and were never refreshed because their records are not in `data/layer-membership.csv`.

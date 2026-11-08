@@ -16,16 +16,16 @@
   "checked_by": "Claude (main session)"
  },
  "ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001": {
-  "source_sha": "76fc1199725f71e0",
+  "source_sha": "e154a93e839a9c52",
   "summary": "Hvid bjerglandsby i Sierra de Grazalema med en borg og et tårn fra nasridernes tid, mange udsigtspunkter og en badestrand ved søen tæt på; ca. 2 t 10 min i bil fra Casa de la Familia (Google Maps).",
   "practical": [
    {
     "label": "Åbningstider",
-    "text": "Turistkontoret (kommunens hjemmeside): dagligt 9.30-14.00 og 18.00-21.15. Teksten nævner, at der ikke er guidede ture 'før efter sommeren', så det er sandsynligvis sommertider og kan være forældet. Torre del Homenaje: ingen åbningstider på kommunens sider."
+    "text": "Turistkontoret (kommunens hjemmeside): dagligt 9.30-14.00 og 18.00-21.15, sandsynligvis sommertider. Tårnets åbningstider er ikke oplyst officielt – søg på nettet, før I tager af sted."
    },
    {
     "label": "Pris",
-    "text": "Ikke oplyst på kommunens sider. Ifølge ikke-officielle kilder: 3,50 € pr. voksen, gratis under 4 år – ikke bekræftet."
+    "text": "Landsbyen er gratis at gå rundt i. Borgen med Torre del Homenaje: ca. 3,50 € pr. voksen, gratis under 4 år; billet på turistkontoret ved indgangen (ifølge rejsesider, ikke kommunen). Tjek på nettet før afgang."
    }
   ],
   "translated_at": "2026-11-08",
@@ -476,6 +476,13 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001": {
+  "source_sha": "2b6e7cd76269217d",
+  "summary": "Heladería Casa Esteban: hjemmelavet is på Paseo Marítimo i Fuengirola (én af tre butikker), ca. 15 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
  "ES-AND-MAL-ISTAN-001": {
   "source_sha": "e43a5fe71438ed82",
   "summary": "Istán: lille hvid landsby med stejle gader fra Al-Andalus-tiden i Sierra de las Nieves.",
@@ -867,16 +874,20 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-OLD-SWISS-HOUSE-FUENGIROLA-001": {
-  "source_sha": "feb01c1365cbbf3b",
+  "source_sha": "feb0098f72f82851",
   "summary": "Old Swiss House: restaurant i Fuengirola med Superman-børnemenu. Det anbefales at booke bord i forvejen på telefon.",
   "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tirsdag lukket; onsdag kun aften; mandag og torsdag-søndag frokost og aften (egen hjemmeside, 8. nov. 2026; klokkeslæt er ikke oplyst – ring eller tjek hjemmesiden)."
+   },
    {
     "label": "Pris",
     "text": "Menuer til 27-30 € pr. person (Chateaubriand-menu 30 €). Børnemenu 7,50 €."
    }
   ],
   "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-PARQUE-DE-LA-PALOMA-001": {
   "source_sha": "f0c6e401d154f6b0",
@@ -1193,6 +1204,22 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-UTOPIA-LA-CALA-001": {
+  "source_sha": "925b88ec3fc3767e",
+  "summary": "UTOPÍA: restaurant med burgere, hotdogs og nachos i La Cala de Mijas, ca. 14 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Onsdag-søndag 17.00-02.00, køkkenet 17.30-23.30; lukket mandag og tirsdag (egen hjemmeside, læst 8. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "14 burgere til 14,50-19,00 € med pommes frites (typisk 16,50 €); andre retter 10-16 € (wagyu-bøf 39 €); hotdog til børn med pommes frites 8,50 €. Drikkepriser er ikke oplyst."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
  "ES-AND-MAL-VENTA-LA-MORENA-001": {
   "source_sha": "6808c5b7bad0de99",
   "summary": "Venta La Morena: venta (landevejsrestaurant) med grill på Camino Viejo de Coín, ca. 4 min i bil fra Casa de la Familia.",
@@ -1204,6 +1231,22 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
+ },
+ "ES-AND-MAL-VENTA-LOS-CONDES-001": {
+  "source_sha": "ef5c8d06f764dc68",
+  "summary": "Venta los Condes: grillrestaurant i bjergene over Mijas, ca. 25 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tirsdag-søndag 13.00-22.00, køkkenet 13.00-16.00 og 18.00-21.00; lukket mandag (egen hjemmeside, læst 8. nov. 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Grillretter 21-59 € (typisk ca. 31 €; entrecôte 400 g 32 €, rib eye 500 g 59 €). Børnemenu 9 € inkl. sodavand og en kugle is."
+   }
+  ],
+  "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-ZERO-LATENCY-MIRAMAR-001": {
   "source_sha": "a2a81e4beca175bc",

@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: €€
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'No prices on own site; Tripadvisor price marking "€€ - €€€" read as the middle band. Fallback source per docs/trip-planner-agents.md. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).N'
-  cost_checked_at: '2026-11-02'
+  cost_basis: 'Guest photo of the printed menu (Tripadvisor, album ''Menú'', photo 2 of 3; date not shown): grilled fish and meat raciones 9,00-18,00 € (median about 12 €: pulpo 10,00, rosada 9,00, salmón 12,00, dorada 16,00, chopitos 9,00, solomillo de cerdo 18,00, entrecot 18,00); fried fish raciones about 7-9 € and paellas 7-8,50 € per person (photo 3); bread 0,60 €. No drink prices; main plus one drink stays under 20 € unless the drink costs over 8 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-08'
 links:
   official_website: null
   booking: null
@@ -109,6 +109,14 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of tripadvisor.es listing. Name and town match (Málaga).
+- field: cost_level
+  claim: 'Menu photo (read by Claude from the owner''s screenshot): "Pulpo a la plancha ... 10,00€" ; "Rosada ... 9,00€" ; "Salmón ... 12,00€" ; "Dorada a la espalda ... 16,00€" ; "Chopitos plancha ... 9,00€" ; "Solomillo de cerdo ... 18,00€" ; "Entrecot de ternera ... 18,00€" ; "*Servicio de Pan 0,60€"'
+  source_url: https://www.tripadvisor.co/Restaurant_Review-g187438-d6998446-Reviews-Casa_Manuel_de_La_Lonja-Malaga_Costa_del_Sol_Province_of_Malaga_Andalucia.html
+  source_type: secondary
+  checked_at: '2026-11-08'
+  checked_by: Eric Olesen (screenshot); read by Claude (main session)
+  confidence: low
+  notes: 'Guest-uploaded menu photos (user ''JESUS SOLERO'', album ''Menú'', photos 2 and 3 of 3); photo date not shown and parts are overexposed. Owner decision 2026-11-08: guest menu photos may be used for the price band, marked low confidence.'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -137,15 +145,15 @@ review_issues:
   description: No own website (or only a Facebook page) in the Google listing. Needs the owner's screenshots of the venue's own page or menu, or a visit.
   retryable: true
   owner: human_editor
-- code: cost_level_secondary_source
+- code: cost_level_menu_photo
   severity: info
   fields:
   - cost_level
-  description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
+  description: Price band from a guest photo of the menu (date unknown); replace when an own menu is found.
   retryable: true
-  owner: human_editor
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

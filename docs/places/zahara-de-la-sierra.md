@@ -6,9 +6,9 @@ slug: zahara-de-la-sierra
 name: Zahara de la Sierra
 category: City
 tags:
-  - Historic town
-  - Viewpoint
-  - Nature
+- Historic town
+- Viewpoint
+- Nature
 coordinates:
   latitude: 36.840068
   longitude: -5.388687
@@ -30,10 +30,10 @@ driving_time_from_casa_de_la_familia:
   checked_at: '2026-10-30'
   note: 'Google''s main figure: 130 min (typical range shown by Google: 2:00-2:20 h:min), 122 km via A-397. Measured by the owner in Google Maps (screenshots supplied 2026-10-30), one sample, departure setting Saturday 2026-07-18 10:00; traffic and season change the time. Firecrawl route data flags 13.7 km of AP-7 as toll road on the A-397 route. Toll roads were not avoided for this measurement (the owner avoids tolls only for trips under 60 minutes). Destination is Google''s marker: Google Maps village marker (postcode 11688). Origin Calle Milano 35 (36.5356, -4.6627) is treated as the same place as Casa de la Familia because the coordinates agree with the project origin to about 10 m. No route URL recorded. Supersedes the earlier OSRM figure (None). Firecrawl re-check gave 134 km / 2 h 13 min for the same road names (A-397/A-374), 143 km / 2 h 05 min via A-384; Google''s 122 km could not be reproduced.'
 age_groups:
-  - Small children (0-6)
-  - Children (7-12)
-  - Young adults
-  - Seniors
+- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
   small_children: low
   children: medium
@@ -41,9 +41,9 @@ family_score:
   seniors: low
 energy_level: High
 seasonality:
-  - Spring
-  - Autumn
-  - Winter
+- Spring
+- Autumn
+- Winter
 accessibility:
   overall: unknown
   mobility:
@@ -77,7 +77,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Not stated on the municipal pages. Third-party sources (not official): EUR 3.50 per adult, free under 4 - unverified.'
+  cost_basis: 'The village is free to walk. The ticketed sight is the medieval castle precinct with the Torre del Homenaje: 3,50 EUR per adult, free under 4, tickets at the tourist office at the entrance, according to family travel sites (not the municipality). Owner decision 2026-11-08: no call to the tourist office; guests are told to check online before going.'
   cost_checked_at: 2026-10-30
 links:
   official_website: https://www.zaharadelasierra.es/turismo-zahara
@@ -86,108 +86,116 @@ links:
   transport: null
   contact: https://www.zaharadelasierra.es/turismo-zahara
 related_places: []
-description_short: "A hilltop white village in the Sierra de Grazalema with a Nasrid castle and tower, many viewpoints and a reservoir beach nearby; about 2 hours 10 minutes' drive from Casa de la Familia (Google Maps main figure)."
-description_long: "Zahara de la Sierra's municipal tourism site highlights its historic heritage, viewpoints, and the Torre del Homenaje at the castle's highest point. The municipal tourism office is used as the representative arrival pin. Reaching elevated viewpoints involves walking uphill; exact route gradients, step-free access, parking, facilities, monument schedules, and summer suitability have not been verified. The town's tourism office notes that guided visits pause during the hottest part of summer, so check current conditions before planning."
-seo_title: "Zahara de la Sierra: Historic Village and Castle Views"
-seo_description: "Discover Zahara de la Sierra in Cádiz, with a historic center, viewpoints, and its hilltop castle. Check current access and visitor information before travelling."
+description_short: A hilltop white village in the Sierra de Grazalema with a Nasrid castle and tower, many viewpoints and a reservoir beach nearby; about 2 hours 10 minutes' drive from Casa de la Familia (Google Maps main figure).
+description_long: Zahara de la Sierra's municipal tourism site highlights its historic heritage, viewpoints, and the Torre del Homenaje at the castle's highest point. The municipal tourism office is used as the representative arrival pin. Reaching elevated viewpoints involves walking uphill; exact route gradients, step-free access, parking, facilities, monument schedules, and summer suitability have not been verified. The town's tourism office notes that guided visits pause during the hottest part of summer, so check current conditions before planning.
+seo_title: 'Zahara de la Sierra: Historic Village and Castle Views'
+seo_description: Discover Zahara de la Sierra in Cádiz, with a historic center, viewpoints, and its hilltop castle. Check current access and visitor information before travelling.
 images: []
 evidence:
-  - field: coordinates
-    claim: The municipal tourism site links its visitor office location to a Google Maps point at these coordinates.
-    source_url: https://www.zaharadelasierra.es/turismo-zahara
-    source_type: government
-    checked_at: 2026-10-03
-    checked_by: maps-import-agent
-    confidence: high
-    notes: Coordinate represents the visitor-office arrival point, not the castle or whole town.
-  - field: description_short, description_long, tags
-    claim: Municipal tourism information highlights the town's heritage, viewpoints, and Torre del Homenaje at the castle.
-    source_url: https://www.zaharadelasierra.es/turismo-zahara
-    source_type: government
-    checked_at: 2026-10-03
-    checked_by: maps-import-agent
-    confidence: high
-    notes: null
-  - field: description_long, seasonality
-    claim: The municipal tourism site says guided visits pause during hot summer conditions.
-    source_url: https://www.zaharadelasierra.es/turismo-zahara
-    source_type: government
-    checked_at: 2026-10-03
-    checked_by: maps-import-agent
-    confidence: high
-    notes: Check again before travel; schedule is time-sensitive.
-  - field: driving_time_from_casa_de_la_familia
-    claim: One-way drive 130 min (122 km via A-397), Google Maps main figure.
-    source_url: n/a (owner-supplied Google Maps screenshots, no route URL)
-    source_type: secondary
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: medium
-    notes: Owner screenshots 2026-10-30; one sample; typical range 2:00-2:20. Firecrawl route data flags 13.7 km of AP-7 as toll road on the A-397 route.
-  - field: visit_information
-    claim: Tourist office hours (possibly summer hours); no tower hours or prices published.
-    source_url: https://www.zaharadelasierra.es/turismo-zahara
-    source_type: government
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: medium
-    notes: Third-party price of EUR 3.50 (Tripadvisor, adondevoyconmifamilia.es) is not an official source and is not used as a fact.
-  - field: body.nearby_suggestions
-    claim: Nearby sights and viewpoints named in the 'Nearby suggestions' section.
-    source_url: https://www.zaharadelasierra.es/turismo-zahara
-    source_type: official_tourism
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: medium
-    notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
-  - field: body.owner_supplied_suggestions
-    claim: 'Editor-supplied additions for Zahara: village lanes, Paseo de los Refranes, La Playita, reservoir activities, Garganta Verde (permit required).'
-    source_url: https://mylittleworldoftravelling.com/things-to-do-in-zahara-de-la-sierra/
-    source_type: secondary
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: low
-    notes: Supplied by the owner/editor on 2026-10-30 (Eric Olesen (owner), message 2026-10-30; text partly from a Google AI summary and third-party travel sites); not verified against an official source unless an official URL is given in the section.
+- field: coordinates
+  claim: The municipal tourism site links its visitor office location to a Google Maps point at these coordinates.
+  source_url: https://www.zaharadelasierra.es/turismo-zahara
+  source_type: government
+  checked_at: 2026-10-03
+  checked_by: maps-import-agent
+  confidence: high
+  notes: Coordinate represents the visitor-office arrival point, not the castle or whole town.
+- field: description_short, description_long, tags
+  claim: Municipal tourism information highlights the town's heritage, viewpoints, and Torre del Homenaje at the castle.
+  source_url: https://www.zaharadelasierra.es/turismo-zahara
+  source_type: government
+  checked_at: 2026-10-03
+  checked_by: maps-import-agent
+  confidence: high
+  notes: null
+- field: description_long, seasonality
+  claim: The municipal tourism site says guided visits pause during hot summer conditions.
+  source_url: https://www.zaharadelasierra.es/turismo-zahara
+  source_type: government
+  checked_at: 2026-10-03
+  checked_by: maps-import-agent
+  confidence: high
+  notes: Check again before travel; schedule is time-sensitive.
+- field: driving_time_from_casa_de_la_familia
+  claim: One-way drive 130 min (122 km via A-397), Google Maps main figure.
+  source_url: n/a (owner-supplied Google Maps screenshots, no route URL)
+  source_type: secondary
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: medium
+  notes: Owner screenshots 2026-10-30; one sample; typical range 2:00-2:20. Firecrawl route data flags 13.7 km of AP-7 as toll road on the A-397 route.
+- field: visit_information
+  claim: Tourist office hours (possibly summer hours); no tower hours or prices published.
+  source_url: https://www.zaharadelasierra.es/turismo-zahara
+  source_type: government
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: medium
+  notes: Third-party price of EUR 3.50 (Tripadvisor, adondevoyconmifamilia.es) is not an official source and is not used as a fact.
+- field: body.nearby_suggestions
+  claim: Nearby sights and viewpoints named in the 'Nearby suggestions' section.
+  source_url: https://www.zaharadelasierra.es/turismo-zahara
+  source_type: official_tourism
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: medium
+  notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
+- field: body.owner_supplied_suggestions
+  claim: 'Editor-supplied additions for Zahara: village lanes, Paseo de los Refranes, La Playita, reservoir activities, Garganta Verde (permit required).'
+  source_url: https://mylittleworldoftravelling.com/things-to-do-in-zahara-de-la-sierra/
+  source_type: secondary
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: low
+  notes: Supplied by the owner/editor on 2026-10-30 (Eric Olesen (owner), message 2026-10-30; text partly from a Google AI summary and third-party travel sites); not verified against an official source unless an official URL is given in the section.
+- field: visit_information.cost_basis
+  claim: 'Search excerpts (Tavily, 2026-11-08): "3,50 € por adulto; los menores de 4 años entran gratis." ; "Las entradas se compran en la Oficina de Turismo, a la entrada del recinto (de 9:30 a 19:15 ...)" (planenfamilia.com); "Son 3,5€ por adulto y los menores de 4 años no pagan." (adondevoyconmifamilia.es, 2022).'
+  source_url: https://planenfamilia.com/planes/castillo-de-zahara-de-la-sierra
+  source_type: secondary
+  checked_at: '2026-11-08'
+  checked_by: Claude (main session)
+  confidence: low
+  notes: 'Travel-site excerpts only; the municipal pages give no price or tower hours. Owner decision 2026-11-08: no phone call; price shown as approximate with a ''check online before going'' note.'
 review_issues:
-  - code: family_ratings_estimated
-    severity: warning
-    fields:
-      - age_groups
-      - family_score
-      - energy_level
-      - seasonality
-    description: Audience ratings, energy, and suitable seasons are provisional editorial estimates; confirm hill access, heat exposure, and route demands.
-    retryable: true
-    owner: editorial
-  - code: visitor_facilities_unverified
-    severity: warning
-    fields:
-      - accessibility
-      - wheelchair_friendly
-      - parking
-      - dog_friendly
-      - toilets_available
-      - food_available
-      - cost_level
-    description: Access, parking, facilities, dog policy, and costs remain unverified.
-    retryable: true
-    owner: fact_check
-  - code: tower_hours_prices_unverified
-    severity: blocking
-    fields:
-      - visit_information
-    description: No official opening hours or price for the Torre del Homenaje; call the tourist office on 623 47 59 06.
-    retryable: true
-    owner: fact_check
-  - code: owner_supplied_additions_unverified
-    severity: info
-    fields:
-      - body.nearby_suggestions
-    description: Editor-supplied additions (La Playita, Garganta Verde permit, Paseo de los Refranes, Puerta Árabe, reservoir activities) come from third-party travel sites and an AI summary; no official source yet.
-    retryable: true
-    owner: editorial
+- code: family_ratings_estimated
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  - energy_level
+  - seasonality
+  description: Audience ratings, energy, and suitable seasons are provisional editorial estimates; confirm hill access, heat exposure, and route demands.
+  retryable: true
+  owner: editorial
+- code: visitor_facilities_unverified
+  severity: warning
+  fields:
+  - accessibility
+  - wheelchair_friendly
+  - parking
+  - dog_friendly
+  - toilets_available
+  - food_available
+  - cost_level
+  description: Access, parking, facilities, dog policy, and costs remain unverified.
+  retryable: true
+  owner: fact_check
+- code: owner_supplied_additions_unverified
+  severity: info
+  fields:
+  - body.nearby_suggestions
+  description: Editor-supplied additions (La Playita, Garganta Verde permit, Paseo de los Refranes, Puerta Árabe, reservoir activities) come from third-party travel sites and an AI summary; no official source yet.
+  retryable: true
+  owner: editorial
+- code: sight_prices_unofficial
+  severity: info
+  fields:
+  - visit_information.cost_basis
+  description: 'Castle and tower ticket price from travel sites only (3,50 EUR adult); guests should check online before going. Owner decision 2026-11-08: no call.'
+  retryable: true
+  owner: fact_check
 created_at: 2026-10-03
-updated_at: 2026-10-30
+updated_at: '2026-11-08'
 last_verified: 2026-10-30
 last_reviewed_at: null
 next_review_at: null

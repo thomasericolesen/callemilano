@@ -156,6 +156,14 @@ evidence:
   checked_by: record-writer agent
   confidence: high
   notes: Matches the Google Places identity.
+- field: cost_level
+  claim: 'Owner decision 2026-11-08: Café NOMAD stays € (median dish 13,20 €; a drink is assumed under 6,80 €).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/change-log.md
+  source_type: secondary
+  checked_at: '2026-11-08'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude
+  confidence: medium
+  notes: Decision list of 2026-11-08, item 3.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -165,13 +173,6 @@ review_issues:
   - energy_level
   - tags
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
-  retryable: true
-  owner: human_editor
-- code: cost_level_borderline
-  severity: info
-  description: No drink price quoted; € assumes a drink under 6,80 € (owner decision 2026-11-03). Full menu at https://cafenomadfuengirola.com/menu.html not read.
-  fields:
-  - cost_level
   retryable: true
   owner: human_editor
 - code: facts_partly_checked
@@ -184,7 +185,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

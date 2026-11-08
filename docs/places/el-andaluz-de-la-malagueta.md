@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Guest photo of the printed menu on Google Maps (meat and beef page; photo date not available): 14 mains 8-16 € (median 13,50 €), IVA included. No drink prices; main plus one drink stays under 20 € unless the drink costs over 6,50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_checked_at: '2026-11-08'
 links:
   official_website: null
   booking: null
@@ -101,6 +101,14 @@ evidence:
   checked_by: Claude (one-hour restaurant intake 2026-11-02)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: cost_level
+  claim: '"SOLOMILLO AL GUSTO (4 QUESOS, ALIOLI O PLANCHA) ... 13€" ; "SOLOMILLO GRATINADO ... 14€" ; "PUNTAS DE SOLOMILLO CON ALIOLI ... 13€" ; "CODILLO BAVIERA AL HORNO ... 14,50€" ; "COSTILLAS A LA MIEL ... 15€" ; "SECRETO IBERICO ... 14€" ; "MUSAKA ... 9€" ; "ALBONDIGAS EN SALSA DE ALMENDRAS ... 10€ - ½ ... 7€" ; "CARNE EN SALSA ... 10€ - ½ ... 7€" ; "FLAMENQUIN CON ALIOLI ... 10,50€" ; "ENTRECOT (4 QUESOS, ALIOLI O PLANCHA) ... 16€" ; "ENTRECOT GRATINADO ... 16€" ; "RABO DE TORO ... 16€" ; "HAMBURGUESA DE TERNERA ... 8€" ; "IVA INCLUIDO"'
+  source_url: https://www.google.com/maps/place/?q=place_id:ChIJB8KQ9Oj3cg0RE5_C9nK0byc
+  source_type: secondary
+  checked_at: '2026-11-08'
+  checked_by: Claude (main session), Google Places API photo
+  confidence: low
+  notes: 'Guest photo uploaded to Google Maps by ''José Luis Jurado Ortiz'' (Places API photo 10 of 10); the API gives no photo date. Owner decision 2026-11-08: guest menu photos from Google may be used for the price band, marked low confidence.'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -129,8 +137,15 @@ review_issues:
   description: No own website (or only a Facebook page) in the Google listing. Needs the owner's screenshots of the venue's own page or menu, or a visit.
   retryable: true
   owner: human_editor
+- code: cost_level_menu_photo
+  severity: info
+  fields:
+  - cost_level
+  description: Price band from a guest photo of the menu on Google Maps (date unknown); replace when an own menu is found.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

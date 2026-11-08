@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Render one page in headless Chromium (Playwright) and print JSON to stdout:
 //   {"url", "final_url", "http", "text", "menu_links": [{"text", "href"}], "error"}
-// Used by `tools/intake.py fetch` as the free second step after curl and before Firecrawl,
+// Used by `tools/intake.py fetch` as the free second step after curl and before Tavily,
 // for pages that need JavaScript (Wix, React and similar). No cookies, logins or stealth:
 // pages that block bots stay blocked and fall through to the next step.
 // Usage: node tools/render_page.mjs URL [timeout_ms]

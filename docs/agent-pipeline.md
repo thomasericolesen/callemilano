@@ -8,7 +8,7 @@ Goal: keep routine work out of the expensive main session. Deterministic steps r
 |---|---|---|---|
 | Scripts | `tools/intake.py` (no AI) | Google Places + Routes sweeps, nearby searches, page fetching (curl first), record creation with ID registry and layer membership, applying fact files, checklist pages | Judge facts |
 | Subagent `candidate-screener` (Haiku) | `.claude/agents/candidate-screener.md` | Shortlist sweep results by fixed rules into checklist groups | Show ratings; invent features |
-| Subagent `source-reader` (Haiku) | `.claude/agents/source-reader.md` | Fetch pages (`intake.py fetch`, Firecrawl `query` only when blocked) and return verbatim quotes as JSON | Paraphrase; paste pages into its reply |
+| Subagent `source-reader` (Haiku) | `.claude/agents/source-reader.md` | Fetch pages (`intake.py fetch`, Tavily `tavily_extract` only when blocked) and return verbatim quotes as JSON | Paraphrase; paste pages into its reply |
 | Subagent `record-writer` (Sonnet) | `.claude/agents/record-writer.md` | Turn quotes into an apply-file, run `intake.py apply`, validate, rebuild catalog | Status beyond `needs_fact_check`; touch approved records; family scores, categories, tags |
 | Orchestrator | main Claude session | Owner questions and decisions, source conflicts, categories and editorial choices, spot checks, change log, commits, PRs | Read raw pages or long script output when a file will do |
 
@@ -25,7 +25,7 @@ Work files go in the session scratchpad, not in the repo. Only records, data reg
 ## Cost rules
 
 - One subagent call per batch, not per place; subagents reply in a few lines and leave details in files.
-- `intake.py fetch` first: curl, then PDF text (pdftotext), then headless Chromium (`tools/render_page.mjs`, Playwright); all free. Firecrawl only for pages still marked `needs_firecrawl`, and only in `query` mode with `directQuote`, never full markdown. Facebook/Instagram are `login_wall`: ask the owner for a screenshot. Finding an official URL uses `WebSearch` before `firecrawl_search` (owner request 2026-11-03).
+- `intake.py fetch` first: curl, then PDF text (pdftotext), then headless Chromium (`tools/render_page.mjs`, Playwright); all free. Tavily (`tavily_extract` with a `query`) only for pages still marked `needs_extract`; Tavily replaces Firecrawl (owner decision 2026-11-08; Firecrawl has no credits). Facebook/Instagram are `login_wall`: ask the owner for a screenshot or use a guest menu photo (owner decision 2026-11-08, low confidence). Finding an official URL uses `tavily_search` before `WebSearch`.
 - The orchestrator reads JSON summaries, not pages.
 - Re-use the templates in `tools/templates/`; do not write one-off record scripts.
 

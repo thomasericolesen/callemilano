@@ -132,6 +132,14 @@ evidence:
   checked_by: record-writer agent
   confidence: high
   notes: Same line also written 'HAZ TU RESERVA - 952 66 07 17' on the home page.
+- field: cost_level
+  claim: 'Owner decision 2026-11-08: Juan Playa stays €€ (the caña price pairing in the carta stays unclear).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/change-log.md
+  source_type: secondary
+  checked_at: '2026-11-08'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude
+  confidence: medium
+  notes: Decision list of 2026-11-08, item 2.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -141,13 +149,6 @@ review_issues:
   - energy_level
   - tags
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
-  retryable: true
-  owner: human_editor
-- code: cost_level_borderline
-  severity: info
-  description: € or €€ depends on which caña costs 2,90 € in the carta PDF; €€ by owner decision 2026-11-03.
-  fields:
-  - cost_level
   retryable: true
   owner: human_editor
 - code: facts_partly_checked
@@ -161,7 +162,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
