@@ -42,3 +42,14 @@ Stederne har ingen egen hjemmeside, eller siden kan ikke læses. Et billede af m
 
 - Chiringuito Rafael: køretiden er 28 min, tæt på grænsen på 30 min.
 - Cabopino-Artola / Dunas de Artola: to poster, som overlapper geografisk, er koblet sammen som "nearby".
+
+## D. Feedback fra brugerne (Erics beslutning 8. november)
+
+Princip (Eric): brugeroplevelser kommer ind som feedback. De ændrer ikke umiddelbart en anbefaling eller klassificering. Det sker kun, når feedbacken er markant anderledes end det, vi selv har fundet, eller når flere brugere bemærker det samme.
+
+Til samtale med Eric:
+- **Hver feedback lander på en liste til Eric** med navn, sted, dato og hvad der blev sagt. Eric tager en mundtlig snak med brugeren, før noget ændres. Snakken er det egentlige tjek, ikke en optælling.
+- **Ingen tidsgrænse (Erics beslutning).** Hver feedback får en dato og en note om, hvorvidt brugerne har talt sammen; Eric vurderer selv, om den er forældet. Baggrund: brugerne taler sammen, så ens meldinger er ikke nødvendigvis uafhængige.
+- **Fakta og oplevelse:** Fakta-feedback ("lukket", "andre åbningstider", "dyrere") starter et faktatjek mod officielle kilder. Oplevelses-feedback ("god til småbørn", "larmende") ændrer kun familievurdering eller anbefaling efter Erics godkendelse.
+- **Undtagelse:** Én melding om "lukket" eller "farligt" giver straks mærket "tjek før besøg" på stedet, indtil det er afklaret.
+- **Forbindelse til næste opgave:** en feedbackknap pr. sted og pr. tur og Erics liste under Administration indgår i vurderingen af familiens adgang til Turforslag.

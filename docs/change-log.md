@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-08 (evening) - Oplev page decisions and category images (owner decisions)
+
+- Owner decisions: one app page "Oplev" replaces Inspiration, Find en tur, Turforslag and Anbefalinger; feedback replaces Anbefalinger (Eric's list, no automatic changes, no time limit); family-wide AI cap 20 per day; saved trips private but shareable; family's own places without trip data shown as "Familiens forslag"; bars under Restaurants. Plan: `docs/byggeplan-oplev.md`; mockup https://claude.ai/artifact/3hvQeqQLi1ek2kp92Acs5j.
+- Six generic category images (CC0 / Public Domain Mark, via Openverse; no identifiable people) registered in `data/image-rights.csv` as `APP-OPLEV-*-001`; sources in `docs/oplev-category-images-2026-11-08.json`. Restaurants will use Google Places photos shown live with author attribution (not copied).
+
 ## 2026-11-08 (evening) - Sheriff page removed from the app (owner decision)
 
 - Owner instruction "Slet Sheriff": the hand-written inspiration page `published-restaurante-sheriff` in the app table `recommendations` was deleted (no diary tags referenced it). A full copy of the row is in `docs/archive/app-rows/restaurante-sheriff-2026-11-08.json`; `docs/published/restaurante-sheriff.md` is marked archived. The place record stays `archived`.

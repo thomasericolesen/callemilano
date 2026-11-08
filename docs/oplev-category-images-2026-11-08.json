@@ -1,0 +1,62 @@
+{
+ "strand": {
+  "id": "56a79ed1-7782-41e1-8b07-ac35836c81b5",
+  "title": "Costinesti beach",
+  "license": "pdm",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "creator": "brianj.lowe",
+  "landing": "https://www.flickr.com/photos/68433569@N02/7762841856",
+  "source": "flickr",
+  "url": "https://live.staticflickr.com/8431/7762841856_ae0559743c_b.jpg"
+ },
+ "restaurant": {
+  "id": "12a7dd23-2a4c-4e1a-9fc6-29cbe28d0f4a",
+  "title": "Who wants paella?",
+  "license": "cc0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "creator": "CazzJj",
+  "landing": "https://www.flickr.com/photos/64249609@N08/36034328786",
+  "source": "flickr",
+  "url": "https://live.staticflickr.com/4313/36034328786_89502b16b8_b.jpg"
+ },
+ "sevaerdighed": {
+  "id": "d148c7f5-4f0e-4eb4-8ebd-815c18c61f94",
+  "title": "The Alcazaba (fortress) of Antequera, Andalusia, Spain",
+  "license": "pdm",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "creator": "zebulon.walton",
+  "landing": "https://www.flickr.com/photos/129869996@N05/15815211440",
+  "source": "flickr",
+  "url": "https://live.staticflickr.com/8644/15815211440_d0771be1c8_b.jpg"
+ },
+ "natur": {
+  "id": "0443f878-efea-4ec1-babf-8b5a280ad1cc",
+  "title": "Paseando por el Torcal de Antequera",
+  "license": "pdm",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "creator": "abel.maestro",
+  "landing": "https://www.flickr.com/photos/98156561@N02/31545451041",
+  "source": "flickr",
+  "url": "https://live.staticflickr.com/528/31545451041_86094c7ded_b.jpg"
+ },
+ "eventyr": {
+  "id": "6811fdf6-c646-4967-968f-c7b386b669a6",
+  "title": "Splash for Trash 2022",
+  "license": "pdm",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "creator": "Greenville, NC",
+  "landing": "https://www.flickr.com/photos/156869144@N02/52257469837",
+  "source": "flickr",
+  "url": "https://live.staticflickr.com/65535/52257469837_2f86a0d1dc_b.jpg"
+ },
+ "by": {
+  "id": "42745097-76c3-4ff7-92e0-1a03825c030e",
+  "title": "Alcazaba",
+  "license": "pdm",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "creator": "Julien Maury",
+  "landing": "https://www.flickr.com/photos/95274266@N06/46374523735",
+  "source": "flickr",
+  "url": "https://live.staticflickr.com/7912/46374523735_a949846492_b.jpg"
+ }
+}
