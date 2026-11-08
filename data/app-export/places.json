@@ -1359,7 +1359,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-08",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -1373,7 +1373,7 @@
      "phone": "+34951536411",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-08"
     }
    }
   },
@@ -4455,7 +4455,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-08",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -4469,7 +4469,7 @@
      "phone": "+34952660717",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-08"
     }
    }
   },
@@ -7310,7 +7310,7 @@
    "tags": [
     "spisested"
    ],
-   "description": "According to the restaurant's own website, Old Swiss House is on Calle Marina Nacional in Fuengirola, and it is necessary to book in advance by phone (+34 952 472 606). The website offers set menus such as a Chateaubriand menu (30 EUR) and a Steak Tartar menu (27 EUR per person), and a \"Superman Menu for Kids\" at 7,50 EUR per child. The page also mentions one hour of free parking on request for clients during lunch or dinner. The website gives conflicting opening days and a street-number discrepancy, so hours are not stated here until checked.",
+   "description": "According to the restaurant's own website, Old Swiss House is at Calle Marina Nacional 28 in Fuengirola, and it is necessary to book in advance by phone (+34 952 472 606) or the booking form. Opening days: closed on Tuesday, dinner only on Wednesday, lunch and dinner on Monday and Thursday to Sunday. The website offers set menus such as a Chateaubriand menu (30 EUR) and a Steak Tartar menu (27 EUR per person), and a \"Superman Menu for Kids\" at 7,50 EUR per child.",
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -7337,6 +7337,10 @@
     "summary": "Old Swiss House: restaurant i Fuengirola med Superman-børnemenu. Det anbefales at booke bord i forvejen på telefon.",
     "practical": [
      {
+      "label": "Åbningstider",
+      "text": "Tirsdag lukket; onsdag kun aften; mandag og torsdag-søndag frokost og aften (egen hjemmeside, 8. nov. 2026; klokkeslæt er ikke oplyst – ring eller tjek hjemmesiden)."
+     },
+     {
       "label": "Pris",
       "text": "Menuer til 27-30 € pr. person (Chateaubriand-menu 30 €). Børnemenu 7,50 €."
      }
@@ -7346,12 +7350,12 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-08",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": null,
+     "schedule": "Tuesday closed; Wednesday dinner only; Monday and Thursday-Sunday lunch and dinner (own website, owner's screenshot 2026-11-08; times not stated in this section).",
      "schedule_checked_at": null,
      "valid_until": null,
      "needs_fixed_hours": false,
@@ -7360,7 +7364,7 @@
      "phone": "+34952472606",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-08"
     }
    }
   },
@@ -9512,7 +9516,7 @@
      },
      {
       "label": "Pris",
-      "text": "Not stated on the official tourism site. A third-party reviewer (not official) reports a combined castle and museum ticket of EUR 2 - unverified."
+      "text": "The town is free to walk. The ticketed sight is the castle (Castillo nazarí with the keep), the cistern and the Casa de la Damita: about 2 EUR for a combined ticket according to travel sites and reviews (not official). Hours are not published officially. Owner decision 2026-11-08: no call to the tourist office; guests are told to check online before going."
      }
     ],
     "links": {
@@ -9520,7 +9524,7 @@
      "booking": null,
      "info": "https://andalucia.org/en/setenil-de-las-bodegas-information-services-setenil-de-las-bodegas"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-08",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -9534,7 +9538,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-08"
     }
    }
   },
@@ -10729,11 +10733,11 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Turistkontoret (kommunens hjemmeside): dagligt 9.30-14.00 og 18.00-21.15. Teksten nævner, at der ikke er guidede ture 'før efter sommeren', så det er sandsynligvis sommertider og kan være forældet. Torre del Homenaje: ingen åbningstider på kommunens sider."
+      "text": "Turistkontoret (kommunens hjemmeside): dagligt 9.30-14.00 og 18.00-21.15, sandsynligvis sommertider. Tårnets åbningstider er ikke oplyst officielt – søg på nettet, før I tager af sted."
      },
      {
       "label": "Pris",
-      "text": "Ikke oplyst på kommunens sider. Ifølge ikke-officielle kilder: 3,50 € pr. voksen, gratis under 4 år – ikke bekræftet."
+      "text": "Landsbyen er gratis at gå rundt i. Borgen med Torre del Homenaje: ca. 3,50 € pr. voksen, gratis under 4 år; billet på turistkontoret ved indgangen (ifølge rejsesider, ikke kommunen). Tjek på nettet før afgang."
      }
     ],
     "links": {
@@ -10741,7 +10745,7 @@
      "booking": null,
      "info": "https://www.zaharadelasierra.es/turismo/villa-medieval"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-08",
     "text_language": "da",
     "trip": {
      "record_category": "City",
@@ -10755,7 +10759,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-08"
     }
    }
   },

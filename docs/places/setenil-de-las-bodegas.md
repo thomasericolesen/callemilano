@@ -6,14 +6,14 @@ slug: setenil-de-las-bodegas
 name: Setenil de las Bodegas
 category: City
 tags:
-  - Historic town
-  - Restaurant
-  - Half day
+- Historic town
+- Restaurant
+- Half day
 coordinates:
   latitude: 36.8638359
   longitude: -5.1811411
   purpose: town_center
-  label: "Plaza de Andalucía, upper town square next to the old Ayuntamiento/Torreón and tourist office"
+  label: Plaza de Andalucía, upper town square next to the old Ayuntamiento/Torreón and tourist office
   source: https://www.openstreetmap.org/way/548232862
   checked_at: 2026-10-15
 google_maps_url: https://maps.google.com/?q=Setenil+de+las+Bodegas%2C+C%C3%A1diz%2C+Spain
@@ -30,10 +30,10 @@ driving_time_from_casa_de_la_familia:
   checked_at: '2026-10-30'
   note: 'Google''s main figure: 100 min (typical range shown by Google: 1:30-2:00 h:min), 102 km via A-357. Measured by the owner in Google Maps (screenshots supplied 2026-10-30), one sample, departure setting Saturday 2026-07-18 10:00; traffic and season change the time. No toll marking on the A-357 route; the A-397 alternative (106 km, 1 h 49 min) has 13.7 km of AP-7 toll road. Toll roads were not avoided for this measurement (the owner avoids tolls only for trips under 60 minutes). Destination is Google''s marker: Google Maps village marker (postcode 11692). Origin Calle Milano 35 (36.5356, -4.6627) is treated as the same place as Casa de la Familia because the coordinates agree with the project origin to about 10 m. No route URL recorded. Supersedes the earlier OSRM figure (121 min).'
 age_groups:
-  - Small children (0-6)
-  - Children (7-12)
-  - Young adults
-  - Seniors
+- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
   small_children: high
   children: high
@@ -41,14 +41,14 @@ family_score:
   seniors: high
 energy_level: Low
 seasonality:
-  - Spring
-  - Summer
-  - Autumn
-  - Winter
+- Spring
+- Summer
+- Autumn
+- Winter
 accessibility:
   overall: unknown
   mobility:
-    route: "Streets wind through town on a slope beside the Río Trejo/Guadalporcún gorge; cobbled, sometimes steep. No official accessibility assessment found."
+    route: Streets wind through town on a slope beside the Río Trejo/Guadalporcún gorge; cobbled, sometimes steep. No official accessibility assessment found.
     wheelchair_route: unknown
     facilities: unknown
   sensory:
@@ -78,7 +78,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: Not stated on the official tourism site. A third-party reviewer (not official) reports a combined castle and museum ticket of EUR 2 - unverified.
+  cost_basis: 'The town is free to walk. The ticketed sight is the castle (Castillo nazarí with the keep), the cistern and the Casa de la Damita: about 2 EUR for a combined ticket according to travel sites and reviews (not official). Hours are not published officially. Owner decision 2026-11-08: no call to the tourist office; guests are told to check online before going.'
   cost_checked_at: 2026-10-30
 links:
   official_website: https://turismodesetenil.com/
@@ -87,119 +87,127 @@ links:
   transport: null
   contact: https://turismodesetenil.com/contacto/
 related_places: []
-description_short: "Setenil de las Bodegas is famous for houses built directly into rock overhangs above a river gorge; a free-to-walk historic town, about 1 hour 40 minutes' drive from Casa de la Familia (Google Maps main figure), often combined with nearby Ronda."
-description_long: "Setenil de las Bodegas is a small Cádiz-province town (population roughly 2,600) known for houses and bars built directly under and into overhanging rock above a river through the town centre (sources disagree on whether it is the Río Trejo or Guadalporcún). The streets around Plaza de Andalucía, where the old town hall and tourist office sit, are free to walk, with cave-set bars and restaurants lining the main cobbled streets; the Junta de Andalucía formally recognised the town as a 'Municipio Turístico' in a late-2023 agreement. It is about 1 hour 40 minutes' drive from Casa de la Familia (Google Maps main figure) and is commonly visited together with Ronda, a short distance away, though the Setenil-Ronda leg itself has not been route-checked for this record. Tourist-office hours, parking, and accessibility (the town is built on a slope) have not been confirmed from an official source."
-seo_title: "Setenil de las Bodegas: Cave Houses and Historic Centre"
-seo_description: "Visit Setenil de las Bodegas, Cádiz: cave-set houses and bars above a river gorge, often paired with Ronda. Free to walk; drive time from Casa de la Familia."
+description_short: Setenil de las Bodegas is famous for houses built directly into rock overhangs above a river gorge; a free-to-walk historic town, about 1 hour 40 minutes' drive from Casa de la Familia (Google Maps main figure), often combined with nearby Ronda.
+description_long: Setenil de las Bodegas is a small Cádiz-province town (population roughly 2,600) known for houses and bars built directly under and into overhanging rock above a river through the town centre (sources disagree on whether it is the Río Trejo or Guadalporcún). The streets around Plaza de Andalucía, where the old town hall and tourist office sit, are free to walk, with cave-set bars and restaurants lining the main cobbled streets; the Junta de Andalucía formally recognised the town as a 'Municipio Turístico' in a late-2023 agreement. It is about 1 hour 40 minutes' drive from Casa de la Familia (Google Maps main figure) and is commonly visited together with Ronda, a short distance away, though the Setenil-Ronda leg itself has not been route-checked for this record. Tourist-office hours, parking, and accessibility (the town is built on a slope) have not been confirmed from an official source.
+seo_title: 'Setenil de las Bodegas: Cave Houses and Historic Centre'
+seo_description: 'Visit Setenil de las Bodegas, Cádiz: cave-set houses and bars above a river gorge, often paired with Ronda. Free to walk; drive time from Casa de la Familia.'
 images: []
 evidence:
-  - field: coordinates
-    claim: Plaza de Andalucía is the upper town square in Setenil de las Bodegas, next to the old town hall/Torreón and the tourist office.
-    source_url: https://www.openstreetmap.org/way/548232862
-    source_type: maps_identity
-    checked_at: 2026-10-15
-    checked_by: fact-check-agent
-    confidence: medium
-    notes: null
-  - field: description_long
-    claim: Setenil de las Bodegas is known for houses built into rock overhangs above a river running through the town; population approximately 2,600.
-    source_url: https://en.wikipedia.org/wiki/Setenil_de_las_Bodegas
-    source_type: secondary
-    checked_at: 2026-10-15
-    checked_by: fact-check-agent
-    confidence: medium
-    notes: Encyclopedia entry; the river's exact name is given inconsistently across sources (Río Trejo vs Guadalporcún) and is flagged as unresolved rather than asserted.
-  - field: description_long
-    claim: The Junta de Andalucía formally designated Setenil a 'Municipio Turístico' in a late-2023 administrative agreement following a December 2022 application.
-    source_url: https://juntadeandalucia.es
-    source_type: government
-    checked_at: 2026-10-15
-    checked_by: fact-check-agent
-    confidence: medium
-    notes: Relayed via search result of an official regional gazette entry; not independently re-fetched as a direct PDF in this pass.
-  - field: driving_time_from_casa_de_la_familia
-    claim: One-way driving route from Casa de la Familia to Plaza de Andalucía, Setenil de las Bodegas, is approximately 121 minutes (115.6 km).
-    source_url: https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-5.1811411,36.8638359?overview=false
-    source_type: secondary
-    checked_at: 2026-10-15
-    checked_by: fact-check-agent
-    confidence: medium
-    notes: OSRM public routing engine, driving profile; traffic not modelled. Superseded 2026-10-30 by the Google Maps figure in driving_time_from_casa_de_la_familia.
-  - field: driving_time_from_casa_de_la_familia
-    claim: One-way drive 100 min (102 km via A-357), Google Maps main figure.
-    source_url: n/a (owner-supplied Google Maps screenshots, no route URL)
-    source_type: secondary
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: medium
-    notes: Owner screenshots 2026-10-30; one sample; typical range 1:30-2:00. No toll marking on the A-357 route; the A-397 alternative (106 km, 1 h 49 min) has 13.7 km of AP-7 toll road.
-  - field: visit_information
-    claim: The official tourism site gives no hours or prices; two tourist offices with phone numbers.
-    source_url: https://turismodesetenil.com/contacto/
-    source_type: official_tourism
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: medium
-    notes: Hours and prices for the Casa de la Damita museum, the Torreón and the cistern are not published on the official site.
-  - field: body.nearby_suggestions
-    claim: Nearby sights and viewpoints named in the 'Nearby suggestions' section.
-    source_url: https://turismodesetenil.com/en/que-visitar/
-    source_type: official_tourism
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: medium
-    notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
-  - field: body.owner_supplied_suggestions
-    claim: 'Editor-supplied additions for Setenil: Mirador del Carmen, Balcón de Setenil, steep streets, distance from Ronda.'
-    source_url: https://spainbyhanne.dk/setenil-de-las-bodegas-indbygget-i-klipper/
-    source_type: secondary
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: low
-    notes: Supplied by the owner/editor on 2026-10-30 (Eric Olesen (owner), message 2026-10-30; text partly from a Google AI summary and third-party travel sites); not verified against an official source unless an official URL is given in the section.
+- field: coordinates
+  claim: Plaza de Andalucía is the upper town square in Setenil de las Bodegas, next to the old town hall/Torreón and the tourist office.
+  source_url: https://www.openstreetmap.org/way/548232862
+  source_type: maps_identity
+  checked_at: 2026-10-15
+  checked_by: fact-check-agent
+  confidence: medium
+  notes: null
+- field: description_long
+  claim: Setenil de las Bodegas is known for houses built into rock overhangs above a river running through the town; population approximately 2,600.
+  source_url: https://en.wikipedia.org/wiki/Setenil_de_las_Bodegas
+  source_type: secondary
+  checked_at: 2026-10-15
+  checked_by: fact-check-agent
+  confidence: medium
+  notes: Encyclopedia entry; the river's exact name is given inconsistently across sources (Río Trejo vs Guadalporcún) and is flagged as unresolved rather than asserted.
+- field: description_long
+  claim: The Junta de Andalucía formally designated Setenil a 'Municipio Turístico' in a late-2023 administrative agreement following a December 2022 application.
+  source_url: https://juntadeandalucia.es
+  source_type: government
+  checked_at: 2026-10-15
+  checked_by: fact-check-agent
+  confidence: medium
+  notes: Relayed via search result of an official regional gazette entry; not independently re-fetched as a direct PDF in this pass.
+- field: driving_time_from_casa_de_la_familia
+  claim: One-way driving route from Casa de la Familia to Plaza de Andalucía, Setenil de las Bodegas, is approximately 121 minutes (115.6 km).
+  source_url: https://router.project-osrm.org/route/v1/driving/-4.6626875,36.5356875;-5.1811411,36.8638359?overview=false
+  source_type: secondary
+  checked_at: 2026-10-15
+  checked_by: fact-check-agent
+  confidence: medium
+  notes: OSRM public routing engine, driving profile; traffic not modelled. Superseded 2026-10-30 by the Google Maps figure in driving_time_from_casa_de_la_familia.
+- field: driving_time_from_casa_de_la_familia
+  claim: One-way drive 100 min (102 km via A-357), Google Maps main figure.
+  source_url: n/a (owner-supplied Google Maps screenshots, no route URL)
+  source_type: secondary
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: medium
+  notes: Owner screenshots 2026-10-30; one sample; typical range 1:30-2:00. No toll marking on the A-357 route; the A-397 alternative (106 km, 1 h 49 min) has 13.7 km of AP-7 toll road.
+- field: visit_information
+  claim: The official tourism site gives no hours or prices; two tourist offices with phone numbers.
+  source_url: https://turismodesetenil.com/contacto/
+  source_type: official_tourism
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: medium
+  notes: Hours and prices for the Casa de la Damita museum, the Torreón and the cistern are not published on the official site.
+- field: body.nearby_suggestions
+  claim: Nearby sights and viewpoints named in the 'Nearby suggestions' section.
+  source_url: https://turismodesetenil.com/en/que-visitar/
+  source_type: official_tourism
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: medium
+  notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
+- field: body.owner_supplied_suggestions
+  claim: 'Editor-supplied additions for Setenil: Mirador del Carmen, Balcón de Setenil, steep streets, distance from Ronda.'
+  source_url: https://spainbyhanne.dk/setenil-de-las-bodegas-indbygget-i-klipper/
+  source_type: secondary
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: low
+  notes: Supplied by the owner/editor on 2026-10-30 (Eric Olesen (owner), message 2026-10-30; text partly from a Google AI summary and third-party travel sites); not verified against an official source unless an official URL is given in the section.
+- field: visit_information.cost_basis
+  claim: 'Search excerpts (Tavily, 2026-11-08): "Compramos entrada para el castillo y el museo con la damita, dos euros" (Tripadvisor review); "La entrada cuesta apenas 2 € y te permite además visitar el Aljibe subterráneo y la Casa de la Damita" (vacacionesporeuropa.com).'
+  source_url: https://www.vacacionesporeuropa.com/que-ver-setenil-de-las-bodegas-medio-dia.html
+  source_type: secondary
+  checked_at: '2026-11-08'
+  checked_by: Claude (main session)
+  confidence: low
+  notes: 'Travel-site and review excerpts only; not confirmed by the municipality. Owner decision 2026-11-08: no phone call; price shown as approximate with a ''check online before going'' note.'
 review_issues:
-  - code: overlap_ronda
-    severity: warning
-    fields:
-      - related_places
-    description: Usually combined with Ronda (docs/places/ronda.md). Add related_places link after both records confirm identity; the Setenil-Ronda driving leg has not itself been route-checked.
-    retryable: true
-    owner: editorial
-  - code: excursion_layer_scope
-    severity: warning
-    fields:
-      - status
-    description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
-    retryable: true
-    owner: editor
-  - code: visitor_facilities_unverified
-    severity: warning
-    fields:
-      - accessibility
-      - wheelchair_friendly
-      - parking
-      - dog_friendly
-      - toilets_available
-      - food_available
-    description: Parking, accessibility (sloped/cobbled streets), dog policy, toilets and on-site food have not been confirmed from an official source.
-    retryable: true
-    owner: fact_check
-  - code: hours_prices_missing
-    severity: blocking
-    fields:
-      - visit_information
-    description: No official hours or prices found; call the tourist office on 616 55 33 84.
-    retryable: true
-    owner: fact_check
-  - code: owner_supplied_additions_unverified
-    severity: info
-    fields:
-      - body.nearby_suggestions
-    description: Mirador del Carmen, Balcón de Setenil and the Ronda distance come from the editor's search (Google AI summary, a Danish travel site); no official source yet.
-    retryable: true
-    owner: editorial
+- code: overlap_ronda
+  severity: warning
+  fields:
+  - related_places
+  description: Usually combined with Ronda (docs/places/ronda.md). Add related_places link after both records confirm identity; the Setenil-Ronda driving leg has not itself been route-checked.
+  retryable: true
+  owner: editorial
+- code: excursion_layer_scope
+  severity: warning
+  fields:
+  - status
+  description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
+  retryable: true
+  owner: editor
+- code: visitor_facilities_unverified
+  severity: warning
+  fields:
+  - accessibility
+  - wheelchair_friendly
+  - parking
+  - dog_friendly
+  - toilets_available
+  - food_available
+  description: Parking, accessibility (sloped/cobbled streets), dog policy, toilets and on-site food have not been confirmed from an official source.
+  retryable: true
+  owner: fact_check
+- code: owner_supplied_additions_unverified
+  severity: info
+  fields:
+  - body.nearby_suggestions
+  description: Mirador del Carmen, Balcón de Setenil and the Ronda distance come from the editor's search (Google AI summary, a Danish travel site); no official source yet.
+  retryable: true
+  owner: editorial
+- code: sight_prices_unofficial
+  severity: info
+  fields:
+  - visit_information.cost_basis
+  description: 'Castle ticket price from travel sites only (about 2 EUR); guests should check online before going. Owner decision 2026-11-08: no call.'
+  retryable: true
+  owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-30
+updated_at: '2026-11-08'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-15

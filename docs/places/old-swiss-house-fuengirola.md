@@ -64,7 +64,7 @@ toilets_available: unknown
 food_available: 'yes'
 cost_level: €€
 visit_information:
-  schedule: null
+  schedule: Tuesday closed; Wednesday dinner only; Monday and Thursday-Sunday lunch and dinner (own website, owner's screenshot 2026-11-08; times not stated in this section).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -79,7 +79,7 @@ links:
   contact: tel:+34952472606
 related_places: []
 description_short: 'Old Swiss House: restaurant in Fuengirola with a Superman kids menu; booking in advance by phone advised (own website).'
-description_long: According to the restaurant's own website, Old Swiss House is on Calle Marina Nacional in Fuengirola, and it is necessary to book in advance by phone (+34 952 472 606). The website offers set menus such as a Chateaubriand menu (30 EUR) and a Steak Tartar menu (27 EUR per person), and a "Superman Menu for Kids" at 7,50 EUR per child. The page also mentions one hour of free parking on request for clients during lunch or dinner. The website gives conflicting opening days and a street-number discrepancy, so hours are not stated here until checked.
+description_long: 'According to the restaurant''s own website, Old Swiss House is at Calle Marina Nacional 28 in Fuengirola, and it is necessary to book in advance by phone (+34 952 472 606) or the booking form. Opening days: closed on Tuesday, dinner only on Wednesday, lunch and dinner on Monday and Thursday to Sunday. The website offers set menus such as a Chateaubriand menu (30 EUR) and a Steak Tartar menu (27 EUR per person), and a "Superman Menu for Kids" at 7,50 EUR per child.'
 seo_title: Old Swiss House, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Old Swiss House (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -116,6 +116,14 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: Page contradicts itself on Sunday and Wednesday; schedule deliberately not set.
+- field: visit_information.schedule; address
+  claim: '"OPENING TIMES Tuesday closed, Wednesday open for dinner only, Monday, Thursday to Sunday lunch and dinner." ; "952 47 26 06" ; "C. Marina Nacional, 28, 29640 Fuengirola, Málaga"'
+  source_url: https://oldswisshouse.com/en/
+  source_type: official_venue
+  checked_at: '2026-11-08'
+  checked_by: Eric Olesen (screenshot of the own website); recorded by Claude
+  confidence: medium
+  notes: 'Owner screenshot 2026-11-08 of the ''Opening times'' and contact block. Owner decision: this block is the valid one; it replaces the conflicting hours table (Sunday closed vs open) and confirms house number 28 (Google Places lists 26).'
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -138,15 +146,6 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
-- code: source_conflict
-  severity: warning
-  fields:
-  - visit_information.schedule
-  - name
-  - coordinates
-  description: 'Own website conflicts with itself. Sunday: ''SUNDAYS Closed'' vs hours table ''Sunday 13:00 – 16:00 | 19:00 – 23:00''. Wednesday: text says dinner only vs table lunch and dinner (13:00-17:30 | 18:30-22:30). Address: ''C. Marina Nacional, 26'' in privacy text vs ''28'' in header and contact. Needs phone or on-site confirmation.'
-  retryable: true
-  owner: fact_check
 - code: facts_partly_checked
   severity: warning
   fields:
@@ -158,7 +157,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

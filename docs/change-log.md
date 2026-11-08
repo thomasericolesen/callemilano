@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-08 (late evening) - Owner answers to the decision list
+
+- Setenil and Zahara: no call to the tourist offices. The towns are free to walk; the ticketed castles get approximate prices from travel sites (Setenil about 2 EUR combined ticket; Zahara 3,50 EUR adult, free under 4) with a "check online before going" note. Issues `hours_prices_missing` and `tower_hours_prices_unverified` closed; info issue `sight_prices_unofficial` added.
+- Juan Playa stays €€; Café NOMAD stays € (`cost_level_borderline` closed on both).
+- Old Swiss House: the owner's screenshot of the own website settles the conflict: Tuesday closed, Wednesday dinner only, Monday and Thursday-Sunday lunch and dinner; address Calle Marina Nacional 28 (Google lists 26). `source_conflict` closed. Danish app texts for Old Swiss House and Zahara refreshed.
+- Tavily replaces Firecrawl (no credits): `source-reader`, `alpha`, `charlie`, `docs/agent-pipeline.md` and `.claude/settings.json` now use `tavily_search` / `tavily_extract`; `tools/intake.py fetch` marks blocked pages `needs_extract` instead of `needs_firecrawl`.
+
 ## 2026-11-08 (late evening) - Price bands from guest menu photos (owner decision)
 
 - Owner decision: guest photos of menus (Google Maps, and the owner's own screenshots of Tripadvisor/Google) may be used for the price band, recorded as `secondary`, confidence `low`, with info issue `cost_level_menu_photo`.

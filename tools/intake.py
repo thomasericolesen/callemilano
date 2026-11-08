@@ -12,7 +12,7 @@ Subcommands (all JSON in / JSON out, so agents never need to read raw pages):
           curl; PDFs via pdftotext; pages that need JavaScript via headless Chromium
           (tools/render_page.mjs, Playwright). IN: [{"key": "...", "url": "..."}]. Writes
           OUTDIR/_status.json with method and menu/carta/PDF links to follow; pages that still
-          block (403/429/CAPTCHA/empty) are marked "needs_firecrawl"; Facebook/Instagram pages are
+          block (403/429/CAPTCHA/empty) are marked "needs_extract" (Tavily tavily_extract next); Facebook/Instagram pages are
           marked "login_wall" (use an owner screenshot instead).
   create  IN.json               Create draft records from sweep results + editorial fields.
           IN: [{"sweep": "sweep.json", "key": "...", "slug": "...", "name": "...",
@@ -211,12 +211,12 @@ def _links(raw, base):
 
 
 def cmd_fetch(inp, outdir):
-    """curl -> PDF text -> headless Chromium -> needs_firecrawl. Free steps first (owner, 2026-11-03)."""
+    """curl -> PDF text -> headless Chromium -> needs_extract (Tavily). Free steps first (owner, 2026-11-03)."""
     outdir = Path(outdir); outdir.mkdir(parents=True, exist_ok=True); status = {}
     for it in json.load(open(inp)):
         url = it["url"]; method = "curl"; links = []
         if LOGIN_WALL.search(url):
-            # Neither curl, Chromium nor Firecrawl gets past the login wall: use an owner screenshot.
+            # Neither curl, Chromium nor Tavily gets past the login wall: use an owner screenshot.
             (outdir / f"{it['key']}.txt").write_text(f"URL: {url}\nFETCHED: {TODAY}\nMETHOD: none\n\n")
             status[it["key"]] = {"url": url, "http": None, "chars": 0, "method": "none",
                                  "result": "login_wall", "menu_links": []}
@@ -241,7 +241,7 @@ def cmd_fetch(inp, outdir):
         blocked = _blocked(code, txt)
         (outdir / f"{it['key']}.txt").write_text(f"URL: {url}\nFETCHED: {TODAY}\nHTTP: {code}\nMETHOD: {method}\n\n{txt}")
         status[it["key"]] = {"url": url, "http": code, "chars": len(txt), "method": method,
-                             "result": "needs_firecrawl" if blocked else "ok",
+                             "result": "needs_extract" if blocked else "ok",
                              "menu_links": [l for l in links if l["href"] != url][:10]}
         print(f"{it['key']}: {status[it['key']]['result']} ({method}, {code}, {len(txt)} chars, "
               f"{len(status[it['key']]['menu_links'])} menu links)")
