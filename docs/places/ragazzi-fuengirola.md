@@ -148,6 +148,14 @@ evidence:
   checked_by: Claude (orchestrator spot check)
   confidence: high
   notes: Read with curl on 2026-11-03; added because description_long mentions take-away and delivery.
+- field: cost_level
+  claim: '"un restaurante italiano ubicado en al Paseo Marítimo de Fuengirola" ; "Paseo Marítimo Rey de España, 29640 Fuengirola, Málaga"'
+  source_url: https://www.ragazzi.es/
+  source_type: official_venue
+  checked_at: '2026-11-08'
+  checked_by: source-reader agent; spot-checked by Claude (main session)
+  confidence: medium
+  notes: 'Method: curl. The own website names one location only (Fuengirola, Paseo Marítimo); it mentions franchising but lists no other branch, so the menu PDF (https://www.ragazzi.es/carta/menu.pdf, read via Firecrawl, prices unchanged: e.g. MARGHERITA 9.50, PARMA 15.50, CERVEZA CAÑA 2.90) applies to this restaurant.'
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -157,13 +165,6 @@ review_issues:
   - energy_level
   - tags
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
-  retryable: true
-  owner: human_editor
-- code: menu_branch_unconfirmed
-  severity: info
-  description: The menu PDF linked from the own website names no branch; prices assumed to apply to the Fuengirola restaurant. Text read via Firecrawl (image PDF).
-  fields:
-  - cost_level
   retryable: true
   owner: human_editor
 - code: facts_partly_checked
@@ -177,7 +178,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

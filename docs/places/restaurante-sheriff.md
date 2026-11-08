@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-RESTAURANTE-SHERIFF-001
 slug: restaurante-sheriff
 name: Restaurante Sheriff
@@ -116,6 +116,14 @@ evidence:
   checked_by: record-writer agent
   confidence: high
   notes: 'Method: curl. Followed La Carta (curl). In the source each dish name and price sit on separate lines; joined here with a space and the leading item number removed. Carta has no drink prices. Address on page: Calle Playa del Chaparral 4, Mijas Costa (La Cala); name matches ''Restaurante Sheriff La Cala Tranquila''. Home page itself has no prices.'
+- field: status
+  claim: 'Owner (editor-of-record) 2026-11-08: Sheriff is apparently closed, and not because of seasonal variation ("Sheriff er tilsyneladende lukket - ikke på grund af sæsonvariation").'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/change-log.md
+  source_type: secondary
+  checked_at: '2026-11-08'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-08
+  confidence: medium
+  notes: Owner statement in session 2026-11-08 after the phone check listed in docs/faktatjek-liste-2026-11-08.md.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -138,23 +146,15 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
-- code: possibly_closed
-  severity: blocking
-  fields:
-  - visit_information
-  - status
-  description: Google Places reports CLOSED_TEMPORARILY (2026-11-02); docs/published/restaurante-sheriff.md cites a Mijas Tourism note 'Cerrado desde el 28 de febrero', while the own site still lists hours. Confirm by phone (+34 952 493 722) before recommending.
-  retryable: true
-  owner: fact_check
-- code: cost_level_borderline
+- code: closed_permanently
   severity: info
-  description: Median main 16,70 € without a drink price; € or €€ depends on the drink. Left Unknown by owner decision 2026-11-03; confirm opening (issue possibly_closed) and a drink price by phone +34 952 493 722.
   fields:
-  - cost_level
-  retryable: true
+  - status
+  description: 'Owner decision 2026-11-08: the restaurant is closed, not a seasonal closure (Google CLOSED_TEMPORARILY 2026-11-02; Mijas Tourism note "Cerrado desde el 28 de febrero"). Archived; ID kept. Reopen as a new check if it reopens.'
+  retryable: false
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-08'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

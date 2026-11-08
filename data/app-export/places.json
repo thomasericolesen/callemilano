@@ -1,11 +1,13 @@
 {
  "manifest": {
-  "generated": "2026-11-05",
+  "generated": "2026-11-08",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
   "places": 149,
   "holidays": 28,
-  "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership"
+  "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
+  "danish": 0,
+  "danish_stale": []
  },
  "records": [
   {
@@ -8350,7 +8352,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-08",
     "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
@@ -8364,7 +8366,7 @@
      "phone": "+34952478055",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-08"
     }
    }
   },
@@ -9803,14 +9805,14 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": "hoej",
+    "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Somos de Banús: Mediterranean restaurant by the beach at Puerto Banús.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own menu: mains 25-38 € (median about 29 €); drink prices not on own menu. Owner decision 2026-11-02: expensive band. Band rule: adult main + one drink; € <15, €€ 15-35, €€€ >35 (owner decision 2026-11-01)."
+      "text": "Own menu: mains 25-38 € (median about 29 €); drink prices not on own menu, so main plus one drink is about 31-35 €, inside 20-50 €. Owner decision 2026-11-08: €€ under the 2026-11-03 rule (replaces the 2026-11-02 choice of €€€). Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -9832,7 +9834,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-08"
     }
    }
   },
