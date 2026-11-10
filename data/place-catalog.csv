@@ -42,7 +42,7 @@ ES-AND-MAL-THE-GOOD-BURGER-MIRAMAR-001,the-good-burger-miramar,The Good Burger (
 ES-AND-MAL-ZERO-LATENCY-MIRAMAR-001,zero-latency-miramar,Zero Latency Miramar,needs_fact_check,Family activities,Rainy day,Fuengirola,Málaga,36.528642999999995,-4.6320191,2.8,yes,9 min,docs/places/zero-latency-miramar.md
 ES-AND-MAL-BURGER-KING-MIRAMAR-001,burger-king-miramar,Burger King (C.C. Miramar),draft,Restaurants,Restaurant,Fuengirola,Málaga,36.528052599999995,-4.6318912,2.9,yes,9 min,docs/places/burger-king-miramar.md
 ES-AND-MAL-FOSTERS-HOLLYWOOD-MIRAMAR-001,fosters-hollywood-miramar,Foster's Hollywood (C.C. Miramar),draft,Restaurants,Restaurant,Fuengirola,Málaga,36.528175999999995,-4.631841,2.9,yes,9 min,docs/places/fosters-hollywood-miramar.md
-ES-AND-MAL-LA-TAGLIATELLA-MIRAMAR-001,la-tagliatella-miramar,La Tagliatella (C.C. Miramar),draft,Restaurants,Restaurant,Fuengirola,Málaga,36.528461899999996,-4.6317998,2.9,yes,8 min,docs/places/la-tagliatella-miramar.md
+ES-AND-MAL-LA-TAGLIATELLA-MIRAMAR-001,la-tagliatella-miramar,La Tagliatella (C.C. Miramar),needs_fact_check,Restaurants,Restaurant,Fuengirola,Málaga,36.528461899999996,-4.6317998,2.9,yes,8 min,docs/places/la-tagliatella-miramar.md
 ES-AND-MAL-TERRAZA-CHILL-OUT-BAR-001,terraza-chill-out-bar,Terraza Chill Out Bar,archived,Restaurants,,Fuengirola,Málaga,36.5292166,-4.631669,2.9,yes,8 min,docs/places/terraza-chill-out-bar.md
 ES-AND-MAL-BIOPARC-FUENGIROLA-001,bioparc-fuengirola,BIOPARC Fuengirola,needs_fact_check,Family activities,,Fuengirola,Málaga,36.5368411,-4.6277631,3.1,yes,12 min,docs/places/bioparc-fuengirola.md
 ES-AND-MAL-SKY-BAR-VERAMAR-001,sky-bar-veramar,Sky Bar Veramar,draft,Restaurants,,Fuengirola,Málaga,36.5338875,-4.6281745,3.1,yes,11 min,docs/places/sky-bar-veramar.md
@@ -81,12 +81,12 @@ ES-AND-MAL-RETROCK-BART-001,retrock-bart,RetROCK BARt,needs_fact_check,Restauran
 ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001,chiringuito-los-moreno,Chiringuito Los Moreno,approved,Restaurants,Restaurant; Beach,Mijas,Málaga,36.4995404,-4.6837348,4.4,yes,15 min,docs/places/chiringuito-los-moreno.md
 ES-AND-MAL-LA-BUTIBAMBA-001,la-butibamba,La Butibamba,approved,Beaches,Beach,Mijas,Málaga,36.5002,-4.6843,4.4,yes,15 min,docs/places/la-butibamba.md
 ES-AND-MAL-UTOPIA-LA-CALA-001,utopia-la-cala,UTOPÍA,needs_fact_check,Restaurants,Restaurant,Mijas,Málaga,36.500232,-4.6852730000000005,4.4,yes,14 min,docs/places/utopia-la-cala.md
-ES-AND-MAL-VEGETALIA-FUENGIROLA-001,vegetalia-fuengirola,Restaurante Vegetalia,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5529963,-4.617451,4.5,yes,16 min,docs/places/vegetalia-fuengirola.md
+ES-AND-MAL-VEGETALIA-FUENGIROLA-001,vegetalia-fuengirola,Restaurante Vegetalia,needs_fact_check,Restaurants,Restaurant,Fuengirola,Málaga,36.5529963,-4.617451,4.5,yes,16 min,docs/places/vegetalia-fuengirola.md
 ES-AND-MAL-FREIDURIA-EL-CHOCO-FUENGIROLA-001,freiduria-el-choco-fuengirola,Pulpería Freiduría El Choco,needs_fact_check,Restaurants,Restaurant,Fuengirola,Málaga,36.5509163,-4.6153718999999995,4.6,yes,14 min,docs/places/freiduria-el-choco-fuengirola.md
 ES-AND-MAL-LOS-ENEBROS-FUENGIROLA-001,los-enebros-fuengirola,Restaurante Los Enebros,needs_fact_check,Restaurants,Restaurant,Fuengirola,Málaga,36.5530316,-4.6162512,4.6,yes,15 min,docs/places/los-enebros-fuengirola.md
 ES-AND-MAL-DA-VINCI-LOS-BOLICHES-001,da-vinci-los-boliches,Da Vinci Los Boliches,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.554394699999996,-4.6140516,4.8,yes,15 min,docs/places/da-vinci-los-boliches.md
-ES-AND-MAL-MESON-SALVADOR-FUENGIROLA-001,meson-salvador-fuengirola,Mesón Salvador,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5544279,-4.6140142,4.8,yes,15 min,docs/places/meson-salvador-fuengirola.md
-ES-AND-MAL-KAMURA-SUSHI-FUENGIROLA-001,kamura-sushi-fuengirola,Kamura Sushi,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5548332,-4.6134485,4.9,yes,15 min,docs/places/kamura-sushi-fuengirola.md
+ES-AND-MAL-MESON-SALVADOR-FUENGIROLA-001,meson-salvador-fuengirola,Mesón Salvador,needs_fact_check,Restaurants,Restaurant,Fuengirola,Málaga,36.5544279,-4.6140142,4.8,yes,15 min,docs/places/meson-salvador-fuengirola.md
+ES-AND-MAL-KAMURA-SUSHI-FUENGIROLA-001,kamura-sushi-fuengirola,Kamura Sushi,needs_fact_check,Restaurants,Restaurant,Fuengirola,Málaga,36.5548332,-4.6134485,4.9,yes,15 min,docs/places/kamura-sushi-fuengirola.md
 ES-AND-MAL-BOLICHES-GAVIOTAS-001,boliches-gaviotas,Boliches-Gaviotas,needs_fact_check,Beaches,Beach,Fuengirola,Málaga,36.5544,-4.6116,5.0,yes,15 min,docs/places/boliches-gaviotas.md
 ES-AND-MAL-JUAN-PLAYA-FUENGIROLA-001,juan-playa-fuengirola,Juan Playa Restaurante,needs_fact_check,Restaurants,Restaurant,Fuengirola,Málaga,36.5550533,-4.6115601999999996,5.0,yes,16 min,docs/places/juan-playa-fuengirola.md
 ES-AND-MAL-MONNALISA-FUENGIROLA-001,monnalisa-fuengirola,Monnalisa,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.5547259,-4.6122707,5.0,yes,15 min,docs/places/monnalisa-fuengirola.md

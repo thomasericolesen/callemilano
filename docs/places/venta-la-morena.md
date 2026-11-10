@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34952467938
 related_places: []
 description_short: 'Venta La Morena: venta (roadside restaurant) with grill on the Camino Viejo de Coín, about 4 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Venta La Morena is a venta (roadside restaurant) with grill on the Camino Viejo de Coín at Camino Viejo de Coín, Km. 2, 5, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 4 minutes by car (Google route check, Saturday 10:00). Owner''s own knowledge: Well visited and a good place; the lamb is very good. Its own Facebook page exists, but opening hours, prices, children''s facilities and accessibility could not be read from it; check with the venue before visiting.'
+description_long: 'Venta La Morena is a venta (roadside restaurant) with grill on the Camino Viejo de Coín at Camino Viejo de Coín, Km. 2, 5, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 4 minutes by car (Google route check, Saturday 10:00). Its own Facebook page gives the address as Camino De Coin, Mijas, 29651, phone +34 952 46 79 38 and email alarcongonzalezvm@gmail.com. A photo notice on the page says the venta closes for holidays from 15 to 30 June (the year is not shown). No weekly opening hours and no menu were found on the page, so prices are unchecked; check with the venue before visiting. Owner''s own knowledge: Well visited and a good place; the lamb is very good.'
 seo_title: Venta La Morena, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Venta La Morena (Mijas): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -124,6 +124,14 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of tripadvisor.es listing 'VENTA LA MORENA, Mijas'. Name and town match.
+- field: links.contact; address; closure note
+  claim: '"Camino De Coin, Mijas, Spain, 29651"; phone "+34 952 46 79 38"; "Desde el día 15 de junio, hasta el 30 de junio, permaneceremos cerrados por vacaciones."'
+  source_url: https://www.facebook.com/ventalamorena/directory_basic_info
+  source_type: official_venue
+  checked_at: '2026-11-10'
+  checked_by: Claude (main session), Claude in Chrome, logged-in read-only
+  confidence: medium
+  notes: Own Facebook page, read 2026-11-10. Hours field only shows 'Åben nu' (no weekly hours); holiday notice is a photo, year not visible. Email alarcongonzalezvm@gmail.com. Facebook label 'Spansk restaurant · Moderat' is a Facebook price range, not a menu price. No menu found; cost_level €€ unchanged and still from Tripadvisor.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -134,15 +142,6 @@ review_issues:
   description: 'Age groups and family scores are not assessed; energy_level Low is an editorial estimate from the type of place. Owner note: Well visited and a good place; the lamb is very good.'
   retryable: true
   owner: human_editor
-- code: hours_and_prices_unverified
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  description: Only the own Facebook page was found and its content was not read. Hours, menu and prices still need checking.
-  retryable: true
-  owner: fact_check
 - code: cost_level_secondary_source
   severity: info
   fields:
@@ -150,8 +149,17 @@ review_issues:
   description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
   retryable: true
   owner: human_editor
+- code: hours_and_prices_unverified
+  severity: warning
+  fields:
+  - visit_information
+  - cost_level
+  - accessibility
+  description: 'Own Facebook page read 2026-11-10: contact and address confirmed, holiday closure 15-30 June (year unknown). Weekly hours and menu/prices still not found; menu is still missing.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-10'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

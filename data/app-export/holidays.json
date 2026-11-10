@@ -1,13 +1,17 @@
 {
  "manifest": {
-  "generated": "2026-11-08",
+  "generated": "2026-11-10",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
-  "places": 154,
+  "places": 158,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 130,
-  "danish_stale": []
+  "danish": 127,
+  "danish_stale": [
+   "ES-AND-MAL-CHIRINGUITO-EL-CACHALOTE-001",
+   "ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001",
+   "ES-AND-MAL-LA-SIERRA-RESTAURANTE-001"
+  ]
  },
  "holidays": [
   {

@@ -128,11 +128,11 @@ review_issues:
   - description_long
   - visit_information
   - cost_level
-  description: BLOCKED.
+  description: 'Retried 2026-11-10 in a real browser: the official page is blocked by Incapsula (''Request unsuccessful''). Not bypassed. No readable own source.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

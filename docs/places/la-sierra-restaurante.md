@@ -62,15 +62,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: €€
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own Facebook page price range ''Moderat'' (Facebook''s middle price marking), read as the €€ band; no menu prices seen. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
-  cost_checked_at: '2026-11-02'
+  cost_basis: 'Own Instagram post of 21 Nov 2024 (Autumn 2024 menu), a la carte fish, meat and chicken mains: 16,5; 18; 15; 14; 14; 15; 28 EUR, median 15 EUR, plus one drink of about 3 EUR (assumption) gives about 18 EUR. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03). Menu is from autumn 2024 and may be outdated.'
+  cost_checked_at: '2026-11-10'
 links:
   official_website: https://www.facebook.com/restlasierra
   booking: null
@@ -79,7 +79,7 @@ links:
   contact: tel:+34951741990
 related_places: []
 description_short: La Sierra Restaurante at Cerrado del Águila Golf and Resort, about 5 min by car from Casa de la Familia; breakfast every day and views over the coast, according to its own page.
-description_long: La Sierra Restaurante is the restaurant of Cerrado del Águila Golf and Resort, Avenida María Civiero s/n, Mijas Costa. From Casa de la Familia it is about 5 minutes by car (Google route check, Saturday 10:00). Its own Facebook page describes it as 'nestled up in the hills of Mijas Costa' with views across the Costa del Sol, and advertises breakfast every day (Spanish, English, French and international). The page lists phone +34 951 74 19 90 and WhatsApp +34 657 88 53 32. Opening hours, menu prices, age rules and facilities have not been checked; contact the restaurant before visiting.
+description_long: 'La Sierra Restaurante is the restaurant of Cerrado del Águila Golf and Resort, URB. Cerrado del Águila, Avenida María Civiero s/n, Mijas, 29649. From Casa de la Familia it is about 5 minutes by car (Google route check, Saturday 10:00). Its own Facebook page describes it as ''nestled up in the hills of Mijas Costa'' with views across the Costa del Sol, and advertises breakfast every day. Contact: phone +34 951 74 19 90, WhatsApp +34 657 88 53 32, email lasierramijas@outlook.com. An Instagram post from 21 November 2024 shows the Autumn 2024 menus: breakfasts, a menu of the day and an a la carte menu, with a Sunday roast (carvery). On that a la carte menu main dishes cost 14 to 18 EUR (rib-eye 28 EUR), salads and pasta 12 to 16,5 EUR, which gives roughly 18 EUR for a main and a drink. The menu is over a year old, so prices may have changed. Opening hours, age rules and facilities have not been checked; contact the restaurant before visiting.'
 seo_title: La Sierra Restaurante at Cerrado del Águila, Mijas | CalleMilano
 seo_description: 'La Sierra Restaurante at Cerrado del Águila Golf and Resort, Mijas Costa: breakfast every day and coast views, 5 min by car from Casa de la Familia.'
 images: []
@@ -108,6 +108,22 @@ evidence:
   checked_by: Claude (main session) from owner screenshot
   confidence: medium
   notes: 'Owner screenshot of the public Facebook page supplied 2026-11-02 (interface in Danish: ''Moderat'' = Facebook price range Moderate). Confirms that La Sierra Restaurante and the Google listing ''Restaurante Cerrado del Águila'' are the same venue. Ratings and the e-mail address not recorded. ''tableagent.com'' suggests online booking; exact booking URL not seen.'
+- field: cost_level; visit_information.cost_basis
+  claim: '"Check out our Autumn 2024 Menus - Tasty Breakfasts, Great Value Menu of the Day and a vast A La Carte Menu. Sundays we have the best roast on the coast with our Carvery Menu!" ; A la carte fish, meat and chicken: Fish & chips 16,5; Sticky ribs 18; Homemade beef burger 15; Crispy chicken burger 14; Vegan burger 14; Chicken breast w/ mushroom sauce 15; 8oz rib-eye 28; salads 12-14,5; pasta/noodles 12-16,5; sandwiches 12-14,5'
+  source_url: https://www.instagram.com/p/DCpLLvxO7CA/
+  source_type: official_venue
+  checked_at: '2026-11-10'
+  checked_by: Claude (main session), Claude in Chrome, logged-in read-only
+  confidence: medium
+  notes: Own Instagram post 21 Nov 2024, read 2026-11-10; menu is autumn 2024 and may be outdated. Median main 15 EUR. A thumbnail post 'Menú del día ... 2 courses €20 / 3 courses €25' was seen but not opened. Facebook label 'Moderat' is not a menu price.
+- field: links.contact; address
+  claim: '"+34 951741990"; "URB. CERRADO DEL ÁGUILA, Avenida María Civiero S/N, Mijas, Andalucía, Spain 29649"; Facebook: phone +34 951 74 19 90, WhatsApp +34 657 88 53 32, email lasierramijas@outlook.com'
+  source_url: https://www.facebook.com/restlasierra
+  source_type: official_venue
+  checked_at: '2026-11-10'
+  checked_by: Claude (main session), Claude in Chrome, logged-in read-only
+  confidence: high
+  notes: Own Instagram bio and Facebook page, read 2026-11-10.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -126,11 +142,25 @@ review_issues:
   - accessibility
   - toilets_available
   - seasonality
-  description: Identity, contact, price range and daily breakfast from own Facebook page (owner screenshot). Opening hours, menu prices, booking link, age rules and facilities still open.
+  description: 'Contact, address and a la carte prices from own Instagram/Facebook (2026-11-10). Still open: opening hours, booking, age rules, facilities; current menu.'
+  retryable: true
+  owner: fact_check
+- code: cost_level_borderline
+  severity: info
+  fields:
+  - cost_level
+  description: Median main 15 EUR plus drink gives about 18 EUR, close to the 20 EUR limit between € and €€.
+  retryable: true
+  owner: fact_check
+- code: cost_menu_from_2024
+  severity: info
+  fields:
+  - cost_level
+  description: cost_level € is based on an Autumn 2024 menu posted 2024-11-21 on Instagram; prices may be outdated. Find a current menu.
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

@@ -64,7 +64,7 @@ toilets_available: unknown
 food_available: 'yes'
 cost_level: €
 visit_information:
-  schedule: Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (own site, undated, read 2026-11-05).
+  schedule: Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (staff rest day). Marked 'inicio temporada 2026', so these are the 2026 season hours; hours outside the season are not stated (own site, read 2026-11-10).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -76,11 +76,11 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34627863723
 related_places:
 - playa-la-malagueta
 description_short: 'Chiringuito El Cachalote: family-run fish beach restaurant on Malagueta beach since 1980, with sardine espetos.'
-description_long: 'Chiringuito El Cachalote is a family business on the Paseo Marítimo Pablo Ruiz Picasso by Calle Gutemberg, on Malagueta beach, serving Málaga-style fried fish (''pescaíto''), seafood and grilled sardine espetos since 1980 (own website). Opening hours on the site: Wednesday-Sunday 11:30-19:00, kitchen 12:00-18:00; closed Monday and Tuesday. The hours are not dated, so check before going, especially outside summer.'
+description_long: 'Chiringuito El Cachalote is a family business on the Paseo Marítimo Pablo Ruiz Picasso by Calle Gutemberg, on Malagueta beach, serving Málaga-style fried fish (''pescaíto''), seafood and grilled sardine espetos since 1980 (own website). The site gives opening hours of Wednesday to Sunday 11:30-19:00, kitchen 12:00-18:00, closed Monday and Tuesday, under the heading ''inicio temporada 2026'', so these are season hours; check before going outside summer. Reservations phone: +34 627 863 723. Sunbeds are available from 10:30 to 19:00 for 10 EUR. The menu page still shows only draft menu images (''BORRADOR''), so prices are provisional.'
 seo_title: Chiringuito El Cachalote, Málaga | CalleMilano
 seo_description: 'Chiringuito El Cachalote (Málaga): food, opening hours and drive time from Casa de la Familia.'
 images: []
@@ -133,6 +133,14 @@ evidence:
   checked_by: Claude (main session)
   confidence: medium
   notes: 'Method: curl. Corrects the 2026-11-02 reading, which gave 11:30-19:00 as kitchen hours.'
+- field: visit_information.schedule; links.contact; sunbed price
+  claim: '"Teléfono de reservas: +34 627 863 723." ; "HORARIO (de miércoles a domingo) 11:30h – 19:00h cocina 12:00h – 18:00h Lunes y martes CERRADO por descanso del personal" ; "inicio temporada 2026" ; "10:30 h – 19;00 h. Hamaca/Sunbed: 10€"'
+  source_url: https://chiringuitoelcachalote.com/
+  source_type: official_venue
+  checked_at: '2026-11-10'
+  checked_by: Claude (main session), Claude in Chrome, logged-in read-only
+  confidence: high
+  notes: Own website read in full in a real browser 2026-11-10. /menu/ still only BORRADOR-V2-MENU images (uploads 2026/02), no final menu.
 review_issues:
 - code: family_suitability_not_assessed
   severity: warning
@@ -146,18 +154,18 @@ review_issues:
   severity: warning
   fields:
   - booking_required
-  description: 'Own website checked 2026-11-02; prices from the own menu 2026-11-05. Still open: booking_required. Opening hours change by season; check before publishing.'
+  description: 'Own website re-read 2026-11-10 (hours, reservations phone, sunbeds). Still open: booking_required, hours outside the 2026 season.'
   retryable: true
   owner: fact_check
 - code: cost_level_menu_draft
   severity: info
   fields:
   - cost_level
-  description: cost_level € (about 17,90 €) is from menu images named 'BORRADOR' (draft), uploaded February 2026; was €€ from Tripadvisor. Check the menu on site.
+  description: 'Checked again 2026-11-10: the /menu/ page still shows only draft images named ''BORRADOR-V2-MENU'' (uploaded February 2026). cost_level € (about 17,90 EUR) is from that draft; check the final menu.'
   retryable: true
-  owner: human_editor
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-05'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

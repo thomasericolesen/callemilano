@@ -1,13 +1,17 @@
 {
  "manifest": {
-  "generated": "2026-11-08",
+  "generated": "2026-11-10",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
-  "places": 154,
+  "places": 158,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 130,
-  "danish_stale": []
+  "danish": 127,
+  "danish_stale": [
+   "ES-AND-MAL-CHIRINGUITO-EL-CACHALOTE-001",
+   "ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001",
+   "ES-AND-MAL-LA-SIERRA-RESTAURANTE-001"
+  ]
  },
  "records": [
   {
@@ -1953,7 +1957,7 @@
    "tags": [
     "spisested"
    ],
-   "description": "Chiringuito El Cachalote is a family business on the Paseo Marítimo Pablo Ruiz Picasso by Calle Gutemberg, on Malagueta beach, serving Málaga-style fried fish ('pescaíto'), seafood and grilled sardine espetos since 1980 (own website). Opening hours on the site: Wednesday-Sunday 11:30-19:00, kitchen 12:00-18:00; closed Monday and Tuesday. The hours are not dated, so check before going, especially outside summer.",
+   "description": "Chiringuito El Cachalote is a family business on the Paseo Marítimo Pablo Ruiz Picasso by Calle Gutemberg, on Malagueta beach, serving Málaga-style fried fish ('pescaíto'), seafood and grilled sardine espetos since 1980 (own website). The site gives opening hours of Wednesday to Sunday 11:30-19:00, kitchen 12:00-18:00, closed Monday and Tuesday, under the heading 'inicio temporada 2026', so these are season hours; check before going outside summer. Reservations phone: +34 627 863 723. Sunbeds are available from 10:30 to 19:00 for 10 EUR. The menu page still shows only draft menu images ('BORRADOR'), so prices are provisional.",
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -1977,15 +1981,15 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Chiringuito El Cachalote: familiedrevet strandrestaurant med fisk på Malagueta-stranden siden 1980, med sardiner på espeto.",
+    "summary": "Chiringuito El Cachalote: family-run fish beach restaurant on Malagueta beach since 1980, with sardine espetos.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Onsdag-søndag 11.30-19.00, køkkenet 12.00-18.00; lukket mandag-tirsdag (egen hjemmeside, ikke dateret, læst 5. nov. 2026)."
+      "text": "Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (staff rest day). Marked 'inicio temporada 2026', so these are the 2026 season hours; hours outside the season are not stated (own site, read 2026-11-10)."
      },
      {
       "label": "Pris",
-      "text": "Fisk, skaldyr og paella 11,00-24,00 € pr. portion, fadøl 2,90 €. Ca. 17,90 € pr. voksen for en hovedret og en drik. Brød og service 1,20 € ekstra. Menuen på hjemmesiden er en kladde, så priserne kan afvige."
+      "text": "Own menu (image pages on the /menu/ page, files named 'BORRADOR-V2-MENU', uploaded February 2026): 23 portion-priced fish, seafood and paella dishes 11,00-24,00 € (median 15,00 €; per-100 g fish, the single espeto and the two-portion fritura left out) plus draught beer 2,90 € gives about 17,90 € per adult. Bread and service 1,20 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
      }
     ],
     "links": {
@@ -1993,21 +1997,21 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-05",
-    "text_language": "da",
+    "checked_at": "2026-11-10",
+    "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Málaga",
-     "schedule": "Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (own site, undated, read 2026-11-05).",
+     "schedule": "Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (staff rest day). Marked 'inicio temporada 2026', so these are the 2026 season hours; hours outside the season are not stated (own site, read 2026-11-10).",
      "schedule_checked_at": "2026-11-05",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
      "is_bar": false,
-     "phone": null,
+     "phone": "+34627863723",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-05"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -4126,7 +4130,7 @@
    "tags": [
     "spisested"
    ],
-   "description": "Heladería Casa Esteban is an artisan ice-cream parlour with three shops (Mijas Pueblo, La Cala de Mijas and Fuengirola); this record is the Fuengirola shop at Paseo Marítimo Rey de España 26 (phone 952 19 29 42), according to the shop's own Instagram and Facebook pages. Opening hours and prices are not published there; check before going. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Family recommendation (Christian, callemilano.dk): Good ice cream.",
+   "description": "Heladería Casa Esteban is an artisan ice-cream parlour with three shops (Mijas Pueblo, La Cala de Mijas and Fuengirola); this record is the Fuengirola shop at Paseo Marítimo Rey de España 26 (phone 952 19 29 42), according to the shop's own Instagram and Facebook pages. In an Instagram post of about 9 November 2026 the shop says that Sunday 15 November is the last day of the season in Mijas Pueblo and La Cala de Mijas, and that the Fuengirola shop stays open during the winter. Opening hours and prices are not published on its Facebook or Instagram pages; check before going. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Family recommendation (Christian, callemilano.dk): Good ice cream.",
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -4150,15 +4154,15 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Heladería Casa Esteban: hjemmelavet is på Paseo Marítimo i Fuengirola (én af tre butikker), ca. 15 min i bil fra Casa de la Familia.",
+    "summary": "Heladería Casa Esteban: artisan ice-cream parlour on the Paseo Marítimo in Fuengirola; this shop stays open in winter according to its own Instagram. About 15 min by car from Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-08",
-    "text_language": "da",
+    "checked_at": "2026-11-10",
+    "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -4171,7 +4175,7 @@
      "phone": "+34952192942",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-08"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -4744,6 +4748,81 @@
    }
   },
   {
+   "id": "ES-AND-MAL-KAMURA-SUSHI-FUENGIROLA-001",
+   "slug": "kamura-sushi-fuengirola",
+   "name": "Kamura Sushi",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.5548332,
+   "lng": -4.6134485,
+   "google_maps_url": "https://maps.google.com/?cid=14638088156767510801",
+   "google_place_id": "ChIJF01fJVDicg0REeH6Zp_vJMs",
+   "url": "http://kamurasushi.com/",
+   "tags": [
+    "spisested"
+   ],
+   "description": "Kamura Sushi is a sushi restaurant in Los Boliches, about 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). According to its own website it is open Tuesday 13:00-16:00 (bento boxes only) and Wednesday to Saturday 13:00-16:00 and 20:00-23:00; no hours are given for Sunday and Monday. The site recommends booking and says there are two dinner sittings at weekends or busy days (20:00-21:30 or 21:30-23:00). Orders are picked up at the restaurant (no home delivery) and can be eaten there on the terrace or inside. The own carta (an undated image) lists sushi sets at 16 to 32 EUR (median 21 EUR), so about 24 EUR per person with a drink. Check the hours and prices before going.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 15,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": "middel",
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Kamura Sushi: small sushi restaurant in Los Boliches with takeaway pick-up and a few tables, open Tuesday to Saturday; booking recommended.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Tue 13:00-16:00 (bento boxes only); Wed-Sat 13:00-16:00 and 20:00-23:00; no hours listed for Sun and Mon (closed implied). Not stated as seasonal (own website, undated)."
+     },
+     {
+      "label": "Pris",
+      "text": "Own carta (image, undated): sushi sets (bandejas) takara 16,00; sakura 19,00; kiku 21,00; maki 24,50; salmon dake 32,00 EUR, median 21 EUR, plus one drink. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+     }
+    ],
+    "links": {
+     "official": "http://kamurasushi.com/",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-10",
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Tue 13:00-16:00 (bento boxes only); Wed-Sat 13:00-16:00 and 20:00-23:00; no hours listed for Sun and Mon (closed implied). Not stated as seasonal (own website, undated).",
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": "Booking recommended; two dinner sittings at weekends or busy days (20:00-21:30 or 21:30-23:00).",
+     "typical_duration": null,
+     "updated_at": "2026-11-10"
+    }
+   }
+  },
+  {
    "id": "ES-AND-MAL-KARTING-EXPERIENCE-MIJAS-001",
    "slug": "karting-experience-mijas",
    "name": "Karting Experience Mijas",
@@ -5248,7 +5327,7 @@
    "tags": [
     "spisested"
    ],
-   "description": "La Sierra Restaurante is the restaurant of Cerrado del Águila Golf and Resort, Avenida María Civiero s/n, Mijas Costa. From Casa de la Familia it is about 5 minutes by car (Google route check, Saturday 10:00). Its own Facebook page describes it as 'nestled up in the hills of Mijas Costa' with views across the Costa del Sol, and advertises breakfast every day (Spanish, English, French and international). The page lists phone +34 951 74 19 90 and WhatsApp +34 657 88 53 32. Opening hours, menu prices, age rules and facilities have not been checked; contact the restaurant before visiting.",
+   "description": "La Sierra Restaurante is the restaurant of Cerrado del Águila Golf and Resort, URB. Cerrado del Águila, Avenida María Civiero s/n, Mijas, 29649. From Casa de la Familia it is about 5 minutes by car (Google route check, Saturday 10:00). Its own Facebook page describes it as 'nestled up in the hills of Mijas Costa' with views across the Costa del Sol, and advertises breakfast every day. Contact: phone +34 951 74 19 90, WhatsApp +34 657 88 53 32, email lasierramijas@outlook.com. An Instagram post from 21 November 2024 shows the Autumn 2024 menus: breakfasts, a menu of the day and an a la carte menu, with a Sunday roast (carvery). On that a la carte menu main dishes cost 14 to 18 EUR (rib-eye 28 EUR), salads and pasta 12 to 16,5 EUR, which gives roughly 18 EUR for a main and a drink. The menu is over a year old, so prices may have changed. Opening hours, age rules and facilities have not been checked; contact the restaurant before visiting.",
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -5269,14 +5348,14 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": "middel",
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "La Sierra Restaurante på Cerrado del Águila Golf and Resort, ca. 5 min i bil fra Casa de la Familia; morgenmad hver dag og udsigt over kysten ifølge stedets egen side.",
+    "summary": "La Sierra Restaurante at Cerrado del Águila Golf and Resort, about 5 min by car from Casa de la Familia; breakfast every day and views over the coast, according to its own page.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Prisniveau ifølge stedets Facebook-side: moderat (€€). Ingen menupriser set. Tjek menuen på stedet."
+      "text": "Own Instagram post of 21 Nov 2024 (Autumn 2024 menu), a la carte fish, meat and chicken mains: 16,5; 18; 15; 14; 14; 15; 28 EUR, median 15 EUR, plus one drink of about 3 EUR (assumption) gives about 18 EUR. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03). Menu is from autumn 2024 and may be outdated."
      }
     ],
     "links": {
@@ -5284,8 +5363,8 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
-    "text_language": "da",
+    "checked_at": "2026-11-10",
+    "text_language": "en",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -5298,7 +5377,78 @@
      "phone": "+34951741990",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-10"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-LA-TAGLIATELLA-MIRAMAR-001",
+   "slug": "la-tagliatella-miramar",
+   "name": "La Tagliatella (C.C. Miramar)",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.528461899999996,
+   "lng": -4.6317998,
+   "google_maps_url": "https://maps.google.com/?cid=5698280711586942777",
+   "google_place_id": "ChIJHzgiD37jcg0ROY-ZzB1cFE8",
+   "url": "https://www.latagliatella.es/restaurantes/malaga/cc-miramar-fuengirola?utm_source=gmb&utm_medium=organic&utm_campaign=gmb&utm_content=web",
+   "tags": [
+    "spisested"
+   ],
+   "description": "La Tagliatella (C.C. Miramar) is an Italian restaurant chain branch at the Miramar shopping centre, Av. de la Encarnación s/n, 29640 Fuengirola (phone +34 951 02 66 29), about 8 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). The official page lists opening hours of 12:00-23:00 Monday to Thursday and on Sunday, and 12:00-23:30 on Friday and Saturday, and offers booking and takeaway (delivery is shown greyed out). Menu prices were not checked.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 8,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": null,
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "La Tagliatella (C.C. Miramar): Italian restaurant chain at the Miramar shopping centre, open daily from 12:00, about 8 min by car from Casa de la Familia.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Mon-Thu 12:00-23:00; Fri-Sat 12:00-23:30; Sun 12:00-23:00. Not stated as seasonal (official page, read 2026-11-10)."
+     }
+    ],
+    "links": {
+     "official": "https://www.latagliatella.es/restaurantes/malaga/cc-miramar-fuengirola?utm_source=gmb&utm_medium=organic&utm_campaign=gmb&utm_content=web",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-10",
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Mon-Thu 12:00-23:00; Fri-Sat 12:00-23:30; Sun 12:00-23:00. Not stated as seasonal (official page, read 2026-11-10).",
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34951026629",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -6338,6 +6488,77 @@
      "booking_lead_time": null,
      "typical_duration": "45–90 minutes (editorial planning estimate)",
      "updated_at": "2026-10-04"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-MESON-SALVADOR-FUENGIROLA-001",
+   "slug": "meson-salvador-fuengirola",
+   "name": "Mesón Salvador",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.5544279,
+   "lng": -4.6140142,
+   "google_maps_url": "https://maps.google.com/?cid=5832449834697985585",
+   "google_place_id": "ChIJ7_eyIFDicg0RMY51FzkG8VA",
+   "url": "https://www.facebook.com/Meson-Salvador-Comida-Casera-1231393506981047/",
+   "tags": [
+    "spisested"
+   ],
+   "description": "Mesón Salvador (Facebook: 'Meson Salvador Comida Casera') is a Spanish restaurant in Los Boliches, Fuengirola, about 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Its own Facebook page lists phone +34 952 58 74 94. Two photo notices on the page say that Sundays are closed and that the usual hours on other days are 8:30 to 23:00 (kitchen); a further notice gives shorter hours (8:30-17:00) for 6 to 11 October 'as every year'. The notices are undated, so the hours may be out of date. The page shows Christmas group menus (38, 45 and 55 EUR with drink, post of 30 October 2026) but no regular menu, so the price level is unknown. Check before visiting.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 15,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": null,
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Mesón Salvador: homely Spanish restaurant ('comida casera') in Los Boliches, about 15 min by car from Casa de la Familia; open Monday to Saturday according to Facebook notices.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Mon-Sat 8:30-23:00 (kitchen); closed Sunday. Taken from undated notices on the own Facebook page; not confirmed as current."
+     }
+    ],
+    "links": {
+     "official": "https://www.facebook.com/Meson-Salvador-Comida-Casera-1231393506981047/",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-10",
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Mon-Sat 8:30-23:00 (kitchen); closed Sunday. Taken from undated notices on the own Facebook page; not confirmed as current.",
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952587494",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -10656,6 +10877,72 @@
    }
   },
   {
+   "id": "ES-AND-MAL-VEGETALIA-FUENGIROLA-001",
+   "slug": "vegetalia-fuengirola",
+   "name": "Restaurante Vegetalia",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.5529963,
+   "lng": -4.617451,
+   "google_maps_url": "https://maps.google.com/?cid=246006214809323230",
+   "google_place_id": "ChIJ3SAuZE_icg0R3oY_Vln9aQM",
+   "url": null,
+   "tags": [
+    "spisested"
+   ],
+   "description": "Restaurante Vegetalia is a vegetarian restaurant at Calle Santa Isabel 8, 29640 Fuengirola, about 16 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Its own Facebook page describes a 'buffet ovo-lacto-vegetariano' (eggs and dairy, no meat or fish) and lists phone +34 952 58 60 31. The page posts a daily dish, the latest on 9 November 2026 for Tuesday 10 November, so the restaurant appears active. Opening days and hours are not stated, and the buffet price was not found; check before going.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 16,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [
+     "spisested"
+    ],
+    "cost_level": null,
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Restaurante Vegetalia: vegetarian restaurant with an ovo-lacto-vegetarian buffet in central Fuengirola, about 16 min by car from Casa de la Familia.",
+    "practical": [],
+    "links": {
+     "official": null,
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-10",
+    "text_language": "en",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": "+34952586031",
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-10"
+    }
+   }
+  },
+  {
    "id": "ES-AND-CAD-VEJER-DE-LA-FRONTERA-001",
    "slug": "vejer-de-la-frontera",
    "name": "Vejer de la Frontera",
@@ -10762,7 +11049,7 @@
    "tags": [
     "spisested"
    ],
-   "description": "Venta La Morena is a venta (roadside restaurant) with grill on the Camino Viejo de Coín at Camino Viejo de Coín, Km. 2, 5, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 4 minutes by car (Google route check, Saturday 10:00). Owner's own knowledge: Well visited and a good place; the lamb is very good. Its own Facebook page exists, but opening hours, prices, children's facilities and accessibility could not be read from it; check with the venue before visiting.",
+   "description": "Venta La Morena is a venta (roadside restaurant) with grill on the Camino Viejo de Coín at Camino Viejo de Coín, Km. 2, 5, 29651 Las Lagunas de Mijas, Málaga. From Casa de la Familia it is about 4 minutes by car (Google route check, Saturday 10:00). Its own Facebook page gives the address as Camino De Coin, Mijas, 29651, phone +34 952 46 79 38 and email alarcongonzalezvm@gmail.com. A photo notice on the page says the venta closes for holidays from 15 to 30 June (the year is not shown). No weekly opening hours and no menu were found on the page, so prices are unchecked; check with the venue before visiting. Owner's own knowledge: Well visited and a good place; the lamb is very good.",
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -10798,7 +11085,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -10809,10 +11096,10 @@
      "needs_fixed_hours": false,
      "rainy_day": false,
      "is_bar": false,
-     "phone": null,
+     "phone": "+34952467938",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-10"
     }
    }
   },
