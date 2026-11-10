@@ -199,6 +199,8 @@ def main(check_only: bool, da_todo: str | None = None) -> None:
         places.append({
             "id": d["id"], "slug": d["slug"], "name": d["name"], "category": CATEGORY[d["category"]],
             "record_category": d["category"], "record_status": d["status"],
+            # Formal approved/published only. Since 2026-11-10 a fact-checked record (needs_editorial_review)
+            # also counts as approved for display; the app does not read this field.
             "approved": d["status"] in ("approved", "published"),
             "municipality": d.get("municipality"), "lat": c.get("latitude"), "lng": c.get("longitude"),
             "google_maps_url": d.get("google_maps_url"),

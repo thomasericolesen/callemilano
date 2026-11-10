@@ -87,7 +87,7 @@ over 32 °C frarådes lange gåture midt på dagen.
 - åbningstider ukendte, forældede eller uden dato (`tjek`);
 - regn ved strand, over 30 min kørsel med børn ≤ 6 år, køretid ikke route-tjekket (`forbehold`);
 - restauranthuller og restauranter tjekket for over 6 måneder siden (`forbehold`);
-- udkast-poster, børn velkomne ukendt, tilgængelighed ikke vurderet (`info`).
+- poster, der ikke er faktatjekket (`needs_fact_check`), børn velkomne ukendt, tilgængelighed ikke vurderet (`info`).
 
 Med børn udelades restauranter med `kids_welcome: nej`, og `ja` vises først.
 
