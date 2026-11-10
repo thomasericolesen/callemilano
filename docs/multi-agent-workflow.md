@@ -103,6 +103,8 @@ All issues use `code`, `severity` (`blocking`, `warning`, `info`), `fields`, `de
 
 ## Approval, changes, and maintenance
 
+**Owner decision 2026-11-10:** a record that has passed fact-check (`needs_editorial_review`) counts as approved for use in the app and in trip plans. The editor-of-record does not sign off each record in advance; approval is a running process driven by family feedback from the app (positive feedback can mark a place "Familien anbefaler", negative feedback such as a closure or wrong price sends it back to `needs_fact_check`). The rules below still apply to the formal `approved` status, which is now optional.
+
 Only the human editor-of-record can move `needs_editorial_review` to `approved`, or `published` to `archived`; publication itself belongs to a separate process. Approval records reviewer, decision, date, and notes. Requested edits return to the stage responsible, and material factual edits after approval reset status to `needs_fact_check`.
 
 Corrections and closure reports enter the same queue with issue type and source. The editor-of-record triages them, assigns fact check, and records the resolution. Reopened places return to fact check before publication. Set `next_review_at` by volatility class: fast-changing details such as hours, cost, booking, parking, and access need shorter intervals than stable location/name facts. A stale record becomes `needs_fact_check`; do not leave stale content appearing current.

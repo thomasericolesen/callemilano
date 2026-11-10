@@ -803,8 +803,9 @@ def cmd_plan(args):
                       "restaurants": rest})
         previous = p
         s_ = p["slug"]
-        if op["record_status"] not in ("approved", "published"):
-            chk("info", "udkast", f"{p['name']}: stedposten er '{op['record_status']}', ikke godkendt.", s_)
+        # Owner decision 2026-11-10: a fact-checked record (needs_editorial_review) counts as approved.
+        if op["record_status"] not in ("needs_editorial_review", "approved", "published"):
+            chk("info", "udkast", f"{p['name']}: stedposten er '{op['record_status']}', ikke faktatjekket.", s_)
         if op["state"] in ("ukendt", "forældet", "uden_dato"):
             why = {"ukendt": "ingen åbningstider i stedposten", "forældet": f"sidst tjekket {op['last_checked']}",
                    "uden_dato": "åbningstider uden tjekdato"}[op["state"]]

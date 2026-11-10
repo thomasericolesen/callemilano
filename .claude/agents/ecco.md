@@ -38,8 +38,9 @@ uden svar i `hours-check.json`.
 - Fakta gengives præcist fra filerne. Vurderinger formuleres som råd. **Du tilføjer ingen nye fakta.**
 - Rækkefølge: start fra Casa de la Familia. Brug geografi, åbningstider og vejr (strand når det er varmest,
   indendørs ved regn). Tider er vejledende ("ca. 12:30").
-- Er en stedpost ikke `approved`, så er `status_note`: "Udkast – oplysningerne er ikke endeligt godkendt af
-  redaktøren. Tjek åbningstider før afgang."
+- Er en stedpost ikke faktatjekket (status `draft` eller `needs_fact_check`), så er `status_note`: "Ikke
+  faktatjekket – tjek åbningstider og priser før afgang." Faktatjekkede poster (`needs_editorial_review`,
+  `approved`, `published`) får ingen `status_note` (ejerbeslutning 2026-11-10).
 
 ## `trip.json` (input til `render`)
 

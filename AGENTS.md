@@ -29,6 +29,12 @@ CalleMilano is a family travel guide for guests at Casa de la Familia, starting 
 
 Check composition and access against official sources where available (see `docs/owner-decisions-2026-11-02.md`). This replaces the earlier working rule that any rocks excluded a beach.
 
+## Approval rule (owner decision 2026-11-10)
+
+- A place that has passed fact-check (`needs_editorial_review`) counts as approved for use in the app and in trip plans. The editor-of-record no longer signs off each record in advance.
+- Approval after that is a running process driven by family feedback in the app: positive feedback can mark a place "Familien anbefaler" (green, the only green label); negative feedback (closed, wrong price, wrong hours) sends the record back to `needs_fact_check`.
+- In the app, only places that are not fact-checked carry a warning label ("Ikke faktatjekket"). Statuses in the records are unchanged; only their meaning for display and trip plans changed. See `docs/change-log.md`.
+
 ## Agent pipeline (owner decision 2026-11-02)
 
 Routine intake and fact-check work uses `tools/intake.py` and the subagents in `.claude/agents/` (`candidate-screener`, `source-reader`, `record-writer`) as described in `docs/agent-pipeline.md`. Subagents never approve, never change category/tags/family scores, and never set a status beyond `needs_fact_check`; the main session spot-checks their quotes before committing.

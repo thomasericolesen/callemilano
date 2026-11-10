@@ -2,6 +2,8 @@
 
 Udkast 2026-11-01. Ejerens beslutninger 2026-11-02 er indført nedenfor. Intet er bygget eller ændret i Lovable-projektet endnu (sidst ændret 2026-10-19).
 
+> **Afløst 2026-11-10:** Mærkerne "Ikke endeligt godkendt" og "Familiens forslag" er afløst af ejerbeslutningen 2026-11-10 (faktatjekket tæller som godkendt; kun "Ikke faktatjekket" er et advarselsmærke; "Familiens forslag" hedder nu "Andre mulige steder"). Se `AGENTS.md` og `docs/change-log.md`.
+
 ## Udgangspunkt
 
 callemilano.dk er Lovable-projektet **"Vores Spanske Hjem"** (React/TanStack Start, Lovable Cloud/Supabase,

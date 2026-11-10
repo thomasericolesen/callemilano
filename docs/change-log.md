@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-10 - Approval rule: fact-checked counts as approved; new app labels (owner decision)
+
+- Owner decision: a record that has passed fact-check (`needs_editorial_review`) counts as approved for use in the app and in trip plans. The editor-of-record no longer signs off each record in advance; approval is a running process driven by family feedback in the app. Statuses in the records are unchanged.
+- Labels in the app (app PR in callemilano-f388b2be): only places that are not fact-checked carry the amber label "Ikke faktatjekket"; fact-checked places get a discreet grey "Faktatjekket"; green is reserved for "Familien anbefaler"; "Tjek før besøg" moves to its own colour (rose). The section "Familiens forslag" is renamed "Andre mulige steder" (it lists places without trip data, not places the family suggested). The children's-age field now opens the normal phone keyboard, so "5, 10" can be typed.
+- Updated: `AGENTS.md` (new section), `docs/multi-agent-workflow.md`, `docs/place-schema.md`, `docs/trip-planner-agents.md`, `.claude/agents/ecco.md`, `tools/trip.py` (no "udkast" note for fact-checked stops) and the `tools/app_export.py` docstring.
+- Housekeeping: two duplicate local clones of this repo (`~/CalleMilano` and `Documents/ChatGPT/callemilano/callemilano-content`) were moved to the Trash; work continues in `~/Desktop/callemilano`.
+
 ## 2026-11-08 (night) - Three family suggestions fact-checked (owner request)
 
 - The three `nyt_sted` items on the owner's feedback list (UTOPÍA and Venta los Condes from Eric, Heladería Casa Esteban from Christian) were closed in the app; the places already existed as drafts.

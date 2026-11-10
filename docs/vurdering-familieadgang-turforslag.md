@@ -2,6 +2,8 @@
 
 **Dato:** 8. november 2026 · **Grundlag:** app-repoets `main` (`9c32633`) og den levende database (læst 8. nov.) · **Status:** forslag til Eric; der er ikke ændret noget.
 
+> **Afløst 2026-11-10:** Mærkerne "Ikke endeligt godkendt" og "Familiens forslag" er afløst af ejerbeslutningen 2026-11-10 (faktatjekket tæller som godkendt; kun "Ikke faktatjekket" er et advarselsmærke; "Familiens forslag" hedder nu "Andre mulige steder"). Se `AGENTS.md` og `docs/change-log.md`.
+
 ## Kort konklusion
 
 Turforslag kan åbnes for familien uden større ombygning. Adgangen er i dag låst til admins fire steder, og de skal ændres samlet i én PR: sider, serverfunktioner, databasefunktioner og databaseregler. Før åbningen bør tre ting på plads: (1) de dele af siden, der er værktøj for værten, skjules for familien; (2) der kommer et samlet loft over AI-forbruget, ud over de 5 handlinger pr. person pr. dag; (3) feedback-ordningen fra 8. november bygges med, så familiens oplevelser lander hos Eric og ikke i stedposterne.

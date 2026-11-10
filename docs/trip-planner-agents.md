@@ -87,7 +87,7 @@ over 32 °C frarådes lange gåture midt på dagen.
 - åbningstider ukendte, forældede eller uden dato (`tjek`);
 - regn ved strand, over 30 min kørsel med børn ≤ 6 år, køretid ikke route-tjekket (`forbehold`);
 - restauranthuller og restauranter tjekket for over 6 måneder siden (`forbehold`);
-- udkast-poster, børn velkomne ukendt, tilgængelighed ikke vurderet (`info`).
+- poster, der ikke er faktatjekket (`needs_fact_check`), børn velkomne ukendt, tilgængelighed ikke vurderet (`info`).
 
 Med børn udelades restauranter med `kids_welcome: nej`, og `ja` vises først.
 
@@ -134,8 +134,10 @@ Valideres med `python3 tools/trip.py check-restaurants`.
 
 ## Stedposternes status
 
-Poster, der ikke er `approved`, må bruges i turforslag, som værten selv gennemser. Turforslaget bærer så teksten
-"Udkast – oplysningerne er ikke endeligt godkendt af redaktøren". Arkivsteder afvises af `tools/trip.py`.
+Et faktatjekket sted (`needs_editorial_review`) tæller som godkendt (ejerbeslutning 2026-11-10). Poster, der
+ikke er faktatjekket (`draft`, `needs_fact_check`), må bruges i turforslag, som værten selv gennemser.
+Turforslaget bærer så teksten "Ikke faktatjekket – tjek åbningstider og priser før afgang". Arkivsteder
+afvises af `tools/trip.py`.
 Alpha B ændrer aldrig stedposter; fund går til redaktøren via `hours-check.json` og `/aabningstider`.
 
 ## Senere (ikke besluttet)

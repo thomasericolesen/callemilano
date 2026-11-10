@@ -2,6 +2,8 @@
 
 **Dato:** 8. november 2026 · **Grundlag:** mockup https://claude.ai/artifact/3hvQeqQLi1ek2kp92Acs5j (version 2), `docs/vurdering-familieadgang-turforslag.md`, Erics beslutninger 8. november, app-repoets `main` (`9c32633`) og databasen (læst 8. nov.).
 
+> **Afløst 2026-11-10:** Mærkerne "Ikke endeligt godkendt" og "Familiens forslag" er afløst af ejerbeslutningen 2026-11-10 (faktatjekket tæller som godkendt; kun "Ikke faktatjekket" er et advarselsmærke; "Familiens forslag" hedder nu "Andre mulige steder"). Se `AGENTS.md` og `docs/change-log.md`.
+
 ## Erics beslutninger, som planen bygger på
 
 1. Én side, **Oplev**, erstatter Inspiration, Find en tur, Turforslag og Anbefalinger.

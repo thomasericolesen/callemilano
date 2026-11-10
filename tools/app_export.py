@@ -6,7 +6,8 @@ Usage:  python3 tools/app_export.py            # writes data/app-export/
 
 Owner decisions 2026-11-02 (docs/webapp-byggeplan.md):
   * the app shows records with status needs_fact_check or later; drafts and archived records are left out;
-  * non-approved records are labelled in the app ("Ikke endeligt godkendt");
+  * records that are not yet fact-checked are labelled in the app ("Ikke faktatjekket"); a fact-checked
+    record (needs_editorial_review) counts as approved (owner decision 2026-11-10);
   * only the current phase is exported: the primary area (route-checked drive <= 30 min) and records listed
     in data/layer-membership.csv. Other out-of-area records are archive (AGENTS.md) and are not exported.
 
@@ -198,6 +199,8 @@ def main(check_only: bool, da_todo: str | None = None) -> None:
         places.append({
             "id": d["id"], "slug": d["slug"], "name": d["name"], "category": CATEGORY[d["category"]],
             "record_category": d["category"], "record_status": d["status"],
+            # Formal approved/published only. Since 2026-11-10 a fact-checked record (needs_editorial_review)
+            # also counts as approved for display; the app does not read this field.
             "approved": d["status"] in ("approved", "published"),
             "municipality": d.get("municipality"), "lat": c.get("latitude"), "lng": c.get("longitude"),
             "google_maps_url": d.get("google_maps_url"),
