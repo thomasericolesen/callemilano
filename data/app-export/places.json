@@ -185,12 +185,17 @@
     "drive_minutes": 24,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "middel",
     "seasons": [],
@@ -207,7 +212,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -221,7 +226,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -249,12 +254,17 @@
     "drive_minutes": 10,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "middel",
     "seasons": [
@@ -283,7 +293,7 @@
      "booking": "https://aquamijas.com/entradas-2/",
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -297,7 +307,7 @@
      "phone": "+34952460404",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -402,12 +412,15 @@
     "drive_minutes": 4,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "middel",
     "seasons": [],
@@ -425,7 +438,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -439,7 +452,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -469,12 +482,15 @@
     "drive_minutes": 4,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "middel",
     "seasons": [],
@@ -492,7 +508,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -506,7 +522,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -534,12 +550,17 @@
     "drive_minutes": 21,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "hoej",
     "seasons": [],
@@ -565,7 +586,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -579,7 +600,7 @@
      "phone": null,
      "booking_lead_time": "Advance booking advised (own website)",
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -879,12 +900,15 @@
     "drive_minutes": 4,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "middel",
     "seasons": [],
@@ -902,7 +926,7 @@
      "booking": "https://www.bigfootbuggytours.com/tours",
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -916,7 +940,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -944,14 +968,19 @@
     "drive_minutes": 12,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
-    "energy": "middel",
+    "energy": "lav",
     "seasons": [
      "foraar",
      "sommer",
@@ -976,7 +1005,7 @@
      "booking": null,
      "info": "https://www.bioparcfuengirola.es/en/prepare-your-visit/information-of-interest/faqs/"
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -990,7 +1019,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "About 3 hours (own FAQ)",
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -1020,14 +1049,17 @@
     "drive_minutes": 6,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
-    "energy": "lav",
+    "energy": "middel",
     "seasons": [],
     "themes": [
      "familieaktivitet"
@@ -1042,7 +1074,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -1056,7 +1088,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -1628,12 +1660,17 @@
     "drive_minutes": 20,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -1648,7 +1685,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Excursions",
@@ -1662,7 +1699,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -1765,14 +1802,17 @@
     "drive_minutes": 12,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "lav"
     },
-    "energy": "lav",
+    "energy": "middel",
     "seasons": [],
     "themes": [],
     "cost_level": null,
@@ -1785,7 +1825,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Excursions",
@@ -1799,7 +1839,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -2485,14 +2525,18 @@
     "drive_minutes": 8,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "lav"
     },
-    "energy": "middel",
+    "energy": "hoej",
     "seasons": [],
     "themes": [
      "familieaktivitet"
@@ -2507,7 +2551,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -2521,7 +2565,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -2549,14 +2593,19 @@
     "drive_minutes": 23,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
-    "energy": "lav",
+    "energy": "middel",
     "seasons": [],
     "themes": [
      "familieaktivitet"
@@ -2571,7 +2620,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -2585,7 +2634,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -2613,14 +2662,18 @@
     "drive_minutes": 43,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
-    "energy": "lav",
+    "energy": "middel",
     "seasons": [],
     "themes": [],
     "cost_level": null,
@@ -2642,7 +2695,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Excursions",
@@ -2656,7 +2709,7 @@
      "phone": null,
      "booking_lead_time": "Advance booking required (online or by phone)",
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -2761,12 +2814,17 @@
     "drive_minutes": 22,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -2781,7 +2839,7 @@
      "booking": null,
      "info": "https://www.andalucia.org/listing/dunas-de-artola-o-cabopino/15533102/"
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Nature",
@@ -2795,7 +2853,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -2896,12 +2954,17 @@
     "drive_minutes": 3,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -2918,7 +2981,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -2932,7 +2995,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -3187,14 +3250,18 @@
     "drive_minutes": 20,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
-    "energy": "middel",
+    "energy": "hoej",
     "seasons": [],
     "themes": [],
     "cost_level": null,
@@ -3207,7 +3274,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Excursions",
@@ -3221,7 +3288,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -3470,12 +3537,17 @@
     "drive_minutes": 9,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -3492,7 +3564,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -3506,7 +3578,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "About 1 hour per game (own website)",
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -3745,14 +3817,18 @@
     "drive_minutes": 34,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
-    "energy": "middel",
+    "energy": "hoej",
     "seasons": [],
     "themes": [
      "familieaktivitet"
@@ -3776,7 +3852,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -3790,7 +3866,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -4332,14 +4408,17 @@
     "drive_minutes": 36,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
-    "energy": "lav",
+    "energy": "middel",
     "seasons": [],
     "themes": [],
     "cost_level": null,
@@ -4357,7 +4436,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Nature",
@@ -4371,7 +4450,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -4563,14 +4642,19 @@
     "drive_minutes": 49,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
-    "energy": "middel",
+    "energy": "hoej",
     "seasons": [],
     "themes": [],
     "cost_level": null,
@@ -4583,7 +4667,7 @@
      "booking": null,
      "info": "https://www.juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/el-macho-mont%C3%A9s/255035"
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Nature",
@@ -4597,7 +4681,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -4627,12 +4711,17 @@
     "drive_minutes": 6,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "hoej",
     "seasons": [],
@@ -4654,7 +4743,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -4668,7 +4757,7 @@
      "phone": "+34625396666",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -4844,12 +4933,16 @@
     "drive_minutes": 13,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "middel",
     "seasons": [],
@@ -4867,7 +4960,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -4881,7 +4974,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -4911,14 +5004,18 @@
     "drive_minutes": 9,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
-    "energy": "middel",
+    "energy": "lav",
     "seasons": [],
     "themes": [
      "eventyr",
@@ -4934,7 +5031,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -4948,7 +5045,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -6161,14 +6258,19 @@
     "drive_minutes": 18,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
-    "energy": "lav",
+    "energy": "hoej",
     "seasons": [],
     "themes": [
      "familieaktivitet"
@@ -6183,7 +6285,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -6197,7 +6299,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -6371,14 +6473,19 @@
     "drive_minutes": 14,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
-    "energy": "hoej",
+    "energy": "middel",
     "seasons": [],
     "themes": [
      "familieaktivitet"
@@ -6393,7 +6500,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -6407,7 +6514,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -6655,12 +6762,15 @@
     "drive_minutes": 4,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "middel",
     "seasons": [],
@@ -6683,7 +6793,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -6697,7 +6807,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "1, 2 or 3 hours (own website)",
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -6747,7 +6857,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -6761,7 +6871,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -6919,12 +7029,16 @@
     "drive_minutes": 10,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -6941,7 +7055,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -6955,7 +7069,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -7187,12 +7301,16 @@
     "drive_minutes": 12,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
@@ -7209,7 +7327,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -7223,7 +7341,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -7251,12 +7369,16 @@
     "drive_minutes": 28,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
@@ -7282,7 +7404,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -7296,7 +7418,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -7761,12 +7883,17 @@
     "drive_minutes": 25,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
@@ -7783,7 +7910,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -7797,7 +7924,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -7825,12 +7952,17 @@
     "drive_minutes": 7,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -7847,7 +7979,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -7861,7 +7993,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -7889,12 +8021,17 @@
     "drive_minutes": 16,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -7909,7 +8046,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Excursions",
@@ -7923,7 +8060,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -7979,7 +8116,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Beaches",
@@ -7993,7 +8130,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -8023,12 +8160,17 @@
     "drive_minutes": 36,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [
@@ -8049,7 +8191,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Beaches",
@@ -8063,7 +8205,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -8093,12 +8235,17 @@
     "drive_minutes": 41,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [
@@ -8119,7 +8266,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Beaches",
@@ -8133,7 +8280,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -8238,12 +8385,15 @@
     "drive_minutes": 36,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
      "smaa_boern": "ukendt",
      "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [
@@ -8264,7 +8414,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Beaches",
@@ -8278,7 +8428,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -8380,12 +8530,17 @@
     "drive_minutes": 44,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [
@@ -8406,7 +8561,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Beaches",
@@ -8420,7 +8575,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -8448,12 +8603,17 @@
     "drive_minutes": 38,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -8468,7 +8628,7 @@
      "booking": null,
      "info": "https://www.spain.info/es/destino/marbella/"
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Excursions",
@@ -8482,7 +8642,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -8510,12 +8670,16 @@
     "drive_minutes": 23,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "hoej",
     "seasons": [],
@@ -8530,7 +8694,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Excursions",
@@ -8544,7 +8708,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -8572,12 +8736,17 @@
     "drive_minutes": 54,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -8592,7 +8761,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Excursions",
@@ -8606,7 +8775,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -8654,7 +8823,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Excursions",
@@ -8668,7 +8837,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -8773,12 +8942,15 @@
     "drive_minutes": 3,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "middel",
     "seasons": [],
@@ -8796,7 +8968,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -8810,7 +8982,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -9483,12 +9655,17 @@
     "drive_minutes": 27,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -9505,7 +9682,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -9519,7 +9696,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -9635,12 +9812,17 @@
     "drive_minutes": 24,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "middel",
     "seasons": [],
@@ -9657,7 +9839,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -9671,7 +9853,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -10241,14 +10423,18 @@
     "drive_minutes": 9,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
-    "energy": "lav",
+    "energy": "middel",
     "seasons": [],
     "themes": [
      "familieaktivitet"
@@ -10263,7 +10449,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -10277,7 +10463,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -10604,12 +10790,16 @@
     "drive_minutes": 21,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -10626,7 +10816,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -10640,7 +10830,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -11288,14 +11478,16 @@
     "drive_minutes": 9,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "lav"
     },
-    "energy": "middel",
+    "energy": "hoej",
     "seasons": [],
     "themes": [
      "familieaktivitet"
@@ -11310,7 +11502,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -11324,7 +11516,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   }

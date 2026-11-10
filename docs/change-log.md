@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-10 (night) - Family ratings from the owner checklist
+
+- Owner checklist (Artifact `familievurderinger`, 110 places with `family_suitability_not_assessed`, status `needs_fact_check` or later or in `data/layer-membership.csv`, archive skipped). The owner answered 51 places on 2026-11-10 (partial pass).
+- Written to the 51 records: `family_score` (four keys), `energy_level`, and `age_groups` = the groups rated high or medium. Evidence: owner's own knowledge, callemilano-tjekliste, confidence medium; owner notes quoted in the evidence claim.
+- `family_suitability_not_assessed` closed for 47 places. Still open, with an updated description, where the owner answered "Ved ikke": `mijas-golf`, `playa-de-la-rada-estepona`, `puerto-marina-benalmadena` (all four groups) and `playa-puerto-banus` (small children, children).
+- Tags were part of the closed issue but were not assessed on the checklist; they stay as they were. The remaining 59 places stay open for a later pass on the same page.
+
 ## 2026-11-10 (evening) - Danish app texts and route_check.py (owner request)
 
 - Danish app texts for `kamura-sushi-fuengirola`, `meson-salvador-fuengirola`, `vegetalia-fuengirola` and `la-tagliatella-miramar`; stale texts refreshed for El Cachalote, Casa Esteban and La Sierra. Export: 134 of 158 places in Danish, 0 stale.

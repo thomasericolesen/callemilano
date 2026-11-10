@@ -27,13 +27,15 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875,-4.6626875) to the Google Places coordinates (36.7601029,-4.4262669); departure 2026-11-07T09:00:00Z (next Saturday morning), predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.7601029%2C-4.4262669&travelmode=driving
   checked_at: '2026-11-02'
   note: 'Routes API figure: 36 min, 39.1 km. One predicted sample.'
-age_groups: []
+age_groups:
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
-energy_level: Low
+  small_children: low
+  children: low
+  young_adults: high
+  seniors: high
+energy_level: Medium
 seasonality: []
 accessibility:
   overall: unknown
@@ -131,17 +133,15 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: Page does not state whether entry is free; amounts are only linked. Ticket price left unknown.
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children low, children low, young_adults high, seniors high; energy_level Medium.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  - tags
-  description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
-  retryable: true
-  owner: human_editor
 - code: facts_partly_checked
   severity: warning
   fields:
@@ -153,7 +153,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
