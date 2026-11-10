@@ -128,11 +128,11 @@ review_issues:
   - description_long
   - visit_information
   - cost_level
-  description: NO_OFFICIAL_SOURCE.
+  description: '2026-11-10: no Facebook page found when searching Facebook for ''Antonio Playa Fuengirola''; Instagram keyword search returned no readable text. No own website either, so no readable own source.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

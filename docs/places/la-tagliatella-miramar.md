@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-LA-TAGLIATELLA-MIRAMAR-001
 slug: la-tagliatella-miramar
 name: La Tagliatella (C.C. Miramar)
@@ -64,7 +64,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Mon-Thu 12:00-23:00; Fri-Sat 12:00-23:30; Sun 12:00-23:00. Not stated as seasonal (official page, read 2026-11-10).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34951026629
 related_places: []
-description_short: 'La Tagliatella (C.C. Miramar): an Italian restaurant chain at the Miramar shopping centre, about 8 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: La Tagliatella (C.C. Miramar) is an Italian restaurant chain at the Miramar shopping centre. About 8 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'La Tagliatella (C.C. Miramar): Italian restaurant chain at the Miramar shopping centre, open daily from 12:00, about 8 min by car from Casa de la Familia.'
+description_long: La Tagliatella (C.C. Miramar) is an Italian restaurant chain branch at the Miramar shopping centre, Av. de la Encarnación s/n, 29640 Fuengirola (phone +34 951 02 66 29), about 8 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). The official page lists opening hours of 12:00-23:00 Monday to Thursday and on Sunday, and 12:00-23:30 on Friday and Saturday, and offers booking and takeaway (delivery is shown greyed out). Menu prices were not checked.
 seo_title: La Tagliatella (C.C. Miramar), Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for La Tagliatella (C.C. Miramar) (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -100,18 +100,15 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: links.contact; address; visit_information.schedule
+  claim: '"CC Miramar, Fuengirola", "Av. de la Encarnación s/n, 29640, Málaga", "+34951026629". Monday 12:00-23:00; Tuesday 12:00-23:00; Wednesday 12:00-23:00; Thursday 12:00-23:00; Friday 12:00-23:30; Saturday 12:00-23:30; Sunday 12:00-23:00'
+  source_url: https://www.latagliatella.es/restaurantes/malaga/cc-miramar-fuengirola
+  source_type: official_venue
+  checked_at: '2026-11-10'
+  checked_by: Claude (main session), Claude in Chrome, logged-in read-only
+  confidence: high
+  notes: Official chain page for this branch, read in a real browser 2026-11-10. Page offers booking and takeaway; delivery greyed out. Hours may differ on holidays.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -122,17 +119,17 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
-- code: no_readable_own_source
+- code: facts_partly_checked
   severity: warning
   fields:
-  - description_long
-  - visit_information
   - cost_level
-  description: BLOCKED.
+  - accessibility
+  - parking
+  description: 'Address, phone and weekly hours from the official page (2026-11-10). Still open: menu prices (cost_level Unknown), accessibility, parking, child facilities.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

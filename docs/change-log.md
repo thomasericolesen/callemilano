@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-10 (afternoon) - Fact-check via Facebook/Instagram and own sites in a real browser
+
+- Read-only in the owner's logged-in Chrome (Claude in Chrome), per the owner decision of 2026-11-09. Raw notes kept in the session; quotes and URLs are in each record's evidence.
+- `la-sierra-restaurante` €€ -> € (own IG menu, autumn 2024: median main 15 €; borderline, menu may be outdated). `kamura-sushi-fuengirola` draft -> needs_fact_check, €€ (own carta: median sushi set 21 €) and hours from the own website.
+- draft -> needs_fact_check with contacts/hours: `meson-salvador-fuengirola` (Mon-Sat 8:30-23:00, Sun closed; undated FB notices), `vegetalia-fuengirola` (buffet, address, phone), `la-tagliatella-miramar` (weekly hours from the official page). Export now 158 places; the four new ones have no Danish app text yet.
+- `heladeria-casa-esteban-fuengirola`: Fuengirola shop stays open in winter (IG 2026-11-09); hours still unknown. `venta-la-morena`: contacts and a 15-30 June holiday closure; still no menu. `chiringuito-el-cachalote`: hours for season 2026; menu still 'BORRADOR'.
+- `casa-carmen-miramar`: own website is compromised (spam injection); `links.official_website` set to null with issue `official_site_compromised`.
+- Still no usable own source: Da Vinci (DNS), Foster's Hollywood (Incapsula block), Monnalisa and Antonio Playa (no Facebook page). Burger King and The Good Burger not checked.
+
 ## 2026-11-10 - Approval rule: fact-checked counts as approved; new app labels (owner decision)
 
 - Owner decision: a record that has passed fact-check (`needs_editorial_review`) counts as approved for use in the app and in trip plans. The editor-of-record no longer signs off each record in advance; approval is a running process driven by family feedback in the app. Statuses in the records are unchanged.

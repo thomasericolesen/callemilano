@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-VEGETALIA-FUENGIROLA-001
 slug: vegetalia-fuengirola
 name: Restaurante Vegetalia
@@ -76,10 +76,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34952586031
 related_places: []
-description_short: 'Restaurante Vegetalia: a vegetarian restaurant, about 16 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Restaurante Vegetalia is a vegetarian restaurant. About 16 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Restaurante Vegetalia: vegetarian restaurant with an ovo-lacto-vegetarian buffet in central Fuengirola, about 16 min by car from Casa de la Familia.'
+description_long: Restaurante Vegetalia is a vegetarian restaurant at Calle Santa Isabel 8, 29640 Fuengirola, about 16 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Its own Facebook page describes a 'buffet ovo-lacto-vegetariano' (eggs and dairy, no meat or fish) and lists phone +34 952 58 60 31. The page posts a daily dish, the latest on 9 November 2026 for Tuesday 10 November, so the restaurant appears active. Opening days and hours are not stated, and the buffet price was not found; check before going.
 seo_title: Restaurante Vegetalia, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Restaurante Vegetalia (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -100,18 +100,15 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long; address; links.contact
+  claim: '"buffet ovo-lacto-vegetariano"; address "Calle Santa Isabel, 8, Fuengirola, Spain, 29640"; phone "+34 952 58 60 31"'
+  source_url: https://www.facebook.com/vegetaliafuengirola
+  source_type: official_venue
+  checked_at: '2026-11-10'
+  checked_by: Claude (main session), Claude in Chrome, logged-in read-only
+  confidence: medium
+  notes: Own Facebook page, read 2026-11-10. Daily dish posts (latest 9 Nov 2026 for Tue 10.11.; also 3-7 Nov) show activity; open days appear to be Tuesday to Saturday but this is inferred, not stated, so no schedule is set. Facebook label 'Moderat' is not a menu price. Buffet price not found.
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -122,17 +119,18 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
-- code: no_readable_own_source
+- code: facts_partly_checked
   severity: warning
   fields:
-  - description_long
   - visit_information
   - cost_level
-  description: NO_OFFICIAL_SOURCE.
+  - accessibility
+  - parking
+  description: 'Address, phone and buffet type from own Facebook (2026-11-10). Still open: opening days and hours, buffet price (cost_level Unknown), accessibility, parking.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

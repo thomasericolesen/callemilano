@@ -72,7 +72,7 @@ visit_information:
   cost_basis: null
   cost_checked_at: null
 links:
-  official_website: http://www.casacarmenrestaurant.com/
+  official_website: null
   booking: null
   visitor_information: null
   transport: null
@@ -100,6 +100,14 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: links.official_website
+  claim: Page body contains injected spam (casino, Kamagra/Viagra, steroids).
+  source_url: http://www.casacarmenrestaurant.com/
+  source_type: official_venue
+  checked_at: '2026-11-10'
+  checked_by: Claude (main session), Claude in Chrome, logged-in read-only
+  confidence: low
+  notes: Page loads but is hacked; not usable as a source and must not be linked from the app. URL kept here only as evidence.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -131,8 +139,18 @@ review_issues:
   description: BLOCKED.
   retryable: true
   owner: fact_check
+- code: official_site_compromised
+  severity: warning
+  fields:
+  - links.official_website
+  - description_long
+  - visit_information
+  - cost_level
+  description: On 2026-11-10 the former official site http://www.casacarmenrestaurant.com/ showed injected spam (casino, Kamagra/Viagra, steroids). The link was removed from the record so the app does not link to it. Re-check later or find another own source (e.g. Facebook).
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
