@@ -109,6 +109,14 @@ evidence:
   checked_by: Claude subagent read the photo; fish column spot-checked by the main session
   confidence: low
   notes: 'Guest photo uploaded to Google Maps by ''Lynne Angel'' (Places API photo 6 of 10), taken from a distance; the meat column was read from a zoomed crop. The API gives no photo date. The board''s hours (Mon-Fri 12:00-16:00) are not recorded as a schedule because the board''s date is unknown. Owner decision 2026-11-08: guest menu photos from Google may be used for the price band, marked low confidence.'
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children unknown, children unknown, young_adults unknown, seniors unknown; energy_level Low.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -121,14 +129,6 @@ review_issues:
   description: Created from Google Places identity and a route check. Cuisine, opening hours, season, prices and booking need the restaurant's own source.
   retryable: true
   owner: fact_check
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  description: Age groups and family scores are not assessed.
-  retryable: true
-  owner: human_editor
 - code: no_readable_own_source
   severity: warning
   fields:
@@ -144,8 +144,17 @@ review_issues:
   description: Price band from a guest photo of the price board on Google Maps (date unknown); replace when an own menu is found.
   retryable: true
   owner: fact_check
+- code: family_suitability_not_assessed
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  - tags
+  description: 'Owner answered ''Ved ikke'' (or left blank) on the 2026-11-10 checklist for: small_children, children, young_adults, seniors. Energy level set by owner. Tags not assessed.'
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-08'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

@@ -29,12 +29,16 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.599392,-4.5102398); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.599392%2C-4.5102398&travelmode=driving
   checked_at: '2026-11-01'
   note: 'Routes API figure: 28 min with predicted Saturday 10:00 traffic (29 min without traffic), 20.3 km via AP-7. One predicted sample, not the Google Maps app''s main figure.'
-age_groups: []
+age_groups:
+- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: medium
+  children: high
+  young_adults: high
+  seniors: high
 energy_level: Low
 seasonality: []
 accessibility:
@@ -144,16 +148,15 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of tripadvisor.es listing. Name and town match (Benalmádena).
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children medium, children high, young_adults high, seniors high; energy_level Low.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  description: 'No source on children''s menu, high chairs, play area or family suitability was checked; age groups and family scores are left unknown/empty and energy_level Low is an editorial default for a restaurant visit. Needs editor assessment. 2026-11-02: the owner did not approve the proposed values (see docs/family-assessment-decisions-2026-11-02.md); still open.'
-  retryable: true
-  owner: human_editor
 - code: driving_time_near_local_limit
   severity: info
   fields:
@@ -177,7 +180,7 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: 2026-11-01
-updated_at: '2026-11-03'
+updated_at: '2026-11-10'
 last_verified: 2026-11-01
 last_reviewed_at: null
 next_review_at: 2027-04-01

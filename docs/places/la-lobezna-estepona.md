@@ -117,15 +117,15 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: high
   notes: Menu lines quoted verbatim; name and price on adjacent lines joined with a space.
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children unknown, children unknown, young_adults unknown, seniors unknown; energy_level Low. Owner note (Danish): ''Eftermiddag og aften restaurant''.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  description: Age groups and family scores are not assessed.
-  retryable: true
-  owner: human_editor
 - code: facts_partly_checked
   severity: warning
   fields:
@@ -134,8 +134,17 @@ review_issues:
   description: 'Own website checked 2026-11-02. Still open: cost_level. Opening hours change by season; check before publishing.'
   retryable: true
   owner: fact_check
+- code: family_suitability_not_assessed
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  - tags
+  description: 'Owner answered ''Ved ikke'' (or left blank) on the 2026-11-10 checklist for: small_children, children, young_adults, seniors. Energy level set by owner. Tags not assessed.'
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

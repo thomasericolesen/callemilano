@@ -28,12 +28,16 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875,-4.6626875) to the Google Places coordinates (36.7193155,-4.4091223); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.7193155%2C-4.4091223&travelmode=driving
   checked_at: '2026-11-02'
   note: 'Routes API figure: 43 min, 37.3 km. One predicted sample.'
-age_groups: []
+age_groups:
+- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: medium
+  children: medium
+  young_adults: medium
+  seniors: medium
 energy_level: Low
 seasonality: []
 accessibility:
@@ -133,17 +137,17 @@ evidence:
   checked_by: Claude (main session)
   confidence: medium
   notes: 'Method: pdf (pdftotext). Wine list September 2025 (Last-Modified 22 Sep 2025), linked from the home page; not stated per branch. Beer and soft-drink prices not found on the site. Column layout: the 3.8 € glass price is printed above the wine name.'
-review_issues:
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  description: Age groups and family scores are not assessed.
-  retryable: true
-  owner: human_editor
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children medium, children medium, young_adults medium, seniors medium; energy_level Low. Owner note (Danish): ''Tirsdag og onsdag lukket''.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
+review_issues: []
 created_at: '2026-11-02'
-updated_at: '2026-11-05'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

@@ -28,12 +28,14 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875,-4.6626875) to the Google Places coordinates (36.5799411,-4.5953257); departure 2026-11-07T09:00:00Z (next Saturday morning), predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5799411%2C-4.5953257&travelmode=driving
   checked_at: '2026-11-02'
   note: 'Routes API figure: 17 min, 11.7 km. One predicted sample.'
-age_groups: []
+age_groups:
+- Young adults
+- Seniors
 family_score:
   small_children: unknown
   children: unknown
-  young_adults: unknown
-  seniors: unknown
+  young_adults: high
+  seniors: high
 energy_level: Low
 seasonality: []
 accessibility:
@@ -108,6 +110,14 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: Menu page navigation only; no prices, hours or kids info in fetched text. Booking button does not state whether booking is required.
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children unknown, children unknown, young_adults high, seniors high; energy_level Low. Owner note (Danish): ''Gourmet restaurant dyr''.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -120,16 +130,6 @@ review_issues:
   description: Created from Google Places identity and a route check only; needs official or own sources.
   retryable: true
   owner: fact_check
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  - tags
-  description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
-  retryable: true
-  owner: human_editor
 - code: facts_partly_checked
   severity: warning
   fields:
@@ -141,8 +141,17 @@ review_issues:
   description: Only address, phone and booking button read. Hours, prices, kids facilities not found.
   retryable: true
   owner: fact_check
+- code: family_suitability_not_assessed
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  - tags
+  description: 'Owner answered ''Ved ikke'' (or left blank) on the 2026-11-10 checklist for: small_children, children. Energy level set by owner. Tags not assessed.'
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

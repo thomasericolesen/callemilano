@@ -33,7 +33,7 @@ family_score:
   children: unknown
   young_adults: unknown
   seniors: unknown
-energy_level: Low
+energy_level: Medium
 seasonality: []
 accessibility:
   overall: unknown
@@ -107,17 +107,15 @@ evidence:
   checked_by: Claude (one-hour towns fact check 2026-11-02)
   confidence: high
   notes: Read with Firecrawl (direct quotes) or directly on 2026-11-02. Supports the description of sights only; not opening hours, access or suitability.
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children unknown, children unknown, young_adults unknown, seniors unknown; energy_level Medium.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  - tags
-  description: Age groups, family scores and tags not assessed; energy_level Low is an editorial estimate.
-  retryable: true
-  owner: human_editor
 - code: category_editorial_choice
   severity: info
   fields:
@@ -134,8 +132,17 @@ review_issues:
   description: Description checked against official tourism sources 2026-11-02. Parking, accessibility and practical visit information are still open.
   retryable: true
   owner: fact_check
+- code: family_suitability_not_assessed
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  - tags
+  description: 'Owner answered ''Ved ikke'' (or left blank) on the 2026-11-10 checklist for: small_children, children, young_adults, seniors. Energy level set by owner. Tags not assessed.'
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
