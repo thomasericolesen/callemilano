@@ -234,19 +234,19 @@
   "checked_by": "Claude (translator subagent)"
  },
  "ES-AND-MAL-CHIRINGUITO-EL-CACHALOTE-001": {
-  "source_sha": "9971b9a630286e7d",
+  "source_sha": "b1de5c64c85dbe1f",
   "summary": "Chiringuito El Cachalote: familiedrevet strandrestaurant med fisk på Malagueta-stranden siden 1980, med sardiner på espeto.",
   "practical": [
    {
     "label": "Åbningstider",
-    "text": "Onsdag-søndag 11.30-19.00, køkkenet 12.00-18.00; lukket mandag-tirsdag (egen hjemmeside, ikke dateret, læst 5. nov. 2026)."
+    "text": "Onsdag-søndag 11.30-19.00, køkkenet 12.00-18.00; lukket mandag-tirsdag (personalets fridag). Mærket 'inicio temporada 2026', så det er sæsontiderne for 2026; tider uden for sæsonen er ikke oplyst (egen hjemmeside, læst 10. nov. 2026)."
    },
    {
     "label": "Pris",
-    "text": "Fisk, skaldyr og paella 11,00-24,00 € pr. portion, fadøl 2,90 €. Ca. 17,90 € pr. voksen for en hovedret og en drik. Brød og service 1,20 € ekstra. Menuen på hjemmesiden er en kladde, så priserne kan afvige."
+    "text": "Fisk, skaldyr og paella 11,00-24,00 € pr. portion (typisk 15,00 €), fadøl 2,90 €. Ca. 17,90 € pr. voksen for en hovedret og en drik. Brød og service 1,20 € ekstra. Menuen på hjemmesiden er en kladde, så priserne kan afvige."
    }
   ],
-  "translated_at": "2026-11-08",
+  "translated_at": "2026-11-10",
   "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-CHIRINGUITO-LA-CONCHA-EL-PALO-001": {
@@ -477,10 +477,10 @@
   "checked_by": "Claude (translator subagent)"
  },
  "ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001": {
-  "source_sha": "2b6e7cd76269217d",
-  "summary": "Heladería Casa Esteban: hjemmelavet is på Paseo Marítimo i Fuengirola (én af tre butikker), ca. 15 min i bil fra Casa de la Familia.",
+  "source_sha": "2799bfa41d9ce060",
+  "summary": "Heladería Casa Esteban: hjemmelavet is på Paseo Marítimo i Fuengirola; butikken holder åbent om vinteren ifølge dens egen Instagram. Ca. 15 min i bil fra Casa de la Familia.",
   "practical": [],
-  "translated_at": "2026-11-08",
+  "translated_at": "2026-11-10",
   "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-ISTAN-001": {
@@ -561,6 +561,22 @@
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent)"
  },
+ "ES-AND-MAL-KAMURA-SUSHI-FUENGIROLA-001": {
+  "source_sha": "f71104d71e304af3",
+  "summary": "Kamura Sushi: lille sushirestaurant i Los Boliches med afhentning og få borde, åbent tirsdag-lørdag; bordbestilling anbefales.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tirsdag 13.00-16.00 (kun bentobokse); onsdag-lørdag 13.00-16.00 og 20.00-23.00; ingen tider for søndag og mandag (formentlig lukket). Ikke angivet som sæsontider (egen hjemmeside, ikke dateret)."
+   },
+   {
+    "label": "Pris",
+    "text": "Sushisæt 16,00-32,00 € (typisk 21 €), så ca. 24 € pr. person med en drik (egen menu, ikke dateret). Tjek priserne før besøget."
+   }
+  ],
+  "translated_at": "2026-11-10",
+  "checked_by": "Claude (main session)"
+ },
  "ES-AND-MAL-KARTING-EXPERIENCE-MIJAS-001": {
   "source_sha": "6ce5b812af442585",
   "summary": "Karting Experience Mijas: gokartbane udendørs, ca. 13 min i bil fra Casa de la Familia.",
@@ -629,16 +645,28 @@
   "checked_by": "Claude (translator subagent)"
  },
  "ES-AND-MAL-LA-SIERRA-RESTAURANTE-001": {
-  "source_sha": "a207b3142c8e1cdf",
+  "source_sha": "d733799b61f57fc3",
   "summary": "La Sierra Restaurante på Cerrado del Águila Golf and Resort, ca. 5 min i bil fra Casa de la Familia; morgenmad hver dag og udsigt over kysten ifølge stedets egen side.",
   "practical": [
    {
     "label": "Pris",
-    "text": "Prisniveau ifølge stedets Facebook-side: moderat (€€). Ingen menupriser set. Tjek menuen på stedet."
+    "text": "Hovedretter med fisk, kød og kylling 14-28 € (typisk 15 €), så ca. 18 € pr. person med en drik (drikkepris anslået til ca. 3 €). Fra stedets Instagram-opslag 21. nov. 2024 (efterårsmenu 2024), så priserne kan være forældede."
    }
   ],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "translated_at": "2026-11-10",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-LA-TAGLIATELLA-MIRAMAR-001": {
+  "source_sha": "cea6972c134bb3ae",
+  "summary": "La Tagliatella (C.C. Miramar): italiensk restaurantkæde i indkøbscentret Miramar, åbent hver dag fra 12.00, ca. 8 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-torsdag 12.00-23.00; fredag-lørdag 12.00-23.30; søndag 12.00-23.00. Ikke angivet som sæsontider (officiel side, læst 10. nov. 2026)."
+   }
+  ],
+  "translated_at": "2026-11-10",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-LA-TERRAZA-DE-PANDA-001": {
   "source_sha": "da2ea26b86a8af70",
@@ -746,6 +774,18 @@
   "practical": [],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-MESON-SALVADOR-FUENGIROLA-001": {
+  "source_sha": "f5bac57c3ee04bcc",
+  "summary": "Mesón Salvador: spansk restaurant med hjemmelavet mad ('comida casera') i Los Boliches, ca. 15 min i bil fra Casa de la Familia; åbent mandag-lørdag ifølge opslag på Facebook.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-lørdag 8.30-23.00 (køkken); lukket søndag. Fra udaterede opslag på stedets Facebook-side, så tiderne er ikke bekræftet som aktuelle."
+   }
+  ],
+  "translated_at": "2026-11-10",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-MIAS-PIZZORANTE-FUENGIROLA-001": {
   "source_sha": "a05d1ad0a85483b4",
@@ -1218,6 +1258,13 @@
    }
   ],
   "translated_at": "2026-11-08",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-VEGETALIA-FUENGIROLA-001": {
+  "source_sha": "c0f84759e16bf579",
+  "summary": "Restaurante Vegetalia: vegetarisk restaurant med ovo-lakto-vegetarisk buffet (æg og mejeriprodukter, intet kød eller fisk) i centrum af Fuengirola, ca. 16 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-10",
   "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-VENTA-LA-MORENA-001": {

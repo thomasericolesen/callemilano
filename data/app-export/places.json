@@ -6,12 +6,8 @@
   "places": 158,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 127,
-  "danish_stale": [
-   "ES-AND-MAL-CHIRINGUITO-EL-CACHALOTE-001",
-   "ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001",
-   "ES-AND-MAL-LA-SIERRA-RESTAURANTE-001"
-  ]
+  "danish": 134,
+  "danish_stale": []
  },
  "records": [
   {
@@ -1981,15 +1977,15 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Chiringuito El Cachalote: family-run fish beach restaurant on Malagueta beach since 1980, with sardine espetos.",
+    "summary": "Chiringuito El Cachalote: familiedrevet strandrestaurant med fisk på Malagueta-stranden siden 1980, med sardiner på espeto.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Wed-Sun 11:30-19:00, kitchen 12:00-18:00; closed Mon-Tue (staff rest day). Marked 'inicio temporada 2026', so these are the 2026 season hours; hours outside the season are not stated (own site, read 2026-11-10)."
+      "text": "Onsdag-søndag 11.30-19.00, køkkenet 12.00-18.00; lukket mandag-tirsdag (personalets fridag). Mærket 'inicio temporada 2026', så det er sæsontiderne for 2026; tider uden for sæsonen er ikke oplyst (egen hjemmeside, læst 10. nov. 2026)."
      },
      {
       "label": "Pris",
-      "text": "Own menu (image pages on the /menu/ page, files named 'BORRADOR-V2-MENU', uploaded February 2026): 23 portion-priced fish, seafood and paella dishes 11,00-24,00 € (median 15,00 €; per-100 g fish, the single espeto and the two-portion fritura left out) plus draught beer 2,90 € gives about 17,90 € per adult. Bread and service 1,20 € extra. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Fisk, skaldyr og paella 11,00-24,00 € pr. portion (typisk 15,00 €), fadøl 2,90 €. Ca. 17,90 € pr. voksen for en hovedret og en drik. Brød og service 1,20 € ekstra. Menuen på hjemmesiden er en kladde, så priserne kan afvige."
      }
     ],
     "links": {
@@ -1998,7 +1994,7 @@
      "info": null
     },
     "checked_at": "2026-11-10",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Málaga",
@@ -4154,7 +4150,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Heladería Casa Esteban: artisan ice-cream parlour on the Paseo Marítimo in Fuengirola; this shop stays open in winter according to its own Instagram. About 15 min by car from Casa de la Familia.",
+    "summary": "Heladería Casa Esteban: hjemmelavet is på Paseo Marítimo i Fuengirola; butikken holder åbent om vinteren ifølge dens egen Instagram. Ca. 15 min i bil fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
@@ -4162,7 +4158,7 @@
      "info": null
     },
     "checked_at": "2026-11-10",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -4788,15 +4784,15 @@
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Kamura Sushi: small sushi restaurant in Los Boliches with takeaway pick-up and a few tables, open Tuesday to Saturday; booking recommended.",
+    "summary": "Kamura Sushi: lille sushirestaurant i Los Boliches med afhentning og få borde, åbent tirsdag-lørdag; bordbestilling anbefales.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Tue 13:00-16:00 (bento boxes only); Wed-Sat 13:00-16:00 and 20:00-23:00; no hours listed for Sun and Mon (closed implied). Not stated as seasonal (own website, undated)."
+      "text": "Tirsdag 13.00-16.00 (kun bentobokse); onsdag-lørdag 13.00-16.00 og 20.00-23.00; ingen tider for søndag og mandag (formentlig lukket). Ikke angivet som sæsontider (egen hjemmeside, ikke dateret)."
      },
      {
       "label": "Pris",
-      "text": "Own carta (image, undated): sushi sets (bandejas) takara 16,00; sakura 19,00; kiku 21,00; maki 24,50; salmon dake 32,00 EUR, median 21 EUR, plus one drink. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03)."
+      "text": "Sushisæt 16,00-32,00 € (typisk 21 €), så ca. 24 € pr. person med en drik (egen menu, ikke dateret). Tjek priserne før besøget."
      }
     ],
     "links": {
@@ -4805,7 +4801,7 @@
      "info": null
     },
     "checked_at": "2026-11-10",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -5351,11 +5347,11 @@
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "La Sierra Restaurante at Cerrado del Águila Golf and Resort, about 5 min by car from Casa de la Familia; breakfast every day and views over the coast, according to its own page.",
+    "summary": "La Sierra Restaurante på Cerrado del Águila Golf and Resort, ca. 5 min i bil fra Casa de la Familia; morgenmad hver dag og udsigt over kysten ifølge stedets egen side.",
     "practical": [
      {
       "label": "Pris",
-      "text": "Own Instagram post of 21 Nov 2024 (Autumn 2024 menu), a la carte fish, meat and chicken mains: 16,5; 18; 15; 14; 14; 15; 28 EUR, median 15 EUR, plus one drink of about 3 EUR (assumption) gives about 18 EUR. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03). Menu is from autumn 2024 and may be outdated."
+      "text": "Hovedretter med fisk, kød og kylling 14-28 € (typisk 15 €), så ca. 18 € pr. person med en drik (drikkepris anslået til ca. 3 €). Fra stedets Instagram-opslag 21. nov. 2024 (efterårsmenu 2024), så priserne kan være forældede."
      }
     ],
     "links": {
@@ -5364,7 +5360,7 @@
      "info": null
     },
     "checked_at": "2026-11-10",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
@@ -5422,11 +5418,11 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "La Tagliatella (C.C. Miramar): Italian restaurant chain at the Miramar shopping centre, open daily from 12:00, about 8 min by car from Casa de la Familia.",
+    "summary": "La Tagliatella (C.C. Miramar): italiensk restaurantkæde i indkøbscentret Miramar, åbent hver dag fra 12.00, ca. 8 min i bil fra Casa de la Familia.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Mon-Thu 12:00-23:00; Fri-Sat 12:00-23:30; Sun 12:00-23:00. Not stated as seasonal (official page, read 2026-11-10)."
+      "text": "Mandag-torsdag 12.00-23.00; fredag-lørdag 12.00-23.30; søndag 12.00-23.00. Ikke angivet som sæsontider (officiel side, læst 10. nov. 2026)."
      }
     ],
     "links": {
@@ -5435,7 +5431,7 @@
      "info": null
     },
     "checked_at": "2026-11-10",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -6532,11 +6528,11 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Mesón Salvador: homely Spanish restaurant ('comida casera') in Los Boliches, about 15 min by car from Casa de la Familia; open Monday to Saturday according to Facebook notices.",
+    "summary": "Mesón Salvador: spansk restaurant med hjemmelavet mad ('comida casera') i Los Boliches, ca. 15 min i bil fra Casa de la Familia; åbent mandag-lørdag ifølge opslag på Facebook.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Mon-Sat 8:30-23:00 (kitchen); closed Sunday. Taken from undated notices on the own Facebook page; not confirmed as current."
+      "text": "Mandag-lørdag 8.30-23.00 (køkken); lukket søndag. Fra udaterede opslag på stedets Facebook-side, så tiderne er ikke bekræftet som aktuelle."
      }
     ],
     "links": {
@@ -6545,7 +6541,7 @@
      "info": null
     },
     "checked_at": "2026-11-10",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
@@ -10917,7 +10913,7 @@
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
-    "summary": "Restaurante Vegetalia: vegetarian restaurant with an ovo-lacto-vegetarian buffet in central Fuengirola, about 16 min by car from Casa de la Familia.",
+    "summary": "Restaurante Vegetalia: vegetarisk restaurant med ovo-lakto-vegetarisk buffet (æg og mejeriprodukter, intet kød eller fisk) i centrum af Fuengirola, ca. 16 min i bil fra Casa de la Familia.",
     "practical": [],
     "links": {
      "official": null,
@@ -10925,7 +10921,7 @@
      "info": null
     },
     "checked_at": "2026-11-10",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
