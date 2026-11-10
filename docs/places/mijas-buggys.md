@@ -28,12 +28,14 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.5409423,-4.6584363); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5409423%2C-4.6584363&travelmode=driving
   checked_at: '2026-11-02'
   note: 'Routes API figure: 4 min, 1.43 km. Walking (Routes API WALK, same day): 18 min, 1.35 km. One predicted sample, not the Google Maps app''s main figure.'
-age_groups: []
+age_groups:
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: low
+  children: low
+  young_adults: high
+  seniors: medium
 energy_level: Medium
 seasonality: []
 accessibility:
@@ -108,16 +110,15 @@ evidence:
   checked_by: Claude (nearby fact check 2026-11-02)
   confidence: high
   notes: Homepage quoted via Firecrawl (direct-quote mode) on 2026-11-02 (page modified 2026-08-12).
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children low, children low, young_adults high, seniors medium; energy_level Medium.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  description: Age groups and family scores are not assessed; energy_level Medium is an editorial estimate from the type of place.
-  retryable: true
-  owner: human_editor
 - code: age_and_licence_rules_unknown
   severity: warning
   fields:
@@ -127,7 +128,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
