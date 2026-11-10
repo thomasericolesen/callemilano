@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-10 (evening) - Danish app texts and route_check.py (owner request)
+
+- Danish app texts for `kamura-sushi-fuengirola`, `meson-salvador-fuengirola`, `vegetalia-fuengirola` and `la-tagliatella-miramar`; stale texts refreshed for El Cachalote, Casa Esteban and La Sierra. Export: 134 of 158 places in Danish, 0 stale.
+- Added `tools/route_check.py` (owner approved committing it): fills missing driving times from Casa de la Familia with the Google Routes API (computeRouteMatrix); dry run by default, `--apply` writes to `docs/places/`, `--force` overwrites. Key from `GOOGLE_MAPS_API_KEY`. Known deviations to fix before use: avoids tolls (existing records do not), origin 36.5357505,-4.6627914 differs from the AGENTS.md constant, writes "15 mins" instead of "15 min". Overlaps only partly with `tools/trip.py`, which checks between-stop routes and does not write records.
+
 ## 2026-11-10 (afternoon) - Fact-check via Facebook/Instagram and own sites in a real browser
 
 - Read-only in the owner's logged-in Chrome (Claude in Chrome), per the owner decision of 2026-11-09. Raw notes kept in the session; quotes and URLs are in each record's evidence.
