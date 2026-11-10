@@ -6,7 +6,8 @@ Usage:  python3 tools/app_export.py            # writes data/app-export/
 
 Owner decisions 2026-11-02 (docs/webapp-byggeplan.md):
   * the app shows records with status needs_fact_check or later; drafts and archived records are left out;
-  * non-approved records are labelled in the app ("Ikke endeligt godkendt");
+  * records that are not yet fact-checked are labelled in the app ("Ikke faktatjekket"); a fact-checked
+    record (needs_editorial_review) counts as approved (owner decision 2026-11-10);
   * only the current phase is exported: the primary area (route-checked drive <= 30 min) and records listed
     in data/layer-membership.csv. Other out-of-area records are archive (AGENTS.md) and are not exported.
 

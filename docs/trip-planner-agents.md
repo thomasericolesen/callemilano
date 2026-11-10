@@ -134,8 +134,10 @@ Valideres med `python3 tools/trip.py check-restaurants`.
 
 ## Stedposternes status
 
-Poster, der ikke er `approved`, må bruges i turforslag, som værten selv gennemser. Turforslaget bærer så teksten
-"Udkast – oplysningerne er ikke endeligt godkendt af redaktøren". Arkivsteder afvises af `tools/trip.py`.
+Et faktatjekket sted (`needs_editorial_review`) tæller som godkendt (ejerbeslutning 2026-11-10). Poster, der
+ikke er faktatjekket (`draft`, `needs_fact_check`), må bruges i turforslag, som værten selv gennemser.
+Turforslaget bærer så teksten "Ikke faktatjekket – tjek åbningstider og priser før afgang". Arkivsteder
+afvises af `tools/trip.py`.
 Alpha B ændrer aldrig stedposter; fund går til redaktøren via `hours-check.json` og `/aabningstider`.
 
 ## Senere (ikke besluttet)
