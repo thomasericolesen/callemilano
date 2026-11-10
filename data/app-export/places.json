@@ -40,7 +40,7 @@
      "seniorer"
     ],
     "fit": {
-     "smaa_boern": "ukendt",
+     "smaa_boern": "lav",
      "boern": "middel",
      "unge_voksne": "hoej",
      "seniorer": "middel"
@@ -4648,12 +4648,13 @@
     "distance_km": null,
     "duration": null,
     "age_groups": [
+     "smaa_boern",
      "boern",
      "unge_voksne",
      "seniorer"
     ],
     "fit": {
-     "smaa_boern": "ukendt",
+     "smaa_boern": "middel",
      "boern": "hoej",
      "unge_voksne": "hoej",
      "seniorer": "hoej"
@@ -5960,12 +5961,15 @@
     "drive_minutes": 15,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
@@ -5987,7 +5991,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -6001,7 +6005,7 @@
      "phone": "+34952665550",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -9383,12 +9387,17 @@
     "drive_minutes": 4,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -9410,7 +9419,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -9424,7 +9433,7 @@
      "phone": "+34622797207",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -10384,12 +10393,15 @@
     "drive_minutes": 17,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
      "smaa_boern": "ukendt",
      "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -10406,7 +10418,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -10420,7 +10432,7 @@
      "phone": "+34692425385",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -10450,12 +10462,17 @@
     "drive_minutes": 40,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -10481,7 +10498,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -10495,7 +10512,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -10525,12 +10542,17 @@
     "drive_minutes": 39,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -10552,7 +10574,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -10566,7 +10588,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-08"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -10728,12 +10750,17 @@
     "drive_minutes": 37,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -10759,7 +10786,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-05",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -10773,7 +10800,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-05"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -10890,12 +10917,17 @@
     "drive_minutes": 43,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
@@ -10921,7 +10953,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-05",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -10935,7 +10967,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-05"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -11186,12 +11218,17 @@
     "drive_minutes": 14,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -11217,7 +11254,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-08",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -11231,7 +11268,7 @@
      "phone": "+34604347578",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-08"
+     "updated_at": "2026-11-10"
     }
    }
   },
@@ -11261,12 +11298,17 @@
     "drive_minutes": 16,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
@@ -11417,12 +11459,17 @@
     "drive_minutes": 4,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
@@ -11488,14 +11535,19 @@
     "drive_minutes": 25,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "hoej"
     },
-    "energy": "lav",
+    "energy": "middel",
     "seasons": [],
     "themes": [
      "spisested"
@@ -11519,7 +11571,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-08",
+    "checked_at": "2026-11-10",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -11533,7 +11585,7 @@
      "phone": "+34951744179",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-08"
+     "updated_at": "2026-11-10"
     }
    }
   },

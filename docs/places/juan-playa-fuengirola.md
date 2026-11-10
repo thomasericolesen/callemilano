@@ -29,11 +29,12 @@ driving_time_from_casa_de_la_familia:
   checked_at: '2026-11-02'
   note: 'Routes API figure: 16 min, 6.7 km. One predicted sample.'
 age_groups:
+- Small children (0-6)
 - Children (7-12)
 - Young adults
 - Seniors
 family_score:
-  small_children: unknown
+  small_children: medium
   children: high
   young_adults: high
   seniors: high
@@ -151,6 +152,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
   confidence: medium
   notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children medium, children high, young_adults high, seniors high; energy_level Low. Owner note (Danish): ''Vinterlukket november - februar''. Replaces the owner''s earlier answer on the same checklist.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
 - code: facts_partly_checked
   severity: warning
@@ -162,15 +171,6 @@ review_issues:
   description: 'Own website read. Still open: street address (none on the site), whether hours change by season, children''s menu/high chairs, accessibility, parking, whether booking is required (site invites to call and reserve).'
   retryable: true
   owner: fact_check
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - tags
-  description: 'Owner answered ''Ved ikke'' (or left blank) on the 2026-11-10 checklist for: small_children. Energy level set by owner. Tags not assessed.'
-  retryable: true
-  owner: human_editor
 created_at: '2026-11-02'
 updated_at: '2026-11-10'
 last_verified: null

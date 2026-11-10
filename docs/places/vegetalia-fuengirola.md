@@ -28,12 +28,16 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875,-4.6626875) to the Google Places coordinates (36.5529963,-4.617451); departure 2026-11-07T09:00:00Z (next Saturday morning), predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5529963%2C-4.617451&travelmode=driving
   checked_at: '2026-11-02'
   note: 'Routes API figure: 16 min, 6.7 km. One predicted sample.'
-age_groups: []
+age_groups:
+- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: medium
+  children: medium
+  young_adults: medium
+  seniors: medium
 energy_level: Low
 seasonality: []
 accessibility:
@@ -108,17 +112,15 @@ evidence:
   checked_by: Claude (main session), Claude in Chrome, logged-in read-only
   confidence: medium
   notes: Own Facebook page, read 2026-11-10. Daily dish posts (latest 9 Nov 2026 for Tue 10.11.; also 3-7 Nov) show activity; open days appear to be Tuesday to Saturday but this is inferred, not stated, so no schedule is set. Facebook label 'Moderat' is not a menu price. Buffet price not found.
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children medium, children medium, young_adults medium, seniors medium; energy_level Low. Owner note (Danish): ''Vegetar og vegansk restaurant''.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  - tags
-  description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
-  retryable: true
-  owner: human_editor
 - code: facts_partly_checked
   severity: warning
   fields:
