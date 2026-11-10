@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-10 (late night) - Family ratings, second pass
+
+- Second pass on the same owner checklist: 46 more places written (`family_score`, `energy_level`, `age_groups` = groups rated high or medium; evidence as in the first pass). No first-pass answers were changed.
+- `family_suitability_not_assessed` closed for 39 of them. Still open where the owner answered "Ved ikke": `alora`, `chiringuito-central-beach-estepona`, `juan-playa-fuengirola` (small children) and `casas-cuevas-almagruz`, `coin`, `la-lobezna-estepona`, `molino-del-santo` (all four groups).
+- 13 places on the checklist are still unanswered and left as they were (owner decision).
+
 ## 2026-11-10 (night) - Family ratings from the owner checklist
 
 - Owner checklist (Artifact `familievurderinger`, 110 places with `family_suitability_not_assessed`, status `needs_fact_check` or later or in `data/layer-membership.csv`, archive skipped). The owner answered 51 places on 2026-11-10 (partial pass).

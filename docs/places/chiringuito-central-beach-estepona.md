@@ -28,12 +28,15 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875,-4.6626875) to the Google Places coordinates (36.4228141,-5.1471539); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.4228141%2C-5.1471539&travelmode=driving
   checked_at: '2026-11-02'
   note: 'Routes API figure: 53 min, 59.1 km. One predicted sample.'
-age_groups: []
+age_groups:
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
   small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  children: high
+  young_adults: high
+  seniors: high
 energy_level: Low
 seasonality: []
 accessibility:
@@ -109,6 +112,14 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of tripadvisor.es listing. Name and town match (Estepona). A TheFork page for 'La Central' in Estepona appeared but is a different restaurant and was not used.
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children unknown, children high, young_adults high, seniors high; energy_level Low.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -121,14 +132,6 @@ review_issues:
   description: Created from Google Places identity and a route check. Cuisine, opening hours, season, prices and booking need the restaurant's own source.
   retryable: true
   owner: fact_check
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  description: Age groups and family scores are not assessed.
-  retryable: true
-  owner: human_editor
 - code: no_readable_own_source
   severity: warning
   fields:
@@ -144,8 +147,17 @@ review_issues:
   description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
   retryable: true
   owner: human_editor
+- code: family_suitability_not_assessed
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  - tags
+  description: 'Owner answered ''Ved ikke'' (or left blank) on the 2026-11-10 checklist for: small_children. Energy level set by owner. Tags not assessed.'
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

@@ -34,7 +34,7 @@ family_score:
   children: unknown
   young_adults: unknown
   seniors: unknown
-energy_level: Low
+energy_level: Medium
 seasonality: []
 accessibility:
   overall: unknown
@@ -108,6 +108,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner instruction in chat plus the owner's inspiration entry on callemilano.dk (Lovable table recommendations). Drive time in the site text is the owner's estimate; the record uses the Routes API figure.
+- field: age_groups, family_score, energy_level
+  claim: 'Owner''s assessment on the CalleMilano checklist: family_score small_children unknown, children unknown, young_adults unknown, seniors unknown; energy_level Medium. Owner note (Danish): ''Hotel hugget ud i klipperne med restaurant''.'
+  source_url: https://claude.ai/artifact/Ju9yKgH8Vad7gQNWANxwK1
+  source_type: secondary
+  checked_at: '2026-11-10'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
+  confidence: medium
+  notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -120,16 +128,6 @@ review_issues:
   description: Created from Google Places identity and a route check only; needs official or own sources.
   retryable: true
   owner: fact_check
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  - tags
-  description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
-  retryable: true
-  owner: human_editor
 - code: guest_only_facilities
   severity: info
   fields:
@@ -138,8 +136,17 @@ review_issues:
   description: Hotel facilities other than the restaurant are for guests only (owner). Check whether the restaurant takes non-resident diners and needs booking.
   retryable: true
   owner: fact_check
+- code: family_suitability_not_assessed
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  - tags
+  description: 'Owner answered ''Ved ikke'' (or left blank) on the 2026-11-10 checklist for: small_children, children, young_adults, seniors. Energy level set by owner. Tags not assessed.'
+  retryable: true
+  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-10'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
