@@ -4,7 +4,11 @@ import unittest
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from tools import trip
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+import trip_core as trip  # noqa: E402
 
 
 class TripRouteTests(unittest.TestCase):

@@ -30,7 +30,7 @@ Each published place should include a short description, a long description, rec
 - `docs/places/` — canonical place records (Markdown with YAML front matter)
 - `docs/` — project, editorial, and design documentation
 - `data/` — registers (IDs, import queue, image rights), the generated catalog, and analytical datasets for the recommendation prototype; see [docs/data-dictionary.md](docs/data-dictionary.md)
-- `tools/` — `places.py` (validation and catalog), `app_export.py` (app export), `intake.py` (intake pipeline), `trip.py` (trip plans), `route_check.py` (drive times); shared paths, origin and helpers live in `common.py`
+- `tools/` — `places.py` (validation and catalog), `app_export.py` (app export), `intake.py` (intake pipeline), `trip.py` (trip plans; command line only, the logic is in `trip_core.py`, `trip_weather.py`, `trip_traffic.py`, `trip_restaurants.py`, `trip_plan.py` and `trip_render.py`), `route_check.py` (drive times); shared paths, origin and helpers live in `common.py`
 - `tests/` — unit tests
 - `demo/` — static questionnaire prototype
 - `prompts/` — reusable prompts for research and content drafting
