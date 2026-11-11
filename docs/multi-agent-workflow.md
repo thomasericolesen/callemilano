@@ -197,7 +197,7 @@ Negative feedback (closed, wrong price, wrong hours): Claude fixes it from a sou
 
 Every editor decision gets a line in `docs/change-log.md` with date and source (list or chat). Rules that apply going forward are also written in `AGENTS.md`. No rule applies until it stands there; if something was only said in chat, Claude asks whether it should be written in.
 
-Open item from the review of 2026-11-11: the editor said that some elements are missing from the table above but has not yet named them; add them as new rows when known.
+Confirmed by the editor on 2026-11-11: the table above is complete; no elements are missing.
 
 ## Image rights workflow
 
