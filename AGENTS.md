@@ -51,6 +51,11 @@ The editor-of-record sees only what needs editorial judgement or a formal decisi
 - **Feedback from the app.** Negative feedback: Claude fixes it from a source and sets `needs_fact_check` until the correction is read from a source. Positive feedback may mark "Familien anbefaler"; no editor action. Feedback that disagrees with a source goes on the editor list.
 - **Decisions.** Every editor decision gets a line in `docs/change-log.md` with date and source (list or chat); rules that apply going forward are also written here. No rule applies until it stands here; if something was only said in chat, Claude asks whether it should be written in.
 
+## Language (owner decision 2026-11-12)
+
+- Report to the editor-of-record in Danish: chat replies, reports, editor lists, weekly summaries, PR descriptions and status files.
+- Code, file names, commands, schema values and the English texts in the records stay as they are.
+
 ## Agent pipeline (owner decision 2026-11-02)
 
 Routine intake and fact-check work uses `tools/intake.py` and the subagents in `.claude/agents/` (`candidate-screener`, `source-reader`, `record-writer`) as described in `docs/agent-pipeline.md`. Subagents never approve, never change category/tags/family scores, and never set a status beyond `needs_fact_check`; the main session spot-checks their quotes before committing.
