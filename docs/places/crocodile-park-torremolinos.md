@@ -70,7 +70,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: "September-June 11:00-17:00; July and August 11:00-18:00 (own hours page). The page header says 10:00-17:00; owner decision 2026-11-11 to use the hours page."
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -85,7 +85,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Crocodile Park Torremolinos: a crocodile park, about 23 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Crocodile Park Torremolinos is a crocodile park (C. Cuba, 14, 29620 Torremolinos, Málaga, España). From Casa de la Familia it is about 23 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a park where visitors watch crocodiles close up, from babies to large Nile crocodiles. Open September-June 11:00-17:00 and July-August 11:00-18:00 (the page also shows ''Open 10:00-17:00'', a conflict). Guided tours daily (September-June 12:30, 14:00 and 16:00; July-August 12:30, 14:30 and 16:30), in Spanish or English. Day tickets: adults €18.50, children 5-10 €13.50, ages 3-4 €10.50, seniors 65+ €13.50; a combined ticket with Aqualand Torremolinos is sold online. Check before visiting.'
+description_long: 'Crocodile Park Torremolinos is a crocodile park (C. Cuba, 14, 29620 Torremolinos, Málaga, España). From Casa de la Familia it is about 23 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a park where visitors watch crocodiles close up, from babies to large Nile crocodiles. Open September-June 11:00-17:00 and July-August 11:00-18:00 (the page header also shows ''Open 10:00-17:00''; the owner chose the hours above on 2026-11-11). Guided tours daily (September-June 12:30, 14:00 and 16:00; July-August 12:30, 14:30 and 16:30), in Spanish or English. Day tickets: adults €18.50, children 5-10 €13.50, ages 3-4 €10.50, seniors 65+ €13.50; a combined ticket with Aqualand Torremolinos is sold online. Check before visiting.'
 seo_title: Crocodile Park Torremolinos, Torremolinos | CalleMilano draft record
 seo_description: 'Draft record for Crocodile Park Torremolinos (Torremolinos): location and driving time from Casa de la Familia.'
 images: []
@@ -130,6 +130,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
+- field: visit_information.schedule
+  claim: "Editor decision: use the hours page (11:00-17:00 Sep-Jun, 11:00-18:00 Jul-Aug) over the header (10:00-17:00)."
+  source_url: https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc
+  source_type: secondary
+  checked_at: '2026-11-11'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+  confidence: medium
+  notes: "Decision made by the editor on the editor list (first list, 11 Nov 2026); the conflicting source is named in the record. Own judgement, not independently verified."
 review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'

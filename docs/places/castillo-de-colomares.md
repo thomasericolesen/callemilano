@@ -69,15 +69,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: "Own website: adults 3.50 €, children and pensioners 2.50 € (another block on the page shows 2.00 €; owner decision 2026-11-11 to use 3.50 €/2.50 €). The monument is visited from the outside only."
+  cost_checked_at: '2026-11-11'
 links:
   official_website: https://www.castillomonumentocolomares.com/
   booking: null
@@ -86,7 +86,7 @@ links:
   contact: null
 related_places: []
 description_short: 'Castillo de Colomares: a monument-castle in Benalmádena, about 20 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Castillo de Colomares is a monument-castle in Benalmádena (Finca la Carraca, Ctra. Costa del Sol, s/n, 29639 Benalmádena, Málaga, España). From Casa de la Familia it is about 20 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a monument built as a castle (Castillo Monumento Colomares). Closed on Mondays; open Tuesday-Sunday 10:00-18:00 in autumn and winter, 10:00-20:00 in spring, and 10:00-14:00 and 17:00-21:00 in summer. Tickets at the gate: adults €3.50, children and pensioners €2.50 (the page also shows €2.00 elsewhere). Note from the site: the monument can only be visited from the outside. Check before visiting.'
+description_long: 'Castillo de Colomares is a monument-castle in Benalmádena (Finca la Carraca, Ctra. Costa del Sol, s/n, 29639 Benalmádena, Málaga, España). From Casa de la Familia it is about 20 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a monument built as a castle (Castillo Monumento Colomares). Closed on Mondays; open Tuesday-Sunday 10:00-18:00 in autumn and winter, 10:00-20:00 in spring, and 10:00-14:00 and 17:00-21:00 in summer. Tickets at the gate: adults €3.50, children and pensioners €2.50 (the page also shows €2.00 in another block; the owner chose €3.50 and €2.50 on 2026-11-11). Note from the site: the monument can only be visited from the outside. Check before visiting.'
 seo_title: Castillo de Colomares, Benalmádena | CalleMilano draft record
 seo_description: 'Draft record for Castillo de Colomares (Benalmádena): location and driving time from Casa de la Familia.'
 images: []
@@ -131,6 +131,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
+- field: cost_level; visit_information.cost_basis
+  claim: "Editor decision: use 3.50 € for adults and 2.50 € for children and pensioners (not 2.00 €)."
+  source_url: https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc
+  source_type: secondary
+  checked_at: '2026-11-11'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+  confidence: medium
+  notes: "Decision made by the editor on the editor list (first list, 11 Nov 2026); the conflicting source is named in the record. Own judgement, not independently verified."
 review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'

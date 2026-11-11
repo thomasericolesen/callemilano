@@ -117,7 +117,10 @@ def validate():
                 err(f"missing required field `{field}`")
 
         status = rec.get("status")
-        is_draft = status in DRAFT_STATUSES
+        # Archived stubs that never got an ID (incomplete drafts archived by the editor, 2026-11-11) are checked
+        # like drafts: missing ID, coordinates and route time are warnings, not errors.
+        archived_stub = status == "archived" and rec.get("id") is None
+        is_draft = status in DRAFT_STATUSES or archived_stub
         if status not in STATUSES:
             err(f"invalid status {status!r}")
         if rec.get("schema_version") != SCHEMA_VERSION:
@@ -135,7 +138,7 @@ def validate():
             if is_draft:
                 warn("id is null (identity unresolved; allocate in registry before fact check)"
                      if status == "draft" else "id is null outside `draft` status")
-                if status != "draft":
+                if status not in ("draft", "archived"):
                     err("id must be allocated before leaving `draft`")
             else:
                 err("id is null")

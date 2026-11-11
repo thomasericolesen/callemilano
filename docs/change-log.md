@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-11 (night) - First editor list answered: 7 conflicts decided, 19 drafts archived
+
+- Answers from the first editor list (Artifact "Redaktørlisten", https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc): the owner decided all 26 items, each as Claude recommended, with no notes. Evidence entries (owner's judgement, medium confidence) added to the records.
+- Conflicts decided: `old-swiss-house-fuengirola` hours stay unknown ("check before visiting"; only Tuesday closed is consistent), `olvera-castle` tourist-office hours (winter 10:00-19:00, summer 10:00-20:00), `frigiliana` museum hours (Saturday 10:00-14:00 and 16:00-20:00), `ronda` official PDF (Tue-Fri 9:30), `castillo-de-colomares` 3.50 €/2.50 € (`cost_level` `€`, no longer Unknown), `crocodile-park-torremolinos` hours page (Sept-June 11:00-17:00, July-August 11:00-18:00; now in `visit_information.schedule`), `zero-latency-miramar` age text (no fixed minimum age, minimum height per game, the chain recommends 13+, call before bringing children). The conflict issues were closed; the three conflicts that had been closed in bulk on 2026-11-11 are now resolved by decision.
+- Archived (`archived`, `review_decision` filled in): `cares`, `conil-de-la-frontera`, `cueva-de-los-arcos`, `miradouro-da-serpente-do-medal`, `roca-foradada`, `salt-de-la-coromina` (incomplete drafts without ID, outside the layers) and `casa-carmen-miramar`, `casa-manuel-de-la-lonja`, `chiringuito-central-beach-estepona`, `courtside-by-wissler`, `el-andaluz-de-la-malagueta`, `el-mirador-del-golf`, `juanito-juan`, `norte-puerto-banus`, `pena-al-tranco`, `restaurante-el-golf-mijas`, `restaurante-la-escollera-estepona`, `singh-doner-kebab`, `sol-y-sombra-mijas`. None was in the app, so the export is unchanged in size (158).
+- Tooling: `tools/places.py` now checks an archived record without an ID (the six stubs) like a draft: missing ID, coordinates and route time are warnings, not errors. Archived records with an ID are checked as before. No schema change.
+- Danish app texts rewritten for the four places whose English text changed (`data/app-texts-da.json`); no stale Danish texts remain.
+- Eight drafts wait for the next list because a new source attempt comes first: `castillo-de-monda`, `canon-de-las-angosturas`, `moga-la-cala`, `sky-bar-veramar`, `paseo-maritimo-marbella`, `rio-grande-coin`, `senda-litoral-malaga-oeste`, `sould-park-fuengirola`.
+
 ## 2026-11-11 (night) - Coordinates filled for three records (level A)
 
 - `mercado-de-atarazanas` (36.718434, -4.424058), `olvera-castle` (36.9356854, -5.2675481) and `palmeral-de-las-sorpresas` (36.7183501, -4.415388): place points read in Google Maps in Chrome (identity and position only), evidence entry added, and the `blocking` issue `schema_blocking_unknowns` (unknown coordinates) closed on all three. Not an editor decision: the coordinates are a Google Maps identity fact.

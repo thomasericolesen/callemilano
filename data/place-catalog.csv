@@ -1,24 +1,24 @@
 id,slug,name,status,category,tags,municipality,province,latitude,longitude,distance_km_from_casa,within_primary_radius,driving_time,record_file
 ES-AND-MAL-RESTAURANTE-CERROS-DEL-AGUILA-001,restaurante-cerros-del-aguila,Restaurante Cerros del Águila,approved,Restaurants,Restaurant; Rainy day; Half day; Free,Mijas,Málaga,36.534290399999996,-4.6607671999999996,0.2,yes,3 min,docs/places/restaurante-cerros-del-aguila.md
 ES-AND-MAL-MIXS-LOUNGE-001,mixs-lounge,Mixs Longe,approved,Restaurants,Restaurant; Half day; Free,Mijas,Málaga,36.5345521,-4.6598372999999995,0.3,yes,2 min,docs/places/mixs-lounge.md
-ES-AND-MAL-SINGH-DONER-KEBAB-001,singh-doner-kebab,Singh Doner Kebab,draft,Restaurants,Restaurant,Mijas,Málaga,36.534591999999996,-4.6594489999999995,0.3,yes,2 min,docs/places/singh-doner-kebab.md
+ES-AND-MAL-SINGH-DONER-KEBAB-001,singh-doner-kebab,Singh Doner Kebab,archived,Restaurants,Restaurant,Mijas,Málaga,36.534591999999996,-4.6594489999999995,0.3,yes,2 min,docs/places/singh-doner-kebab.md
 ES-AND-MAL-AVENTOURALIA-001,aventouralia,Aventouralia,approved,Family activities,Adventure; Half day; Premium,Mijas,Málaga,36.539927399999996,-4.6603245,0.5,yes,4 min,docs/places/aventouralia.md
-ES-AND-MAL-PENA-AL-TRANCO-001,pena-al-tranco,Peña Al Tranco,draft,Restaurants,Restaurant,Mijas,Málaga,36.540185199999996,-4.6601631,0.5,yes,4 min,docs/places/pena-al-tranco.md
+ES-AND-MAL-PENA-AL-TRANCO-001,pena-al-tranco,Peña Al Tranco,archived,Restaurants,Restaurant,Mijas,Málaga,36.540185199999996,-4.6601631,0.5,yes,4 min,docs/places/pena-al-tranco.md
 ES-AND-MAL-RANGERS-SAFARI-TOURS-001,rangers-safari-tours,Rangers Safari Tours,approved,Family activities,Adventure; Half day; Premium,Mijas,Málaga,36.5398286,-4.6602783,0.5,yes,3 min,docs/places/rangers-safari-tours.md
 ES-AND-MAL-BIGFOOT-BUGGY-TOURS-001,bigfoot-buggy-tours,Bigfoot Buggy Tours,approved,Family activities,Adventure; Half day; Premium,Mijas,Málaga,36.540579199999996,-4.658856699999999,0.6,yes,4 min,docs/places/bigfoot-buggy-tours.md
 ES-AND-MAL-EQUESTRIAN-CENTRE-CHAPARRAL-001,equestrian-centre-chaparral,Equestrian Centre,archived,Restaurants,Restaurant,Mijas,Málaga,36.5400742,-4.6594660999999995,0.6,yes,4 min,docs/places/equestrian-centre-chaparral.md
 ES-AND-MAL-ATV-ADVENTURES-MIJAS-001,atv-adventures-mijas,ATV Adventures,approved,Family activities,Adventure; Half day; Premium,Mijas,Málaga,36.5410031,-4.6583355,0.7,yes,4 min,docs/places/atv-adventures-mijas.md
 ES-AND-MAL-EL-GRAN-PARQUE-DE-MIJAS-001,el-gran-parque-de-mijas,El Gran Parque de Mijas,approved,Family activities,Nature; Adventure; Half day; Free,Mijas,Málaga,36.539559499999996,-4.656531,0.7,yes,3 min,docs/places/el-gran-parque-de-mijas.md
 ES-AND-MAL-MIJAS-BUGGYS-001,mijas-buggys,Mijas Buggys,approved,Family activities,Adventure; Half day; Premium,Mijas,Málaga,36.5409423,-4.6584363,0.7,yes,4 min,docs/places/mijas-buggys.md
-ES-AND-MAL-COURTSIDE-BY-WISSLER-001,courtside-by-wissler,Courtside by Wissler,draft,Restaurants,Restaurant,Mijas,Málaga,36.5273667,-4.660711099999999,0.9,yes,4 min,docs/places/courtside-by-wissler.md
+ES-AND-MAL-COURTSIDE-BY-WISSLER-001,courtside-by-wissler,Courtside by Wissler,archived,Restaurants,Restaurant,Mijas,Málaga,36.5273667,-4.660711099999999,0.9,yes,4 min,docs/places/courtside-by-wissler.md
 ES-AND-MAL-LA-SIERRA-RESTAURANTE-001,la-sierra-restaurante,La Sierra Restaurante,approved,Restaurants,Restaurant; Rainy day; Half day; Premium,Mijas,Málaga,36.527434299999996,-4.6613722,0.9,yes,5 min,docs/places/la-sierra-restaurante.md
 ES-AND-MAL-RESTAURANTE-CERRADO-DEL-AGUILA-001,restaurante-cerrado-del-aguila,Restaurante Cerrado del Águila,archived,Restaurants,Restaurant,Mijas,Málaga,36.5273981,-4.6614132999999995,0.9,yes,5 min,docs/places/restaurante-cerrado-del-aguila.md
 ES-AND-MAL-RESTAURANTE-HOYO-19-001,restaurante-hoyo-19,Restaurante Hoyo 19,approved,Restaurants,Restaurant; Rainy day; Half day; Free,Mijas,Málaga,36.5438292,-4.6550717,1.1,yes,4 min,docs/places/restaurante-hoyo-19.md
-ES-AND-MAL-SOL-Y-SOMBRA-MIJAS-001,sol-y-sombra-mijas,Sol y Sombra,draft,Restaurants,Restaurant,Mijas,Málaga,36.5439067,-4.6549985,1.1,yes,4 min,docs/places/sol-y-sombra-mijas.md
+ES-AND-MAL-SOL-Y-SOMBRA-MIJAS-001,sol-y-sombra-mijas,Sol y Sombra,archived,Restaurants,Restaurant,Mijas,Málaga,36.5439067,-4.6549985,1.1,yes,4 min,docs/places/sol-y-sombra-mijas.md
 ES-AND-MAL-VENTA-LA-MORENA-001,venta-la-morena,Venta La Morena,approved,Restaurants,Restaurant; Rainy day; Half day,Mijas,Málaga,36.54382100000001,-4.6565385,1.1,yes,4 min,docs/places/venta-la-morena.md
-ES-AND-MAL-RESTAURANTE-EL-GOLF-MIJAS-001,restaurante-el-golf-mijas,Restaurante El Golf,draft,Restaurants,Restaurant,Mijas,Málaga,36.5461604,-4.6586579,1.2,yes,5 min,docs/places/restaurante-el-golf-mijas.md
+ES-AND-MAL-RESTAURANTE-EL-GOLF-MIJAS-001,restaurante-el-golf-mijas,Restaurante El Golf,archived,Restaurants,Restaurant,Mijas,Málaga,36.5461604,-4.6586579,1.2,yes,5 min,docs/places/restaurante-el-golf-mijas.md
 ES-AND-MAL-ASADOR-OTOLA-001,asador-otola,Asador Otola,approved,Restaurants,Restaurant; Rainy day; Half day; Premium,Mijas,Málaga,36.540219199999996,-4.6490593,1.3,yes,6 min,docs/places/asador-otola.md
-ES-AND-MAL-EL-MIRADOR-DEL-GOLF-001,el-mirador-del-golf,Restaurante El Mirador del Golf,draft,Restaurants,Restaurant,Mijas,Málaga,36.5466924,-4.666940299999999,1.3,yes,6 min,docs/places/el-mirador-del-golf.md
+ES-AND-MAL-EL-MIRADOR-DEL-GOLF-001,el-mirador-del-golf,Restaurante El Mirador del Golf,archived,Restaurants,Restaurant,Mijas,Málaga,36.5466924,-4.666940299999999,1.3,yes,6 min,docs/places/el-mirador-del-golf.md
 ES-AND-MAL-BOLERA-MIJAS-DUBAI-BOLL-001,bolera-mijas-dubai-boll,Bolera Mijas (Dubai Boll),approved,Family activities,Adventure; Rainy day; Half day; Premium,Mijas,Málaga,36.5390424,-4.6466071,1.5,yes,6 min,docs/places/bolera-mijas-dubai-boll.md
 ES-AND-MAL-JUMPJOY-MIJAS-001,jumpjoy-mijas,JumpJoy Mijas,approved,Family activities,Adventure; Rainy day; Half day,Mijas,Málaga,36.5394096,-4.6468226999999995,1.5,yes,6 min,docs/places/jumpjoy-mijas.md
 ES-AND-MAL-MIJAS-GOLF-001,mijas-golf,Mijas Golf,approved,Family activities,Restaurant; Adventure; Half day; Premium,Mijas,Málaga,36.549289699999996,-4.6691512,1.6,yes,7 min,docs/places/mijas-golf.md
@@ -33,7 +33,7 @@ ES-AND-MAL-ZOOLOCO-PARTY-001,zooloco-party,Zooloco Party,archived,Family activit
 ES-AND-MAL-COSMOZONE-LASERTAG-001,cosmozone-lasertag,Cosmozone Lasertag,approved,Family activities,Adventure; Rainy day; Half day; Premium,Mijas,Málaga,36.534731,-4.6353832,2.4,yes,8 min,docs/places/cosmozone-lasertag.md
 ES-AND-MAL-JAY-JANGLES-001,jay-jangles,Jay Jangles,archived,Family activities,,Mijas,Málaga,36.551564,-4.6824603,2.5,yes,8 min,docs/places/jay-jangles.md
 ES-AND-MAL-AQUAMIJAS-001,aquamijas,Aquamijas,approved,Family activities,Adventure; Half day; Premium,Mijas,Málaga,36.538292999999996,-4.6330707,2.7,yes,10 min,docs/places/aquamijas.md
-ES-AND-MAL-CASA-CARMEN-MIRAMAR-001,casa-carmen-miramar,Casa Carmen Miramar,draft,Restaurants,Restaurant,Fuengirola,Málaga,36.528888599999995,-4.632253599999999,2.8,yes,9 min,docs/places/casa-carmen-miramar.md
+ES-AND-MAL-CASA-CARMEN-MIRAMAR-001,casa-carmen-miramar,Casa Carmen Miramar,archived,Restaurants,Restaurant,Fuengirola,Málaga,36.528888599999995,-4.632253599999999,2.8,yes,9 min,docs/places/casa-carmen-miramar.md
 ES-AND-MAL-FUENGIROLA-ADVENTURE-GOLF-001,fuengirola-adventure-golf,Fuengirola Adventure Golf,approved,Family activities,Adventure; Half day; Premium,Fuengirola,Málaga,36.532201,-4.632048999999999,2.8,yes,9 min,docs/places/fuengirola-adventure-golf.md
 ES-AND-MAL-KARTING-EXPERIENCE-MIRAMAR-001,karting-experience-miramar,Karting Experience Miramar,approved,Family activities,Adventure; Half day; Premium,Fuengirola,Málaga,36.5299432,-4.632412,2.8,yes,9 min,docs/places/karting-experience-miramar.md
 ES-AND-MAL-MK2-CINESUR-MIRAMAR-001,mk2-cinesur-miramar,mk2 Cinesur Miramar,approved,Family activities,Adventure; Rainy day; Half day; Premium,Fuengirola,Málaga,36.5282529,-4.6328854,2.8,yes,10 min,docs/places/mk2-cinesur-miramar.md
@@ -144,7 +144,7 @@ ES-AND-MAL-PLAYA-PUERTO-BANUS-001,playa-puerto-banus,Playa de Puerto Banús,appr
 ES-AND-MAL-SENDA-LITORAL-MALAGA-OESTE-001,senda-litoral-malaga-oeste,Senda Litoral (Málaga west),draft,Excursions,,Málaga,Málaga,36.689676,-4.4423341999999995,26.1,yes,30 min,docs/places/senda-litoral-malaga-oeste.md
 ES-AND-MAL-SOMOS-DE-BANUS-001,somos-de-banus,Somos de Banús,approved,Restaurants,Restaurant; Full day; Premium,Marbella,Málaga,36.4897645,-4.9496195,26.1,yes,39 min,docs/places/somos-de-banus.md
 ES-AND-MAL-JACKS-SMOKEHOUSE-PUERTO-BANUS-001,jacks-smokehouse-puerto-banus,Jacks Smokehouse (Puerto Banús),approved,Restaurants,Restaurant; Rainy day; Half day; Premium,Marbella,Málaga,36.4885233,-4.9510252,26.3,yes,41 min,docs/places/jacks-smokehouse-puerto-banus.md
-ES-AND-MAL-NORTE-PUERTO-BANUS-001,norte-puerto-banus,Norte Puerto Banús,draft,Restaurants,Restaurant,Marbella,Málaga,36.4906174,-4.9514172,26.3,yes,37 min,docs/places/norte-puerto-banus.md
+ES-AND-MAL-NORTE-PUERTO-BANUS-001,norte-puerto-banus,Norte Puerto Banús,archived,Restaurants,Restaurant,Marbella,Málaga,36.4906174,-4.9514172,26.3,yes,37 min,docs/places/norte-puerto-banus.md
 ES-AND-MAL-TABERNA-CASA-BLANCA-BANUS-001,taberna-casa-blanca-banus,Taberna Casa Blanca Banús,approved,Restaurants,Restaurant; Full day; Premium,Marbella,Málaga,36.4889833,-4.9519008,26.4,yes,37 min,docs/places/taberna-casa-blanca-banus.md
 ES-AND-MAL-PUERTO-BANUS-001,puerto-banus,Puerto Banús,approved,Excursions,Restaurant; Historic town; Half day; Free,Marbella,Málaga,36.486008500000004,-4.954475599999999,26.7,yes,38 min,docs/places/puerto-banus.md
 ES-AND-MAL-TOLOX-001,tolox,Tolox,needs_editorial_review,Excursions,Historic town; Nature; Half day,Tolox,Málaga,36.6850627,-4.9114074,27.7,yes,56 min,docs/places/tolox.md
@@ -157,25 +157,25 @@ ES-AND-MAL-MALAGA-001,malaga,Málaga,needs_editorial_review,City,Historic town; 
 ES-AND-MAL-PALMERAL-DE-LAS-SORPRESAS-001,palmeral-de-las-sorpresas,Palmeral de Las Sorpresas,needs_fact_check,City,,Málaga,Málaga,36.7183501,-4.415388,30.0,yes,40 min,docs/places/palmeral-de-las-sorpresas.md
 ES-AND-MAL-MARISQUERIA-EL-ANCLA-SAN-PEDRO-001,marisqueria-el-ancla-san-pedro,Marisquería El Ancla (San Pedro),approved,Restaurants,Restaurant; Rainy day; Full day; Premium,Marbella,Málaga,36.4701216,-4.990124499999999,30.2,no,41 min,docs/places/marisqueria-el-ancla-san-pedro.md
 ES-AND-MAL-PLAYA-LA-MALAGUETA-001,playa-la-malagueta,Playa la Malagueta,needs_editorial_review,Beaches,Beach,Málaga,Málaga,36.717051,-4.4102835,30.2,no,41 min,docs/places/playa-la-malagueta.md
-ES-AND-MAL-EL-ANDALUZ-DE-LA-MALAGUETA-001,el-andaluz-de-la-malagueta,El Andaluz de la Malagueta,draft,Restaurants,Restaurant,Málaga,Málaga,36.7190896,-4.4093101,30.4,no,43 min,docs/places/el-andaluz-de-la-malagueta.md
+ES-AND-MAL-EL-ANDALUZ-DE-LA-MALAGUETA-001,el-andaluz-de-la-malagueta,El Andaluz de la Malagueta,archived,Restaurants,Restaurant,Málaga,Málaga,36.7190896,-4.4093101,30.4,no,43 min,docs/places/el-andaluz-de-la-malagueta.md
 ES-AND-MAL-TASCA-LASKA-MALAGUETA-001,tasca-laska-malagueta,Tasca Láska Malagueta,approved,Restaurants,Restaurant; Rainy day; Full day,Málaga,Málaga,36.7193155,-4.4091223,30.5,no,43 min,docs/places/tasca-laska-malagueta.md
 ES-AND-MAL-CHIRINGUITO-EL-CACHALOTE-001,chiringuito-el-cachalote,Chiringuito El Cachalote,approved,Restaurants,Restaurant; Half day; Free,Málaga,Málaga,36.719982699999996,-4.405285699999999,30.8,no,39 min,docs/places/chiringuito-el-cachalote.md
 ES-AND-MAL-ALORA-001,alora,Álora,approved,City,Nature; Historic town; Half day; Free,Álora,Málaga,36.819586799999996,-4.704041699999999,31.8,no,50 min,docs/places/alora.md
 ES-AND-MAL-JARDIN-BOTANICO-LA-CONCEPCION-001,jardin-botanico-la-concepcion,Jardín Botánico Histórico La Concepción,approved,Nature,Nature; Adventure; Half day; Premium,Málaga,Málaga,36.7601029,-4.4262669,32.7,no,36 min,docs/places/jardin-botanico-la-concepcion.md
-ES-AND-MAL-JUANITO-JUAN-001,juanito-juan,Juanito Juan,draft,Restaurants,Restaurant,Málaga,Málaga,36.719518099999995,-4.3619905999999995,33.7,no,42 min,docs/places/juanito-juan.md
+ES-AND-MAL-JUANITO-JUAN-001,juanito-juan,Juanito Juan,archived,Restaurants,Restaurant,Málaga,Málaga,36.719518099999995,-4.3619905999999995,33.7,no,42 min,docs/places/juanito-juan.md
 ES-AND-MAL-CANON-DE-LAS-ANGOSTURAS-001,canon-de-las-angosturas,Cañón de las Angosturas (Benahavís),draft,Nature,,Benahavís,Málaga,36.5172039,-5.0399199999999995,33.8,no,46 min,docs/places/canon-de-las-angosturas.md
 ES-AND-MAL-PLAYAS-DEL-PALO-001,playas-del-palo,Playas de El Palo,approved,Beaches,Beach; Half day; Free,Málaga,Málaga,36.718318599999996,-4.3602063,33.8,no,44 min,docs/places/playas-del-palo.md
 ES-AND-MAL-CHIRINGUITO-LA-CONCHA-EL-PALO-001,chiringuito-la-concha-el-palo,Chiringuito La Concha (El Palo),approved,Restaurants,Beach; Restaurant; Full day,Málaga,Málaga,36.7190139,-4.3596761,33.9,no,43 min,docs/places/chiringuito-la-concha-el-palo.md
-ES-AND-MAL-CASA-MANUEL-DE-LA-LONJA-001,casa-manuel-de-la-lonja,Casa Manuel de la Lonja,draft,Restaurants,Restaurant,Málaga,Málaga,36.7185771,-4.3571322,34.0,no,46 min,docs/places/casa-manuel-de-la-lonja.md
+ES-AND-MAL-CASA-MANUEL-DE-LA-LONJA-001,casa-manuel-de-la-lonja,Casa Manuel de la Lonja,archived,Restaurants,Restaurant,Málaga,Málaga,36.7185771,-4.3571322,34.0,no,46 min,docs/places/casa-manuel-de-la-lonja.md
 ES-AND-MAL-BENAHAVIS-001,benahavis,Benahavís,approved,City,Nature; Viewpoint; Historic town; Half day; Free,Benahavís,Málaga,36.5174193,-5.0450107,34.2,no,48 min,docs/places/benahavis.md
 ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,sierra-de-las-nieves,Sierra de las Nieves,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Full day,Sierra de las Nieves,Málaga,36.7904469,-4.9480972,38.1,no,79 min,docs/places/sierra-de-las-nieves.md
 ES-AND-MAL-CUEVA-DEL-TESORO-001,cueva-del-tesoro,Cueva del Tesoro,approved,Excursions,Viewpoint; Adventure; Half day; Premium,Rincón de la Victoria,Málaga,36.719695699999995,-4.2975807,38.5,no,43 min,docs/places/cueva-del-tesoro.md
 ES-AND-MAL-SELWO-AVENTURA-001,selwo-aventura,Selwo Aventura,needs_editorial_review,Family activities,Nature; Adventure; Full day,Estepona,Málaga,36.462831,-5.0856,38.7,no,47 min,docs/places/selwo-aventura.md
 ES-AND-MAL-CAMINITO-DEL-REY-001,caminito-del-rey,Caminito del Rey,needs_editorial_review,Excursions,Nature; Hiking; Adventure; Viewpoint; Full day,Ardales,Málaga,36.914782,-4.8080823,44.1,no,63 min,docs/places/caminito-del-rey.md
 ES-AND-MAL-ESTEPONA-OLD-TOWN-001,estepona-old-town,Estepona old town,approved,City,Historic town; Half day; Free,Estepona,Málaga,36.4257878,-5.145206,44.8,no,53 min,docs/places/estepona-old-town.md
-ES-AND-MAL-CHIRINGUITO-CENTRAL-BEACH-ESTEPONA-001,chiringuito-central-beach-estepona,Chiringuito Central Beach (Estepona),draft,Restaurants,Restaurant,Estepona,Málaga,36.4228141,-5.1471539,45.1,no,53 min,docs/places/chiringuito-central-beach-estepona.md
+ES-AND-MAL-CHIRINGUITO-CENTRAL-BEACH-ESTEPONA-001,chiringuito-central-beach-estepona,Chiringuito Central Beach (Estepona),archived,Restaurants,Restaurant,Estepona,Málaga,36.4228141,-5.1471539,45.1,no,53 min,docs/places/chiringuito-central-beach-estepona.md
 ES-AND-MAL-PLAYA-DE-LA-RADA-ESTEPONA-001,playa-de-la-rada-estepona,Playa de la Rada (Estepona),approved,Beaches,Beach; Full day; Free,Estepona,Málaga,36.4187341,-5.152143,45.7,no,54 min,docs/places/playa-de-la-rada-estepona.md
-ES-AND-MAL-RESTAURANTE-LA-ESCOLLERA-ESTEPONA-001,restaurante-la-escollera-estepona,Restaurante La Escollera (Estepona),draft,Restaurants,Restaurant,Estepona,Málaga,36.4163478,-5.1546519,45.9,no,53 min,docs/places/restaurante-la-escollera-estepona.md
+ES-AND-MAL-RESTAURANTE-LA-ESCOLLERA-ESTEPONA-001,restaurante-la-escollera-estepona,Restaurante La Escollera (Estepona),archived,Restaurants,Restaurant,Estepona,Málaga,36.4163478,-5.1546519,45.9,no,53 min,docs/places/restaurante-la-escollera-estepona.md
 ES-AND-MAL-LA-LOBEZNA-ESTEPONA-001,la-lobezna-estepona,La Lobezna (Estepona),approved,Restaurants,Restaurant; Full day; Premium,Estepona,Málaga,36.4203681,-5.1562643,46.0,no,54 min,docs/places/la-lobezna-estepona.md
 ES-AND-MAL-PUERTO-DEPORTIVO-ESTEPONA-001,puerto-deportivo-estepona,Puerto Deportivo de Estepona,approved,Excursions,Restaurant; Viewpoint; Historic town; Half day; Premium,Estepona,Málaga,36.4148347,-5.1571843,46.2,no,54 min,docs/places/puerto-deportivo-estepona.md
 ES-AND-MAL-TABERNA-MAR-DE-ALBORAN-ESTEPONA-001,taberna-mar-de-alboran-estepona,Taberna Mar de Alborán (Estepona),archived,Restaurants,Restaurant,Estepona,Málaga,36.4159394,-5.1588487999999995,46.3,no,52 min,docs/places/taberna-mar-de-alboran-estepona.md
@@ -204,18 +204,18 @@ ES-CLM-ALB-ALCALA-DEL-JUCAR-001,alcala-del-jucar,Alcalá del Júcar,needs_fact_c
 ES-CYL-SEG-ALCAZAR-DE-SEGOVIA-001,alcazar-de-segovia,Alcázar de Segovia,needs_fact_check,Family activities,Museum; Viewpoint,Segovia,Segovia,,,,,6 hours 29 mins,docs/places/alcazar-de-segovia.md
 ES-AND-HUE-ARACENA-001,aracena,Aracena,needs_fact_check,City,Historic town,Aracena,Huelva,,,,,3 hours 34 mins,docs/places/aracena.md
 ES-BAL-BAL-BELLVER-SLOT-001,bellver-slot,Bellver Slot,needs_fact_check,Family activities,Museum; Viewpoint,Unknown,Unknown,,,,,13 hours 58 mins,docs/places/bellver-slot.md
-,cares,Cares,draft,Nature,Nature; Hiking,Unknown,Unknown,,,,,,docs/places/cares.md
+,cares,Cares,archived,Nature,Nature; Hiking,Unknown,Unknown,,,,,,docs/places/cares.md
 ES-CYL-LEO-COLUMPIO-DE-RIANO-001,columpio-de-riano,Columpio de Riaño,needs_fact_check,Nature,Viewpoint; Adventure,Unknown,Unknown,,,,,9 hours 21 mins,docs/places/columpio-de-riano.md
-,conil-de-la-frontera,CONIL DE LA FRONTERA,draft,City,Beach; Historic town,Unknown,Unknown,,,,,2 hours 31 mins,docs/places/conil-de-la-frontera.md
-,cueva-de-los-arcos,Cueva de los Arcos,draft,Nature,Nature,Unknown,Unknown,,,,,5 hours 49 mins,docs/places/cueva-de-los-arcos.md
+,conil-de-la-frontera,CONIL DE LA FRONTERA,archived,City,Beach; Historic town,Unknown,Unknown,,,,,2 hours 31 mins,docs/places/conil-de-la-frontera.md
+,cueva-de-los-arcos,Cueva de los Arcos,archived,Nature,Nature,Unknown,Unknown,,,,,5 hours 49 mins,docs/places/cueva-de-los-arcos.md
 ES-CAT-LLE-ESTANY-DE-SANT-MAURICI-001,estany-de-sant-maurici,Estany de Sant Maurici,needs_fact_check,Nature,Nature; Hiking; Viewpoint,Espot,Lleida,,,,,11 hours 35 mins,docs/places/estany-de-sant-maurici.md
 ES-BAS-BIZ-GAZTELUGATXEKO-DONIENE-001,gaztelugatxeko-doniene,Gaztelugatxeko Doniene,needs_fact_check,Nature,Viewpoint; Hiking,Bermeo,Bizkaia,,,,,9 hours 46 mins,docs/places/gaztelugatxeko-doniene.md
 ES-VAL-CAS-LA-VALL-DUIXO-001,la-vall-duixo,La Vall d'Uixó,needs_fact_check,City,,Unknown,Unknown,,,,,6 hours 24 mins,docs/places/la-vall-duixo.md
 ES-AND-CAD-LOS-CANOS-DE-MECA-001,los-canos-de-meca,Los Caños de Meca,needs_fact_check,Beaches,Beach; Nature,Unknown,Cádiz,,,,,2 hours 35 mins,docs/places/los-canos-de-meca.md
-,miradouro-da-serpente-do-medal,Miradouro da Serpente do Medal,draft,Nature,Viewpoint; Hiking,Mogadouro,Unknown,,,,,8 hours 18 mins,docs/places/miradouro-da-serpente-do-medal.md
+,miradouro-da-serpente-do-medal,Miradouro da Serpente do Medal,archived,Nature,Viewpoint; Hiking,Mogadouro,Unknown,,,,,8 hours 18 mins,docs/places/miradouro-da-serpente-do-medal.md
 ES-CAT-BAR-MORRO-DE-LABELLA-001,morro-de-labella,Morro de l'Abella,needs_fact_check,Nature,Viewpoint; Nature,Tavertet,Barcelona,,,,,10 hours 24 mins,docs/places/morro-de-labella.md
 ES-VAL-ALI-PASARELA-DE-RELLEU-001,pasarela-de-relleu,PASARELA DE RELLEU,needs_fact_check,Nature,Hiking; Adventure; Viewpoint,Relleu,Alicante,,,,,5 hours 28 mins,docs/places/pasarela-de-relleu.md
-,roca-foradada,Roca Foradada,draft,Nature,Nature; Viewpoint,Unknown,Unknown,,,,,9 hours 30 mins,docs/places/roca-foradada.md
-,salt-de-la-coromina,Salt de la Coromina,draft,Nature,Nature; Hiking,Unknown,Unknown,,,,,10 hours 43 mins,docs/places/salt-de-la-coromina.md
+,roca-foradada,Roca Foradada,archived,Nature,Nature; Viewpoint,Unknown,Unknown,,,,,9 hours 30 mins,docs/places/roca-foradada.md
+,salt-de-la-coromina,Salt de la Coromina,archived,Nature,Nature; Hiking,Unknown,Unknown,,,,,10 hours 43 mins,docs/places/salt-de-la-coromina.md
 ES-CAT-BAR-SALT-DE-SALLENT-001,salt-de-sallent,Salt de Sallent,needs_fact_check,Nature,Nature; Hiking; Viewpoint,Rupit i Pruit,Barcelona,,,,,10 hours 44 mins,docs/places/salt-de-sallent.md
 ES-BAS-GIP-ZUMAIA-001,zumaia,Zumaia,needs_fact_check,City,Historic town,Zumaia,Gipuzkoa,,,,,9 hours 54 mins,docs/places/zumaia.md

@@ -67,7 +67,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: 'Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous). Dates of the season change are not stated. A second municipal page (changed 2023) gives 10:00-20:00 all year.'
+  schedule: "Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous), from the tourist office. Dates of the season change are not stated. An older municipal page (changed 2023) gives 10:00-20:00 all year; the owner chose the tourist-office hours on 2026-11-11."
   typical_duration: 1–2 hours including the castle and short old-town walk (editorial planning estimate)
   booking_lead_time: null
   valid_from: null
@@ -144,6 +144,14 @@ evidence:
     checked_by: Claude (main session); read in Google Maps in Chrome
     confidence: medium
     notes: Identity and position only (place point shown by Google Maps); not a visitor entrance point.
+  - field: visit_information.schedule
+    claim: "Editor decision: use the tourist-office hours (winter 10:00-19:00, summer 10:00-20:00)."
+    source_url: https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc
+    source_type: secondary
+    checked_at: '2026-11-11'
+    checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+    confidence: medium
+    notes: "Decision made by the editor on the editor list (first list, 11 Nov 2026); the conflicting source is named in the record. Own judgement, not independently verified."
 review_issues:
   - code: editorial_suitability_requires_human_review
     severity: warning
@@ -170,13 +178,6 @@ review_issues:
     description: Primary category and controlled tags are provisional intake recommendations; human editor-of-record must confirm before editorial advancement.
     retryable: false
     owner: human_editor
-  - code: winter_hours_conflict
-    severity: warning
-    fields:
-      - visit_information.schedule
-    description: Two municipal pages disagree on winter closing time (19:00 vs 20:00).
-    retryable: true
-    owner: fact_check
   - code: castle_price_unconfirmed
     severity: warning
     fields:

@@ -1,18 +1,18 @@
 {
  "ES-AND-CAD-OLVERA-CASTLE-001": {
-  "source_sha": "6fd9bddc34d164b7",
+  "source_sha": "31fab71b67c1428f",
   "summary": "Borg fra nasridernes tid over den gamle bydel i Olvera i Sierra de Cádiz.",
   "practical": [
    {
     "label": "Åbningstider",
-    "text": "Borgen: om sommeren dagligt 10.00-20.00; om vinteren dagligt 10.00-19.00 (uden pause). Hvornår sæsonen skifter, er ikke oplyst. En anden kommunal side (ændret 2023) angiver 10.00-20.00 hele året – tjek før besøget."
+    "text": "Borgen: om sommeren dagligt 10.00-20.00; om vinteren dagligt 10.00-19.00 (uden pause), ifølge turistkontoret. Hvornår sæsonen skifter, er ikke oplyst. En ældre kommunal side (ændret 2023) angiver 10.00-20.00 hele året; turistkontorets tider er valgt."
    },
    {
     "label": "Pris",
     "text": "Den officielle turistside skriver 'Consultar con Oficina de Turismo' (spørg turistkontoret). Ifølge uddrag fra en kommunal side og kommunens Facebook: 2 € pr. person, 1 € for grupper (25+), gratis for beboere – ikke bekræftet på den nuværende officielle side."
    }
   ],
-  "translated_at": "2026-11-08",
+  "translated_at": "2026-11-11",
   "checked_by": "Claude (main session)"
  },
  "ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001": {
@@ -199,11 +199,16 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-CASTILLO-DE-COLOMARES-001": {
-  "source_sha": "72ffdd2ade55fa78",
+  "source_sha": "acee8713a3ead26f",
   "summary": "Castillo de Colomares: et monument i form af et slot i Benalmádena, ca. 20 min i bil fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Voksne 3,50 €, børn og pensionister 2,50 € (egen hjemmeside; en anden blok på siden viser 2,00 €, men 3,50/2,50 € er valgt). Monumentet besøges kun udefra."
+   }
+  ],
+  "translated_at": "2026-11-11",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-CASTILLO-EJIDO-001": {
   "source_sha": "08e0fbbfcb571598",
@@ -316,11 +321,16 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-CROCODILE-PARK-TORREMOLINOS-001": {
-  "source_sha": "7a1bebd768d4580c",
+  "source_sha": "809b37344f5eedc0",
   "summary": "Crocodile Park Torremolinos: krokodillepark, ca. 23 min i bil fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "September-juni 11.00-17.00; juli og august 11.00-18.00 (parkens egen tidsside). Sidehovedet siger 10.00-17.00, men tidssidens tider er valgt."
+   }
+  ],
+  "translated_at": "2026-11-11",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-CUEVA-DEL-TESORO-001": {
   "source_sha": "26894eef4da3a0a0",
@@ -922,19 +932,19 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-OLD-SWISS-HOUSE-FUENGIROLA-001": {
-  "source_sha": "feb0098f72f82851",
+  "source_sha": "0a1f649d1d881c7f",
   "summary": "Old Swiss House: restaurant i Fuengirola med Superman-børnemenu. Det anbefales at booke bord i forvejen på telefon.",
   "practical": [
    {
     "label": "Åbningstider",
-    "text": "Tirsdag lukket; onsdag kun aften; mandag og torsdag-søndag frokost og aften (egen hjemmeside, 8. nov. 2026; klokkeslæt er ikke oplyst – ring eller tjek hjemmesiden)."
+    "text": "Tirsdag lukket. Hjemmesiden giver modstridende tider for de andre dage (onsdag frokost, søndag); tjek før besøget, tlf. +34 952 472 606."
    },
    {
     "label": "Pris",
     "text": "Menuer til 27-30 € pr. person (Chateaubriand-menu 30 €). Børnemenu 7,50 €."
    }
   ],
-  "translated_at": "2026-11-08",
+  "translated_at": "2026-11-11",
   "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-PARQUE-DE-LA-PALOMA-001": {

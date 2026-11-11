@@ -83,7 +83,7 @@ links:
   contact: https://www.facebook.com/zerolatencymalaga
 related_places: []
 description_short: 'Zero Latency Miramar: free-roam virtual-reality arena at the Miramar shopping centre, about 9 min by car from Casa de la Familia. Draft; partly fact-checked.'
-description_long: 'Zero Latency Miramar is a free-roam virtual-reality arena at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). The operator''s pages (checked 2026-11-02): an arena of more than 200 m² where up to eight players move freely without cables; standard hours Monday-Thursday 15:00-22:00, Friday 13:00-23:00, Saturday 12:00-23:00 and Sunday 12:00-22:00 (the operator notes these may differ on the day). Games last 15-30 minutes, with packages of 45-60 minutes. The age rule is unclear: the Málaga page says there is no fixed minimum age but each game has a minimum height, while the operator''s general FAQ says players must be 13 or older. The FAQ also says the games are generally not suitable for pregnant players, people who need mobility assistance, who are deaf or blind, or who have heart conditions, and that VR can trigger seizures. On its own booking site a gift voucher for one ticket costs €29.95 (eight tickets €239.60); games are booked online, staff speak Spanish and English (own Facebook page; phone +34 951 81 11 05), and groups of more than eight should book by e-mail (info_malaga@zerolatencyvr.es) or Instagram (@zerolatencymalaga). Check with the venue before visiting.'
+description_long: 'Zero Latency Miramar is a free-roam virtual-reality arena at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). The operator''s pages (checked 2026-11-02): an arena of more than 200 m² where up to eight players move freely without cables; standard hours Monday-Thursday 15:00-22:00, Friday 13:00-23:00, Saturday 12:00-23:00 and Sunday 12:00-22:00 (the operator notes these may differ on the day). Games last 15-30 minutes, with packages of 45-60 minutes. There is no fixed minimum age, but each game has a minimum height (Málaga page), and the operator general FAQ recommends players be 13 or older (some venues differ); call the venue on +34 951 811 105 before bringing children (owner decision 2026-11-11). The FAQ also says the games are generally not suitable for pregnant players, people who need mobility assistance, who are deaf or blind, or who have heart conditions, and that VR can trigger seizures. On its own booking site a gift voucher for one ticket costs €29.95 (eight tickets €239.60); games are booked online, staff speak Spanish and English (own Facebook page; phone +34 951 81 11 05), and groups of more than eight should book by e-mail (info_malaga@zerolatencyvr.es) or Instagram (@zerolatencymalaga). Check with the venue before visiting.'
 seo_title: Zero Latency Miramar, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Zero Latency Miramar (Fuengirola): location and walking and driving time from Casa de la Familia.'
 images: []
@@ -160,6 +160,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
+- field: description_long; age_groups
+  claim: "Editor decision: write \"no fixed minimum age, minimum height per game, the chain recommends 13+, call before bringing children\"."
+  source_url: https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc
+  source_type: secondary
+  checked_at: '2026-11-11'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+  confidence: medium
+  notes: "Decision made by the editor on the editor list (first list, 11 Nov 2026); the conflicting source is named in the record. Own judgement, not independently verified."
 review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'

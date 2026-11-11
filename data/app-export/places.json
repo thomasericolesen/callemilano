@@ -1739,7 +1739,7 @@
     "Half day",
     "Premium"
    ],
-   "description": "Castillo de Colomares is a monument-castle in Benalmádena (Finca la Carraca, Ctra. Costa del Sol, s/n, 29639 Benalmádena, Málaga, España). From Casa de la Familia it is about 20 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a monument built as a castle (Castillo Monumento Colomares). Closed on Mondays; open Tuesday-Sunday 10:00-18:00 in autumn and winter, 10:00-20:00 in spring, and 10:00-14:00 and 17:00-21:00 in summer. Tickets at the gate: adults €3.50, children and pensioners €2.50 (the page also shows €2.00 elsewhere). Note from the site: the monument can only be visited from the outside. Check before visiting.",
+   "description": "Castillo de Colomares is a monument-castle in Benalmádena (Finca la Carraca, Ctra. Costa del Sol, s/n, 29639 Benalmádena, Málaga, España). From Casa de la Familia it is about 20 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a monument built as a castle (Castillo Monumento Colomares). Closed on Mondays; open Tuesday-Sunday 10:00-18:00 in autumn and winter, 10:00-20:00 in spring, and 10:00-14:00 and 17:00-21:00 in summer. Tickets at the gate: adults €3.50, children and pensioners €2.50 (the page also shows €2.00 in another block; the owner chose €3.50 and €2.50 on 2026-11-11). Note from the site: the monument can only be visited from the outside. Check before visiting.",
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -1766,11 +1766,16 @@
      "udsigt",
      "historisk-by"
     ],
-    "cost_level": null,
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Castillo de Colomares: et monument i form af et slot i Benalmádena, ca. 20 min i bil fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Pris",
+      "text": "Voksne 3,50 €, børn og pensionister 2,50 € (egen hjemmeside; en anden blok på siden viser 2,00 €, men 3,50/2,50 € er valgt). Monumentet besøges kun udefra."
+     }
+    ],
     "links": {
      "official": "https://www.castillomonumentocolomares.com/",
      "booking": null,
@@ -2721,7 +2726,7 @@
     "Half day",
     "Premium"
    ],
-   "description": "Crocodile Park Torremolinos is a crocodile park (C. Cuba, 14, 29620 Torremolinos, Málaga, España). From Casa de la Familia it is about 23 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a park where visitors watch crocodiles close up, from babies to large Nile crocodiles. Open September-June 11:00-17:00 and July-August 11:00-18:00 (the page also shows 'Open 10:00-17:00', a conflict). Guided tours daily (September-June 12:30, 14:00 and 16:00; July-August 12:30, 14:30 and 16:30), in Spanish or English. Day tickets: adults €18.50, children 5-10 €13.50, ages 3-4 €10.50, seniors 65+ €13.50; a combined ticket with Aqualand Torremolinos is sold online. Check before visiting.",
+   "description": "Crocodile Park Torremolinos is a crocodile park (C. Cuba, 14, 29620 Torremolinos, Málaga, España). From Casa de la Familia it is about 23 minutes by car (Google route check, Saturday 10:00). Its own website (checked 2026-11-02): a park where visitors watch crocodiles close up, from babies to large Nile crocodiles. Open September-June 11:00-17:00 and July-August 11:00-18:00 (the page header also shows 'Open 10:00-17:00'; the owner chose the hours above on 2026-11-11). Guided tours daily (September-June 12:30, 14:00 and 16:00; July-August 12:30, 14:30 and 16:30), in Spanish or English. Day tickets: adults €18.50, children 5-10 €13.50, ages 3-4 €10.50, seniors 65+ €13.50; a combined ticket with Aqualand Torremolinos is sold online. Check before visiting.",
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -2752,7 +2757,12 @@
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Crocodile Park Torremolinos: krokodillepark, ca. 23 min i bil fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "September-juni 11.00-17.00; juli og august 11.00-18.00 (parkens egen tidsside). Sidehovedet siger 10.00-17.00, men tidssidens tider er valgt."
+     }
+    ],
     "links": {
      "official": "https://www.cocodrilospark.com/",
      "booking": null,
@@ -2763,8 +2773,8 @@
     "trip": {
      "record_category": "Family activities",
      "municipality": "Torremolinos",
-     "schedule": null,
-     "schedule_checked_at": "2026-11-02",
+     "schedule": "September-June 11:00-17:00; July and August 11:00-18:00 (own hours page). The page header says 10:00-17:00; owner decision 2026-11-11 to use the hours page.",
+     "schedule_checked_at": "2026-11-11",
      "valid_until": null,
      "needs_fixed_hours": true,
      "rainy_day": false,
@@ -3683,7 +3693,7 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Museo Arqueológico, exhibition rooms and tourist office share the same hours (museum site): 16 Sep-1 Jul Mon-Fri 10:00-18:00, Sat 10:00-14:00 and 16:00-20:00, Sun 10:00-14:00; 1 Jul-15 Sep Mon-Sat 10:00-14:30 and 17:30-21:00, Sun 10:00-14:30. The tourist-office page instead gives Sat 10:00-18:00 in winter."
+      "text": "Museo Arqueológico, exhibition rooms and tourist office share the same hours (museum site): 16 Sep-1 Jul Mon-Fri 10:00-18:00, Sat 10:00-14:00 and 16:00-20:00, Sun 10:00-14:00; 1 Jul-15 Sep Mon-Sat 10:00-14:30 and 17:30-21:00, Sun 10:00-14:30. The tourist-office page instead gives Sat 10:00-18:00 in winter; the owner chose the museum's hours on 2026-11-11."
      },
      {
       "label": "Pris",
@@ -3695,13 +3705,13 @@
      "booking": null,
      "info": "https://www.turismofrigiliana.es/es/la-oficina-de-turismo.html"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-11",
     "text_language": "en",
     "trip": {
      "record_category": "City",
      "municipality": "Frigiliana",
-     "schedule": "Museo Arqueológico, exhibition rooms and tourist office share the same hours (museum site): 16 Sep-1 Jul Mon-Fri 10:00-18:00, Sat 10:00-14:00 and 16:00-20:00, Sun 10:00-14:00; 1 Jul-15 Sep Mon-Sat 10:00-14:30 and 17:30-21:00, Sun 10:00-14:30. The tourist-office page instead gives Sat 10:00-18:00 in winter.",
-     "schedule_checked_at": "2026-10-30",
+     "schedule": "Museo Arqueológico, exhibition rooms and tourist office share the same hours (museum site): 16 Sep-1 Jul Mon-Fri 10:00-18:00, Sat 10:00-14:00 and 16:00-20:00, Sun 10:00-14:00; 1 Jul-15 Sep Mon-Sat 10:00-14:30 and 17:30-21:00, Sun 10:00-14:30. The tourist-office page instead gives Sat 10:00-18:00 in winter; the owner chose the museum's hours on 2026-11-11.",
+     "schedule_checked_at": "2026-11-11",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -3709,7 +3719,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -8206,7 +8216,7 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Tirsdag lukket; onsdag kun aften; mandag og torsdag-søndag frokost og aften (egen hjemmeside, 8. nov. 2026; klokkeslæt er ikke oplyst – ring eller tjek hjemmesiden)."
+      "text": "Tirsdag lukket. Hjemmesiden giver modstridende tider for de andre dage (onsdag frokost, søndag); tjek før besøget, tlf. +34 952 472 606."
      },
      {
       "label": "Pris",
@@ -8223,8 +8233,8 @@
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": "Tuesday closed; Wednesday dinner only; Monday and Thursday-Sunday lunch and dinner (own website, owner's screenshot 2026-11-08; times not stated in this section).",
-     "schedule_checked_at": null,
+     "schedule": "Tuesday closed. The own website gives conflicting hours for the other days (Wednesday lunch, Sunday); check before visiting, tel. +34 952 472 606 (owner decision 2026-11-11).",
+     "schedule_checked_at": "2026-11-11",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": true,
@@ -8292,7 +8302,7 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Borgen: om sommeren dagligt 10.00-20.00; om vinteren dagligt 10.00-19.00 (uden pause). Hvornår sæsonen skifter, er ikke oplyst. En anden kommunal side (ændret 2023) angiver 10.00-20.00 hele året – tjek før besøget."
+      "text": "Borgen: om sommeren dagligt 10.00-20.00; om vinteren dagligt 10.00-19.00 (uden pause), ifølge turistkontoret. Hvornår sæsonen skifter, er ikke oplyst. En ældre kommunal side (ændret 2023) angiver 10.00-20.00 hele året; turistkontorets tider er valgt."
      },
      {
       "label": "Pris",
@@ -8309,8 +8319,8 @@
     "trip": {
      "record_category": "Family activities",
      "municipality": "Unknown",
-     "schedule": "Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous). Dates of the season change are not stated. A second municipal page (changed 2023) gives 10:00-20:00 all year.",
-     "schedule_checked_at": "2026-10-30",
+     "schedule": "Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous), from the tourist office. Dates of the season change are not stated. An older municipal page (changed 2023) gives 10:00-20:00 all year; the owner chose the tourist-office hours on 2026-11-11.",
+     "schedule_checked_at": "2026-11-11",
      "valid_until": null,
      "needs_fixed_hours": true,
      "rainy_day": false,
@@ -9949,7 +9959,7 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Puente Nuevo interpretation centre, valid from 1 Oct 2026 (official PDF): Mon and Sat 10:00-14:00 and 15:00-18:00; Tue-Fri 9:30-19:00; Sun and holidays 10:00-15:00. The web page says Tue-Fri 10:00-19:00 (last entry 18:30), Sun 10:00-15:00 (last entry 14:30), Mon/Sat 10:00-14:00 and 15:00-18:00 (last entry 17:30)."
+      "text": "Puente Nuevo interpretation centre, valid from 1 Oct 2026 (official PDF): Mon and Sat 10:00-14:00 and 15:00-18:00; Tue-Fri 9:30-19:00; Sun and holidays 10:00-15:00. The web page says Tue-Fri 10:00-19:00; the owner chose the official PDF on 2026-11-11."
      },
      {
       "label": "Pris",
@@ -9961,13 +9971,13 @@
      "booking": null,
      "info": "https://turismoderonda.es/es/ronda/que_ver/cool_places,arquitectura_plazas_monumentos/puente_nuevo_de_ronda"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-11",
     "text_language": "en",
     "trip": {
      "record_category": "City",
      "municipality": "Ronda",
-     "schedule": "Puente Nuevo interpretation centre, valid from 1 Oct 2026 (official PDF): Mon and Sat 10:00-14:00 and 15:00-18:00; Tue-Fri 9:30-19:00; Sun and holidays 10:00-15:00. The web page says Tue-Fri 10:00-19:00 (last entry 18:30), Sun 10:00-15:00 (last entry 14:30), Mon/Sat 10:00-14:00 and 15:00-18:00 (last entry 17:30).",
-     "schedule_checked_at": "2026-10-30",
+     "schedule": "Puente Nuevo interpretation centre, valid from 1 Oct 2026 (official PDF): Mon and Sat 10:00-14:00 and 15:00-18:00; Tue-Fri 9:30-19:00; Sun and holidays 10:00-15:00. The web page says Tue-Fri 10:00-19:00; the owner chose the official PDF on 2026-11-11.",
+     "schedule_checked_at": "2026-11-11",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -9975,7 +9985,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -12149,7 +12159,7 @@
     "Rainy day",
     "Half day"
    ],
-   "description": "Zero Latency Miramar is a free-roam virtual-reality arena at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). The operator's pages (checked 2026-11-02): an arena of more than 200 m² where up to eight players move freely without cables; standard hours Monday-Thursday 15:00-22:00, Friday 13:00-23:00, Saturday 12:00-23:00 and Sunday 12:00-22:00 (the operator notes these may differ on the day). Games last 15-30 minutes, with packages of 45-60 minutes. The age rule is unclear: the Málaga page says there is no fixed minimum age but each game has a minimum height, while the operator's general FAQ says players must be 13 or older. The FAQ also says the games are generally not suitable for pregnant players, people who need mobility assistance, who are deaf or blind, or who have heart conditions, and that VR can trigger seizures. On its own booking site a gift voucher for one ticket costs €29.95 (eight tickets €239.60); games are booked online, staff speak Spanish and English (own Facebook page; phone +34 951 81 11 05), and groups of more than eight should book by e-mail (info_malaga@zerolatencyvr.es) or Instagram (@zerolatencymalaga). Check with the venue before visiting.",
+   "description": "Zero Latency Miramar is a free-roam virtual-reality arena at the Miramar shopping centre at Av. de la Encarnación, s/n, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 9 minutes by car (Google route check, Saturday 10:00). The operator's pages (checked 2026-11-02): an arena of more than 200 m² where up to eight players move freely without cables; standard hours Monday-Thursday 15:00-22:00, Friday 13:00-23:00, Saturday 12:00-23:00 and Sunday 12:00-22:00 (the operator notes these may differ on the day). Games last 15-30 minutes, with packages of 45-60 minutes. There is no fixed minimum age, but each game has a minimum height (Málaga page), and the operator general FAQ recommends players be 13 or older (some venues differ); call the venue on +34 951 811 105 before bringing children (owner decision 2026-11-11). The FAQ also says the games are generally not suitable for pregnant players, people who need mobility assistance, who are deaf or blind, or who have heart conditions, and that VR can trigger seizures. On its own booking site a gift voucher for one ticket costs €29.95 (eight tickets €239.60); games are booked online, staff speak Spanish and English (own Facebook page; phone +34 951 81 11 05), and groups of more than eight should book by e-mail (info_malaga@zerolatencyvr.es) or Instagram (@zerolatencymalaga). Check with the venue before visiting.",
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
