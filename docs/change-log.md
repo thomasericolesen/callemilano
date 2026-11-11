@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-11 (night) - 90 owner-reviewed places set to approved (owner decision)
+
+- Owner decision 2026-11-11: places the owner reviewed himself on both checklists (family ratings 2026-11-10, tags 2026-11-11) and that are fact-checked are `approved`. 90 records (all in the app export; each has `review_decision`: approved, reviewer Eric Olesen, date 2026-11-11; `last_reviewed_at` 2026-11-11, `next_review_at` 2027-04-11).
+- `approved` cannot carry open `review_issues` (validator and `AGENTS.md`). 87 of the 90 had issues; on the owner's instruction all 130 were closed (removed) with the approval, including `price_conflict`, `opening_hour_conflict` and `minimum_age_conflict` (conflicting source information) and 36 `facts_partly_checked`. The gaps and conflicts stay recorded in the evidence ledger and `notes`; they are no longer listed as open issues.
+- App export now: 103 `approved`, 48 `needs_editorial_review`, 7 `needs_fact_check`. The app labels `approved` and `needs_editorial_review` alike ("Faktatjekket"); `places.json` regenerated, so the app needs a new import.
+
 ## 2026-11-11 (night) - Fact-checked places raised to needs_editorial_review (owner decision)
 
 - Owner decision 2026-11-11: the "Ikke faktatjekket" label stood on 126 of 158 app places although most had been through the agent fact-check, which ends at `needs_fact_check` (agents never set a higher status). 119 records in the app export with official evidence (`official_venue`, `government`, `official_tourism` or `official_transport`) and without an open `facts_not_checked` issue moved from `needs_fact_check` to `needs_editorial_review`, which the app shows as "Faktatjekket" (owner decision 2026-11-10). By category: Restaurants 47, Family activities 33, City 15, Excursions 11, Beaches 10, Nature 3.

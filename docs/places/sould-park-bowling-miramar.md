@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: approved
 id: ES-AND-MAL-SOULD-PARK-BOWLING-MIRAMAR-001
 slug: sould-park-bowling-miramar
 name: Sould Park Bowling Miramar
@@ -138,20 +138,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: hours_and_prices_unverified
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  description: 'Opening hours and the per-game price for Miramar are not on a readable own page (an Instagram excerpt mentions €5.50 Mon-Thu and €7 at weekends; not recorded). Check the booking page or the venue. 2026-11-02: the chain''s Facebook page ''Sould Park España'' (owner screenshot) lists Fuengirola and Marbella among its locations, price range ''cheap'', phone 622 60 89 91 and WhatsApp 633 89 37 61, but nothing specific to this venue.'
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: '2026-11-02'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

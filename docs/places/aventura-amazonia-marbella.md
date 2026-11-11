@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: approved
 id: ES-AND-MAL-AVENTURA-AMAZONIA-MARBELLA-001
 slug: aventura-amazonia-marbella
 name: Aventura Amazonia Marbella
@@ -170,25 +170,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - age_groups
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  - toilets_available
-  - food_available
-  description: Which age/height limit applies to which circuit is unclear; actual park opening days (calendar) and months of seasons not quoted; Junior and child prices not quoted. Accessibility, parking, toilets and food not covered.
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---
