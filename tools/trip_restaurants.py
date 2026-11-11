@@ -33,7 +33,8 @@ KIDS_BASIS = {"egen kilde", "anmeldelser", "-"}
 
 DRESS = {"ingen", "pæn afslappet", "formel", "ukendt"}
 
-R_STATUS = {"aktiv", "skal tjekkes", "lukket"}
+# konverteret: er blevet stedpost (slug i notes); fravalgt: ejeren har fravalgt den (ejerbeslutning 2026-11-02).
+R_STATUS = {"aktiv", "skal tjekkes", "lukket", "konverteret", "fravalgt"}
 
 R_COLUMNS = [
     "restaurant_id", "area_id", "name", "address", "municipality", "latitude", "longitude", "phone", "website",
