@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-LA-LOBEZNA-ESTEPONA-001
 slug: la-lobezna-estepona
 name: La Lobezna (Estepona)

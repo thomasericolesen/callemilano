@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-VENTA-LA-MORENA-001
 slug: venta-la-morena
 name: Venta La Morena

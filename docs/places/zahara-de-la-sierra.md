@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001
 slug: zahara-de-la-sierra
 name: Zahara de la Sierra
@@ -195,7 +195,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: 2026-10-03
-updated_at: '2026-11-08'
+updated_at: '2026-11-11'
 last_verified: 2026-10-30
 last_reviewed_at: null
 next_review_at: null

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-CUEVA-DEL-TESORO-001
 slug: cueva-del-tesoro
 name: Cueva del Tesoro

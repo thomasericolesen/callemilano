@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-MARBELLA-OLD-TOWN-001
 slug: marbella-old-town
 name: Marbella Old Town

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-PARQUE-DE-LA-PALOMA-001
 slug: parque-de-la-paloma
 name: Parque de la Paloma

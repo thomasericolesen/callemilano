@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-PLAYA-DE-SAN-PEDRO-ALCANTARA-001
 slug: playa-de-san-pedro-alcantara
 name: Playa de San Pedro de Alcántara

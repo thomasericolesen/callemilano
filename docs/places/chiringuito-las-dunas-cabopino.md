@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-CHIRINGUITO-LAS-DUNAS-CABOPINO-001
 slug: chiringuito-las-dunas-cabopino
 name: Chiringuito Las Dunas
@@ -178,7 +178,7 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: 2026-11-01
-updated_at: '2026-11-03'
+updated_at: '2026-11-11'
 last_verified: 2026-11-01
 last_reviewed_at: null
 next_review_at: 2027-04-01

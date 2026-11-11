@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-MERCADO-DE-ATARAZANAS-001
 slug: mercado-de-atarazanas
 name: Mercado de Atarazanas

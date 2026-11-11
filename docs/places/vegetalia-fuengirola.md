@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-VEGETALIA-FUENGIROLA-001
 slug: vegetalia-fuengirola
 name: Restaurante Vegetalia

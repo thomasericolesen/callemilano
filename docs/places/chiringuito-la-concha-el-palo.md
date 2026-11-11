@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-CHIRINGUITO-LA-CONCHA-EL-PALO-001
 slug: chiringuito-la-concha-el-palo
 name: Chiringuito La Concha (El Palo)

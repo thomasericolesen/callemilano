@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-MESON-SALVADOR-FUENGIROLA-001
 slug: meson-salvador-fuengirola
 name: Mesón Salvador

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-PUERTO-BANUS-001
 slug: puerto-banus
 name: Puerto Banús

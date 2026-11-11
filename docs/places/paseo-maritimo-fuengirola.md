@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-PASEO-MARITIMO-FUENGIROLA-001
 slug: paseo-maritimo-fuengirola
 name: Paseo Marítimo de Fuengirola

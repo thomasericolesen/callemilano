@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-PLAYA-DE-LA-RADA-ESTEPONA-001
 slug: playa-de-la-rada-estepona
 name: Playa de la Rada (Estepona)

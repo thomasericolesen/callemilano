@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-FUNNY-HILL-KARTING-001
 slug: funny-hill-karting
 name: Funny Hill Karting

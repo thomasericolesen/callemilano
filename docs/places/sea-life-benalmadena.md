@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-SEA-LIFE-BENALMADENA-001
 slug: sea-life-benalmadena
 name: Sea Life Benalmádena

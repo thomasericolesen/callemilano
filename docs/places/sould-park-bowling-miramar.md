@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-SOULD-PARK-BOWLING-MIRAMAR-001
 slug: sould-park-bowling-miramar
 name: Sould Park Bowling Miramar

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-RESTAURANTE-CERROS-DEL-AGUILA-001
 slug: restaurante-cerros-del-aguila
 name: Restaurante Cerros del Águila

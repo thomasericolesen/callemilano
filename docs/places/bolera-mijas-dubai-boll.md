@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-BOLERA-MIJAS-DUBAI-BOLL-001
 slug: bolera-mijas-dubai-boll
 name: Bolera Mijas (Dubai Boll)

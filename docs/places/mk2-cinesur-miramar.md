@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-MK2-CINESUR-MIRAMAR-001
 slug: mk2-cinesur-miramar
 name: mk2 Cinesur Miramar

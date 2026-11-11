@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-KAMURA-SUSHI-FUENGIROLA-001
 slug: kamura-sushi-fuengirola
 name: Kamura Sushi

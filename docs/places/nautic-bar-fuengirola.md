@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001
 slug: nautic-bar-fuengirola
 name: Nautic Cocktail & Drinks
@@ -141,7 +141,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

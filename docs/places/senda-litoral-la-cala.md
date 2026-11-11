@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-SENDA-LITORAL-LA-CALA-001
 slug: senda-litoral-la-cala
 name: Senda Litoral (La Cala de Mijas)

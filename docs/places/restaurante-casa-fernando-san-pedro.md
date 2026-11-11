@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-RESTAURANTE-CASA-FERNANDO-SAN-PEDRO-001
 slug: restaurante-casa-fernando-san-pedro
 name: Restaurante Casa Fernando (San Pedro)

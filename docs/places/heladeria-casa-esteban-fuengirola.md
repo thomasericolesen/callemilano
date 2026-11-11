@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001
 slug: heladeria-casa-esteban-fuengirola
 name: Heladería Casa Esteban

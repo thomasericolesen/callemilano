@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-CASTILLO-DE-COLOMARES-001
 slug: castillo-de-colomares
 name: Castillo de Colomares

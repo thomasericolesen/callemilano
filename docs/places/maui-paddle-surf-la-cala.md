@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-MAUI-PADDLE-SURF-LA-CALA-001
 slug: maui-paddle-surf-la-cala
 name: Maui Paddlesurf Club (La Cala)

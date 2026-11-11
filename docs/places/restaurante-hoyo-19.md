@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-RESTAURANTE-HOYO-19-001
 slug: restaurante-hoyo-19
 name: Restaurante Hoyo 19

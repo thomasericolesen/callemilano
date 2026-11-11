@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-BOLICHES-GAVIOTAS-001
 slug: boliches-gaviotas
 name: Boliches-Gaviotas
@@ -286,7 +286,7 @@ review_issues:
   retryable: false
   owner: human_editor
 created_at: '2026-10-29'
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: '2026-10-29'
 last_reviewed_at: null
 next_review_at: null

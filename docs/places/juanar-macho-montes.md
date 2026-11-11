@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-JUANAR-MACHO-MONTES-001
 slug: juanar-macho-montes
 name: Juanar and Mirador del Macho Montés

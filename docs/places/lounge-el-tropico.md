@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-LOUNGE-EL-TROPICO-001
 slug: lounge-el-tropico
 name: Lounge El Trópico
@@ -145,7 +145,7 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-03'
+updated_at: '2026-11-11'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

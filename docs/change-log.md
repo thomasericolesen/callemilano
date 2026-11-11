@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-11 (night) - Fact-checked places raised to needs_editorial_review (owner decision)
+
+- Owner decision 2026-11-11: the "Ikke faktatjekket" label stood on 126 of 158 app places although most had been through the agent fact-check, which ends at `needs_fact_check` (agents never set a higher status). 119 records in the app export with official evidence (`official_venue`, `government`, `official_tourism` or `official_transport`) and without an open `facts_not_checked` issue moved from `needs_fact_check` to `needs_editorial_review`, which the app shows as "Faktatjekket" (owner decision 2026-11-10). By category: Restaurants 47, Family activities 33, City 15, Excursions 11, Beaches 10, Nature 3.
+- Still `needs_fact_check` in the app (label stays): `el-higueron-fuengirola`, `freiduria-el-choco-fuengirola`, `gali-gali-fuengirola`, `los-enebros-fuengirola`, `mias-pizzorante-fuengirola`, `old-swiss-house-fuengirola`, `sollo-fuengirola` (open `facts_not_checked`). 14 `needs_fact_check` records outside the app (archive) are unchanged. Records with `facts_partly_checked` were raised too; their remaining gaps are noted in their evidence and notes, not in the status.
+- `data/app-export/places.json` regenerated (158 places: 138 `needs_editorial_review`, 13 `approved`, 7 `needs_fact_check`); the app needs a new import.
+
 ## 2026-11-11 (night) - Tags set from the owner's tag checklist
 
 - Owner checklist (Artifact `Tag-tjekliste`, https://claude.ai/artifact/DZv9cLLQ1BEcYs3NeewdEF): 97 active places whose tags had never been assessed (`status` needs_fact_check or later, listed on the 2026-11-10 family-rating checklist). The owner reviewed all 97 on 2026-11-11; 96 changed from the imported estimates, 1 unchanged. Choices were read back from the artifact's database and written to `tags` in schema order, with one evidence entry per record (`field: tags`, owner's own judgment, confidence medium).

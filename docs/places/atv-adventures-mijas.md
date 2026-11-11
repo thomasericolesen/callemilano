@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-ATV-ADVENTURES-MIJAS-001
 slug: atv-adventures-mijas
 name: ATV Adventures

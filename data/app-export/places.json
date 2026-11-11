@@ -16,7 +16,7 @@
    "name": "Álora",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Álora",
    "lat": 36.819586799999996,
@@ -34,7 +34,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 50,
     "distance_km": null,
@@ -179,7 +179,7 @@
    "name": "Aqualand Torremolinos",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Torremolinos",
    "lat": 36.6259897,
@@ -196,7 +196,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 24,
     "distance_km": null,
@@ -253,7 +253,7 @@
    "name": "Aquamijas",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.538292999999996,
@@ -270,7 +270,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 10,
     "distance_km": null,
@@ -339,7 +339,7 @@
    "name": "Asador Otola",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.540219199999996,
@@ -357,7 +357,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 6,
     "distance_km": null,
@@ -421,7 +421,7 @@
    "name": "ATV Adventures",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5410031,
@@ -438,7 +438,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 4,
     "distance_km": null,
@@ -493,7 +493,7 @@
    "name": "Aventouralia",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.539927399999996,
@@ -510,7 +510,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 4,
     "distance_km": null,
@@ -565,7 +565,7 @@
    "name": "Aventura Amazonia Marbella",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.497053099999995,
@@ -582,7 +582,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 21,
     "distance_km": null,
@@ -732,7 +732,7 @@
    "name": "Bar Burbujas",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.539403799999995,
@@ -745,7 +745,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 16,
     "distance_km": null,
@@ -784,7 +784,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -794,7 +794,7 @@
    "name": "Benahavís",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benahavís",
    "lat": 36.5174193,
@@ -813,7 +813,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 48,
     "distance_km": null,
@@ -871,7 +871,7 @@
    "name": "Benalmádena Pueblo",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.5964743,
@@ -888,7 +888,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 25,
     "distance_km": null,
@@ -944,7 +944,7 @@
    "name": "Bigfoot Buggy Tours",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.540579199999996,
@@ -961,7 +961,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 4,
     "distance_km": null,
@@ -1016,7 +1016,7 @@
    "name": "BIOPARC Fuengirola",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5368411,
@@ -1033,7 +1033,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 12,
     "distance_km": null,
@@ -1100,7 +1100,7 @@
    "name": "Bolera Mijas (Dubai Boll)",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5390424,
@@ -1118,7 +1118,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 6,
     "distance_km": null,
@@ -1173,7 +1173,7 @@
    "name": "Boliches-Gaviotas",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5544,
@@ -1188,7 +1188,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -1238,7 +1238,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -1248,7 +1248,7 @@
    "name": "Cabopino/Artola",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.4853,
@@ -1264,7 +1264,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 21,
     "distance_km": null,
@@ -1315,7 +1315,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -1415,7 +1415,7 @@
    "name": "Café NOMAD",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5299519,
@@ -1433,7 +1433,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 10,
     "distance_km": null,
@@ -1498,7 +1498,7 @@
    "name": "Café Teatro by Ocean Drive",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5304043,
@@ -1511,7 +1511,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 10,
     "distance_km": null,
@@ -1550,7 +1550,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -1725,7 +1725,7 @@
    "name": "Castillo de Colomares",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.590567,
@@ -1743,7 +1743,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 20,
     "distance_km": null,
@@ -1875,7 +1875,7 @@
    "name": "Castillo Sohail",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5253188,
@@ -1893,7 +1893,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 12,
     "distance_km": null,
@@ -1948,7 +1948,7 @@
    "name": "Changueiro Bar de Vinos",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.537848499999996,
@@ -1961,7 +1961,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -2000,7 +2000,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -2081,7 +2081,7 @@
    "name": "Chiringuito El Cachalote",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
    "lat": 36.719982699999996,
@@ -2098,7 +2098,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 39,
     "distance_km": null,
@@ -2163,7 +2163,7 @@
    "name": "Chiringuito La Concha (El Palo)",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
    "lat": 36.7190139,
@@ -2180,7 +2180,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 43,
     "distance_km": null,
@@ -2246,7 +2246,7 @@
    "name": "Chiringuito Las Dunas",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.4860513,
@@ -2262,7 +2262,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 22,
     "distance_km": null,
@@ -2312,7 +2312,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -2397,7 +2397,7 @@
    "name": "Chiringuito Rafael",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.599392,
@@ -2415,7 +2415,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 28,
     "distance_km": null,
@@ -2477,7 +2477,7 @@
    "name": "Coín",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Coín",
    "lat": 36.6622421,
@@ -2494,7 +2494,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 31,
     "distance_km": null,
@@ -2634,7 +2634,7 @@
    "name": "Cosmozone Lasertag",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.534731,
@@ -2652,7 +2652,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 8,
     "distance_km": null,
@@ -2708,7 +2708,7 @@
    "name": "Crocodile Park Torremolinos",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Torremolinos",
    "lat": 36.624384299999996,
@@ -2725,7 +2725,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 23,
     "distance_km": null,
@@ -2782,7 +2782,7 @@
    "name": "Cueva del Tesoro",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Rincón de la Victoria",
    "lat": 36.719695699999995,
@@ -2800,7 +2800,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 43,
     "distance_km": null,
@@ -2942,7 +2942,7 @@
    "name": "Dunas de Artola",
    "category": "natur",
    "record_category": "Nature",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.485948,
@@ -2959,7 +2959,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 22,
     "distance_km": null,
@@ -3088,7 +3088,7 @@
    "name": "El Gran Parque de Mijas",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.539559499999996,
@@ -3106,7 +3106,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 3,
     "distance_km": null,
@@ -3243,7 +3243,7 @@
    "name": "El Oceano Beach Hotel",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.4907937,
@@ -3256,7 +3256,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 17,
     "distance_km": null,
@@ -3300,7 +3300,7 @@
      "phone": "+34952587550",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -3399,7 +3399,7 @@
    "name": "Ermita del Calvario (Mijas)",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5973956,
@@ -3418,7 +3418,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 20,
     "distance_km": null,
@@ -3475,7 +3475,7 @@
    "name": "Estepona old town",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Estepona",
    "lat": 36.4257878,
@@ -3492,7 +3492,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 53,
     "distance_km": null,
@@ -3715,7 +3715,7 @@
    "name": "Fuengirola Adventure Golf",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.532201,
@@ -3732,7 +3732,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 9,
     "distance_km": null,
@@ -3864,7 +3864,7 @@
    "name": "Fuengirola (town)",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5391308,
@@ -3881,7 +3881,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -3937,7 +3937,7 @@
    "name": "Fuente de la Salud",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.5986,
@@ -3952,7 +3952,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 30,
     "distance_km": null,
@@ -4001,7 +4001,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -4011,7 +4011,7 @@
    "name": "Funny Hill Karting",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.5431404,
@@ -4028,7 +4028,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 34,
     "distance_km": null,
@@ -4355,7 +4355,7 @@
    "name": "Groove Music Bar",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5420832,
@@ -4368,7 +4368,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 16,
     "distance_km": null,
@@ -4407,7 +4407,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -4417,7 +4417,7 @@
    "name": "Heladería Casa Esteban",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.53738,
@@ -4434,7 +4434,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -4490,7 +4490,7 @@
    "name": "Istán",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Istán",
    "lat": 36.58209850000001,
@@ -4509,7 +4509,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 57,
     "distance_km": null,
@@ -4567,7 +4567,7 @@
    "name": "Jacks Smokehouse (Puerto Banús)",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.4885233,
@@ -4585,7 +4585,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 41,
     "distance_km": null,
@@ -4646,7 +4646,7 @@
    "name": "Jardín Botánico Histórico La Concepción",
    "category": "natur",
    "record_category": "Nature",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
    "lat": 36.7601029,
@@ -4664,7 +4664,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 36,
     "distance_km": null,
@@ -4813,7 +4813,7 @@
    "name": "Juan Playa Restaurante",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5550533,
@@ -4831,7 +4831,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 16,
     "distance_km": null,
@@ -4897,7 +4897,7 @@
    "name": "Juanar and Mirador del Macho Montés",
    "category": "natur",
    "record_category": "Nature",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Ojén",
    "lat": 36.564912199999995,
@@ -4915,7 +4915,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 49,
     "distance_km": null,
@@ -4972,7 +4972,7 @@
    "name": "JumpJoy Mijas",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5394096,
@@ -4989,7 +4989,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 6,
     "distance_km": null,
@@ -5051,7 +5051,7 @@
    "name": "Kalifato Lounge Beach Bar",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.572894600000005,
@@ -5069,7 +5069,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 18,
     "distance_km": null,
@@ -5129,7 +5129,7 @@
    "name": "Kamura Sushi",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5548332,
@@ -5146,7 +5146,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -5209,7 +5209,7 @@
    "name": "Karting Experience Mijas",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.567079899999996,
@@ -5226,7 +5226,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 13,
     "distance_km": null,
@@ -5282,7 +5282,7 @@
    "name": "Karting Experience Miramar",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5299432,
@@ -5299,7 +5299,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 9,
     "distance_km": null,
@@ -5429,7 +5429,7 @@
    "name": "La Floja Vinos y Latas",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.537504299999995,
@@ -5442,7 +5442,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 14,
     "distance_km": null,
@@ -5481,7 +5481,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -5491,7 +5491,7 @@
    "name": "La Lobezna (Estepona)",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Estepona",
    "lat": 36.4203681,
@@ -5508,7 +5508,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 54,
     "distance_km": null,
@@ -5649,7 +5649,7 @@
    "name": "La Senda del Norte",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5397837,
@@ -5662,7 +5662,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 6,
     "distance_km": null,
@@ -5701,7 +5701,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -5711,7 +5711,7 @@
    "name": "La Sierra Restaurante",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.527434299999996,
@@ -5729,7 +5729,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 5,
     "distance_km": null,
@@ -5790,7 +5790,7 @@
    "name": "La Tagliatella (C.C. Miramar)",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.528461899999996,
@@ -5808,7 +5808,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 8,
     "distance_km": null,
@@ -5869,7 +5869,7 @@
    "name": "La Terraza de Panda",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.539166,
@@ -5882,7 +5882,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -5921,7 +5921,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -5931,7 +5931,7 @@
    "name": "La Zambra Resort",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5529094,
@@ -5949,7 +5949,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 7,
     "distance_km": null,
@@ -6321,7 +6321,7 @@
    "name": "Lounge El Trópico",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.502223799999996,
@@ -6336,7 +6336,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 13,
     "distance_km": null,
@@ -6390,7 +6390,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-03"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -6400,7 +6400,7 @@
    "name": "Málaga",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
    "lat": 36.7201788,
@@ -6418,7 +6418,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 48,
     "distance_km": null,
@@ -6490,7 +6490,7 @@
    "name": "Marbella Old Town",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.5101033,
@@ -6508,7 +6508,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 35,
     "distance_km": null,
@@ -6571,7 +6571,7 @@
    "name": "Mariposario de Benalmádena (Monowa)",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.5890637,
@@ -6589,7 +6589,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 18,
     "distance_km": null,
@@ -6647,7 +6647,7 @@
    "name": "Marisquería El Ancla (San Pedro)",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.4701216,
@@ -6665,7 +6665,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 41,
     "distance_km": null,
@@ -6730,7 +6730,7 @@
    "name": "Marvelous Burger",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5386688,
@@ -6748,7 +6748,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -6809,7 +6809,7 @@
    "name": "Maui Paddlesurf Club (La Cala)",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5011708,
@@ -6827,7 +6827,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 14,
     "distance_km": null,
@@ -6885,7 +6885,7 @@
    "name": "Mercado de Atarazanas",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
    "lat": null,
@@ -6898,7 +6898,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 42,
     "distance_km": null,
@@ -6961,7 +6961,7 @@
    "name": "Mesón Salvador",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5544279,
@@ -6979,7 +6979,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -7119,7 +7119,7 @@
    "name": "Mijas Buggys",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5409423,
@@ -7136,7 +7136,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 4,
     "distance_km": null,
@@ -7196,7 +7196,7 @@
    "name": "Mijas Golf",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.549289699999996,
@@ -7214,7 +7214,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 7,
     "distance_km": null,
@@ -7267,7 +7267,7 @@
    "name": "Mijas Pueblo",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5967755,
@@ -7285,7 +7285,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 17,
     "distance_km": null,
@@ -7342,7 +7342,7 @@
    "name": "Mixs Longe",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5345521,
@@ -7359,7 +7359,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 2,
     "distance_km": null,
@@ -7415,7 +7415,7 @@
    "name": "mk2 Cinesur Miramar",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5282529,
@@ -7433,7 +7433,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 10,
     "distance_km": null,
@@ -7489,7 +7489,7 @@
    "name": "Mon 2 Sun",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.549895,
@@ -7502,7 +7502,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 8,
     "distance_km": null,
@@ -7541,7 +7541,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -7551,7 +7551,7 @@
    "name": "Monda",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Monda",
    "lat": 36.6306259,
@@ -7570,7 +7570,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 35,
     "distance_km": null,
@@ -7706,7 +7706,7 @@
    "name": "Multicines Alfil Fuengirola",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5375077,
@@ -7724,7 +7724,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 12,
     "distance_km": null,
@@ -7780,7 +7780,7 @@
    "name": "Museo Aeronáutico de Málaga",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
    "lat": 36.669914399999996,
@@ -7797,7 +7797,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 28,
     "distance_km": null,
@@ -7862,7 +7862,7 @@
    "name": "Nautic Cocktail & Drinks",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5384019,
@@ -7875,7 +7875,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 14,
     "distance_km": null,
@@ -7914,7 +7914,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -8014,7 +8014,7 @@
    "name": "Noniná",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5412292,
@@ -8027,7 +8027,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -8066,7 +8066,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -8076,7 +8076,7 @@
    "name": "Ojén",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Ojén",
    "lat": 36.5654302,
@@ -8094,7 +8094,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 41,
     "distance_km": null,
@@ -8234,7 +8234,7 @@
    "name": "Olvera Castle",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Unknown",
    "lat": null,
@@ -8250,7 +8250,7 @@
    "catalogue_group": "Dagsture",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 110,
     "distance_km": null,
@@ -8310,7 +8310,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "1–2 hours including the castle and short old-town walk (editorial planning estimate)",
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -8320,7 +8320,7 @@
    "name": "Parque de la Paloma",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.5935284,
@@ -8338,7 +8338,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 25,
     "distance_km": null,
@@ -8396,7 +8396,7 @@
    "name": "Parque El Esparragal",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5477938,
@@ -8414,7 +8414,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 7,
     "distance_km": null,
@@ -8472,7 +8472,7 @@
    "name": "Paseo Marítimo de Fuengirola",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5433212,
@@ -8490,7 +8490,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 16,
     "distance_km": null,
@@ -8547,7 +8547,7 @@
    "name": "Playa de la Rada (Estepona)",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Estepona",
    "lat": 36.4187341,
@@ -8564,7 +8564,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 54,
     "distance_km": null,
@@ -8619,7 +8619,7 @@
    "name": "Playa de Nagüeles",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.5022476,
@@ -8636,7 +8636,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 36,
     "distance_km": null,
@@ -8696,7 +8696,7 @@
    "name": "Playa de San Pedro de Alcántara",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.472585699999996,
@@ -8711,7 +8711,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 41,
     "distance_km": null,
@@ -8771,7 +8771,7 @@
    "name": "Playa la Malagueta",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
    "lat": 36.717051,
@@ -8786,7 +8786,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 41,
     "distance_km": null,
@@ -8836,7 +8836,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "1–3 hours (editorial planning estimate)",
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -8846,7 +8846,7 @@
    "name": "Playa de Puerto Banús",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.4898088,
@@ -8863,7 +8863,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 36,
     "distance_km": null,
@@ -8993,7 +8993,7 @@
    "name": "Playas de El Palo",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
    "lat": 36.718318599999996,
@@ -9010,7 +9010,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 44,
     "distance_km": null,
@@ -9070,7 +9070,7 @@
    "name": "Puerto Banús",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.486008500000004,
@@ -9088,7 +9088,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 38,
     "distance_km": null,
@@ -9145,7 +9145,7 @@
    "name": "Puerto Colorado (Sierra de Mijas)",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.597363699999995,
@@ -9163,7 +9163,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 23,
     "distance_km": null,
@@ -9219,7 +9219,7 @@
    "name": "Puerto Deportivo de Estepona",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Estepona",
    "lat": 36.4148347,
@@ -9238,7 +9238,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 54,
     "distance_km": null,
@@ -9296,7 +9296,7 @@
    "name": "Puerto Marina Benalmádena",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.5979187,
@@ -9315,7 +9315,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 28,
     "distance_km": null,
@@ -9368,7 +9368,7 @@
    "name": "Ragazzi Pizza & Pasta",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5311859,
@@ -9385,7 +9385,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 11,
     "distance_km": null,
@@ -9450,7 +9450,7 @@
    "name": "Rangers Safari Tours",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5398286,
@@ -9467,7 +9467,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 3,
     "distance_km": null,
@@ -9522,7 +9522,7 @@
    "name": "Red & White",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5447602,
@@ -9535,7 +9535,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 14,
     "distance_km": null,
@@ -9574,7 +9574,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -9584,7 +9584,7 @@
    "name": "Restaurante Casa Fernando (San Pedro)",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.476132199999995,
@@ -9602,7 +9602,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 40,
     "distance_km": null,
@@ -9667,7 +9667,7 @@
    "name": "Restaurante Cerros del Águila",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.534290399999996,
@@ -9685,7 +9685,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 3,
     "distance_km": null,
@@ -9746,7 +9746,7 @@
    "name": "Restaurante Hoyo 19",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5438292,
@@ -9764,7 +9764,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 4,
     "distance_km": null,
@@ -9825,7 +9825,7 @@
    "name": "RetROCK BARt",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.500899,
@@ -9838,7 +9838,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 14,
     "distance_km": null,
@@ -9877,7 +9877,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -9977,7 +9977,7 @@
    "name": "San Pedro Alcántara",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.4820717,
@@ -9994,7 +9994,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 39,
     "distance_km": null,
@@ -10050,7 +10050,7 @@
    "name": "Santa Ana (Torrebermeja-Santa Ana)",
    "category": "strand",
    "record_category": "Beaches",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.5921,
@@ -10065,7 +10065,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 27,
     "distance_km": null,
@@ -10114,7 +10114,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -10202,7 +10202,7 @@
    "name": "Sea Life Benalmádena",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.59664,
@@ -10219,7 +10219,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 27,
     "distance_km": null,
@@ -10276,7 +10276,7 @@
    "name": "Selwo Aventura",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Estepona",
    "lat": 36.462831,
@@ -10293,7 +10293,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 47,
     "distance_km": null,
@@ -10364,7 +10364,7 @@
    "name": "Selwo Marina",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.592469,
@@ -10381,7 +10381,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 24,
     "distance_km": null,
@@ -10438,7 +10438,7 @@
    "name": "Senda Litoral (La Cala de Mijas)",
    "category": "udflugt",
    "record_category": "Excursions",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.5013168,
@@ -10456,7 +10456,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 13,
     "distance_km": null,
@@ -10851,7 +10851,7 @@
    "name": "Solo Beach Marbella",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.4754104,
@@ -10869,7 +10869,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 40,
     "distance_km": null,
@@ -10935,7 +10935,7 @@
    "name": "Somos de Banús",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.4897645,
@@ -10952,7 +10952,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 39,
     "distance_km": null,
@@ -11013,7 +11013,7 @@
    "name": "Sould Park Bowling Miramar",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5287161,
@@ -11031,7 +11031,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 9,
     "distance_km": null,
@@ -11087,7 +11087,7 @@
    "name": "Speakeasy Jazz Club & Cocktails",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5405146,
@@ -11100,7 +11100,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 16,
     "distance_km": null,
@@ -11139,7 +11139,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -11149,7 +11149,7 @@
    "name": "Taberna Casa Blanca Banús",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Marbella",
    "lat": 36.4889833,
@@ -11166,7 +11166,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 37,
     "distance_km": null,
@@ -11318,7 +11318,7 @@
    "name": "Tasca Láska Malagueta",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
    "lat": 36.7193155,
@@ -11335,7 +11335,7 @@
    "catalogue_group": "Tæt på",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 43,
     "distance_km": null,
@@ -11400,7 +11400,7 @@
    "name": "Teleférico Benalmádena",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Benalmádena",
    "lat": 36.5988798,
@@ -11418,7 +11418,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 21,
     "distance_km": null,
@@ -11557,7 +11557,7 @@
    "name": "Upstairs Rooftop Bar",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.505252999999996,
@@ -11572,7 +11572,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 11,
     "distance_km": null,
@@ -11618,7 +11618,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -11628,7 +11628,7 @@
    "name": "UTOPÍA",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.500232,
@@ -11646,7 +11646,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 14,
     "distance_km": null,
@@ -11711,7 +11711,7 @@
    "name": "Restaurante Vegetalia",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5529963,
@@ -11727,7 +11727,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 16,
     "distance_km": null,
@@ -11783,7 +11783,7 @@
    "name": "Vejer de la Frontera",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Vejer de la Frontera",
    "lat": 36.2527948,
@@ -11801,7 +11801,7 @@
    "catalogue_group": "Dagsture",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 140,
     "distance_km": null,
@@ -11863,7 +11863,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -11873,7 +11873,7 @@
    "name": "Venta La Morena",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.54382100000001,
@@ -11890,7 +11890,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 4,
     "distance_km": null,
@@ -11951,7 +11951,7 @@
    "name": "Venta los Condes",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Mijas",
    "lat": 36.6027124,
@@ -11969,7 +11969,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 25,
     "distance_km": null,
@@ -12034,7 +12034,7 @@
    "name": "Zahara de la Sierra",
    "category": "by",
    "record_category": "City",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Zahara de la Sierra",
    "lat": 36.840068,
@@ -12051,7 +12051,7 @@
    "catalogue_group": "Dagsture",
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "udflugt_4t",
     "drive_minutes": 130,
     "distance_km": null,
@@ -12112,7 +12112,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-08"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -12122,7 +12122,7 @@
    "name": "Zero Latency Miramar",
    "category": "sevaerdighed",
    "record_category": "Family activities",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.528642999999995,
@@ -12140,7 +12140,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 9,
     "distance_km": null,

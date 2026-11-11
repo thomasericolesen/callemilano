@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-DUNAS-DE-ARTOLA-001
 slug: dunas-de-artola
 name: Dunas de Artola

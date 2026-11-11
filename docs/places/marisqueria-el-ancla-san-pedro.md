@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-MARISQUERIA-EL-ANCLA-SAN-PEDRO-001
 slug: marisqueria-el-ancla-san-pedro
 name: Marisquería El Ancla (San Pedro)

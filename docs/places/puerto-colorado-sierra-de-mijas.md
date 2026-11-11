@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-PUERTO-COLORADO-SIERRA-DE-MIJAS-001
 slug: puerto-colorado-sierra-de-mijas
 name: Puerto Colorado (Sierra de Mijas)

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-CHIRINGUITO-RAFAEL-001
 slug: chiringuito-rafael
 name: Chiringuito Rafael
