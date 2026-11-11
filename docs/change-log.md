@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-11 (evening) - Six restaurant drafts archived (owner decision)
+
+- Owner decision 2026-11-11: if getting usable facts for a restaurant is too much effort, it simply drops off the list; we already have enough restaurants, and the same rule applies to the remaining places.
+- `archived` (kept as records, IDs stay allocated, `review_decision` filled in): `da-vinci-los-boliches`, `fosters-hollywood-miramar`, `burger-king-miramar`, `the-good-burger-miramar`, `monnalisa-fuengirola`, `antonio-playa-fuengirola`. All were drafts, so the app export is unchanged (158 places). Facts found for Da Vinci (Facebook page: Av. de los Boliches 95, +34 632 38 78 52; both websites dead) are in this entry only and not in the record.
+- Not archived: `venta-la-morena`, `meson-salvador-fuengirola`, `vegetalia-fuengirola` (fact-checked, shown in the app; menu or price still missing, issues stay open).
+
 ## 2026-11-11 - route_check.py fixed (owner request)
 
 - `tools/route_check.py` now follows the project conventions: toll roads are not avoided (Google Maps' main figure, owner decision 2026-10-29), origin is the AGENTS.md constant 36.5356875,-4.6626875 (same as `tools/places.py`), and durations are written as "15 min" / "1 hour 5 min". The Maps link and the source text no longer say "toll roads avoided". Not run against the live API in this session (no API key available); compiled and the formatting and origin checked locally.
