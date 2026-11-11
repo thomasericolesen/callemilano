@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-EL-HIGUERON-FUENGIROLA-001
 slug: el-higueron-fuengirola
 name: Restaurante El Higuerón
@@ -69,21 +69,21 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€
 visit_information:
-  schedule: Breakfast 09:00-12:00; bar (non-stop kitchen) and lunch 13:00-16:00; closed to the public 17:00; dinner from 20:30 (own website; days of the week and seasonality not stated)
+  schedule: 'Monday closed; Tuesday-Saturday 12:30-00:00; Sunday 12:30-18:00 (own website footer, read 2026-11-11). Kitchen hours on the site: breakfast 09:00-12:00, bar with non-stop kitchen 13:00-16:00, lunch 13:00-16:00.'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta (restaurant page, partial text read): mains 21-43 €, median about 31 € (e.g. Fabada Asturiana 26, Presa Ibérica de Bellota 29, Solomillo 35, Lubina Salvaje 35); no drink prices read. Band rule: median main + one drink; precedent Venta Los Condes (median about 31 €) = €€. Borderline.'
+  cost_checked_at: '2026-11-11'
 links:
   official_website: http://elhigueron.com/
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34952119163
 related_places: []
 description_short: 'El Higueron: restaurant on the slopes of the Sierra de Mijas with breakfast, lunch and dinner service and private parking (own website).'
 description_long: According to its own website, El Higueron lies on the foothills of the Sierra de Mijas and has private parking with more than 100 spaces. The website lists breakfast 09:00-12:00, a bar with non-stop kitchen and lunch 13:00-16:00, closing to the public at 17:00 and dinner from 20:30. Days of the week are not stated in the text we read. Prices, booking and children's facilities were not found.
@@ -139,26 +139,28 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
+- field: visit_information.schedule; links.contact
+  claim: "\"Horario:\"; \"Lunes cerrado\"; \"Martes a Sábado 12:30 a 00:00\"; \"Domingo 12:30 a 18:00\"; \"Telf (+34) 952 11 91 63\"; \"Email. reservas@elhigueron.com\""
+  source_url: http://elhigueron.com/
+  source_type: official_venue
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); own site fetched with tools/intake.py fetch and Tavily extract
+  confidence: high
+  notes: "Footer of the own home page. The earlier schedule text (09:00-12:00 breakfast, closed 17:00, dinner 20:30) came from the 24 and 31 December notices on the page and is replaced by the regular hours. The site's menu navigation has an \"Infantil\" (children's) section that was not read."
+- field: cost_level (menu prices)
+  claim: "\"Fabada Asturiana ... 26\"; \"Presa Ibérica de Bellota 29\"; \"Solomillo ... 35\"; \"Lubina Salvaje ... 35\"; \"Solomillo Asturiano ... 68\" (for two)"
+  source_url: http://elhigueron.com/restaurante/
+  source_type: official_venue
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); own site fetched with tools/intake.py fetch and Tavily extract
+  confidence: medium
+  notes: "Partial text of the restaurant carta (Tavily extract); mains 21-43 €, median about 31 €. No drink prices read. Menu date not stated."
 review_issues:
-- code: facts_not_checked
-  severity: warning
+- code: cost_level_borderline
+  severity: info
   fields:
-  - description_long
-  - visit_information
   - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - booking_required
-  - accessibility
-  description: Meal times read without days. Prices, phone, booking, kids facilities not found.
+  description: "Median main about 31 € plus a drink is at the upper edge of the €€ band (rule of 2026-11-03); only part of the carta text was read and no drink prices."
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'

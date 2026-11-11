@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-GALI-GALI-FUENGIROLA-001
 slug: gali-gali-fuengirola
 name: Gali Gali Beach Club
@@ -147,28 +147,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - cost_level
-  - booking_required
-  - accessibility
-  - parking
-  description: Hours, dish prices and phone read from own site. Drink prices, kids menu, booking requirement not stated.
-  retryable: true
-  owner: fact_check
+- field: visit_information.schedule; cost_level
+  claim: "\"Lunes a Sábado de 12:00-24:00, cocina de 12:00-23:00\"; \"Domingo  12:00-19:00, cocina de 12:00-18:00\"; \"Teléfono: 682 199 629\"; a dish price \"17.50€\""
+  source_url: https://galigali.es/nuestra-carta
+  source_type: official_venue
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); own site fetched with tools/intake.py fetch and Tavily extract
+  confidence: high
+  notes: "Page read again on 2026-11-11 with tools/intake.py fetch; hours, phone and prices unchanged from the 2026-11 reading. Drink prices, kids menu and booking requirement are not stated."
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null

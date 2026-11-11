@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-OLD-SWISS-HOUSE-FUENGIROLA-001
 slug: old-swiss-house-fuengirola
 name: Old Swiss House
@@ -147,28 +147,22 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
+- field: visit_information.schedule (conflict)
+  claim: "\"Tuesday closed, Wednesday open for dinner only, Monday, Thursday to Sunday lunch and dinner.\"; \"SUNDAYS\" \"Closed\"; table: \"Wednesday\" \"13:00 - 17:30 | 18:30 – 22:30\""
+  source_url: https://oldswisshouse.com/en/
+  source_type: official_venue
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); own site fetched with tools/intake.py fetch and Tavily extract
+  confidence: high
+  notes: "The same page contradicts itself: the opening-times sentence says Wednesday is dinner only, the table lists Wednesday lunch (13:00 - 17:30) and Sunday 13:00 – 16:00 | 19:00 – 23:00, and a separate block says Sundays closed. Hours stay unset; the conflict is on the editor list."
 review_issues:
-- code: facts_not_checked
+- code: opening_hours_conflict
   severity: warning
   fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Booking, menu prices and kids menu read; opening hours conflicting; drink prices and high chairs not stated.
-  retryable: true
-  owner: fact_check
+  - visit_information.schedule
+  description: "The own website gives conflicting hours: Wednesday dinner only vs a Wednesday lunch slot (13:00 - 17:30), and Sunday closed vs Sunday 13:00 – 16:00 / 19:00 – 23:00. Only Tuesday closed is consistent. Needs a phone call or the editor's decision."
+  retryable: false
+  owner: editor
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null

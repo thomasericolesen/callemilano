@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-FREIDURIA-EL-CHOCO-FUENGIROLA-001
 slug: freiduria-el-choco-fuengirola
 name: Pulpería Freiduría El Choco
@@ -71,7 +71,7 @@ toilets_available: unknown
 food_available: 'yes'
 cost_level: Unknown
 visit_information:
-  schedule: Monday closed; Tuesday 13:00-16:00 and 20:00-23:00 (own website). Wednesday to Sunday not quoted; check before visiting.
+  schedule: 'Monday closed; Tuesday to Sunday 13:00-16:00 and 20:00-23:00 (own website, read 2026-11-11). No reservations.'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -139,35 +139,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Menu, prices and children's facilities not found in the fetched text. Wed-Sun hours not individually quoted.
-  retryable: true
-  owner: fact_check
-- code: schedule_partly_quoted
-  severity: warning
-  fields:
-  - visit_information
-  description: Only Monday and Tuesday were quoted from the own website (read via Firecrawl); the reader reported Wednesday-Sunday as the same hours as Tuesday, but this is not quoted. Re-read the page before treating the week as open.
-  retryable: true
-  owner: fact_check
+- field: visit_information.schedule
+  claim: "\"13:00 - 16:00 20:00 - 23:00\" for each of the six open days; the first day in the list is marked closed"
+  source_url: https://freiduriaelchoco.es/
+  source_type: official_venue
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); own site fetched with tools/intake.py fetch and Tavily extract
+  confidence: medium
+  notes: "Own website (Tavily extract; the page is built with JavaScript and curl returns almost nothing). The days appear as numbered entries in the order Monday to Sunday; the earlier Firecrawl read of 2026-11-02 labelled the first entry Monday (closed) and the second Tuesday, which fits this order. Menu and prices are not in the page text."
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null
