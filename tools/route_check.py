@@ -5,9 +5,10 @@ Google Cloud Console now surfaces it only under "Routes API"), and write
 the results into docs/places/*.md.
 
 Replaces manual screenshot-based checking. Matches the owner's established
-convention: toll roads avoided, live traffic at time of check (not a fixed
-future date/time -- per owner decision 2026-11-01, "today" and a pinned
-future date/time give effectively the same result).
+convention: Google's default route (toll roads NOT avoided, like the main
+figure in Google Maps), live traffic at time of check (not a fixed future
+date/time -- per owner decision 2026-11-01, "today" and a pinned future
+date/time give effectively the same result).
 
 Usage (from the repo root):
     export GOOGLE_MAPS_API_KEY=...           # needs "Routes API" enabled + billing
@@ -35,9 +36,9 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Casa de la Familia / Calle Milano 35 -- same coordinates as the house on
-# the callemilano web app (src/lib/house.ts there). Pass --origin to override.
-DEFAULT_ORIGIN_LATLNG = "36.5357505,-4.6627914"
+# Casa de la Familia: Plus Code 8C8QG8PP+7W, the project constant in AGENTS.md and
+# tools/places.py (CASA_LAT, CASA_LON). Pass --origin to override.
+DEFAULT_ORIGIN_LATLNG = "36.5356875,-4.6626875"
 DEFAULT_ORIGIN_LABEL = "Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain"
 
 ROUTE_MATRIX_URL = "https://routes.googleapis.com/distanceMatrix/v2:computeRouteMatrix"
@@ -50,10 +51,10 @@ FRONTMATTER_END = "\n---"
 def format_duration(seconds: int) -> str:
     hours, mins = divmod(round(seconds / 60), 60)
     if hours and mins:
-        return f"{hours} hour{'s' if hours != 1 else ''} {mins} min{'s' if mins != 1 else ''}"
+        return f"{hours} hour{'s' if hours != 1 else ''} {mins} min"
     if hours:
         return f"{hours} hour{'s' if hours != 1 else ''}"
-    return f"{mins} min{'s' if mins != 1 else ''}"
+    return f"{mins} min"
 
 
 def format_distance(meters: int) -> str:
@@ -106,11 +107,9 @@ def call_route_matrix(api_key: str, origin: str, destinations: list[str]) -> lis
     """One origin, many destinations, one call. departureTime is left out on
     purpose: with routingPreference TRAFFIC_AWARE that means "now", which is
     the live-traffic reading the owner wants (no fixed future date/time)."""
-    # routeModifiers lives on each origin (not at the top level) in
-    # ComputeRouteMatrixRequest -- that's different from the single-route
-    # computeRoutes endpoint, where it IS top-level.
+    # No routeModifiers: toll roads are allowed, as in Google Maps' main figure
+    # (owner decision 2026-10-29) and in the existing records.
     origin_obj = waypoint(origin)
-    origin_obj["routeModifiers"] = {"avoidTolls": True}
     body = {
         "origins": [origin_obj],
         "destinations": [waypoint(d) for d in destinations],
@@ -145,7 +144,6 @@ def directions_url(origin: str, destination: str) -> str:
         "origin": origin,
         "destination": destination,
         "travelmode": "driving",
-        "avoid": "tolls",
     }
     return f"https://www.google.com/maps/dir/?{urllib.parse.urlencode(params)}"
 
@@ -247,7 +245,7 @@ def main():
                 url = directions_url(args.origin, dest_query)
                 source = (
                     f"Google Routes API (computeRouteMatrix), checked by script on {checked_at} "
-                    f"from {DEFAULT_ORIGIN_LABEL} ({args.origin}); toll roads avoided - {url}"
+                    f"from {DEFAULT_ORIGIN_LABEL} ({args.origin}); toll roads not avoided - {url}"
                 )
                 note = f"Live traffic {now_local}. {dist_text}. Measured programmatically (Routes API)."
                 text = path.read_text(encoding="utf-8")
