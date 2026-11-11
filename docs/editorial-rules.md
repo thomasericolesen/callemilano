@@ -2,7 +2,7 @@
 
 **Status:** Recommendations reviewed; awaiting human editor-of-record approval.  
 **Scope:** Editorial conventions needed to apply `AGENTS.md` and `docs/place-schema.md` consistently before large-scale content generation.  
-**Related material:** `docs/project-state.md`, `docs/pilot-review.md`, and `docs/multi-agent-workflow.md`.
+**Related material:** `docs/project-state.md`, `docs/history/pilot-review.md`, and `docs/multi-agent-workflow.md`.
 
 This document turns the previously open decisions into recommended rules. These are recommendations, not approved policy: `AGENTS.md` reserves final approval to the human editor-of-record. Apply the current project instructions while approval is pending. Any accepted change to the schema or controlled vocabulary must be recorded in `docs/change-log.md` and applied to related guidance and records together.
 

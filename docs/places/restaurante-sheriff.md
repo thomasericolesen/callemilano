@@ -123,7 +123,7 @@ evidence:
   checked_at: '2026-11-08'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-08
   confidence: medium
-  notes: Owner statement in session 2026-11-08 after the phone check listed in docs/faktatjek-liste-2026-11-08.md.
+  notes: Owner statement in session 2026-11-08 after the phone check listed in docs/decisions/faktatjek-liste-2026-11-08.md.
 review_issues:
 - code: facts_not_checked
   severity: warning

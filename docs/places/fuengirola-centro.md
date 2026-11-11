@@ -141,28 +141,28 @@ evidence:
   notes: Same charter.
 - field: seasonality
   claim: Beach seasonality is Spring, Summer and Autumn (same for all local beaches).
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
+  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
 - field: description_long (rocks)
   claim: No rocks on this beach.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 4, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Owner's own local knowledge, not independently verified.
+  notes: Owner decision 4, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Owner's own local knowledge, not independently verified.
 - field: parking, transport_options, dog_friendly, cost_level, booking_required, food_available, visit_information
   claim: 'Parking, transport, dogs, cost, booking and food are deliberately left unknown for beaches: adults look these up themselves.'
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
 - field: google_maps_url, external_ids
   claim: Google Places lists 'Playa de Fuengirola' (Playa de Fuengirola, P.º Marítimo Rey de España, 27, 29640 Fuengirola, Málaga, España), place ID ChIJW7YnnGvicg0RYBrJB5dCNTU; since 2026-11-02 its location is the record's coordinates.
   source_url: https://maps.google.com/?cid=3834043874213960288
@@ -181,12 +181,12 @@ evidence:
   notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
 - field: age_groups, family_score
   claim: 'Owner-approved family assessment: age groups Small children (0-6), Children (7-12), Young adults, Seniors; scores small_children high, children high, young_adults high, seniors high.'
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/family-assessment-decisions-2026-11-02.md
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/decisions/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
 - field: coordinates
   claim: The place point should lie near the Fuengirola harbour, or between the harbour and the bridge over the Río Fuengirola; Google's Playa de Fuengirola point (36.5372915,-4.6215859) lies about 500 m south of the marina (36.5417,-4.6187) and north of the Puente de la Armada Española at the river mouth (36.5261,-4.6273).
   source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md
@@ -229,6 +229,6 @@ review_decision:
   decision: approved
   reviewer: Eric Olesen (editor-of-record)
   date: '2026-11-02'
-  notes: Re-approved by the owner in the session chat on 2026-11-02 after the addition of the summer bathing zone for older people at Playa de San Francisco (north of the port; 2026 installation not confirmed, as stated in the description). Earlier approval the same day on the beach approval page (docs/approval-decisions-2026-11-02.md) otherwise unchanged.
+  notes: Re-approved by the owner in the session chat on 2026-11-02 after the addition of the summer bathing zone for older people at Playa de San Francisco (north of the port; 2026 installation not confirmed, as stated in the description). Earlier approval the same day on the beach approval page (docs/decisions/approval-decisions-2026-11-02.md) otherwise unchanged.
 redirects: []
 ---

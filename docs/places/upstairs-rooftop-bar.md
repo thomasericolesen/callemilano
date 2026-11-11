@@ -102,7 +102,7 @@ evidence:
   notes: 'Google Routes API computeRoutes, DRIVE (TRAFFIC_AWARE_OPTIMAL, Saturday 2026-11-07 10:00), from the project origin. Walking time removed 2026-11-02 (owner decision: guests reach bars in town by taxi or Uber).'
 - field: status (selection)
   claim: Selected by the owner for the guide on the bars selection page; passed a reputation screen on 2026-11-02.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/bars-selection-2026-11-02.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/bars-selection-2026-11-02.md
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02

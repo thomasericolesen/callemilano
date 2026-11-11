@@ -146,36 +146,36 @@ evidence:
   notes: Ayuntamiento de Mijas press release 2026-06-03, read 2026-11-01.
 - field: coordinates
   claim: The owner accepts the Google Maps marker coordinates read on 2026-07-18 as this beach's place point.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
+  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
 - field: seasonality
   claim: Beach seasonality is Spring, Summer and Autumn (same for all local beaches).
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
+  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
 - field: description_long (rocks, stones)
   claim: No rocks or rock formations; the beach is a stone beach with walnut- to plum-sized stones. The tourist page that mentions rock formations is rejected.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: 'Owner decision 4, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Owner clarified in chat 2026-11-02: no rocks, but it is a stone beach. Owner''s own local knowledge, not independently verified.'
+  notes: 'Owner decision 4, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Owner clarified in chat 2026-11-02: no rocks, but it is a stone beach. Owner''s own local knowledge, not independently verified.'
 - field: parking, transport_options, dog_friendly, cost_level, booking_required, food_available, visit_information
   claim: 'Parking, transport, dogs, cost, booking and food are deliberately left unknown for beaches: adults look these up themselves.'
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
 - field: google_maps_url, external_ids
   claim: Google Places lists 'Playa de la Butibamba' (Playa de la Butibamba, P.º Mediterráneo, 6, 29649 Las Lagunas de Mijas, Málaga, España), place ID ChIJSyJm-TQecw0RJ9HZNQpNlSo, about 109 m from the record coordinates.
   source_url: https://maps.google.com/?cid=3068443427371340071
@@ -194,15 +194,15 @@ evidence:
   notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
 - field: age_groups, family_score
   claim: 'Owner-approved family assessment: age groups Children (7-12), Young adults, Seniors; scores small_children medium, children medium, young_adults medium, seniors medium.'
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/family-assessment-decisions-2026-11-02.md
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. Owner note: Tættere mod La Cala centrum mere børnevenligt men også bedre faciliteter (parasoller og strandsenge).. '
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/decisions/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. Owner note: Tættere mod La Cala centrum mere børnevenligt men også bedre faciliteter (parasoller og strandsenge).. '
 - field: description_long (owner knowledge)
   claim: 'Owner: towards La Cala centre the beach is more child-friendly and has better facilities (parasols and sunbeds).'
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/family-assessment-decisions-2026-11-02.md
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
@@ -218,6 +218,6 @@ review_decision:
   decision: approved
   reviewer: Eric Olesen (editor-of-record)
   date: '2026-11-02'
-  notes: 'Approved by the owner on the beach approval page "CalleMilano strandgodkendelse" (saved 2026-11-02 07:25 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the character label Developed, and the family assessment of 2026-11-02. Practical details stay unknown by owner decision 5. Acknowledged info notes, closed at approval: no_blue_flag_2026: Not on the ADEAC 2026 list, so there is no indirect water-quality indication (Blue Flag is used as proxy; NAYADE is not available). "draft" wording removed from SEO title/description and description_short at approval (wording only, no fact changed).'
+  notes: 'Approved by the owner on the beach approval page "CalleMilano strandgodkendelse" (saved 2026-11-02 07:25 UTC; recorded in docs/decisions/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the character label Developed, and the family assessment of 2026-11-02. Practical details stay unknown by owner decision 5. Acknowledged info notes, closed at approval: no_blue_flag_2026: Not on the ADEAC 2026 list, so there is no indirect water-quality indication (Blue Flag is used as proxy; NAYADE is not available). "draft" wording removed from SEO title/description and description_short at approval (wording only, no fact changed).'
 redirects: []
 ---

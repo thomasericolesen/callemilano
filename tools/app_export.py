@@ -4,7 +4,7 @@
 Usage:  python3 tools/app_export.py            # writes data/app-export/
         python3 tools/app_export.py --check    # prints counts only
 
-Owner decisions 2026-11-02 (docs/webapp-byggeplan.md):
+Owner decisions 2026-11-02 (docs/product/webapp-byggeplan.md):
   * the app shows records with status needs_fact_check or later; drafts and archived records are left out;
   * records that are not yet fact-checked are labelled in the app ("Ikke faktatjekket"); a fact-checked
     record (needs_editorial_review) counts as approved (owner decision 2026-11-10);

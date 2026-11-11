@@ -127,28 +127,28 @@ evidence:
   notes: Ayuntamiento de Benalmádena, Delegación de Playas news item 2026-06-05, read 2026-11-01. Toilets and play area are not mentioned.
 - field: coordinates
   claim: The owner accepts the Google Maps marker coordinates read on 2026-07-18 as this beach's place point.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
+  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
 - field: seasonality
   claim: Beach seasonality is Spring, Summer and Autumn (same for all local beaches).
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
+  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
 - field: parking, transport_options, dog_friendly, cost_level, booking_required, food_available, visit_information
   claim: 'Parking, transport, dogs, cost, booking and food are deliberately left unknown for beaches: adults look these up themselves.'
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
 - field: google_maps_url, external_ids
   claim: Google Places lists 'Playa de Fuente de la Salud' (29630 Benalmádena, Málaga, España), place ID ChIJ8WWL6G_8cg0RC--WkDXTAcU, about 5 m from the record coordinates.
   source_url: https://maps.google.com/?cid=14195859727461052171
@@ -175,7 +175,7 @@ evidence:
   notes: 'Checked against the beach rule set by the owner on 2026-11-02 (https://github.com/thomasericolesen/callemilano/blob/main/docs/owner-decisions-2026-11-02.md): rocks on a sand beach do not exclude it. Whether there are any rocks on this beach is not recorded and no longer matters for selection. Replaces review issue rocks_not_verified.'
 - field: age_groups, family_score
   claim: 'Owner-approved family assessment: age groups Children (7-12), Young adults, Seniors; scores small_children medium, children medium, young_adults medium, seniors medium.'
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/family-assessment-decisions-2026-11-02.md
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02

@@ -12,7 +12,7 @@ The owner narrowed the first phase to destinations within about 30 km of Casa de
 - **Place records:** 30 in `docs/places/`, all schema 1.0.0. 24 are `needs_fact_check`; 6 are `draft` with unresolved identity and `id: null` (Cares, Conil de la Frontera, Cueva de los Arcos, Miradouro da Serpente do Medal, Roca Foradada, Salt de la Coromina). None is approved or published.
 - **Inside the primary area:** only Marbella Old Town (20 km) has coordinates. Mercado de Atarazanas, Palmeral de las Sorpresas and Playa la Malagueta lie at about 29–31 km but have no coordinates in their records yet.
 - **Gold-standard page drafts:** `docs/published/` holds BIOPARC Fuengirola, La Cala Beach and Restaurante Sheriff as hand-written pages. They have no place record, ID or front matter and are outside the lifecycle.
-- **Launch candidates:** `docs/launch-backlog.md` lists ten local destinations (Sheriff, La Cala, El Bombo, BIOPARC, Senda Litoral, Carromato de Mijas, Mijas Pueblo, Marbella Old Town, La Muralla route, La Familia Beach Club). Only Marbella Old Town has a record.
+- **Launch candidates:** `docs/product/launch-backlog.md` lists ten local destinations (Sheriff, La Cala, El Bombo, BIOPARC, Senda Litoral, Carromato de Mijas, Mijas Pueblo, Marbella Old Town, La Muralla route, La Familia Beach Club). Only Marbella Old Town has a record.
 - **Tooling:** `tools/places.py validate` (structural validation gate) and `tools/places.py catalog` (generates `data/place-catalog.csv` with distance from Casa). Current run: 30 records, 6 errors (the six identity-unresolved drafts have `energy_level: null`, which the schema does not allow), 60 warnings (missing coordinates and unresolved driving times).
 - **Registers:** `data/place-id-registry.csv` (24 IDs), `data/import-queue.csv` (only the first 5 pilots), `data/image-rights.csv` (header only), `data/place-catalog.csv` (generated). `images/` exists but is empty.
 - **Recommendation prototype:** V1 engine spec, V1 questionnaire, V2 group-composition design, V3 enrichment analysis, all run on the 30-destination Spain-wide set in the analytical CSVs (`docs/data-dictionary.md`). `demo/index.html` is a static mock with 12 hard-coded destinations; it does not compute scores.
@@ -33,12 +33,12 @@ The owner narrowed the first phase to destinations within about 30 km of Casa de
 9. Questionable categories for editor review: Alcázar de Segovia (`Family activities`), Mercado de Atarazanas (`Excursions`), Baelo Claudia (`Family activities`).
 
 ### Schema and editorial rules (carried over from 2026-10-03)
-10. Place scope/pin rules for towns, `last_verified` semantics, criteria for duration/season/tags, age-group vs. family-score guidance, cost basis, SEO conventions, `wheelchair_friendly` derivation rule. See `docs/remediation-plan.md` for items beyond P0/P1.
+10. Place scope/pin rules for towns, `last_verified` semantics, criteria for duration/season/tags, age-group vs. family-score guidance, cost basis, SEO conventions, `wheelchair_friendly` derivation rule. See `docs/history/remediation-plan.md` for items beyond P0/P1.
 11. Editor-of-record is referred to throughout but not named.
 
 ## Next actions
 
-0. Run the Facebook beach survey (`docs/beach-feedback-survey.md`) and sort replies per beach. Note: the beach and launch candidates were found by Codex via web search, not chosen by the owner.
+0. Run the Facebook beach survey (`docs/product/beach-feedback-survey.md`) and sort replies per beach. Note: the beach and launch candidates were found by Codex via web search, not chosen by the owner.
 1. Decide which of the 13 places within 30 km (and the Málaga city places just beyond) enter intake, and compile the local beach/restaurant list that the Maps export lacks.
 2. Create records with coordinates for the 15–20 most relevant local places (beaches in Fuengirola, Los Boliches, La Cala, Benalmádena, Torremolinos; BIOPARC; nearest excursions), starting with the launch backlog.
 3. Revise the engine spec and personas for the local scope; then run top-10 recommendation tests per persona and compare with the owner's local knowledge.

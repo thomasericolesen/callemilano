@@ -96,7 +96,7 @@ evidence:
   checked_at: '2026-11-02'
   checked_by: Claude (one-hour restaurant intake 2026-11-02)
   confidence: medium
-  notes: Google Places API (New) on 2026-11-02. Identity and position only. Owner selected this candidate on the restaurant checklist (docs/one-hour-beach-restaurants-intake-2026-11-02.md, row rF03).
+  notes: Google Places API (New) on 2026-11-02. Identity and position only. Owner selected this candidate on the restaurant checklist (docs/decisions/one-hour-beach-restaurants-intake-2026-11-02.md, row rF03).
 - field: driving_time_from_casa_de_la_familia
   claim: 'From Casa de la Familia: 53 min by car (59.1 km, Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.4228141%2C-5.1471539&travelmode=driving

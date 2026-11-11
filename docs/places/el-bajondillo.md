@@ -123,28 +123,28 @@ evidence:
   notes: Turismo de Torremolinos, 'Playas Accesibles', modified 2026-05-11, read 2026-11-01. The four-beach statement is general; the per-beach Google My Maps embedded on the page (published 2019-2021) show adapted toilets at this beach. Confidence medium because the per-beach maps are older than the season.
 - field: coordinates
   claim: The owner accepts the Google Maps marker coordinates read on 2026-07-18 as this beach's place point.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
+  notes: Owner decision 1, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value.
 - field: seasonality
   claim: Beach seasonality is Spring, Summer and Autumn (same for all local beaches).
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
+  notes: Owner decision 3, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Editorial judgment of the bathing season; lifeguard periods in the description are the dated facts.
 - field: parking, transport_options, dog_friendly, cost_level, booking_required, food_available, visit_information
   claim: 'Parking, transport, dogs, cost, booking and food are deliberately left unknown for beaches: adults look these up themselves.'
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
+  notes: Owner decision 5, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_out_of_scope (owner decision of 2026-11-01 on the beach fact check, confirmed as decision 5).
 - field: google_maps_url, external_ids
   claim: Google Places lists 'Playa Bajondillo' (Playa Torremolinos Zona Bajondillo, 29620 Torremolinos, Málaga, España), place ID ChIJobmRF-_7cg0RW3AKDbjLSPo, about 3 m from the record coordinates.
   source_url: https://maps.google.com/?cid=18034888699158360155
@@ -163,12 +163,12 @@ evidence:
   notes: Turespaña's official tourism portal; beach data based on the national beach guide, undated. Read via Firecrawl on 2026-11-02. Replaces the unsourced snapshot entries for sand, size, children, facilities and restaurants, which were removed together with their unsourced claims in the description.
 - field: age_groups, family_score
   claim: 'Owner-approved family assessment: age groups Young adults, Seniors; scores small_children medium, children medium, young_adults high, seniors high.'
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/family-assessment-decisions-2026-11-02.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/family-assessment-decisions-2026-11-02.md
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: 'Owner decisions 2/6: Claude proposed values (docs/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
+  notes: 'Owner decisions 2/6: Claude proposed values (docs/decisions/family-assessment-proposal-2026-11-02.md); the owner corrected and approved them on the checklist page on 2026-11-02. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice. '
 - field: description_long (rocks rule)
   claim: 'Not a pure rock beach and not reached by climbing down rocks: spain.info lists composition sand and access "a pie fácil" (easy on foot) and by car.'
   source_url: https://www.spain.info/es/playa/bajondillo/
@@ -187,6 +187,6 @@ review_decision:
   decision: approved
   reviewer: Eric Olesen (editor-of-record)
   date: '2026-11-02'
-  notes: Approved by the owner on the beach approval page "CalleMilano strandgodkendelse" (saved 2026-11-02 07:25 UTC; recorded in docs/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the character label Developed, and the family assessment of 2026-11-02. Practical details stay unknown by owner decision 5. "draft" wording removed from SEO title/description and description_short at approval (wording only, no fact changed).
+  notes: Approved by the owner on the beach approval page "CalleMilano strandgodkendelse" (saved 2026-11-02 07:25 UTC; recorded in docs/decisions/approval-decisions-2026-11-02.md). Owner confirmed energy_level Low and the character label Developed, and the family assessment of 2026-11-02. Practical details stay unknown by owner decision 5. "draft" wording removed from SEO title/description and description_short at approval (wording only, no fact changed).
 redirects: []
 ---

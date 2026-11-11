@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-12 - `docs/` sorted into subfolders (level B, owner's yes in chat)
+
+- 69 files moved with `git mv` into `docs/history/` (old status files and handovers, superseded reviews and engine analyses), `docs/decisions/` (dated intake, selection and decision notes), `docs/product/`, `docs/engine/` and `docs/content/`. Everything `AGENTS.md`, the agents, the skills and the tools point to stays at the top of `docs/`, so `AGENTS.md` is unchanged.
+- All references were rewritten: 375 `docs/...` paths (including GitHub source URLs in the place records' evidence and in `data/*.csv`), 44 bare file names inside `docs/` and 25 Markdown links. A check of every text file finds no reference to a missing file (also none before the move).
+- `docs/README.md` rewritten as a map of the new layout. Going forward, the newest `status-*.md` stays at the top and the previous one moves to `history/`.
+- Verified unchanged: `places.py validate` output, `data/place-catalog.csv` and `data/app-export/*.json`. All tests pass. In 68 place records only file paths to moved documents changed, in evidence `source_url` and `notes`; no values, statuses or dates.
+
 ## 2026-11-12 - `tools/trip.py` split into modules (level A, tooling only)
 
 - `tools/trip.py` (1,067 lines) is now only the command line; the logic moved verbatim into `trip_core.py` (place list, routes between stops, fetching), `trip_weather.py`, `trip_traffic.py`, `trip_restaurants.py`, `trip_plan.py` (holidays, opening status, the plan) and `trip_render.py`. Commands and options are unchanged, so `/turforslag`, `/aabningstider`, `/restaurant-indsamling` and the agents run as before.
@@ -167,8 +174,8 @@
 
 ## 2026-11-08 (evening) - Oplev page decisions and category images (owner decisions)
 
-- Owner decisions: one app page "Oplev" replaces Inspiration, Find en tur, Turforslag and Anbefalinger; feedback replaces Anbefalinger (Eric's list, no automatic changes, no time limit); family-wide AI cap 20 per day; saved trips private but shareable; family's own places without trip data shown as "Familiens forslag"; bars under Restaurants. Plan: `docs/byggeplan-oplev.md`; mockup https://claude.ai/artifact/3hvQeqQLi1ek2kp92Acs5j.
-- Six generic category images (CC0 / Public Domain Mark, via Openverse; no identifiable people) registered in `data/image-rights.csv` as `APP-OPLEV-*-001`; sources in `docs/oplev-category-images-2026-11-08.json`. Restaurants will use Google Places photos shown live with author attribution (not copied).
+- Owner decisions: one app page "Oplev" replaces Inspiration, Find en tur, Turforslag and Anbefalinger; feedback replaces Anbefalinger (Eric's list, no automatic changes, no time limit); family-wide AI cap 20 per day; saved trips private but shareable; family's own places without trip data shown as "Familiens forslag"; bars under Restaurants. Plan: `docs/product/byggeplan-oplev.md`; mockup https://claude.ai/artifact/3hvQeqQLi1ek2kp92Acs5j.
+- Six generic category images (CC0 / Public Domain Mark, via Openverse; no identifiable people) registered in `data/image-rights.csv` as `APP-OPLEV-*-001`; sources in `docs/product/oplev-category-images-2026-11-08.json`. Restaurants will use Google Places photos shown live with author attribution (not copied).
 
 ## 2026-11-08 (evening) - Sheriff page removed from the app (owner decision)
 
@@ -182,7 +189,7 @@
 - `ragazzi-fuengirola`: own website names only the Fuengirola restaurant, so `menu_branch_unconfirmed` is closed (spot-checked). Price unchanged (`€`).
 - `marisqueria-el-ancla-san-pedro`: hours (13:00-23:00; Monday closed in summer except holidays) and booking phone from the own contact page (undated, last modified 2021; spot-checked); bookings by phone only.
 - `chiringuito-el-cachalote`: the menu page still has only the February 2026 'BORRADOR' images; `cost_level_menu_draft` stays.
-- Danish texts for the app (owner request, handover task 3): new `data/app-texts-da.json` with Danish `summary` and `practical` texts for all 53 exported restaurants and bars (two translator subagents plus the main session; every price text compared with its English source, two corrected). `tools/app_export.py` sends them with `text_language: "da"` only while a hash of the English texts still matches; otherwise it falls back to English and lists the place in `manifest.danish_stale`. New test `tests/test_app_export_danish.py`. Described in `docs/webapp-byggeplan.md`.
+- Danish texts for the app (owner request, handover task 3): new `data/app-texts-da.json` with Danish `summary` and `practical` texts for all 53 exported restaurants and bars (two translator subagents plus the main session; every price text compared with its English source, two corrected). `tools/app_export.py` sends them with `text_language: "da"` only while a hash of the English texts still matches; otherwise it falls back to English and lists the place in `manifest.danish_stale`. New test `tests/test_app_export_danish.py`. Described in `docs/product/webapp-byggeplan.md`.
 - Validation 220 records, 0 errors; catalog and app export regenerated.
 
 ## 2026-11-05 - Price check batch 2: own menus for four restaurants
@@ -237,7 +244,7 @@
 
 ## 2026-11-03 (evening) - Lounge El Trópico is a restaurant; Cerros del Águila priced € (owner decisions)
 
-- Owner decision 2026-11-03 (with the own website https://chiringuitoeltropico.com/en/home/, read again with curl the same day): Lounge El Trópico serves breakfast, lunch and dinner and is treated as a beach restaurant (chiringuito), like Chiringuito Los Moreno. It came in through the bars intake (`docs/bars-intake-2026-11-02.md`).
+- Owner decision 2026-11-03 (with the own website https://chiringuitoeltropico.com/en/home/, read again with curl the same day): Lounge El Trópico serves breakfast, lunch and dinner and is treated as a beach restaurant (chiringuito), like Chiringuito Los Moreno. It came in through the bars intake (`docs/decisions/bars-intake-2026-11-02.md`).
 - `lounge-el-tropico`: `description_long` no longer carries the bar advice ("take a taxi or Uber", "keep an eye on your drink"), so `tools/app_export.py` no longer flags it as a bar and `/turforslag` can use it; it now names the own-site name Chiringuito El Trópico and the menu prices already in the evidence. Issue `prices_unknown` removed (prices were read 2026-11-02, `cost_level` `€`). Name, ID, slug, category, tags and status (`needs_fact_check`) unchanged.
 - `restaurante-cerros-del-aguila`: `cost_level` `Unknown` -> `€` on the owner's own knowledge (owner, 2026-11-03: a typical main plus a beer or a glass of wine is under 20 €; "sæt mig som kilde"). Evidence `confidence: low`; the own Facebook page's price range "moderate" is recorded as a conflict resolved by the editor-of-record; info issue `cost_level_owner_source`. Status unchanged (`needs_fact_check`).
 - App export regenerated.
@@ -250,7 +257,7 @@
 - `cost_level_borderline` issues removed where the old band edge no longer applies (Océano, El Trópico, Casa Fernando, Solo Beach).
 - Tripadvisor, TheFork and Facebook price markings stay `€€` until an own menu is found; only the rule text in `cost_basis` changed (approved records Chiringuito Los Moreno, La Mar Salá, Los Marinos Paco, Morrofino and Santa Ana Denis: rule text only, level unchanged).
 - Not changed, waiting for the owner: `somos-de-banus` is `€€€` by owner decision 2026-11-02, but its median main (29 €) plus a drink is `€€` under the new rule.
-- Rule text updated in `tools/trip.py` (PDF labels), `.claude/agents/charlie.md`, `docs/trip-planner-agents.md`, `docs/handoff-next-session.md` and a note in `docs/cost-level-proposals-2026-11-02.md`. The band column in `data/restaurant-directory.csv` (lead list) was computed under the old rule and is not recomputed.
+- Rule text updated in `tools/trip.py` (PDF labels), `.claude/agents/charlie.md`, `docs/trip-planner-agents.md`, `docs/history/handoff-next-session.md` and a note in `docs/decisions/cost-level-proposals-2026-11-02.md`. The band column in `data/restaurant-directory.csv` (lead list) was computed under the old rule and is not recomputed.
 
 ## 2026-11-02 (late evening) - Ecco in the app (trip agent step 1, point 4)
 
@@ -269,14 +276,14 @@
 
 ## 2026-11-02 (late evening) - Interactive trip agent: owner decisions (no schema change)
 
-- Recorded in `docs/webapp-byggeplan.md`: show records with status `needs_fact_check` or later in the app, non-approved ones labelled "Ikke endeligt godkendt", drafts hidden; build via GitHub connection and Claude Code; Ecco on Claude Sonnet 5.5; admins only at first. Voice v0 (phone) and the $20/month, 10-per-user-per-day caps remain proposals.
+- Recorded in `docs/product/webapp-byggeplan.md`: show records with status `needs_fact_check` or later in the app, non-approved ones labelled "Ikke endeligt godkendt", drafts hidden; build via GitHub connection and Claude Code; Ecco on Claude Sonnet 5.5; admins only at first. Voice v0 (phone) and the $20/month, 10-per-user-per-day caps remain proposals.
 
 ## 2026-11-02 (late evening) - Restaurants from callemilano.dk (owner instruction)
 
 - Owner instruction: the recommendations already on callemilano.dk (Lovable app "Vores Spanske Hjem", table `recommendations`) belong in the restaurant list. The site has 6 own restaurant recommendations (`kind` anbefaling) and 4 inspiration entries.
 - Created draft records for the 5 missing own recommendations: `cafe-nomad-fuengirola`, `heladeria-casa-esteban-fuengirola`, `marvelous-burger-fuengirola`, `utopia-la-cala`, `venta-los-condes` (10-25 min), and for the inspiration entry `restaurante-sheriff` (12 min; it had only a hand-written page in `docs/published/`). Each owner text is quoted verbatim in an owner-knowledge evidence entry and summarised in `description_long`; the same was added to the existing `asador-otola`.
 - `restaurante-sheriff`: blocking issue `possibly_closed` (Google CLOSED_TEMPORARILY; Mijas Tourism note cited on the gold page).
-- TheFork/Tripadvisor price lookup for 23 new records: 9 markings found (5 identity-confirmed by address), 14 none. Not applied yet: the orchestrator spot check could not run (Firecrawl credits exhausted; Tripadvisor blocks curl). Results listed in `docs/handoff-next-session.md`.
+- TheFork/Tripadvisor price lookup for 23 new records: 9 markings found (5 identity-confirmed by address), 14 none. Not applied yet: the orchestrator spot check could not run (Firecrawl credits exhausted; Tripadvisor blocks curl). Results listed in `docs/history/handoff-next-session.md`.
 - Owner decision 2026-11-02: Casas Cuevas Almagruz, Castillo de Monda and El Molino del Santo are not standalone excursions; they are visited for their restaurants, and other facilities are for hotel guests only. Created as `Restaurants` draft records in layer `excursions_4h`: `castillo-de-monda` (35 min, Tæt på, nearby Monda), `molino-del-santo` (105 min, Dagsture, nearby Ronda), `casas-cuevas-almagruz` (120 min, Længere væk; ID namespace corrected to `ES-AND-GRA` right after allocation). Info issue `guest_only_facilities` on each.
 
 ## 2026-11-02 (late evening) - Directory leads: owner checklist (step 2 started)
@@ -302,13 +309,13 @@
 - No prices found on own pages: Asador Otola, Restaurante Hoyo 19, Tasca Laska, Upstairs. Blocked or unreadable: El Cachalote, Jack's Smokehouse, La Floja, El Ancla (PDF without text), Sky Bar Veramar (site moved to veramaraparthotel.com), Speakeasy, Taberna Casa Blanca. These stay `Unknown`.
 - Same evening, owner decision: use the TheFork/Tripadvisor price marking as a noted fallback where the own site has no prices. 16 more records set to `€€` with a `secondary` low-confidence evidence entry and info issue `cost_level_secondary_source`: asador-otola, casa-manuel-de-la-lonja, chiringuito-central-beach-estepona, chiringuito-el-cachalote, chiringuito-las-dunas-cabopino, chiringuito-rafael, el-mirador-del-golf, jacks-smokehouse-puerto-banus, marisqueria-el-ancla-san-pedro, norte-puerto-banus, restaurante-el-golf-mijas (TheFork 26 €), restaurante-hoyo-19, restaurante-la-escollera-estepona, taberna-casa-blanca-banus, tasca-laska-malagueta (TheFork 24 €), venta-la-morena. Spot checks: Tasca Láska (TheFork "Precio medio: 24 €") and El Cachalote (Tripadvisor "€€ - €€€") confirmed by a separate search.
 - Left `Unknown`: partial snippet markings (el-andaluz-de-la-malagueta, taberna-mar-de-alboran-estepona, restaurante-cerros-del-aguila), identity to confirm (juanito-juan listed as "Restaurante Juanito"; restaurante-cerrado-del-aguila possibly renamed La Sierra Restaurante), no source (courtside-by-wissler, la-zambra-resort, mixs-lounge, pena-al-tranco, singh-doner-kebab), blocked (la-sierra-restaurante, sol-y-sombra-mijas). Bars not looked up (excluded from trip plans).
-- Approved records: proposals for owner approval in `docs/cost-level-proposals-2026-11-02.md` (5 x `€€`, Chiringuito Cristóbal without source).
-- Owner approval 2026-11-02 (later): all five proposals in `docs/cost-level-proposals-2026-11-02.md` approved; `cost_level` `€€` set by the main session on the approved records los-marinos-paco, santa-ana-denis, morrofino, la-mar-sala and chiringuito-los-moreno (status unchanged). Owner decision: `somos-de-banus` is `€€€` (borderline issue removed). Chiringuito Cristóbal stays `Unknown`.
+- Approved records: proposals for owner approval in `docs/decisions/cost-level-proposals-2026-11-02.md` (5 x `€€`, Chiringuito Cristóbal without source).
+- Owner approval 2026-11-02 (later): all five proposals in `docs/decisions/cost-level-proposals-2026-11-02.md` approved; `cost_level` `€€` set by the main session on the approved records los-marinos-paco, santa-ana-denis, morrofino, la-mar-sala and chiringuito-los-moreno (status unchanged). Owner decision: `somos-de-banus` is `€€€` (borderline issue removed). Chiringuito Cristóbal stays `Unknown`.
 - Not changed: status, schema, categories, tags.
 
 ## 2026-11-02 - Trip planner merged with the intake pipeline (owner decisions 15-16)
 
-- Brought over from the unmerged branch `claude/awesome-clarke-tvlhrg` (work of 2026-11-01, entries below): `tools/trip.py`, `docs/trip-planner-agents.md`, `docs/webapp-byggeplan.md`, agents `alpha`, `charlie`, `ecco`, skills `/turforslag`, `/restaurant-indsamling`, `/aabningstider`, `data/holidays.csv`, `data/restaurant-areas.csv`, `data/restaurant-directory.csv` (26 Fuengirola-area leads), `trips/` (git-ignored).
+- Brought over from the unmerged branch `claude/awesome-clarke-tvlhrg` (work of 2026-11-01, entries below): `tools/trip.py`, `docs/trip-planner-agents.md`, `docs/product/webapp-byggeplan.md`, agents `alpha`, `charlie`, `ecco`, skills `/turforslag`, `/restaurant-indsamling`, `/aabningstider`, `data/holidays.csv`, `data/restaurant-areas.csv`, `data/restaurant-directory.csv` (26 Fuengirola-area leads), `trips/` (git-ignored).
 - Not brought over: the branch's change to `fuengirola-centro` (it moved the approved beach record's point to Plaza de la Constitución). Owner clarification 2026-11-02: the beach point stays between the harbour and the Río Fuengirola bridge; the town centre is Plaza de la Constitución, which is the separate record `fuengirola-town`. The owner-confirmed underground car park at Plaza de la Constitución is now in `fuengirola-town` (parking, evidence).
 - Owner decision 16: restaurants are full place records. `tools/trip.py` reads restaurant records first (bars excluded) and uses directory rows only for places not yet recorded; price band comes from `cost_level`. Alpha and Charlie follow the shared pipeline rules (fetch first, record changes only via `tools/intake.py apply`, reviews only as low-confidence leads) and run on Sonnet; Ecco on Sonnet.
 
@@ -355,7 +362,7 @@ Owner request: make CalleMilano interactive; when guests pick one or more places
 
 ## 2026-11-02 - Restaurant candidates near the one-hour beaches
 
-- Added `docs/one-hour-beach-restaurants-intake-2026-11-02.md`: 24 candidates near the six selected beaches, shortlisted from Google Places. Owner selects on a checklist page; no records created.
+- Added `docs/decisions/one-hour-beach-restaurants-intake-2026-11-02.md`: 24 candidates near the six selected beaches, shortlisted from Google Places. Owner selects on a checklist page; no records created.
 
 ## 2026-11-02 - One-hour band: layer decision and beaches
 
@@ -367,30 +374,30 @@ Owner request: make CalleMilano interactive; when guests pick one or more places
 
 ## 2026-11-02 - Owner selection for the one-hour band
 
-- Added `docs/one-hour-selection-2026-11-02.md`: 41 yes, 12 maybe, 1 no, read from the owner's checklist page. Avenida del Mar folds into Marbella old town, the mural route into Estepona old town, Málaga city items into `malaga`.
+- Added `docs/decisions/one-hour-selection-2026-11-02.md`: 41 yes, 12 maybe, 1 no, read from the owner's checklist page. Avenida del Mar folds into Marbella old town, the mural route into Estepona old town, Málaga city items into `malaga`.
 
 ## 2026-11-02 - Taxi and train on the practical page
 
 - Owner asked for taxi numbers and local train stations before the one-hour work continues.
-- `docs/practical-information-draft.md`: new sections 'Taxi' (Radio Taxi Mijas from Mijas council's list, Radio Taxi de Fuengirola, Uber, nearest ranks) and 'Train (Cercanías C1)' (nearest stations with route-checked drive times, frequency and journey times from the CTMAM timetable, Renfe station facts). Sources 10-16. Parking and fares still open.
+- `docs/decisions/practical-information-draft.md`: new sections 'Taxi' (Radio Taxi Mijas from Mijas council's list, Radio Taxi de Fuengirola, Uber, nearest ranks) and 'Train (Cercanías C1)' (nearest stations with route-checked drive times, frequency and journey times from the CTMAM timetable, Renfe station facts). Sources 10-16. Parking and fares still open.
 
 ## 2026-11-02 - Intake for the 30-60 minute band
 
 - Owner asked to look at destinations beyond the local area but within about one hour's drive, with restaurants nearby or on the way.
-- Added `docs/one-hour-intake-2026-11-02.md`: 54 candidates in seven groups (beaches, towns, Málaga city, coastal history, nature, experiences, and four places under 30 minutes found on the way), route-checked with Google Routes. No records created; selection pending on the owner's checklist page.
+- Added `docs/decisions/one-hour-intake-2026-11-02.md`: 54 candidates in seven groups (beaches, towns, Málaga city, coastal history, nature, experiences, and four places under 30 minutes found on the way), route-checked with Google Routes. No records created; selection pending on the owner's checklist page.
 - Open owner decision: which layer holds this band.
 
 ## 2026-11-02 - Season calendar, first draft (step 3, no records)
 
-Added `docs/season-calendar-draft.md` with the 8 selected events by month: fixed 2027 dates for Noche de San Juan (23-24 June, Benalmádena tourism), Feria de San Juan Arroyo de la Miel (24-29 June), Virgen del Carmen (16 July) and Feria del Rosario (6-12 October, 'always'); Semana Santa 2027 from the computed Easter date; Carnaval, Feria de Mijas (2026: 7-12 September), Reyes and Christmas await the councils' 2027 announcements. No place record changed.
+Added `docs/decisions/season-calendar-draft.md` with the 8 selected events by month: fixed 2027 dates for Noche de San Juan (23-24 June, Benalmádena tourism), Feria de San Juan Arroyo de la Miel (24-29 June), Virgen del Carmen (16 July) and Feria del Rosario (6-12 October, 'always'); Semana Santa 2027 from the computed Easter date; Carnaval, Feria de Mijas (2026: 7-12 September), Reyes and Christmas await the councils' 2027 announcements. No place record changed.
 
 ## 2026-11-02 - Practical page: emergency info left to the website note (owner)
 
-The owner already has a note on emergency numbers and A&E on the website. `docs/practical-information-draft.md` now refers to it; the emergency numbers and the hospital entry moved to an appendix for comparison only. Recorded as owner decision 11.
+The owner already has a note on emergency numbers and A&E on the website. `docs/decisions/practical-information-draft.md` now refers to it; the emergency numbers and the hospital entry moved to an appendix for comparison only. Recorded as owner decision 11.
 
 ## 2026-11-02 - Practical information page, first draft (step 2, no records)
 
-Added `docs/practical-information-draft.md` for the 9 everyday places the owner selected (owner decision 7): emergency numbers (112, 061, Salud Responde) from the Junta de Andalucía; Centro de Salud Las Lagunas (Mon-Fri 08:00-20:00) from Mijas council and SAS; Hospital Costa del Sol contacts from SAS; duty-pharmacy finder; market days from Turismo de Mijas and Fuengirola council (Las Lagunas Saturday, La Cala Wednesday and Saturday, Fuengirola Tuesday market and Saturday rastro, with fair-time exceptions); market hall and supermarkets by Google identity only. Shop hours remain open. No place record changed.
+Added `docs/decisions/practical-information-draft.md` for the 9 everyday places the owner selected (owner decision 7): emergency numbers (112, 061, Salud Responde) from the Junta de Andalucía; Centro de Salud Las Lagunas (Mon-Fri 08:00-20:00) from Mijas council and SAS; Hospital Costa del Sol contacts from SAS; duty-pharmacy finder; market days from Turismo de Mijas and Fuengirola council (Las Lagunas Saturday, La Cala Wednesday and Saturday, Fuengirola Tuesday market and Saturday rastro, with fair-time exceptions); market hall and supermarkets by Google identity only. Shop hours remain open. No place record changed.
 
 ## 2026-11-02 - Mirador del Compás folded into Mijas Pueblo (owner decision)
 
@@ -418,11 +425,11 @@ Checked against own or official sources on 2026-11-02; `draft` -> `needs_fact_ch
 
 ## 2026-11-02 - 20 local-extension draft records created (owner selection, no schema change)
 
-From `docs/local-extension-selection-2026-11-02.md`, created 20 records with status `draft` and allocated IDs: 6 `Excursions` routes and walks plus 3 `Excursions` sights (Senda Litoral La Cala, Paseo Marítimo de Fuengirola, Ermita del Calvario, Mirador del Compás, Puerto Colorado; Castillo Sohail, Castillo de Colomares, Puerto Marina Benalmádena), 1 `Nature` (Dunas de Artola, linked both ways with Cabopino/Artola), 3 `City` (Mijas Pueblo, Fuengirola town, Benalmádena Pueblo) and 7 `Family activities` (Teleférico, Selwo Marina, Parque de la Paloma, Crocodile Park, Sea Life, Mariposario, Maui Paddle Surf, Mijas Golf). Identity and coordinates from Google Places API; drive time from Routes API (Saturday 2026-11-07 10:00). Categories are Claude's choice from the schema definitions (issue `category_editorial_choice`). Boat trips wait for a provider sweep and reputation screen. Validation: 148 records, 0 errors. Regenerated `data/place-catalog.csv`.
+From `docs/decisions/local-extension-selection-2026-11-02.md`, created 20 records with status `draft` and allocated IDs: 6 `Excursions` routes and walks plus 3 `Excursions` sights (Senda Litoral La Cala, Paseo Marítimo de Fuengirola, Ermita del Calvario, Mirador del Compás, Puerto Colorado; Castillo Sohail, Castillo de Colomares, Puerto Marina Benalmádena), 1 `Nature` (Dunas de Artola, linked both ways with Cabopino/Artola), 3 `City` (Mijas Pueblo, Fuengirola town, Benalmádena Pueblo) and 7 `Family activities` (Teleférico, Selwo Marina, Parque de la Paloma, Crocodile Park, Sea Life, Mariposario, Maui Paddle Surf, Mijas Golf). Identity and coordinates from Google Places API; drive time from Routes API (Saturday 2026-11-07 10:00). Categories are Claude's choice from the schema definitions (issue `category_editorial_choice`). Boat trips wait for a provider sweep and reputation screen. Validation: 148 records, 0 errors. Regenerated `data/place-catalog.csv`.
 
 ## 2026-11-02 - Owner selection for the local extension (no records yet)
 
-Read the owner's 49 answers from the checklist page and recorded them in `docs/local-extension-selection-2026-11-02.md`: yes 38 (9 everyday life, 6 nature, 7 towns and culture, 8 experiences, 8 events), maybe 8 (four museums or sights, the stupa, riding club, sports centre, Spanish lessons), no 3 (library, vet, laundry). No place record, ID or register was changed.
+Read the owner's 49 answers from the checklist page and recorded them in `docs/decisions/local-extension-selection-2026-11-02.md`: yes 38 (9 everyday life, 6 nature, 7 towns and culture, 8 experiences, 8 events), maybe 8 (four museums or sights, the stupa, riding club, sports centre, Spanish lessons), no 3 (library, vet, laundry). No place record, ID or register was changed.
 
 ## 2026-11-02 - Owner decisions on the local extension (no schema change)
 
@@ -430,7 +437,7 @@ All five areas are in scope; everyday life goes on a separate practical-informat
 
 ## 2026-11-02 - Local extension candidate list (intake only, no records)
 
-Owner request: guests stay a few weeks across a long season. Added `docs/local-extension-intake-2026-11-02.md`: 41 candidates in four groups (everyday life, nature and walks, towns and culture, longer-stay experiences) with Google Places identity and Routes API drive times, plus a list of yearly events without dates. Two structure questions for the owner (where everyday-life places and events belong, since neither fits the six categories). No place record, ID or register was changed.
+Owner request: guests stay a few weeks across a long season. Added `docs/decisions/local-extension-intake-2026-11-02.md`: 41 candidates in four groups (everyday life, nature and walks, towns and culture, longer-stay experiences) with Google Places identity and Routes API drive times, plus a list of yearly events without dates. Two structure questions for the owner (where everyday-life places and events belong, since neither fits the six categories). No place record, ID or register was changed.
 
 ## 2026-11-02 - Alfil own Facebook page; Sould Park chain page (no schema change)
 
@@ -469,7 +476,7 @@ The owner decided to keep the Playa de San Francisco bathing zone for older peop
 - `fuente-de-la-salud`: owner approved the family assessment (all four audiences `medium`; Children, Young adults, Seniors); `subjective_assessments_need_human_review` closed.
 - `cabopino-artola`: `toilets_available: yes` from the owner's own local knowledge; `toilets_listed_but_unverified` closed.
 - `fuengirola-centro`: summer bathing zone for older people at Playa de San Francisco added with municipal sources; status `approved` -> `needs_fact_check` (material addition), previous `review_decision` cleared and noted on new issue `reopened_for_addition`; needs the owner's re-approval. Correction the same day: Playa de San Francisco lies north of the port (towards Los Boliches) while the record's point is south of it; wording changed to say so, and the owner is asked to confirm the zone belongs in this record.
-- Decisions recorded in `docs/owner-decisions-2026-11-02.md` and `docs/family-assessment-decisions-2026-11-02.md`. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+- Decisions recorded in `docs/owner-decisions-2026-11-02.md` and `docs/decisions/family-assessment-decisions-2026-11-02.md`. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
 
 ## 2026-11-02 - Beach follow-ups (handoff point 5, no schema change)
 
@@ -548,7 +555,7 @@ Owner decision: walking times make no sense for bars in town; guests go by taxi 
 
 ## 2026-11-02 - 22 bar draft records created; ByCosmos Skybar removed (owner decisions, no schema change)
 
-Owner selection and reputation screen in `docs/bars-selection-2026-11-02.md`. ByCosmos Skybar removed by owner decision after the screen (no record). Created 22 draft records (21 bars plus El Oceano Beach Hotel), category `Restaurants`, IDs allocated, with Google identity, Routes API drive and walking times, a general drink-safety note and taxi advice in each description, and open issues for facts, audience and the owner not having visited. Bamboleo linked to La Zambra Resort. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
+Owner selection and reputation screen in `docs/decisions/bars-selection-2026-11-02.md`. ByCosmos Skybar removed by owner decision after the screen (no record). Created 22 draft records (21 bars plus El Oceano Beach Hotel), category `Restaurants`, IDs allocated, with Google identity, Routes API drive and walking times, a general drink-safety note and taxi advice in each description, and open issues for facts, audience and the owner not having visited. Bamboleo linked to La Zambra Resort. Validation: 128 records, 0 errors. Regenerated `data/place-catalog.csv`.
 
 ## 2026-11-02 - Zooloco Party archived (owner decision)
 
@@ -556,7 +563,7 @@ Owner decision: remove Zooloco Party from the guide (a private party room for hi
 
 ## 2026-11-02 - Bars and cocktail bars candidate list (intake only, no records)
 
-Owner observation: the guide lacks places for adults and seniors, especially bars and cocktail bars. Added `docs/bars-intake-2026-11-02.md`: 27 bars, wine bars, cocktail and rooftop bars within about 16 minutes' drive (2 within walking distance, 7 in Las Lagunas/Mijas Golf, 14 in Fuengirola, 4 in La Cala de Mijas), with Google Places identity and Routes API walking and driving times. No place record, ID or register was changed.
+Owner observation: the guide lacks places for adults and seniors, especially bars and cocktail bars. Added `docs/decisions/bars-intake-2026-11-02.md`: 27 bars, wine bars, cocktail and rooftop bars within about 16 minutes' drive (2 within walking distance, 7 in Las Lagunas/Mijas Golf, 14 in Fuengirola, 4 in La Cala de Mijas), with Google Places identity and Routes API walking and driving times. No place record, ID or register was changed.
 
 ## 2026-11-02 - Nearby fact check, batch 3: activities a short drive away (no schema change)
 
@@ -595,15 +602,15 @@ Checked against the venues' own or official sources on 2026-11-02; status `draft
 
 ## 2026-11-02 - 38 nearby draft records created (owner selection, no schema change)
 
-The owner selected all 37 candidates from `docs/nearby-intake-2026-11-02.md` and added La Zambra Resort (`docs/nearby-selection-2026-11-02.md`). Created 38 records with status `draft` and allocated IDs: 15 `Restaurants` (including La Zambra Resort) and 23 `Family activities`. Identity and coordinates from Google Places API; drive time from Routes API (Saturday 2026-11-07 10:00, predicted traffic) with Routes API walking time in the note and description; owner notes recorded as owner knowledge; Aquamijas season from its own website (search excerpt). Opening hours, prices, age rules, facilities and family suitability are open review issues. Validation: 106 records, 0 errors. Regenerated `data/place-catalog.csv`.
+The owner selected all 37 candidates from `docs/decisions/nearby-intake-2026-11-02.md` and added La Zambra Resort (`docs/decisions/nearby-selection-2026-11-02.md`). Created 38 records with status `draft` and allocated IDs: 15 `Restaurants` (including La Zambra Resort) and 23 `Family activities`. Identity and coordinates from Google Places API; drive time from Routes API (Saturday 2026-11-07 10:00, predicted traffic) with Routes API walking time in the note and description; owner notes recorded as owner knowledge; Aquamijas season from its own website (search excerpt). Opening hours, prices, age rules, facilities and family suitability are open review issues. Validation: 106 records, 0 errors. Regenerated `data/place-catalog.csv`.
 
 ## 2026-11-02 - Nearby places candidate list (intake only, no records)
 
-New focus from the owner: restaurants and family activities very close to Casa de la Familia, preferably within walking distance. Added `docs/nearby-intake-2026-11-02.md`: 14 restaurants/bars and 23 activities/parks with Google Places identity and Routes API walking and driving times (2026-11-02). Season status from official sites for Aquamijas (closed from 14 September 2026) and Aqualand Torremolinos (open into October 2026). No place record, ID or register was changed.
+New focus from the owner: restaurants and family activities very close to Casa de la Familia, preferably within walking distance. Added `docs/decisions/nearby-intake-2026-11-02.md`: 14 restaurants/bars and 23 activities/parks with Google Places identity and Routes API walking and driving times (2026-11-02). Season status from official sites for Aquamijas (closed from 14 September 2026) and Aqualand Torremolinos (open into October 2026). No place record, ID or register was changed.
 
 ## 2026-11-02 - Eight local beaches approved by the owner (no schema change)
 
-Owner decisions in `docs/approval-decisions-2026-11-02.md` (second round, new approval page). `castillo-ejido`, `la-butibamba`, `carvajal`, `el-bajondillo`, `fuengirola-centro`, `la-carihuela`, `los-alamos` and `playamar`: `needs_editorial_review` -> `approved`, with `review_decision`, energy level Low and character label confirmed, `last_reviewed_at` 2026-11-02 and `next_review_at` 2027-04-01. Remaining info notes closed and quoted in the decision notes; "draft" wording removed from SEO title/description and `description_short`. Not published. Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+Owner decisions in `docs/decisions/approval-decisions-2026-11-02.md` (second round, new approval page). `castillo-ejido`, `la-butibamba`, `carvajal`, `el-bajondillo`, `fuengirola-centro`, `la-carihuela`, `los-alamos` and `playamar`: `needs_editorial_review` -> `approved`, with `review_decision`, energy level Low and character label confirmed, `last_reviewed_at` 2026-11-02 and `next_review_at` 2027-04-01. Remaining info notes closed and quoted in the decision notes; "draft" wording removed from SEO title/description and `description_short`. Not published. Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
 
 ## 2026-11-02 - New rocks rule for beaches; Fuengirola centro point moved (owner decisions)
 
@@ -616,22 +623,22 @@ Owner decisions in `docs/owner-decisions-2026-11-02.md`.
 
 ## 2026-11-02 - Six restaurants approved by the owner (no schema change)
 
-Owner decisions in `docs/approval-decisions-2026-11-02.md`. `los-marinos-paco`, `chiringuito-cristobal`, `chiringuito-los-moreno`, `la-mar-sala`, `morrofino` and `santa-ana-denis`: `needs_editorial_review` -> `approved`, with `review_decision`, `last_reviewed_at` and energy level Low confirmed; remaining info notes closed and quoted in the decision notes; "draft record" removed from SEO title/description. These are the first approved records in the catalogue. Not published. `castillo-ejido` and `la-butibamba` got no decision and stay in `needs_editorial_review`. Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
+Owner decisions in `docs/decisions/approval-decisions-2026-11-02.md`. `los-marinos-paco`, `chiringuito-cristobal`, `chiringuito-los-moreno`, `la-mar-sala`, `morrofino` and `santa-ana-denis`: `needs_editorial_review` -> `approved`, with `review_decision`, `last_reviewed_at` and energy level Low confirmed; remaining info notes closed and quoted in the decision notes; "draft record" removed from SEO title/description. These are the first approved records in the catalogue. Not published. `castillo-ejido` and `la-butibamba` got no decision and stay in `needs_editorial_review`. Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
 
 ## 2026-11-02 - Owner-approved family assessments written; eight records to editorial review (no schema change)
 
-- The owner corrected and approved the family assessment for 18 of 20 records (`docs/family-assessment-decisions-2026-11-02.md`). `age_groups` and `family_score` were written into those records, with an evidence entry each. `subjective_assessments_need_human_review` / `family_suitability_not_assessed` were closed and replaced by the info-level issue `energy_level_editorial_estimate` (energy, and for beaches the character label, still to be confirmed at editorial review). Not approved and unchanged: Chiringuito Rafael and Fuente de la Salud.
+- The owner corrected and approved the family assessment for 18 of 20 records (`docs/decisions/family-assessment-decisions-2026-11-02.md`). `age_groups` and `family_score` were written into those records, with an evidence entry each. `subjective_assessments_need_human_review` / `family_suitability_not_assessed` were closed and replaced by the info-level issue `energy_level_editorial_estimate` (energy, and for beaches the character label, still to be confirmed at editorial review). Not approved and unchanged: Chiringuito Rafael and Fuente de la Salud.
 - Owner knowledge added to descriptions with evidence entries: Cabopino-Artola (very fine sand, not deep quickly, nudism only on a smaller part, small harbour with restaurants), Castillo-Ejido (Marenostrum concert venue is part of the area), La Butibamba (towards La Cala centre more child-friendly, with parasols and sunbeds), Carvajal (mixed sand, gravel and stones).
 - Status `needs_fact_check` -> `needs_editorial_review` for the eight records left with only info-level issues: Castillo-Ejido, La Butibamba, Los Marinos Paco, Chiringuito Cristóbal, Chiringuito Los Moreno, La Mar Salá, Morrofino and Santa Ana Denis. Not approved; the editor-of-record decides.
 - Validation: 68 records, 0 errors. Regenerated `data/place-catalog.csv`.
 
 ## 2026-11-02 - Family assessment proposal for beaches and restaurants (proposal only)
 
-Added `docs/family-assessment-proposal-2026-11-02.md`: proposed `age_groups` and `family_score` for the 12 local beaches and 8 restaurants (owner decisions 2 and 6), with the rubric and the sourced facts behind each value. No record was changed; the values wait for the owner's corrections. Progress note added to `docs/approval-decisions-2026-11-01.md`.
+Added `docs/decisions/family-assessment-proposal-2026-11-02.md`: proposed `age_groups` and `family_score` for the 12 local beaches and 8 restaurants (owner decisions 2 and 6), with the rubric and the sourced facts behind each value. No record was changed; the values wait for the owner's corrections. Progress note added to `docs/decisions/approval-decisions-2026-11-01.md`.
 
 ## 2026-11-02 - Beaches: Google Maps links, official beach data, unsourced claims removed (draft, no schema change)
 
-Next-session step 3 from `docs/approval-decisions-2026-11-01.md`, for the 12 active local beaches.
+Next-session step 3 from `docs/decisions/approval-decisions-2026-11-01.md`, for the 12 active local beaches.
 
 - Google Maps links: `google_maps_url` and `external_ids.google_place_id` from Google Places API (New), with a `maps_identity` evidence entry; `google_maps_url_missing` closed. Boliches-Gaviotas uses the Playa de las Gaviotas listing (the record point is on it); Castillo-Ejido uses Playa del Ejido (about 180 m from the point, which is at the Castillo Sohail).
 - New warning `coordinates_far_from_named_beach` on Fuengirola centro: the accepted point lies about 2.5 km north-east of Google's "Playa de Fuengirola" (by the centre and port) and north of the Boliches-Gaviotas point. Coordinates not changed; owner to check.
@@ -642,7 +649,7 @@ Next-session step 3 from `docs/approval-decisions-2026-11-01.md`, for the 12 act
 
 ## 2026-11-02 - Owner decisions 1, 3, 4, 5, 7 and 8 applied to beaches and restaurants (draft, no schema change)
 
-Applied the owner answers of 2026-11-01 (`docs/approval-decisions-2026-11-01.md`) to the 12 active local beaches and 8 restaurants. Each record gets one evidence entry per decision, pointing to the decisions file (`source_type: secondary`, the nearest schema value, with a note that it is an editor decision, not an external source). Status values are unchanged.
+Applied the owner answers of 2026-11-01 (`docs/decisions/approval-decisions-2026-11-01.md`) to the 12 active local beaches and 8 restaurants. Each record gets one evidence entry per decision, pointing to the decisions file (`source_type: secondary`, the nearest schema value, with a note that it is an editor decision, not an external source). Status values are unchanged.
 
 - Decision 1 (all 12 beaches): owner-read Google marker accepted as the place point; `coordinates.source` and the drive-time note updated; `route_and_coordinates_owner_measured` closed.
 - Decision 3 (all 12 beaches): `seasonality` = `Spring`, `Summer`, `Autumn`; `seasonality_unknown` closed.
@@ -654,7 +661,7 @@ Applied the owner answers of 2026-11-01 (`docs/approval-decisions-2026-11-01.md`
 
 ## 2026-11-01 - Owner approval decisions recorded (not yet applied)
 
-The owner answered eight shared approval questions for the local beaches and restaurants (coordinates, family assessment, seasonality, rocks per beach, out-of-scope practical details, restaurant prices and season). Answers and the next-session plan are in `docs/approval-decisions-2026-11-01.md`. No record was changed in this entry.
+The owner answered eight shared approval questions for the local beaches and restaurants (coordinates, family assessment, seasonality, rocks per beach, out-of-scope practical details, restaurant prices and season). Answers and the next-session plan are in `docs/decisions/approval-decisions-2026-11-01.md`. No record was changed in this entry.
 
 ## 2026-11-01 - Six legacy import drafts: provisional energy level and archive decision
 
@@ -669,7 +676,7 @@ Owner request: clear the six long-standing validation errors (`energy_level` Non
 Owner decision: remove Los Monteros (Adelfas), Marbella, from the guide. The editor's reasoning is that the area is best known for Nikki Beach, an adult venue for young, affluent visitors, which does not fit the family audience (editorial judgment, not a fact-checked claim).
 
 - `docs/places/los-monteros.md`: status `draft` -> `archived`, with `review_decision` recording the decision. The record is kept as archive, not deleted; ID `ES-AND-MAL-LOS-MONTEROS-001` stays allocated in `data/place-id-registry.csv` and must not be reused.
-- No other record linked to it. Historical mentions in `data/route-checks-2026-11-01-local.csv`, `docs/beach-draft-open-points.md` and earlier change-log entries are left as they were. Regenerated `data/place-catalog.csv`.
+- No other record linked to it. Historical mentions in `data/route-checks-2026-11-01-local.csv`, `docs/decisions/beach-draft-open-points.md` and earlier change-log entries are left as they were. Regenerated `data/place-catalog.csv`.
 
 ## 2026-11-01 - Restaurant pilot, round 2: Fuengirola and Benalmádena (draft, no schema change)
 
@@ -755,7 +762,7 @@ Measurement method (beaches): measured by the owner in Google Maps on Saturday 2
 - Moved out of `local_30km` by the new rule: Malaga (36 min), Marbella old town (34 min, `data/route-checks-2026-10-16.csv`) and Tolox (56 min). Owner decision: they return to `excursions_4h`, where they were before 2026-10-15. This entry does not itself edit `data/layer-membership.csv`.
 - Not changed by this entry: `AGENTS.md` line 9, `data/layers.csv`, `data/layer-membership.csv`, schema, categories, tags, enums.
 - Open: update `AGENTS.md` line 9 and the `local_30km` rule text in `data/layers.csv` to the new rule; apply the layer moves in `data/layer-membership.csv`; the beach measurement is one summer-Saturday sample.
-- Applied later on 2026-10-29 (separate commit on branch `strande-kladder`): Malaga, Tolox and Marbella old town moved to `excursions_4h` in `data/layer-membership.csv`; the `local_30km` rule text in `data/layers.csv` and `AGENTS.md` line 9 now state the driving-time rule; `docs/excursions-layer-overlap.md` updated for Marbella old town. Still open: `tools/places.py` keeps a straight-line helper column (`within_primary_radius`, 30 km) that no longer decides layer placement; the other open points above remain.
+- Applied later on 2026-10-29 (separate commit on branch `strande-kladder`): Malaga, Tolox and Marbella old town moved to `excursions_4h` in `data/layer-membership.csv`; the `local_30km` rule text in `data/layers.csv` and `AGENTS.md` line 9 now state the driving-time rule; `docs/decisions/excursions-layer-overlap.md` updated for Marbella old town. Still open: `tools/places.py` keeps a straight-line helper column (`within_primary_radius`, 30 km) that no longer decides layer placement; the other open points above remain.
 - On branch `strande-kladder`; not merged to `main`.
 
 ## 2026-10-16 — Senior itineraries (draft package; additive, no schema change)
@@ -788,16 +795,16 @@ Editor-of-record decisions following fact-check of the 17 excursion-layer record
 
 ## 2026-10-15 — Young adults migration
 
-Editor-approved schema change: age groups `Teenagers (13-17)` and `Adults` merged into `Young adults`; `family_score` keys `teenagers` and `adults` merged into `young_adults` (rule: max; `unknown` if either input is unknown). Updated: all `docs/places/*.md`, `tools/places.py` constants, `data/personas.csv` (weights summed), `AGENTS.md`, `docs/place-schema.md`. Analytical datasets and the engine spec were not migrated by this commit; see `docs/schema-change-proposal-young-adults.md` and issue #5 for the follow-up below, which completes that work.
+Editor-approved schema change: age groups `Teenagers (13-17)` and `Adults` merged into `Young adults`; `family_score` keys `teenagers` and `adults` merged into `young_adults` (rule: max; `unknown` if either input is unknown). Updated: all `docs/places/*.md`, `tools/places.py` constants, `data/personas.csv` (weights summed), `AGENTS.md`, `docs/place-schema.md`. Analytical datasets and the engine spec were not migrated by this commit; see `docs/decisions/schema-change-proposal-young-adults.md` and issue #5 for the follow-up below, which completes that work.
 
 ## 2026-10-16 — Young adults migration: analytical datasets and recommendation engine (closes #5)
 
 Completes the follow-up issue #5 raised by the schema migration above. Two PRs, in order:
 
-- **`data/destination-metadata.csv`**: merged `teen_score`/`adult_score` into a single `young_adult_score` column, same max rule as the schema migration. **`docs/recommendation-engine-spec.md`**: `base_score` formula and factor list updated to use `young_adult_score`/`young_adult_suitability_weight` (this also fixed a real bug — the spec still referenced `teen_suitability_weight`/`adult_suitability_weight`, which `personas.csv` no longer had since the original migration already merged them). **`docs/data-dictionary.md`** and **`docs/guest-questionnaire-spec.md`**: column references updated to match. **`docs/examples/*.md`** (4 files): illustrative `age_groups`/`family_score` examples updated to `Young adults`, merged with the same max rule, so they don't teach the deprecated taxonomy.
-- **`docs/end-to-end-demo.md`**: all 10 worked guest-session scenarios recomputed against the current formula and data (a throwaway script implementing the spec exactly); 7 of 10 changed ranking or top-5 membership, since several destinations had `teen_score` ≠ `adult_score` pre-merge. A genuine exact tie in scenario 5 (aviation enthusiast) is broken alphabetically and noted in the document, since the engine spec defines no tie-break rule. **`docs/group-composition-v2.md`**: this document's party-composition formula weights age-suitability terms by headcount rather than selecting a persona-level score, so the main migration's max-rule approach didn't directly transfer; teenager and adult headcounts now combine into one `(teenagers + adults) × young_adult_score` term, and all 4 worked examples were recomputed. This collapses `party_suitability` to exactly `young_adult_score` for an all-adult/teenager party (Example 2), which is flagged explicitly in the document as a real behavior change, not just a rename.
+- **`data/destination-metadata.csv`**: merged `teen_score`/`adult_score` into a single `young_adult_score` column, same max rule as the schema migration. **`docs/engine/recommendation-engine-spec.md`**: `base_score` formula and factor list updated to use `young_adult_score`/`young_adult_suitability_weight` (this also fixed a real bug — the spec still referenced `teen_suitability_weight`/`adult_suitability_weight`, which `personas.csv` no longer had since the original migration already merged them). **`docs/data-dictionary.md`** and **`docs/engine/guest-questionnaire-spec.md`**: column references updated to match. **`docs/examples/*.md`** (4 files): illustrative `age_groups`/`family_score` examples updated to `Young adults`, merged with the same max rule, so they don't teach the deprecated taxonomy.
+- **`docs/history/end-to-end-demo.md`**: all 10 worked guest-session scenarios recomputed against the current formula and data (a throwaway script implementing the spec exactly); 7 of 10 changed ranking or top-5 membership, since several destinations had `teen_score` ≠ `adult_score` pre-merge. A genuine exact tie in scenario 5 (aviation enthusiast) is broken alphabetically and noted in the document, since the engine spec defines no tie-break rule. **`docs/engine/group-composition-v2.md`**: this document's party-composition formula weights age-suitability terms by headcount rather than selecting a persona-level score, so the main migration's max-rule approach didn't directly transfer; teenager and adult headcounts now combine into one `(teenagers + adults) × young_adult_score` term, and all 4 worked examples were recomputed. This collapses `party_suitability` to exactly `young_adult_score` for an all-adult/teenager party (Example 2), which is flagged explicitly in the document as a real behavior change, not just a rename.
 
-Deliberately **not** migrated, per editor review (see issue #5 and the original proposal): `data/demo-groups.csv` (headcounts describing a synthetic test group's composition, not suitability scores — merging would lose information), `docs/gold-standard-sample-set.md` (uses "teen"/"adult" as ordinary English in editorial prose, not as schema field references), `docs/discrimination-analysis.md` (a historical analysis snapshot of the old data, not a live spec). `README.md` and `demo/index.html` were checked and already carried no stale references.
+Deliberately **not** migrated, per editor review (see issue #5 and the original proposal): `data/demo-groups.csv` (headcounts describing a synthetic test group's composition, not suitability scores — merging would lose information), `docs/content/gold-standard-sample-set.md` (uses "teen"/"adult" as ordinary English in editorial prose, not as schema field references), `docs/history/discrimination-analysis.md` (a historical analysis snapshot of the old data, not a live spec). `README.md` and `demo/index.html` were checked and already carried no stale references.
 
 `python3 tools/places.py validate` unaffected both times (same 6 pre-existing errors in unrelated archive records).
 
@@ -809,8 +816,8 @@ Owner decision: add a second layer, `excursions_4h` (route-checked one-way drive
 - Reserved the 17 IDs in `data/place-id-registry.csv` and added 17 rows to `data/import-queue.csv`.
 - Added `data/layers.csv` and `data/layer-membership.csv`.
 - Added persona `Young adults` to `data/personas.csv` (weights are editorial estimates).
-- Added the scope section to `AGENTS.md` and a bullet to `README.md`; added `docs/excursions-layer.md` and `docs/excursions-layer-overlap.md`.
-- Not changed: existing place records, categories, tags, enums, schema. The merge of `Teenagers (13-17)` and `Adults` into `Young adults` is a separate proposal: `docs/schema-change-proposal-young-adults.md`.
+- Added the scope section to `AGENTS.md` and a bullet to `README.md`; added `docs/decisions/excursions-layer.md` and `docs/decisions/excursions-layer-overlap.md`.
+- Not changed: existing place records, categories, tags, enums, schema. The merge of `Teenagers (13-17)` and `Adults` into `Young adults` is a separate proposal: `docs/decisions/schema-change-proposal-young-adults.md`.
 
 ## 2026-10-05 — Google Maps intake list
 
@@ -843,7 +850,7 @@ Owner decision plus consistency fixes from the 2026-10-05 repository review. No 
 
 ## 2026-10-03 — P0/P1 documentation remediation
 
-Applied the P0 contract decisions and P1 operational design from `docs/remediation-plan.md`. This update changes project guidance and specifications; it does not implement executable validators, create registry/queue data files, migrate standalone examples, or publish place records.
+Applied the P0 contract decisions and P1 operational design from `docs/history/remediation-plan.md`. This update changes project guidance and specifications; it does not implement executable validators, create registry/queue data files, migrate standalone examples, or publish place records.
 
 ### `AGENTS.md`
 
