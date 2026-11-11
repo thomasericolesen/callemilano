@@ -9,7 +9,8 @@
       "Bash(python3 tools/places.py catalog)",
       "Bash(git status *)",
       "Bash(git diff *)",
-      "Bash(git log *)"
+      "Bash(git log *)",
+      "Bash(gh pr merge *)"
     ]
   }
 }

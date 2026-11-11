@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-12 - Claude Code may run `gh pr merge` (owner decision, chat)
+
+- `.claude/settings.json` now allows `Bash(gh pr merge *)`. Claude Code's own safety filter had blocked merges although `AGENTS.md` ("Push, PR, merge and import") already gives standing permission for level A/B work. The rule in `AGENTS.md` is unchanged: level C/D changes still wait for the editor.
+- Same day, app repository: Claude may merge and publish its own app changes under conditions written in the app's `AGENTS.md` (owner decision in chat).
+
 ## 2026-11-12 - `check-restaurants` accepts `konverteret` and `fravalgt` (level A, tooling only)
 
 - The row statuses `konverteret` (the row became a place record; slug in `notes`) and `fravalgt` (the owner deselected it) were introduced on 2026-11-02 and are listed in `docs/trip-planner-agents.md`, but the check in `tools/trip_restaurants.py` only allowed `aktiv`, `skal tjekkes` and `lukket`. All 26 rows (22 `konverteret`, 4 `fravalgt`) were reported as errors. The check now allows all five values; `check-restaurants` passes.
