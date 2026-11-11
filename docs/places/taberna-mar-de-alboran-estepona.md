@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-TABERNA-MAR-DE-ALBORAN-ESTEPONA-001
 slug: taberna-mar-de-alboran-estepona
 name: Taberna Mar de Alborán (Estepona)
@@ -154,10 +154,14 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: 'Owner decision 2026-11-11: too much effort to get usable facts (draft with no verified facts and owner answered "Ved ikke" on family suitability); we already have enough restaurants. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

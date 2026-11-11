@@ -152,17 +152,8 @@ review_issues:
   description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
   retryable: true
   owner: human_editor
-- code: hours_and_prices_unverified
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  description: 'Own Facebook page read 2026-11-10: contact and address confirmed, holiday closure 15-30 June (year unknown). Weekly hours and menu/prices still not found; menu is still missing.'
-  retryable: true
-  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-11'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

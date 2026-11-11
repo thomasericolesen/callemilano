@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-11 (night) - Open issues closed, three more drafts archived (owner decision)
+
+- Owner decision 2026-11-11: the open issues do not matter much for the whole; close them. Removed from `review_issues`: `hours_and_prices_unverified` on `venta-la-morena`; `facts_partly_checked` on `meson-salvador-fuengirola` and `vegetalia-fuengirola`; `family_suitability_not_assessed` on `mijas-golf`, `playa-de-la-rada-estepona`, `puerto-marina-benalmadena`, `playa-puerto-banus`, `coin`, `la-lobezna-estepona` and `sollo-fuengirola`. Field values are unchanged: unassessed family scores stay as they were, cost_level stays Unknown or from the secondary source. Kept: `cost_level_secondary_source` on `venta-la-morena` (info, says the price band comes from Tripadvisor) and issues of other kinds (e.g. `facts_partly_checked` on `coin`, `la-lobezna-estepona`, `sollo-fuengirola`, `lifeguard_season_unchecked`, `green_fees_unknown`).
+- `archived` under the same rule as the six restaurant drafts: `casas-cuevas-almagruz`, `molino-del-santo`, `taberna-mar-de-alboran-estepona` (drafts with no verified facts). Export still 158 places; `places.json` regenerated (issue changes), so the app needs a new import.
+
 ## 2026-11-11 (late) - Toll roads rule for driving times (owner decision)
 
 - Owner decision 2026-11-11: driving times use Google Maps' main figure (the fastest route it proposes) and do not avoid toll roads; the difference is a few minutes and is small next to local traffic. This replaces the owner's earlier standing setting "toll roads avoided" (2026-10-29) for new and re-checked records. Added to `AGENTS.md`. The three figures the owner measured on 2026-10-29 (`antequera`, `el-torcal-de-antequera`, `caminito-del-rey`) stay replaced by the 2026-11-11 figures (66, 73 and 63 min); same-day toll-free alternatives were about 71, 81 and 63 min. `tools/route_check.py` already follows this rule.

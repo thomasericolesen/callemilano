@@ -120,19 +120,9 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
   confidence: medium
   notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
-review_issues:
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: 'Address, phone and buffet type from own Facebook (2026-11-10). Still open: opening days and hours, buffet price (cost_level Unknown), accessibility, parking.'
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
