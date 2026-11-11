@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-11 (late) - Toll roads rule for driving times (owner decision)
+
+- Owner decision 2026-11-11: driving times use Google Maps' main figure (the fastest route it proposes) and do not avoid toll roads; the difference is a few minutes and is small next to local traffic. This replaces the owner's earlier standing setting "toll roads avoided" (2026-10-29) for new and re-checked records. Added to `AGENTS.md`. The three figures the owner measured on 2026-10-29 (`antequera`, `el-torcal-de-antequera`, `caminito-del-rey`) stay replaced by the 2026-11-11 figures (66, 73 and 63 min); same-day toll-free alternatives were about 71, 81 and 63 min. `tools/route_check.py` already follows this rule.
+
 ## 2026-11-11 (late) - Open points via Facebook, "Ved ikke" places, drive times re-checked (owner request)
 
 - Read-only in Claude in Chrome (owner logged in to Facebook and Instagram). Instagram search returned nothing usable; Facebook pages used. No facts written to the three fact-checked restaurants because nothing new fits a field: `venta-la-morena` (only a "Menú del día" from 29 June 2020, no prices), `meson-salvador-fuengirola` (only company, Christmas and group menus at 38-55 EUR per person and hour notices; nothing for a regular carta), `vegetalia-fuengirola` (daily menu posted 11 Nov 2026 so the place is active; ovo-lacto vegetarian buffet, reviews mention pricing by weight; no prices or hours). Their issues stay open.

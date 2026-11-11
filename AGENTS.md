@@ -87,6 +87,8 @@ Do not fabricate experience, reviews, amenities, prices, accessibility, child su
 
 Driving time is an approximate one-way route from **Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain** to a named destination point. Record route source and check date. Do not estimate from memory.
 
+Toll roads (owner decision 2026-11-11): use Google Maps' main figure, i.e. the fastest route it proposes, and do not avoid toll roads. The difference is a few minutes and is small next to local traffic. Earlier owner measurements with "toll roads avoided" are not re-done for that reason alone; where a record is re-checked, the new figure replaces the old one.
+
 ## Images and rights
 
 Do not copy Google Maps images or user-uploaded material unless reuse permission is documented. Each image needs a stable asset ID, source, documented rights, required credit, role, dimensions when known, and useful context-specific alt text. Track rights and review status in `data/image-rights.csv`. Exclude assets with unclear or withdrawn rights. Alt text is for accessibility, not keyword insertion.
