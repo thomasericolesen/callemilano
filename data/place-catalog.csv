@@ -152,7 +152,7 @@ ES-AND-MAL-SOLO-BEACH-MARBELLA-001,solo-beach-marbella,Solo Beach Marbella,needs
 ES-AND-MAL-PLAYA-DE-SAN-PEDRO-ALCANTARA-001,playa-de-san-pedro-alcantara,Playa de San Pedro de Alcántara,needs_fact_check,Beaches,Beach,Marbella,Málaga,36.472585699999996,-4.9862369,29.8,yes,41 min,docs/places/playa-de-san-pedro-alcantara.md
 ES-AND-MAL-RESTAURANTE-CASA-FERNANDO-SAN-PEDRO-001,restaurante-casa-fernando-san-pedro,Restaurante Casa Fernando (San Pedro),needs_fact_check,Restaurants,Restaurant,Marbella,Málaga,36.476132199999995,-4.9879999999999995,29.8,yes,40 min,docs/places/restaurante-casa-fernando-san-pedro.md
 ES-AND-MAL-SAN-PEDRO-ALCANTARA-001,san-pedro-alcantara,San Pedro Alcántara,needs_fact_check,City,,Marbella,Málaga,36.4820717,-4.9888911,29.8,yes,39 min,docs/places/san-pedro-alcantara.md
-ES-AND-MAL-MALAGA-001,malaga,Málaga,needs_fact_check,City,Historic town; Museum; Restaurant; Full day,Málaga,Málaga,36.7201788,-4.4194052,29.9,yes,45 min,docs/places/malaga.md
+ES-AND-MAL-MALAGA-001,malaga,Málaga,needs_fact_check,City,Historic town; Museum; Restaurant; Full day,Málaga,Málaga,36.7201788,-4.4194052,29.9,yes,48 min,docs/places/malaga.md
 ES-AND-MAL-MARISQUERIA-EL-ANCLA-SAN-PEDRO-001,marisqueria-el-ancla-san-pedro,Marisquería El Ancla (San Pedro),needs_fact_check,Restaurants,Restaurant,Marbella,Málaga,36.4701216,-4.990124499999999,30.2,no,41 min,docs/places/marisqueria-el-ancla-san-pedro.md
 ES-AND-MAL-PLAYA-LA-MALAGUETA-001,playa-la-malagueta,Playa la Malagueta,needs_fact_check,Beaches,Beach,Málaga,Málaga,36.717051,-4.4102835,30.2,no,41 min,docs/places/playa-la-malagueta.md
 ES-AND-MAL-EL-ANDALUZ-DE-LA-MALAGUETA-001,el-andaluz-de-la-malagueta,El Andaluz de la Malagueta,draft,Restaurants,Restaurant,Málaga,Málaga,36.7190896,-4.4093101,30.4,no,43 min,docs/places/el-andaluz-de-la-malagueta.md
@@ -168,8 +168,8 @@ ES-AND-MAL-CASA-MANUEL-DE-LA-LONJA-001,casa-manuel-de-la-lonja,Casa Manuel de la
 ES-AND-MAL-BENAHAVIS-001,benahavis,Benahavís,needs_fact_check,City,,Benahavís,Málaga,36.5174193,-5.0450107,34.2,no,48 min,docs/places/benahavis.md
 ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001,sierra-de-las-nieves,Sierra de las Nieves,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Full day,Sierra de las Nieves,Málaga,36.7904469,-4.9480972,38.1,no,79 min,docs/places/sierra-de-las-nieves.md
 ES-AND-MAL-CUEVA-DEL-TESORO-001,cueva-del-tesoro,Cueva del Tesoro,needs_fact_check,Excursions,,Rincón de la Victoria,Málaga,36.719695699999995,-4.2975807,38.5,no,43 min,docs/places/cueva-del-tesoro.md
-ES-AND-MAL-SELWO-AVENTURA-001,selwo-aventura,Selwo Aventura,needs_fact_check,Family activities,Nature; Adventure; Full day,Estepona,Málaga,36.462831,-5.0856,38.7,no,46 min,docs/places/selwo-aventura.md
-ES-AND-MAL-CAMINITO-DEL-REY-001,caminito-del-rey,Caminito del Rey,needs_editorial_review,Excursions,Nature; Hiking; Adventure; Viewpoint; Full day,Ardales,Málaga,36.914782,-4.8080823,44.1,no,65 min,docs/places/caminito-del-rey.md
+ES-AND-MAL-SELWO-AVENTURA-001,selwo-aventura,Selwo Aventura,needs_fact_check,Family activities,Nature; Adventure; Full day,Estepona,Málaga,36.462831,-5.0856,38.7,no,47 min,docs/places/selwo-aventura.md
+ES-AND-MAL-CAMINITO-DEL-REY-001,caminito-del-rey,Caminito del Rey,needs_editorial_review,Excursions,Nature; Hiking; Adventure; Viewpoint; Full day,Ardales,Málaga,36.914782,-4.8080823,44.1,no,63 min,docs/places/caminito-del-rey.md
 ES-AND-MAL-ESTEPONA-OLD-TOWN-001,estepona-old-town,Estepona old town,needs_fact_check,City,,Estepona,Málaga,36.4257878,-5.145206,44.8,no,53 min,docs/places/estepona-old-town.md
 ES-AND-MAL-CHIRINGUITO-CENTRAL-BEACH-ESTEPONA-001,chiringuito-central-beach-estepona,Chiringuito Central Beach (Estepona),draft,Restaurants,Restaurant,Estepona,Málaga,36.4228141,-5.1471539,45.1,no,53 min,docs/places/chiringuito-central-beach-estepona.md
 ES-AND-MAL-PLAYA-DE-LA-RADA-ESTEPONA-001,playa-de-la-rada-estepona,Playa de la Rada (Estepona),needs_fact_check,Beaches,Beach,Estepona,Málaga,36.4187341,-5.152143,45.7,no,54 min,docs/places/playa-de-la-rada-estepona.md
@@ -177,9 +177,9 @@ ES-AND-MAL-RESTAURANTE-LA-ESCOLLERA-ESTEPONA-001,restaurante-la-escollera-estepo
 ES-AND-MAL-LA-LOBEZNA-ESTEPONA-001,la-lobezna-estepona,La Lobezna (Estepona),needs_fact_check,Restaurants,Restaurant,Estepona,Málaga,36.4203681,-5.1562643,46.0,no,54 min,docs/places/la-lobezna-estepona.md
 ES-AND-MAL-PUERTO-DEPORTIVO-ESTEPONA-001,puerto-deportivo-estepona,Puerto Deportivo de Estepona,needs_fact_check,Excursions,,Estepona,Málaga,36.4148347,-5.1571843,46.2,no,54 min,docs/places/puerto-deportivo-estepona.md
 ES-AND-MAL-TABERNA-MAR-DE-ALBORAN-ESTEPONA-001,taberna-mar-de-alboran-estepona,Taberna Mar de Alborán (Estepona),draft,Restaurants,Restaurant,Estepona,Málaga,36.4159394,-5.1588487999999995,46.3,no,52 min,docs/places/taberna-mar-de-alboran-estepona.md
-ES-AND-MAL-EL-TORCAL-001,el-torcal-de-antequera,El Torcal de Antequera,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Half day,Antequera,Málaga,36.961079,-4.5584866,48.2,no,85 min,docs/places/el-torcal-de-antequera.md
+ES-AND-MAL-EL-TORCAL-001,el-torcal-de-antequera,El Torcal de Antequera,needs_editorial_review,Nature,Nature; Hiking; Viewpoint; Half day,Antequera,Málaga,36.961079,-4.5584866,48.2,no,73 min,docs/places/el-torcal-de-antequera.md
 ES-AND-MAL-RONDA-001,ronda,Ronda,needs_editorial_review,City,Historic town; Viewpoint; Nature; Full day,Ronda,Málaga,36.741564,-5.165708,50.4,no,90 min,docs/places/ronda.md
-ES-AND-MAL-ANTEQUERA-001,antequera,Antequera,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Antequera,Málaga,37.0144361,-4.5577719,54.0,no,75 min,docs/places/antequera.md
+ES-AND-MAL-ANTEQUERA-001,antequera,Antequera,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Antequera,Málaga,37.0144361,-4.5577719,54.0,no,66 min,docs/places/antequera.md
 ES-AND-MAL-MOLINO-DEL-SANTO-001,molino-del-santo,Restaurante El Molino del Santo,draft,Restaurants,Restaurant,Benaoján,Málaga,36.7127664,-5.2498472000000005,56.0,no,105 min,docs/places/molino-del-santo.md
 ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,setenil-de-las-bodegas,Setenil de las Bodegas,needs_editorial_review,City,Historic town; Restaurant; Half day,Setenil de las Bodegas,Cádiz,36.8638359,-5.1811411,58.9,no,100 min,docs/places/setenil-de-las-bodegas.md
 ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001,zahara-de-la-sierra,Zahara de la Sierra,needs_fact_check,City,Historic town; Viewpoint; Nature,Zahara de la Sierra,Cádiz,36.840068,-5.388687,73.0,no,130 min,docs/places/zahara-de-la-sierra.md
@@ -209,11 +209,11 @@ ES-CAT-LLE-ESTANY-DE-SANT-MAURICI-001,estany-de-sant-maurici,Estany de Sant Maur
 ES-BAS-BIZ-GAZTELUGATXEKO-DONIENE-001,gaztelugatxeko-doniene,Gaztelugatxeko Doniene,needs_fact_check,Nature,Viewpoint; Hiking,Bermeo,Bizkaia,,,,,9 hours 46 mins,docs/places/gaztelugatxeko-doniene.md
 ES-VAL-CAS-LA-VALL-DUIXO-001,la-vall-duixo,La Vall d'Uixó,needs_fact_check,City,,Unknown,Unknown,,,,,6 hours 24 mins,docs/places/la-vall-duixo.md
 ES-AND-CAD-LOS-CANOS-DE-MECA-001,los-canos-de-meca,Los Caños de Meca,needs_fact_check,Beaches,Beach; Nature,Unknown,Cádiz,,,,,2 hours 35 mins,docs/places/los-canos-de-meca.md
-ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,mercado-de-atarazanas,Mercado de Atarazanas,needs_fact_check,Excursions,,Málaga,Málaga,,,,,37 min,docs/places/mercado-de-atarazanas.md
+ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,mercado-de-atarazanas,Mercado de Atarazanas,needs_fact_check,Excursions,,Málaga,Málaga,,,,,42 min,docs/places/mercado-de-atarazanas.md
 ,miradouro-da-serpente-do-medal,Miradouro da Serpente do Medal,draft,Nature,Viewpoint; Hiking,Mogadouro,Unknown,,,,,8 hours 18 mins,docs/places/miradouro-da-serpente-do-medal.md
 ES-CAT-BAR-MORRO-DE-LABELLA-001,morro-de-labella,Morro de l'Abella,needs_fact_check,Nature,Viewpoint; Nature,Tavertet,Barcelona,,,,,10 hours 24 mins,docs/places/morro-de-labella.md
 ES-AND-CAD-OLVERA-CASTLE-001,olvera-castle,Olvera Castle,needs_fact_check,Family activities,Viewpoint; Historic town,Unknown,Unknown,,,,,110 min,docs/places/olvera-castle.md
-ES-AND-MAL-PALMERAL-DE-LAS-SORPRESAS-001,palmeral-de-las-sorpresas,Palmeral de Las Sorpresas,needs_fact_check,City,,Málaga,Málaga,,,,,37 min,docs/places/palmeral-de-las-sorpresas.md
+ES-AND-MAL-PALMERAL-DE-LAS-SORPRESAS-001,palmeral-de-las-sorpresas,Palmeral de Las Sorpresas,needs_fact_check,City,,Málaga,Málaga,,,,,40 min,docs/places/palmeral-de-las-sorpresas.md
 ES-VAL-ALI-PASARELA-DE-RELLEU-001,pasarela-de-relleu,PASARELA DE RELLEU,needs_fact_check,Nature,Hiking; Adventure; Viewpoint,Relleu,Alicante,,,,,5 hours 28 mins,docs/places/pasarela-de-relleu.md
 ,roca-foradada,Roca Foradada,draft,Nature,Nature; Viewpoint,Unknown,Unknown,,,,,9 hours 30 mins,docs/places/roca-foradada.md
 ,salt-de-la-coromina,Salt de la Coromina,draft,Nature,Nature; Hiking,Unknown,Unknown,,,,,10 hours 43 mins,docs/places/salt-de-la-coromina.md

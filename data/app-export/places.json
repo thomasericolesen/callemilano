@@ -1,6 +1,6 @@
 {
  "manifest": {
-  "generated": "2026-11-10",
+  "generated": "2026-11-11",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
   "places": 158,
@@ -102,7 +102,7 @@
     "source": "thomasericolesen/callemilano",
     "status": "needs_editorial_review",
     "layer": "udflugt_4t",
-    "drive_minutes": 75,
+    "drive_minutes": 66,
     "distance_km": null,
     "duration": "hel_dag",
     "age_groups": [
@@ -161,7 +161,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-29"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -1521,7 +1521,7 @@
     "source": "thomasericolesen/callemilano",
     "status": "needs_editorial_review",
     "layer": "udflugt_4t",
-    "drive_minutes": 65,
+    "drive_minutes": 63,
     "distance_km": null,
     "duration": "hel_dag",
     "age_groups": [
@@ -1581,7 +1581,7 @@
      "phone": "+34952470505",
      "booking_lead_time": "Online booking (caminitodelrey.info) is the primary route, limited to 10 tickets per purchase; phone booking also available (+34 952 47 05 05), payment due on arrival. Tickets at the ticket office are sold only subject to availability — online booking in advance is effectively required, especially in high season.",
      "typical_duration": "About 1 h 30 min - 2 h on the walkway, plus the shuttle (15-20 min) back to the car park",
-     "updated_at": "2026-10-29"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -3206,7 +3206,7 @@
     "source": "thomasericolesen/callemilano",
     "status": "needs_editorial_review",
     "layer": "udflugt_4t",
-    "drive_minutes": 85,
+    "drive_minutes": 73,
     "distance_km": null,
     "duration": "halv_dag",
     "age_groups": [
@@ -3265,7 +3265,7 @@
      "phone": null,
      "booking_lead_time": "Self-guided visits need no booking; guided routes (e.g. 'Ruta de los Ammonites') should be booked ahead by phone or email as group sizes are limited.",
      "typical_duration": "Green self-guided route ~45 min (1.5 km); Yellow self-guided route ~1h30 (2.8-3 km, circular); guided routes 3-5 hours.",
-     "updated_at": "2026-10-29"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -6196,7 +6196,7 @@
     "source": "thomasericolesen/callemilano",
     "status": "needs_fact_check",
     "layer": "udflugt_4t",
-    "drive_minutes": 45,
+    "drive_minutes": 48,
     "distance_km": null,
     "duration": "hel_dag",
     "age_groups": [
@@ -6256,7 +6256,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "~1–1.5 hours for the cathedral; allow extra time for the Alcazaba hill fortress",
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -6337,7 +6337,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-02"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -6656,7 +6656,7 @@
     "source": "thomasericolesen/callemilano",
     "status": "needs_fact_check",
     "layer": "udflugt_4t",
-    "drive_minutes": 37,
+    "drive_minutes": 42,
     "distance_km": null,
     "duration": null,
     "age_groups": [
@@ -6707,7 +6707,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "45–90 minutes (editorial planning estimate)",
-     "updated_at": "2026-10-04"
+     "updated_at": "2026-11-11"
     }
    }
   },
@@ -9902,7 +9902,7 @@
     "source": "thomasericolesen/callemilano",
     "status": "needs_fact_check",
     "layer": "udflugt_4t",
-    "drive_minutes": 46,
+    "drive_minutes": 47,
     "distance_km": null,
     "duration": "hel_dag",
     "age_groups": [
@@ -9961,7 +9961,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-03"
+     "updated_at": "2026-11-11"
     }
    }
   },

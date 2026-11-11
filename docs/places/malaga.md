@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: 45 min
+  duration: "48 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: Alcazaba de Málaga, Centro, Málaga, Spain (the cathedral is close by)
-  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.7201788,-4.4194052); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.7201788%2C-4.4194052&travelmode=driving
-  checked_at: '2026-11-01'
-  note: 'Routes API figure: 45 min with predicted Saturday 10:00 traffic (45 min without traffic), 37.8 km via AP-7; an avoid-tolls run gave 45 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 47 min (2026-10-29): Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano. Batch: data/route-checks-2026-11-01-local.csv.'
+  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.7201788%2C-4.4194052&travelmode=driving"
+  checked_at: 2026-11-11
+  note: "40.4 km via AP-7 (route has tolls). Replaces 45 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history."
 age_groups:
 - Small children (0-6)
 - Children (7-12)
@@ -229,7 +229,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: 2026-10-15
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-15
