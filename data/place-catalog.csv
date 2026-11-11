@@ -149,10 +149,12 @@ ES-AND-MAL-TABERNA-CASA-BLANCA-BANUS-001,taberna-casa-blanca-banus,Taberna Casa 
 ES-AND-MAL-PUERTO-BANUS-001,puerto-banus,Puerto Banús,approved,Excursions,Restaurant; Historic town; Half day; Free,Marbella,Málaga,36.486008500000004,-4.954475599999999,26.7,yes,38 min,docs/places/puerto-banus.md
 ES-AND-MAL-TOLOX-001,tolox,Tolox,needs_editorial_review,Excursions,Historic town; Nature; Half day,Tolox,Málaga,36.6850627,-4.9114074,27.7,yes,56 min,docs/places/tolox.md
 ES-AND-MAL-SOLO-BEACH-MARBELLA-001,solo-beach-marbella,Solo Beach Marbella,approved,Restaurants,Beach; Restaurant; Full day; Premium,Marbella,Málaga,36.4754104,-4.9822923999999995,29.3,yes,40 min,docs/places/solo-beach-marbella.md
+ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,mercado-de-atarazanas,Mercado de Atarazanas,needs_editorial_review,Excursions,,Málaga,Málaga,36.718434,-4.424058,29.4,yes,42 min,docs/places/mercado-de-atarazanas.md
 ES-AND-MAL-PLAYA-DE-SAN-PEDRO-ALCANTARA-001,playa-de-san-pedro-alcantara,Playa de San Pedro de Alcántara,approved,Beaches,Beach,Marbella,Málaga,36.472585699999996,-4.9862369,29.8,yes,41 min,docs/places/playa-de-san-pedro-alcantara.md
 ES-AND-MAL-RESTAURANTE-CASA-FERNANDO-SAN-PEDRO-001,restaurante-casa-fernando-san-pedro,Restaurante Casa Fernando (San Pedro),approved,Restaurants,Restaurant; Rainy day; Full day; Premium,Marbella,Málaga,36.476132199999995,-4.9879999999999995,29.8,yes,40 min,docs/places/restaurante-casa-fernando-san-pedro.md
 ES-AND-MAL-SAN-PEDRO-ALCANTARA-001,san-pedro-alcantara,San Pedro Alcántara,approved,City,Historic town; Half day; Free,Marbella,Málaga,36.4820717,-4.9888911,29.8,yes,39 min,docs/places/san-pedro-alcantara.md
 ES-AND-MAL-MALAGA-001,malaga,Málaga,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Málaga,Málaga,36.7201788,-4.4194052,29.9,yes,48 min,docs/places/malaga.md
+ES-AND-MAL-PALMERAL-DE-LAS-SORPRESAS-001,palmeral-de-las-sorpresas,Palmeral de Las Sorpresas,needs_fact_check,City,,Málaga,Málaga,36.7183501,-4.415388,30.0,yes,40 min,docs/places/palmeral-de-las-sorpresas.md
 ES-AND-MAL-MARISQUERIA-EL-ANCLA-SAN-PEDRO-001,marisqueria-el-ancla-san-pedro,Marisquería El Ancla (San Pedro),approved,Restaurants,Restaurant; Rainy day; Full day; Premium,Marbella,Málaga,36.4701216,-4.990124499999999,30.2,no,41 min,docs/places/marisqueria-el-ancla-san-pedro.md
 ES-AND-MAL-PLAYA-LA-MALAGUETA-001,playa-la-malagueta,Playa la Malagueta,needs_editorial_review,Beaches,Beach,Málaga,Málaga,36.717051,-4.4102835,30.2,no,41 min,docs/places/playa-la-malagueta.md
 ES-AND-MAL-EL-ANDALUZ-DE-LA-MALAGUETA-001,el-andaluz-de-la-malagueta,El Andaluz de la Malagueta,draft,Restaurants,Restaurant,Málaga,Málaga,36.7190896,-4.4093101,30.4,no,43 min,docs/places/el-andaluz-de-la-malagueta.md
@@ -182,6 +184,7 @@ ES-AND-MAL-RONDA-001,ronda,Ronda,needs_editorial_review,City,Historic town; View
 ES-AND-MAL-ANTEQUERA-001,antequera,Antequera,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Antequera,Málaga,37.0144361,-4.5577719,54.0,no,66 min,docs/places/antequera.md
 ES-AND-MAL-MOLINO-DEL-SANTO-001,molino-del-santo,Restaurante El Molino del Santo,archived,Restaurants,Restaurant,Benaoján,Málaga,36.7127664,-5.2498472000000005,56.0,no,105 min,docs/places/molino-del-santo.md
 ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001,setenil-de-las-bodegas,Setenil de las Bodegas,needs_editorial_review,City,Historic town; Restaurant; Half day,Setenil de las Bodegas,Cádiz,36.8638359,-5.1811411,58.9,no,100 min,docs/places/setenil-de-las-bodegas.md
+ES-AND-CAD-OLVERA-CASTLE-001,olvera-castle,Olvera Castle,needs_editorial_review,Family activities,Viewpoint; Historic town,Unknown,Unknown,36.9356854,-5.2675481,69.9,no,110 min,docs/places/olvera-castle.md
 ES-AND-CAD-ZAHARA-DE-LA-SIERRA-001,zahara-de-la-sierra,Zahara de la Sierra,needs_editorial_review,City,Historic town; Viewpoint; Nature,Zahara de la Sierra,Cádiz,36.840068,-5.388687,73.0,no,130 min,docs/places/zahara-de-la-sierra.md
 ES-AND-MAL-NERJA-001,nerja,Nerja,needs_editorial_review,City,Beach; Historic town; Restaurant; Full day,Nerja,Málaga,36.7442658,-3.8753957,74.0,no,75 min,docs/places/nerja.md
 ES-AND-MAL-FRIGILIANA-001,frigiliana,Frigiliana,needs_editorial_review,City,Historic town; Viewpoint; Half day,Frigiliana,Málaga,36.7908751,-3.8947061,74.1,no,75 min,docs/places/frigiliana.md
@@ -209,11 +212,8 @@ ES-CAT-LLE-ESTANY-DE-SANT-MAURICI-001,estany-de-sant-maurici,Estany de Sant Maur
 ES-BAS-BIZ-GAZTELUGATXEKO-DONIENE-001,gaztelugatxeko-doniene,Gaztelugatxeko Doniene,needs_fact_check,Nature,Viewpoint; Hiking,Bermeo,Bizkaia,,,,,9 hours 46 mins,docs/places/gaztelugatxeko-doniene.md
 ES-VAL-CAS-LA-VALL-DUIXO-001,la-vall-duixo,La Vall d'Uixó,needs_fact_check,City,,Unknown,Unknown,,,,,6 hours 24 mins,docs/places/la-vall-duixo.md
 ES-AND-CAD-LOS-CANOS-DE-MECA-001,los-canos-de-meca,Los Caños de Meca,needs_fact_check,Beaches,Beach; Nature,Unknown,Cádiz,,,,,2 hours 35 mins,docs/places/los-canos-de-meca.md
-ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,mercado-de-atarazanas,Mercado de Atarazanas,needs_editorial_review,Excursions,,Málaga,Málaga,,,,,42 min,docs/places/mercado-de-atarazanas.md
 ,miradouro-da-serpente-do-medal,Miradouro da Serpente do Medal,draft,Nature,Viewpoint; Hiking,Mogadouro,Unknown,,,,,8 hours 18 mins,docs/places/miradouro-da-serpente-do-medal.md
 ES-CAT-BAR-MORRO-DE-LABELLA-001,morro-de-labella,Morro de l'Abella,needs_fact_check,Nature,Viewpoint; Nature,Tavertet,Barcelona,,,,,10 hours 24 mins,docs/places/morro-de-labella.md
-ES-AND-CAD-OLVERA-CASTLE-001,olvera-castle,Olvera Castle,needs_editorial_review,Family activities,Viewpoint; Historic town,Unknown,Unknown,,,,,110 min,docs/places/olvera-castle.md
-ES-AND-MAL-PALMERAL-DE-LAS-SORPRESAS-001,palmeral-de-las-sorpresas,Palmeral de Las Sorpresas,needs_fact_check,City,,Málaga,Málaga,,,,,40 min,docs/places/palmeral-de-las-sorpresas.md
 ES-VAL-ALI-PASARELA-DE-RELLEU-001,pasarela-de-relleu,PASARELA DE RELLEU,needs_fact_check,Nature,Hiking; Adventure; Viewpoint,Relleu,Alicante,,,,,5 hours 28 mins,docs/places/pasarela-de-relleu.md
 ,roca-foradada,Roca Foradada,draft,Nature,Nature; Viewpoint,Unknown,Unknown,,,,,9 hours 30 mins,docs/places/roca-foradada.md
 ,salt-de-la-coromina,Salt de la Coromina,draft,Nature,Nature; Hiking,Unknown,Unknown,,,,,10 hours 43 mins,docs/places/salt-de-la-coromina.md

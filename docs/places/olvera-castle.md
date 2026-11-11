@@ -9,12 +9,12 @@ tags:
 - Viewpoint
 - Historic town
 coordinates:
-  latitude:  null
-  longitude:  null
+  latitude: 36.9356854
+  longitude: -5.2675481
   purpose: representative_point
-  label: Unknown; exact visitor point not established
-  source:  null
-  checked_at:  null
+  label: "Olvera Castle (Castillo de Olvera)"
+  source: https://www.google.com/maps/place/Olvera+Castle/@36.9356854,-5.2675481,17z/data=!3m1!4b1!4m6!3m5!1s0xd0d45cd48342e9b:0x408a338911a0f246!8m2!3d36.9356854!4d-5.2675481
+  checked_at: '2026-11-11'
 google_maps_url: https://maps.app.goo.gl/4cZJ8eRQH47aHH146
 external_ids: {}
 municipality: Unknown
@@ -136,6 +136,14 @@ evidence:
     checked_by: claude-code-agent (branch udflugter-verificering-2)
     confidence: medium
     notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
+  - field: coordinates
+    claim: "Google Maps lists 'Olvera Castle (Castillo de Olvera)' at 36.9356854, -5.2675481."
+    source_url: https://www.google.com/maps/place/Olvera+Castle/@36.9356854,-5.2675481,17z/data=!3m1!4b1!4m6!3m5!1s0xd0d45cd48342e9b:0x408a338911a0f246!8m2!3d36.9356854!4d-5.2675481
+    source_type: maps_identity
+    checked_at: '2026-11-11'
+    checked_by: Claude (main session); read in Google Maps in Chrome
+    confidence: medium
+    notes: Identity and position only (place point shown by Google Maps); not a visitor entrance point.
 review_issues:
   - code: editorial_suitability_requires_human_review
     severity: warning
@@ -152,14 +160,6 @@ review_issues:
       - parking
       - visit_information
     description: These facts or editorial assessments were not established from the supplied list or checked sources. Explicit unknown values remain in this draft; complete claim-specific research and editorial review before advancement.
-    retryable: true
-    owner: fact_check
-  - code: schema_blocking_unknowns
-    severity: blocking
-    fields:
-      - coordinates.latitude
-      - coordinates.longitude
-    description: The active schema does not define unknown values for all required fields. This draft leaves unsupported values explicit; resolve them with evidence or obtain an approved schema-compatible representation before validation or human approval.
     retryable: true
     owner: fact_check
   - code: category_and_tags_need_human_review
