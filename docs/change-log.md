@@ -1,38 +1,38 @@
 # Change log
 
-## 2026-11-12 - Claude Code may run `gh pr merge` (owner decision, chat)
+## 2026-11-11 (night) - Claude Code may run `gh pr merge` (owner decision, chat)
 
 - `.claude/settings.json` now allows `Bash(gh pr merge *)`. Claude Code's own safety filter had blocked merges although `AGENTS.md` ("Push, PR, merge and import") already gives standing permission for level A/B work. The rule in `AGENTS.md` is unchanged: level C/D changes still wait for the editor.
 - Same day, app repository: Claude may merge and publish its own app changes under conditions written in the app's `AGENTS.md` (owner decision in chat).
 
-## 2026-11-12 - `check-restaurants` accepts `konverteret` and `fravalgt` (level A, tooling only)
+## 2026-11-11 (night) - `check-restaurants` accepts `konverteret` and `fravalgt` (level A, tooling only)
 
 - The row statuses `konverteret` (the row became a place record; slug in `notes`) and `fravalgt` (the owner deselected it) were introduced on 2026-11-02 and are listed in `docs/trip-planner-agents.md`, but the check in `tools/trip_restaurants.py` only allowed `aktiv`, `skal tjekkes` and `lukket`. All 26 rows (22 `konverteret`, 4 `fravalgt`) were reported as errors. The check now allows all five values; `check-restaurants` passes.
 - Not an editor item after all: no change to `data/restaurant-directory.csv`. Trip plans were never affected, since they read only `aktiv` rows and take restaurants from the place records.
 
-## 2026-11-12 - Language rule in `AGENTS.md` (owner decision, chat)
+## 2026-11-11 (night) - Language rule in `AGENTS.md` (owner decision, chat)
 
-- New section "Language" in `AGENTS.md`: Claude reports to the editor-of-record in Danish (chat replies, reports, editor lists, weekly summaries, PR descriptions and status files). Code, file names, commands, schema values and the English record texts are unchanged. The owner asked for Danish reports in chat on 2026-11-11 and for the rule in `AGENTS.md` on 2026-11-12.
+- New section "Language" in `AGENTS.md`: Claude reports to the editor-of-record in Danish (chat replies, reports, editor lists, weekly summaries, PR descriptions and status files). Code, file names, commands, schema values and the English record texts are unchanged. The owner asked for Danish reports in chat and for the rule in `AGENTS.md` on 2026-11-11.
 
-## 2026-11-12 - `CLAUDE.md` added (owner request in chat)
+## 2026-11-11 (night) - `CLAUDE.md` added (owner request in chat)
 
 - New `CLAUDE.md` at the repository root imports `AGENTS.md` (`@AGENTS.md`), so every Claude Code session loads the project rules, also on the web, in the cloud and on the phone. It adds no rules of its own: it points to `docs/project-state.md`, the newest status file, the change log and the documentation map, points to the language rule, and lists what exists only on the owner's Mac (import token, Claude in Chrome, `trips/`).
 - `CLAUDE.md` needs no daily update: the daily state lives in `docs/change-log.md` and `docs/status-*.md`, which reach git through PRs.
 
-## 2026-11-12 - `docs/` sorted into subfolders (level B, owner's yes in chat)
+## 2026-11-11 (night) - `docs/` sorted into subfolders (level B, owner's yes in chat)
 
 - 69 files moved with `git mv` into `docs/history/` (old status files and handovers, superseded reviews and engine analyses), `docs/decisions/` (dated intake, selection and decision notes), `docs/product/`, `docs/engine/` and `docs/content/`. Everything `AGENTS.md`, the agents, the skills and the tools point to stays at the top of `docs/`, so `AGENTS.md` is unchanged.
 - All references were rewritten: 375 `docs/...` paths (including GitHub source URLs in the place records' evidence and in `data/*.csv`), 44 bare file names inside `docs/` and 25 Markdown links. A check of every text file finds no reference to a missing file (also none before the move).
 - `docs/README.md` rewritten as a map of the new layout. Going forward, the newest `status-*.md` stays at the top and the previous one moves to `history/`.
 - Verified unchanged: `places.py validate` output, `data/place-catalog.csv` and `data/app-export/*.json`. All tests pass. In 68 place records only file paths to moved documents changed, in evidence `source_url` and `notes`; no values, statuses or dates.
 
-## 2026-11-12 - `tools/trip.py` split into modules (level A, tooling only)
+## 2026-11-11 (night) - `tools/trip.py` split into modules (level A, tooling only)
 
 - `tools/trip.py` (1,067 lines) is now only the command line; the logic moved verbatim into `trip_core.py` (place list, routes between stops, fetching), `trip_weather.py`, `trip_traffic.py`, `trip_restaurants.py`, `trip_plan.py` (holidays, opening status, the plan) and `trip_render.py`. Commands and options are unchanged, so `/turforslag`, `/aabningstider`, `/restaurant-indsamling` and the agents run as before.
 - Verified: all 69 definitions are identical to the original (compared as syntax trees); `LOCAL_MAX_MIN` now comes from `tools/common.py` (same value, 30). `places`, `nearby`, `restaurants`, `hours-status`, `coverage`, `check-restaurants` and `plan` give the same output before and after (only DGT's live publication time differs). All 7 tests pass.
 - Known, unchanged at the time: `check-restaurants` reported every row in `data/restaurant-directory.csv` as an error; fixed the same day (see the entry above).
 
-## 2026-11-12 - Shared helpers for the tools (level A, tooling only)
+## 2026-11-11 (night) - Shared helpers for the tools (level A, tooling only)
 
 - New `tools/common.py` holds the project paths, the origin point (Casa de la Familia), record reading (`load_front_matter`), `haversine_km` and drive-time parsing (`minutes`). `places.py`, `app_export.py`, `trip.py`, `route_check.py` and `intake.py` import from it instead of each keeping their own copy; `places.py` still exposes `CASA_LAT`/`CASA_LON` and `load_front_matter` for older imports.
 - Fixed: drive times in Google's format "2 hours 35 mins" were read as 120 minutes by `app_export.py` (the "mins" part was dropped) and as unknown by `trip.py` (it only read "NN min"). Both now use `common.minutes`, which reads 155. No exported place was affected today: the 18 records with hour-long drives are archive or lack coordinates.

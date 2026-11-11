@@ -1,5 +1,7 @@
 # CalleMilano project state
 
+> **Forældet (fra 2026-10-05).** Den gældende overdragelse er den nyeste `docs/status-*.md`. Denne fil skal skrives om; se statusfilen.
+
 **Last updated:** 2026-10-05
 **Purpose:** Handoff for the next working session. `AGENTS.md` and `docs/place-schema.md` are the primary instructions and data contract. See `docs/README.md` for a map of all documents.
 
