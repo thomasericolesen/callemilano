@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-11 (late night) - Editor workflow written into the rules (owner decision)
+
+- Reviewed with the owner on 2026-11-11 and written into `AGENTS.md` (section "Editor workflow"), `docs/multi-agent-workflow.md` (section "Editor workflow", with the full decision table) and `docs/place-schema.md` (status note). Decided: four levels (A Claude alone, B Claude and informed, C the editor decides, D only the editor); a weekly editor list (only when there is something); standing permission for Claude to push, open PRs with `gh`, merge and import changes made only of A/B work, with C/D changes waiting for the editor's answer; Claude closes `warning` and `info` issues, conflicts and `blocking` go to the editor; archiving proposals go on the list and happen only after a yes; monthly freshness job; `approved` retired as a step (`needs_editorial_review` is the end station, existing `approved` records unchanged, no schema change).
+- Still open: the owner said some elements are missing from the decision table but has not named them yet.
+- `gh` is installed and logged in on the owner's Mac (`thomasericolesen`); GitHub work no longer needs Claude in Chrome. The import in the app and the Facebook, Instagram and Google Maps checks still do.
+
 ## 2026-11-11 (night) - 90 owner-reviewed places set to approved (owner decision)
 
 - Owner decision 2026-11-11: places the owner reviewed himself on both checklists (family ratings 2026-11-10, tags 2026-11-11) and that are fact-checked are `approved`. 90 records (all in the app export; each has `review_decision`: approved, reviewer Eric Olesen, date 2026-11-11; `last_reviewed_at` 2026-11-11, `next_review_at` 2027-04-11).
