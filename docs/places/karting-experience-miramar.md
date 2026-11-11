@@ -7,6 +7,8 @@ name: Karting Experience Miramar
 category: Family activities
 tags:
 - Adventure
+- Half day
+- Premium
 coordinates:
   latitude: 36.5299432
   longitude: -4.632412
@@ -119,6 +121,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
   confidence: medium
   notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
+- field: tags
+  claim: "Owner's tag selection on the CalleMilano tag checklist: Adventure, Half day, Premium."
+  source_url: https://claude.ai/artifact/DZv9cLLQ1BEcYs3NeewdEF
+  source_type: secondary
+  checked_at: '2026-11-11'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+  confidence: medium
+  notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
 review_issues:
 - code: prices_and_hours_by_track_unclear
   severity: warning
@@ -130,7 +140,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-11'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

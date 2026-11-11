@@ -5,7 +5,11 @@ id: ES-AND-MAL-MARIPOSARIO-BENALMADENA-001
 slug: mariposario-benalmadena
 name: Mariposario de Benalmádena (Monowa)
 category: Family activities
-tags: []
+tags:
+- Nature
+- Adventure
+- Half day
+- Premium
 coordinates:
   latitude: 36.5890637
   longitude: -4.5814641
@@ -119,6 +123,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
   confidence: medium
   notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
+- field: tags
+  claim: "Owner's tag selection on the CalleMilano tag checklist: Nature, Adventure, Half day, Premium."
+  source_url: https://claude.ai/artifact/DZv9cLLQ1BEcYs3NeewdEF
+  source_type: secondary
+  checked_at: '2026-11-11'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+  confidence: medium
+  notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
 review_issues:
 - code: category_editorial_choice
   severity: info
@@ -128,7 +140,7 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-11'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

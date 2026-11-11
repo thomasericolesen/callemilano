@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-11 (night) - Tags set from the owner's tag checklist
+
+- Owner checklist (Artifact `Tag-tjekliste`, https://claude.ai/artifact/DZv9cLLQ1BEcYs3NeewdEF): 97 active places whose tags had never been assessed (`status` needs_fact_check or later, listed on the 2026-11-10 family-rating checklist). The owner reviewed all 97 on 2026-11-11; 96 changed from the imported estimates, 1 unchanged. Choices were read back from the artifact's database and written to `tags` in schema order, with one evidence entry per record (`field: tags`, owner's own judgment, confidence medium).
+- Result: Half day 81, Premium 54, Restaurant 42, Free 36, Adventure 32, Rainy day 28, Historic town 16, Viewpoint 15, Full day 15, Beach 14, Nature 11, Hiking 3, Museum 2, Overnight 0. No place has no tags. No conflicts (one of Half day/Full day/Overnight, at most one of Free/Premium). Every record in `Restaurants` has `Restaurant`; every `Beaches` record has `Beach`. `Restaurant` is also on `monda`, `puerto-deportivo-estepona`, `puerto-banus`, `puerto-marina-benalmadena` and `mijas-golf`, and `Beach` is on nine non-beach places (e.g. chiringuitos, `paseo-maritimo-fuengirola`, `dunas-de-artola`), as chosen by the owner; the schema allows tags beside the category.
+- `data/app-export/places.json` regenerated (themes, duration and `rainy_day` follow the tags); the app needs a new import.
+
 ## 2026-11-11 (night) - Open issues closed, three more drafts archived (owner decision)
 
 - Owner decision 2026-11-11: the open issues do not matter much for the whole; close them. Removed from `review_issues`: `hours_and_prices_unverified` on `venta-la-morena`; `facts_partly_checked` on `meson-salvador-fuengirola` and `vegetalia-fuengirola`; `family_suitability_not_assessed` on `mijas-golf`, `playa-de-la-rada-estepona`, `puerto-marina-benalmadena`, `playa-puerto-banus`, `coin`, `la-lobezna-estepona` and `sollo-fuengirola`. Field values are unchanged: unassessed family scores stay as they were, cost_level stays Unknown or from the secondary source. Kept: `cost_level_secondary_source` on `venta-la-morena` (info, says the price band comes from Tripadvisor) and issues of other kinds (e.g. `facts_partly_checked` on `coin`, `la-lobezna-estepona`, `sollo-fuengirola`, `lifeguard_season_unchecked`, `green_fees_unknown`).
