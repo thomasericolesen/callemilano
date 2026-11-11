@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-12 - `CLAUDE.md` added (owner request in chat)
+
+- New `CLAUDE.md` at the repository root imports `AGENTS.md` (`@AGENTS.md`), so every Claude Code session loads the project rules, also on the web, in the cloud and on the phone. It adds no rules of its own: it points to `docs/project-state.md`, the newest status file, the change log and the documentation map, records the owner's request of 2026-11-11 to report in Danish, and lists what exists only on the owner's Mac (import token, Claude in Chrome, `trips/`).
+- `CLAUDE.md` needs no daily update: the daily state lives in `docs/change-log.md` and `docs/status-*.md`, which reach git through PRs.
+
 ## 2026-11-12 - `docs/` sorted into subfolders (level B, owner's yes in chat)
 
 - 69 files moved with `git mv` into `docs/history/` (old status files and handovers, superseded reviews and engine analyses), `docs/decisions/` (dated intake, selection and decision notes), `docs/product/`, `docs/engine/` and `docs/content/`. Everything `AGENTS.md`, the agents, the skills and the tools point to stays at the top of `docs/`, so `AGENTS.md` is unchanged.
