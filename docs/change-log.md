@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-12 - `check-restaurants` accepts `konverteret` and `fravalgt` (level A, tooling only)
+
+- The row statuses `konverteret` (the row became a place record; slug in `notes`) and `fravalgt` (the owner deselected it) were introduced on 2026-11-02 and are listed in `docs/trip-planner-agents.md`, but the check in `tools/trip_restaurants.py` only allowed `aktiv`, `skal tjekkes` and `lukket`. All 26 rows (22 `konverteret`, 4 `fravalgt`) were reported as errors. The check now allows all five values; `check-restaurants` passes.
+- Not an editor item after all: no change to `data/restaurant-directory.csv`. Trip plans were never affected, since they read only `aktiv` rows and take restaurants from the place records.
+
 ## 2026-11-12 - Language rule in `AGENTS.md` (owner decision, chat)
 
 - New section "Language" in `AGENTS.md`: Claude reports to the editor-of-record in Danish (chat replies, reports, editor lists, weekly summaries, PR descriptions and status files). Code, file names, commands, schema values and the English record texts are unchanged. The owner asked for Danish reports in chat on 2026-11-11 and for the rule in `AGENTS.md` on 2026-11-12.
@@ -20,7 +25,7 @@
 
 - `tools/trip.py` (1,067 lines) is now only the command line; the logic moved verbatim into `trip_core.py` (place list, routes between stops, fetching), `trip_weather.py`, `trip_traffic.py`, `trip_restaurants.py`, `trip_plan.py` (holidays, opening status, the plan) and `trip_render.py`. Commands and options are unchanged, so `/turforslag`, `/aabningstider`, `/restaurant-indsamling` and the agents run as before.
 - Verified: all 69 definitions are identical to the original (compared as syntax trees); `LOCAL_MAX_MIN` now comes from `tools/common.py` (same value, 30). `places`, `nearby`, `restaurants`, `hours-status`, `coverage`, `check-restaurants` and `plan` give the same output before and after (only DGT's live publication time differs). All 7 tests pass.
-- Known, unchanged: `check-restaurants` reports line 27 in `data/restaurant-directory.csv` (El Higuerón) with status `konverteret`, which is not an allowed value. It goes on the editor list.
+- Known, unchanged at the time: `check-restaurants` reported every row in `data/restaurant-directory.csv` as an error; fixed the same day (see the entry above).
 
 ## 2026-11-12 - Shared helpers for the tools (level A, tooling only)
 
