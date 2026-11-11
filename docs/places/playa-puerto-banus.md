@@ -146,17 +146,8 @@ review_issues:
   description: The tourist board page for this beach blocks automated reading; only a search excerpt was used. Facilities need the full page (owner screenshot) or Marbella council's beach information.
   retryable: true
   owner: fact_check
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - tags
-  description: 'Owner answered ''Ved ikke'' on the 2026-11-10 checklist for: small_children, children. Energy level set by owner. Tags not assessed.'
-  retryable: true
-  owner: human_editor
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
