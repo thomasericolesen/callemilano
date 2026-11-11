@@ -36,16 +36,16 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Casa de la Familia: Plus Code 8C8QG8PP+7W, the project constant in AGENTS.md and
-# tools/places.py (CASA_LAT, CASA_LON). Pass --origin to override.
-DEFAULT_ORIGIN_LATLNG = "36.5356875,-4.6626875"
-DEFAULT_ORIGIN_LABEL = "Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain"
+# Casa de la Familia: the project origin in tools/common.py. Pass --origin to override.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common import ORIGIN, ORIGIN_TEXT as DEFAULT_ORIGIN_LABEL, load_front_matter as load_frontmatter  # noqa: E402
+
+DEFAULT_ORIGIN_LATLNG = f"{ORIGIN[0]},{ORIGIN[1]}"
 
 ROUTE_MATRIX_URL = "https://routes.googleapis.com/distanceMatrix/v2:computeRouteMatrix"
 FIELD_MASK = "originIndex,destinationIndex,duration,distanceMeters,condition,status"
 MAX_DESTINATIONS_PER_CALL = 20  # Google's cap is 25 elements per origin; stay safely under it.
 
-FRONTMATTER_END = "\n---"
 
 
 def format_duration(seconds: int) -> str:
@@ -71,14 +71,6 @@ def waypoint(query: str) -> dict:
         except ValueError:
             pass
     return {"waypoint": {"address": query}}
-
-
-def load_frontmatter(path: Path) -> dict:
-    import yaml  # local import: only needed for reading, not for writing (see replace_block)
-
-    text = path.read_text(encoding="utf-8")
-    end = text.index(FRONTMATTER_END, 4)
-    return yaml.safe_load(text[4:end])
 
 
 def find_destination_query(front: dict) -> str:

@@ -35,15 +35,14 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from places import haversine_km, ROOT, CATALOG  # noqa: E402
+from common import (  # noqa: E402
+    CATALOG, LAYER_MEMBERSHIP, ORIGIN, PLACES as PLACES_DIR, ROOT, haversine_km, load_front_matter, minutes,
+)
 
-ORIGIN = (36.5356875, -4.6626875)  # Casa de la Familia, se AGENTS.md
 ORIGIN_NAME = "Casa de la Familia, Las Lagunas de Mijas"
-LAYER_MEMBERSHIP = ROOT / "data" / "layer-membership.csv"
 RESTAURANTS = ROOT / "data" / "restaurant-directory.csv"
 AREAS = ROOT / "data" / "restaurant-areas.csv"
 HOLIDAYS = ROOT / "data" / "holidays.csv"
-PLACES_DIR = ROOT / "docs" / "places"
 HOURS_FRESH_DAYS = 60        # åbningstider tjekket for højst 60 dage siden regnes som aktuelle
 RESTAURANT_STALE_DAYS = 183  # restaurantrækker ældre end ca. 6 måneder markeres
 # Kategorier, hvor et sted normalt har faste åbningstider (strand, by og natur er åbne områder).
@@ -77,11 +76,6 @@ WMO_DA = {
 
 def now_iso() -> str:
     return dt.datetime.now(dt.timezone.utc).astimezone().isoformat(timespec="minutes")
-
-
-def minutes(text: str):
-    m = re.match(r"^\s*(\d+)\s*min", text or "")
-    return int(m.group(1)) if m else None
 
 
 def load_places():
@@ -428,11 +422,10 @@ def restaurants_from_records():
     lead list that is converted into records over time. Bars are skipped (owner bar rule:
     taxi or Uber, drink-safety note), as are records without a checked status.
     """
-    import yaml
     rows = []
     for f in sorted(PLACES_DIR.glob("*.md")):
         try:
-            d = yaml.safe_load(f.read_text(encoding="utf-8").split("---\n", 2)[1])
+            d = load_front_matter(f)
         except Exception:
             continue
         if d.get("category") != "Restaurants" or d.get("status") not in RECORD_STATUSES:
@@ -640,7 +633,6 @@ def _as_date(v):
 
 def opening_info(p, today):
     """Åbningsstatus fra stedposten. Fortolker ikke fritekst; vurderer kun om den findes og er aktuel."""
-    from places import load_front_matter
     rec = load_front_matter(ROOT / p["record_file"])
     vi = rec.get("visit_information") or {}
     links = rec.get("links") or {}
