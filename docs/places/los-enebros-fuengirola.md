@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-LOS-ENEBROS-FUENGIROLA-001
 slug: los-enebros-fuengirola
 name: Restaurante Los Enebros
@@ -68,13 +68,13 @@ toilets_available: unknown
 food_available: 'yes'
 cost_level: €€
 visit_information:
-  schedule: null
+  schedule: 'Monday closed; Tuesday-Friday 19:00-22:30; Saturday 13:00-15:30 and 19:00-22:30; Sunday 13:00-15:30 and 19:00-22:00 (own website, read 2026-11-11).'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own carta: quoted mains 15,00, 19,00 and 32,00 € (median 19,00 €); drink prices not on the page, so main plus one drink is just over 20 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
-  cost_checked_at: '2026-11-02'
+  cost_basis: 'Own carta (32 mains in Pastas, Carnes and Pescados): 15,00-34,00 €, median 23,50 €; drink prices not on the page. Band rule: median main + one drink = about 27 €, within the €€ band (compare Kalifato at about 23,75 €).'
+  cost_checked_at: '2026-11-11'
 links:
   official_website: https://restaurantelosenebros.com/
   booking: null
@@ -144,36 +144,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - booking_required
-  - accessibility
-  - parking
-  description: 'Own carta read: partial hours (Wed-Fri missing), main-dish prices, phone. No drink prices, no kids facilities, no booking statement.'
-  retryable: true
-  owner: fact_check
-- code: cost_level_borderline
-  severity: info
-  fields:
-  - cost_level
-  description: Median quoted main 19 € plus a drink is just over 20 €; drink prices are not on the page, so the band is €€ at its lower edge.
-  retryable: true
-  owner: human_editor
+- field: visit_information.schedule; cost_level
+  claim: "\"Martes: 19:00 – 22:30\"; \"Viernes: 19:00 – 22:30\"; \"Sábado: 13:00 – 15:30 / 19:00 – 22:30\"; \"Domingo: 13:00 – 15:30 / 19:00 – 22:00\"; \"Lunes: Cerrado\""
+  source_url: https://www.restaurantelosenebros.com/carta/
+  source_type: official_venue
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); own site fetched with tools/intake.py fetch and Tavily extract
+  confidence: high
+  notes: "Full opening-hours block read on 2026-11-11 (Wednesday and Thursday are 19:00 – 22:30 as well). The median of the 32 mains is 23,50 € (computed from the carta page text)."
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null

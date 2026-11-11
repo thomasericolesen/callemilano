@@ -3164,7 +3164,7 @@
    "name": "Restaurante El Higuerón",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5870167,
@@ -3182,7 +3182,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 16,
     "distance_km": null,
@@ -3204,14 +3204,18 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": null,
+    "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "El Higuerón: restaurant på skråningerne af Sierra de Mijas med morgenmad, frokost og middag og privat parkering (egen hjemmeside).",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Morgenmad 9.00-12.00; bar (køkkenet er åbent hele tiden) og frokost 13.00-16.00; lukket for gæster kl. 17.00; middag fra 20.30 (egen hjemmeside; ugedage og sæson ikke oplyst)."
+      "text": "Mandag lukket; tirsdag-lørdag 12.30-24.00; søndag 12.30-18.00 (egen hjemmeside, læst 11. nov. 2026). Køkkenet: morgenmad 9.00-12.00, bar med køkken åbent hele tiden og frokost 13.00-16.00."
+     },
+     {
+      "label": "Pris",
+      "text": "Hovedretter 21-43 € (typisk ca. 31 €), fx Fabada Asturiana 26 €, Presa Ibérica 29 € og Solomillo 35 €. Drikkepriser er ikke læst; tjek menuen før besøget."
      }
     ],
     "links": {
@@ -3224,13 +3228,13 @@
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": "Breakfast 09:00-12:00; bar (non-stop kitchen) and lunch 13:00-16:00; closed to the public 17:00; dinner from 20:30 (own website; days of the week and seasonality not stated)",
+     "schedule": "Monday closed; Tuesday-Saturday 12:30-00:00; Sunday 12:30-18:00 (own website footer, read 2026-11-11). Kitchen hours on the site: breakfast 09:00-12:00, bar with non-stop kitchen 13:00-16:00, lunch 13:00-16:00.",
      "schedule_checked_at": "2026-11-02",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": true,
      "is_bar": false,
-     "phone": null,
+     "phone": "+34952119163",
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-11"
@@ -3548,7 +3552,7 @@
    "name": "Pulpería Freiduría El Choco",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5509163,
@@ -3566,7 +3570,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 14,
     "distance_km": null,
@@ -3595,7 +3599,7 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Mandag lukket; tirsdag 13.00-16.00 og 20.00-23.00 (egen hjemmeside). Onsdag-søndag er ikke oplyst; tjek før besøget."
+      "text": "Mandag lukket; tirsdag-søndag 13.00-16.00 og 20.00-23.00 (egen hjemmeside, læst 11. nov. 2026). Ingen bordreservation."
      }
     ],
     "links": {
@@ -3608,8 +3612,8 @@
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": "Monday closed; Tuesday 13:00-16:00 and 20:00-23:00 (own website). Wednesday to Sunday not quoted; check before visiting.",
-     "schedule_checked_at": null,
+     "schedule": "Monday closed; Tuesday to Sunday 13:00-16:00 and 20:00-23:00 (own website, read 2026-11-11). No reservations.",
+     "schedule_checked_at": "2026-11-11",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": true,
@@ -4093,7 +4097,7 @@
    "name": "Gali Gali Beach Club",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5323365,
@@ -4111,7 +4115,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 12,
     "distance_km": null,
@@ -6163,7 +6167,7 @@
    "name": "Restaurante Los Enebros",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5530316,
@@ -6180,7 +6184,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 15,
     "distance_km": null,
@@ -6206,8 +6210,12 @@
     "summary": "Restaurante Los Enebros: middelhavsrestaurant i Los Boliches med madmenu på egen hjemmeside; lukket mandag.",
     "practical": [
      {
+      "label": "Åbningstider",
+      "text": "Mandag lukket; tirsdag-fredag 19.00-22.30; lørdag 13.00-15.30 og 19.00-22.30; søndag 13.00-15.30 og 19.00-22.00 (egen hjemmeside, læst 11. nov. 2026)."
+     },
+     {
       "label": "Pris",
-      "text": "Hovedretter 15,00, 19,00 og 32,00 € (typisk 19,00 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster lidt over 20 €."
+      "text": "Hovedretter 15-34 € (typisk 23,50 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 27 €."
      }
     ],
     "links": {
@@ -6220,7 +6228,7 @@
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": null,
+     "schedule": "Monday closed; Tuesday-Friday 19:00-22:30; Saturday 13:00-15:30 and 19:00-22:30; Sunday 13:00-15:30 and 19:00-22:00 (own website, read 2026-11-11).",
      "schedule_checked_at": null,
      "valid_until": null,
      "needs_fixed_hours": false,
@@ -7040,7 +7048,7 @@
    "name": "Mia's Pizzorante",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5680051,
@@ -7058,7 +7066,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 17,
     "distance_km": null,
@@ -7106,7 +7114,7 @@
      "needs_fixed_hours": false,
      "rainy_day": true,
      "is_bar": false,
-     "phone": null,
+     "phone": "+34951903240",
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-11"
@@ -8151,7 +8159,7 @@
    "name": "Old Swiss House",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5337161,
@@ -8169,7 +8177,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 13,
     "distance_km": null,
@@ -10779,7 +10787,7 @@
    "name": "Sollo Restaurante",
    "category": "restaurant",
    "record_category": "Restaurants",
-   "record_status": "needs_fact_check",
+   "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Fuengirola",
    "lat": 36.5799411,
@@ -10797,7 +10805,7 @@
    "catalogue_group": null,
    "guide": {
     "source": "thomasericolesen/callemilano",
-    "status": "needs_fact_check",
+    "status": "needs_editorial_review",
     "layer": "lokal",
     "drive_minutes": 17,
     "distance_km": null,
@@ -10817,11 +10825,16 @@
     "themes": [
      "spisested"
     ],
-    "cost_level": null,
+    "cost_level": "hoej",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Sollo: restaurant på Av. del Higuerón i Fuengirola. Hjemmesiden har menu og online booking.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Pris",
+      "text": "Egen hjemmeside: smagsmenuen \"Caminho 2026\" koster 180 € pr. person og er den eneste menu på siden (der er særskilte sider om vinmenu og kaviar). Ingen à la carte-priser læst."
+     }
+    ],
     "links": {
      "official": "https://www.sollo.es/es/",
      "booking": null,

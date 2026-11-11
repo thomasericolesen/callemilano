@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-MIAS-PIZZORANTE-FUENGIROLA-001
 slug: mias-pizzorante-fuengirola
 name: Mia's Pizzorante
@@ -83,7 +83,7 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: tel:+34951903240
 related_places: []
 description_short: 'Mia''s Pizzorante: Italian restaurant on Playa de Carvajal, Fuengirola, facing the Mediterranean (own website).'
 description_long: Mia's Pizzorante says on its own website that it is at Playa de Carvajal, Fuengirola, facing the Mediterranean. The online carta lists pasta dishes such as pappardelle with beef fillet and porcini (21,00 EUR), garganelli alla Mia's (18,00 EUR) and tagliolini alla Norcina (18,50 EUR), and take-away is offered. The site has a button to reserve a table online. Opening hours, a children's menu and a street address were not found on the page.
@@ -131,29 +131,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - booking_required
-  - accessibility
-  - parking
-  description: Pasta prices read. Hours, phone, kids menu, street address, booking requirement not found.
-  retryable: true
-  owner: fact_check
+- field: links.contact; booking
+  claim: "\"+34 951 90 32 40\"; \"reservation@miaspizzorante.com\"; \"Reserva tu mesa y descubre Mia’s Pizzorante.\""
+  source_url: https://miaspizzorante.com/
+  source_type: official_venue
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); own site fetched with tools/intake.py fetch and Tavily extract
+  confidence: high
+  notes: "Home and contact pages read on 2026-11-11. Opening hours and a kids menu were not found on the site; the carta page has a take-away section."
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-SOLLO-FUENGIROLA-001
 slug: sollo-fuengirola
 name: Sollo Restaurante
@@ -67,15 +67,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: 'yes'
-cost_level: Unknown
+cost_level: €€€€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own site: tasting menu Menú degustación "Caminho 2026" 180 € per person (the menu page shows only this menu, plus separate pages for pairings and caviar). No à la carte prices read.'
+  cost_checked_at: '2026-11-11'
 links:
   official_website: https://www.sollo.es/es/
   booking: null
@@ -129,29 +129,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  - booking_required
-  - accessibility
-  - parking
-  description: Only address, phone and booking button read. Hours, prices, kids facilities not found.
-  retryable: true
-  owner: fact_check
+- field: cost_level; links.contact
+  claim: "\"Menú degustación \\\"Caminho 2026\\\"\"; \"180€\"; \"+34 692 425 385\"; \"Av. del Higuerón, 48. 29640 Fuengirola\""
+  source_url: https://www.sollo.es/es/menu-sollo/menu-caminho/
+  source_type: official_venue
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); own site fetched with tools/intake.py fetch and Tavily extract
+  confidence: high
+  notes: "Own site (Tavily extract). One tasting menu at 180 € per person; the menu's courses use caviar and sturgeon. Opening hours, kids facilities and drink or pairing prices were not read."
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null

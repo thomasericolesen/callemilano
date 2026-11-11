@@ -360,16 +360,20 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-EL-HIGUERON-FUENGIROLA-001": {
-  "source_sha": "264d02f60f433436",
+  "source_sha": "0c504fd285b264ca",
   "summary": "El Higuerón: restaurant på skråningerne af Sierra de Mijas med morgenmad, frokost og middag og privat parkering (egen hjemmeside).",
   "practical": [
    {
     "label": "Åbningstider",
-    "text": "Morgenmad 9.00-12.00; bar (køkkenet er åbent hele tiden) og frokost 13.00-16.00; lukket for gæster kl. 17.00; middag fra 20.30 (egen hjemmeside; ugedage og sæson ikke oplyst)."
+    "text": "Mandag lukket; tirsdag-lørdag 12.30-24.00; søndag 12.30-18.00 (egen hjemmeside, læst 11. nov. 2026). Køkkenet: morgenmad 9.00-12.00, bar med køkken åbent hele tiden og frokost 13.00-16.00."
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter 21-43 € (typisk ca. 31 €), fx Fabada Asturiana 26 €, Presa Ibérica 29 € og Solomillo 35 €. Drikkepriser er ikke læst; tjek menuen før besøget."
    }
   ],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "translated_at": "2026-11-11",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-EL-OCEANO-BEACH-HOTEL-001": {
   "source_sha": "7de44601dd3b7608",
@@ -398,16 +402,16 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-FREIDURIA-EL-CHOCO-FUENGIROLA-001": {
-  "source_sha": "545153c020dbef6c",
+  "source_sha": "94899c3679df332c",
   "summary": "Freiduría El Choco: restaurant med friturestegt fisk i Fuengirola; lukket mandag, ingen bordreservation (egen hjemmeside).",
   "practical": [
    {
     "label": "Åbningstider",
-    "text": "Mandag lukket; tirsdag 13.00-16.00 og 20.00-23.00 (egen hjemmeside). Onsdag-søndag er ikke oplyst; tjek før besøget."
+    "text": "Mandag lukket; tirsdag-søndag 13.00-16.00 og 20.00-23.00 (egen hjemmeside, læst 11. nov. 2026). Ingen bordreservation."
    }
   ],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "translated_at": "2026-11-11",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-FUENGIROLA-ADVENTURE-GOLF-001": {
   "source_sha": "459b108e80d8d29e",
@@ -690,16 +694,20 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-LOS-ENEBROS-FUENGIROLA-001": {
-  "source_sha": "868e72e0ff1a5c9d",
+  "source_sha": "f0be81f5b26f2790",
   "summary": "Restaurante Los Enebros: middelhavsrestaurant i Los Boliches med madmenu på egen hjemmeside; lukket mandag.",
   "practical": [
    {
+    "label": "Åbningstider",
+    "text": "Mandag lukket; tirsdag-fredag 19.00-22.30; lørdag 13.00-15.30 og 19.00-22.30; søndag 13.00-15.30 og 19.00-22.00 (egen hjemmeside, læst 11. nov. 2026)."
+   },
+   {
     "label": "Pris",
-    "text": "Hovedretter 15,00, 19,00 og 32,00 € (typisk 19,00 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster lidt over 20 €."
+    "text": "Hovedretter 15-34 € (typisk 23,50 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 27 €."
    }
   ],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "translated_at": "2026-11-11",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-LOS-MARINOS-PACO-001": {
   "source_sha": "904db0cdf656213e",
@@ -1145,11 +1153,16 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-SOLLO-FUENGIROLA-001": {
-  "source_sha": "ca8e47ab18ad9eb7",
+  "source_sha": "c9bb7aa82e285a0e",
   "summary": "Sollo: restaurant på Av. del Higuerón i Fuengirola. Hjemmesiden har menu og online booking.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Egen hjemmeside: smagsmenuen \"Caminho 2026\" koster 180 € pr. person og er den eneste menu på siden (der er særskilte sider om vinmenu og kaviar). Ingen à la carte-priser læst."
+   }
+  ],
+  "translated_at": "2026-11-11",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-SOLO-BEACH-MARBELLA-001": {
   "source_sha": "2f08dd296ec72fdc",
