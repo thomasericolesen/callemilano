@@ -2,7 +2,7 @@
 """Merge the audience groups `Teenagers (13-17)` and `Adults` into `Young adults`.
 
 Schema-change migration. Run ONLY after the editor-of-record has approved
-docs/schema-change-proposal-young-adults.md.
+docs/decisions/schema-change-proposal-young-adults.md.
 
 Default is a dry run. Use --apply to write. Idempotent: running it twice changes nothing.
 
@@ -22,7 +22,7 @@ from pathlib import Path
 
 ORDER = {"low": 0, "medium": 1, "high": 2}
 MARK = "Young adults migration"
-SKIP = {"./tools/migrate_young_adults.py", "./docs/schema-change-proposal-young-adults.md", "./docs/change-log.md"}
+SKIP = {"./tools/migrate_young_adults.py", "./docs/decisions/schema-change-proposal-young-adults.md", "./docs/change-log.md"}
 
 
 def merge_score(t, a, rule):
@@ -167,7 +167,7 @@ def main():
             f"(rule: {args.rule}; `unknown` if either input is unknown). Updated: all `docs/places/*.md`, "
             "`tools/places.py` constants, `data/personas.csv` (weights summed), `AGENTS.md`, `docs/place-schema.md`. "
             "Analytical datasets and the engine spec are not migrated; see "
-            "`docs/schema-change-proposal-young-adults.md`.\n\n"
+            "`docs/decisions/schema-change-proposal-young-adults.md`.\n\n"
         )
         report.append("change-log entry")
         if args.apply:

@@ -109,7 +109,7 @@ evidence:
   notes: Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00, and WALK (https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.534290399999996%2C-4.6607671999999996&travelmode=walking). Google's walking route says nothing about pavements, crossings or whether it suits children.
 - field: description_long (owner knowledge)
   claim: Our very local, well-known restaurant. The sports area also has a pool with a lifeguard, a tennis court and a play area; the pool opens seasonally and you must bring the pool card.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/nearby-selection-2026-11-02.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/nearby-selection-2026-11-02.md
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02

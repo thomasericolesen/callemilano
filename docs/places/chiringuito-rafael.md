@@ -120,20 +120,20 @@ evidence:
   notes: Google Routes API computeRoutes; predicted-traffic estimate for one departure time.
 - field: seasonality, cost_level, visit_information
   claim: Restaurant prices and season stay unknown, shown with a "check before visiting" note.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 7, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Venue-stated opening hours in visit_information remain dated facts.
+  notes: Owner decision 7, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Venue-stated opening hours in visit_information remain dated facts.
 - field: parking, transport_options, toilets_available, accessibility, dog_friendly, booking_required
   claim: Practical details for restaurants are deliberately left unknown, as for beaches.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/approval-decisions-2026-11-01.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/approval-decisions-2026-11-01.md
   source_type: secondary
   checked_at: '2026-11-01'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: high
-  notes: Owner decision 8, 2026-11-01, given on the approval checklist and recorded in docs/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_unverified.
+  notes: Owner decision 8, 2026-11-01, given on the approval checklist and recorded in docs/decisions/approval-decisions-2026-11-01.md. This is an editor decision, not an external fact source; source_type is the nearest schema value. Replaces review issue practical_details_unverified.
 - field: name, coordinates
   claim: 'Independent listings agree on the identity and place: Tripadvisor ''Chiringuito Rafael, Benalmádena'' on the Avenida del Puerto Deportivo (Paseo Marítimo) opposite Playa de la Salud; the venue''s Facebook page (search excerpt) ''Paseo Marítimo, S/N, Benalmádena, 29630''; minube phone +34 952 56 17 71.'
   source_url: https://www.tripadvisor.es/Restaurant_Review-g562812-d1929855-Reviews-Chiringuito_Rafael-Benalmadena_Costa_del_Sol_Province_of_Malaga_Andalucia.html

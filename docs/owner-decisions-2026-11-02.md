@@ -26,7 +26,7 @@ Answers given in the session chat on 2026-11-02 (Claude asked; the owner chose f
 
 ## Local extension for multi-week guests (session chat, 2026-11-02)
 
-6. **Scope:** all five areas in `docs/local-extension-intake-2026-11-02.md` are in scope, because guests arrive spread over a long season.
+6. **Scope:** all five areas in `docs/decisions/local-extension-intake-2026-11-02.md` are in scope, because guests arrive spread over a long season.
 7. **Everyday life:** goes on a separate practical-information page outside the place records (markets may still become records). No schema change.
 8. **Events:** a season calendar page by month, with official dates per year, linked from the relevant places.
 9. **Selection:** the owner picks candidates on a private checklist page ("CalleMilano udvidelse", https://claude.ai/artifact/N2M6tmgYi7MhVqPyfpUSa5); answers are stored in its `choices` collection.
@@ -37,7 +37,7 @@ Answers given in the session chat on 2026-11-02 (Claude asked; the owner chose f
 
 12. **Layer for the 30-60 minute band:** the catalogue group `Tæt på` in layer `excursions_4h` now means a route-checked one-way drive of at most 60 minutes (Google Routes, Saturday 10:00). Places in `Tæt på` with a longer drive move to `Dagsture`: Caminito del Rey (71 min, route-checked 2026-11-02), Sierra de las Nieves and Gibraltar (record values over 60 min, not route-checked). No schema change.
 13. **Order of work:** beaches first (fact check against the rocks rule, lifeguards, toilets, parking), then restaurants near them.
-14. **Selection:** 41 yes, 12 maybe, 1 no on the checklist page https://claude.ai/artifact/D8D2RD48rZbacv93b3J2SW; see `docs/one-hour-selection-2026-11-02.md`.
+14. **Selection:** 41 yes, 12 maybe, 1 no on the checklist page https://claude.ai/artifact/D8D2RD48rZbacv93b3J2SW; see `docs/decisions/one-hour-selection-2026-11-02.md`.
 
 ## Trip planner and restaurants (session chat, 2026-11-02)
 

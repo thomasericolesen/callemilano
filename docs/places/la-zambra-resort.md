@@ -109,7 +109,7 @@ evidence:
   notes: 'Google Routes API computeRoutes from the project origin to the Google Places coordinates; DRIVE with TRAFFIC_AWARE_OPTIMAL for Saturday 2026-11-07 10:00. Walking time removed 2026-11-02 (owner decision: walking times of 20 minutes or more are not shown).'
 - field: description_long (owner knowledge)
   claim: Restaurant and spa area (added by the owner).
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/nearby-selection-2026-11-02.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/nearby-selection-2026-11-02.md
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
@@ -125,7 +125,7 @@ evidence:
   notes: Read in full via Firecrawl on 2026-11-02. Access for non-guests is not stated.
 - field: description_long (Bamboleo)
   claim: Bamboleo, the resort's sunset bar, is covered in this record rather than in a record of its own.
-  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/bars-selection-2026-11-02.md
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/docs/decisions/bars-selection-2026-11-02.md
   source_type: secondary
   checked_at: '2026-11-02'
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02

@@ -24,7 +24,7 @@ This file defines every CSV in `data/` and `docs/enriched-place-metadata.csv`. C
 | `state` | `allocated` (others such as `reserved`/`retired` are not yet used) |
 | `reserved_at` | Allocation date |
 
-Records whose identity is still unresolved (see `docs/identity-clarification-report.md`) stay in `draft` with `id: null` and have no registry row. This is intentional: an ID is allocated only once the place identity is confirmed.
+Records whose identity is still unresolved (see `docs/content/identity-clarification-report.md`) stay in `draft` with `id: null` and have no registry row. This is intentional: an ID is allocated only once the place identity is confirmed.
 
 ### `import-queue.csv`
 
@@ -58,7 +58,7 @@ Public holidays used by `tools/trip.py plan`: `date`, `name`, `scope` (`andaluci
 
 ## Recommendation prototype datasets (analytical, non-canonical)
 
-These feed `docs/recommendation-engine-spec.md` and the V1–V3 analyses. Values are **editorial estimates** unless a `source` column says otherwise. All keyed by `destination` (display name), not by place ID.
+These feed `docs/engine/recommendation-engine-spec.md` and the V1–V3 analyses. Values are **editorial estimates** unless a `source` column says otherwise. All keyed by `destination` (display name), not by place ID.
 
 ### `personas.csv` (8 rows)
 
@@ -110,6 +110,6 @@ Long format, one row per destination and field: `destination`, `record_file`, `f
 
 ## Known gaps
 
-- The analytical datasets cover the original Spain-wide collection. Only Marbella Old Town and the three Málaga city destinations lie near the primary 30 km area; the local launch candidates in `docs/launch-backlog.md` are not in these datasets yet.
+- The analytical datasets cover the original Spain-wide collection. Only Marbella Old Town and the three Málaga city destinations lie near the primary 30 km area; the local launch candidates in `docs/product/launch-backlog.md` are not in these datasets yet.
 - No mapping exists between collection tags and schema tags.
 - Confidence uses two scales (`high/medium/low` and 0–100).
