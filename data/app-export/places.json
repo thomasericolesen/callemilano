@@ -6896,8 +6896,8 @@
    "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Málaga",
-   "lat": null,
-   "lng": null,
+   "lat": 36.718434,
+   "lng": -4.424058,
    "google_maps_url": "https://maps.app.goo.gl/4cZJ8eRQH47aHH146",
    "google_place_id": null,
    "url": null,
@@ -6945,7 +6945,7 @@
      "booking": null,
      "info": "https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=160"
     },
-    "checked_at": "2026-11-01",
+    "checked_at": "2026-11-11",
     "text_language": "en",
     "trip": {
      "record_category": "Excursions",
@@ -8245,8 +8245,8 @@
    "record_status": "needs_editorial_review",
    "approved": false,
    "municipality": "Unknown",
-   "lat": null,
-   "lng": null,
+   "lat": 36.9356854,
+   "lng": -5.2675481,
    "google_maps_url": "https://maps.app.goo.gl/4cZJ8eRQH47aHH146",
    "google_place_id": null,
    "url": null,
@@ -8304,7 +8304,7 @@
      "booking": null,
      "info": "https://www.turismoolvera.es/informacion"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-11",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",

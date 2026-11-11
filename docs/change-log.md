@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-11 (night) - Coordinates filled for three records (level A)
+
+- `mercado-de-atarazanas` (36.718434, -4.424058), `olvera-castle` (36.9356854, -5.2675481) and `palmeral-de-las-sorpresas` (36.7183501, -4.415388): place points read in Google Maps in Chrome (identity and position only), evidence entry added, and the `blocking` issue `schema_blocking_unknowns` (unknown coordinates) closed on all three. Not an editor decision: the coordinates are a Google Maps identity fact.
+- The two real editor items that remain on those records are conflicts (Olvera Castle winter closing time 19:00 vs 20:00) and go to the editor list.
+
 ## 2026-11-11 (night) - Import without a browser login (owner decision)
 
 - App repo PR thomasericolesen/callemilano-f388b2be#29 (merged, published): new route `POST /api/import-places` with a Bearer token, the import logic moved to `recommendations-import.server.ts` (`dryRun` option; the admin button uses the same function), new table `public.import_tokens` (only the SHA-256 of the token, RLS without policies). The migration was not applied automatically, so the table was created with the migration's SQL through the Lovable connector (RLS on, no policies, like `selftest_tokens`).

@@ -7,12 +7,12 @@ name: Mercado de Atarazanas
 category: Excursions
 tags: []
 coordinates:
-  latitude:  null
-  longitude:  null
+  latitude: 36.718434
+  longitude: -4.424058
   purpose: representative_point
-  label: Unknown; exact visitor point not established
-  source:  null
-  checked_at:  null
+  label: "Mercado de Atarazanas, C. Atarazanas, 10, 29005 Málaga"
+  source: https://www.google.com/maps/dir/36.5356875,-4.6626875/Mercado+de+Atarazanas,+C.+Atarazanas,+10,+Distrito+Centro,+29005+M%C3%A1laga,+Spain/
+  checked_at: '2026-11-11'
 google_maps_url: https://maps.app.goo.gl/4cZJ8eRQH47aHH146
 external_ids: {}
 municipality: Málaga
@@ -126,6 +126,14 @@ evidence:
   checked_by: Claude (Routes API batch 2026-11-01)
   confidence: medium
   notes: Google Routes API computeRoutes; destination geocoded by Google from the record's destination text (the record has no coordinates). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: coordinates
+  claim: "Google Maps lists 'Mercado de Atarazanas, C. Atarazanas, 10, 29005 Málaga' at 36.718434, -4.424058."
+  source_url: https://www.google.com/maps/dir/36.5356875,-4.6626875/Mercado+de+Atarazanas,+C.+Atarazanas,+10,+Distrito+Centro,+29005+M%C3%A1laga,+Spain/
+  source_type: maps_identity
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); read in Google Maps in Chrome
+  confidence: medium
+  notes: Identity and position only (place point shown by Google Maps); not a visitor entrance point.
 review_issues:
 - code: editorial_suitability_requires_human_review
   severity: warning
@@ -144,16 +152,6 @@ review_issues:
   description: These facts or editorial assessments were not established from the
     supplied list or checked sources. Explicit unknown values remain in this draft;
     complete claim-specific research and editorial review before advancement.
-  retryable: true
-  owner: fact_check
-- code: schema_blocking_unknowns
-  severity: blocking
-  fields:
-  - coordinates.latitude
-  - coordinates.longitude
-  description: The active schema does not define unknown values for all required fields.
-    This draft leaves unsupported values explicit; resolve them with evidence or obtain
-    an approved schema-compatible representation before validation or human approval.
   retryable: true
   owner: fact_check
 - code: category_and_tags_need_human_review
