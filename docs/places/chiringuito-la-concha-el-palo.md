@@ -6,7 +6,9 @@ slug: chiringuito-la-concha-el-palo
 name: Chiringuito La Concha (El Palo)
 category: Restaurants
 tags:
+- Beach
 - Restaurant
+- Full day
 coordinates:
   latitude: 36.7190139
   longitude: -4.3596761
@@ -129,6 +131,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
   confidence: medium
   notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
+- field: tags
+  claim: "Owner's tag selection on the CalleMilano tag checklist: Beach, Restaurant, Full day."
+  source_url: https://claude.ai/artifact/DZv9cLLQ1BEcYs3NeewdEF
+  source_type: secondary
+  checked_at: '2026-11-11'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+  confidence: medium
+  notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
 review_issues:
 - code: facts_partly_checked
   severity: warning
@@ -138,7 +148,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
