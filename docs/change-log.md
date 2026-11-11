@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-11 (night) - Import without a browser login (owner decision)
+
+- App repo PR thomasericolesen/callemilano-f388b2be#29 (merged, published): new route `POST /api/import-places` with a Bearer token, the import logic moved to `recommendations-import.server.ts` (`dryRun` option; the admin button uses the same function), new table `public.import_tokens` (only the SHA-256 of the token, RLS without policies). The migration was not applied automatically, so the table was created with the migration's SQL through the Lovable connector (RLS on, no policies, like `selftest_tokens`).
+- Token: created on the owner's Mac in `~/.callemilano-import-token` (mode 600), only the hash inserted; expires 2027-02-09. Tested: no or wrong token gives 401; dry run 158 updated, 0 created, 0 skipped; real import `?apply=1` 158 updated; the database shows `last_used_at` set. The first Lovable publish ran before Lovable had fetched the merge, so it was published a second time.
+- Chrome is now only needed for the Facebook/Instagram and Google Maps checks. `AGENTS.md` and `docs/multi-agent-workflow.md` updated.
+
 ## 2026-11-11 (night) - Seven restaurants fact-checked and lifted (level A, editor workflow)
 
 - First run under the new editor workflow. The seven restaurants still labelled "Ikke faktatjekket" (`el-higueron-fuengirola`, `freiduria-el-choco-fuengirola`, `gali-gali-fuengirola`, `los-enebros-fuengirola`, `mias-pizzorante-fuengirola`, `old-swiss-house-fuengirola`, `sollo-fuengirola`) were read again from their own websites (`tools/intake.py fetch`; Tavily extract for El Choco, Sollo and El Higuerón's carta, which curl cannot read). All quotes recorded in the evidence were checked verbatim against the fetched text. All seven moved from `needs_fact_check` to `needs_editorial_review`; the stale `facts_not_checked` and `facts_partly_checked` issues were closed (what could not be found stays unknown).
