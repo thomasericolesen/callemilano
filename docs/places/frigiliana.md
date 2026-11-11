@@ -73,7 +73,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: 'Museo Arqueológico, exhibition rooms and tourist office share the same hours (museum site): 16 Sep-1 Jul Mon-Fri 10:00-18:00, Sat 10:00-14:00 and 16:00-20:00, Sun 10:00-14:00; 1 Jul-15 Sep Mon-Sat 10:00-14:30 and 17:30-21:00, Sun 10:00-14:30. The tourist-office page instead gives Sat 10:00-18:00 in winter.'
+  schedule: "Museo Arqueológico, exhibition rooms and tourist office share the same hours (museum site): 16 Sep-1 Jul Mon-Fri 10:00-18:00, Sat 10:00-14:00 and 16:00-20:00, Sun 10:00-14:00; 1 Jul-15 Sep Mon-Sat 10:00-14:30 and 17:30-21:00, Sun 10:00-14:30. The tourist-office page instead gives Sat 10:00-18:00 in winter; the owner chose the museum's hours on 2026-11-11."
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -165,6 +165,14 @@ evidence:
     checked_by: claude-code-agent (branch udflugter-verificering-2)
     confidence: medium
     notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
+  - field: visit_information.schedule
+    claim: "Editor decision: use the museum's Saturday hours (10:00-14:00 and 16:00-20:00)."
+    source_url: https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc
+    source_type: secondary
+    checked_at: '2026-11-11'
+    checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+    confidence: medium
+    notes: "Decision made by the editor on the editor list (first list, 11 Nov 2026); the conflicting source is named in the record. Own judgement, not independently verified."
 review_issues:
   - code: family_ratings_estimated
     severity: warning
@@ -189,15 +197,8 @@ review_issues:
     description: Accessibility is now partly sourced for the tourist office only (see evidence); the historic quarter's own streets, general parking, dog/toilet/food facilities, and cost remain unverified from an official source.
     retryable: true
     owner: fact_check
-  - code: saturday_hours_conflict
-    severity: warning
-    fields:
-      - visit_information.schedule
-    description: Museum page and tourist-office page disagree on Saturday hours; call 952 534 261 (tourist office) or 95 253 42 61 (museum).
-    retryable: true
-    owner: fact_check
 created_at: 2026-10-03
-updated_at: 2026-10-30
+updated_at: '2026-11-11'
 last_verified: 2026-10-30
 last_reviewed_at: null
 next_review_at: null

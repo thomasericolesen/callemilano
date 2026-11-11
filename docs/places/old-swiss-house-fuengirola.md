@@ -71,7 +71,7 @@ toilets_available: unknown
 food_available: 'yes'
 cost_level: €€
 visit_information:
-  schedule: Tuesday closed; Wednesday dinner only; Monday and Thursday-Sunday lunch and dinner (own website, owner's screenshot 2026-11-08; times not stated in this section).
+  schedule: "Tuesday closed. The own website gives conflicting hours for the other days (Wednesday lunch, Sunday); check before visiting, tel. +34 952 472 606 (owner decision 2026-11-11)."
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -155,14 +155,15 @@ evidence:
   checked_by: Claude (main session); own site fetched with tools/intake.py fetch and Tavily extract
   confidence: high
   notes: "The same page contradicts itself: the opening-times sentence says Wednesday is dinner only, the table lists Wednesday lunch (13:00 - 17:30) and Sunday 13:00 – 16:00 | 19:00 – 23:00, and a separate block says Sundays closed. Hours stay unset; the conflict is on the editor list."
-review_issues:
-- code: opening_hours_conflict
-  severity: warning
-  fields:
-  - visit_information.schedule
-  description: "The own website gives conflicting hours: Wednesday dinner only vs a Wednesday lunch slot (13:00 - 17:30), and Sunday closed vs Sunday 13:00 – 16:00 / 19:00 – 23:00. Only Tuesday closed is consistent. Needs a phone call or the editor's decision."
-  retryable: false
-  owner: editor
+- field: visit_information.schedule
+  claim: "Editor decision: write \"check before visiting\" and leave the hours unknown; only Tuesday closed is consistent on the own website."
+  source_url: https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc
+  source_type: secondary
+  checked_at: '2026-11-11'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+  confidence: medium
+  notes: "Decision made by the editor on the editor list (first list, 11 Nov 2026); the conflicting source is named in the record. Own judgement, not independently verified."
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null

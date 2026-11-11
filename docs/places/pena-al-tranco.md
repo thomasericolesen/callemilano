@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-PENA-AL-TRANCO-001
 slug: pena-al-tranco
 name: Peña Al Tranco
@@ -133,10 +133,14 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: 'Owner decision 2026-11-11 on the editor list (https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc): archive (no official source found); we already have enough places. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

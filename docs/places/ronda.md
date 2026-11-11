@@ -74,7 +74,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: 'Puente Nuevo interpretation centre, valid from 1 Oct 2026 (official PDF): Mon and Sat 10:00-14:00 and 15:00-18:00; Tue-Fri 9:30-19:00; Sun and holidays 10:00-15:00. The web page says Tue-Fri 10:00-19:00 (last entry 18:30), Sun 10:00-15:00 (last entry 14:30), Mon/Sat 10:00-14:00 and 15:00-18:00 (last entry 17:30).'
+  schedule: "Puente Nuevo interpretation centre, valid from 1 Oct 2026 (official PDF): Mon and Sat 10:00-14:00 and 15:00-18:00; Tue-Fri 9:30-19:00; Sun and holidays 10:00-15:00. The web page says Tue-Fri 10:00-19:00; the owner chose the official PDF on 2026-11-11."
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -150,6 +150,14 @@ evidence:
     checked_by: claude-code-agent (branch udflugter-verificering-2)
     confidence: medium
     notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
+  - field: visit_information.schedule
+    claim: "Editor decision: use the official PDF (Tue-Fri opens 9:30)."
+    source_url: https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc
+    source_type: secondary
+    checked_at: '2026-11-11'
+    checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+    confidence: medium
+    notes: "Decision made by the editor on the editor list (first list, 11 Nov 2026); the conflicting source is named in the record. Own judgement, not independently verified."
 review_issues:
   - code: family_ratings_estimated
     severity: warning
@@ -174,15 +182,8 @@ review_issues:
     description: Visitor facilities, access, and cost remain unverified. The Centro de Interpretación's accessibility status and current ticket price could not be confirmed from the official page in this research pass.
     retryable: true
     owner: fact_check
-  - code: hours_minor_conflict
-    severity: info
-    fields:
-      - visit_information.schedule
-    description: Tue-Fri opening is 9:30 in the official PDF and 10:00 on the web page.
-    retryable: true
-    owner: fact_check
 created_at: 2026-10-03
-updated_at: 2026-10-30
+updated_at: '2026-11-11'
 last_verified: 2026-10-30
 last_reviewed_at: null
 next_review_at: null
