@@ -5,6 +5,10 @@
 - `tools/route_check.py` now follows the project conventions: toll roads are not avoided (Google Maps' main figure, owner decision 2026-10-29), origin is the AGENTS.md constant 36.5356875,-4.6626875 (same as `tools/places.py`), and durations are written as "15 min" / "1 hour 5 min". The Maps link and the source text no longer say "toll roads avoided". Not run against the live API in this session (no API key available); compiled and the formatting and origin checked locally.
 - Records written by the script on 2026-11-01 still carry the old settings (26 with "toll roads avoided" in `source`, 18 with "mins" and the old origin 36.5357505,-4.6627914, e.g. `zumaia`, `aracena`, `bellver-slot`). They are not changed; re-check with `--slugs ... --force` when those places are needed.
 
+## 2026-11-11 (afternoon) - Own-source retries, four restaurants (owner request)
+
+- Read-only in Claude in Chrome. `da-vinci-los-boliches`: own site still fails with a DNS error. `fosters-hollywood-miramar`: still blocked (Imperva, Access denied, Error 15), not bypassed. `burger-king-miramar` and `the-good-burger-miramar`: only national brand pages, no location page, hours or menu prices. No facts were added; the `no_readable_own_source` issues stay open with the retry date. Facebook/Instagram login was not needed.
+
 ## 2026-11-10 (late night) - Family ratings, second and final pass
 
 - Second pass on the same owner checklist: 46 more places written (`family_score`, `energy_level`, `age_groups` = groups rated high or medium; evidence as in the first pass). No first-pass answers were changed.

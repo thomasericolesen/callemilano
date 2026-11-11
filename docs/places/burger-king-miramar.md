@@ -128,11 +128,11 @@ review_issues:
   - description_long
   - visit_information
   - cost_level
-  description: BLOCKED.
+  description: 'Retried 2026-11-11 in a real browser: https://www.burgerking.es/home opens, but it is a national chain page (coupons and app ordering) with no page, address, hours or menu prices for this restaurant. Prices are only shown in the ordering flow. No readable own source for this location.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
