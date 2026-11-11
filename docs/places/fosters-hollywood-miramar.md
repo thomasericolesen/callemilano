@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-FOSTERS-HOLLYWOOD-MIRAMAR-001
 slug: fosters-hollywood-miramar
 name: Foster's Hollywood (C.C. Miramar)
@@ -128,14 +128,18 @@ review_issues:
   - description_long
   - visit_information
   - cost_level
-  description: 'Retried 2026-11-10 in a real browser: the official page is blocked by Incapsula (''Request unsuccessful''). Not bypassed. No readable own source.'
+  description: 'Retried 2026-11-11 in a real browser: the official page is still blocked (Imperva, Access denied, Error 15). Not bypassed. No readable own source.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: 'Owner decision 2026-11-11: too much effort to get usable facts (official site blocked (Imperva) on two attempts; no other readable own source); we already have enough restaurants. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

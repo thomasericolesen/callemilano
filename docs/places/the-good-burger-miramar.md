@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-THE-GOOD-BURGER-MIRAMAR-001
 slug: the-good-burger-miramar
 name: The Good Burger (TGB) Miramar
@@ -128,14 +128,18 @@ review_issues:
   - description_long
   - visit_information
   - cost_level
-  description: The fetched carta page is a brand page with no dish prices in text.
+  description: 'Retried 2026-11-11 in a real browser: https://thegoodburger.com/es/ opens (cookies: only necessary), but it is a brand page; /es/carta redirects to the home page and shows no dish prices or location details. No readable own source for this location.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: 'Owner decision 2026-11-11: too much effort to get usable facts (only a brand page, no location page, hours or menu prices); we already have enough restaurants. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

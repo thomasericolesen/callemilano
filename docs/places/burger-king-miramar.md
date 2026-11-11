@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-BURGER-KING-MIRAMAR-001
 slug: burger-king-miramar
 name: Burger King (C.C. Miramar)
@@ -128,14 +128,18 @@ review_issues:
   - description_long
   - visit_information
   - cost_level
-  description: BLOCKED.
+  description: 'Retried 2026-11-11 in a real browser: https://www.burgerking.es/home opens, but it is a national chain page (coupons and app ordering) with no page, address, hours or menu prices for this restaurant. Prices are only shown in the ordering flow. No readable own source for this location.'
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: 'Owner decision 2026-11-11: too much effort to get usable facts (only national chain pages, no location page, hours or menu prices); we already have enough restaurants. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---
