@@ -27,19 +27,16 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
-import re
 import sys
 from datetime import date
 from pathlib import Path
 
-import yaml
-
-ROOT = Path(__file__).resolve().parent.parent
-PLACES = ROOT / "docs" / "places"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common import LOCAL_MAX_MIN, PLACES, ROOT, minutes  # noqa: E402
+from common import load_front_matter as front_matter  # noqa: E402
 OUT = ROOT / "data" / "app-export"
 DA_FILE = ROOT / "data" / "app-texts-da.json"
 SHOWN = {"needs_fact_check", "needs_editorial_review", "approved", "published"}
-LOCAL_MAX_MIN = 30
 
 CATEGORY = {"Restaurants": "restaurant", "Beaches": "strand", "Excursions": "udflugt", "Nature": "natur",
             "City": "by", "Family activities": "sevaerdighed"}
@@ -57,22 +54,6 @@ DURATION = {"Overnight": "overnatning", "Full day": "hel_dag", "Half day": "halv
 COST = {"Free": "gratis", "€": "lav", "€€": "middel", "€€€": "hoej", "€€€€": "hoej"}
 STATUS = {"needs_fact_check": "needs_fact_check", "needs_editorial_review": "needs_editorial_review",
           "approved": "approved", "published": "published"}
-
-
-def front_matter(path: Path) -> dict:
-    return yaml.safe_load(path.read_text(encoding="utf-8").split("---\n", 2)[1])
-
-
-def minutes(text) -> int | None:
-    """'22 min', '75 min', '1 h 15 min', '9 hours 21 min' -> minutes; None when unparsable."""
-    if not text:
-        return None
-    s = str(text).lower()
-    h = re.search(r"(\d+)\s*(h|hour|hours|t)\b", s)
-    m = re.search(r"(\d+)\s*(min|m)\b", s)
-    if not h and not m:
-        return None
-    return (int(h.group(1)) * 60 if h else 0) + (int(m.group(1)) if m else 0)
 
 
 def yes_no(v):

@@ -15,22 +15,16 @@ uniqueness beyond exact duplicates; those remain human review steps.
 from __future__ import annotations
 
 import csv
-import math
 import sys
 from pathlib import Path
 
-import yaml
-
-ROOT = Path(__file__).resolve().parent.parent
-PLACES = ROOT / "docs" / "places"
-REGISTRY = ROOT / "data" / "place-id-registry.csv"
-CATALOG = ROOT / "data" / "place-catalog.csv"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common import (  # noqa: E402,F401  (re-exported for older imports)
+    CASA_LAT, CASA_LON, CATALOG, PLACES, REGISTRY, ROOT, haversine_km, load_front_matter,
+)
 
 SCHEMA_VERSION = "1.0.0"
 
-# Casa de la Familia, Urb. Cerros del Águila, 29649 Las Lagunas de Mijas.
-# Plus Code 8C8QG8PP+7W (centre of the ~14 m code area), supplied by the owner 2026-10-05.
-CASA_LAT, CASA_LON = 36.5356875, -4.6626875
 PRIMARY_RADIUS_KM = 30.0
 
 REQUIRED = [
@@ -59,27 +53,6 @@ YES_NO_PARTIAL = {"yes", "no", "partial", "unknown"}
 YES_NO = {"yes", "no", "unknown"}
 COST = {"Free", "€", "€€", "€€€", "€€€€", "Unknown"}
 COORD_PURPOSE = {"venue", "entrance", "town_center", "representative_point"}
-
-
-def haversine_km(lat1, lon1, lat2, lon2):
-    r = 6371.0088
-    p1, p2 = math.radians(lat1), math.radians(lat2)
-    dp, dl = p2 - p1, math.radians(lon2 - lon1)
-    a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
-    return 2 * r * math.asin(math.sqrt(a))
-
-
-def load_front_matter(path: Path):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
-        raise ValueError("file does not start with YAML front matter (---)")
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        raise ValueError("front matter is not closed with ---")
-    data = yaml.safe_load(parts[1])
-    if not isinstance(data, dict):
-        raise ValueError("front matter is not a mapping")
-    return data
 
 
 def load_registry():

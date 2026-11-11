@@ -5,3 +5,4 @@
 trips/*
 !trips/README.md
 __pycache__/
+*.textClipping

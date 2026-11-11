@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-12 - Shared helpers for the tools (level A, tooling only)
+
+- New `tools/common.py` holds the project paths, the origin point (Casa de la Familia), record reading (`load_front_matter`), `haversine_km` and drive-time parsing (`minutes`). `places.py`, `app_export.py`, `trip.py`, `route_check.py` and `intake.py` import from it instead of each keeping their own copy; `places.py` still exposes `CASA_LAT`/`CASA_LON` and `load_front_matter` for older imports.
+- Fixed: drive times in Google's format "2 hours 35 mins" were read as 120 minutes by `app_export.py` (the "mins" part was dropped) and as unknown by `trip.py` (it only read "NN min"). Both now use `common.minutes`, which reads 155. No exported place was affected today: the 18 records with hour-long drives are archive or lack coordinates.
+- Verified unchanged: `places.py validate` output, `data/place-catalog.csv`, `data/app-export/*.json`, the Danish to-do list, `trip.py places` and `trip.py check-restaurants` are byte-identical before and after.
+- New tests in `tests/test_common.py`; all tests run with `python3 -m unittest discover -s tests` (now in `README.md`).
+- Housekeeping: a macOS text clipping under `Claude.md/` removed from git (the file stays on disk) and `*.textClipping` ignored. `README.md` now states the 30-minute drive rule (owner decision 2026-10-29) instead of the old 30 km straight-line rule.
+- No change to records, schema, statuses or `AGENTS.md`.
+
 ## 2026-11-11 (night) - First editor list answered: 7 conflicts decided, 19 drafts archived
 
 - Answers from the first editor list (Artifact "Redaktørlisten", https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc): the owner decided all 26 items, each as Claude recommended, with no notes. Evidence entries (owner's judgement, medium confidence) added to the records.

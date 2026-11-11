@@ -51,13 +51,10 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent
-PLACES = ROOT / "docs" / "places"
-REGISTRY = ROOT / "data" / "place-id-registry.csv"
-MEMBERSHIP = ROOT / "data" / "layer-membership.csv"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common import LAYER_MEMBERSHIP as MEMBERSHIP, ORIGIN, ORIGIN_TEXT, PLACES, REGISTRY, ROOT  # noqa: E402,F401
+
 TEMPLATES = Path(__file__).resolve().parent / "templates"
-ORIGIN = (36.5356875, -4.6626875)
-ORIGIN_TEXT = "Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain"
 def _next_saturday():
     d = dt.date.today() + dt.timedelta(days=1)
     while d.weekday() != 5:
