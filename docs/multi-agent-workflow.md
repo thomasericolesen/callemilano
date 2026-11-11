@@ -183,7 +183,15 @@ Issues are closed by these rules and never in bulk to reach a status.
 
 ### Push, PR, merge and import
 
-Standing permission for changes that consist only of level A/B work: Claude may push, open the PR with `gh`, merge and import into the app, and reports afterwards. Changes with level C/D content (archiving, categories, tags, conflicts, rule changes in `AGENTS.md`) are merged only after the editor has answered. `main` changes only through a PR. After every import, check it: count of updated places, none skipped, a spot check of one place. GitHub work uses `gh` (logged in as `thomasericolesen`); the import (`callemilano.dk/admin`), the Facebook/Instagram checks and Google Maps checks need Claude in Chrome open and signed in.
+Standing permission for changes that consist only of level A/B work: Claude may push, open the PR with `gh`, merge and import into the app, and reports afterwards. Changes with level C/D content (archiving, categories, tags, conflicts, rule changes in `AGENTS.md`) are merged only after the editor has answered. `main` changes only through a PR. After every import, check it: count of updated places, none skipped, a spot check of one place. GitHub work uses `gh` (logged in as `thomasericolesen`). The import into the app needs no browser (owner decision 2026-11-11): 
+
+```
+curl -s -X POST -H "Authorization: Bearer $(cat ~/.callemilano-import-token)" -H "content-type: application/json" \
+  --data-binary @data/app-export/places.json "https://callemilano.dk/api/import-places"          # dry run
+curl -s -X POST ... "https://callemilano.dk/api/import-places?apply=1"                           # writes
+```
+
+The route reuses the admin import logic (`runCatalogImport` in the app repo). The token is a 48-character file on the owner's Mac (mode 600); the database holds only its SHA-256 in `public.import_tokens` and an expiry date (created 2026-11-11, expires 2027-02-09). To renew: make a new token file, insert only the new hash with a 90-day expiry (query in the comment at the top of `src/routes/api/import-places.ts` in the app repo), delete the old row. Claude never prints the token. The Facebook/Instagram checks and Google Maps checks still need Claude in Chrome open and signed in. `callemilano.dk/admin` remains as a fallback for the import.
 
 ### When the family uses the app
 
