@@ -23,12 +23,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: 46 min
+  duration: "47 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: Selwo Aventura (36.462831, -5.0856)
-  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination = record coordinates (36.462831,-5.0856); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.462831%2C-5.0856&travelmode=driving
-  checked_at: '2026-11-01'
-  note: 'Routes API figure: 46 min with predicted Saturday 10:00 traffic (46 min without traffic), 48.6 km via A-7; an avoid-tolls run gave 46 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 46 mins (2026-11-01): Google Routes API computeRouteMatrix, live traffic Sunday 2026-11-01 about 12:13, toll roads avoided. Batch: data/route-checks-2026-11-01-local.csv.'
+  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.462831%2C-5.0856&travelmode=driving"
+  checked_at: 2026-11-11
+  note: "49.4 km via A-7. Replaces 46 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -158,7 +158,7 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-03
-updated_at: 2026-10-03
+updated_at: '2026-11-11'
 last_verified: 2026-10-03
 last_reviewed_at: null
 next_review_at: null

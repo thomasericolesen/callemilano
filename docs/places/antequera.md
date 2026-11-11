@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "75 min"
+  duration: "66 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: "Alcazaba de Antequera, Pl. de los Escribanos s/n, 29200 Antequera, Málaga, Spain"
-  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/woJAXvjD8WZEahxW8"
-  checked_at: 2026-10-29
-  note: "Google main figure, departure about 10:00 Thursday 2026-10-29 (Google only lets the owner choose time of day, not the date). Typical range shown: 1 h to 1 h 20 min; 82.3 km via AP-46. Replaces the OSRM figure of 65 min (2026-10-15)."
+  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=37.0144361%2C-4.5577719&travelmode=driving"
+  checked_at: 2026-11-11
+  note: "85.0 km via AP-46 (route has tolls). Replaces 75 min from the earlier check of 2026-10-29 (owner measurement); its method is in the git history."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -161,7 +161,7 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-29
+updated_at: '2026-11-11'
 last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15

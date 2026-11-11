@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "85 min"
+  duration: "73 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: "El Torcal de Antequera, Centro de Visitantes Torcal Alto, Ctra. de Acceso al Torcal Alto km 3,5, Antequera, Málaga, Spain"
-  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/uK3FLocJFtEtEhcq9"
-  checked_at: 2026-10-29
-  note: "Google main figure, departure about 10:00 Thursday 2026-10-29 (Google only lets the owner choose time of day, not the date). Typical range shown: 1 h 5 min to 1 h 25 min; 77.2 km via A-7 (alternatives 76.8 km via AP-46 and 86.2 km via A-7 and A-45). The headline figure is at the top of the typical range because toll roads are avoided. Replaces the OSRM figure of 72 min."
+  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.961079%2C-4.5584866&travelmode=driving"
+  checked_at: 2026-11-11
+  note: "79.8 km via A-7 (route has tolls). Replaces 85 min from the earlier check of 2026-10-29 (owner measurement); its method is in the git history."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -167,7 +167,7 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-29
+updated_at: '2026-11-11'
 last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15

@@ -25,12 +25,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "65 min"
+  duration: "63 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: "Centro de Recepción de Visitantes, Puerto de las Atalayas (Google Maps: Caminito del Rey Visitor Reception Centre), Ardales, Málaga, Spain"
-  source: "Google Maps, measured by the owner (Eric Olesen) on 2026-10-29 from Calle Milano 35; toll roads avoided (owner's standing setting) - https://maps.app.goo.gl/y7VrPab9e4HezvHg8"
-  checked_at: 2026-10-29
-  note: "Google main figure, departure about 10:00 Thursday 2026-10-29 (Google only lets the owner choose time of day, not the date). Typical range shown: 1 h to 1 h 15 min; 62.3 km via A-357. Replaces the OSRM figure of 75 min (2026-10-15); an earlier Google pin 'Caminito del rey' (not the reception centre) gave 1 h 17 min."
+  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.914782%2C-4.8080823&travelmode=driving"
+  checked_at: 2026-11-11
+  note: "62.6 km via A-357. Replaces 65 min from the earlier check of 2026-10-29 (owner measurement); its method is in the git history."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -159,7 +159,7 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-29
+updated_at: '2026-11-11'
 last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15

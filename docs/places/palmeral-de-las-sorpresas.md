@@ -20,12 +20,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: 37 min
+  duration: "40 min"
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: Palmeral de Las Sorpresas, Málaga
-  source: Google Routes API computeRoutes, run 2026-11-01 from the project origin (36.5356875, -4.6626875); destination geocoded by Google from the record's destination text (the record has no coordinates); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=Palmeral+de+Las+Sorpresas%2C+M%C3%A1laga%2C+Spain&travelmode=driving
-  checked_at: '2026-11-01'
-  note: 'Routes API figure: 37 min with predicted Saturday 10:00 traffic (38 min without traffic), 35.9 km via AP-7; an avoid-tolls run gave 37 min. One predicted sample, not the Google Maps app''s main figure; traffic and season change the time. Previous value 38 mins (2026-11-01): Google Routes API computeRouteMatrix, live traffic Sunday 2026-11-01 about 12:13, toll roads avoided. Batch: data/route-checks-2026-11-01-local.csv.'
+  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=Palmeral+de+las+Sorpresas%2C+P%C2%BA+del+Muelle+Uno%2C+29015+M%C3%A1laga%2C+Spain&travelmode=driving"
+  checked_at: 2026-11-11
+  note: "38.6 km via AP-7 (route has tolls). Replaces 37 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history."
 age_groups:
   - Small children (0-6)
   - Children (7-12)
@@ -154,7 +154,7 @@ review_issues:
   retryable: false
   owner: human_editor
 created_at: '2026-10-04'
-updated_at: '2026-10-04'
+updated_at: '2026-11-11'
 last_verified:  null
 last_reviewed_at:  null
 next_review_at:  null
