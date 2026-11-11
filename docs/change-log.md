@@ -1,8 +1,12 @@
 # Change log
 
+## 2026-11-12 - Language rule in `AGENTS.md` (owner decision, chat)
+
+- New section "Language" in `AGENTS.md`: Claude reports to the editor-of-record in Danish (chat replies, reports, editor lists, weekly summaries, PR descriptions and status files). Code, file names, commands, schema values and the English record texts are unchanged. The owner asked for Danish reports in chat on 2026-11-11 and for the rule in `AGENTS.md` on 2026-11-12.
+
 ## 2026-11-12 - `CLAUDE.md` added (owner request in chat)
 
-- New `CLAUDE.md` at the repository root imports `AGENTS.md` (`@AGENTS.md`), so every Claude Code session loads the project rules, also on the web, in the cloud and on the phone. It adds no rules of its own: it points to `docs/project-state.md`, the newest status file, the change log and the documentation map, records the owner's request of 2026-11-11 to report in Danish, and lists what exists only on the owner's Mac (import token, Claude in Chrome, `trips/`).
+- New `CLAUDE.md` at the repository root imports `AGENTS.md` (`@AGENTS.md`), so every Claude Code session loads the project rules, also on the web, in the cloud and on the phone. It adds no rules of its own: it points to `docs/project-state.md`, the newest status file, the change log and the documentation map, points to the language rule, and lists what exists only on the owner's Mac (import token, Claude in Chrome, `trips/`).
 - `CLAUDE.md` needs no daily update: the daily state lives in `docs/change-log.md` and `docs/status-*.md`, which reach git through PRs.
 
 ## 2026-11-12 - `docs/` sorted into subfolders (level B, owner's yes in chat)

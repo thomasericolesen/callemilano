@@ -11,7 +11,7 @@ All project rules live in `AGENTS.md`, imported here so every Claude Code sessio
 - `docs/change-log.md`: decisions and changes, newest first.
 - `docs/README.md`: map of the documentation.
 
-Report to the editor-of-record in Danish (owner request 2026-11-11).
+Report in Danish (see "Language" in `AGENTS.md`).
 
 ## Sessions away from the owner's Mac
 
