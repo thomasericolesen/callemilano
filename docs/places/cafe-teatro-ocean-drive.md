@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-CAFE-TEATRO-OCEAN-DRIVE-001
 slug: cafe-teatro-ocean-drive
 name: Café Teatro by Ocean Drive
@@ -142,7 +142,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

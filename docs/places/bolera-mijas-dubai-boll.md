@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-BOLERA-MIJAS-DUBAI-BOLL-001
 slug: bolera-mijas-dubai-boll
 name: Bolera Mijas (Dubai Boll)
@@ -145,20 +145,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: hours_and_prices_unverified
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  description: 'Facilities confirmed from the own Facebook page (2026-11-02): restaurant, bowling, children''s area, bouncy castle, arcade, trampoline area. Hours and prices still have no own source: third-party listings and a Google AI overview give Mon-Thu 16:00-00:00, Fri 16:00-02:00, Sat 16:15-02:00, Sun 12:00-00:00 and Wednesday offers (e.g. €4 per game); confirm from an own post or a call (952 19 89 33).'
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: '2026-11-02'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

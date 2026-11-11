@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-SOMOS-DE-BANUS-001
 slug: somos-de-banus
 name: Somos de Banús
@@ -139,20 +139,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - visit_information
-  - booking_required
-  description: 'Own website checked 2026-11-02; price band set by owner 2026-11-08. Still open: visit_information. Opening hours change by season; check before publishing.'
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

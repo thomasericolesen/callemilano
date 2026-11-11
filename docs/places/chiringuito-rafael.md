@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-CHIRINGUITO-RAFAEL-001
 slug: chiringuito-rafael
 name: Chiringuito Rafael
@@ -166,34 +166,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: driving_time_near_local_limit
-  severity: info
-  fields:
-  - driving_time_from_casa_de_la_familia
-  description: Routes API gives 28 min (Saturday 10:00), close to the 30-min local_30km limit.
-  retryable: true
-  owner: human_editor
-- code: weak_identity_source
-  severity: info
-  fields:
-  - links
-  - evidence
-  description: Identity corroborated 2026-11-02 by several independent listings (Paseo Marítimo, opposite Playa de la Salud, Benalmádena). Current operation, season and hours still need the own Facebook page (owner screenshot) or a call.
-  retryable: true
-  owner: fact_check
-- code: cost_level_secondary_source
-  severity: info
-  fields:
-  - cost_level
-  description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
-  retryable: true
-  owner: human_editor
+review_issues: []
 created_at: 2026-11-01
 updated_at: '2026-11-11'
 last_verified: 2026-11-01
-last_reviewed_at: null
-next_review_at: 2027-04-01
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

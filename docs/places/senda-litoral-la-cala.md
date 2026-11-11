@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-SENDA-LITORAL-LA-CALA-001
 slug: senda-litoral-la-cala
 name: Senda Litoral (La Cala de Mijas)
@@ -131,28 +131,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: category_editorial_choice
-  severity: info
-  fields:
-  - category
-  description: 'Category ''Excursions'' was chosen by Claude from the schema definitions (routes and sights: Excursions; towns: City; natural areas: Nature; visitor attractions: Family activities). Confirm at editorial review.'
-  retryable: true
-  owner: human_editor
-- code: local_section_unchecked
-  severity: warning
-  fields:
-  - accessibility
-  - description_long
-  - visit_information
-  description: The record point is at La Cala; the La Cala/Mijas section's length, surface and access (pushchairs, wheelchairs, bikes) need Mijas council's Senda Litoral page.
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: '2026-11-02'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-PLAYA-LA-MALAGUETA-001
 slug: playa-la-malagueta
 name: Playa la Malagueta
@@ -203,7 +203,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-10-04'
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

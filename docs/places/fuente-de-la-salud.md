@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-MAL-FUENTE-DE-LA-SALUD-001
 slug: fuente-de-la-salud
 name: Fuente de la Salud
@@ -183,7 +183,7 @@ evidence:
   notes: Owner approved Claude's earlier proposal in the session chat on 2026-11-02, after the rocks question was settled by the 2026-11-02 beach rule. Editorial judgment, not an external fact source; source_type is the nearest schema value. Scores are suitability guidance, not safety advice.
 review_issues: []
 created_at: '2026-10-29'
-updated_at: '2026-11-02'
+updated_at: '2026-11-11'
 last_verified: '2026-10-29'
 last_reviewed_at: null
 next_review_at: null

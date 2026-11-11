@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-EL-GRAN-PARQUE-DE-MIJAS-001
 slug: el-gran-parque-de-mijas
 name: El Gran Parque de Mijas
@@ -147,29 +147,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: no_official_website
-  severity: info
-  fields:
-  - links
-  description: Google lists no website; facts may have to come from a social page or a direct contact.
-  retryable: true
-  owner: fact_check
-- code: park_facilities_and_hours_unknown
-  severity: warning
-  fields:
-  - visit_information
-  - toilets_available
-  - parking
-  - accessibility
-  description: Only the splash park is sourced. Park opening hours, playgrounds, toilets and parking need a municipal source; the 2027 splash-park season is not announced.
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: '2026-11-02'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

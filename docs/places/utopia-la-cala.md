@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-UTOPIA-LA-CALA-001
 slug: utopia-la-cala
 name: UTOPÍA
@@ -147,28 +147,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: facts_partly_checked
-  severity: warning
-  fields:
-  - accessibility
-  - booking_required
-  - seasonality
-  description: 'Own website and carta read 2026-11-08. Still open: accessibility, whether booking is required, high chairs, season.'
-  retryable: true
-  owner: fact_check
-- code: cost_level_borderline
-  severity: info
-  fields:
-  - cost_level
-  description: Median burger 16,50 € without a drink price; € holds only if a drink costs under 3,50 €. Check a drink price on site.
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

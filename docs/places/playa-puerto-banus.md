@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-PLAYA-PUERTO-BANUS-001
 slug: playa-puerto-banus
 name: Playa de Puerto Banús
@@ -139,28 +139,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: lifeguard_season_unchecked
-  severity: warning
-  fields:
-  - description_long
-  - accessibility
-  description: Lifeguard service and bathing-season dates for 2027 are not checked against the council's beach plan; check before publishing safety-related text.
-  retryable: true
-  owner: fact_check
-- code: official_page_not_readable
-  severity: warning
-  fields:
-  - description_long
-  - toilets_available
-  description: The tourist board page for this beach blocks automated reading; only a search excerpt was used. Facilities need the full page (owner screenshot) or Marbella council's beach information.
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: null
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

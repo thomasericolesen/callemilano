@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-ZERO-LATENCY-MIRAMAR-001
 slug: zero-latency-miramar
 name: Zero Latency Miramar
@@ -160,27 +160,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: minimum_age_conflict
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  description: The Málaga page says no fixed minimum age (minimum height per game); the chain FAQ says 13+. Confirm with the venue (+34 951811105) before any child suitability claim. A Google AI overview (2026-11-02) says 'typically 10+'; AI summaries are not a source, so the conflict stands.
-  retryable: true
-  owner: fact_check
-- code: booking_prices_unconfirmed
-  severity: info
-  fields:
-  - cost_level
-  description: Gift-voucher price is €29.95 per ticket (own booking site, owner screenshot 2026-11-02); the regular per-game booking price and any day differences were not seen. Phone settled as +34 951 81 11 05 (operator page and own Facebook page agree).
-  retryable: true
-  owner: fact_check
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: '2026-11-02'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

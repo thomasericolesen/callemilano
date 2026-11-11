@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: approved
 id: ES-AND-MAL-RESTAURANTE-CERROS-DEL-AGUILA-001
 slug: restaurante-cerros-del-aguila
 name: Restaurante Cerros del Águila
@@ -147,34 +147,16 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
   confidence: medium
   notes: Owner's own judgment on the tag checklist on 2026-11-11 (previous tags were estimates from import); not independently verified. source_type secondary is the nearest schema value.
-review_issues:
-- code: no_official_website
-  severity: info
-  fields:
-  - links
-  description: Google lists no website; facts may have to come from a social page or a direct contact.
-  retryable: true
-  owner: fact_check
-- code: hours_and_prices_unverified
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  description: The own Facebook page gives phone and services but no real opening hours or menu. Hours and season (the pool is seasonal per the owner) need a direct check; cost_level € rests on the owner's knowledge and should be confirmed with a menu or a visit.
-  retryable: true
-  owner: fact_check
-- code: cost_level_owner_source
-  severity: info
-  fields:
-  - cost_level
-  description: cost_level € comes from the owner's own knowledge (2026-11-03), not a menu; the Facebook page says "moderate". Replace with menu prices when a menu or an owner screenshot is available.
-  retryable: true
-  owner: human_editor
+review_issues: []
 created_at: '2026-11-02'
 updated_at: '2026-11-11'
 last_verified: '2026-11-02'
-last_reviewed_at: null
-next_review_at: null
-review_decision: null
+last_reviewed_at: '2026-11-11'
+next_review_at: '2027-04-11'
+review_decision:
+  decision: approved
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-11'
+  notes: "Approved by the owner on 2026-11-11 after his own review of the place on the family-rating checklist (2026-11-10) and the tag checklist (2026-11-11), on top of the agent fact-check. Practical details that are still unknown stay shown as 'check before visiting'."
 redirects: []
 ---

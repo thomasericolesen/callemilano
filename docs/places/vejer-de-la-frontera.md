@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_fact_check
+status: needs_editorial_review
 id: ES-AND-CAD-VEJER-DE-LA-FRONTERA-001
 slug: vejer-de-la-frontera
 name: Vejer de la Frontera
@@ -179,7 +179,7 @@ review_issues:
     retryable: true
     owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-30
+updated_at: '2026-11-11'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15
