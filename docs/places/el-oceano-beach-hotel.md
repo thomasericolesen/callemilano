@@ -68,7 +68,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Own à la carte menu: quoted mains 26, 28 and 32 € (median 28 €); drink prices not on the page, so main plus one drink is about 30 € or more, inside 20-50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03).'
+  cost_basis: 'Own à la carte menu: quoted mains 26, 28 and 32 € (median 28 €); drink prices not on the page, so main plus one drink is about 30 € or more, inside 20-50 €. Band rule: median main on the menu + one drink; € <20, €€ 20-50, €€€ >50 (owner decision 2026-11-03). Sunday menu prices: check before visiting (the hotel''s own page states two different sets, 49/59 and 45/55 EUR; left unknown by the editor''s decision on 2026-11-13).'
   cost_checked_at: '2026-11-02'
 links:
   official_website: https://www.oceanohotel.com/
@@ -155,6 +155,14 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: 'Pool access wording is from the lunch page, booking wording from the Sunday-menu page; whether non-hotel-guests may use the Polynesian pool/pool bar is still not stated. Dinner-with-music booking rule not found. Phone: "Telephone  (+34) 952 587 550".'
+- field: visit_information.cost_basis (Sunday menu)
+  claim: 'Editor decision 2026-11-13 on the editor list: write ''check before visiting'' and leave the Sunday menu prices unknown.'
+  source_url: https://claude.ai/artifact/EpwDTtUv1wLvgu1u5Yy5Jn
+  source_type: secondary
+  checked_at: '2026-11-13'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-13
+  confidence: medium
+  notes: Resolves the source_conflict opened 2026-11-13; the a la carte Fillet Steak 38 EUR is noted in the evidence only.
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -180,14 +188,6 @@ review_issues:
   description: Not checked whether non-guests can use the Polynesian pool and pool bar, booking rules for dinner with music, or prices.
   retryable: true
   owner: fact_check
-- code: source_conflict
-  description: Own website Sunday menu page states both '2 Courses 49€, 3 Courses 59€.' and 'Two courses are priced at €45. Three courses at €55.' Not resolved; also the a-la-carte page shows Fillet Steak 38 €, above the mains listed in cost_basis. Editor to decide which figures hold.
-  fields:
-  - visit_information.cost_basis
-  - cost_level
-  owner: editor
-  retryable: false
-  severity: blocking
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-13 - Editor list of 13 November answered (owner decisions, list)
+
+Source: https://claude.ai/artifact/EpwDTtUv1wLvgu1u5Yy5Jn, answers read from collection `editorlist-2026-11-13`.
+
+- **Conflicts decided:** `el-oceano-beach-hotel`: write "check before visiting" and leave the Sunday menu prices unknown (noted in `cost_basis`). `olvera-castle`: use the Olvera tourism site's hours (Tuesday to Sunday, split hours, winter 10:30-14:00 / 16:00-18:00, summer 10:30-15:00 / 16:00-20:30), replacing the 2026-11-11 tourist-office hours. `tarifa`: the castle office phone is 607 984 871. The three blocking `source_conflict` issues are closed with an evidence entry each.
+- **Archived** (`archived` with `review_decision`): `moga-la-cala`, `sky-bar-veramar`, `rio-grande-coin`, `senda-litoral-malaga-oeste`. All were drafts, so none was in the app. `sould-park-fuengirola` was archived earlier today after the editor's chat message (see the entry below); the list answer "keep and retry" was given before it and is superseded by that later chat decision.
+- **Keep and retry:** `castillo-de-monda`, `canon-de-las-angosturas`, `paseo-maritimo-marbella` stay `draft` and are read again with Claude in Chrome.
+- **App:** the Danish texts for `olvera-castle` and `el-oceano-beach-hotel` were rewritten in `data/app-texts-da.json` (new hash), so the export shows them in Danish (134 Danish, none stale). `data/app-export/` regenerated; the app needs an import (2 places changed).
+
 ## 2026-11-13 - `sould-park-fuengirola` archived (owner decision, chat)
 
 - The editor said the place is Sould Park Miramar and asked to try the operator's Facebook and Instagram again, and to archive if that failed. Read in Claude in Chrome: `souldpark.com/ocio/` lists "FUENGIROLA / CC MIRAMAR" but its tab only opens a map link; Instagram `souldpark_es` and Facebook `souldpark` name Fuengirola as a location but give no hours, prices, age rules or attractions. (My earlier statement on the editor list that the operator's site had no Fuengirola venue was wrong.)

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-RIO-GRANDE-COIN-001
 slug: rio-grande-coin
 name: Río Grande (Coín)
@@ -144,6 +144,10 @@ updated_at: '2026-11-13'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-13'
+  notes: 'Owner decision 2026-11-13 on the editor list (https://claude.ai/artifact/EpwDTtUv1wLvgu1u5Yy5Jn): archive (no official page for the path found after two source attempts); we already have enough places. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

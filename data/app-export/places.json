@@ -3292,7 +3292,7 @@
     "practical": [
      {
       "label": "Pris",
-      "text": "Hovedretter på à la carte-menuen 26, 28 og 32 € (typisk 28 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 30 € eller mere."
+      "text": "Hovedretter på à la carte-menuen 26, 28 og 32 € (typisk 28 €). Drikkepriser er ikke oplyst, så en hovedret og en drik koster ca. 30 € eller mere. Priser på søndagsmenuen: tjek før besøg (hotellets egen side oplyser to forskellige priser)."
      }
     ],
     "links": {
@@ -8302,7 +8302,7 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Borgen: om sommeren dagligt 10.00-20.00; om vinteren dagligt 10.00-19.00 (uden pause), ifølge turistkontoret. Hvornår sæsonen skifter, er ikke oplyst. En ældre kommunal side (ændret 2023) angiver 10.00-20.00 hele året; turistkontorets tider er valgt."
+      "text": "Borgen (Olveras turismeside): tirsdag til søndag. Vinter 10.30-14.00 og 16.00-18.00; sommer 10.30-15.00 og 16.00-20.30. Åben på mandage, der er helligdage eller dagen før en helligdag; ellers ring til turistkontoret, 665 94 00 87. Hvornår sæsonen skifter, er ikke oplyst."
      },
      {
       "label": "Pris",
@@ -8319,7 +8319,7 @@
     "trip": {
      "record_category": "Family activities",
      "municipality": "Unknown",
-     "schedule": "Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous), from the tourist office. Dates of the season change are not stated. An older municipal page (changed 2023) gives 10:00-20:00 all year; the owner chose the tourist-office hours on 2026-11-11.",
+     "schedule": "Castle (Olvera tourism site, read 2026-11-13): Tuesday to Sunday. Winter 10:30-14:00 and 16:00-18:00; summer 10:30-15:00 and 16:00-20:30. Open on Mondays that are holidays or eves of holidays; otherwise call the tourist office, 665 94 00 87. Dates of the season change are not stated. Replaces the earlier tourist-office hours (daily 10:00-20:00 / 10:00-19:00) by the editor's decision on 2026-11-13.",
      "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": true,
