@@ -1,6 +1,6 @@
 {
  "manifest": {
-  "generated": "2026-11-11",
+  "generated": "2026-11-13",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
   "places": 158,
@@ -155,7 +155,7 @@
      "booking": null,
      "info": "https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/"
     },
-    "checked_at": "2026-10-29",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -169,7 +169,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -722,7 +722,7 @@
      "phone": null,
      "booking_lead_time": "Individual visits are described as free, unscheduled access during opening hours ('acceso libre e individual'), no booking needed. Groups and guided visits require a reservation via the official page's booking link.",
      "typical_duration": "1.5–3 hours (editorial planning estimate; guided visit length varies)",
-     "updated_at": "2026-10-16"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -784,7 +784,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -1238,7 +1238,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -1391,7 +1391,7 @@
      "booking": null,
      "info": "https://catedraldecadiz.com/horarios-visita-turistica/"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -1405,7 +1405,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -1550,7 +1550,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -1627,7 +1627,7 @@
      "booking": "https://caminitodelrey.info/",
      "info": "https://caminitodelrey.info/informacion-practica/"
     },
-    "checked_at": "2026-10-29",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "Excursions",
@@ -1641,7 +1641,7 @@
      "phone": "+34952470505",
      "booking_lead_time": "Online booking (caminitodelrey.info) is the primary route, limited to 10 tickets per purchase; phone booking also available (+34 952 47 05 05), payment due on arrival. Tickets at the ticket office are sold only subject to availability — online booking in advance is effectively required, especially in high season.",
      "typical_duration": "About 1 h 30 min - 2 h on the walkway, plus the shuttle (15-20 min) back to the car park",
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -2005,7 +2005,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -2317,7 +2317,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -2615,7 +2615,7 @@
      "booking": "https://www.mezquita-catedraldecordoba.es/en/organiza-la-visita/entradas-y-horarios/",
      "info": "https://mezquita-catedraldecordoba.es/en/organiza-la-visita/entradas-y-horarios/"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -2629,7 +2629,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "Roughly 1-2 hours for a standard self-guided visit (secondary-source estimate; not stated officially).",
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -2942,7 +2942,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "About 30 minutes one way (1,048 m), low difficulty, per the official trail page; longer if combined with the beach (editorial allowance).",
-     "updated_at": "2026-10-16"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -3300,7 +3300,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -3314,7 +3314,7 @@
      "phone": "+34952587550",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -3705,13 +3705,13 @@
      "booking": null,
      "info": "https://www.turismofrigiliana.es/es/la-oficina-de-turismo.html"
     },
-    "checked_at": "2026-11-11",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
      "municipality": "Frigiliana",
      "schedule": "Museo Arqueológico, exhibition rooms and tourist office share the same hours (museum site): 16 Sep-1 Jul Mon-Fri 10:00-18:00, Sat 10:00-14:00 and 16:00-20:00, Sun 10:00-14:00; 1 Jul-15 Sep Mon-Sat 10:00-14:30 and 17:30-21:00, Sun 10:00-14:30. The tourist-office page instead gives Sat 10:00-18:00 in winter; the owner chose the museum's hours on 2026-11-11.",
-     "schedule_checked_at": "2026-11-11",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -3719,7 +3719,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -4256,13 +4256,13 @@
      "booking": "https://naturereserve.gi/tickets/",
      "info": "https://www.visitgibraltar.gi/see-and-do/gibraltar-nature-reserve-upper-rock"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "City",
      "municipality": "Gibraltar",
      "schedule": "Upper Rock Nature Reserve: 1 Oct-30 Apr opens 9:00, last ticket sale 17:15, last entry 17:45, closes 18:15. 1 May-30 Sep opens 9:30, closes 19:15. Subject to change. Cable car: ticket page shows 'Closed for refurbishment' (date of the notice unknown); normally daily 10:00-16:00 according to the same page.",
-     "schedule_checked_at": "2026-10-30",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -4270,7 +4270,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -4345,13 +4345,13 @@
      "booking": "https://tickets.alhambra-patronato.es/",
      "info": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
      "municipality": "Granada",
      "schedule": "Alhambra day visit 15 Oct-31 Mar: daily 8:30-18:00 (ticket office 8:00-18:00). Night visit 15 Oct-31 Mar: Fri-Sat 20:00-21:30. Closed 25 Dec and 1 Jan. Summer (1 Apr-14 Oct): 8:30-20:00.",
-     "schedule_checked_at": "2026-10-30",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": true,
      "rainy_day": false,
@@ -4359,7 +4359,7 @@
      "phone": "+34858889002",
      "booking_lead_time": "Not stated on the official page; secondary sources (not independently confirmed officially) consistently describe tickets as released roughly 3 months ahead and often selling out in high season — book as far in advance as possible.",
      "typical_duration": "Around 3 hours for the general visit.",
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -4421,7 +4421,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -4803,7 +4803,7 @@
      "booking": null,
      "info": "https://www.jerez.es/webs-municipales/conjunto-monumental-del-alcazar/informacion/tarifas"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -4817,7 +4817,7 @@
      "phone": "+34956149955",
      "booking_lead_time": "Bodega tours bookable online, reportedly with same-day or next-day availability depending on capacity (via resellers; not confirmed on the bodega's own official page).",
      "typical_duration": "Bodega tour (González Byass, if chosen as an activity) reported around 90 minutes, ending with a tasting.",
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -5495,7 +5495,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -5715,7 +5715,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -5935,7 +5935,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -6565,7 +6565,7 @@
      "booking": null,
      "info": "https://turismo.marbella.es/vive/cultura/patrimonio-historico/casco-historico.html"
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -6579,7 +6579,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -6969,7 +6969,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "45–90 minutes (editorial planning estimate)",
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -7559,7 +7559,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -7932,7 +7932,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -8022,7 +8022,7 @@
      "phone": "+34952521531",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -8084,7 +8084,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -8314,13 +8314,13 @@
      "booking": null,
      "info": "https://www.turismoolvera.es/informacion"
     },
-    "checked_at": "2026-11-11",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
      "municipality": "Unknown",
      "schedule": "Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous), from the tourist office. Dates of the season change are not stated. An older municipal page (changed 2023) gives 10:00-20:00 all year; the owner chose the tourist-office hours on 2026-11-11.",
-     "schedule_checked_at": "2026-11-11",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": true,
      "rainy_day": false,
@@ -8328,7 +8328,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "1–2 hours including the castle and short old-town walk (editorial planning estimate)",
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -8840,7 +8840,7 @@
      "booking": null,
      "info": "https://www.malaga.eu/la-ciudad/playas/la-malagueta/"
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "Beaches",
@@ -8854,7 +8854,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "1–3 hours (editorial planning estimate)",
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -9592,7 +9592,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -9895,7 +9895,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -9971,7 +9971,7 @@
      "booking": null,
      "info": "https://turismoderonda.es/es/ronda/que_ver/cool_places,arquitectura_plazas_monumentos/puente_nuevo_de_ronda"
     },
-    "checked_at": "2026-11-11",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -9985,7 +9985,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -10118,7 +10118,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Beaches",
@@ -10132,7 +10132,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -10358,7 +10358,7 @@
      "booking": "https://www.selwo.es/en/comprar",
      "info": "https://www.selwo.es/en/horarios-y-precios/horarios"
     },
-    "checked_at": "2026-11-01",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "Family activities",
@@ -10372,7 +10372,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -10595,7 +10595,7 @@
      "booking": null,
      "info": "https://andalucia.org/en/setenil-de-las-bodegas-information-services-setenil-de-las-bodegas"
     },
-    "checked_at": "2026-11-08",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -10609,7 +10609,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-08"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -10698,7 +10698,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "About 75 minutes for the cathedral visit.",
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -10787,7 +10787,7 @@
      "phone": "+34658034452",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-15"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -11162,7 +11162,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -11317,7 +11317,7 @@
      "booking": null,
      "info": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/visitas-al-castillo-de-guzman-el-bueno-tarifa-cadiz"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -11331,7 +11331,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-30"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -11556,13 +11556,13 @@
      "booking": null,
      "info": "https://andalucia.org/en/tolox-health-and-beauty-balneario-de-tolox-2"
     },
-    "checked_at": "2026-11-01",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "Excursions",
      "municipality": "Tolox",
      "schedule": "Season 1 June - 16 October (spa's own site, re-read 2026-10-29). Closed for the season as of 29 October 2026. Dates for 2027 not published on the page.",
-     "schedule_checked_at": "2026-10-29",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": "2026-10-16",
      "needs_fixed_hours": true,
      "rainy_day": false,
@@ -11570,7 +11570,7 @@
      "phone": "+34952487091",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-29"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -11627,13 +11627,13 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
      "schedule": "Monday-Sunday 16:00-22:00 (own website, read 2026-11-02).",
-     "schedule_checked_at": "2026-11-02",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -11641,7 +11641,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -11872,13 +11872,13 @@
      "booking": null,
      "info": "https://turismovejer.es/turismo-monumental/"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
      "municipality": "Vejer de la Frontera",
      "schedule": "Tourist office: Mon-Sat 10:00-14:00 and 16:00-18:00, Sun 10:00-14:00. Museo de Vejer (Palacio del Marqués de Tamarón): Tue-Sun 10:30-14:00 and 17:00-20:00. Museo Municipal de Costumbres y Tradiciones: Tue-Sat 10:30-14:00 and 17:00-20:00 (Mon and Sun closed). Castle: Sat and Sun 11:00-14:00 only. Iglesia del Divino Salvador: phone 660 650 066. Casa del Mayorazgo temporarily closed.",
-     "schedule_checked_at": "2026-10-30",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -11886,7 +11886,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },
@@ -12121,13 +12121,13 @@
      "booking": null,
      "info": "https://www.zaharadelasierra.es/turismo/villa-medieval"
     },
-    "checked_at": "2026-11-08",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "City",
      "municipality": "Zahara de la Sierra",
      "schedule": "Tourist office (municipal site): daily 9:30-14:00 and 18:00-21:15. The text mentions no guided tours 'until after summer', so these are probably summer hours and may be out of date. Torre del Homenaje: no opening hours on the municipal pages.",
-     "schedule_checked_at": "2026-10-30",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -12135,7 +12135,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-13"
     }
    }
   },

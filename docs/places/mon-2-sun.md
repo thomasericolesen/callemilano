@@ -140,8 +140,15 @@ review_issues:
   description: Latest visible own post is from December 2024 and the website is gone. Confirm that the bar is open, its hours and prices before recommending it.
   retryable: true
   owner: fact_check
+- code: source_attempt_not_found
+  severity: info
+  fields:
+  - visit_information
+  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). One WebSearch found no result that mentions Mon2Sun. Results were only general Mijas tourism and tour listings. Stopped per the FIND rule. Owner or a Mac sessio Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

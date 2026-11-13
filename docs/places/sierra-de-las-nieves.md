@@ -150,8 +150,15 @@ review_issues:
     description: "Visitor facilities, access, parking, booking and dog policy remain unverified for any Sierra de las Nieves access point."
     retryable: true
     owner: fact_check
+  - code: source_attempt_not_found
+    severity: info
+    fields:
+    - visit_information
+    description: "Source attempt 2026-11-13 found nothing usable (ok). Park portal. The page mentions Yunquera only in a research news item. No Torrecilla permit, route, access point, parking, booking, dog or opening information on Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+    retryable: true
+    owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-15
+updated_at: '2026-11-13'
 last_verified: 2026-10-15
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15

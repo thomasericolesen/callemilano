@@ -165,6 +165,14 @@ evidence:
   checked_by: Claude (main session)
   confidence: low
   notes: 'Travel-site and review excerpts only; not confirmed by the municipality. Owner decision 2026-11-08: no phone call; price shown as approximate with a ''check online before going'' note.'
+- field: links.contact
+  claim: '"956 13 40 04"'
+  source_url: https://turismodesetenil.com/
+  source_type: official_tourism
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Municipal tourism page; shows phone 956 13 40 04 only. No castle price, hours, parking, accessibility or dog information; the Ronda link is not confirmed. Differs from the two tourist-office numbers in the record schedule note (616 55 33 84, 622 43 58 15), which may be separate offices; not treated as a conflict and no field changed.
 review_issues:
 - code: overlap_ronda
   severity: warning
@@ -207,7 +215,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: 2026-10-15
-updated_at: '2026-11-08'
+updated_at: '2026-11-13'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-15

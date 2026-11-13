@@ -6,9 +6,9 @@ slug: selwo-aventura
 name: Selwo Aventura
 category: Family activities
 tags:
-  - Nature
-  - Adventure
-  - Full day
+- Nature
+- Adventure
+- Full day
 coordinates:
   latitude: 36.462831
   longitude: -5.0856
@@ -23,17 +23,17 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "47 min"
+  duration: 47 min
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: Selwo Aventura (36.462831, -5.0856)
-  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.462831%2C-5.0856&travelmode=driving"
+  source: Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.462831%2C-5.0856&travelmode=driving
   checked_at: 2026-11-11
-  note: "49.4 km via A-7. Replaces 46 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history."
+  note: 49.4 km via A-7. Replaces 46 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history.
 age_groups:
-  - Small children (0-6)
-  - Children (7-12)
-  - Young adults
-  - Seniors
+- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
   small_children: medium
   children: high
@@ -41,9 +41,9 @@ family_score:
   seniors: medium
 energy_level: High
 seasonality:
-  - Spring
-  - Summer
-  - Autumn
+- Spring
+- Summer
+- Autumn
 accessibility:
   overall: unknown
   mobility:
@@ -66,22 +66,22 @@ parking:
   source: null
   checked_at: null
 transport_options:
-  - mode: bus
-    access_point: "Check current regular-service connections toward Estepona."
-    source: https://www.selwo.es/prepara-tu-visita/informacion-relevante/como-llegar
-    checked_at: 2026-10-03
+- mode: bus
+  access_point: Check current regular-service connections toward Estepona.
+  source: https://www.selwo.es/prepara-tu-visita/informacion-relevante/como-llegar
+  checked_at: 2026-10-03
 booking_required: false
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
 cost_level: €€
 visit_information:
-  schedule: "Check the official calendar for the chosen date; hours and activities can change."
+  schedule: Check the official calendar for the chosen date; hours and activities can change.
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: "Official page lists online general admission from €19.90 and box-office admission from €29.90; dynamic prices may change."
+  cost_basis: Official page lists online general admission from €19.90 and box-office admission from €29.90; dynamic prices may change.
   cost_checked_at: 2026-10-03
 links:
   official_website: https://www.selwo.es/en
@@ -90,75 +90,93 @@ links:
   transport: https://www.selwo.es/prepara-tu-visita/informacion-relevante/como-llegar
   contact: null
 related_places: []
-description_short: "An outdoor animal and adventure park in Estepona with bridges, animal areas, and optional guided experiences."
-description_long: "Selwo Aventura is an outdoor park in Estepona. Its official visitor information describes bridge walks, animal areas, and optional guided experiences, including the Serengeti Safari. The current ticket page lists general admission for visitors aged 8–64, reduced tickets for children and seniors, and free admission for children under 3 who are also under 1 metre; check the conditions before visiting. Admission prices vary with purchase timing and promotions, and the park calendar should be checked for the chosen date. Public transport connections should also be checked for current schedules. Route accessibility, parking details, toilets, food services, and pet rules have not been verified for this draft."
-seo_title: "Selwo Aventura Estepona: Family Animal and Adventure Park"
-seo_description: "Plan a family day at Selwo Aventura in Estepona, with animal areas and outdoor adventure. Check current tickets, opening calendar, and access details."
+description_short: An outdoor animal and adventure park in Estepona with bridges, animal areas, and optional guided experiences.
+description_long: Selwo Aventura is an outdoor park in Estepona. Its official visitor information describes bridge walks, animal areas, and optional guided experiences, including the Serengeti Safari. The current ticket page lists general admission for visitors aged 8–64, reduced tickets for children and seniors, and free admission for children under 3 who are also under 1 metre; check the conditions before visiting. Admission prices vary with purchase timing and promotions, and the park calendar should be checked for the chosen date. Public transport connections should also be checked for current schedules. Route accessibility, parking details, toilets, food services, and pet rules have not been verified for this draft.
+seo_title: 'Selwo Aventura Estepona: Family Animal and Adventure Park'
+seo_description: Plan a family day at Selwo Aventura in Estepona, with animal areas and outdoor adventure. Check current tickets, opening calendar, and access details.
 images: []
 evidence:
-  - field: "coordinates, municipality, province, transport_options"
-    claim: "The park address and coordinates are on the official directions page; visitors are advised to check regular bus services to Estepona."
-    source_url: https://www.selwo.es/prepara-tu-visita/informacion-relevante/como-llegar
-    source_type: official_venue
-    checked_at: 2026-10-03
-    checked_by: maps-import-agent
-    confidence: high
-    notes: null
-  - field: "tags, description_short, description_long"
-    claim: "The park describes animal experiences, bridge walks, and optional guided activities."
-    source_url: https://www.selwo.es/en
-    source_type: official_venue
-    checked_at: 2026-10-03
-    checked_by: maps-import-agent
-    confidence: high
-    notes: null
-  - field: "cost_level, visit_information.cost_basis, booking_required"
-    claim: "Official ticket information lists online and box-office prices and describes dynamic pricing."
-    source_url: https://www.selwo.es/en/horarios-y-precios/precios
-    source_type: official_venue
-    checked_at: 2026-10-03
-    checked_by: maps-import-agent
-    confidence: high
-    notes: "Price is dynamic; the cited amount is a dated starting price, not a guarantee."
-  - field: "age_groups, description_long"
-    claim: "Official ticketing information defines general/reduced age bands and the under-three/under-one-metre admission condition."
-    source_url: https://www.selwo.es/en/horarios-y-precios/precios
-    source_type: official_venue
-    checked_at: 2026-10-03
-    checked_by: maps-import-agent
-    confidence: high
-    notes: "Ticket age/height rules may change; verify before travel."
-  - field: "visit_information.schedule, seasonality"
-    claim: "The park publishes a date-specific calendar and may change hours or activities for weather or operational reasons."
-    source_url: https://www.selwo.es/en/horarios-y-precios/horarios
-    source_type: official_venue
-    checked_at: 2026-10-03
-    checked_by: maps-import-agent
-    confidence: high
-    notes: "Check the operating calendar for the intended date."
-  - field: driving_time_from_casa_de_la_familia
-    claim: 'One-way drive from Casa de la Familia to Selwo Aventura (36.462831, -5.0856): 46 min, 48.6 km (Saturday 10:00 predicted traffic).'
-    source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.462831%2C-5.0856&travelmode=driving
-    source_type: secondary
-    checked_at: '2026-11-01'
-    checked_by: Claude (Routes API batch 2026-11-01)
-    confidence: medium
-    notes: Google Routes API computeRoutes; destination = record coordinates (36.462831,-5.0856). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: coordinates, municipality, province, transport_options
+  claim: The park address and coordinates are on the official directions page; visitors are advised to check regular bus services to Estepona.
+  source_url: https://www.selwo.es/prepara-tu-visita/informacion-relevante/como-llegar
+  source_type: official_venue
+  checked_at: 2026-10-03
+  checked_by: maps-import-agent
+  confidence: high
+  notes: null
+- field: tags, description_short, description_long
+  claim: The park describes animal experiences, bridge walks, and optional guided activities.
+  source_url: https://www.selwo.es/en
+  source_type: official_venue
+  checked_at: 2026-10-03
+  checked_by: maps-import-agent
+  confidence: high
+  notes: null
+- field: cost_level, visit_information.cost_basis, booking_required
+  claim: Official ticket information lists online and box-office prices and describes dynamic pricing.
+  source_url: https://www.selwo.es/en/horarios-y-precios/precios
+  source_type: official_venue
+  checked_at: 2026-10-03
+  checked_by: maps-import-agent
+  confidence: high
+  notes: Price is dynamic; the cited amount is a dated starting price, not a guarantee.
+- field: age_groups, description_long
+  claim: Official ticketing information defines general/reduced age bands and the under-three/under-one-metre admission condition.
+  source_url: https://www.selwo.es/en/horarios-y-precios/precios
+  source_type: official_venue
+  checked_at: 2026-10-03
+  checked_by: maps-import-agent
+  confidence: high
+  notes: Ticket age/height rules may change; verify before travel.
+- field: visit_information.schedule, seasonality
+  claim: The park publishes a date-specific calendar and may change hours or activities for weather or operational reasons.
+  source_url: https://www.selwo.es/en/horarios-y-precios/horarios
+  source_type: official_venue
+  checked_at: 2026-10-03
+  checked_by: maps-import-agent
+  confidence: high
+  notes: Check the operating calendar for the intended date.
+- field: driving_time_from_casa_de_la_familia
+  claim: 'One-way drive from Casa de la Familia to Selwo Aventura (36.462831, -5.0856): 46 min, 48.6 km (Saturday 10:00 predicted traffic).'
+  source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.462831%2C-5.0856&travelmode=driving
+  source_type: secondary
+  checked_at: '2026-11-01'
+  checked_by: Claude (Routes API batch 2026-11-01)
+  confidence: medium
+  notes: Google Routes API computeRoutes; destination = record coordinates (36.462831,-5.0856). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
+- field: visit_information.cost_basis
+  claim: '"from €19.90" / "from €24.90" / "Visitors from 8 to 64 years."'
+  source_url: https://www.selwo.es/en
+  source_type: official_venue
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Own English page, price lines only; page gives no date or reference year. The record's cost_basis also names a box-office price of EUR 29.90 that is not in these quotes, and the quote does not say which ticket the 8-64 age range belongs to. Not used to change any field.
 review_issues:
-  - code: family_ratings_estimated
-    severity: warning
-    fields: [age_groups, family_score, energy_level, seasonality]
-    description: "Audience ratings, energy, and suitable seasons are provisional editorial estimates; verify terrain, age limits, seasonal calendar, and visit demands."
-    retryable: true
-    owner: editorial
-  - code: visitor_facilities_unverified
-    severity: warning
-    fields: [accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available]
-    description: "Access, parking, pet rules, toilets, and food service details remain unverified."
-    retryable: true
-    owner: fact_check
+- code: family_ratings_estimated
+  severity: warning
+  fields:
+  - age_groups
+  - family_score
+  - energy_level
+  - seasonality
+  description: Audience ratings, energy, and suitable seasons are provisional editorial estimates; verify terrain, age limits, seasonal calendar, and visit demands.
+  retryable: true
+  owner: editorial
+- code: visitor_facilities_unverified
+  severity: warning
+  fields:
+  - accessibility
+  - wheelchair_friendly
+  - parking
+  - dog_friendly
+  - toilets_available
+  - food_available
+  description: Access, parking, pet rules, toilets, and food service details remain unverified.
+  retryable: true
+  owner: fact_check
 created_at: 2026-10-03
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: 2026-10-03
 last_reviewed_at: null
 next_review_at: null

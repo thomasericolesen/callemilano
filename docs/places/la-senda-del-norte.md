@@ -141,8 +141,15 @@ review_issues:
   description: Own page confirms the café-bar and its terrace but gives no hours, menu or prices. Needs a visit or the Instagram page.
   retryable: true
   owner: fact_check
+- code: source_attempt_not_found
+  severity: info
+  fields:
+  - visit_information
+  description: "Source attempt 2026-11-13 found nothing usable (login_wall). Instagram page requires login. Owner screenshot needed. Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
