@@ -128,8 +128,16 @@ review_issues:
   description: The Málaga council page found (Paseo Litoral, El Candado-La Araña) is the eastern seafront, not the western Senda Litoral at this record's point; it also gives conflicting lengths (2,500 m vs 4 km). Find a page for the western section.
   retryable: true
   owner: fact_check
+- code: second_source_attempt_failed
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: 'Second source attempt 2026-11-13: only commercial guides and a 2014 PDF found, no current official page for the western section. No facts added. Proposed for the editor list (archive, or the owner confirms the section).'
+  retryable: false
+  owner: editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-13'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

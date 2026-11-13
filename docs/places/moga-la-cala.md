@@ -149,8 +149,16 @@ review_issues:
   description: No own website or social page found; the owner could not find one either (2026-11-02). Only a third-party reel (new opening, 19 July) confirms the bar. Hours and prices need a visit or a call.
   retryable: true
   owner: fact_check
+- code: second_source_attempt_failed
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: 'Second source attempt 2026-11-13: no website, social page or other source found under the name MOGA in La Cala de Mijas; the exact name may differ. No facts added. Proposed for the editor list (archive, or the owner confirms the name).'
+  retryable: false
+  owner: editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

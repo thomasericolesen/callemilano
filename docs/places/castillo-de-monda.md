@@ -143,8 +143,16 @@ review_issues:
   description: Hotel facilities other than the restaurant are for guests only (owner). Check whether the restaurant takes non-resident diners and needs booking.
   retryable: true
   owner: fact_check
+- code: second_source_attempt_failed
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: "Second source attempt 2026-11-13: the hotel's own site (castillodemonda.com) was read; it only shows a 'Book your table' button on the menus page. No hours, prices, non-resident rule or access found; the restaurant page URLs tried returned 404. Proposed for the editor list (archive or keep as a lead)."
+  retryable: false
+  owner: editor
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-13'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

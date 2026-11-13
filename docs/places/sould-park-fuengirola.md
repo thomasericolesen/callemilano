@@ -139,8 +139,16 @@ review_issues:
   description: 'Rechecked 2026-11-02: the operator''s site only lists Fuengirola with a map link; no attractions, age limits, prices, hours or season. Needs the operator''s social pages (owner screenshot), a visit or a call (622 60 89 91). 2026-11-02: the chain''s Facebook page ''Sould Park España'' (owner screenshot) lists Fuengirola and Marbella among its locations, price range ''cheap'', phone 622 60 89 91 and WhatsApp 633 89 37 61, but nothing specific to this venue.'
   retryable: true
   owner: fact_check
+- code: second_source_attempt_failed
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: "Second source attempt 2026-11-13: the operator's site (souldpark.com, including its locations page) lists no Fuengirola venue and no attractions, prices, hours or age rules; the only new site is announced for Málaga. No facts added. Proposed for the editor list (archive; the Fuengirola venue may not match this operator's site)."
+  retryable: false
+  owner: editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

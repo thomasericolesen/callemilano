@@ -132,8 +132,16 @@ review_issues:
   description: The Turismo Marbella page found (https://turismo.marbella.es/servicios/ruta-fotografica-de-marbella/paseo-maritimo-de-san-pedro-alcantara.html) covers the San Pedro Alcántara section, not the Marbella town section at this record's point. Find the town-section page before writing the description.
   retryable: true
   owner: fact_check
+- code: second_source_attempt_failed
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: 'Second source attempt 2026-11-13: no official page covering this section found; guides disagree on length (about 5 vs 6 km) and are not recorded. No facts added. Proposed for the editor list (archive, or the owner decides which section the record covers).'
+  retryable: false
+  owner: editor
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-13'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
