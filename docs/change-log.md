@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-13 - Trip quota given back; phone logged out (level A, owner report in chat)
+
+- The owner could not make trip plans (5 of 5 used). Those 5 uses were Spørg questions charged to the trip quota before migration 0010 worked. Claude set today's `trip_ai_usage` row for the owner from 5 to 0. Checked as the owner's user: trip quota 0 of 5, Spørg quota 0 of 20.
+- Claude also asked PostgREST to reload its schema (`NOTIFY pgrst, 'reload schema'`), since the functions were created directly with SQL.
+- The phone went straight to the login page because all of the owner's older sessions are gone; only two from 19:23 and 19:34 remain, while other users' sessions are intact. The app's "Log ud" calls `supabase.auth.signOut()`, whose default scope is global, so signing out on one device signs out all of them. Nothing in today's PWA or update code clears login data. The owner has to sign in again on the phone. Changing sign-out to `scope: 'local'` touches login and waits for the owner's merge (app `AGENTS.md`).
+
 ## 2026-11-13 - App import after the editor list (level A)
 
 - `POST /api/import-places?apply=1`: 159 updated, 0 created, 0 skipped (dry run first, same counts). Spot check: `olvera-castle` carries the new tourism-site hours (10:30), `el-oceano-beach-hotel` shows "check before visiting", and `canon-de-las-angosturas` is in the app with status `needs_fact_check`.
