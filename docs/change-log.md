@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-13 - `docs/project-state.md` rewritten (level A, documentation only)
+
+- The file was from 2026-10-05 (30 records, the 30 km straight-line rule, an obsolete next-actions list). Rewritten in Danish from the current records, layers, tools and status file; the next-actions list now points to the newest `docs/status-*.md`. No rules or data changed.
+
 ## 2026-11-11 (night) - Claude Code may run `gh pr merge` (owner decision, chat)
 
 - `.claude/settings.json` now allows `Bash(gh pr merge *)`. Claude Code's own safety filter had blocked merges although `AGENTS.md` ("Push, PR, merge and import") already gives standing permission for level A/B work. The rule in `AGENTS.md` is unchanged: level C/D changes still wait for the editor.
