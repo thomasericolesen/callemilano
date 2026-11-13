@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-13 - Editor list of 13 November published (level A; the decisions are the editor's)
+
+- Private list: https://claude.ai/artifact/EpwDTtUv1wLvgu1u5Yy5Jn (answers stored in the page's collection `editorlist-2026-11-13`). 11 items: 3 source conflicts (`el-oceano-beach-hotel` Sunday menu prices, `olvera-castle` opening hours against the 2026-11-11 choice, `tarifa` office phone) and 8 archiving proposals (the drafts that failed two source attempts). Recommendation preselected on each: archive 5 (`moga-la-cala`, `sky-bar-veramar`, `rio-grande-coin`, `senda-litoral-malaga-oeste`, `sould-park-fuengirola`); keep and retry 3 that have an official source the tools could not read (`castillo-de-monda`, `canon-de-las-angosturas`, `paseo-maritimo-marbella`).
+- Nothing is changed in the records until the editor has answered. Answers will be written to the records with date and a link to the list, and the blocking `source_conflict` issues closed then.
+
 ## 2026-11-13 - Warnings and info on app places: first batch of source reading (level A; conflicts go to the editor)
 
 - Scope: the 45 app places with fact-type warnings or info (69 issues). The 38 editorial issues (audience, family ratings, tags and category, scope, owner has not visited, overlaps) are not source questions and stay for the editor. Three batches of 15 went through `source-reader` and `record-writer` (WebSearch instead of Tavily, which was not available to the subagents).
