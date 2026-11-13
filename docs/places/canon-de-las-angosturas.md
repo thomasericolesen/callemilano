@@ -129,8 +129,16 @@ review_issues:
   description: Benahavís council page on the Río Guadalmina (https://www.benahavis.es/120/com1_md3_cd-62478/rio-guadalmina) blocks automated reading (HTTP 405; Firecrawl failed 2026-11-02). Needs an owner screenshot or another official source. River bathing and gorge safety must not be described without one.
   retryable: true
   owner: fact_check
+- code: second_source_attempt_failed
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: 'Second source attempt 2026-11-13: a search for Benahavís council, Junta de Andalucía or Andalucía tourism pages found no readable official source; the council page still blocks automated reading. No facts added. Proposed for the editor list (archive, or the owner reads the council page).'
+  retryable: false
+  owner: editor
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-13'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

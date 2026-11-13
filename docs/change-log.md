@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-13 - Second source attempt for the 8 drafts (level A; archiving proposed, not done)
+
+- The 8 drafts (`castillo-de-monda`, `canon-de-las-angosturas`, `moga-la-cala`, `sky-bar-veramar`, `paseo-maritimo-marbella`, `rio-grande-coin`, `senda-litoral-malaga-oeste`, `sould-park-fuengirola`) went through the pipeline again (source-reader, then own checks). No usable official source was found for any of them: Castillo de Monda's own site only shows a "Book your table" button; Sould Park's site lists no Fuengirola venue; the other six have no readable official page (only guides and booking sites, which are not recorded as facts).
+- No facts were added and no status changed; all 8 stay `draft`. Each record got a `second_source_attempt_failed` issue (owner: editor) with what was tried. Under the rule "facts too hard to obtain, the place drops off" they go on the next editor list as archiving proposals; nothing is archived until the editor says yes.
+- Validation: 220 records, 0 errors, 26 warnings (unchanged). Catalogue regenerated.
+
 ## 2026-11-13 - `docs/project-state.md` rewritten (level A, documentation only)
 
 - The file was from 2026-10-05 (30 records, the 30 km straight-line rule, an obsolete next-actions list). Rewritten in Danish from the current records, layers, tools and status file; the next-actions list now points to the newest `docs/status-*.md`. No rules or data changed.

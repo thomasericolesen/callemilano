@@ -131,8 +131,16 @@ review_issues:
   description: No official page (Coín council, Junta de Andalucía) found for the Río Grande path on 2026-11-02. Bathing spots and safety stay undescribed until a source is found.
   retryable: true
   owner: fact_check
+- code: second_source_attempt_failed
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: 'Second source attempt 2026-11-13: no official page for this path found; the only matches were the PR-A 496 Coín-Guadalhorce route and the Guadalhorce footbridge, which may be different places. No facts added. Proposed for the editor list (archive, or the owner confirms the exact path).'
+  retryable: false
+  owner: editor
 created_at: '2026-11-02'
-updated_at: '2026-11-10'
+updated_at: '2026-11-13'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

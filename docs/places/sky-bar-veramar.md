@@ -149,8 +149,16 @@ review_issues:
   description: Season and hours come only from a 2025 schedule image uploaded by a Google Maps user; the hotel's Skybar page is gone (404). Confirm the 2026 season and prices from the hotel or the bar before it can move on. Per that schedule the bar would be closed from November to mid-April.
   retryable: true
   owner: fact_check
+- code: second_source_attempt_failed
+  severity: warning
+  fields:
+  - description_long
+  - visit_information
+  description: 'Second source attempt 2026-11-13: no current official page found; only booking and guide sites with 2025 hours, which are not recorded as facts. No facts added. Proposed for the editor list (archive, or the owner asks the hotel).'
+  retryable: false
+  owner: editor
 created_at: '2026-11-02'
-updated_at: '2026-11-02'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
