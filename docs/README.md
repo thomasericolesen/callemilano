@@ -6,7 +6,7 @@ The top level of `docs/` holds the current rules and everything `AGENTS.md`, the
 
 ## Current status and rules (top level)
 - `project-state.md` — what exists, what is open, what to do next
-- `status-2026-11-12.md` — the newest status handover; when a new one is written, move the previous one to `history/`
+- `status-2026-11-13.md` — the newest status handover; when a new one is written, move the previous one to `history/`
 - `change-log.md` — approved changes to guidance, schema and taxonomy
 - `owner-decisions-2026-11-02.md` — owner decisions still cited by `AGENTS.md`
 - `data-dictionary.md` — every CSV in `data/` explained
