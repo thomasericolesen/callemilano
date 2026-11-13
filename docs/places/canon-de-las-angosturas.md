@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-CANON-DE-LAS-ANGOSTURAS-001
 slug: canon-de-las-angosturas
 name: Cañón de las Angosturas (Benahavís)
@@ -60,12 +60,12 @@ parking:
   checked_at: null
 transport_options: []
 booking_required: unknown
-dog_friendly: unknown
+dog_friendly: 'no'
 toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: 'Access to the Río Guadalmina: 10:00-20:00; last departure down the canyon 19:00 (Benahavís council page dated 14 June 2021, read 2026-11-13; not stated whether this is seasonal or still current).'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -75,12 +75,12 @@ visit_information:
 links:
   official_website: http://andaluciarustica.com/canon-de-las-angosturas-del-rio-guadalmina-benahavis.htm
   booking: null
-  visitor_information: null
+  visitor_information: https://www.benahavis.es/120/com1_md3_cd-62478/rio-guadalmina
   transport: null
   contact: null
 related_places: []
-description_short: 'Cañón de las Angosturas (Benahavís): a gorge on the Río Guadalmina near Benahavís, about 46 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Cañón de las Angosturas (Benahavís) is a gorge on the Río Guadalmina near Benahavís. About 46 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Cañón de las Angosturas (Benahavís): a gorge on the Río Guadalmina near Benahavís, about 46 min by car from Casa de la Familia. Hours and rules from the council page (2021); other facts not yet checked.'
+description_long: Cañón de las Angosturas (Benahavís) is a gorge on the Río Guadalmina near Benahavís. About 46 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). The Benahavís council page on the Río Guadalmina (dated 14 June 2021) gives access hours of 10:00-20:00 with the last descent at 19:00, describes the canyon as a level 1 canyoning area where protective equipment is recommended, requires children aged 14 and under to be accompanied by an adult, and bans pets, inflatables, glass, soap and music. Prices, duration, parking and accessibility have not been checked.
 seo_title: Cañón de las Angosturas (Benahavís), Benahavís | CalleMilano draft record
 seo_description: 'Draft record for Cañón de las Angosturas (Benahavís) (Benahavís): location and driving time from Casa de la Familia.'
 images: []
@@ -109,34 +109,25 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
   confidence: medium
   notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
+- field: visit_information.schedule, dog_friendly, description_long
+  claim: '"Horario: 10:00h- 20:00h"; "Última salida para hacer la bajada del cañón de Las Angosturas: 19:00h"; "Los menores de 14 años (inclusive) deberán estar siempre acompañados de un adulto responsable."; "Prohibida la entrada de animales domésticos."; "Se trata de una zona de Barranquismo nivel 1"'
+  source_url: https://www.benahavis.es/120/com1_md3_cd-62478/rio-guadalmina
+  source_type: official_tourism
+  checked_at: '2026-11-13'
+  checked_by: Claude (main session, Claude in Chrome)
+  confidence: medium
+  notes: Ayuntamiento de Benahavís news item dated 14 June 2021, read in Claude in Chrome on 2026-11-13 (the page blocks automated reading). The rules may have changed since 2021; the page also carries a Covid-19 clause.
 review_issues:
-- code: facts_not_checked
+- code: facts_partly_checked
   severity: warning
   fields:
-  - description_long
   - visit_information
-  - cost_level
   - accessibility
   - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
+  - cost_level
+  description: Hours, children rule and pet ban come from a council page dated 2021; entry price, duration, parking, accessibility and current opening still need a source.
   retryable: true
   owner: fact_check
-- code: official_page_not_readable
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  description: Benahavís council page on the Río Guadalmina (https://www.benahavis.es/120/com1_md3_cd-62478/rio-guadalmina) blocks automated reading (HTTP 405; Firecrawl failed 2026-11-02). Needs an owner screenshot or another official source. River bathing and gorge safety must not be described without one.
-  retryable: true
-  owner: fact_check
-- code: second_source_attempt_failed
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  description: 'Second source attempt 2026-11-13: a search for Benahavís council, Junta de Andalucía or Andalucía tourism pages found no readable official source; the council page still blocks automated reading. No facts added. Proposed for the editor list (archive, or the owner reads the council page).'
-  retryable: false
-  owner: editor
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: null

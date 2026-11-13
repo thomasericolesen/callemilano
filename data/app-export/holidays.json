@@ -3,10 +3,10 @@
   "generated": "2026-11-13",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
-  "places": 158,
+  "places": 159,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 134,
+  "danish": 135,
   "danish_stale": []
  },
  "holidays": [
