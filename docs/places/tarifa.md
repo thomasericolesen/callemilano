@@ -172,6 +172,14 @@ evidence:
   checked_by: record-writer agent
   confidence: high
   notes: Office phone on the page is 607 984 871; the record issue castle_hours_source_dated says 607 684 871. Conflict logged as source_conflict; no value chosen. Box-office 687 788 466 matches the record.
+- field: links.contact, visit_information.schedule (phone)
+  claim: 'Editor decision 2026-11-13 on the editor list: the castle office phone is 607 984 871 (the official castle site).'
+  source_url: https://claude.ai/artifact/EpwDTtUv1wLvgu1u5Yy5Jn
+  source_type: secondary
+  checked_at: '2026-11-13'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-13
+  confidence: medium
+  notes: Resolves the source_conflict opened 2026-11-13; the earlier 607 684 871 is not used.
 review_issues:
 - code: overlap_bolonia
   severity: warning
@@ -204,17 +212,9 @@ review_issues:
   severity: warning
   fields:
   - visit_information.schedule
-  description: Hours come from a 2025 Junta de Andalucía page; call 687 788 466 / 607 684 871 to confirm.
+  description: Hours come from a 2025 Junta de Andalucía page; call 687 788 466 / 607 984 871 to confirm.
   retryable: true
   owner: fact_check
-- code: source_conflict
-  severity: blocking
-  owner: editor
-  fields:
-  - links.contact
-  - review_issues.castle_hours_source_dated
-  description: 'Castle office phone differs: official page castilloguzmanelbueno.com (read 2026-11-13) says "Oficina: 607 984 871"; the record note says 607 684 871. Box office 687 788 466 agrees. Editor to decide which digit is right (one digit differs, may be a typo in either).'
-  retryable: false
 created_at: 2026-10-15
 updated_at: '2026-11-13'
 last_verified: 2026-10-30

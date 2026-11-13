@@ -45,7 +45,7 @@ ES-AND-MAL-FOSTERS-HOLLYWOOD-MIRAMAR-001,fosters-hollywood-miramar,Foster's Holl
 ES-AND-MAL-LA-TAGLIATELLA-MIRAMAR-001,la-tagliatella-miramar,La Tagliatella (C.C. Miramar),approved,Restaurants,Restaurant; Rainy day; Half day; Premium,Fuengirola,Málaga,36.528461899999996,-4.6317998,2.9,yes,8 min,docs/places/la-tagliatella-miramar.md
 ES-AND-MAL-TERRAZA-CHILL-OUT-BAR-001,terraza-chill-out-bar,Terraza Chill Out Bar,archived,Restaurants,,Fuengirola,Málaga,36.5292166,-4.631669,2.9,yes,8 min,docs/places/terraza-chill-out-bar.md
 ES-AND-MAL-BIOPARC-FUENGIROLA-001,bioparc-fuengirola,BIOPARC Fuengirola,approved,Family activities,Adventure; Half day; Premium,Fuengirola,Málaga,36.5368411,-4.6277631,3.1,yes,12 min,docs/places/bioparc-fuengirola.md
-ES-AND-MAL-SKY-BAR-VERAMAR-001,sky-bar-veramar,Sky Bar Veramar,draft,Restaurants,,Fuengirola,Málaga,36.5338875,-4.6281745,3.1,yes,11 min,docs/places/sky-bar-veramar.md
+ES-AND-MAL-SKY-BAR-VERAMAR-001,sky-bar-veramar,Sky Bar Veramar,archived,Restaurants,,Fuengirola,Málaga,36.5338875,-4.6281745,3.1,yes,11 min,docs/places/sky-bar-veramar.md
 ES-AND-MAL-CASTILLO-EJIDO-001,castillo-ejido,Castillo-Ejido,approved,Beaches,Beach,Fuengirola,Málaga,36.5253,-4.6288,3.2,yes,12 min,docs/places/castillo-ejido.md
 ES-AND-MAL-CASTILLO-SOHAIL-001,castillo-sohail,Castillo Sohail,approved,Excursions,Viewpoint; Museum; Half day; Free,Fuengirola,Málaga,36.5253188,-4.6288218,3.2,yes,12 min,docs/places/castillo-sohail.md
 ES-AND-MAL-MULTICINES-ALFIL-FUENGIROLA-001,multicines-alfil-fuengirola,Multicines Alfil Fuengirola,approved,Family activities,Adventure; Rainy day; Half day; Premium,Fuengirola,Málaga,36.5375077,-4.6271906,3.2,yes,12 min,docs/places/multicines-alfil-fuengirola.md
@@ -67,7 +67,7 @@ ES-AND-MAL-MARVELOUS-BURGER-FUENGIROLA-001,marvelous-burger-fuengirola,Marvelous
 ES-AND-MAL-UPSTAIRS-ROOFTOP-BAR-001,upstairs-rooftop-bar,Upstairs Rooftop Bar,needs_editorial_review,Restaurants,Viewpoint,Mijas,Málaga,36.505252999999996,-4.676908,3.6,yes,11 min,docs/places/upstairs-rooftop-bar.md
 ES-AND-MAL-FUENGIROLA-CENTRO-001,fuengirola-centro,Fuengirola (centrum),approved,Beaches,Beach,Fuengirola,Málaga,36.5372915,-4.6215859,3.7,yes,14 min,docs/places/fuengirola-centro.md
 ES-AND-MAL-SPEAKEASY-JAZZ-CLUB-FUENGIROLA-001,speakeasy-jazz-club-fuengirola,Speakeasy Jazz Club & Cocktails,needs_editorial_review,Restaurants,,Fuengirola,Málaga,36.5405146,-4.6217781,3.7,yes,16 min,docs/places/speakeasy-jazz-club-fuengirola.md
-ES-AND-MAL-MOGA-LA-CALA-001,moga-la-cala,MOGA,draft,Restaurants,,Mijas,Málaga,36.5037498,-4.6806412,3.9,yes,13 min,docs/places/moga-la-cala.md
+ES-AND-MAL-MOGA-LA-CALA-001,moga-la-cala,MOGA,archived,Restaurants,,Mijas,Málaga,36.5037498,-4.6806412,3.9,yes,13 min,docs/places/moga-la-cala.md
 ES-AND-MAL-NONINA-FUENGIROLA-001,nonina-fuengirola,Noniná,needs_editorial_review,Restaurants,,Fuengirola,Málaga,36.5412292,-4.619409999999999,3.9,yes,15 min,docs/places/nonina-fuengirola.md
 ES-AND-MAL-RED-AND-WHITE-FUENGIROLA-001,red-and-white-fuengirola,Red & White,needs_editorial_review,Restaurants,,Fuengirola,Málaga,36.5447602,-4.6203943999999995,3.9,yes,14 min,docs/places/red-and-white-fuengirola.md
 ES-AND-MAL-GROOVE-BAR-FUENGIROLA-001,groove-bar-fuengirola,Groove Music Bar,needs_editorial_review,Restaurants,,Fuengirola,Málaga,36.5420832,-4.6183271,4.0,yes,16 min,docs/places/groove-bar-fuengirola.md
@@ -134,14 +134,14 @@ ES-AND-MAL-PLAYAMAR-001,playamar,Playamar,approved,Beaches,Beach,Torremolinos,M�
 ES-AND-MAL-MORROFINO-001,morrofino,Morrofino,approved,Restaurants,Restaurant,Torremolinos,Málaga,36.633802,-4.4878468,19.0,yes,29 min,docs/places/morrofino.md
 ES-AND-MAL-LOS-ALAMOS-001,los-alamos,Los Álamos,approved,Beaches,Beach,Torremolinos,Málaga,36.6349,-4.4856,19.3,yes,28 min,docs/places/los-alamos.md
 ES-AND-MAL-MARBELLA-OLD-TOWN-001,marbella-old-town,Marbella Old Town,needs_editorial_review,City,Historic town; Museum; Restaurant; Half day,Marbella,Málaga,36.5101033,-4.8849716,20.1,yes,35 min,docs/places/marbella-old-town.md
-ES-AND-MAL-RIO-GRANDE-COIN-001,rio-grande-coin,Río Grande (Coín),draft,Nature,,Coín,Málaga,36.688942,-4.787760899999999,20.4,yes,40 min,docs/places/rio-grande-coin.md
+ES-AND-MAL-RIO-GRANDE-COIN-001,rio-grande-coin,Río Grande (Coín),archived,Nature,,Coín,Málaga,36.688942,-4.787760899999999,20.4,yes,40 min,docs/places/rio-grande-coin.md
 ES-AND-MAL-JUANAR-MACHO-MONTES-001,juanar-macho-montes,Juanar and Mirador del Macho Montés,approved,Nature,Hiking; Viewpoint; Full day; Free,Ojén,Málaga,36.564912199999995,-4.890884799999999,20.6,yes,49 min,docs/places/juanar-macho-montes.md
 ES-AND-MAL-PASEO-MARITIMO-MARBELLA-001,paseo-maritimo-marbella,Paseo Marítimo de Marbella,draft,Excursions,,Marbella,Málaga,36.507252799999996,-4.8971162,21.2,yes,37 min,docs/places/paseo-maritimo-marbella.md
 ES-AND-MAL-MUSEO-AERONAUTICO-MALAGA-001,museo-aeronautico-malaga,Museo Aeronáutico de Málaga,approved,Family activities,Museum; Half day; Premium,Málaga,Málaga,36.669914399999996,-4.4811323,22.0,yes,28 min,docs/places/museo-aeronautico-malaga.md
 ES-AND-MAL-PLAYA-DE-NAGUELES-001,playa-de-nagueles,Playa de Nagüeles,approved,Beaches,Beach; Half day; Free,Marbella,Málaga,36.5022476,-4.9213001,23.4,yes,36 min,docs/places/playa-de-nagueles.md
 ES-AND-MAL-ISTAN-001,istan,Istán,approved,City,Nature; Viewpoint; Historic town; Half day; Free,Istán,Málaga,36.58209850000001,-4.9497007,26.1,yes,57 min,docs/places/istan.md
 ES-AND-MAL-PLAYA-PUERTO-BANUS-001,playa-puerto-banus,Playa de Puerto Banús,approved,Beaches,Beach; Half day; Free,Marbella,Málaga,36.4898088,-4.9490514,26.1,yes,36 min,docs/places/playa-puerto-banus.md
-ES-AND-MAL-SENDA-LITORAL-MALAGA-OESTE-001,senda-litoral-malaga-oeste,Senda Litoral (Málaga west),draft,Excursions,,Málaga,Málaga,36.689676,-4.4423341999999995,26.1,yes,30 min,docs/places/senda-litoral-malaga-oeste.md
+ES-AND-MAL-SENDA-LITORAL-MALAGA-OESTE-001,senda-litoral-malaga-oeste,Senda Litoral (Málaga west),archived,Excursions,,Málaga,Málaga,36.689676,-4.4423341999999995,26.1,yes,30 min,docs/places/senda-litoral-malaga-oeste.md
 ES-AND-MAL-SOMOS-DE-BANUS-001,somos-de-banus,Somos de Banús,approved,Restaurants,Restaurant; Full day; Premium,Marbella,Málaga,36.4897645,-4.9496195,26.1,yes,39 min,docs/places/somos-de-banus.md
 ES-AND-MAL-JACKS-SMOKEHOUSE-PUERTO-BANUS-001,jacks-smokehouse-puerto-banus,Jacks Smokehouse (Puerto Banús),approved,Restaurants,Restaurant; Rainy day; Half day; Premium,Marbella,Málaga,36.4885233,-4.9510252,26.3,yes,41 min,docs/places/jacks-smokehouse-puerto-banus.md
 ES-AND-MAL-NORTE-PUERTO-BANUS-001,norte-puerto-banus,Norte Puerto Banús,archived,Restaurants,Restaurant,Marbella,Málaga,36.4906174,-4.9514172,26.3,yes,37 min,docs/places/norte-puerto-banus.md

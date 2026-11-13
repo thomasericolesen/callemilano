@@ -67,7 +67,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: 'Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous), from the tourist office. Dates of the season change are not stated. An older municipal page (changed 2023) gives 10:00-20:00 all year; the owner chose the tourist-office hours on 2026-11-11.'
+  schedule: 'Castle (Olvera tourism site, read 2026-11-13): Tuesday to Sunday. Winter 10:30-14:00 and 16:00-18:00; summer 10:30-15:00 and 16:00-20:30. Open on Mondays that are holidays or eves of holidays; otherwise call the tourist office, 665 94 00 87. Dates of the season change are not stated. Replaces the earlier tourist-office hours (daily 10:00-20:00 / 10:00-19:00) by the editor''s decision on 2026-11-13.'
   typical_duration: 1–2 hours including the castle and short old-town walk (editorial planning estimate)
   booking_lead_time: null
   valid_from: null
@@ -159,6 +159,14 @@ evidence:
   checked_by: record-writer agent
   confidence: high
   notes: Seasonal hours (no month dates stated), closed Mondays except holidays/eves per the page. Conflicts with the schedule in the record (daily, continuous, 10:00-20:00 / 10:00-19:00). Page gives no ticket price, so EUR 2 stays unconfirmed.
+- field: visit_information.schedule
+  claim: 'Editor decision 2026-11-13 on the editor list: use the hours from the Olvera tourism site (Tuesday to Sunday, split hours).'
+  source_url: https://claude.ai/artifact/EpwDTtUv1wLvgu1u5Yy5Jn
+  source_type: secondary
+  checked_at: '2026-11-13'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-13
+  confidence: medium
+  notes: Resolves the source_conflict opened 2026-11-13; replaces the 2026-11-11 choice of the tourist-office hours.
 review_issues:
 - code: editorial_suitability_requires_human_review
   severity: warning
@@ -192,13 +200,6 @@ review_issues:
   description: Current official page says to consult the tourist office; EUR 2 comes from search extracts.
   retryable: true
   owner: fact_check
-- code: source_conflict
-  description: Official page turismolvera.com (read 2026-11-13) gives Tue-Sun only, split hours (winter 10:30-14:00 / 16:00-18:00; summer 10:30-15:00 / 16:00-20:30), while the record's schedule (tourist office, owner choice 2026-11-11) says daily continuous 10:00-20:00 summer / 10:00-19:00 winter. Not resolved; schedule left unchanged.
-  fields:
-  - visit_information.schedule
-  owner: editor
-  retryable: false
-  severity: blocking
 created_at: '2026-10-04'
 updated_at: '2026-11-13'
 last_verified: 2026-10-30
