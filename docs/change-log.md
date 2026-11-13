@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-13 - `sould-park-fuengirola` archived (owner decision, chat)
+
+- The editor said the place is Sould Park Miramar and asked to try the operator's Facebook and Instagram again, and to archive if that failed. Read in Claude in Chrome: `souldpark.com/ocio/` lists "FUENGIROLA / CC MIRAMAR" but its tab only opens a map link; Instagram `souldpark_es` and Facebook `souldpark` name Fuengirola as a location but give no hours, prices, age rules or attractions. (My earlier statement on the editor list that the operator's site had no Fuengirola venue was wrong.)
+- The record is `archived` with `review_decision` (date 2026-11-13, source: chat). It was a draft, so the app is unchanged (158 places). Name and slug are not changed; the ID stays allocated. Removed from the editor list's open items by the decision; the other 7 archiving proposals and 3 conflicts still wait.
+
 ## 2026-11-13 - Editor list of 13 November published (level A; the decisions are the editor's)
 
 - Private list: https://claude.ai/artifact/EpwDTtUv1wLvgu1u5Yy5Jn (answers stored in the page's collection `editorlist-2026-11-13`). 11 items: 3 source conflicts (`el-oceano-beach-hotel` Sunday menu prices, `olvera-castle` opening hours against the 2026-11-11 choice, `tarifa` office phone) and 8 archiving proposals (the drafts that failed two source attempts). Recommendation preselected on each: archive 5 (`moga-la-cala`, `sky-bar-veramar`, `rio-grande-coin`, `senda-litoral-malaga-oeste`, `sould-park-fuengirola`); keep and retry 3 that have an official source the tools could not read (`castillo-de-monda`, `canon-de-las-angosturas`, `paseo-maritimo-marbella`).

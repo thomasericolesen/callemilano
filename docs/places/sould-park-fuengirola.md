@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-SOULD-PARK-FUENGIROLA-001
 slug: sould-park-fuengirola
 name: Sould Park Fuengirola
@@ -152,6 +152,10 @@ updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-13'
+  notes: "Owner decision 2026-11-13 in chat: the place is Sould Park Miramar (CC Miramar, Fuengirola); try the operator's Facebook and Instagram, and archive if that fails. Checked 2026-11-13 in Claude in Chrome: souldpark.com/ocio/ lists FUENGIROLA CC MIRAMAR but its tab only opens a map link; Instagram souldpark_es and Facebook souldpark list Fuengirola as a location but give no hours, prices, age rules or attractions for it. Archived under the rule that places whose facts are too hard to obtain drop off. Kept as archive; the ID stays allocated and must not be reused."
 redirects: []
 ---
