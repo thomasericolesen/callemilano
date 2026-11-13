@@ -1,52 +1,45 @@
-# CalleMilano project state
+# CalleMilano: projektets tilstand
 
-> **Forældet (fra 2026-10-05).** Den gældende overdragelse er den nyeste `docs/status-*.md`. Denne fil skal skrives om; se statusfilen.
+**Sidst opdateret:** 2026-11-13
+**Formål:** Overblik over, hvad der findes, og hvad der er åbent. Reglerne står i `AGENTS.md`, dataaftalen i `docs/place-schema.md`. Det daglige overblik er den nyeste `docs/status-*.md`; kort over al dokumentation i `docs/README.md`. Beslutninger står i `docs/change-log.md`, nyeste først.
 
-**Last updated:** 2026-10-05
-**Purpose:** Handoff for the next working session. `AGENTS.md` and `docs/place-schema.md` are the primary instructions and data contract. See `docs/README.md` for a map of all documents.
+## Formål og omfang
 
-## Scope decision (2026-10-05)
+CalleMilano er en familierejseguide til gæster på Casa de la Familia (Las Lagunas de Mijas). Primær målgruppe er børnefamilier, der ikke vil køre langt; sekundært voksne, seniorer og teenagere. Lagene er (se `data/layers.csv`):
 
-The owner narrowed the first phase to destinations within about 30 km of Casa de la Familia (origin 36.53569, -4.66269, Plus Code `8C8QG8PP+7W`), confirmed by route-checked driving time. Primary audience: families with children who prefer short drives. Secondary: adults, seniors, teenagers. The Spain-wide collection is kept as an archive for later expansion.
+- **Lokalt lag:** højst 30 minutters kørsel én vej, efter Google Maps' hovedtal (ejerbeslutning 29. oktober).
+- **`excursions_4h`:** dagsture og overnatninger op til ca. 4 timer. Kataloggrupper: `Tæt på` (højst 60 min), `Dagsture` og `Længere væk`.
+- **`excursions_5h`:** ruter på 4-5 timer med overnatning. Ingen portugisiske steder endnu.
+- Steder uden for lagene ligger som arkiv og udvikles ikke, medmindre redaktøren siger det.
 
-## What exists
+## Hvad der findes
 
-- **Place records:** 30 in `docs/places/`, all schema 1.0.0. 24 are `needs_fact_check`; 6 are `draft` with unresolved identity and `id: null` (Cares, Conil de la Frontera, Cueva de los Arcos, Miradouro da Serpente do Medal, Roca Foradada, Salt de la Coromina). None is approved or published.
-- **Inside the primary area:** only Marbella Old Town (20 km) has coordinates. Mercado de Atarazanas, Palmeral de las Sorpresas and Playa la Malagueta lie at about 29–31 km but have no coordinates in their records yet.
-- **Gold-standard page drafts:** `docs/published/` holds BIOPARC Fuengirola, La Cala Beach and Restaurante Sheriff as hand-written pages. They have no place record, ID or front matter and are outside the lifecycle.
-- **Launch candidates:** `docs/product/launch-backlog.md` lists ten local destinations (Sheriff, La Cala, El Bombo, BIOPARC, Senda Litoral, Carromato de Mijas, Mijas Pueblo, Marbella Old Town, La Muralla route, La Familia Beach Club). Only Marbella Old Town has a record.
-- **Tooling:** `tools/places.py validate` (structural validation gate) and `tools/places.py catalog` (generates `data/place-catalog.csv` with distance from Casa). Current run: 30 records, 6 errors (the six identity-unresolved drafts have `energy_level: null`, which the schema does not allow), 60 warnings (missing coordinates and unresolved driving times).
-- **Registers:** `data/place-id-registry.csv` (24 IDs), `data/import-queue.csv` (only the first 5 pilots), `data/image-rights.csv` (header only), `data/place-catalog.csv` (generated). `images/` exists but is empty.
-- **Recommendation prototype:** V1 engine spec, V1 questionnaire, V2 group-composition design, V3 enrichment analysis, all run on the 30-destination Spain-wide set in the analytical CSVs (`docs/data-dictionary.md`). `demo/index.html` is a static mock with 12 hard-coded destinations; it does not compute scores.
+- **Stedposter:** 220 i `docs/places/` (skema 1.0.0). Status: 104 `approved`, 55 `needs_editorial_review`, 14 `needs_fact_check` (arkiv, uden for appen), 8 `draft`, 39 `archived`. Efter godkendelsesreglen fra 10. november tæller `needs_editorial_review` som godkendt til appen og turforslag; `approved` bruges ikke længere som trin, men eksisterende poster er uændrede.
+- **Kategorier:** 92 Restaurants, 39 Family activities, 33 City, 21 Beaches, 19 Nature, 16 Excursions.
+- **Validering:** `python3 tools/places.py validate` giver 0 fejl og 26 advarsler (mest manglende koordinater på arkivposter). Alle tests består (`python3 -m unittest discover -s tests`).
+- **Lagmedlemskab:** 69 steder i `data/layer-membership.csv`, alle i `excursions_4h` (46 `Tæt på`, 16 `Dagsture`, 7 `Længere væk`).
+- **Appen (callemilano.dk):** 158 steder, 134 med dansk tekst. Eksporteres med `tools/app_export.py` til `data/app-export/`, senest 11. november og importeret samme aften. Appens kode ligger i `~/code/callemilano-app`.
+- **Restauranter:** fulde stedposter. `data/restaurant-directory.csv` (26 rækker) er kun en emneliste: 22 `konverteret`, 4 `fravalgt`.
+- **Værktøjer** (`tools/`): `places.py` (validering og katalog), `intake.py` (indsamling), `app_export.py`, `route_check.py` (ikke kørt), `trip.py` med moduler (`trip_core`, `trip_weather`, `trip_traffic`, `trip_restaurants`, `trip_plan`, `trip_render`) og fælles `common.py`.
+- **Agenter og færdigheder:** `.claude/agents/` har Alpha (åbningstider), Charlie (restauranter), Ecco (turforslag), `candidate-screener`, `source-reader` og `record-writer`. `.claude/skills/` har `aabningstider`, `restaurant-indsamling` og `turforslag`.
+- **Registre:** `data/place-id-registry.csv` (215 ID'er), `data/image-rights.csv` (7 billeder, alle til appens "Oplev"-sider), `data/import-queue.csv`, `data/place-catalog.csv` (genereret, aldrig redigeret i hånden).
+- **Dokumentation:** `docs/` er sorteret i `history/`, `decisions/`, `product/`, `engine/` og `content/`. `docs/published/` har tre håndskrevne guldstandardsider (BIOPARC, La Cala, Sheriff) uden for livscyklussen.
+- **Anbefalingsprototypen** (`docs/engine/`, analytiske CSV'er i `data/`) er stadig fra den første fase og læser ikke stedposterne. Den er ikke koblet til appen.
 
-## Open issues
+## Arbejdsgang
 
-### Scope-driven (new)
-1. The owner's Maps list is in `data/maps-intake-projekt-spanien.csv`. Only 13 of 212 saved places lie within 30 km, and almost none are beaches or family restaurants. The local launch candidates (Restaurante Sheriff, La Cala, El Bombo, BIOPARC, Senda Litoral, Carromato, Mijas Pueblo, La Familia Beach Club) are not in the Maps list. Local beaches in Fuengirola, Los Boliches, Benalmádena and Torremolinos must be added as new intake.
-2. Engine spec does not fit the 30 km scope: every local place scores 5 on drive time (≤ 1 h), durations stop at half-day, and three personas (aviation, hiking, overnight-oriented) are irrelevant locally. Needs finer drive-time bands, shorter durations, and beach factors (lifeguard season, shade, toilets, parking distance, sand/shallow water, child menu, stroller access).
-3. The engine reads analytical CSVs keyed by display name, not the canonical records. Decide whether the next engine version reads `docs/places/` directly.
+Redaktørarbejdsgangen (ejerbeslutning 11. november) er i `AGENTS.md` og `docs/multi-agent-workflow.md`: Claude klarer niveau A/B alene og må pushe, åbne PR, merge og importere for sådanne ændringer. Niveau C/D (konflikter, tags, familiescores, arkivering, kategorier, regler) går på redaktørlisten og venter på svar. Appimport sker uden browser med tokenet i `~/.callemilano-import-token` (udløber 9. februar 2027).
 
-### Data and records
-4. 24 of 30 records lack coordinates; no record has a route-checked driving time.
-5. The six identity-unresolved drafts need identity confirmation, then `energy_level`, ID allocation and queue rows.
-6. Five destinations lack a classification row (Frigiliana, Marbella Old Town, Ronda, Selwo Aventura, Zahara de la Sierra).
-7. Two tag vocabularies (schema tags vs. collection tags) and two confidence scales coexist without mapping.
-8. `docs/published/` pages need matching records in `docs/places/` before they can count as published.
-9. Questionable categories for editor review: Alcázar de Segovia (`Family activities`), Mercado de Atarazanas (`Excursions`), Baelo Claudia (`Family activities`).
+## Åbent
 
-### Schema and editorial rules (carried over from 2026-10-03)
-10. Place scope/pin rules for towns, `last_verified` semantics, criteria for duration/season/tags, age-group vs. family-score guidance, cost basis, SEO conventions, `wheelchair_friendly` derivation rule. See `docs/history/remediation-plan.md` for items beyond P0/P1.
-11. Editor-of-record is referred to throughout but not named.
+1. **8 kladder** venter på nyt kildeforsøg og derefter redaktørlisten: `castillo-de-monda`, `canon-de-las-angosturas`, `moga-la-cala`, `sky-bar-veramar`, `paseo-maritimo-marbella`, `rio-grande-coin`, `senda-litoral-malaga-oeste`, `sould-park-fuengirola`.
+2. **Åbne warnings (107) og info (40) på app-steder** er niveau A: prøv kilden to gange, luk derefter som "ikke fundet". Konflikter og `blocking` går til redaktøren og lukkes aldrig i bulk.
+3. **Friskhedsjobbet** (månedligt) er ikke sat op. 37 app-steder mangler `next_review_at`; første reelle tjek er omkring februar 2027. Jobbet skal også minde om tokenets udløb. Hold det billigt: script først, AI kun ved ændrede sider.
+4. **`route_check.py`** er ikke kørt; det kræver en `GOOGLE_MAPS_API_KEY` på Mac'en.
+5. **Menu og pris** mangler for Venta La Morena, Mesón Salvador og Vegetalia.
+6. **Udskudt:** om appen skal vise `approved` anderledes end `needs_editorial_review`.
+7. **Merge-tilladelsen** (`gh pr merge`) er ikke afprøvet i en frisk session.
 
-## Next actions
+## Næste skridt
 
-0. Run the Facebook beach survey (`docs/product/beach-feedback-survey.md`) and sort replies per beach. Note: the beach and launch candidates were found by Codex via web search, not chosen by the owner.
-1. Decide which of the 13 places within 30 km (and the Málaga city places just beyond) enter intake, and compile the local beach/restaurant list that the Maps export lacks.
-2. Create records with coordinates for the 15–20 most relevant local places (beaches in Fuengirola, Los Boliches, La Cala, Benalmádena, Torremolinos; BIOPARC; nearest excursions), starting with the launch backlog.
-3. Revise the engine spec and personas for the local scope; then run top-10 recommendation tests per persona and compare with the owner's local knowledge.
-4. Route-check driving times for local records.
-5. Fact-check in batches; validate with `tools/places.py validate` before human review.
-
-## Resume checklist
-
-Read `AGENTS.md`, `docs/place-schema.md`, this file and `docs/data-dictionary.md`. Run `python3 tools/places.py validate`. Do not treat analytical CSV values or pilot record values as verified, and do not mark anything approved or published.
+Følg "Først i næste session" og "Åbent" i den nyeste `docs/status-*.md`. Start med at læse `AGENTS.md`, kør `python3 tools/places.py validate`, og behandl aldrig værdier i de analytiske CSV'er som verificerede fakta.
