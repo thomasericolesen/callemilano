@@ -3,10 +3,10 @@
   "generated": "2026-11-13",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
-  "places": 158,
+  "places": 159,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 134,
+  "danish": 135,
   "danish_stale": []
  },
  "records": [
@@ -1641,6 +1641,76 @@
      "phone": "+34952470505",
      "booking_lead_time": "Online booking (caminitodelrey.info) is the primary route, limited to 10 tickets per purchase; phone booking also available (+34 952 47 05 05), payment due on arrival. Tickets at the ticket office are sold only subject to availability — online booking in advance is effectively required, especially in high season.",
      "typical_duration": "About 1 h 30 min - 2 h on the walkway, plus the shuttle (15-20 min) back to the car park",
+     "updated_at": "2026-11-13"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-CANON-DE-LAS-ANGOSTURAS-001",
+   "slug": "canon-de-las-angosturas",
+   "name": "Cañón de las Angosturas (Benahavís)",
+   "category": "natur",
+   "record_category": "Nature",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Benahavís",
+   "lat": 36.5172039,
+   "lng": -5.0399199999999995,
+   "google_maps_url": "https://maps.google.com/?cid=16969812549091975637",
+   "google_place_id": "ChIJAwc6ZULVcg0R1eGXfZrigOs",
+   "url": "http://andaluciarustica.com/canon-de-las-angosturas-del-rio-guadalmina-benahavis.htm",
+   "tags": [],
+   "description": "Cañón de las Angosturas (Benahavís) is a gorge on the Río Guadalmina near Benahavís. About 46 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). The Benahavís council page on the Río Guadalmina (dated 14 June 2021) gives access hours of 10:00-20:00 with the last descent at 19:00, describes the canyon as a level 1 canyoning area where protective equipment is recommended, requires children aged 14 and under to be accompanied by an adult, and bans pets, inflatables, glass, soap and music. Prices, duration, parking and accessibility have not been checked.",
+   "catalogue_group": "Tæt på",
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "udflugt_4t",
+    "drive_minutes": 46,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
+    "fit": {
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
+    },
+    "energy": "hoej",
+    "seasons": [],
+    "themes": [],
+    "cost_level": null,
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Cañón de las Angosturas (Benahavís): en kløft langs Río Guadalmina ved Benahavís, ca. 46 min i bil fra Casa de la Familia. Åbningstider og regler er fra kommunens side (2021); øvrige oplysninger er ikke tjekket endnu.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Adgang til Río Guadalmina: 10.00-20.00; sidste afgang ned gennem kløften kl. 19.00 (Benahavís kommunes side dateret 14. juni 2021, læst 13. november 2026; det er ikke oplyst, om tiderne er sæsonbestemte eller stadig gælder)."
+     }
+    ],
+    "links": {
+     "official": "http://andaluciarustica.com/canon-de-las-angosturas-del-rio-guadalmina-benahavis.htm",
+     "booking": null,
+     "info": "https://www.benahavis.es/120/com1_md3_cd-62478/rio-guadalmina"
+    },
+    "checked_at": "2026-11-13",
+    "text_language": "da",
+    "trip": {
+     "record_category": "Nature",
+     "municipality": "Benahavís",
+     "schedule": "Access to the Río Guadalmina: 10:00-20:00; last departure down the canyon 19:00 (Benahavís council page dated 14 June 2021, read 2026-11-13; not stated whether this is seasonal or still current).",
+     "schedule_checked_at": "2026-11-13",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
      "updated_at": "2026-11-13"
     }
    }

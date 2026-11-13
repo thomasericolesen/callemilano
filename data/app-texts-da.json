@@ -1340,5 +1340,17 @@
   ],
   "translated_at": "2026-11-08",
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+ },
+ "ES-AND-MAL-CANON-DE-LAS-ANGOSTURAS-001": {
+  "source_sha": "44689c3fc8354e83",
+  "summary": "Cañón de las Angosturas (Benahavís): en kløft langs Río Guadalmina ved Benahavís, ca. 46 min i bil fra Casa de la Familia. Åbningstider og regler er fra kommunens side (2021); øvrige oplysninger er ikke tjekket endnu.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Adgang til Río Guadalmina: 10.00-20.00; sidste afgang ned gennem kløften kl. 19.00 (Benahavís kommunes side dateret 14. juni 2021, læst 13. november 2026; det er ikke oplyst, om tiderne er sæsonbestemte eller stadig gælder)."
+   }
+  ],
+  "translated_at": "2026-11-13",
+  "checked_by": "Claude (main session)"
  }
 }

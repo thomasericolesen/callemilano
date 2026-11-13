@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-13 - Retry in Claude in Chrome for the drafts kept on the editor list (level A)
+
+- `canon-de-las-angosturas`: the Benahavís council page (dated 14 June 2021, blocked for automated reading) was read in Claude in Chrome. It gives hours 10:00-20:00 with the last descent at 19:00, level 1 canyoning, under-14s accompanied by an adult, pets forbidden. Record: schedule, `dog_friendly: no`, visitor link, evidence (medium confidence, source is from 2021) and `facts_partly_checked`; `draft` to `needs_fact_check` (identity clear, official evidence), so it enters the app with the "Ikke faktatjekket" label (159 places, 135 Danish). Price, duration, parking and accessibility are still open.
+- `castillo-de-monda`: the hotel's own restaurant page (Albacar, 6th floor, table booking) was read; it gives no hours, prices or rule for non-resident diners, and the menu link led to the wine list. Evidence and visitor link added; stays `draft`.
+- `paseo-maritimo-marbella`: not retried yet; the right Turismo Marbella page for this section has still to be found. Stays `draft`.
+- Danish text for `canon-de-las-angosturas` added to `data/app-texts-da.json`.
+
 ## 2026-11-13 - Editor list of 13 November answered (owner decisions, list)
 
 Source: https://claude.ai/artifact/EpwDTtUv1wLvgu1u5Yy5Jn, answers read from collection `editorlist-2026-11-13`.

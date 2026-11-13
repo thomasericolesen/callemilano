@@ -78,7 +78,7 @@ visit_information:
 links:
   official_website: http://www.castillodemonda.com/
   booking: null
-  visitor_information: null
+  visitor_information: https://castillodemonda.com/restaurant-near-marbella/
   transport: null
   contact: null
 related_places:
@@ -123,6 +123,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-10
   confidence: medium
   notes: Owner's own knowledge, given on the callemilano-tjekliste (familievurderinger) on 2026-11-10; not independently verified. age_groups lists the groups rated high or medium. source_type secondary is the nearest schema value.
+- field: description_long (restaurant)
+  claim: '"Perched on the 6th floor of Castillo de Monda, Albacar Restaurante offers an extraordinary dining experience high above the Andalusian countryside."; "BOOK A TABLE"; "Bar Albacar ... light meals and snacks"'
+  source_url: https://castillodemonda.com/restaurant-near-marbella/
+  source_type: official_venue
+  checked_at: '2026-11-13'
+  checked_by: Claude (main session, Claude in Chrome)
+  confidence: medium
+  notes: Own site read in Claude in Chrome on 2026-11-13. It describes the Albacar restaurant (6th floor), Bar Albacar and a rooftop garden and offers table booking, but gives no opening hours, prices or rule for diners who are not hotel guests. The menu page linked from it was the wine list.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -148,7 +156,7 @@ review_issues:
   fields:
   - description_long
   - visit_information
-  description: "Second source attempt 2026-11-13: the hotel's own site (castillodemonda.com) was read; it only shows a 'Book your table' button on the menus page. No hours, prices, non-resident rule or access found; the restaurant page URLs tried returned 404. Proposed for the editor list (archive or keep as a lead)."
+  description: 'Second source attempt 2026-11-13: the hotel''s own site (castillodemonda.com) was read; it only shows a ''Book your table'' button on the menus page. No hours, prices, non-resident rule or access found; the restaurant page URLs tried returned 404. Proposed for the editor list (archive or keep as a lead).'
   retryable: false
   owner: editor
 created_at: '2026-11-02'
