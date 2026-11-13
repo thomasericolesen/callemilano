@@ -38,7 +38,8 @@ Redaktørarbejdsgangen (ejerbeslutning 11. november) er i `AGENTS.md` og `docs/m
 4. **`route_check.py`** er ikke kørt; det kræver en `GOOGLE_MAPS_API_KEY` på Mac'en.
 5. **Menu og pris** mangler for Venta La Morena, Mesón Salvador og Vegetalia.
 6. **Udskudt:** om appen skal vise `approved` anderledes end `needs_editorial_review`.
-7. **Merge-tilladelsen** (`gh pr merge`) er ikke afprøvet i en frisk session.
+7. **Merge-tilladelsen** (`gh pr merge`) virker; afprøvet 13. november (PR #99-#101).
+8. **Senere (ejerens ønske 13. november):** når appen bliver en "rigtig" app og ikke kun en side i browseren, skal den logge ud af sig selv efter nogle minutter uden brug. Det er en ændring i login og venter på ejerens merge. Indtil da forbliver "Log ud" som nu (logger ud på alle enheder).
 
 ## Næste skridt
 

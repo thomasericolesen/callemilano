@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-13 - Automatic sign-out wished for later (owner decision, chat)
+
+- When the app becomes a "real" app rather than a page in the browser, it should sign out by itself after a few minutes without use. Not built now; listed under "Åbent" in `docs/project-state.md`. It touches login, so the app change waits for the owner's merge when it is made.
+- The owner confirmed that Spørg now uses its own quota. "Log ud" stays as it is for now (it signs out on all devices).
+
 ## 2026-11-13 - Trip quota given back; phone logged out (level A, owner report in chat)
 
 - The owner could not make trip plans (5 of 5 used). Those 5 uses were Spørg questions charged to the trip quota before migration 0010 worked. Claude set today's `trip_ai_usage` row for the owner from 5 to 0. Checked as the owner's user: trip quota 0 of 5, Spørg quota 0 of 20.
