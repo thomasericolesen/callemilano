@@ -156,6 +156,14 @@ evidence:
   checked_by: Claude (main session)
   confidence: low
   notes: 'Travel-site excerpts only; the municipal pages give no price or tower hours. Owner decision 2026-11-08: no phone call; price shown as approximate with a ''check online before going'' note.'
+- field: visit_information.schedule
+  claim: '"Horarios de la oficina: De 9:30-14:00 y de 18:00 a 21:15. De Lunes a Domingo." / "No habrá visitas guiadas hasta después de verano por las altas temperaturas." / "Teléfono de contacto: 623 475 906"'
+  source_url: https://www.zaharadelasierra.es/turismo-zahara
+  source_type: government
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Municipal site (Ayuntamiento de Zahara de la Sierra). Tourist-office hours only; no castle or tower hours and no ticket price on the page, so sight_prices_unofficial stays open. Page does not date the office hours or say if they are seasonal.
 review_issues:
 - code: family_ratings_estimated
   severity: warning
@@ -195,7 +203,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: 2026-10-03
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: 2026-10-30
 last_reviewed_at: null
 next_review_at: null

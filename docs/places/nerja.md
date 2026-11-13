@@ -187,8 +187,15 @@ review_issues:
     description: Accessibility, parking, dog policy, toilets, on-site food remain unverified from an official source.
     retryable: true
     owner: fact_check
+  - code: source_attempt_not_found
+    severity: info
+    fields:
+    - visit_information
+    description: "Source attempt 2026-11-13 found nothing usable (blocked). curl returned HTTP 000 (no response), so the item is marked needs_extract. Tavily is not available in this session, so it is reported as blocked. Retry from a s Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+    retryable: true
+    owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-30
+updated_at: '2026-11-13'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-15

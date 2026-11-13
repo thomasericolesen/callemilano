@@ -177,8 +177,15 @@ review_issues:
   description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
   retryable: true
   owner: human_editor
+- code: source_attempt_not_found
+  severity: info
+  fields:
+  - visit_information
+  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). FIND item. One WebSearch (Chiringuito Las Dunas Marbella horario precios): only restaurant directories and guides, no official page. Reported as no_official_sou Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+  retryable: true
+  owner: fact_check
 created_at: 2026-11-01
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: 2026-11-01
 last_reviewed_at: null
 next_review_at: 2027-04-01

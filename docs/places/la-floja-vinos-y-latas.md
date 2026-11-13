@@ -148,8 +148,15 @@ review_issues:
   description: Own website and Facebook page confirm address and phone only (checked 2026-11-02); hours, menu and prices need a call (+34 952 31 47 63) or a visit.
   retryable: true
   owner: fact_check
+- code: source_attempt_not_found
+  severity: info
+  fields:
+  - visit_information
+  description: "Source attempt 2026-11-13 found nothing usable (blocked). curl returned only 198 characters, so the item is marked needs_extract. Tavily is not available in this session (no mcp__Tavily tools), so the item is reported  Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

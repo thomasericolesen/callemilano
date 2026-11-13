@@ -140,8 +140,15 @@ review_issues:
   description: Regular opening hours, whether entry without a ticket is possible, and what the €56/€84 options include need checking.
   retryable: true
   owner: fact_check
+- code: source_attempt_not_found
+  severity: info
+  fields:
+  - visit_information
+  description: "Source attempt 2026-11-13 found nothing usable (blocked). curl returned HTTP 403. The Tavily extract step could not be run: no Tavily tool is available in this session. Not read; needs a Tavily extract or Mac session. Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

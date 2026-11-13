@@ -171,6 +171,14 @@ evidence:
   checked_by: Claude (one-hour beach fact check 2026-11-02)
   confidence: high
   notes: PDF read 2026-11-02.
+- field: transport_options
+  claim: '"Forma de acceso: A pie fácil,Coche"'
+  source_url: https://www.spain.info/es/playa/malagueta/
+  source_type: official_tourism
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Spain tourism portal (spain.info) beach page, read 2026-11-13. Access lines only. No opening hours, prices, lifeguard or bathing-season text, and no parking or visit information, so record_incomplete and lifeguard_season_unchecked stay open.
 review_issues:
 - code: editorial_suitability_requires_human_review
   severity: warning
@@ -203,7 +211,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-10-04'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

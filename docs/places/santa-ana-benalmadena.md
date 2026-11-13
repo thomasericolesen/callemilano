@@ -197,6 +197,14 @@ evidence:
   checked_by: Claude (beach follow-up 2026-11-02)
   confidence: high
   notes: Read via Firecrawl on 2026-11-02. The SOS points are not listed by beach.
+- field: transport_options
+  claim: '"Forma de acceso: A pie fácil,Coche"'
+  source_url: https://www.spain.info/es/playa/santa-ana-benalmadena/
+  source_type: official_tourism
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Spain tourism portal (spain.info) beach page, read 2026-11-13. Access lines only. The page does not mention a lifeguard post, Blue Flag, loudspeakers, bathing hours or prices, so santa_ana_not_named_in_2026_service stays open.
 review_issues:
 - code: santa_ana_not_named_in_2026_service
   severity: warning
@@ -215,7 +223,7 @@ review_issues:
   retryable: false
   owner: human_editor
 created_at: '2026-10-29'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: '2026-10-29'
 last_reviewed_at: null
 next_review_at: null

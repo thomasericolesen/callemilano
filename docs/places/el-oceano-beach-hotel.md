@@ -123,6 +123,38 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: high
   notes: Menu lines quoted verbatim; name and price on adjacent lines joined with a space.
+- field: visit_information.cost_basis (Sunday menu)
+  claim: '"2 Courses 49€, 3 Courses 59€." ; "Two courses are priced at €45. Three courses at €55."'
+  source_url: https://oceanohotel.com/restaurant/menus/sunday-menu
+  source_type: official_venue
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: 'CONFLICT within the same page: both price sets quoted, not resolved.'
+- field: visit_information.cost_basis (menus)
+  claim: '"Creative Soup 11 €" ; "Fillet Steak 38 €"'
+  source_url: https://oceanohotel.com/restaurant/menus/a-la-carte
+  source_type: official_venue
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Existing cost_basis cites mains 26, 28, 32 EUR; this fetch shows Fillet Steak 38 EUR, which may be outside that list. Editor to check with the conflict.
+- field: visit_information.cost_basis (lunch menu)
+  claim: '"Peking Duck Spring Rolls 12.50 €" ; "An optional 10% service charge will be added to your bill."'
+  source_url: https://oceanohotel.com/restaurant/menus/lunch
+  source_type: official_venue
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: null
+- field: non-guest access, booking, children
+  claim: '"As a lunchtime guest, you have full access to the terrace and pool area." ; "Please note: Children are very welcome in the restaurant, however the hotel and pool area are recommended for adults only. Thank you for your understanding." ; "Bookings can be made directly through the reservation system on this website, which is always the most reliable way to secure your table." ; "It is strongly recommended that you book as early as you can."'
+  source_url: https://www.oceanohotel.com/
+  source_type: official_venue
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: 'Pool access wording is from the lunch page, booking wording from the Sunday-menu page; whether non-hotel-guests may use the Polynesian pool/pool bar is still not stated. Dinner-with-music booking rule not found. Phone: "Telephone  (+34) 952 587 550".'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -148,8 +180,16 @@ review_issues:
   description: Not checked whether non-guests can use the Polynesian pool and pool bar, booking rules for dinner with music, or prices.
   retryable: true
   owner: fact_check
+- code: source_conflict
+  description: Own website Sunday menu page states both '2 Courses 49€, 3 Courses 59€.' and 'Two courses are priced at €45. Three courses at €55.' Not resolved; also the a-la-carte page shows Fillet Steak 38 €, above the mains listed in cost_basis. Editor to decide which figures hold.
+  fields:
+  - visit_information.cost_basis
+  - cost_level
+  owner: editor
+  retryable: false
+  severity: blocking
 created_at: '2026-11-02'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

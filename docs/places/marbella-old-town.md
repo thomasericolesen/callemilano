@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "35 min"
+  duration: 35 min
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: Old Town Marbella parking, Av. del Mar 14, 29602 Marbella, Málaga, Spain (a car park, not Plaza de los Naranjos)
-  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5101033%2C-4.8849716&travelmode=driving"
+  source: Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.5101033%2C-4.8849716&travelmode=driving
   checked_at: 2026-11-11
-  note: "29.6 km via A-7. Replaces 35 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history."
+  note: 29.6 km via A-7. Replaces 35 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history.
 age_groups:
 - Small children (0-6)
 - Children (7-12)
@@ -134,6 +134,14 @@ evidence:
   checked_by: Claude (one-hour fold-in 2026-11-02)
   confidence: medium
   notes: Search excerpts of the tourism page and its old-town map PDF (https://turismo.marbella.es/images/media/attachments/area-profesional/material-turistico/plano_marbella_puerto_banus_y_casco_antiguo.pdf), 2026-11-02.
+- field: contact
+  claim: '"Tel.: +34 952 76 11 00"'
+  source_url: https://turismo.marbella.es/
+  source_type: official_tourism
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: medium
+  notes: Phone from the Ayuntamiento de Marbella legal notice (Plaza de los Naranjos), not a tourist office hours page. No hours, parking, access or cost found; no issues resolved.
 review_issues:
 - code: family_ratings_estimated
   severity: warning
@@ -158,7 +166,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: 2026-10-03
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: 2026-10-29
 last_reviewed_at: null
 next_review_at: null

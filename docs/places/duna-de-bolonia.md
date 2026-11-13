@@ -188,8 +188,15 @@ review_issues:
     human editor-of-record must confirm before editorial advancement.
   retryable: false
   owner: human_editor
+- code: source_attempt_not_found
+  severity: info
+  fields:
+  - visit_information
+  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). FIND item. One WebSearch (Duna de Bolonia Tarifa horario precios): no official Junta de Andaluc\u00eda, Tarifa municipal or park-authority page in the results. Repor Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+  retryable: true
+  owner: fact_check
 created_at: '2026-10-04'
-updated_at: '2026-10-16'
+updated_at: '2026-11-13'
 last_verified: '2026-10-16'
 last_reviewed_at:  null
 next_review_at:  null

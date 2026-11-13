@@ -12,7 +12,7 @@ coordinates:
   latitude: 36.9356854
   longitude: -5.2675481
   purpose: representative_point
-  label: "Olvera Castle (Castillo de Olvera)"
+  label: Olvera Castle (Castillo de Olvera)
   source: https://www.google.com/maps/place/Olvera+Castle/@36.9356854,-5.2675481,17z/data=!3m1!4b1!4m6!3m5!1s0xd0d45cd48342e9b:0x408a338911a0f246!8m2!3d36.9356854!4d-5.2675481
   checked_at: '2026-11-11'
 google_maps_url: https://maps.app.goo.gl/4cZJ8eRQH47aHH146
@@ -29,8 +29,8 @@ driving_time_from_casa_de_la_familia:
   checked_at: '2026-10-30'
   note: 'Google''s main figure: 110 min (typical range shown by Google: 1:40-2:00 h:min), 113 km via A-357/A-384. Measured by the owner in Google Maps (screenshots supplied 2026-10-30), one sample, departure setting Saturday 2026-07-18 10:00; traffic and season change the time. No toll marking on the Firecrawl route check. Toll roads were not avoided for this measurement (the owner avoids tolls only for trips under 60 minutes). Destination is Google''s marker: Google Maps marker ''Olvera Castle'' (the castle itself). Origin Calle Milano 35 (36.5356, -4.6627) is treated as the same place as Casa de la Familia because the coordinates agree with the project origin to about 10 m. No route URL recorded. Supersedes the earlier OSRM figure (None).'
 age_groups:
-  - Children (7-12)
-  - Young adults
+- Children (7-12)
+- Young adults
 family_score:
   small_children: low
   children: medium
@@ -38,7 +38,7 @@ family_score:
   seniors: low
 energy_level: Medium
 seasonality:
-  - All year
+- All year
 accessibility:
   overall: unknown
   mobility:
@@ -48,8 +48,8 @@ accessibility:
   sensory:
     notes: unknown
   accessible_toilets: unknown
-  source:  null
-  checked_at:  null
+  source: null
+  checked_at: null
   confidence: unknown
 wheelchair_friendly: unknown
 parking:
@@ -58,8 +58,8 @@ parking:
   cost: unknown
   restrictions: unknown
   walk_distance: unknown
-  source:  null
-  checked_at:  null
+  source: null
+  checked_at: null
 transport_options: []
 booking_required: false
 dog_friendly: unknown
@@ -67,7 +67,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: "Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous), from the tourist office. Dates of the season change are not stated. An older municipal page (changed 2023) gives 10:00-20:00 all year; the owner chose the tourist-office hours on 2026-11-11."
+  schedule: 'Castle: summer daily 10:00-20:00; winter daily 10:00-19:00 (continuous), from the tourist office. Dates of the season change are not stated. An older municipal page (changed 2023) gives 10:00-20:00 all year; the owner chose the tourist-office hours on 2026-11-11.'
   typical_duration: 1–2 hours including the castle and short old-town walk (editorial planning estimate)
   booking_lead_time: null
   valid_from: null
@@ -81,116 +81,130 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: "Nasrid-era castle above Olvera’s historic centre in the Sierra de Cádiz."
-description_long: "Why interesting: The castle and steep white-town setting make this a combined heritage and viewpoint visit. The old streets climb toward the monument, so the approach may be tiring for visitors with limited mobility. Editorial suitability by audience (low / medium / high): Small children (0-6) low, Children (7-12) medium, Teenagers (13-17) high, Adults high, Seniors low. These are estimates for planning, not guarantees or safety advice. Estimated duration: 1–2 hours including the castle and short old-town walk (editorial planning estimate). Seasonality: All year. Weather and practical notes: The official tourism office lists seasonal opening hours and advises visitors to check the current castle price with its office. Expect slopes and steps; access details for mobility-impaired visitors are not specified in the cited source. Check for current schedule changes. Booking: false."
+description_short: Nasrid-era castle above Olvera’s historic centre in the Sierra de Cádiz.
+description_long: 'Why interesting: The castle and steep white-town setting make this a combined heritage and viewpoint visit. The old streets climb toward the monument, so the approach may be tiring for visitors with limited mobility. Editorial suitability by audience (low / medium / high): Small children (0-6) low, Children (7-12) medium, Teenagers (13-17) high, Adults high, Seniors low. These are estimates for planning, not guarantees or safety advice. Estimated duration: 1–2 hours including the castle and short old-town walk (editorial planning estimate). Seasonality: All year. Weather and practical notes: The official tourism office lists seasonal opening hours and advises visitors to check the current castle price with its office. Expect slopes and steps; access details for mobility-impaired visitors are not specified in the cited source. Check for current schedule changes. Booking: false.'
 seo_title: Olvera Castle | CalleMilano destination record
-seo_description: Draft destination record for Olvera Castle. Visitor facts and practical
-  details are under verification.
+seo_description: Draft destination record for Olvera Castle. Visitor facts and practical details are under verification.
 images: []
 evidence:
-  - field: name, google_maps_url
-    claim: The owner-supplied Projekt Spanien Google Maps list contains a saved-place entry displayed as “Olvera Castle”.
-    source_url: https://maps.app.goo.gl/4cZJ8eRQH47aHH146
-    source_type: maps_identity
-    checked_at: '2026-10-04'
-    checked_by: maps-import-agent
-    confidence: medium
-    notes: User-provided visible list capture. The list link is identity provenance only; it does not verify visitor facts, and an individual place URL was not supplied.
-  - field: description_short, description_long, visit_information.schedule
-    claim: Olvera tourism lists the castle, seasonal hours and price-contact caveat; Junta cultural portal confirms identity and heritage.
-    source_url: https://www.turismoolvera.es/informacion
-    source_type: official_tourism
-    checked_at: 2026-10-04
-    checked_by: fact-check-agent
-    confidence: medium
-    notes: Supports the stated claim only; any editorial planning estimate is identified as such.
-  - field: description_long
-    claim: Junta de Andalucía describes the castle as a late-12th-century defensive structure in Olvera.
-    source_url: https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/espacios/castillo-de-olvera
-    source_type: government
-    checked_at: 2026-10-04
-    checked_by: fact-check-agent
-    confidence: high
-    notes: Supports the stated claim only; any editorial planning estimate is identified as such.
-  - field: driving_time_from_casa_de_la_familia
-    claim: One-way drive 110 min (113 km via A-357/A-384), Google Maps main figure.
-    source_url: n/a (owner-supplied Google Maps screenshots, no route URL)
-    source_type: secondary
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: medium
-    notes: Owner screenshots 2026-10-30; one sample; typical range 1:40-2:00. No toll marking on the Firecrawl route check.
-  - field: visit_information
-    claim: Castle summer/winter hours; price only via tourist office.
-    source_url: https://www.turismoolvera.es/informacion
-    source_type: official_tourism
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: medium
-    notes: Two municipal pages disagree on winter hours (19:00 vs 20:00); price EUR 2 not confirmed on the current page.
-  - field: body.nearby_suggestions
-    claim: Nearby sights and viewpoints named in the 'Nearby suggestions' section.
-    source_url: https://www.andalucia.org/blog/post/7-imperdibles-para-visitar-este-otono-en-cadiz/
-    source_type: official_tourism
-    checked_at: 2026-10-30
-    checked_by: claude-code-agent (branch udflugter-verificering-2)
-    confidence: medium
-    notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
-  - field: coordinates
-    claim: "Google Maps lists 'Olvera Castle (Castillo de Olvera)' at 36.9356854, -5.2675481."
-    source_url: https://www.google.com/maps/place/Olvera+Castle/@36.9356854,-5.2675481,17z/data=!3m1!4b1!4m6!3m5!1s0xd0d45cd48342e9b:0x408a338911a0f246!8m2!3d36.9356854!4d-5.2675481
-    source_type: maps_identity
-    checked_at: '2026-11-11'
-    checked_by: Claude (main session); read in Google Maps in Chrome
-    confidence: medium
-    notes: Identity and position only (place point shown by Google Maps); not a visitor entrance point.
-  - field: visit_information.schedule
-    claim: "Editor decision: use the tourist-office hours (winter 10:00-19:00, summer 10:00-20:00)."
-    source_url: https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc
-    source_type: secondary
-    checked_at: '2026-11-11'
-    checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
-    confidence: medium
-    notes: "Decision made by the editor on the editor list (first list, 11 Nov 2026); the conflicting source is named in the record. Own judgement, not independently verified."
+- field: name, google_maps_url
+  claim: The owner-supplied Projekt Spanien Google Maps list contains a saved-place entry displayed as “Olvera Castle”.
+  source_url: https://maps.app.goo.gl/4cZJ8eRQH47aHH146
+  source_type: maps_identity
+  checked_at: '2026-10-04'
+  checked_by: maps-import-agent
+  confidence: medium
+  notes: User-provided visible list capture. The list link is identity provenance only; it does not verify visitor facts, and an individual place URL was not supplied.
+- field: description_short, description_long, visit_information.schedule
+  claim: Olvera tourism lists the castle, seasonal hours and price-contact caveat; Junta cultural portal confirms identity and heritage.
+  source_url: https://www.turismoolvera.es/informacion
+  source_type: official_tourism
+  checked_at: 2026-10-04
+  checked_by: fact-check-agent
+  confidence: medium
+  notes: Supports the stated claim only; any editorial planning estimate is identified as such.
+- field: description_long
+  claim: Junta de Andalucía describes the castle as a late-12th-century defensive structure in Olvera.
+  source_url: https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/espacios/castillo-de-olvera
+  source_type: government
+  checked_at: 2026-10-04
+  checked_by: fact-check-agent
+  confidence: high
+  notes: Supports the stated claim only; any editorial planning estimate is identified as such.
+- field: driving_time_from_casa_de_la_familia
+  claim: One-way drive 110 min (113 km via A-357/A-384), Google Maps main figure.
+  source_url: n/a (owner-supplied Google Maps screenshots, no route URL)
+  source_type: secondary
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: medium
+  notes: Owner screenshots 2026-10-30; one sample; typical range 1:40-2:00. No toll marking on the Firecrawl route check.
+- field: visit_information
+  claim: Castle summer/winter hours; price only via tourist office.
+  source_url: https://www.turismoolvera.es/informacion
+  source_type: official_tourism
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: medium
+  notes: Two municipal pages disagree on winter hours (19:00 vs 20:00); price EUR 2 not confirmed on the current page.
+- field: body.nearby_suggestions
+  claim: Nearby sights and viewpoints named in the 'Nearby suggestions' section.
+  source_url: https://www.andalucia.org/blog/post/7-imperdibles-para-visitar-este-otono-en-cadiz/
+  source_type: official_tourism
+  checked_at: 2026-10-30
+  checked_by: claude-code-agent (branch udflugter-verificering-2)
+  confidence: medium
+  notes: Names taken from official tourism or heritage pages (all listed in the section); no restaurant or rest-stop venue is claimed.
+- field: coordinates
+  claim: Google Maps lists 'Olvera Castle (Castillo de Olvera)' at 36.9356854, -5.2675481.
+  source_url: https://www.google.com/maps/place/Olvera+Castle/@36.9356854,-5.2675481,17z/data=!3m1!4b1!4m6!3m5!1s0xd0d45cd48342e9b:0x408a338911a0f246!8m2!3d36.9356854!4d-5.2675481
+  source_type: maps_identity
+  checked_at: '2026-11-11'
+  checked_by: Claude (main session); read in Google Maps in Chrome
+  confidence: medium
+  notes: Identity and position only (place point shown by Google Maps); not a visitor entrance point.
+- field: visit_information.schedule
+  claim: 'Editor decision: use the tourist-office hours (winter 10:00-19:00, summer 10:00-20:00).'
+  source_url: https://claude.ai/artifact/C1Lu1WExnpBw8YRw5K1Jrc
+  source_type: secondary
+  checked_at: '2026-11-11'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-11
+  confidence: medium
+  notes: Decision made by the editor on the editor list (first list, 11 Nov 2026); the conflicting source is named in the record. Own judgement, not independently verified.
+- field: visit_information.schedule
+  claim: '"Winter hours : 10:30 a.m. to 2:00 p.m. / 4:00 p.m. to 6:00 p.m."; "Summer hours  : 10:30 a.m. to 3:00 p.m. / 4:00 p.m. to 8:30 p.m."; "From Tuesday to Sunday"; "Monday holidays or the eve of holidays open"; "The rest of Monday call the tourist office 665940087"'
+  source_url: https://turismolvera.com/en/arab-castle
+  source_type: official_tourism
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Seasonal hours (no month dates stated), closed Mondays except holidays/eves per the page. Conflicts with the schedule in the record (daily, continuous, 10:00-20:00 / 10:00-19:00). Page gives no ticket price, so EUR 2 stays unconfirmed.
 review_issues:
-  - code: editorial_suitability_requires_human_review
-    severity: warning
-    fields: null
-    description: Audience ratings and effort level are editorial estimates requested for this draft; human editor must review them before approval.
-    retryable: false
-    owner: human_editor
-  - code: record_incomplete
-    severity: warning
-    fields:
-      - coordinates
-      - driving_time_from_casa_de_la_familia
-      - accessibility
-      - parking
-      - visit_information
-    description: These facts or editorial assessments were not established from the supplied list or checked sources. Explicit unknown values remain in this draft; complete claim-specific research and editorial review before advancement.
-    retryable: true
-    owner: fact_check
-  - code: category_and_tags_need_human_review
-    severity: warning
-    fields:
-      - category
-      - tags
-    description: Primary category and controlled tags are provisional intake recommendations; human editor-of-record must confirm before editorial advancement.
-    retryable: false
-    owner: human_editor
-  - code: castle_price_unconfirmed
-    severity: warning
-    fields:
-      - visit_information.cost_basis
-    description: Current official page says to consult the tourist office; EUR 2 comes from search extracts.
-    retryable: true
-    owner: fact_check
+- code: editorial_suitability_requires_human_review
+  severity: warning
+  fields: null
+  description: Audience ratings and effort level are editorial estimates requested for this draft; human editor must review them before approval.
+  retryable: false
+  owner: human_editor
+- code: record_incomplete
+  severity: warning
+  fields:
+  - coordinates
+  - driving_time_from_casa_de_la_familia
+  - accessibility
+  - parking
+  - visit_information
+  description: These facts or editorial assessments were not established from the supplied list or checked sources. Explicit unknown values remain in this draft; complete claim-specific research and editorial review before advancement.
+  retryable: true
+  owner: fact_check
+- code: category_and_tags_need_human_review
+  severity: warning
+  fields:
+  - category
+  - tags
+  description: Primary category and controlled tags are provisional intake recommendations; human editor-of-record must confirm before editorial advancement.
+  retryable: false
+  owner: human_editor
+- code: castle_price_unconfirmed
+  severity: warning
+  fields:
+  - visit_information.cost_basis
+  description: Current official page says to consult the tourist office; EUR 2 comes from search extracts.
+  retryable: true
+  owner: fact_check
+- code: source_conflict
+  description: Official page turismolvera.com (read 2026-11-13) gives Tue-Sun only, split hours (winter 10:30-14:00 / 16:00-18:00; summer 10:30-15:00 / 16:00-20:30), while the record's schedule (tourist office, owner choice 2026-11-11) says daily continuous 10:00-20:00 summer / 10:00-19:00 winter. Not resolved; schedule left unchanged.
+  fields:
+  - visit_information.schedule
+  owner: editor
+  retryable: false
+  severity: blocking
 created_at: '2026-10-04'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: 2026-10-30
-last_reviewed_at:  null
-next_review_at:  null
-review_decision:  null
+last_reviewed_at: null
+next_review_at: null
+review_decision: null
 redirects: []
 ---
 

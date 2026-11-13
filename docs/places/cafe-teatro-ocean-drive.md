@@ -141,8 +141,15 @@ review_issues:
   description: Own page gives no regular hours, drink prices or entry fees for live-music events; the house number differs between the page (4) and Google (5). Check a current event post or call +34 644 36 65 06.
   retryable: true
   owner: fact_check
+- code: source_attempt_not_found
+  severity: info
+  fields:
+  - visit_information
+  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). FIND item. One WebSearch (Caf\u00e9 Teatro by Ocean Drive Fuengirola horario precios): only directories and nightlife guides, no official venue page. Reported as no_ Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null

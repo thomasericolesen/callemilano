@@ -169,8 +169,15 @@ review_issues:
     description: Visitor facilities, access, parking and on-site food remain unverified; the Real Alcázar and Plaza de España have not yet been separately fact-checked.
     retryable: true
     owner: fact_check
+  - code: source_attempt_not_found
+    severity: info
+    fields:
+    - visit_information
+    description: "Source attempt 2026-11-13 found nothing usable (ok). Cathedral site. The page has headings 'Horarios y Tarifas', 'Accesibilidad' and 'Visitas con ni\u00f1os' with no hours, prices or accessibility text in the fetched v Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
+    retryable: true
+    owner: fact_check
 created_at: 2026-10-15
-updated_at: 2026-10-30
+updated_at: '2026-11-13'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-15

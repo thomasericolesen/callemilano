@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-13 - Warnings and info on app places: first batch of source reading (level A; conflicts go to the editor)
+
+- Scope: the 45 app places with fact-type warnings or info (69 issues). The 38 editorial issues (audience, family ratings, tags and category, scope, owner has not visited, overlaps) are not source questions and stay for the editor. Three batches of 15 went through `source-reader` and `record-writer` (WebSearch instead of Tavily, which was not available to the subagents).
+- Result: 21 places got one new evidence entry each (official sources only; Frigiliana at low confidence because the page is dated 2016); no field values were set and no warning was closed, because no quote fully answered an open issue. 21 places with nothing usable (login wall, no official page, blocked) got an info issue `source_attempt_not_found`; a second failed attempt closes their open facts as "not found". `el-torcal-de-antequera` was skipped on purpose: its official page showed injected spam text and needs a second source.
+- New blocking `source_conflict` issues for the editor, none resolved by Claude: `el-oceano-beach-hotel` (Sunday menu gives both 49/59 EUR and 45/55 EUR on the same page; the fillet steak is above the recorded main-course range), `olvera-castle` (official page gives Tue-Sun seasonal hours, the record says daily), `tarifa` (official page: office phone 607 984 871, the record says 607 684 871). Statuses unchanged.
+- Other points for later: Selwo's official page says "from 24.90 EUR", the record has 29.90 EUR box office; Gibraltar's cable car notice "Closed For Refurbishment" has no date.
+- `record-writer` rewrote the YAML of 21 records in its own format; parsed values are unchanged except `evidence`, `review_issues` and `updated_at` (checked by comparing the parsed data), so the diff is large but semantic changes are small. Validation: 220 records, 0 errors, 26 warnings; all tests pass. `data/app-export/` regenerated (only dates changed), no app import needed.
+
 ## 2026-11-13 - Second source attempt for the 8 drafts (level A; archiving proposed, not done)
 
 - The 8 drafts (`castillo-de-monda`, `canon-de-las-angosturas`, `moga-la-cala`, `sky-bar-veramar`, `paseo-maritimo-marbella`, `rio-grande-coin`, `senda-litoral-malaga-oeste`, `sould-park-fuengirola`) went through the pipeline again (source-reader, then own checks). No usable official source was found for any of them: Castillo de Monda's own site only shows a "Book your table" button; Sould Park's site lists no Fuengirola venue; the other six have no readable official page (only guides and booking sites, which are not recorded as facts).

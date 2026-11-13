@@ -116,6 +116,14 @@ evidence:
   checked_by: Claude (bars fact check 2026-11-02)
   confidence: high
   notes: Quoted via Firecrawl (direct-quote mode) on 2026-11-02. Tag Viewpoint from the stated sea views from the rooftop.
+- field: visit_information.schedule
+  claim: '"Monday -Sunday from 16:00 until 22:00 hr."'
+  source_url: https://www.theorangehouselacala.com/upstairs
+  source_type: official_venue
+  checked_at: '2026-11-13'
+  checked_by: record-writer agent
+  confidence: high
+  notes: Official site of The Orange House Boutique Hotel, re-read 2026-11-13; matches the record schedule. Page also says there is no need to book (in the page text; not a separate quote) and gives no phone or drink prices, so prices_unknown stays open.
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -141,7 +149,7 @@ review_issues:
   retryable: true
   owner: fact_check
 created_at: '2026-11-02'
-updated_at: '2026-11-11'
+updated_at: '2026-11-13'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
