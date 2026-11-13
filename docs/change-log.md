@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-13 - App import after the editor list (level A)
+
+- `POST /api/import-places?apply=1`: 159 updated, 0 created, 0 skipped (dry run first, same counts). Spot check: `olvera-castle` carries the new tourism-site hours (10:30), `el-oceano-beach-hotel` shows "check before visiting", and `canon-de-las-angosturas` is in the app with status `needs_fact_check`.
+- Spørg quota after migration 0010: the owner reported that Spørg still used the trip quota. In the database, `get_ask_ai_quota()` called as the owner's user returns its own quota (20, 0 used), and the published code calls it (the self-test probe reaches the function). Today's 5 trip-quota uses most likely came before the migration ran, or from a page still showing the old quota; the owner was asked to reload the app and try again.
+
 ## 2026-11-13 - App migration 0010 applied (level A, owner's merge)
 
 - App repo PR thomasericolesen/callemilano-f388b2be#38 (Spørg gets its own AI quota: 20 questions per person per day, a shared family cap of 60, admins exempt) was merged by the owner. Lovable Publish does not run drizzle migrations, so Claude applied `drizzle/migrations/0010_ask_ai_daily_quota.sql` with the Lovable `query_database` tool in one transaction: table `public.ask_ai_usage` (RLS on, no policies, no grants to anon/authenticated) and the SECURITY DEFINER functions `get_ask_ai_quota()` and `consume_ask_ai_quota()` (execute for authenticated only). The function bodies in the database match the file exactly (md5).
