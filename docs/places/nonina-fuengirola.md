@@ -63,7 +63,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: 'Own Facebook hours box (updated about three years ago, low confidence): Tuesday-Saturday 18:00-02:00, Sunday 13:00-23:00, Monday closed. The page posted on 10 November 2026, so it was active in November.'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review ratings and follower counts not recorded. The linked website noninafuengirola.com did not resolve (DNS failure) on 2026-11-02. The page lists a personal e-mail address; not recorded.
+- field: visit_information.schedule, seasonality
+  claim: 'Hours box: Mandag "LUKKET", Tirsdag-Lørdag "18.00-02.00", Søndag "13.00-23.00", "Updated for ca. 3 år siden". Latest own post 10 November 2026.'
+  source_url: https://www.facebook.com/profile.php?id=61551225957378
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: low
+  notes: Read in Claude in Chrome 2026-11-13. The hours box is old; whether the venue is open all year is still not stated. No prices.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -132,22 +140,14 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: possibly_seasonal_venue
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - seasonality
-  - visit_information
   - cost_level
-  description: Posts point to events around the Feria de Fuengirola (October 2026); it is unclear whether Noniná is open all year, and hours and prices are not given. Confirm with the venue (+34 685 39 43 25) before recommending it.
   retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
-  severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). One WebSearch returned only guide and directory pages (flamencomalaga, gastroranking, kayak). No own or official page was found, so the item stops here. Hour an Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13) found no official answer for: whether it is open all year, and prices. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

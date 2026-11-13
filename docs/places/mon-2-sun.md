@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review and follower counts not recorded. mon2sun.es did not resolve (DNS failure) on 2026-11-02.
+- field: visit_information
+  claim: 'Latest visible own post: 22 December 2024. No 2026 activity found.'
+  source_url: https://www.facebook.com/mon2sunbar
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: medium
+  notes: Own Facebook page read in Claude in Chrome 2026-11-13. Whether the bar is still open is not confirmed.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -140,13 +148,13 @@ review_issues:
   description: Latest visible own post is from December 2024 and the website is gone. Confirm that the bar is open, its hours and prices before recommending it.
   retryable: true
   owner: fact_check
-- code: source_attempt_not_found
+- code: second_source_attempt_failed
   severity: info
+  owner: editor
   fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). One WebSearch found no result that mentions Mon2Sun. Results were only general Mijas tourism and tour listings. Stopped per the FIND rule. Owner or a Mac sessio Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
-  owner: fact_check
+  - status
+  retryable: false
+  description: 'Second source attempt 2026-11-13: no own post since 22 December 2024. Activity in 2026 is not confirmed. Proposed for the next editor list (archive or keep).'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

@@ -60,7 +60,7 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
   schedule: null
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review and follower counts not recorded. The page shows no address, phone or hours.
+- field: food_available
+  claim: '"Cafeteria/Restaurante/Bar" "Desayunos exquisitos,saludables! Nuestro Menú amplias propuestas Menú diario, tapas y raciones... y mucho más!"'
+  source_url: https://www.instagram.com/lasendadelnortebar/
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: high
+  notes: Own Instagram bio, read in Claude in Chrome 2026-11-13. No hours or prices.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -132,22 +140,14 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: hours_and_prices_unknown
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - visit_information
   - cost_level
-  - food_available
-  description: Own page confirms the café-bar and its terrace but gives no hours, menu or prices. Needs a visit or the Instagram page.
   retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
-  severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (login_wall). Instagram page requires login. Owner screenshot needed. Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13) found no official answer for: opening hours and prices. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

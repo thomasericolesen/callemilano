@@ -63,7 +63,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: 'Own Instagram bio: ''J/D: 21:00 - 03:00'', ''V/S: 21:00-04:00'' (read as Thursday and Sunday 21:00-03:00, Friday and Saturday 21:00-04:00). Smoke-free terrace.'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review counts, follower counts and personal e-mail addresses not recorded. Prices seen on a New Year's Eve poster (shots €3.50, cocktails €7) apply to that night only and are not recorded.
+- field: visit_information.schedule
+  claim: '"J/D: 21:00 - 03:00" "V/S: 21:00-04:00" "Terraza sin humo"'
+  source_url: https://www.instagram.com/barburbujas/
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: medium
+  notes: Own Instagram profile bio, read in Claude in Chrome 2026-11-13. Bio is undated. No regular drink prices on the profile.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -132,21 +140,13 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: closing_time_and_prices_unknown
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  description: Own page gives opening days and time (Fri-Sat from 22:00) but no closing time or regular drink prices; a Semana Santa poster shows 20:00-04:00. Confirm before publication.
-  retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
+- code: not_found_after_two_attempts
   severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (login_wall). Instagram login wall. Not fetched further; owner screenshot needed. Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
   owner: fact_check
+  fields:
+  - cost_level
+  retryable: true
+  description: 'Two source attempts (2026-11-13) found no official answer for: regular drink prices. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

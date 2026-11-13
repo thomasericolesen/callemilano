@@ -63,7 +63,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: 'Open daily: Sunday-Thursday 12:00-01:00, Friday-Saturday 12:00-03:00; no reservations (own Instagram bio and ''Horario'' highlight).'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -123,6 +123,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review counts, follower counts and personal e-mail addresses not recorded. pandabarfuengirola.com loads ('Panda Bar Fuengirola | Tu lugar de copas') but had no readable content on 2026-11-02.
+- field: visit_information.schedule, booking_required
+  claim: 'Bio: "L-D desde las 12:00 · Sin reservas". Highlight ''Horario'': "ABRIMOS TODOS LOS DIAS" LUNES-JUEVES "12:00 - 1:00", "VIERNES 12:00 - 3:00", "SABADO 12:00 - 3:00", "DOMINGO 12:00 - 1:00".'
+  source_url: https://www.instagram.com/laterrazadepanda/
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: medium
+  notes: Own Instagram, read in Claude in Chrome 2026-11-13. The highlight is about 23 weeks old (around June 2026) and matches the current bio. No prices.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -140,21 +148,13 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: closing_time_and_prices_unknown
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  description: Opening from 12:00 seven days a week per the own post of 2 Nov 2026; closing time and prices not given.
-  retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
+- code: not_found_after_two_attempts
   severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (login_wall). Instagram page requires login. Owner screenshot needed. Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
   owner: fact_check
+  fields:
+  - cost_level
+  retryable: true
+  description: 'Two source attempts (2026-11-13) found no official answer for: prices. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

@@ -68,8 +68,8 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Concert tickets in the own shop are table reservations whose value is included in drinks: EUR 56 on Fridays and EUR 84 on Saturdays (November 2026; variants for 2, 3 or 4 people, sofas at the back or in front of the musicians).'
+  cost_checked_at: '2026-11-13'
 links:
   official_website: https://speakeasy-jazz-club.sumupstore.com/productos
   booking: null
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bars fact check 2026-11-02)
   confidence: medium
   notes: Shop listing quoted via Firecrawl on 2026-11-02; ticket contents not stated.
+- field: visit_information.cost_basis
+  claim: 'Shop list: "CONSTANZA JAZZ TRIO VIERNES 13/11 23:30 56,00 €", "STEFANO TOMASELLI QUARTET SABADO 14/11 23:30 84,00 €". Variants: "MESA 2 PERSONAS SOFAS FONDO INCLUYE VALOR DE LA RESERVA EN BEBIDAS", "MESA 2 PERSONAS FRENTE MUSICOS INCLUYE VALOR DE LA RESERVA EN BEBIDAS" (also 3 and 4 persons).'
+  source_url: https://speakeasy-jazz-club.sumupstore.com/product/constanza-jazz-trio-viernes-13-11-23-30
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: high
+  notes: Own SumUp shop, read in Claude in Chrome 2026-11-13 (blocked for curl). Whether the 56/84 EUR is per table or per person is not stated on the variant labels.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -132,21 +140,14 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: hours_and_ticket_terms_unknown
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  description: Regular opening hours, whether entry without a ticket is possible, and what the €56/€84 options include need checking.
-  retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
+- code: not_found_after_two_attempts
   severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (blocked). curl returned HTTP 403. The Tavily extract step could not be run: no Tavily tool is available in this session. Not read; needs a Tavily extract or Mac session. Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
   owner: fact_check
+  fields:
+  - visit_information.schedule
+  - booking_required
+  retryable: true
+  description: 'Two source attempts (2026-11-13) found no official answer for: regular opening hours and whether entry without a ticket is possible. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

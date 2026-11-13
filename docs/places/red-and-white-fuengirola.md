@@ -63,7 +63,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: 'Closed for holidays 16 November-1 December 2026, reopening 2 December (own post of 10 November 2026). Otherwise per the Facebook hours box (updated about two years ago, low confidence): Tuesday-Saturday 12:00-23:00, Sunday 12:00-18:00, Monday closed.'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -123,6 +123,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review counts, follower counts and personal e-mail addresses not recorded. The Valentine's menu price is a one-off event price and not recorded as a cost level.
+- field: visit_information.schedule
+  claim: 'Post 10 Nov 2026: "Estaremos cerrados por vaciones desde el 16 de noviembre hasta el 1 de diciembre .Abrimos el día 2". Hours box: Mandag "LUKKET", Tirsdag-Lørdag "12.00-23.00", Søndag "12.00-18.00", "Updated for ca. 2 år siden".'
+  source_url: https://www.facebook.com/profile.php?id=61569418832240
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: medium
+  notes: Read in Claude in Chrome 2026-11-13. The holiday notice is current; the hours box is old. No prices.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -140,21 +148,13 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: hours_and_prices_unknown
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  description: Own page gives no opening hours or regular prices; the 'Estamos de vuelta' image suggests a break at some point. Confirm before publication.
-  retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
+- code: not_found_after_two_attempts
   severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (login_wall). Facebook page. Not read. Owner screenshot needed. Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
   owner: fact_check
+  fields:
+  - cost_level
+  retryable: true
+  description: 'Two source attempts (2026-11-13) found no official answer for: prices. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'
