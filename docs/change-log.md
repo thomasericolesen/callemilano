@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-13 - App migration 0010 applied (level A, owner's merge)
+
+- App repo PR thomasericolesen/callemilano-f388b2be#38 (Spørg gets its own AI quota: 20 questions per person per day, a shared family cap of 60, admins exempt) was merged by the owner. Lovable Publish does not run drizzle migrations, so Claude applied `drizzle/migrations/0010_ask_ai_daily_quota.sql` with the Lovable `query_database` tool in one transaction: table `public.ask_ai_usage` (RLS on, no policies, no grants to anon/authenticated) and the SECURITY DEFINER functions `get_ask_ai_quota()` and `consume_ask_ai_quota()` (execute for authenticated only). The function bodies in the database match the file exactly (md5).
+- Remote self-test against `https://callemilano.dk`: all scenarios OK; `spoerg-live` reached `get_ask_ai_quota` without the "migration 0010 not run" warning.
+
 ## 2026-11-13 - Retry in Claude in Chrome for the drafts kept on the editor list (level A)
 
 - `canon-de-las-angosturas`: the Benahavís council page (dated 14 June 2021, blocked for automated reading) was read in Claude in Chrome. It gives hours 10:00-20:00 with the last descent at 19:00, level 1 canyoning, under-14s accompanied by an adult, pets forbidden. Record: schedule, `dog_friendly: no`, visitor link, evidence (medium confidence, source is from 2021) and `facts_partly_checked`; `draft` to `needs_fact_check` (identity clear, official evidence), so it enters the app with the "Ikke faktatjekket" label (159 places, 135 Danish). Price, duration, parking and accessibility are still open.
