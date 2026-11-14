@@ -170,6 +170,22 @@ evidence:
   checked_by: record-writer agent
   confidence: high
   notes: 'Re-read 2026-11-13; seasonal hours. ''Closed For Refurbishment'' shown beside Cable Car with no date. Note: summer last entry here is 18:45; existing schedule gives no summer last entry. Border mechanics, accessibility, dogs, toilets, food not on this page.'
+- field: booking_required
+  claim: 'Upper Rock tickets: "Show up any day within 90 days of booking to start your trip!" and "Pick up your tickets at any of the official Nature Reserve ticket offices shown here:". Online booking is offered; whether it is required is not stated.'
+  source_url: https://naturereserve.gi/tickets
+  source_type: government
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: medium
+  notes: null
+- field: accessibility
+  claim: '"In the light that not all attractions are totally accessible, the Department of the Environment, Heritage and Climate Change may provide free access" (general statement, not site-level).'
+  source_url: https://visitgibraltar.gi/accessible-sites
+  source_type: official_tourism
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: low
+  notes: null
 review_issues:
 - code: not_spain
   severity: info
@@ -195,18 +211,6 @@ review_issues:
   description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
   retryable: true
   owner: editor
-- code: visitor_facilities_unverified
-  severity: warning
-  fields:
-  - accessibility
-  - wheelchair_friendly
-  - dog_friendly
-  - toilets_available
-  - food_available
-  - booking_required
-  description: Accessibility, dog policy, toilets and on-site food at the Nature Reserve remain unverified; parking/border notes are secondary-sourced only.
-  retryable: true
-  owner: fact_check
 - code: cable_car_closure_date_unknown
   severity: warning
   fields:
@@ -221,8 +225,20 @@ review_issues:
   description: Since 15 Jul 2026 no routine passport checks at the land border (EU-UK treaty provisionally applied, ratification not complete); waiting times not verified.
   retryable: true
   owner: fact_check
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
+  fields:
+  - accessibility
+  - wheelchair_friendly
+  - dog_friendly
+  - toilets_available
+  - food_available
+  - booking_required
+  retryable: true
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, dog_friendly, toilets_available, food_available, booking_required. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15

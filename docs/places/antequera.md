@@ -71,7 +71,7 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
   schedule: 'Alcazaba (Recinto Monumental): Mon-Sun and holidays 10:00-18:00, last entry 17:15; Tuesday (except holidays and eves) 14:00-18:00 with free entry. Real Colegiata de Santa María: Mon-Sun 10:00-18:00; Tuesday 14:00-18:00 free. Dolmens of Menga and Viera and of El Romeral: Tue-Sat 9:00-17:30, Sun 9:00-14:30, Monday closed (except eves of holidays), free entry; 2 Nov 9:00-14:30. The municipal page notes some changes around 1-3 Nov.'
   typical_duration: null
@@ -149,6 +149,30 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: 'General town distinction only; no venue dog rule. Page has no hours, prices, parking, toilets or accessibility, so those issues stay open. Phone quoted: "952 70 25 05".'
+- field: dog_friendly
+  claim: 'Alcazaba: "La Alcazaba es Petfriendly, por lo que se puede acceder a ella acompañado de tu mascota, aunque debes saber que SIEMPRE debe ir vigilada y atada."'
+  source_url: https://turismo.antequera.es/puntos-de-interes/alcazaba/
+  source_type: official_tourism
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: Applies to the Alcazaba only; value for the town left unknown.
+- field: cost_level
+  claim: 'Alcazaba: "Adultos: 5€ / Niños hasta 7 años: gratis." and "De 8 a 12 años, Juvenil y Mayores de 65 años: 4€." Tuesday 14:00-18:00 free.'
+  source_url: https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/
+  source_type: official_tourism
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
+- field: booking_required
+  claim: 'Alcazaba: "Grupos: Concertar visita en el teléfono: 951 700 737". No advance booking for individuals is stated.'
+  source_url: https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/
+  source_type: official_tourism
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: medium
+  notes: null
 review_issues:
 - code: overlap_torcal
   severity: warning
@@ -164,21 +188,20 @@ review_issues:
   description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
   retryable: true
   owner: editor
-- code: visitor_facilities_unverified
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - accessibility
   - wheelchair_friendly
   - parking
   - dog_friendly
   - toilets_available
-  - cost_level
   - booking_required
-  description: Parking, accessibility, dog policy and toilets remain unverified; opening hours and prices were confirmed 2026-10-29 from the municipal tourism site. Re-check the municipal page (it was modified 2026-10-28) before publication, because the Alcazaba price differs between secondary sites.
   retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, booking_required. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15

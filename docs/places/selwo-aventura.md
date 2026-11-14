@@ -48,32 +48,32 @@ accessibility:
   overall: unknown
   mobility:
     route: unknown
-    wheelchair_route: unknown
+    wheelchair_route: partial
     facilities: unknown
   sensory:
     notes: unknown
-  accessible_toilets: unknown
+  accessible_toilets: 'yes'
   source: null
   checked_at: null
   confidence: unknown
-wheelchair_friendly: unknown
+wheelchair_friendly: partial
 parking:
-  availability: unknown
+  availability: Paid car park at the park, EUR 5 per vehicle, ticket bought at the entrance barrier; signposted spaces reserved for people with disabilities.
   location_type: unknown
-  cost: unknown
+  cost: EUR 5 per vehicle
   restrictions: unknown
   walk_distance: unknown
-  source: null
-  checked_at: null
+  source: https://selwo.es/en/legal/normas-del-zoo
+  checked_at: '2026-11-14'
 transport_options:
 - mode: bus
   access_point: Check current regular-service connections toward Estepona.
   source: https://www.selwo.es/prepara-tu-visita/informacion-relevante/como-llegar
   checked_at: 2026-10-03
 booking_required: false
-dog_friendly: unknown
-toilets_available: unknown
-food_available: unknown
+dog_friendly: 'no'
+toilets_available: 'yes'
+food_available: 'yes'
 cost_level: €€
 visit_information:
   schedule: Check the official calendar for the chosen date; hours and activities can change.
@@ -152,6 +152,46 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: Own English page, price lines only; page gives no date or reference year. The record's cost_basis also names a box-office price of EUR 29.90 that is not in these quotes, and the quote does not say which ticket the 8-64 age range belongs to. Not used to change any field.
+- field: wheelchair_friendly
+  claim: '"The park facilities and the route are free of architectural barriers, or have alternative barrier-free paths that avoid bridges, stairs, or uneven surfaces." and "certain points along the route have steep slopes where visitors in wheelchairs without electric assistance may need help." Electric scooters for reduced mobility are rented (EUR 25, EUR 50 deposit).'
+  source_url: https://selwo.es/en/descubre-selwo-aventura/servicios
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
+- field: toilets_available
+  claim: '"The park''s restrooms have baby changing tables and separate restrooms adapted for people with reduced mobility."'
+  source_url: https://selwo.es/en/descubre-selwo-aventura/servicios
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
+- field: parking
+  claim: '"Selwo parking : €5 per vehicle." and "There are parking spaces reserved for people with disabilities, which are clearly signposted."'
+  source_url: https://selwo.es/en/legal/normas-del-zoo
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
+- field: dog_friendly
+  claim: '"Access to the Park premises with pets shall not be permitted , except assistance animals (such as guide dogs) duly accredited in accordance with the applicable regulations."'
+  source_url: https://selwo.es/en/legal/normas-del-zoo
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
+- field: food_available
+  claim: '"The dining terraces located throughout the Park are for the exclusive use of customers who have purchased their food from any of the Park''s food and beverage outlets."'
+  source_url: https://selwo.es/en/legal/normas-del-zoo
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
 review_issues:
 - code: family_ratings_estimated
   severity: warning
@@ -163,20 +203,8 @@ review_issues:
   description: Audience ratings, energy, and suitable seasons are provisional editorial estimates; verify terrain, age limits, seasonal calendar, and visit demands.
   retryable: true
   owner: editorial
-- code: visitor_facilities_unverified
-  severity: warning
-  fields:
-  - accessibility
-  - wheelchair_friendly
-  - parking
-  - dog_friendly
-  - toilets_available
-  - food_available
-  description: Access, parking, pet rules, toilets, and food service details remain unverified.
-  retryable: true
-  owner: fact_check
 created_at: 2026-10-03
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-03
 last_reviewed_at: null
 next_review_at: null

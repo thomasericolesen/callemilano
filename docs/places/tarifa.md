@@ -195,8 +195,16 @@ review_issues:
   description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
   retryable: true
   owner: editor
-- code: visitor_facilities_unverified
+- code: castle_hours_source_dated
   severity: warning
+  fields:
+  - visit_information.schedule
+  description: Hours come from a 2025 Junta de Andalucía page; call 687 788 466 / 607 984 871 to confirm.
+  retryable: true
+  owner: fact_check
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - accessibility
   - wheelchair_friendly
@@ -205,18 +213,10 @@ review_issues:
   - toilets_available
   - food_available
   - booking_required
-  description: Hours and price are now confirmed from the castle's official site. Accessibility, parking, dog/toilet/food facilities and booking requirements remain unverified; the town council maintains a general PMR-accessible-parking map but it's not confirmed to cover spaces specifically near the castle.
   retryable: true
-  owner: fact_check
-- code: castle_hours_source_dated
-  severity: warning
-  fields:
-  - visit_information.schedule
-  description: Hours come from a 2025 Junta de Andalucía page; call 687 788 466 / 607 984 871 to confirm.
-  retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available, booking_required. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15

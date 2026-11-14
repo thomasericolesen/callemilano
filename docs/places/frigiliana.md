@@ -192,8 +192,9 @@ review_issues:
   description: Audience ratings, energy, and visit-duration tag are provisional editorial estimates for a walking-focused historic town; check terrain, duration, and suitability before approval.
   retryable: true
   owner: editorial
-- code: visitor_facilities_unverified
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - accessibility
   - wheelchair_friendly
@@ -202,11 +203,10 @@ review_issues:
   - toilets_available
   - food_available
   - cost_level
-  description: Accessibility is now partly sourced for the tourist office only (see evidence); the historic quarter's own streets, general parking, dog/toilet/food facilities, and cost remain unverified from an official source.
   retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available, cost_level. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-03
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
 last_reviewed_at: null
 next_review_at: null

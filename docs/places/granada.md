@@ -49,7 +49,7 @@ accessibility:
   overall: unknown
   mobility:
     route: 'Official site recommends comfortable, closed, flat footwear: cobblestones, uneven steps and bare-earth sections exist on the grounds.'
-    wheelchair_route: unknown
+    wheelchair_route: partial
     facilities: unknown
   sensory:
     notes: unknown
@@ -57,19 +57,19 @@ accessibility:
   source: https://www.alhambra-patronato.es/en/visit/faq
   checked_at: 2026-10-15
   confidence: medium
-wheelchair_friendly: unknown
+wheelchair_friendly: partial
 parking:
-  availability: unknown
+  availability: Alhambra car park, 360 spaces, guarded 24 hours (official FAQ). Cost and walking distance not stated.
   location_type: unknown
   cost: unknown
   restrictions: unknown
   walk_distance: unknown
-  source: null
-  checked_at: null
+  source: https://www.alhambra-patronato.es/en/visit/faq
+  checked_at: '2026-11-14'
 transport_options: []
 booking_required: true
-dog_friendly: unknown
-toilets_available: unknown
+dog_friendly: 'no'
+toilets_available: 'yes'
 food_available: unknown
 cost_level: €€
 visit_information:
@@ -88,7 +88,7 @@ links:
   contact: tel:+34858889002
 related_places: []
 description_short: 'Granada''s Alhambra is part of this record per owner decision: a palace-fortress complex requiring advance-booked, timed tickets (commonly released months ahead and prone to selling out), plus the wider old town and Albaicín. About about 1 hour 50 minutes'' drive from Casa de la Familia (Google Maps main figure).'
-description_long: Granada is about 1 hour 50 minutes' drive from Casa de la Familia (Google Maps main figure). Per owner decision, the Alhambra is treated as part of this record rather than a separate one. The Alhambra's gardens, Generalife and Alcazaba are open daily (08:30-18:00 winter, 08:30-20:00 summer), while the Nasrid Palaces use timed entry capped at 300 visitors per 30-minute slot — a general visit takes around 3 hours. Tickets (General Day Tour €22.27, or the cheaper Andalusian Monuments Visit at €8.48) are sold via the official site, by phone, at ticket machines, or same-day at the office subject to availability; secondary sources consistently (though not officially confirmed) describe tickets as released roughly 3 months ahead and liable to sell out in high season, so advance booking is strongly recommended. Visitors 14 and older without an accompanying adult must carry ID; under-14s must be accompanied. The official site recommends flat, closed footwear for cobblestones, uneven steps and bare-earth sections. Beyond the Alhambra, the Albaicín's free Mirador de San Nicolás viewpoint offers a well-known view back toward the Alhambra with the Sierra Nevada behind it, though it gets crowded, especially at sunset. Parking, full accessibility details and on-site food have not been confirmed from an official source.
+description_long: Granada is about 1 hour 50 minutes' drive from Casa de la Familia (Google Maps main figure). Per owner decision, the Alhambra is treated as part of this record rather than a separate one. The Alhambra's gardens, Generalife and Alcazaba are open daily (08:30-18:00 winter, 08:30-20:00 summer), while the Nasrid Palaces use timed entry capped at 300 visitors per 30-minute slot — a general visit takes around 3 hours. Tickets (General Day Tour €22.27, or the cheaper Andalusian Monuments Visit at €8.48) are sold via the official site, by phone, at ticket machines, or same-day at the office subject to availability; secondary sources consistently (though not officially confirmed) describe tickets as released roughly 3 months ahead and liable to sell out in high season, so advance booking is strongly recommended. Visitors 14 and older without an accompanying adult must carry ID; under-14s must be accompanied. The official site recommends flat, closed footwear for cobblestones, uneven steps and bare-earth sections. Beyond the Alhambra, the Albaicín's free Mirador de San Nicolás viewpoint offers a well-known view back toward the Alhambra with the Sierra Nevada behind it, though it gets crowded, especially at sunset. The official FAQ lists a guarded car park with 360 spaces, a wheelchair itinerary (with steps and uneven areas elsewhere), toilets at the ticket office and inside the complex, and no dogs except guide and assistance dogs. On-site food has not been confirmed.
 seo_title: 'Granada and the Alhambra: Tickets, Hours and Timing'
 seo_description: 'Plan a Granada day trip including the Alhambra: booking, timed entry, prices, and the drive from Casa de la Familia. Book tickets well ahead.'
 images: []
@@ -157,6 +157,38 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: 'Homepage notice only, not a timetable: Alcazaba open with an adapted route, Torre de la Vela temporarily closed. Visitor phone number given. Hours and prices not on the homepage; no issues resolved.'
+- field: parking.availability
+  claim: '"Yes, Alhambra car park has 360 parking spaces and is guarded 24 hours."'
+  source_url: https://www.alhambra-patronato.es/en/visit/faq
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
+- field: wheelchair_friendly
+  claim: '"The Alhambra has an established itinerary for wheelchairs." The same FAQ notes "numerous narrow rooms, steps and uneven areas", so the value is partial.'
+  source_url: https://www.alhambra-patronato.es/en/visit/faq
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
+- field: dog_friendly
+  claim: '"No, you cannot access with animals, except in case of guide dogs and assistance dogs."'
+  source_url: https://www.alhambra-patronato.es/en/visit/faq
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
+- field: toilets_available
+  claim: '"Yes, there are toilets outside the complex, next to the ticket office but also inside the Alhambra (in Generalife and in the area of Nasrid Palaces)."'
+  source_url: https://www.alhambra-patronato.es/en/visit/faq
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: high
+  notes: null
 review_issues:
 - code: alhambra_in_granada
   severity: info
@@ -174,19 +206,15 @@ review_issues:
   description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
   retryable: true
   owner: editor
-- code: visitor_facilities_unverified
-  severity: warning
-  fields:
-  - parking
-  - wheelchair_friendly
-  - dog_friendly
-  - toilets_available
-  - food_available
-  description: Parking, wheelchair accessibility, dog policy, toilets and on-site food have not been confirmed from an official source.
-  retryable: true
+- code: not_found_after_two_attempts
+  severity: info
   owner: fact_check
+  fields:
+  - food_available
+  retryable: true
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: food_available. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-15

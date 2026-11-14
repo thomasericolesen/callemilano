@@ -1,5 +1,19 @@
 # Change log
 
+## 2026-11-14 - Second source attempt for 21 app places with open facility issues (level A)
+
+- **Read:** 21 places with `visitor_facilities_unverified` (19) or `record_incomplete` (2), in three batches of seven, with `source-reader` (curl, PDF, Playwright). Tavily was not available in the session. Chrome read the Tolox spa and the Malaga cathedral page; andalucia.org gave "Access Denied" there too.
+- **Found and written (official sources, quotes in the evidence ledger):**
+  - `granada` (Alhambra FAQ): car park with 360 spaces, wheelchair itinerary (value `partial`), toilets, no dogs except guide and assistance dogs.
+  - `selwo-aventura` (own site): barrier-free route with steep points (`partial`), adapted toilets, EUR 5 parking with reserved spaces, no pets except assistance animals, food outlets. Issue closed.
+  - `el-torcal-de-antequera`: two adapted accesses (wheelchair `partial`), cafe/restaurant confirmed. Only toilets remain open.
+  - `antequera`: `cost_level` set to EUR from the Alcazaba price list (5 EUR adults); the Alcazaba is pet friendly (evidence only, the town value stays unknown); booking only stated for groups.
+  - `cadiz`, `gibraltar`, `playa-la-malagueta`: evidence added, no values changed.
+  - `olvera-castle`: `visit_information` closed (hours were decided by the editor on 2026-11-13); coordinates and driving time stay in `record_incomplete`.
+- **Not found:** the remaining fields on all places are closed as `not_found_after_two_attempts` (info), values left unknown and shown as "check before visiting".
+- **Not changed:** statuses, categories, tags, family scores. Danish texts are unaffected (the hash covers summary and practical only), 0 stale. The Selwo price conflict (24.90 vs 29.90 EUR) is a separate open point.
+- **Still blocked for a later try:** andalucia.org (403 even in Chrome), the Ronda hours PDF (image only), the Antequera dolmen PDFs, the Cordoba ticket site (JavaScript shell).
+
 ## 2026-11-14 - Editor list of 14 November answered: three bars archived (owner decisions, list)
 
 Source: https://claude.ai/artifact/AFi2EGnFQEcEM7zUjt6m7y, answers read from collection `editorlist-2026-11-14`.

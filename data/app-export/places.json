@@ -136,7 +136,7 @@
      "museum",
      "spisested"
     ],
-    "cost_level": null,
+    "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Antequera er en historisk by i Málaga-provinsen bygget omkring Alcazaba-fæstningen på bakken, med UNESCO-dysserne i Antequera tæt ved; åbningstider og priser er bekræftet fra kommunens turistside (tjekket 29. oktober 2026).",
@@ -155,7 +155,7 @@
      "booking": null,
      "info": "https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/"
     },
-    "checked_at": "2026-11-13",
+    "checked_at": "2026-11-14",
     "text_language": "da",
     "trip": {
      "record_category": "City",
@@ -169,7 +169,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -1396,7 +1396,7 @@
      "booking": null,
      "info": "https://catedraldecadiz.com/horarios-visita-turistica/"
     },
-    "checked_at": "2026-11-13",
+    "checked_at": "2026-11-14",
     "text_language": "da",
     "trip": {
      "record_category": "City",
@@ -1410,7 +1410,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -1651,7 +1651,7 @@
      "phone": "+34952470505",
      "booking_lead_time": "Online booking (caminitodelrey.info) is the primary route, limited to 10 tickets per purchase; phone booking also available (+34 952 47 05 05), payment due on arrival. Tickets at the ticket office are sold only subject to availability — online booking in advance is effectively required, especially in high season.",
      "typical_duration": "About 1 h 30 min - 2 h on the walkway, plus the shuttle (15-20 min) back to the car park",
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -2718,7 +2718,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "Roughly 1-2 hours for a standard self-guided visit (secondary-source estimate; not stated officially).",
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -3478,7 +3478,7 @@
      "booking": "mailto:reservas@torcaldeantequera.com",
      "info": "https://www.torcaldeantequera.com/informacion/como-visitar-el-torcal-de-antequera/"
     },
-    "checked_at": "2026-10-29",
+    "checked_at": "2026-11-14",
     "text_language": "da",
     "trip": {
      "record_category": "Nature",
@@ -3492,7 +3492,7 @@
      "phone": null,
      "booking_lead_time": "Self-guided visits need no booking; guided routes (e.g. 'Ruta de los Ammonites') should be booked ahead by phone or email as group sizes are limited.",
      "typical_duration": "Green self-guided route ~45 min (1.5 km); Yellow self-guided route ~1h30 (2.8-3 km, circular); guided routes 3-5 hours.",
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -3808,7 +3808,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -4345,7 +4345,7 @@
      "booking": "https://naturereserve.gi/tickets/",
      "info": "https://www.visitgibraltar.gi/see-and-do/gibraltar-nature-reserve-upper-rock"
     },
-    "checked_at": "2026-11-13",
+    "checked_at": "2026-11-14",
     "text_language": "da",
     "trip": {
      "record_category": "City",
@@ -4359,7 +4359,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -4383,7 +4383,7 @@
     "spisested",
     "Full day"
    ],
-   "description": "Granada is about 1 hour 50 minutes' drive from Casa de la Familia (Google Maps main figure). Per owner decision, the Alhambra is treated as part of this record rather than a separate one. The Alhambra's gardens, Generalife and Alcazaba are open daily (08:30-18:00 winter, 08:30-20:00 summer), while the Nasrid Palaces use timed entry capped at 300 visitors per 30-minute slot — a general visit takes around 3 hours. Tickets (General Day Tour €22.27, or the cheaper Andalusian Monuments Visit at €8.48) are sold via the official site, by phone, at ticket machines, or same-day at the office subject to availability; secondary sources consistently (though not officially confirmed) describe tickets as released roughly 3 months ahead and liable to sell out in high season, so advance booking is strongly recommended. Visitors 14 and older without an accompanying adult must carry ID; under-14s must be accompanied. The official site recommends flat, closed footwear for cobblestones, uneven steps and bare-earth sections. Beyond the Alhambra, the Albaicín's free Mirador de San Nicolás viewpoint offers a well-known view back toward the Alhambra with the Sierra Nevada behind it, though it gets crowded, especially at sunset. Parking, full accessibility details and on-site food have not been confirmed from an official source.",
+   "description": "Granada is about 1 hour 50 minutes' drive from Casa de la Familia (Google Maps main figure). Per owner decision, the Alhambra is treated as part of this record rather than a separate one. The Alhambra's gardens, Generalife and Alcazaba are open daily (08:30-18:00 winter, 08:30-20:00 summer), while the Nasrid Palaces use timed entry capped at 300 visitors per 30-minute slot — a general visit takes around 3 hours. Tickets (General Day Tour €22.27, or the cheaper Andalusian Monuments Visit at €8.48) are sold via the official site, by phone, at ticket machines, or same-day at the office subject to availability; secondary sources consistently (though not officially confirmed) describe tickets as released roughly 3 months ahead and liable to sell out in high season, so advance booking is strongly recommended. Visitors 14 and older without an accompanying adult must carry ID; under-14s must be accompanied. The official site recommends flat, closed footwear for cobblestones, uneven steps and bare-earth sections. Beyond the Alhambra, the Albaicín's free Mirador de San Nicolás viewpoint offers a well-known view back toward the Alhambra with the Sierra Nevada behind it, though it gets crowded, especially at sunset. The official FAQ lists a guarded car park with 360 spaces, a wheelchair itinerary (with steps and uneven areas elsewhere), toilets at the ticket office and inside the complex, and no dogs except guide and assistance dogs. On-site food has not been confirmed.",
    "catalogue_group": "Længere væk",
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -4434,7 +4434,7 @@
      "booking": "https://tickets.alhambra-patronato.es/",
      "info": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices"
     },
-    "checked_at": "2026-11-13",
+    "checked_at": "2026-11-14",
     "text_language": "da",
     "trip": {
      "record_category": "City",
@@ -4448,7 +4448,7 @@
      "phone": "+34858889002",
      "booking_lead_time": "Not stated on the official page; secondary sources (not independently confirmed officially) consistently describe tickets as released roughly 3 months ahead and often selling out in high season — book as far in advance as possible.",
      "typical_duration": "Around 3 hours for the general visit.",
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -4911,7 +4911,7 @@
      "phone": "+34956149955",
      "booking_lead_time": "Bodega tours bookable online, reportedly with same-day or next-day availability depending on capacity (via resellers; not confirmed on the bodega's own official page).",
      "typical_duration": "Bodega tour (González Byass, if chosen as an activity) reported around 90 minutes, ending with a tasting.",
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -6193,7 +6193,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-10-15"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -6597,7 +6597,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "~1–1.5 hours for the cathedral; allow extra time for the Alcazaba hill fortress",
-     "updated_at": "2026-11-11"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -6678,7 +6678,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -8308,7 +8308,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "1–2 hours including the castle and short old-town walk (editorial planning estimate)",
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -8820,13 +8820,13 @@
      "booking": null,
      "info": "https://www.malaga.eu/la-ciudad/playas/la-malagueta/"
     },
-    "checked_at": "2026-11-13",
+    "checked_at": "2026-11-14",
     "text_language": "da",
     "trip": {
      "record_category": "Beaches",
      "municipality": "Málaga",
      "schedule": null,
-     "schedule_checked_at": null,
+     "schedule_checked_at": "2026-11-14",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -8834,7 +8834,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": "1–3 hours (editorial planning estimate)",
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -9908,7 +9908,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -10281,7 +10281,7 @@
      "booking": "https://www.selwo.es/en/comprar",
      "info": "https://www.selwo.es/en/horarios-y-precios/horarios"
     },
-    "checked_at": "2026-11-13",
+    "checked_at": "2026-11-14",
     "text_language": "da",
     "trip": {
      "record_category": "Family activities",
@@ -10295,7 +10295,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -10532,7 +10532,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -11259,7 +11259,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -11498,7 +11498,7 @@
      "phone": "+34952487091",
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -11814,7 +11814,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },
@@ -12063,7 +12063,7 @@
      "phone": null,
      "booking_lead_time": null,
      "typical_duration": null,
-     "updated_at": "2026-11-13"
+     "updated_at": "2026-11-14"
     }
    }
   },

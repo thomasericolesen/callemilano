@@ -179,6 +179,14 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: Spain tourism portal (spain.info) beach page, read 2026-11-13. Access lines only. No opening hours, prices, lifeguard or bathing-season text, and no parking or visit information, so record_incomplete and lifeguard_season_unchecked stay open.
+- field: visit_information
+  claim: 'Assisted-bathing service 2026: "Del 15 de junio al 15 de septiembre: todos los días." "Mañana: 11:00 a 14:00" "Tarde: 16:00 a 20:00". This is the service, not beach opening hours.'
+  source_url: https://www.malaga.eu/identidad/detalle-de-la-noticia/Disfruta-la-Playa-2026
+  source_type: government
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: medium
+  notes: null
 review_issues:
 - code: editorial_suitability_requires_human_review
   severity: warning
@@ -186,14 +194,6 @@ review_issues:
   description: Audience ratings and effort level are editorial estimates requested for this draft; human editor must review them before approval.
   retryable: false
   owner: human_editor
-- code: record_incomplete
-  severity: warning
-  fields:
-  - parking
-  - visit_information
-  description: Coordinates, drive time, facilities and accessibility were checked on 2026-11-02. Parking and visit information remain open.
-  retryable: true
-  owner: fact_check
 - code: category_and_tags_need_human_review
   severity: warning
   fields:
@@ -210,8 +210,16 @@ review_issues:
   description: Lifeguard service and bathing-season dates for 2027 are not checked against the council's beach plan; check before publishing safety-related text.
   retryable: true
   owner: fact_check
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
+  fields:
+  - parking
+  - visit_information
+  retryable: true
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: parking, visit_information. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-10-04'
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null

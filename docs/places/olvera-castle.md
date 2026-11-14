@@ -174,17 +174,6 @@ review_issues:
   description: Audience ratings and effort level are editorial estimates requested for this draft; human editor must review them before approval.
   retryable: false
   owner: human_editor
-- code: record_incomplete
-  severity: warning
-  fields:
-  - coordinates
-  - driving_time_from_casa_de_la_familia
-  - accessibility
-  - parking
-  - visit_information
-  description: These facts or editorial assessments were not established from the supplied list or checked sources. Explicit unknown values remain in this draft; complete claim-specific research and editorial review before advancement.
-  retryable: true
-  owner: fact_check
 - code: category_and_tags_need_human_review
   severity: warning
   fields:
@@ -200,8 +189,24 @@ review_issues:
   description: Current official page says to consult the tourist office; EUR 2 comes from search extracts.
   retryable: true
   owner: fact_check
+- code: record_incomplete
+  severity: warning
+  fields:
+  - coordinates
+  - driving_time_from_casa_de_la_familia
+  description: These facts or editorial assessments were not established from the supplied list or checked sources. Explicit unknown values remain in this draft; complete claim-specific research and editorial review before advancement.
+  retryable: true
+  owner: fact_check
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
+  fields:
+  - accessibility
+  - parking
+  retryable: true
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, parking. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-10-04'
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
 last_reviewed_at: null
 next_review_at: null

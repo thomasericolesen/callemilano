@@ -163,8 +163,9 @@ review_issues:
   description: 'Resolved by this fact-check: Tolox''s wellness offering is a real, named thermal spa (Balneario de Tolox / Fuente Amargosa) per its own official site, but it is seasonal (June-October), not year-round. Editor to confirm category/tags reflect the seasonal nature.'
   retryable: false
   owner: editorial
-- code: visitor_facilities_unverified
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - accessibility
   - wheelchair_friendly
@@ -173,11 +174,10 @@ review_issues:
   - toilets_available
   - cost_level
   - booking_required
-  description: Daily hours, current treatment prices, day-visitor access, parking and accessibility remain unverified.
   retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, cost_level, booking_required. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-01
