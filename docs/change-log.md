@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-14 - Wheelchair "delvis" dropped (owner decision, chat)
+
+- Nobody in the family uses a wheelchair, so showing "Delvist egnet" in the app is not a priority. App PR thomasericolesen/callemilano-f388b2be#39 and export PR #113 are closed; the branches are kept. `partial` stays in the records and is exported as "ukendt" (not shown in the app).
+
 ## 2026-11-14 - Freshness job, wheelchair "delvis" and editor list (2) (level A; the list's decisions are the editor's)
 
 - **Freshness job:** new `tools/freshness.py` (tests in `tests/test_freshness.py`) lists overdue places, places without `next_review_at` and days until the import token expires; `--apply` sets overdue fact-checked places back to `needs_fact_check` with a `review_overdue` warning. A local scheduled task (`callemilano-friskhed`, 09:00 on the 1st of each month, on the owner's Mac while the Claude app is open) runs it and then follows the freshness procedure in `docs/multi-agent-workflow.md`.
