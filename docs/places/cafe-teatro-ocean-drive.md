@@ -63,7 +63,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: 'Own Facebook page hours box: Friday-Sunday 12:00-00:00, Monday-Thursday closed (box marked as updated about a year ago; check before visiting).'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review ratings and follower counts not recorded. The linked website cafeteatrofuengirola.com is a parked domain for sale (checked 2026-11-02). House number differs from Google (4 vs 5).
+- field: visit_information.schedule
+  claim: 'Hours box: Mandag-Torsdag "LUKKET"; Fredag, Lørdag, Søndag "12.00-00.00"; "Updated for ca. et år siden". Address on page: "Paseo marítimo rey de España n.4".'
+  source_url: https://www.facebook.com/oceandriveboatparty
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: low
+  notes: Read in Claude in Chrome 2026-11-13 (Danish interface). The box is about a year old. Own site cafeteatrofuengirola.com did not load. No prices or entry fees.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -132,22 +140,14 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: hours_prices_and_entry_unknown
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
-  - visit_information
   - cost_level
   - booking_required
-  description: Own page gives no regular hours, drink prices or entry fees for live-music events; the house number differs between the page (4) and Google (5). Check a current event post or call +34 644 36 65 06.
   retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
-  severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). FIND item. One WebSearch (Caf\u00e9 Teatro by Ocean Drive Fuengirola horario precios): only directories and nightlife guides, no official venue page. Reported as no_ Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13) found no official answer for: drink prices and entry fees for live-music events. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

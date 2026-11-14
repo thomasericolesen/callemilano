@@ -63,7 +63,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Monday, Thursday, Friday, Saturday 12:00-16:00 and 19:00-23:30; Sunday 12:00-16:00; Tuesday and Wednesday closed (own Instagram post 'Nuevo horario', 19 October 2026).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -123,6 +123,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review counts, follower counts and personal e-mail addresses not recorded. The hours image is undated; it appears first in the page's photos.
+- field: visit_information.schedule
+  claim: 'Post text "Nuevo horario en Changueiro" (19 October). Image: "Lunes, jueves, viernes, sábado 12:00-16:00 19:00-23:30" "Domingo 12:00-16:00" "Martes y miércoles descanso".'
+  source_url: https://www.instagram.com/p/Deq4tHNlWmQ/
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: high
+  notes: Own Instagram post dated 19 October 2026, read in Claude in Chrome 2026-11-13. No prices.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -140,21 +148,13 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: hours_image_undated
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  description: Hours come from an undated image on the own page; earlier third-party posts conflicted and new hours were announced in October 2026. Confirm the current schedule and prices before publication.
-  retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
+- code: not_found_after_two_attempts
   severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (login_wall). Instagram login wall. Not fetched further; owner screenshot needed. Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
   owner: fact_check
+  fields:
+  - cost_level
+  retryable: true
+  description: 'Two source attempts (2026-11-13) found no official answer for: prices. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

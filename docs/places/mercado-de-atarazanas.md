@@ -10,7 +10,7 @@ coordinates:
   latitude: 36.718434
   longitude: -4.424058
   purpose: representative_point
-  label: "Mercado de Atarazanas, C. Atarazanas, 10, 29005 Málaga"
+  label: Mercado de Atarazanas, C. Atarazanas, 10, 29005 Málaga
   source: https://www.google.com/maps/dir/36.5356875,-4.6626875/Mercado+de+Atarazanas,+C.+Atarazanas,+10,+Distrito+Centro,+29005+M%C3%A1laga,+Spain/
   checked_at: '2026-11-11'
 google_maps_url: https://maps.app.goo.gl/4cZJ8eRQH47aHH146
@@ -20,16 +20,16 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "42 min"
+  duration: 42 min
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: Mercado de Atarazanas, Málaga
-  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=Mercado+de+Atarazanas%2C+C.+Atarazanas%2C+10%2C+29005+M%C3%A1laga%2C+Spain&travelmode=driving"
+  source: Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=Mercado+de+Atarazanas%2C+C.+Atarazanas%2C+10%2C+29005+M%C3%A1laga%2C+Spain&travelmode=driving
   checked_at: 2026-11-11
-  note: "37.8 km via AP-7 (route has tolls). Replaces 37 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history."
+  note: 37.8 km via AP-7 (route has tolls). Replaces 37 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history.
 age_groups:
-  - Children (7-12)
-  - Young adults
-  - Seniors
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
   small_children: low
   children: medium
@@ -37,10 +37,9 @@ family_score:
   seniors: medium
 energy_level: Low
 seasonality:
-  - All year
+- All year
 accessibility:
-  overall: Málaga City Council states the market does not have access for people with
-    reduced mobility.
+  overall: The City Council listing says the market has no access for people with reduced mobility.
   mobility:
     route: Official listing states no access for people with reduced mobility.
     wheelchair_route: 'no'
@@ -49,8 +48,8 @@ accessibility:
     notes: unknown
   accessible_toilets: unknown
   source: https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=160
-  checked_at: '2026-10-04'
-  confidence: high
+  checked_at: '2026-11-13'
+  confidence: medium
 wheelchair_friendly: 'no'
 parking:
   availability: unknown
@@ -58,8 +57,8 @@ parking:
   cost: unknown
   restrictions: unknown
   walk_distance: unknown
-  source:  null
-  checked_at:  null
+  source: null
+  checked_at: null
 transport_options: []
 booking_required: false
 dog_friendly: unknown
@@ -67,57 +66,50 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: Monday–Saturday, 08:00–15:00 (Málaga City Council listing; recheck before
-    visiting).
-  typical_duration: "45–90 minutes (editorial planning estimate)"
-  booking_lead_time:  null
-  valid_from:  null
-  valid_until:  null
-  cost_basis:  null
-  cost_checked_at:  null
+  schedule: Monday–Saturday, 08:00–15:00 (Málaga City Council listing; recheck before visiting).
+  typical_duration: 45–90 minutes (editorial planning estimate)
+  booking_lead_time: null
+  valid_from: null
+  valid_until: null
+  cost_basis: null
+  cost_checked_at: null
 links:
-  official_website:  null
-  booking:  null
+  official_website: null
+  booking: null
   visitor_information: https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=160
-  transport:  null
-  contact:  null
+  transport: null
+  contact: null
 related_places: []
-description_short: "Historic central Málaga market with food stalls and a weekday/Saturday morning visit pattern."
-description_long: "Why interesting: A compact way to experience local produce and market life in central Málaga; most useful as a short stop combined with the historic centre. Editorial suitability by audience (low / medium / high): Small children (0-6) low, Children (7-12) medium, Teenagers (13-17) medium, Adults high, Seniors medium. These are estimates for planning, not guarantees or safety advice. Estimated duration: 45–90 minutes (editorial planning estimate). Seasonality: All year. Weather and practical notes: The city lists opening Monday–Saturday, 08:00–15:00, and states that there is no mobility-impaired access. Expect a busy indoor market; visit earlier for the full market experience. Check holiday exceptions. Booking: false."
+description_short: Historic central Málaga market with food stalls and a weekday/Saturday morning visit pattern.
+description_long: 'Why interesting: A compact way to experience local produce and market life in central Málaga; most useful as a short stop combined with the historic centre. Editorial suitability by audience (low / medium / high): Small children (0-6) low, Children (7-12) medium, Teenagers (13-17) medium, Adults high, Seniors medium. These are estimates for planning, not guarantees or safety advice. Estimated duration: 45–90 minutes (editorial planning estimate). Seasonality: All year. Weather and practical notes: The city lists opening Monday–Saturday, 08:00–15:00, and states that there is no mobility-impaired access. Expect a busy indoor market; visit earlier for the full market experience. Check holiday exceptions. Booking: false.'
 seo_title: Mercado de Atarazanas | CalleMilano destination record
-seo_description: Draft destination record for Mercado de Atarazanas. Visitor facts
-  and practical details are under verification.
+seo_description: Draft destination record for Mercado de Atarazanas. Visitor facts and practical details are under verification.
 images: []
 evidence:
 - field: name, google_maps_url
-  claim: The owner-supplied Projekt Spanien Google Maps list contains a saved-place
-    entry displayed as “Mercado de Atarazanas”.
+  claim: The owner-supplied Projekt Spanien Google Maps list contains a saved-place entry displayed as “Mercado de Atarazanas”.
   source_url: https://maps.app.goo.gl/4cZJ8eRQH47aHH146
   source_type: maps_identity
   checked_at: '2026-10-04'
   checked_by: maps-import-agent
   confidence: high
-  notes: User-provided visible list capture. The list link is identity provenance
-    only; it does not verify visitor facts, and an individual place URL was not supplied.
+  notes: User-provided visible list capture. The list link is identity provenance only; it does not verify visitor facts, and an individual place URL was not supplied.
 - field: municipality, province, visit_information.schedule, accessibility, wheelchair_friendly
-  claim: Málaga City Council lists Mercado de Atarazanas at Calle Atarazanas 8, 260
-    stalls, Monday–Saturday 08:00–15:00, and states it has no access for people with
-    reduced mobility.
+  claim: Málaga City Council lists Mercado de Atarazanas at Calle Atarazanas 8, 260 stalls, Monday–Saturday 08:00–15:00, and states it has no access for people with reduced mobility.
   source_url: https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=160
   source_type: government
   checked_at: '2026-10-04'
   checked_by: fact-check-agent
   confidence: high
-  notes: Supports only the stated claim; do not generalize to unverified facilities
-    or suitability.
+  notes: Supports only the stated claim; do not generalize to unverified facilities or suitability.
 - field: description_short, description_long, visit_information.schedule, accessibility
-  claim: "Málaga City Council lists the market address, 260 stalls, schedule and lack of mobility-impaired access."
+  claim: Málaga City Council lists the market address, 260 stalls, schedule and lack of mobility-impaired access.
   source_url: https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=160
   source_type: government
   checked_at: 2026-10-04
   checked_by: fact-check-agent
   confidence: high
-  notes: "Supports the stated claim only; any editorial planning estimate is identified as such."
+  notes: Supports the stated claim only; any editorial planning estimate is identified as such.
 - field: driving_time_from_casa_de_la_familia
   claim: 'One-way drive from Casa de la Familia to Mercado de Atarazanas, Málaga: 37 min, 35.2 km (Saturday 10:00 predicted traffic).'
   source_url: https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=Mercado+de+Atarazanas%2C+M%C3%A1laga%2C+Spain&travelmode=driving
@@ -127,54 +119,48 @@ evidence:
   confidence: medium
   notes: Google Routes API computeRoutes; destination geocoded by Google from the record's destination text (the record has no coordinates). Predicted-traffic estimate for one departure time; the local_30km rule uses the Google Maps app's main figure.
 - field: coordinates
-  claim: "Google Maps lists 'Mercado de Atarazanas, C. Atarazanas, 10, 29005 Málaga' at 36.718434, -4.424058."
+  claim: Google Maps lists 'Mercado de Atarazanas, C. Atarazanas, 10, 29005 Málaga' at 36.718434, -4.424058.
   source_url: https://www.google.com/maps/dir/36.5356875,-4.6626875/Mercado+de+Atarazanas,+C.+Atarazanas,+10,+Distrito+Centro,+29005+M%C3%A1laga,+Spain/
   source_type: maps_identity
   checked_at: '2026-11-11'
   checked_by: Claude (main session); read in Google Maps in Chrome
   confidence: medium
   notes: Identity and position only (place point shown by Google Maps); not a visitor entrance point.
+- field: visit_information.schedule, accessibility, wheelchair_friendly
+  claim: '"De 8:00 a 15:00 de lunes a sábado." "No dispone de accesos para personas con movilidad reducida."'
+  source_url: https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=160
+  source_type: government
+  checked_by: Claude (second source attempt 2026-11-13; source-reader quotes spot-checked)
+  confidence: high
+  notes: Málaga City Council facility listing; reconfirms the recorded hours. Parking not given.
+  checked_at: '2026-11-13'
 review_issues:
 - code: editorial_suitability_requires_human_review
   severity: warning
-  fields:
+  fields: null
   description: Audience ratings and effort level are editorial estimates requested for this draft; human editor must review them before approval.
   retryable: false
   owner: human_editor
-- code: record_incomplete
-  severity: warning
-  fields:
-  - coordinates
-  - driving_time_from_casa_de_la_familia
-  - accessibility
-  - parking
-  - visit_information
-  description: These facts or editorial assessments were not established from the
-    supplied list or checked sources. Explicit unknown values remain in this draft;
-    complete claim-specific research and editorial review before advancement.
-  retryable: true
-  owner: fact_check
 - code: category_and_tags_need_human_review
   severity: warning
   fields:
   - category
   - tags
-  description: Primary category and controlled tags are provisional intake recommendations;
-    human editor-of-record must confirm before editorial advancement.
+  description: Primary category and controlled tags are provisional intake recommendations; human editor-of-record must confirm before editorial advancement.
   retryable: false
   owner: human_editor
-- code: source_attempt_not_found
+- code: not_found_after_two_attempts
   severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). One WebSearch returned only non-official pages (Picuco, Expedia, Gastronosfera, guias-viajar, Viator). No ayuntamiento or venue page was found, so the item stop Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
   owner: fact_check
+  fields:
+  - parking
+  retryable: true
+  description: 'Two source attempts (2026-11-13) found no official answer for: parking. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-10-04'
 updated_at: '2026-11-13'
-last_verified:  null
-last_reviewed_at:  null
-next_review_at:  null
-review_decision:  null
+last_verified: null
+last_reviewed_at: null
+next_review_at: null
+review_decision: null
 redirects: []
 ---

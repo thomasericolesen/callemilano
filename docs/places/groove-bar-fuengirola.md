@@ -60,10 +60,10 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: 'Own Facebook hours box (updated about five months ago): Wednesday-Thursday 12:00-02:00, Friday-Saturday 12:00-03:00, Sunday 12:00-22:00, Monday-Tuesday closed. Live jam session every Wednesday 21:30 with free entry (post of 20 January 2026).'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -115,6 +115,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review and follower counts not recorded. The page lists a business Gmail address; not needed.
+- field: visit_information.schedule, food_available
+  claim: 'Hours box: Mandag "LUKKET", Tirsdag "LUKKET", Onsdag "12.00-02.00", Torsdag "12.00-02.00", Fredag "12.00-03.00", Lørdag "12.00-03.00", Søndag "12.00-22.00", "Updated for ca. 5 måneder siden". Post 20 Jan 2026: "Jam Session en vivo" "Todos los miércoles a las 21:30 h" "Entrada libre." Post 2 Mar 2026: "en Groove Bar también puedes disfrutar de nuestra propuesta gastronómica".'
+  source_url: https://www.facebook.com/groovemusicbar
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: medium
+  notes: Own Facebook page read in Claude in Chrome 2026-11-13. No prices.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -132,21 +140,13 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: hours_prices_and_entry_unknown
-  severity: warning
-  fields:
-  - visit_information
-  - cost_level
-  description: Own page gives music days (Wednesday-Sunday) and event times but no regular opening hours, drink or food prices, or entry fees for concerts.
-  retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
+- code: not_found_after_two_attempts
   severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (login_wall). Facebook page requires login. Owner screenshot needed. Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
   owner: fact_check
+  fields:
+  - cost_level
+  retryable: true
+  description: 'Two source attempts (2026-11-13) found no official answer for: drink and food prices and concert entry fees other than the free Wednesday jam. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'

@@ -262,21 +262,23 @@ evidence:
   checked_by: Claude (beach follow-up 2026-11-02)
   confidence: medium
   notes: Read via Firecrawl on 2026-11-02 (metadata). Malaga Hoy places Playa de San Francisco between the port and Los Boliches (secondary). With Fuengirola Accesible 2025 this outweighs the undated Concejalía de Playas page that names Los Boliches.
+- field: accessibility
+  claim: '"De modo que, hoy en día, todas nuestras playas disponen de una zona accesible” (existentes en Castillo, Fuengirola, Los Boliches-Gaviotas y Carvajal)."'
+  source_url: https://www.fuengirola.es/el-ayuntamiento-de-fuengirola-dispone-de-parcelas-accesibles-para-personas-con-movilidad-reducida-en-el-100-de-sus-playas/
+  source_type: government
+  checked_by: Claude (second source attempt 2026-11-13)
+  confidence: high
+  notes: 'Ayuntamiento de Fuengirola news item dated 1 June 2026: an accessible zone exists at Los Boliches-Gaviotas in 2026. No pergola or platform number is given.'
+  checked_at: '2026-11-13'
+- field: description_long
+  claim: '"El servicio de Salvamento y Socorrismo, activo desde el 1 de junio en horario de 11:00 a 20:00 horas"'
+  source_url: https://www.fuengirola.es/el-servicio-de-aerovigilancia-con-drones-de-las-playas-de-fuengirola-realizo-nueve-misiones-de-rescate-durante-los-meses-de-junio-y-julio/
+  source_type: government
+  checked_by: Claude (second source attempt 2026-11-13)
+  confidence: high
+  notes: Ayuntamiento de Fuengirola news item dated 12 August 2026 (2026 summer season). The 2026 end date was not found.
+  checked_at: '2026-11-13'
 review_issues:
-- code: accessible_platform_numbers_2025_edition
-  severity: info
-  fields:
-  - accessibility
-  description: Pergola 41 comes from the 2025 edition of Fuengirola Accesible; the 2026 charter gives no pergola numbers. Re-check before approval.
-  retryable: false
-  owner: fact_check
-- code: lifeguard_schedule_seasonal
-  severity: info
-  fields:
-  - description_long
-  description: Lifeguard cover is seasonal and changes yearly; re-check against the current municipal schedule.
-  retryable: false
-  owner: fact_check
 - code: energy_level_editorial_estimate
   severity: info
   fields:
@@ -285,13 +287,14 @@ review_issues:
   description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
   retryable: false
   owner: human_editor
-- code: source_attempt_not_found
+- code: not_found_after_two_attempts
   severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). FIND item. One WebSearch (Boliches-Gaviotas Fuengirola horario precios): results were hotel listings and third-party nightlife guides, no official municipal or  Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
   owner: fact_check
+  fields:
+  - accessibility
+  - description_long
+  retryable: true
+  description: 'Two source attempts (2026-11-13) found no official answer for: the number of the accessible pergola in 2026 and the end date of the 2026 lifeguard season. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-10-29'
 updated_at: '2026-11-13'
 last_verified: '2026-10-29'

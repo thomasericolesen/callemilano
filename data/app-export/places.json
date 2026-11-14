@@ -1,6 +1,6 @@
 {
  "manifest": {
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
   "places": 159,
@@ -689,32 +689,32 @@
      "museum",
      "familieaktivitet"
     ],
-    "cost_level": null,
+    "cost_level": "gratis",
     "booking_required": false,
     "wheelchair": "ukendt",
     "summary": "Roman archaeological site at Bolonia near Tarifa, with remains of a coastal Roman town and an on-site visitor centre.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "21 Mar–20 Jun: Tue–Sat 09:00–21:00, Sun/holidays 09:00–15:00. 21 Jun–20 Sep: Tue–Sat 09:00–15:00, Sun/holidays 09:00–15:00. 21 Sep–20 Mar: Tue–Sat 09:00–18:00, Sun/holidays 09:00–15:00. Closed Mondays (except 9 December). As published on the official Junta de Andalucía event page, which is dated 2024; reconfirm before publication since it may be outdated."
+      "text": "21 Sep-20 Mar: Tue-Sat 09:00-18:00; Sundays, public holidays and Mondays before a holiday 09:00-15:00. 21 Mar-20 Jun: Tue-Sat 09:00-21:00; Sundays/holidays 09:00-15:00. 21 Jun-20 Sep: Tue-Sat 09:00-15:00; Sundays/holidays 09:00-15:00. Closed Mondays (except the day before a holiday). Closed in 2026 on 1 and 6 January, 1 May, 24, 25 and 31 December. Last entry 30 minutes before closing. During building works at reception, entry is from the south car park by the beach (official site, read 2026-11-13)."
      },
      {
       "label": "Pris",
-      "text": "Official page does not state an admission price; it describes individual access as 'libre e individual' (unscheduled, no booking required), which does not by itself confirm the visit is free of charge. Do not publish a price until confirmed."
+      "text": "Free for accredited EU citizens; EUR 1.50 for visitors from other countries (official site, read 2026-11-13)."
      }
     ],
     "links": {
      "official": null,
      "booking": null,
-     "info": "https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/conjunto-arqueologico-de-baelo-claudia"
+     "info": "https://www.museosdeandalucia.es/web/conjuntoarqueologicobaeloclaudia/informacion-general"
     },
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "Family activities",
      "municipality": "Tarifa",
-     "schedule": "21 Mar–20 Jun: Tue–Sat 09:00–21:00, Sun/holidays 09:00–15:00. 21 Jun–20 Sep: Tue–Sat 09:00–15:00, Sun/holidays 09:00–15:00. 21 Sep–20 Mar: Tue–Sat 09:00–18:00, Sun/holidays 09:00–15:00. Closed Mondays (except 9 December). As published on the official Junta de Andalucía event page, which is dated 2024; reconfirm before publication since it may be outdated.",
-     "schedule_checked_at": "2026-10-16",
+     "schedule": "21 Sep-20 Mar: Tue-Sat 09:00-18:00; Sundays, public holidays and Mondays before a holiday 09:00-15:00. 21 Mar-20 Jun: Tue-Sat 09:00-21:00; Sundays/holidays 09:00-15:00. 21 Jun-20 Sep: Tue-Sat 09:00-15:00; Sundays/holidays 09:00-15:00. Closed Mondays (except the day before a holiday). Closed in 2026 on 1 and 6 January, 1 May, 24, 25 and 31 December. Last entry 30 minutes before closing. During building works at reception, entry is from the south car park by the beach (official site, read 2026-11-13).",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": true,
      "rainy_day": false,
@@ -764,19 +764,24 @@
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Bar Burbujas: natbar med cocktails på mousserende vin i det centrale Fuengirola, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Ifølge barens egen Instagram: torsdag og søndag 21:00-03:00, fredag og lørdag 21:00-04:00. Røgfri terrasse."
+     }
+    ],
     "links": {
      "official": "https://www.instagram.com/barburbujas",
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": null,
-     "schedule_checked_at": "2026-11-02",
+     "schedule": "Own Instagram bio: 'J/D: 21:00 - 03:00', 'V/S: 21:00-04:00' (read as Thursday and Sunday 21:00-03:00, Friday and Saturday 21:00-04:00). Smoke-free terrace.",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -1224,7 +1229,7 @@
      "booking": null,
      "info": "https://www.fuengirola.es/wp-content/uploads/2026/06/Carta-de-Servicios-2026.pdf"
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Beaches",
@@ -1530,19 +1535,24 @@
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Café Teatro by Ocean Drive: lounge-terrasse med levende musik og cocktails på promenaden i Fuengirola, ca. 10 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Ifølge stedets Facebook-side: fredag-søndag 12:00-24:00, mandag-torsdag lukket. Oplysningen er ca. et år gammel, så tjek før besøget."
+     }
+    ],
     "links": {
      "official": null,
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": null,
-     "schedule_checked_at": null,
+     "schedule": "Own Facebook page hours box: Friday-Sunday 12:00-00:00, Monday-Thursday closed (box marked as updated about a year ago; check before visiting).",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -2055,19 +2065,24 @@
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Changueiro Bar de Vinos: vinbar i det centrale Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Mandag, torsdag, fredag og lørdag 12:00-16:00 og 19:00-23:30; søndag 12:00-16:00; tirsdag og onsdag lukket (barens eget opslag 19. oktober 2026)."
+     }
+    ],
     "links": {
      "official": "https://www.instagram.com/changueirobardevinos/",
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": null,
-     "schedule_checked_at": "2026-11-02",
+     "schedule": "Monday, Thursday, Friday, Saturday 12:00-16:00 and 19:00-23:30; Sunday 12:00-16:00; Tuesday and Wednesday closed (own Instagram post 'Nuevo horario', 19 October 2026).",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -2364,6 +2379,10 @@
     "summary": "Strandbar (chiringuito) på Cabopino-stranden, Marbella; sæsonåben, ca. 22 min i bil fra Casa de la Familia.",
     "practical": [
      {
+      "label": "Åbningstider",
+      "text": "Efterår og vinter (stedets egen Instagram, november 2026): tirsdag-fredag 09:30-13:00; lørdag og søndag morgenmad 09:30-12:00 og aperitivo 12:00-15:00; mandag lukket."
+     },
+     {
       "label": "Pris",
       "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
      }
@@ -2373,13 +2392,13 @@
      "booking": null,
      "info": "https://www.facebook.com/chiringuitolasdunasdecabopino/"
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Marbella",
-     "schedule": null,
-     "schedule_checked_at": "2026-11-01",
+     "schedule": "Autumn/winter hours (own Instagram 'Horario' highlight, posted early November 2026): Tuesday-Friday 09:30-13:00; Saturday and Sunday breakfast 09:30-12:00 and aperitivo 12:00-15:00; Monday closed.",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -2998,13 +3017,13 @@
      "booking": null,
      "info": "https://www.juntadeandalucia.es/medioambiente/portal/areas-tematicas/espacios-protegidos/legislacion-autonomica-nacional/monumentos-naturales/monumento-natural-duna-bolonia"
     },
-    "checked_at": "2026-10-16",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "Beaches",
      "municipality": "Tarifa",
      "schedule": null,
-     "schedule_checked_at": null,
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -4471,19 +4490,24 @@
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Groove Music Bar: bar med levende musik ved lystbådehavnen i Fuengirola, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Ifølge stedets Facebook-side (ca. fem måneder gammel): onsdag-torsdag 12:00-02:00, fredag-lørdag 12:00-03:00, søndag 12:00-22:00, mandag-tirsdag lukket. Jam session med levende musik hver onsdag kl. 21:30, gratis adgang."
+     }
+    ],
     "links": {
      "official": "https://www.facebook.com/groovemusicbar",
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": null,
-     "schedule_checked_at": null,
+     "schedule": "Own Facebook hours box (updated about five months ago): Wednesday-Thursday 12:00-02:00, Friday-Saturday 12:00-03:00, Sunday 12:00-22:00, Monday-Tuesday closed. Live jam session every Wednesday 21:30 with free entry (post of 20 January 2026).",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -5551,13 +5575,13 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
      "schedule": null,
-     "schedule_checked_at": null,
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -5771,7 +5795,7 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
@@ -5985,19 +6009,24 @@
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "La Terraza de Panda: cocktailterrasse på Plaza de la Constitución i det centrale Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Åbent alle dage: søndag-torsdag 12:00-01:00, fredag-lørdag 12:00-03:00. Ingen bordbestilling (stedets egen Instagram)."
+     }
+    ],
     "links": {
      "official": "https://www.instagram.com/laterrazadepanda/",
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": null,
-     "schedule_checked_at": "2026-11-02",
+     "schedule": "Open daily: Sunday-Thursday 12:00-01:00, Friday-Saturday 12:00-03:00; no reservations (own Instagram bio and 'Horario' highlight).",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -7025,13 +7054,13 @@
      "booking": null,
      "info": "https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=160"
     },
-    "checked_at": "2026-11-11",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "Excursions",
      "municipality": "Málaga",
      "schedule": "Monday–Saturday, 08:00–15:00 (Málaga City Council listing; recheck before visiting).",
-     "schedule_checked_at": "2026-10-04",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": true,
      "rainy_day": false,
@@ -7615,13 +7644,13 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
      "schedule": null,
-     "schedule_checked_at": null,
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -7988,13 +8017,13 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
      "schedule": null,
-     "schedule_checked_at": null,
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -8078,7 +8107,7 @@
      "booking": "https://entradas.cuevadenerja.es/",
      "info": "https://cuevadenerja.es/"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
@@ -8134,19 +8163,24 @@
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Noniná: flamencobar ved havnen i Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Ifølge stedets Facebook-side (gammel oplysning, usikker): tirsdag-lørdag 18:00-02:00, søndag 13:00-23:00, mandag lukket. Siden var aktiv i november 2026; tjek før besøget."
+     }
+    ],
     "links": {
      "official": null,
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": null,
-     "schedule_checked_at": null,
+     "schedule": "Own Facebook hours box (updated about three years ago, low confidence): Tuesday-Saturday 18:00-02:00, Sunday 13:00-23:00, Monday closed. The page posted on 10 November 2026, so it was active in November.",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -9642,19 +9676,24 @@
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Red & White: vinbar og middelhavsrestaurant i Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Ferielukket 16. november-1. december 2026, åbner igen 2. december (eget opslag 10. november). Ellers ifølge Facebook-siden (gammel oplysning, usikker): tirsdag-lørdag 12:00-23:00, søndag 12:00-18:00, mandag lukket."
+     }
+    ],
     "links": {
      "official": "https://www.facebook.com/61569418832240/",
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Fuengirola",
-     "schedule": null,
-     "schedule_checked_at": null,
+     "schedule": "Closed for holidays 16 November-1 December 2026, reopening 2 December (own post of 10 November 2026). Otherwise per the Facebook hours box (updated about two years ago, low confidence): Tuesday-Saturday 12:00-23:00, Sunday 12:00-18:00, Monday closed.",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -9951,13 +9990,13 @@
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",
      "municipality": "Mijas",
      "schedule": null,
-     "schedule_checked_at": null,
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -10742,11 +10781,11 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Real Alcázar: 1 Oct-31 Mar 9:30-17:00 (clearing starts 17:45); 1 Apr-30 Sep 9:30-19:00 (clearing 19:45)."
+      "text": "Cathedral: Monday-Saturday 10:45-18:00, Sunday 14:30-19:00 (official site, read 2026-11-13). Real Alcázar: 1 Oct-31 Mar 9:30-17:00 (clearing starts 17:45); 1 Apr-30 Sep 9:30-19:00 (clearing 19:45)."
      },
      {
       "label": "Pris",
-      "text": "Real Alcázar: EUR 15.50 general; EUR 8.00 reduced. Free (free ticket must be collected): children up to and including 13 accompanied by an adult, disability over 33% and companion, unemployed in Seville province, ICOMOS members."
+      "text": "Cathedral: EUR 13.00 online / EUR 14.00 at the ticket office (rates effective 1 January 2026); free for children up to 13 accompanied by an adult. Real Alcázar: EUR 15.50 general; EUR 8.00 reduced. Free (free ticket must be collected): children up to and including 13 accompanied by an adult, disability over 33% and companion, unemployed in Seville province, ICOMOS members."
      }
     ],
     "links": {
@@ -10754,13 +10793,13 @@
      "booking": "https://www.catedraldesevilla.es/en/cultural-visit/schedules-and-rates/",
      "info": "https://alcazarsevilla.org/prepara-la-visita/"
     },
-    "checked_at": "2026-10-30",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "City",
      "municipality": "Sevilla",
-     "schedule": "Real Alcázar: 1 Oct-31 Mar 9:30-17:00 (clearing starts 17:45); 1 Apr-30 Sep 9:30-19:00 (clearing 19:45).",
-     "schedule_checked_at": "2026-10-30",
+     "schedule": "Cathedral: Monday-Saturday 10:45-18:00, Sunday 14:30-19:00 (official site, read 2026-11-13). Real Alcázar: 1 Oct-31 Mar 9:30-17:00 (clearing starts 17:45); 1 Apr-30 Sep 9:30-19:00 (clearing 19:45).",
+     "schedule_checked_at": "2026-11-13",
      "valid_until": null,
      "needs_fixed_hours": true,
      "rainy_day": false,
@@ -10843,7 +10882,7 @@
      "booking": null,
      "info": "https://sierradelasnieves.es/planifica/oficinas-de-turismo/"
     },
-    "checked_at": "2026-10-15",
+    "checked_at": "2026-11-13",
     "text_language": "en",
     "trip": {
      "record_category": "Nature",
@@ -11212,13 +11251,18 @@
     "booking_required": null,
     "wheelchair": "ukendt",
     "summary": "Speakeasy Jazz Club & Cocktails: jazzklub og cocktailbar, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
+    "practical": [
+     {
+      "label": "Pris",
+      "text": "Koncertbilletter i stedets egen webshop er bordreservationer, hvor beløbet indgår i drikkevarer: 56 EUR om fredagen og 84 EUR om lørdagen (november 2026; borde til 2, 3 eller 4 personer)."
+     }
+    ],
     "links": {
      "official": "https://speakeasy-jazz-club.sumupstore.com/productos",
      "booking": null,
      "info": null
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-13",
     "text_language": "da",
     "trip": {
      "record_category": "Restaurants",

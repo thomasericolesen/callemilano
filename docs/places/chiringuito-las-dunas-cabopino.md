@@ -67,7 +67,7 @@ toilets_available: unknown
 food_available: 'yes'
 cost_level: €€
 visit_information:
-  schedule: null
+  schedule: 'Autumn/winter hours (own Instagram ''Horario'' highlight, posted early November 2026): Tuesday-Friday 09:30-13:00; Saturday and Sunday breakfast 09:30-12:00 and aperitivo 12:00-15:00; Monday closed.'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -154,15 +154,15 @@ evidence:
   checked_by: source-reader agent; band set by orchestrator
   confidence: low
   notes: Tripadvisor price marking only (search excerpt); no ratings or reviews recorded. Own-site prices preferred when available. Quote from search snippet of tripadvisor.es listing 'CHIRINGUITO LAS DUNAS, Marbella' (Cabopino). Matched on name and locality; the key says 'Cabopino', the listing does not repeat that word in its ti
+- field: visit_information.schedule
+  claim: 'Bio: "En otoño abierto para desayunos y aperitivo." Highlight ''Horario'': "DE MARTES A VIERNES 09:30 a 13:00" "SÁBADO & DOMINGO desayuno 09:30 a 12:00 aperitivo 12:00 a 15:00" "LUNES CERRADO".'
+  source_url: https://www.instagram.com/chiringuitolasdunas/
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: high
+  notes: Own Instagram, highlight posted about one week before 2026-11-13; read in Claude in Chrome. Summer hours not stated.
+  checked_at: '2026-11-13'
 review_issues:
-- code: winter_opening_unclear
-  severity: warning
-  fields:
-  - seasonality
-  - visit_information
-  description: Own Instagram says the regular season ends 1 November but announces staying this year; winter days and hours are unknown. Confirm before recommending a visit between November and spring.
-  retryable: true
-  owner: fact_check
 - code: energy_level_editorial_estimate
   severity: info
   fields:
@@ -177,13 +177,6 @@ review_issues:
   description: cost_level is based on the Tripadvisor price marking, not the own menu; replace when an own menu with prices is found.
   retryable: true
   owner: human_editor
-- code: source_attempt_not_found
-  severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (no_official_source). FIND item. One WebSearch (Chiringuito Las Dunas Marbella horario precios): only restaurant directories and guides, no official page. Reported as no_official_sou Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
-  owner: fact_check
 created_at: 2026-11-01
 updated_at: '2026-11-13'
 last_verified: 2026-11-01

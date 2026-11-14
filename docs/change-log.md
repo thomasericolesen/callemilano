@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-14 - Second source attempt for the 21 app places with `source_attempt_not_found` (level A; three archiving proposals go to the editor)
+
+- Second attempt, 13 November: 12 social-media pages and 4 blocked pages were read in Claude in Chrome; 9 official pages went through `source-reader` (two quotes spot-checked against the fetched text).
+- **Found and written (evidence with verbatim quotes):** opening hours for Changueiro (own post 19 Oct 2026), Chiringuito Las Dunas (winter hours, Nov 2026), La Terraza de Panda, Bar Burbujas, Groove Music Bar (also free Wednesday jam and food), Café Teatro, Noniná and Red&White (holiday closure 16 Nov-1 Dec 2026). The last three come from old Facebook hours boxes and carry low confidence. Baelo Claudia: 2026 hours, free for EU citizens (EUR 1.50 others, `cost_level` Free), no pets, on-site car park. Sevilla cathedral: hours, EUR 13/14, free under 13, free wheelchair service. Mercado de Atarazanas: hours reconfirmed, no access for reduced mobility (City Council). Speakeasy: concert tickets are table reservations credited to drinks (EUR 56 Friday, EUR 84 Saturday). Boliches-Gaviotas: 2026 accessible zone and lifeguards from 1 June 11:00-20:00 (Ayuntamiento). La Senda del Norte and Groove: `food_available: yes`.
+- **Not found after two attempts:** the open warning is closed and replaced by an info issue `not_found_after_two_attempts`; the value stays unknown and the app shows it as unknown. This covers bar prices, Nerja and Sevilla visitor facilities, the Torrecilla permit and parking in Sierra de las Nieves, La Floja's hours, and the admission, parking and access at Duna de Bolonia.
+- Duna de Bolonia: the official portal still lists the partial trail closure of 22 September 2026, so a new warning `partial_trail_closure_listed` replaces `trail_closure_unconfirmed`.
+- **For the editor list (not decided by Claude):** `mon-2-sun` (last own post December 2024), `nautic-bar-fuengirola` (August 2023, website gone) and `retrock-bart` (December 2025) show no 2026 activity; their `activity_unverified` warnings stay open, and archiving is proposed.
+- 9 Danish app texts updated (`data/app-texts-da.json`); `data/app-export/` regenerated (159 places, 135 Danish, none stale). Validation: 220 records, 0 errors, 26 warnings.
+
 ## 2026-11-13 - Automatic sign-out wished for later (owner decision, chat)
 
 - When the app becomes a "real" app rather than a page in the browser, it should sign out by itself after a few minutes without use. Not built now; listed under "Åbent" in `docs/project-state.md`. It touches login, so the app change waits for the owner's merge when it is made.

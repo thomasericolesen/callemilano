@@ -123,6 +123,14 @@ evidence:
   checked_by: Claude (bar fact check 2026-11-02)
   confidence: medium
   notes: Owner screenshot of the page (supplied 2026-11-02). Review and follower counts not recorded. The page is small (few posts); the year of the April post is not shown.
+- field: visit_information
+  claim: Own website shows only "Sabores gourmet en distensión", phone, e-mail and "Calle Larga 18, 29640 Fuengirola, Málaga"; the Facebook page has no hours box.
+  source_url: https://www.lafloja.com/
+  source_type: official_venue
+  checked_by: Claude (second source attempt 2026-11-13, Claude in Chrome)
+  confidence: high
+  notes: Read in Claude in Chrome 2026-11-13. No hours or prices on either page.
+  checked_at: '2026-11-13'
 review_issues:
 - code: audience_not_assessed
   severity: warning
@@ -140,21 +148,14 @@ review_issues:
   description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
   retryable: true
   owner: human_editor
-- code: hours_and_prices_unknown
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - visit_information
   - cost_level
-  description: Own website and Facebook page confirm address and phone only (checked 2026-11-02); hours, menu and prices need a call (+34 952 31 47 63) or a visit.
   retryable: true
-  owner: fact_check
-- code: source_attempt_not_found
-  severity: info
-  fields:
-  - visit_information
-  description: "Source attempt 2026-11-13 found nothing usable (blocked). curl returned only 198 characters, so the item is marked needs_extract. Tavily is not available in this session (no mcp__Tavily tools), so the item is reported  Retry once more, then close the open facts as not found (value unknown, shown as check before visiting)."
-  retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13) found no official answer for: opening hours and prices. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-13'
 last_verified: '2026-11-02'
