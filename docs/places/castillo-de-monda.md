@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-CASTILLO-DE-MONDA-001
 slug: castillo-de-monda
 name: Hotel-Restaurante Castillo de Monda
@@ -54,39 +54,39 @@ accessibility:
   confidence: unknown
 wheelchair_friendly: unknown
 parking:
-  availability: unknown
-  location_type: unknown
-  cost: unknown
-  restrictions: unknown
+  availability: Private hotel car park (not guarded, security cameras) and free parking on the side of the road up to the hotel; the private car park may get busy in summer.
+  location_type: onsite
+  cost: Roadside parking free; private car park cost not stated.
+  restrictions: 'The access road is steep (own site: drive up in first gear); the route through the village is narrow and not recommended for large cars.'
   walk_distance: unknown
-  source: null
-  checked_at: null
+  source: https://castillodemonda.com/contact/
+  checked_at: '2026-11-14'
 transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
-cost_level: Unknown
+food_available: 'yes'
+cost_level: €€
 visit_information:
-  schedule: null
+  schedule: 'Restaurant Albacar open daily: breakfast 8:30-10:30, lunch 13:00-16:00, dinner 19:00-22:00. Bar Albacar open daily 9:00-23:00. (Own site, contact page, read 2026-11-14; not stated as seasonal.)'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own menu (Restaurant Albacar): charcoal-grill mains 26-36 EUR (median 36 EUR); wine by the glass from 4.50 EUR. Median main plus one drink is about 40-45 EUR, inside 20-50 EUR.'
+  cost_checked_at: '2026-11-14'
 links:
   official_website: http://www.castillodemonda.com/
   booking: null
-  visitor_information: https://castillodemonda.com/restaurant-near-marbella/
+  visitor_information: https://castillodemonda.com/contact/
   transport: null
-  contact: null
+  contact: tel:+34952459836
 related_places:
 - id: ES-AND-MAL-MONDA-001
   relationship: nearby
   note: Castle hotel above the village.
-description_short: 'Hotel-Restaurante Castillo de Monda: the restaurant of a castle hotel above the village of Monda, about 35 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: 'Hotel-Restaurante Castillo de Monda is the restaurant of a castle hotel above the village of Monda. About 35 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet. Owner''s note (2026-11-02): this is a hotel that is worth the trip for its restaurant; its other facilities are for hotel guests only, so it is not listed as a standalone excursion.'
+description_short: Albacar, the restaurant on the 6th floor of the Castillo de Monda hotel above the village of Monda, with countryside views; about 35 min by car from Casa de la Familia.
+description_long: 'Restaurant Albacar is on the 6th floor of the Castillo de Monda hotel, above the white village of Monda; its own site describes views over the hills and villages below. About 35 minutes by car from Casa de la Familia (Google route check). The own site gives daily opening times for breakfast (8:30-10:30), lunch (13:00-16:00) and dinner (19:00-22:00), and Bar Albacar, with light meals and a terrace, is open daily 9:00-23:00. Charcoal-grill mains on the own menu cost 26-36 EUR. Tables can be booked through the own site or reception (+34 952 45 98 36). The road up to the castle is steep; the own site advises first gear and warns that the route through the village is too narrow for large cars. There is a private car park and free parking along the access road. Owner''s note (2026-11-02): the hotel is worth the trip for its restaurant; its other facilities are for hotel guests only. The own site does not state a rule for non-resident diners, so check when booking.'
 seo_title: Hotel-Restaurante Castillo de Monda, Monda | CalleMilano draft record
 seo_description: 'Draft record for Hotel-Restaurante Castillo de Monda (Monda): location and driving time from Casa de la Familia.'
 images: []
@@ -131,39 +131,60 @@ evidence:
   checked_by: Claude (main session, Claude in Chrome)
   confidence: medium
   notes: Own site read in Claude in Chrome on 2026-11-13. It describes the Albacar restaurant (6th floor), Bar Albacar and a rooftop garden and offers table booking, but gives no opening hours, prices or rule for diners who are not hotel guests. The menu page linked from it was the wine list.
+- field: visit_information.schedule
+  claim: '"RESTAURANT ALBACAR - Open Daily" "Breakfast | 8:30 - 10:30" "Lunch | 13:00 - 16:00" "Dinner | 19:00 - 22:00" "BAR ALBACAR - Open Daily" "9:00 - 23:00"'
+  source_url: https://castillodemonda.com/contact/
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session), read in Claude in Chrome
+  confidence: high
+  notes: null
+- field: parking
+  claim: '"There is plenty of parking around the castle." "In the summer our private parking may get busy, but you can park free of charge on the side of the road that leads up to the hotel." "The private Castle parking area is not guarded but we do have security cameras in this area."'
+  source_url: https://castillodemonda.com/contact/
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session), read in Claude in Chrome
+  confidence: high
+  notes: null
+- field: parking.restrictions
+  claim: '"Drive in first gear as the way up is a little steep but wide enough to arrive safe" and "We don''t recommend you take this route with large cars".'
+  source_url: https://castillodemonda.com/contact/
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session), read in Claude in Chrome
+  confidence: high
+  notes: null
+- field: links.contact
+  claim: Reception "+34 952 45 98 36", Calle Castillo 29110 Monda.
+  source_url: https://castillodemonda.com/contact/
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session), read in Claude in Chrome
+  confidence: high
+  notes: null
+- field: cost_level, visit_information.cost_basis
+  claim: 'Carbón & Leña: "Entrecôte madurado ... 36", "Solomillo de ternera ... 36", "Lomo alto cuberol ... 36", "Secreto ibérico ... 30", "Picantón piri-piri ... 26"; wine by the glass from 4.50.'
+  source_url: https://castillodemonda.com/menus/
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session), read in Claude in Chrome
+  confidence: high
+  notes: 'Band rule: median main plus one drink, about 40-45 EUR = EUR EUR.'
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: guest_only_facilities
   severity: info
   fields:
   - description_long
   - accessibility
-  description: Hotel facilities other than the restaurant are for guests only (owner). Check whether the restaurant takes non-resident diners and needs booking.
+  description: Hotel facilities other than the restaurant are for guests only (owner). The own site markets Albacar as a "Restaurant Near Marbella" with a public "Book a table" form, but states no rule for non-resident diners (read 2026-11-14). Check when booking.
   retryable: true
   owner: fact_check
-- code: second_source_attempt_failed
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  description: 'Second source attempt 2026-11-13: the hotel''s own site (castillodemonda.com) was read; it only shows a ''Book your table'' button on the menus page. No hours, prices, non-resident rule or access found; the restaurant page URLs tried returned 404. Proposed for the editor list (archive or keep as a lead).'
-  retryable: false
-  owner: editor
 created_at: '2026-11-02'
-updated_at: '2026-11-13'
-last_verified: null
+updated_at: '2026-11-14'
+last_verified: '2026-11-14'
 last_reviewed_at: null
-next_review_at: null
+next_review_at: '2027-02-14'
 review_decision: null
 redirects: []
 ---
