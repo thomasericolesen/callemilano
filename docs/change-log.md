@@ -1,5 +1,15 @@
 # Change log
 
+## 2026-11-14 - The 21 warnings on app places worked through (level A; two items for the editor)
+
+Warnings on app places went from 21 to 6 (info notes 57 -> 64). Sources read with `source-reader` and Claude in Chrome.
+
+- **Neighbours linked** (`related_places`, relationship `nearby`, both directions): Antequera and El Torcal, Setenil and Ronda, Tarifa with Duna de Bolonia and Baelo Claudia. Overlap issues closed.
+- **New official facts:** `caminito-del-rey` no pets, toilets at reception, entrance and exit; `jerez-de-la-frontera` Alcázar hours from the municipal page (seasonal); `malaga` Museo Picasso hours and prices (13 EUR, free under 17) and Teatro Romano hours (free); `gibraltar` Schengen checks at the airport by the Spanish authorities, free movement across the land border (GOV.UK). Danish texts updated for Jerez and Málaga.
+- **Closed as not found after two attempts (info):** El Oceano pool access for non-guests and prices; Olvera castle price. Tarifa castle hours (own site gives prices only) lowered to info.
+- **Lowered to info:** Malagueta and Santa Ana lifeguard seasons (the 2027 plan is not published before spring; re-check May 2027); El Torcal's compromised site (link already removed). `olvera-castle` `record_incomplete` closed: coordinates and driving time are set.
+- **Still warnings (6):** `canon-de-las-angosturas` (Benahavís page blank even in Chrome) and `paseo-maritimo-marbella` (partly checked), `duna-de-bolonia` (trail closure still listed, no end date), `tolox` 2027 season (not published) and `category_open` (editor, level D), `vejer-de-la-frontera` museum price 2 vs 4 EUR on the same official page (conflict for the editor).
+
 ## 2026-11-14 - El Torcal visitor-centre closing time (owner decision, chat)
 
 - `el-torcal-de-antequera`: the editor chose the Antequera municipal tourism site's hours, 09:30-17:30, over the 17:00 on the park operator's compromised site. Written as the editor's decision with evidence; `source_conflict` closed; Danish text updated.

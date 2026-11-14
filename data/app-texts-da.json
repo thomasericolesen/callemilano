@@ -1549,12 +1549,12 @@
   "checked_by": "Claude (main session)"
  },
  "ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001": {
-  "source_sha": "a24137dcd64f0435",
+  "source_sha": "ddec919903cb2abd",
   "summary": "Jerez de la Frontera, sherryens, flamencoens og de andalusiske hestes by, har sit centrum i Alcázar fra 1000-tallet; sherry-bodegature (f.eks. González Byass) er en kendt aktivitet, og smagninger følger Spaniens almindelige aldersgrænse for alkohol på 18 år.",
   "practical": [
    {
     "label": "Åbningstider",
-    "text": "Alcázar de Jerez: dagligt 8:30-14:30 (turistguide; kommunens Facebook siger gældende fra 1. marts). Gratis mandag 13:30-14:30 i vintersæsonen. Andre seværdigheder (turistguide, oktober 2026): Katedralen mandag-lørdag 10:00-19:00 (sidste adgang 18:00), søndag 13:00-19:00; Iglesia de San Miguel mandag-lørdag 10:00-18:30, søndag lukket; Museo Arqueológico tirsdag-lørdag 9:00-15:00; Museo del Belén tirsdag-søndag 10:00-14:00."
+    "text": "Alcázar de Jerez (kommunens side): januar-juni og oktober-december dagligt 8:30-14:30; juli-september mandag-fredag 8:30-17:30, lørdag, søndag og helligdage 8:30-14:30; særlige juletider i december og januar (ikke oplyst på siden). Gratis mandag 13:30-14:30 i vintersæsonen. Andre seværdigheder (turistguide, oktober 2026): Katedralen mandag-lørdag 10:00-19:00 (sidste adgang 18:00), søndag 13:00-19:00; Iglesia de San Miguel mandag-lørdag 10:00-18:30, søndag lukket; Museo Arqueológico tirsdag-lørdag 9:00-15:00; Museo del Belén tirsdag-søndag 10:00-14:00."
    },
    {
     "label": "Pris",
@@ -1577,16 +1577,16 @@
   "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-MALAGA-001": {
-  "source_sha": "e07a96dda953b0ff",
+  "source_sha": "adbaad504b6cf362",
   "summary": "Málagas historiske centrum, bygget omkring katedralen fra 1500-tallet og Alcazaba-fæstningen på bakken, er en let dagstur fra Casa de la Familia med museer, tapasbarer og havudsigt.",
   "practical": [
    {
     "label": "Åbningstider",
-    "text": "Málagas katedral: 26/10-29/3 mandag-fredag 10:30-18:30, lørdag 10:30-18:00, søndag 14:00-18:00; 30/3-30/5 mandag-fredag 10:30-19:30; 1/6-25/10 mandag-fredag 10:30-20:00 (lørdag og søndag uændret). Sidste adgang 45 min før lukning. Lukket 25. december og 1. januar. Alcazaba/Gibralfaro: vinter (1/11-31/3) 9:00-18:00, sommer (1/4-31/10) 9:00-20:00, sidste adgang 1 time før lukning."
+    "text": "Málagas katedral: 26/10-29/3 mandag-fredag 10:30-18:30, lørdag 10:30-18:00, søndag 14:00-18:00; 30/3-30/5 mandag-fredag 10:30-19:30; 1/6-25/10 mandag-fredag 10:30-20:00 (lørdag og søndag uændret). Sidste adgang 45 min før lukning. Lukket 25. december og 1. januar. Alcazaba/Gibralfaro: vinter (1/11-31/3) 9:00-18:00, sommer (1/4-31/10) 9:00-20:00, sidste adgang 1 time før lukning. Museo Picasso Málaga: dagligt; november-februar 10:00-18:00, marts-juni og september-oktober 10:00-19:00, juli-august 10:00-20:00; sidste adgang 30 min før lukning; 24. og 31. december og 5. januar 10:00-15:00; lukket 25. december, 1. og 6. januar. Teatro Romano: tirsdag-lørdag 10:00-18:00, søn- og helligdage 10:00-16:00; lukket 1. og 6. januar, 1. maj, 24., 25. og 31. december."
    },
    {
     "label": "Pris",
-    "text": "Katedralen: 10 EUR (inkl. audioguide), +5 EUR for VR-tillæg, 65+ 9 EUR, unge 13-17 år 6 EUR, studerende 18-25 år 7 EUR, under 13 år og Málaga-beboere gratis. Alcazaba: 7 EUR (kombineret med Gibralfaro-borgen 10 EUR), nedsat 3/5 EUR, gratis under 6 år og gratis for alle søndag fra kl. 14:00."
+    "text": "Katedralen: 10 EUR (inkl. audioguide), +5 EUR for VR-tillæg, 65+ 9 EUR, unge 13-17 år 6 EUR, studerende 18-25 år 7 EUR, under 13 år og Málaga-beboere gratis. Alcazaba: 7 EUR (kombineret med Gibralfaro-borgen 10 EUR), nedsat 3/5 EUR, gratis under 6 år og gratis for alle søndag fra kl. 14:00. Museo Picasso: 13 EUR, nedsat 11 EUR (65+, studerende under 26, europæisk ungdomskort); gratis for børn under 17 og om søndagen de sidste to timer før lukning. Teatro Romano: gratis."
    }
   ],
   "translated_at": "2026-11-14",

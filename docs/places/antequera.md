@@ -86,7 +86,10 @@ links:
   visitor_information: https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-EL-TORCAL-001
+  relationship: nearby
+  note: El Torcal nature reserve, about 15 km south of the town.
 description_short: Antequera is a historic Málaga-province town built around its hilltop Alcazaba, with the UNESCO-listed Dolmens of Antequera nearby; opening hours and prices are confirmed from the municipal tourism site (checked 2026-10-29).
 description_long: Antequera is a historic town in Málaga province, about 75 minutes' drive from Casa de la Familia (Google Maps, toll roads avoided, measured by the owner 2026-10-29). Its hilltop Alcazaba fortress is the town's best-known landmark. According to the municipal tourism site (updated 2026-10-28) the Alcazaba and the Real Colegiata de Santa María are open daily 10:00-18:00 (Alcazaba last entry 17:15) and free on Tuesday afternoons from 14:00; the Alcazaba costs EUR 5 for adults and EUR 4 for children 8-12 and visitors over 65, with a EUR 8 combined ticket. The Dolmens of Antequera (Menga, Viera and El Romeral), a UNESCO World Heritage prehistoric site, are free and open Tuesday-Saturday 9:00-17:30 and Sunday 9:00-14:30; they are closed on Mondays. El Torcal de Antequera, a separate nearby nature reserve, is recorded in its own place entry. Parking, accessibility, dog policy and toilets are not yet confirmed from an official source.
 seo_title: 'Antequera, Málaga: Historic Town and Alcazaba'
@@ -182,13 +185,6 @@ evidence:
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: overlap_torcal
-  severity: warning
-  fields:
-  - related_places
-  description: Combined with El Torcal in the catalogue; keep as two records and link via related_places after both are fact-checked.
-  retryable: true
-  owner: editorial
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check

@@ -33,7 +33,7 @@ Redaktørarbejdsgangen (ejerbeslutning 11. november) er i `AGENTS.md` og `docs/m
 ## Åbent
 
 1. **Delvist tjekkede app-steder:** `paseo-maritimo-marbella` (parkering, toiletter, adgang, hunde og pris mangler) og `canon-de-las-angosturas` står i `needs_fact_check`. `castillo-de-monda` er faktatjekket 14. november.
-2. **Åbne warnings (84) og info (52) på app-steder.** Fakta-delen af facilitetsissues er udført 14. november (andet kildeforsøg; resten lukket som `not_found_after_two_attempts`). Resten er redaktionelle (målgruppe, familievurderinger, tags, lagets omfang) og går på en tjekliste til redaktøren. Konflikter og `blocking` lukkes aldrig i bulk.
+2. **Åbne warnings (6 pr. 14. november, før 84) og info (64) på app-steder.** Fakta-delen af facilitetsissues er udført 14. november (andet kildeforsøg; resten lukket som `not_found_after_two_attempts`). Resten er redaktionelle (målgruppe, familievurderinger, tags, lagets omfang) og går på en tjekliste til redaktøren. Konflikter og `blocking` lukkes aldrig i bulk.
 3. **Friskhedsjobbet** er sat op 14. november: `tools/freshness.py` og den planlagte opgave `callemilano-friskhed` (den 1. i måneden kl. 9 på Mac'en). Første reelle forfald er 15. januar 2027. Tokenet udløber 9. februar 2027.
 4. **`route_check.py`** behøves ikke lige nu: ingen aktive poster mangler køretid. Det kræver en rigtig `GOOGLE_MAPS_API_KEY`.
 5. **Menu og pris** mangler for Venta La Morena, Mesón Salvador og Vegetalia.

@@ -83,7 +83,10 @@ links:
   visitor_information: https://www.juntadeandalucia.es/medioambiente/portal/areas-tematicas/espacios-protegidos/legislacion-autonomica-nacional/monumentos-naturales/monumento-natural-duna-bolonia
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-CAD-TARIFA-001
+  relationship: nearby
+  note: Tarifa town, east along the coast.
 description_short: Active coastal dune and protected natural monument beside Bolonia beach in Tarifa.
 description_long: 'Why interesting: The dune is a striking wind-shaped landform and an outdoor landscape visit, about 146 minutes'' drive from Casa de la Familia (route-checked). The experience is primarily scenic; visitors should respect protected-area limits and avoid climbing restricted vegetation or unstable slopes. Editorial suitability by audience (low / medium / high): Small children (0-6) low, Children (7-12) medium, Young adults high, Seniors low. These are estimates for planning, not guarantees or safety advice. Estimated duration: about 30 minutes one way (1,048 m) on the official low-difficulty trail, starting from a wooden walkway near the Alparieta stream; longer if combined with the beach. Seasonality: Spring; Summer; Autumn. Weather and practical notes: Strong Levante wind, sand, heat and sun exposure affect comfort. The official visitor portal reported a partial trail closure dated 22 September 2026, after the May 2026 closure noted previously; confirm the current closure status directly before visiting and do not assume the trail or dune is open. Do not assume the dune itself is open for climbing. Booking: false.'
 seo_title: Duna de Bolonia | CalleMilano destination record
@@ -170,7 +173,7 @@ review_issues:
   - visit_information
   - description_long
   retryable: true
-  description: The official visitor portal still lists '22/09/2026 Cierre parcial del sendero Duna de Bolonia' (checked 2026-11-13). Do not present the trail as fully open; recheck at the next review.
+  description: The official visitor portal still lists '22/09/2026 Cierre parcial del sendero Duna de Bolonia' (checked 2026-11-13 and again 2026-11-14, no end date). Do not present the trail as fully open; recheck at the next review.
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check

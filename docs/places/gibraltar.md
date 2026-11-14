@@ -93,7 +93,7 @@ links:
   contact: null
 related_places: []
 description_short: Gibraltar, a British Overseas Territory reached by land border from La Línea, pairs Barbary macaques and sweeping Strait views on the Upper Rock Nature Reserve with Main Street shopping; the Rock's famous cable car is currently closed for refurbishment until at least 2027.
-description_long: 'Gibraltar is reached from Casa de la Familia in about 1 hour 40 minutes'' drive (Google Maps main figure, to Gibraltar town centre including roughly 10 minutes inside Gibraltar; the land border at La Línea de la Concepción comes earlier on the route), making it a British Overseas Territory rather than Spain. Since 15 July 2026, the border has been genuinely easy to cross: a UK-EU-Spain treaty was provisionally implemented that day, the frontier gates and physical barrier were removed, and the Government of Gibraltar describes the result as a fluid frontier without routine immigration controls — confirmed directly from the official government press release. Secondary reporting (not confirmed on that same official page) describes Schengen passport checks for non-EU arrivals as having moved to Gibraltar''s airport and port instead, with most goods customs-cleared at EU offices in Spain before entering Gibraltar; the official release itself flagged ''teething issues'' during initial implementation, so visitors should expect some residual friction even though the old queueing fence is gone. The Upper Rock Nature Reserve, run by the Gibraltar government, charges £30 for adults and £22 for children 5-11 (under-5s free, with proof of age required), with winter hours 09:00-18:15 and summer hours 09:30-19:15; it includes St Michael''s Cave, the Great Siege Tunnels, and the Barbary macaques — described as the only wild primate population in Europe — near the Ape''s Den. Importantly, the Rock''s famous cable car is currently closed for a full refurbishment and not expected to reopen until 2027 at the earliest, so visitors must currently reach the upper reserve by road/shuttle rather than by cable car. Car queues at the frontier, which were long and unpredictable before the treaty, should now be much reduced given the barrier''s removal, though Gibraltar''s town centre remains compact and parking in La Línea with a walk across may still be convenient. Currency: the Gibraltar pound is pegged 1:1 to sterling and sterling is accepted at face value, but euro acceptance is inconsistent across sources — carrying sterling/GIP is the safer recommendation pending clearer confirmation.'
+description_long: 'Gibraltar is reached from Casa de la Familia in about 1 hour 40 minutes'' drive (Google Maps main figure, to Gibraltar town centre including roughly 10 minutes inside Gibraltar; the land border at La Línea de la Concepción comes earlier on the route), making it a British Overseas Territory rather than Spain. Since 15 July 2026, the border has been genuinely easy to cross: a UK-EU-Spain treaty was provisionally implemented that day, the frontier gates and physical barrier were removed, and the Government of Gibraltar describes the result as a fluid frontier without routine immigration controls — confirmed directly from the official government press release. The UK government''s travel advice says Schengen entry checks, done by the Spanish authorities, now take place at Gibraltar''s airport, and that travellers can then move freely across the land border into Spain; the Government of Gibraltar''s release flagged ''teething issues'' during the first phase, so expect some residual friction. The Upper Rock Nature Reserve, run by the Gibraltar government, charges £30 for adults and £22 for children 5-11 (under-5s free, with proof of age required), with winter hours 09:00-18:15 and summer hours 09:30-19:15; it includes St Michael''s Cave, the Great Siege Tunnels, and the Barbary macaques — described as the only wild primate population in Europe — near the Ape''s Den. Importantly, the Rock''s famous cable car is currently closed for a full refurbishment and not expected to reopen until 2027 at the earliest, so visitors must currently reach the upper reserve by road/shuttle rather than by cable car. Car queues at the frontier, which were long and unpredictable before the treaty, should now be much reduced given the barrier''s removal, though Gibraltar''s town centre remains compact and parking in La Línea with a walk across may still be convenient. Currency: the Gibraltar pound is pegged 1:1 to sterling and sterling is accepted at face value, but euro acceptance is inconsistent across sources — carrying sterling/GIP is the safer recommendation pending clearer confirmation.'
 seo_title: 'Gibraltar: Upper Rock, Border Crossing and What''s Changed'
 seo_description: 'Plan a Gibraltar day trip: Upper Rock Nature Reserve prices and hours, the cable car closure, and border-crossing practicalities from Casa de la Familia.'
 images: []
@@ -202,6 +202,14 @@ evidence:
   checked_by: Claude (main session)
   confidence: high
   notes: null
+- field: description_long
+  claim: '"On arrival at Joshua Hassan Gibraltar International Airport, you should expect two sets of checks which will satisfy entry into Gibraltar and the Schengen Area" ... "Schengen entry immigration controls performed by the Spanish authorities" ... "Once you have cleared these checks, you can move freely across the land border from Gibraltar into Spain and the wider Schengen Area."'
+  source_url: https://www.gov.uk/foreign-travel-advice/gibraltar/entry-requirements
+  source_type: government
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: high
+  notes: GOV.UK says the agreement "will provisionally apply" from 15 July 2026; the Government of Gibraltar release already in the record confirms it took effect.
 review_issues:
 - code: not_spain
   severity: info
@@ -213,13 +221,6 @@ review_issues:
   description: 'Resolved by editor decision 2026-10-15: Gibraltar is included, it is a British Overseas Territory not Spain, and the ID scheme now reflects that. Corrected from the borrowed ES-AND-CAD-GIBRALTAR-001 to GI-GIBRALTAR-001, per the updated ID format in docs/place-schema.md (territory''s own code as the leading segment; the old ID is retired, not deleted, in data/place-id-registry.csv).'
   retryable: false
   owner: editor
-- code: border_checks_mechanics_unverified
-  severity: warning
-  fields:
-  - description_long
-  description: The core fact (frontier gates/barrier removed, routine immigration controls lifted, effective 15 July 2026) is now confirmed from the official Government of Gibraltar press release. The downstream mechanics — exactly how/where Schengen entry checks and customs now work, and current (post-treaty) queue/parking conditions at the frontier — are still only secondary-sourced and should be reconfirmed closer to publication, since this is a recently implemented change with reported 'teething issues'.
-  retryable: true
-  owner: fact_check
 - code: cable_car_closure_date_unknown
   severity: info
   fields:

@@ -73,7 +73,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: 'Alcázar de Jerez: daily 8:30-14:30 (tourist guide; the municipality''s Facebook says valid from 1 March). Free Monday 13:30-14:30 in the winter season. Other sights (tourist guide, Oct 2026): Catedral Mon-Sat 10:00-19:00 (last access 18:00), Sun 13:00-19:00; Iglesia de San Miguel Mon-Sat 10:00-18:30, Sun closed; Museo Arqueológico Tue-Sat 9:00-15:00; Museo del Belén Tue-Sun 10:00-14:00.'
+  schedule: 'Alcázar de Jerez (municipal page): January-June and October-December daily 8:30-14:30; July-September Mon-Fri 8:30-17:30, Sat, Sun and holidays 8:30-14:30; special Christmas hours in December and January (not given on the page). Free Monday 13:30-14:30 in the winter season. Other sights (tourist guide, Oct 2026): Catedral Mon-Sat 10:00-19:00 (last access 18:00), Sun 13:00-19:00; Iglesia de San Miguel Mon-Sat 10:00-18:30, Sun closed; Museo Arqueológico Tue-Sat 9:00-15:00; Museo del Belén Tue-Sun 10:00-14:00.'
   typical_duration: Bodega tour (González Byass, if chosen as an activity) reported around 90 minutes, ending with a tasting.
   booking_lead_time: Bodega tours bookable online, reportedly with same-day or next-day availability depending on capacity (via resellers; not confirmed on the bodega's own official page).
   valid_from: null
@@ -173,14 +173,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
+- field: visit_information.schedule
+  claim: '"De Enero a Junio y de Octubre a Diciembre:" "De lunes a domingo: de 08.30 a 14.30 horas." "De Julio a Septiembre:" "De lunes a viernes: de 08.30 a 17.30 horas" "Sábados domingos y festivos: de 08.30 a 14.30 horas" "Diciembre y Enero: Horario Especial de Navidad"'
+  source_url: https://www.jerez.es/webs-municipales/conjunto-monumental-del-alcazar
+  source_type: government
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: high
+  notes: null
 review_issues:
-- code: alcazar_hours_partial
-  severity: warning
-  fields:
-  - visit_information.schedule
-  description: Alcázar hours are confirmed only by the tourist guide and a municipal Facebook post.
-  retryable: true
-  owner: fact_check
 - code: child_price_not_stated
   severity: info
   fields:

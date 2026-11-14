@@ -197,11 +197,11 @@ evidence:
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
 - code: lifeguard_season_unchecked
-  severity: warning
+  severity: info
   fields:
   - description_long
   - accessibility
-  description: Lifeguard service and bathing-season dates for 2027 are not checked against the council's beach plan; check before publishing safety-related text.
+  description: 'Lifeguard service and bathing-season dates for 2027 are not checked against the council''s beach plan; check before publishing safety-related text. (2026-11-14: the 2027 beach-service plan is not published before spring; lowered to info, re-check in May 2027. The text names the council-listed lifeguard team but gives no season dates.)'
   retryable: true
   owner: fact_check
 - code: not_found_after_two_attempts

@@ -182,14 +182,14 @@ evidence:
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: non_guest_access_and_prices_unknown
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - booking_required
   - cost_level
-  description: Not checked whether non-guests can use the Polynesian pool and pool bar, booking rules for dinner with music, or prices.
   retryable: true
-  owner: fact_check
+  description: 'Two source attempts (latest 2026-11-14) found no official answer for: whether non-guests can use the pool and pool bar, and their prices (the own site only offers table booking). Value left as it is; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
 updated_at: '2026-11-14'
 last_verified: '2026-11-02'

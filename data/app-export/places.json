@@ -4388,7 +4388,7 @@
     "historisk-by",
     "Full day"
    ],
-   "description": "Gibraltar is reached from Casa de la Familia in about 1 hour 40 minutes' drive (Google Maps main figure, to Gibraltar town centre including roughly 10 minutes inside Gibraltar; the land border at La Línea de la Concepción comes earlier on the route), making it a British Overseas Territory rather than Spain. Since 15 July 2026, the border has been genuinely easy to cross: a UK-EU-Spain treaty was provisionally implemented that day, the frontier gates and physical barrier were removed, and the Government of Gibraltar describes the result as a fluid frontier without routine immigration controls — confirmed directly from the official government press release. Secondary reporting (not confirmed on that same official page) describes Schengen passport checks for non-EU arrivals as having moved to Gibraltar's airport and port instead, with most goods customs-cleared at EU offices in Spain before entering Gibraltar; the official release itself flagged 'teething issues' during initial implementation, so visitors should expect some residual friction even though the old queueing fence is gone. The Upper Rock Nature Reserve, run by the Gibraltar government, charges £30 for adults and £22 for children 5-11 (under-5s free, with proof of age required), with winter hours 09:00-18:15 and summer hours 09:30-19:15; it includes St Michael's Cave, the Great Siege Tunnels, and the Barbary macaques — described as the only wild primate population in Europe — near the Ape's Den. Importantly, the Rock's famous cable car is currently closed for a full refurbishment and not expected to reopen until 2027 at the earliest, so visitors must currently reach the upper reserve by road/shuttle rather than by cable car. Car queues at the frontier, which were long and unpredictable before the treaty, should now be much reduced given the barrier's removal, though Gibraltar's town centre remains compact and parking in La Línea with a walk across may still be convenient. Currency: the Gibraltar pound is pegged 1:1 to sterling and sterling is accepted at face value, but euro acceptance is inconsistent across sources — carrying sterling/GIP is the safer recommendation pending clearer confirmation.",
+   "description": "Gibraltar is reached from Casa de la Familia in about 1 hour 40 minutes' drive (Google Maps main figure, to Gibraltar town centre including roughly 10 minutes inside Gibraltar; the land border at La Línea de la Concepción comes earlier on the route), making it a British Overseas Territory rather than Spain. Since 15 July 2026, the border has been genuinely easy to cross: a UK-EU-Spain treaty was provisionally implemented that day, the frontier gates and physical barrier were removed, and the Government of Gibraltar describes the result as a fluid frontier without routine immigration controls — confirmed directly from the official government press release. The UK government's travel advice says Schengen entry checks, done by the Spanish authorities, now take place at Gibraltar's airport, and that travellers can then move freely across the land border into Spain; the Government of Gibraltar's release flagged 'teething issues' during the first phase, so expect some residual friction. The Upper Rock Nature Reserve, run by the Gibraltar government, charges £30 for adults and £22 for children 5-11 (under-5s free, with proof of age required), with winter hours 09:00-18:15 and summer hours 09:30-19:15; it includes St Michael's Cave, the Great Siege Tunnels, and the Barbary macaques — described as the only wild primate population in Europe — near the Ape's Den. Importantly, the Rock's famous cable car is currently closed for a full refurbishment and not expected to reopen until 2027 at the earliest, so visitors must currently reach the upper reserve by road/shuttle rather than by cable car. Car queues at the frontier, which were long and unpredictable before the treaty, should now be much reduced given the barrier's removal, though Gibraltar's town centre remains compact and parking in La Línea with a walk across may still be convenient. Currency: the Gibraltar pound is pegged 1:1 to sterling and sterling is accepted at face value, but euro acceptance is inconsistent across sources — carrying sterling/GIP is the safer recommendation pending clearer confirmation.",
    "catalogue_group": "Dagsture",
    "guide": {
     "source": "thomasericolesen/callemilano",
@@ -4982,7 +4982,7 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Alcázar de Jerez: dagligt 8:30-14:30 (turistguide; kommunens Facebook siger gældende fra 1. marts). Gratis mandag 13:30-14:30 i vintersæsonen. Andre seværdigheder (turistguide, oktober 2026): Katedralen mandag-lørdag 10:00-19:00 (sidste adgang 18:00), søndag 13:00-19:00; Iglesia de San Miguel mandag-lørdag 10:00-18:30, søndag lukket; Museo Arqueológico tirsdag-lørdag 9:00-15:00; Museo del Belén tirsdag-søndag 10:00-14:00."
+      "text": "Alcázar de Jerez (kommunens side): januar-juni og oktober-december dagligt 8:30-14:30; juli-september mandag-fredag 8:30-17:30, lørdag, søndag og helligdage 8:30-14:30; særlige juletider i december og januar (ikke oplyst på siden). Gratis mandag 13:30-14:30 i vintersæsonen. Andre seværdigheder (turistguide, oktober 2026): Katedralen mandag-lørdag 10:00-19:00 (sidste adgang 18:00), søndag 13:00-19:00; Iglesia de San Miguel mandag-lørdag 10:00-18:30, søndag lukket; Museo Arqueológico tirsdag-lørdag 9:00-15:00; Museo del Belén tirsdag-søndag 10:00-14:00."
      },
      {
       "label": "Pris",
@@ -4999,8 +4999,8 @@
     "trip": {
      "record_category": "City",
      "municipality": "Jerez de la Frontera",
-     "schedule": "Alcázar de Jerez: daily 8:30-14:30 (tourist guide; the municipality's Facebook says valid from 1 March). Free Monday 13:30-14:30 in the winter season. Other sights (tourist guide, Oct 2026): Catedral Mon-Sat 10:00-19:00 (last access 18:00), Sun 13:00-19:00; Iglesia de San Miguel Mon-Sat 10:00-18:30, Sun closed; Museo Arqueológico Tue-Sat 9:00-15:00; Museo del Belén Tue-Sun 10:00-14:00.",
-     "schedule_checked_at": "2026-10-30",
+     "schedule": "Alcázar de Jerez (municipal page): January-June and October-December daily 8:30-14:30; July-September Mon-Fri 8:30-17:30, Sat, Sun and holidays 8:30-14:30; special Christmas hours in December and January (not given on the page). Free Monday 13:30-14:30 in the winter season. Other sights (tourist guide, Oct 2026): Catedral Mon-Sat 10:00-19:00 (last access 18:00), Sun 13:00-19:00; Iglesia de San Miguel Mon-Sat 10:00-18:30, Sun closed; Museo Arqueológico Tue-Sat 9:00-15:00; Museo del Belén Tue-Sun 10:00-14:00.",
+     "schedule_checked_at": "2026-11-14",
      "valid_until": null,
      "needs_fixed_hours": true,
      "rainy_day": false,
@@ -6680,11 +6680,11 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Málagas katedral: 26/10-29/3 mandag-fredag 10:30-18:30, lørdag 10:30-18:00, søndag 14:00-18:00; 30/3-30/5 mandag-fredag 10:30-19:30; 1/6-25/10 mandag-fredag 10:30-20:00 (lørdag og søndag uændret). Sidste adgang 45 min før lukning. Lukket 25. december og 1. januar. Alcazaba/Gibralfaro: vinter (1/11-31/3) 9:00-18:00, sommer (1/4-31/10) 9:00-20:00, sidste adgang 1 time før lukning."
+      "text": "Málagas katedral: 26/10-29/3 mandag-fredag 10:30-18:30, lørdag 10:30-18:00, søndag 14:00-18:00; 30/3-30/5 mandag-fredag 10:30-19:30; 1/6-25/10 mandag-fredag 10:30-20:00 (lørdag og søndag uændret). Sidste adgang 45 min før lukning. Lukket 25. december og 1. januar. Alcazaba/Gibralfaro: vinter (1/11-31/3) 9:00-18:00, sommer (1/4-31/10) 9:00-20:00, sidste adgang 1 time før lukning. Museo Picasso Málaga: dagligt; november-februar 10:00-18:00, marts-juni og september-oktober 10:00-19:00, juli-august 10:00-20:00; sidste adgang 30 min før lukning; 24. og 31. december og 5. januar 10:00-15:00; lukket 25. december, 1. og 6. januar. Teatro Romano: tirsdag-lørdag 10:00-18:00, søn- og helligdage 10:00-16:00; lukket 1. og 6. januar, 1. maj, 24., 25. og 31. december."
      },
      {
       "label": "Pris",
-      "text": "Katedralen: 10 EUR (inkl. audioguide), +5 EUR for VR-tillæg, 65+ 9 EUR, unge 13-17 år 6 EUR, studerende 18-25 år 7 EUR, under 13 år og Málaga-beboere gratis. Alcazaba: 7 EUR (kombineret med Gibralfaro-borgen 10 EUR), nedsat 3/5 EUR, gratis under 6 år og gratis for alle søndag fra kl. 14:00."
+      "text": "Katedralen: 10 EUR (inkl. audioguide), +5 EUR for VR-tillæg, 65+ 9 EUR, unge 13-17 år 6 EUR, studerende 18-25 år 7 EUR, under 13 år og Málaga-beboere gratis. Alcazaba: 7 EUR (kombineret med Gibralfaro-borgen 10 EUR), nedsat 3/5 EUR, gratis under 6 år og gratis for alle søndag fra kl. 14:00. Museo Picasso: 13 EUR, nedsat 11 EUR (65+, studerende under 26, europæisk ungdomskort); gratis for børn under 17 og om søndagen de sidste to timer før lukning. Teatro Romano: gratis."
      }
     ],
     "links": {
@@ -6692,13 +6692,13 @@
      "booking": "https://malagacatedral.com/visita-cultural/tarifas-y-horarios/",
      "info": "https://alcazabaygibralfaro.malaga.eu/es/visitas/horarios-y-tarifas/"
     },
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-14",
     "text_language": "da",
     "trip": {
      "record_category": "City",
      "municipality": "Málaga",
-     "schedule": "Málaga Cathedral: 26 Oct–29 Mar Mon–Fri 10:30–18:30, Sat 10:30–18:00, Sun 14:00–18:00; 30 Mar–30 May Mon–Fri 10:30–19:30; 1 Jun–25 Oct Mon–Fri 10:30–20:00 (Sat/Sun unchanged). Last entry 45 min before close. Closed 25 Dec and 1 Jan. Alcazaba/Gibralfaro: winter (1 Nov–31 Mar) 9:00–18:00, summer (1 Apr–31 Oct) 9:00–20:00, last entry 1 h before close.",
-     "schedule_checked_at": "2026-10-29",
+     "schedule": "Málaga Cathedral: 26 Oct–29 Mar Mon–Fri 10:30–18:30, Sat 10:30–18:00, Sun 14:00–18:00; 30 Mar–30 May Mon–Fri 10:30–19:30; 1 Jun–25 Oct Mon–Fri 10:30–20:00 (Sat/Sun unchanged). Last entry 45 min before close. Closed 25 Dec and 1 Jan. Alcazaba/Gibralfaro: winter (1 Nov–31 Mar) 9:00–18:00, summer (1 Apr–31 Oct) 9:00–20:00, last entry 1 h before close. Museo Picasso Málaga: daily; November-February 10:00-18:00, March-June and September-October 10:00-19:00, July-August 10:00-20:00; last entry 30 min before closing; 24 and 31 Dec and 5 Jan 10:00-15:00; closed 25 Dec, 1 and 6 Jan. Teatro Romano: Tue-Sat 10:00-18:00, Sundays and holidays 10:00-16:00; closed 1 and 6 Jan, 1 May, 24, 25 and 31 Dec.",
+     "schedule_checked_at": "2026-11-14",
      "valid_until": null,
      "needs_fixed_hours": true,
      "rainy_day": false,
