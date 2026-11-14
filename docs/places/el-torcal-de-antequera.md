@@ -73,7 +73,7 @@ toilets_available: unknown
 food_available: 'yes'
 cost_level: €
 visit_information:
-  schedule: 'The nature reserve has no opening hours (visit in daylight). Visitor centre Torcal Alto: Mon-Sun 9:30-17:00 according to the park''s site and 9:30-17:30 according to the Antequera municipal tourism site (30-minute difference unresolved); 24, 31 Dec and 5 Jan shorter hours; 25 Dec, 1 and 6 Jan closed. The earlier 10:00-17:00 / 10:00-19:00 hours came from a secondary source and were wrong.'
+  schedule: 'The nature reserve has no opening hours (visit in daylight). Visitor centre Torcal Alto: Mon-Sun 9:30-17:30 (Antequera municipal tourism site; editor decision 2026-11-14 over the park site''s 17:00); 24, 31 Dec and 5 Jan shorter hours; 25 Dec, 1 and 6 Jan closed. The earlier 10:00-17:00 / 10:00-19:00 hours came from a secondary source and were wrong.'
   typical_duration: Green self-guided route ~45 min (1.5 km); Yellow self-guided route ~1h30 (2.8-3 km, circular); guided routes 3-5 hours.
   booking_lead_time: Self-guided visits need no booking; guided routes (e.g. 'Ruta de los Ammonites') should be booked ahead by phone or email as group sizes are limited.
   valid_from: null
@@ -181,6 +181,14 @@ evidence:
   checked_by: Claude (main session)
   confidence: low
   notes: Compromised page; kept only as the other side of the closing-time conflict.
+- field: visit_information.schedule
+  claim: 'Editor decision 2026-11-14 (chat): use the Antequera municipal tourism site''s visitor-centre hours, 09:30-17:30, over the 17:00 on the park operator''s compromised site.'
+  source_url: https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: Resolves the source_conflict opened 2026-11-14.
 review_issues:
 - code: overlap_antequera
   severity: warning
@@ -204,13 +212,6 @@ review_issues:
   - links.official_website
   retryable: true
   description: On 2026-11-14 torcaldeantequera.com still showed injected spam (Viagra/Cialis) on its home page. The link was removed from the record so the app does not link to it; the Antequera municipal tourism page is used instead. Re-check later.
-- code: source_conflict
-  severity: warning
-  owner: editor
-  fields:
-  - visit_information.schedule
-  retryable: false
-  description: 'Visitor centre Torcal Alto closing time: 17:00 on the park operator site (compromised page) vs 17:30 on the Antequera municipal tourism page (both read 2026-11-14). For the editor.'
 created_at: 2026-10-15
 updated_at: '2026-11-14'
 last_verified: 2026-10-29

@@ -3560,7 +3560,7 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Naturreservatet har ingen åbningstider (besøg i dagslys). Besøgscentret Torcal Alto: mandag-søndag 9:30-17:00 ifølge parkens side og 9:30-17:30 ifølge Antequera kommunes turistside (forskellen på 30 minutter er uafklaret); 24. og 31. december og 5. januar kortere tider; 25. december, 1. og 6. januar lukket. De tidligere tider 10:00-17:00 / 10:00-19:00 kom fra en sekundær kilde og var forkerte."
+      "text": "Naturreservatet har ingen åbningstider (besøg i dagslys). Besøgscentret Torcal Alto: mandag-søndag 9.30-17.30 (Antequera kommunes turistside; parkens egen side siger 17.00). 24. og 31. december og 5. januar kortere tider; 25. december, 1. og 6. januar lukket."
      },
      {
       "label": "Pris",
@@ -3577,7 +3577,7 @@
     "trip": {
      "record_category": "Nature",
      "municipality": "Antequera",
-     "schedule": "The nature reserve has no opening hours (visit in daylight). Visitor centre Torcal Alto: Mon-Sun 9:30-17:00 according to the park's site and 9:30-17:30 according to the Antequera municipal tourism site (30-minute difference unresolved); 24, 31 Dec and 5 Jan shorter hours; 25 Dec, 1 and 6 Jan closed. The earlier 10:00-17:00 / 10:00-19:00 hours came from a secondary source and were wrong.",
+     "schedule": "The nature reserve has no opening hours (visit in daylight). Visitor centre Torcal Alto: Mon-Sun 9:30-17:30 (Antequera municipal tourism site; editor decision 2026-11-14 over the park site's 17:00); 24, 31 Dec and 5 Jan shorter hours; 25 Dec, 1 and 6 Jan closed. The earlier 10:00-17:00 / 10:00-19:00 hours came from a secondary source and were wrong.",
      "schedule_checked_at": "2026-11-14",
      "valid_until": null,
      "needs_fixed_hours": false,
