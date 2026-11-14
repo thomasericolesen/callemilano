@@ -108,11 +108,16 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-BAR-BURBUJAS-001": {
-  "source_sha": "e2c4bda4dd9a17d9",
+  "source_sha": "61d39784d6e30a93",
   "summary": "Bar Burbujas: natbar med cocktails på mousserende vin i det centrale Fuengirola, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Ifølge barens egen Instagram: torsdag og søndag 21:00-03:00, fredag og lørdag 21:00-04:00. Røgfri terrasse."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-BENAHAVIS-001": {
   "source_sha": "969696fc31971021",
@@ -185,11 +190,16 @@
   "checked_by": "Claude (translator subagent)"
  },
  "ES-AND-MAL-CAFE-TEATRO-OCEAN-DRIVE-001": {
-  "source_sha": "c734460733bb82b3",
+  "source_sha": "6d8a450dbdbc8ec7",
   "summary": "Café Teatro by Ocean Drive: lounge-terrasse med levende musik og cocktails på promenaden i Fuengirola, ca. 10 min i bil, taxa eller Uber fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Ifølge stedets Facebook-side: fredag-søndag 12:00-24:00, mandag-torsdag lukket. Oplysningen er ca. et år gammel, så tjek før besøget."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-CARVAJAL-001": {
   "source_sha": "abb61da494086900",
@@ -225,11 +235,16 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-CHANGUEIRO-BAR-DE-VINOS-001": {
-  "source_sha": "072f1fa18f5cddb9",
+  "source_sha": "5677a7c06e47c27e",
   "summary": "Changueiro Bar de Vinos: vinbar i det centrale Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag, torsdag, fredag og lørdag 12:00-16:00 og 19:00-23:30; søndag 12:00-16:00; tirsdag og onsdag lukket (barens eget opslag 19. oktober 2026)."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-CHIRINGUITO-CRISTOBAL-001": {
   "source_sha": "4cda3253b8b16dba",
@@ -271,16 +286,20 @@
   "checked_by": "Claude (translator subagent)"
  },
  "ES-AND-MAL-CHIRINGUITO-LAS-DUNAS-CABOPINO-001": {
-  "source_sha": "f98d2d2bc55a1c81",
+  "source_sha": "c06123ddfdeff117",
   "summary": "Strandbar (chiringuito) på Cabopino-stranden, Marbella; sæsonåben, ca. 22 min i bil fra Casa de la Familia.",
   "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Efterår og vinter (stedets egen Instagram, november 2026): tirsdag-fredag 09:30-13:00; lørdag og søndag morgenmad 09:30-12:00 og aperitivo 12:00-15:00; mandag lukket."
+   },
    {
     "label": "Pris",
     "text": "Prisniveau ifølge Tripadvisor: mellem (€€). Tjek menuen på stedet."
    }
   ],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-CHIRINGUITO-LOS-MORENO-001": {
   "source_sha": "8b62cedfba961efa",
@@ -484,11 +503,16 @@
   "checked_by": "Claude (translator subagent)"
  },
  "ES-AND-MAL-GROOVE-BAR-FUENGIROLA-001": {
-  "source_sha": "dd54a970244c2a1f",
+  "source_sha": "899d3b63c9852d8b",
   "summary": "Groove Music Bar: bar med levende musik ved lystbådehavnen i Fuengirola, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Ifølge stedets Facebook-side (ca. fem måneder gammel): onsdag-torsdag 12:00-02:00, fredag-lørdag 12:00-03:00, søndag 12:00-22:00, mandag-tirsdag lukket. Jam session med levende musik hver onsdag kl. 21:30, gratis adgang."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-HELADERIA-CASA-ESTEBAN-FUENGIROLA-001": {
   "source_sha": "2799bfa41d9ce060",
@@ -683,11 +707,16 @@
   "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-LA-TERRAZA-DE-PANDA-001": {
-  "source_sha": "da2ea26b86a8af70",
+  "source_sha": "cbd53ba2ad74662f",
   "summary": "La Terraza de Panda: cocktailterrasse på Plaza de la Constitución i det centrale Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Åbent alle dage: søndag-torsdag 12:00-01:00, fredag-lørdag 12:00-03:00. Ingen bordbestilling (stedets egen Instagram)."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-LA-ZAMBRA-RESORT-001": {
   "source_sha": "fa4470f6f71a55d6",
@@ -918,11 +947,16 @@
   "checked_by": "Claude (translator subagent)"
  },
  "ES-AND-MAL-NONINA-FUENGIROLA-001": {
-  "source_sha": "7741617812831e6a",
+  "source_sha": "e27453388d87d329",
   "summary": "Noniná: flamencobar ved havnen i Fuengirola, ca. 15 min i bil, taxa eller Uber fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Ifølge stedets Facebook-side (gammel oplysning, usikker): tirsdag-lørdag 18:00-02:00, søndag 13:00-23:00, mandag lukket. Siden var aktiv i november 2026; tjek før besøget."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-OJEN-001": {
   "source_sha": "56e1727e26fe8fe8",
@@ -1062,11 +1096,16 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-RED-AND-WHITE-FUENGIROLA-001": {
-  "source_sha": "a5349c894a9707ca",
+  "source_sha": "c65700ed289e3160",
   "summary": "Red & White: vinbar og middelhavsrestaurant i Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Ferielukket 16. november-1. december 2026, åbner igen 2. december (eget opslag 10. november). Ellers ifølge Facebook-siden (gammel oplysning, usikker): tirsdag-lørdag 12:00-23:00, søndag 12:00-18:00, mandag lukket."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-RESTAURANTE-CASA-FERNANDO-SAN-PEDRO-001": {
   "source_sha": "fa6fbfc0cc64fd43",
@@ -1210,11 +1249,16 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "ES-AND-MAL-SPEAKEASY-JAZZ-CLUB-FUENGIROLA-001": {
-  "source_sha": "22e7945f12c4c9ec",
+  "source_sha": "cee2419905ef4d5c",
   "summary": "Speakeasy Jazz Club & Cocktails: jazzklub og cocktailbar, ca. 16 min i bil, taxa eller Uber fra Casa de la Familia.",
-  "practical": [],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent)"
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Koncertbilletter i stedets egen webshop er bordreservationer, hvor beløbet indgår i drikkevarer: 56 EUR om fredagen og 84 EUR om lørdagen (november 2026; borde til 2, 3 eller 4 personer)."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-TABERNA-CASA-BLANCA-BANUS-001": {
   "source_sha": "b31ca009cc8da20c",
