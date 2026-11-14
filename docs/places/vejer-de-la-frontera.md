@@ -79,7 +79,7 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Museo de Vejer: EUR 2.00 per person, under 12 and pensioners free; the same page also states EUR 4.00 without explanation. Museo Municipal: EUR 1 (groups EUR 0.50). Castle: no price stated.'
+  cost_basis: 'Museo de Vejer: price unclear, check before visiting (the official page shows both EUR 2.00 and EUR 4.00 per person; under 12 and pensioners free). Museo Municipal: EUR 1 (groups EUR 0.50). Castle: no price stated.'
   cost_checked_at: 2026-10-30
 links:
   official_website: https://turismovejer.es/
@@ -166,14 +166,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
+- field: visit_information.cost_basis
+  claim: 'Editor decision 2026-11-14 (chat): the Museo de Vejer price is shown as "check before visiting", since the official page lists "Precio: 2,00€/pax (Menores de 12 años y jubilados gratis)" and "Precio: 4,00€/pax" for the same museum.'
+  source_url: https://turismovejer.es/turismo-monumental/
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: Resolves museum_price_ambiguous.
 review_issues:
-- code: museum_price_ambiguous
-  severity: warning
-  fields:
-  - visit_information.cost_basis
-  description: Museo de Vejer shows both EUR 2.00 and EUR 4.00 on the official page without explanation.
-  retryable: true
-  owner: fact_check
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
