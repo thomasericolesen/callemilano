@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-14 - App still linked to El Torcal's compromised site (level A)
+
+- After the import the app row for `el-torcal-de-antequera` still had `links.official` and `url` = torcaldeantequera.com: the import keeps the old value when the export sends `null` (`nl[k] ?? ol[k]`). Both were set to null directly in `public.recommendations`. A check of the 44 exported places without an official link found no other row with a leftover link. The procedure is noted under "Praktisk" in the status file.
+
 ## 2026-11-14 - Minor points from the status file (level A; one conflict for the editor)
 
 - `el-torcal-de-antequera`: second source read (Antequera municipal tourism): reserve open all day, visitor centre daily 09:30-17:30, guided visits on request, free entry. The operator site torcaldeantequera.com still shows injected spam, so `links.official_website` was removed (issue `official_site_compromised`, as for `casa-carmen-miramar`) and the municipal page is the visitor link. The closing time (17:00 operator vs 17:30 municipal) is a `source_conflict` for the editor; the schedule text already says the difference is unresolved.
