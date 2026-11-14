@@ -166,6 +166,14 @@ evidence:
   confidence: high
   notes: Read in Claude in Chrome 2026-11-13 (blocked for curl).
   checked_at: '2026-11-13'
+- field: review_issues
+  claim: 'Editor decision 2026-11-14 on editor list (2): close excursion_layer_scope; the excursion layer was decided by the owner on 2026-10-15 (AGENTS.md).'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
 - code: example_exists
   severity: info
@@ -175,13 +183,6 @@ review_issues:
   description: docs/examples/nerja-example.md already uses ID ES-AND-MAL-NERJA-001 with slug nerja-malaga as an illustrative example, not a canonical record. This record independently re-verified its own coordinates and driving time rather than reusing the example's figures. Overlaps Frigiliana (docs/places/frigiliana.md); editor to decide on the example file's ID/slug and the Frigiliana relationship.
   retryable: true
   owner: editorial
-- code: excursion_layer_scope
-  severity: warning
-  fields:
-  - status
-  description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
-  retryable: true
-  owner: editor
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -195,9 +196,9 @@ review_issues:
   retryable: true
   description: 'Two source attempts (2026-11-13) found no official answer for: visitor facilities, parking, toilets and dog rules for the town. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
-last_reviewed_at: 2026-10-15
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-04-15
 review_decision: null
 redirects: []

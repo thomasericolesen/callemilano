@@ -162,14 +162,15 @@ evidence:
   confidence: high
   notes: Own Instagram, highlight posted about one week before 2026-11-13; read in Claude in Chrome. Summer hours not stated.
   checked_at: '2026-11-13'
+- field: energy_level
+  claim: 'Editor decision 2026-11-14 on editor list (2): energy_level = Low.'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  description: energy_level Low is an editorial default for a restaurant visit; confirm it at editorial review.
-  retryable: false
-  owner: human_editor
 - code: cost_level_secondary_source
   severity: info
   fields:
@@ -178,9 +179,9 @@ review_issues:
   retryable: true
   owner: human_editor
 created_at: 2026-11-01
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-11-01
-last_reviewed_at: null
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-04-01
 review_decision: null
 redirects: []

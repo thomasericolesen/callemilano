@@ -6,6 +6,7 @@ slug: baelo-claudia
 name: Baelo Claudia
 category: Family activities
 tags:
+- Historic town
 - Museum
 coordinates:
   latitude: 36.088226
@@ -161,21 +162,15 @@ evidence:
   confidence: high
   notes: Same official portal, 'Servicios e instalaciones'.
   checked_at: '2026-11-13'
+- field: category, tags, age_groups, family_score, energy_level
+  claim: 'Editor decision 2026-11-14 on editor list (2): age_groups = Children (7-12), Young adults, Seniors; category = Family activities; energy_level = Medium; family_score.children = medium; family_score.seniors = medium; family_score.small_children = low; family_score.young_adults = high; tags = Historic town, Museum.'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: editorial_suitability_requires_human_review
-  severity: warning
-  fields: null
-  description: Audience ratings and effort level are editorial estimates requested for this draft; human editor must review them before approval.
-  retryable: false
-  owner: human_editor
-- code: category_and_tags_need_human_review
-  severity: warning
-  fields:
-  - category
-  - tags
-  description: Primary category and controlled tags are provisional intake recommendations; human editor-of-record must confirm before editorial advancement.
-  retryable: false
-  owner: human_editor
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -184,9 +179,9 @@ review_issues:
   retryable: true
   description: 'Two source attempts (2026-11-13) found no official answer for: wheelchair access to the Roman site and museum. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-10-04'
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: '2026-10-16'
-last_reviewed_at: null
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-02-14
 review_decision: null
 redirects: []

@@ -205,6 +205,14 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: Spain tourism portal (spain.info) beach page, read 2026-11-13. Access lines only. The page does not mention a lifeguard post, Blue Flag, loudspeakers, bathing hours or prices, so santa_ana_not_named_in_2026_service stays open.
+- field: energy_level
+  claim: 'Editor decision 2026-11-14 on editor list (2): energy_level = Low.'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
 - code: santa_ana_not_named_in_2026_service
   severity: warning
@@ -214,18 +222,10 @@ review_issues:
   description: 'Rechecked 2026-11-02: the 2026 Blue Flag (Diputación de Málaga) and loudspeaker points at Santa Ana and Torrebermeja (Benalmádena, 21 Aug 2026) are confirmed, but no 2026 municipal source names a lifeguard post or accessibility point on this beach (Malapesquera next door is named). Do not describe lifeguard cover here until the Delegación de Playas confirms it.'
   retryable: true
   owner: fact_check
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  - description_long
-  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
-  retryable: false
-  owner: human_editor
 created_at: '2026-10-29'
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: '2026-10-29'
-last_reviewed_at: null
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-04-14
 review_decision: null
 redirects: []

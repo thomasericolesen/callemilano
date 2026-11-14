@@ -226,6 +226,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-02
   confidence: medium
   notes: Owner answer in the session chat on 2026-11-02, recorded in docs/owner-decisions-2026-11-02.md. Owner's own local knowledge, not independently verified; agrees with spain.info, while the Diputación beach sheet does not list toilets.
+- field: energy_level
+  claim: 'Editor decision 2026-11-14 on editor list (2): energy_level = Low.'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
 - code: nudist_zone_unlocated
   severity: info
@@ -241,18 +249,10 @@ review_issues:
   description: '2026-11-02: the owner selected Dunas de Artola as a candidate; a separate Nature record (dunas-de-artola) was created and linked both ways as ''nearby''. Confirm the split at editorial review.'
   retryable: false
   owner: human_editor
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  - description_long
-  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
-  retryable: false
-  owner: human_editor
 created_at: '2026-10-29'
-updated_at: '2026-11-11'
+updated_at: '2026-11-14'
 last_verified: '2026-10-29'
-last_reviewed_at: null
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-04-14
 review_decision: null
 redirects: []

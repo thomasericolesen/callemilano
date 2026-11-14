@@ -1,5 +1,16 @@
 # Change log
 
+## 2026-11-14 - Editor list (2) answered and written in (owner decisions, list)
+
+Source: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1, answers read from collection `editorlist-2026-11-14b` (all 14 items decided). Written as the editor's own judgement with an evidence entry (date, link) per record; `last_reviewed_at` 2026-11-14. 42 records; no status changed.
+
+- **Closed `excursion_layer_scope`** on 15 places (the layer was decided on 2026-10-15).
+- **Closed `owner_has_not_visited`** on 13 bars; family feedback in the app replaces it.
+- **Bars (13):** age groups Young adults and Seniors; family_score small children low, children low, young adults high, seniors medium; energy Low. `audience_not_assessed` closed.
+- **Category, tags and audience (5):** values confirmed as shown, with changes: `baelo-claudia` tags + Historic town; `mercado-de-atarazanas` tags Rainy day and Free, age groups + Small children (0-6). Categories unchanged. Both review issues closed.
+- **Family ratings (5):** confirmed as shown, except `marbella-old-town` seniors medium -> high. `family_ratings_estimated` closed.
+- **Energy (4):** Low confirmed for `boliches-gaviotas`, `cabopino-artola`, `santa-ana-benalmadena` and `chiringuito-las-dunas-cabopino`.
+
 ## 2026-11-14 - Wheelchair "delvis" dropped (owner decision, chat)
 
 - Nobody in the family uses a wheelchair, so showing "Delvist egnet" in the app is not a priority. App PR thomasericolesen/callemilano-f388b2be#39 and export PR #113 are closed; the branches are kept. `partial` stays in the records and is exported as "ukendt" (not shown in the app).

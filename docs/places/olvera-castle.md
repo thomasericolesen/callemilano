@@ -167,21 +167,15 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-13
   confidence: medium
   notes: Resolves the source_conflict opened 2026-11-13; replaces the 2026-11-11 choice of the tourist-office hours.
+- field: category, tags, age_groups, family_score, energy_level
+  claim: 'Editor decision 2026-11-14 on editor list (2): age_groups = Children (7-12), Young adults; category = Family activities; energy_level = Medium; family_score.children = medium; family_score.seniors = low; family_score.small_children = low; family_score.young_adults = high; tags = Viewpoint, Historic town.'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: editorial_suitability_requires_human_review
-  severity: warning
-  fields: null
-  description: Audience ratings and effort level are editorial estimates requested for this draft; human editor must review them before approval.
-  retryable: false
-  owner: human_editor
-- code: category_and_tags_need_human_review
-  severity: warning
-  fields:
-  - category
-  - tags
-  description: Primary category and controlled tags are provisional intake recommendations; human editor-of-record must confirm before editorial advancement.
-  retryable: false
-  owner: human_editor
 - code: castle_price_unconfirmed
   severity: warning
   fields:
@@ -208,7 +202,7 @@ review_issues:
 created_at: '2026-10-04'
 updated_at: '2026-11-14'
 last_verified: 2026-10-30
-last_reviewed_at: null
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-02-14
 review_decision: null
 redirects: []
