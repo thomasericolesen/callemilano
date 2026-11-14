@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-14 - Vejer museum price (owner decision, chat)
+
+- `vejer-de-la-frontera`: the editor chose "check before visiting" for the Museo de Vejer price, since the official page shows both 2 and 4 EUR. `museum_price_ambiguous` closed; Danish text updated. Warnings on app places: 5.
+
 ## 2026-11-14 - The 21 warnings on app places worked through (level A; two items for the editor)
 
 Warnings on app places went from 21 to 6 (info notes 57 -> 64). Sources read with `source-reader` and Claude in Chrome.
