@@ -1370,20 +1370,20 @@
   "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
  },
  "GI-GIBRALTAR-001": {
-  "source_sha": "a4eef94c1ac4a7aa",
+  "source_sha": "73d81c6a2b732de9",
   "summary": "Gibraltar, britisk oversøisk territorium nået over landegrænsen fra La Línea, byder på berberaber og vid udsigt over strædet i Upper Rock Nature Reserve samt shopping på Main Street. Klippens kendte svævebane er lukket for renovering til mindst 2027.",
   "practical": [
    {
     "label": "Åbningstider",
-    "text": "Upper Rock Nature Reserve: 1. okt.-30. apr. åbner 9.00, sidste billetsalg 17.15, sidste indgang 17.45, lukker 18.15. 1. maj-30. sep. åbner 9.30, lukker 19.15. Ændringer kan forekomme. Svævebane: billetsiden viser \"Closed for refurbishment\" (datoen for meddelelsen er ukendt); normalt dagligt 10.00-16.00 ifølge samme side."
+    "text": "Upper Rock Nature Reserve: 1. okt.-30. apr. åbner 9.00, sidste billetsalg 17.15, sidste indgang 17.45, lukker 18.15. 1. maj-30. sep. åbner 9.30, lukker 19.15. Ændringer kan forekomme. Svævebane: lukket for en fuld renovering og ventes at åbne igen i 2027 (den officielle side for svævebanen, læst 14. november 2026); ingen dato oplyst."
    },
    {
     "label": "Pris",
     "text": "Upper Rock Nature Reserve: voksne (over 11 år) 30 GBP, børn 5-11 år 22 GBP, 0-4 år gratis. Svævebanen kan ikke bookes, mens den er markeret lukket."
    }
   ],
-  "translated_at": "2026-11-08",
-  "checked_by": "Claude (translator subagent); reviewed by Claude (main session)"
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-CANON-DE-LAS-ANGOSTURAS-001": {
   "source_sha": "44689c3fc8354e83",
@@ -1651,7 +1651,7 @@
   "checked_by": "Claude (main session)"
  },
  "ES-AND-MAL-SELWO-AVENTURA-001": {
-  "source_sha": "f28680f09ab9110e",
+  "source_sha": "6a00f823da60f30d",
   "summary": "En udendørs dyre- og eventyrpark i Estepona med broer, dyreområder og valgfrie guidede oplevelser.",
   "practical": [
    {
@@ -1660,7 +1660,7 @@
    },
    {
     "label": "Pris",
-    "text": "Den officielle side angiver almindelig adgang online fra 19,90 EUR og i billetlugen fra 29,90 EUR; dynamiske priser kan ændre sig."
+    "text": "Den officielle prisside: almindelig adgang (8-64 år) online fra 19,90 € og i billetlugen fra 29,90 €; nedsat pris (børn fra 1 meter eller 3 til 7 år, seniorer over 65 og storfamilier) online fra 15,90 € og i billetlugen fra 24,90 €; børn under 3 år og under 1 meter gratis. Priserne er dynamiske og kan ændre sig."
    }
   ],
   "translated_at": "2026-11-14",

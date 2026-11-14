@@ -81,9 +81,9 @@ visit_information:
   cost_basis: 'Entry to the reserve and the visitor centre is free. The shuttle from the lower car park costs EUR 3 return on days with restricted access. Guided visits for individuals (weekends, holidays) and groups are paid; current guided-route prices were not re-verified (earlier secondary figures: Ruta de los Ammonites about EUR 10-12.50, about 3 h).'
   cost_checked_at: 2026-10-29
 links:
-  official_website: https://torcaldeantequera.com/
+  official_website: null
   booking: mailto:reservas@torcaldeantequera.com
-  visitor_information: https://www.torcaldeantequera.com/informacion/como-visitar-el-torcal-de-antequera/
+  visitor_information: https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/
   transport: null
   contact: null
 related_places: []
@@ -165,16 +165,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
+- field: visit_information, cost_level
+  claim: 'Antequera municipal tourism (second source): "PARAJE NATURAL «EL TORCAL DE ANTEQUERA»" "Paraje Natural: Abierto todo el día" "Centro de visitantes: Lunes a domingo: 09:30h a 17:30h" "Visitas guiadas bajo petición en el teléfono: 952 24 33 24" "Entrada gratuita"'
+  source_url: https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/
+  source_type: official_tourism
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: high
+  notes: null
+- field: visit_information.schedule
+  claim: 'Park operator site: "Horario habitual (lunes a domingo): 09:30h a 17:00h". The same page also carries injected Italian spam text (Viagra/Cialis), read 2026-11-14.'
+  source_url: https://www.torcaldeantequera.com/
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: low
+  notes: Compromised page; kept only as the other side of the closing-time conflict.
 review_issues:
-- code: official_site_unreachable
-  severity: warning
-  fields:
-  - visit_information
-  - dog_friendly
-  - accessibility
-  description: 'Re-read 2026-10-29: torcaldeantequera.com now loads, but the home page contains injected spam text (it looks compromised) and its ''informacion-practica'' URL returns 404. Use the Antequera municipal tourism site as the main source and re-confirm visitor-centre hours (9:30-17:00 vs 9:30-17:30) and guided-tour prices before approval.'
-  retryable: true
-  owner: fact_check
 - code: overlap_antequera
   severity: warning
   fields:
@@ -190,6 +197,20 @@ review_issues:
   - toilets_available
   retryable: true
   description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: toilets_available. Values left unknown; check before visiting. Retry at the next freshness review.'
+- code: official_site_compromised
+  severity: warning
+  owner: fact_check
+  fields:
+  - links.official_website
+  retryable: true
+  description: On 2026-11-14 torcaldeantequera.com still showed injected spam (Viagra/Cialis) on its home page. The link was removed from the record so the app does not link to it; the Antequera municipal tourism page is used instead. Re-check later.
+- code: source_conflict
+  severity: warning
+  owner: editor
+  fields:
+  - visit_information.schedule
+  retryable: false
+  description: 'Visitor centre Torcal Alto closing time: 17:00 on the park operator site (compromised page) vs 17:30 on the Antequera municipal tourism page (both read 2026-11-14). For the editor.'
 created_at: 2026-10-15
 updated_at: '2026-11-14'
 last_verified: 2026-10-29
