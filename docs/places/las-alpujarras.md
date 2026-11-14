@@ -125,6 +125,14 @@ evidence:
   checked_by: fact-check-agent
   confidence: medium
   notes: OSRM public routing engine, driving profile; traffic and the mountain road's winding final stretch are not separately modelled.
+- field: review_issues
+  claim: 'Editor decision 2026-11-14 on editor list (2): close excursion_layer_scope; the excursion layer was decided by the owner on 2026-10-15 (AGENTS.md).'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
 - code: area_pin_open
   severity: info
@@ -133,13 +141,6 @@ review_issues:
   - municipality
   description: 'Resolved by editor decision 2026-10-15: Pampaneira is the anchor point, chosen over Capileira for broader appeal (lower, more accessible). Still open: whether Sierra Nevada (e.g. Mulhacén) should become its own separate record rather than being covered loosely under this region.'
   retryable: false
-  owner: editor
-- code: excursion_layer_scope
-  severity: warning
-  fields:
-  - status
-  description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
-  retryable: true
   owner: editor
 - code: not_found_after_two_attempts
   severity: info
@@ -156,7 +157,7 @@ review_issues:
 created_at: 2026-10-15
 updated_at: '2026-11-14'
 last_verified: 2026-10-15
-last_reviewed_at: 2026-10-15
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-01-15
 review_decision: null
 redirects: []

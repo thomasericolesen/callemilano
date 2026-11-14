@@ -27,12 +27,14 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-02 from the project origin (36.5356875, -4.6626875) to the Google Places coordinates (36.539166,-4.6234329999999995); departure Saturday 2026-11-07 10:00 Europe/Madrid, predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.539166%2C-4.6234329999999995&travelmode=driving
   checked_at: '2026-11-02'
   note: 'Routes API figure: 15 min, 6.55 km. Daytime sample; evening traffic differs.'
-age_groups: []
+age_groups:
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: low
+  children: low
+  young_adults: high
+  seniors: medium
 energy_level: Low
 seasonality: []
 accessibility:
@@ -131,23 +133,23 @@ evidence:
   confidence: medium
   notes: Own Instagram, read in Claude in Chrome 2026-11-13. The highlight is about 23 weeks old (around June 2026) and matches the current bio. No prices.
   checked_at: '2026-11-13'
+- field: review_issues
+  claim: 'Editor decision 2026-11-14 on editor list (2): close owner_has_not_visited; family feedback in the app replaces it (approval rule 2026-11-10).'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
+- field: age_groups, family_score, energy_level
+  claim: 'Editor decision 2026-11-14 on editor list (2), same values for all 13 bars: age_groups = Young adults, Seniors; energy_level = Low; family_score.children = low; family_score.seniors = medium; family_score.small_children = low; family_score.young_adults = high.'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: audience_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  description: Added for adults and seniors; age groups and scores are not assessed. energy_level Low is an editorial estimate.
-  retryable: true
-  owner: human_editor
-- code: owner_has_not_visited
-  severity: info
-  fields:
-  - description_long
-  description: The owner does not know this bar personally (2026-11-02). Consider a visit or more sources before recommending it.
-  retryable: true
-  owner: human_editor
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -156,9 +158,9 @@ review_issues:
   retryable: true
   description: 'Two source attempts (2026-11-13) found no official answer for: prices. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-02'
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: '2026-11-02'
-last_reviewed_at: null
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-02-14
 review_decision: null
 redirects: []

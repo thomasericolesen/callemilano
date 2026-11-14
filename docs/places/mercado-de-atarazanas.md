@@ -5,7 +5,9 @@ id: ES-AND-MAL-MERCADO-DE-ATARAZANAS-001
 slug: mercado-de-atarazanas
 name: Mercado de Atarazanas
 category: Excursions
-tags: []
+tags:
+- Rainy day
+- Free
 coordinates:
   latitude: 36.718434
   longitude: -4.424058
@@ -27,6 +29,7 @@ driving_time_from_casa_de_la_familia:
   checked_at: 2026-11-11
   note: 37.8 km via AP-7 (route has tolls). Replaces 37 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history.
 age_groups:
+- Small children (0-6)
 - Children (7-12)
 - Young adults
 - Seniors
@@ -134,21 +137,15 @@ evidence:
   confidence: high
   notes: Málaga City Council facility listing; reconfirms the recorded hours. Parking not given.
   checked_at: '2026-11-13'
+- field: category, tags, age_groups, family_score, energy_level
+  claim: 'Editor decision 2026-11-14 on editor list (2): age_groups = Small children (0-6), Children (7-12), Young adults, Seniors; category = Excursions; energy_level = Low; family_score.children = medium; family_score.seniors = medium; family_score.small_children = low; family_score.young_adults = high; tags = Rainy day, Free.'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: editorial_suitability_requires_human_review
-  severity: warning
-  fields: null
-  description: Audience ratings and effort level are editorial estimates requested for this draft; human editor must review them before approval.
-  retryable: false
-  owner: human_editor
-- code: category_and_tags_need_human_review
-  severity: warning
-  fields:
-  - category
-  - tags
-  description: Primary category and controlled tags are provisional intake recommendations; human editor-of-record must confirm before editorial advancement.
-  retryable: false
-  owner: human_editor
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -157,9 +154,9 @@ review_issues:
   retryable: true
   description: 'Two source attempts (2026-11-13) found no official answer for: parking. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-10-04'
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: null
-last_reviewed_at: null
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-02-14
 review_decision: null
 redirects: []

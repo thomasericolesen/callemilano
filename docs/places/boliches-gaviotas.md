@@ -278,15 +278,15 @@ evidence:
   confidence: high
   notes: Ayuntamiento de Fuengirola news item dated 12 August 2026 (2026 summer season). The 2026 end date was not found.
   checked_at: '2026-11-13'
+- field: energy_level
+  claim: 'Editor decision 2026-11-14 on editor list (2): energy_level = Low.'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: energy_level_editorial_estimate
-  severity: info
-  fields:
-  - energy_level
-  - description_long
-  description: The beach character label (Natural/Mixed/Developed) and energy_level Low are editorial estimates; confirm them at editorial review.
-  retryable: false
-  owner: human_editor
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -296,9 +296,9 @@ review_issues:
   retryable: true
   description: 'Two source attempts (2026-11-13) found no official answer for: the number of the accessible pergola in 2026 and the end date of the 2026 lifeguard season. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-10-29'
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: '2026-10-29'
-last_reviewed_at: null
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-04-14
 review_decision: null
 redirects: []

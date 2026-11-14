@@ -173,6 +173,14 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: Municipal tourism page; shows phone 956 13 40 04 only. No castle price, hours, parking, accessibility or dog information; the Ronda link is not confirmed. Differs from the two tourist-office numbers in the record schedule note (616 55 33 84, 622 43 58 15), which may be separate offices; not treated as a conflict and no field changed.
+- field: review_issues
+  claim: 'Editor decision 2026-11-14 on editor list (2): close excursion_layer_scope; the excursion layer was decided by the owner on 2026-10-15 (AGENTS.md).'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
 - code: overlap_ronda
   severity: warning
@@ -181,13 +189,6 @@ review_issues:
   description: Usually combined with Ronda (docs/places/ronda.md). Add related_places link after both records confirm identity; the Setenil-Ronda driving leg has not itself been route-checked.
   retryable: true
   owner: editorial
-- code: excursion_layer_scope
-  severity: warning
-  fields:
-  - status
-  description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
-  retryable: true
-  owner: editor
 - code: owner_supplied_additions_unverified
   severity: info
   fields:
@@ -217,7 +218,7 @@ review_issues:
 created_at: 2026-10-15
 updated_at: '2026-11-14'
 last_verified: 2026-10-30
-last_reviewed_at: 2026-10-15
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-04-15
 review_decision: null
 redirects: []

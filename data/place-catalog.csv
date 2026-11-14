@@ -149,7 +149,7 @@ ES-AND-MAL-TABERNA-CASA-BLANCA-BANUS-001,taberna-casa-blanca-banus,Taberna Casa 
 ES-AND-MAL-PUERTO-BANUS-001,puerto-banus,Puerto Banús,approved,Excursions,Restaurant; Historic town; Half day; Free,Marbella,Málaga,36.486008500000004,-4.954475599999999,26.7,yes,38 min,docs/places/puerto-banus.md
 ES-AND-MAL-TOLOX-001,tolox,Tolox,needs_editorial_review,Excursions,Historic town; Nature; Half day,Tolox,Málaga,36.6850627,-4.9114074,27.7,yes,56 min,docs/places/tolox.md
 ES-AND-MAL-SOLO-BEACH-MARBELLA-001,solo-beach-marbella,Solo Beach Marbella,approved,Restaurants,Beach; Restaurant; Full day; Premium,Marbella,Málaga,36.4754104,-4.9822923999999995,29.3,yes,40 min,docs/places/solo-beach-marbella.md
-ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,mercado-de-atarazanas,Mercado de Atarazanas,needs_editorial_review,Excursions,,Málaga,Málaga,36.718434,-4.424058,29.4,yes,42 min,docs/places/mercado-de-atarazanas.md
+ES-AND-MAL-MERCADO-DE-ATARAZANAS-001,mercado-de-atarazanas,Mercado de Atarazanas,needs_editorial_review,Excursions,Rainy day; Free,Málaga,Málaga,36.718434,-4.424058,29.4,yes,42 min,docs/places/mercado-de-atarazanas.md
 ES-AND-MAL-PLAYA-DE-SAN-PEDRO-ALCANTARA-001,playa-de-san-pedro-alcantara,Playa de San Pedro de Alcántara,approved,Beaches,Beach,Marbella,Málaga,36.472585699999996,-4.9862369,29.8,yes,41 min,docs/places/playa-de-san-pedro-alcantara.md
 ES-AND-MAL-RESTAURANTE-CASA-FERNANDO-SAN-PEDRO-001,restaurante-casa-fernando-san-pedro,Restaurante Casa Fernando (San Pedro),approved,Restaurants,Restaurant; Rainy day; Full day; Premium,Marbella,Málaga,36.476132199999995,-4.9879999999999995,29.8,yes,40 min,docs/places/restaurante-casa-fernando-san-pedro.md
 ES-AND-MAL-SAN-PEDRO-ALCANTARA-001,san-pedro-alcantara,San Pedro Alcántara,approved,City,Historic town; Half day; Free,Marbella,Málaga,36.4820717,-4.9888911,29.8,yes,39 min,docs/places/san-pedro-alcantara.md
@@ -190,7 +190,7 @@ ES-AND-MAL-NERJA-001,nerja,Nerja,needs_editorial_review,City,Beach; Historic tow
 ES-AND-MAL-FRIGILIANA-001,frigiliana,Frigiliana,needs_editorial_review,City,Historic town; Viewpoint; Half day,Frigiliana,Málaga,36.7908751,-3.8947061,74.1,no,75 min,docs/places/frigiliana.md
 GI-GIBRALTAR-001,gibraltar,Gibraltar,needs_editorial_review,City,Nature; Viewpoint; Historic town; Full day,Gibraltar,Gibraltar,36.1452525,-5.3527764,75.5,no,100 min,docs/places/gibraltar.md
 ES-AND-CAD-TARIFA-001,tarifa,Tarifa,needs_editorial_review,City,Beach; Restaurant; Full day,Tarifa,Cádiz,36.0116776,-5.6028099,102.5,no,110 min,docs/places/tarifa.md
-ES-AND-CAD-BAELO-CLAUDIA-001,baelo-claudia,Baelo Claudia,needs_editorial_review,Family activities,Museum,Tarifa,Cádiz,36.088226,-5.7718134,111.1,no,142 min,docs/places/baelo-claudia.md
+ES-AND-CAD-BAELO-CLAUDIA-001,baelo-claudia,Baelo Claudia,needs_editorial_review,Family activities,Historic town; Museum,Tarifa,Cádiz,36.088226,-5.7718134,111.1,no,142 min,docs/places/baelo-claudia.md
 ES-AND-CAD-DUNA-DE-BOLONIA-001,duna-de-bolonia,Duna de Bolonia,needs_editorial_review,Beaches,Beach; Nature; Hiking,Tarifa,Cádiz,36.0888157,-5.7873891,112.4,no,146 min,docs/places/duna-de-bolonia.md
 ES-AND-GRA-GRANADA-001,granada,Granada,needs_editorial_review,City,Historic town; Museum; Restaurant; Full day,Granada,Granada,37.1760548,-3.5881101,119.2,no,110 min,docs/places/granada.md
 ES-AND-CAD-VEJER-DE-LA-FRONTERA-001,vejer-de-la-frontera,Vejer de la Frontera,needs_editorial_review,City,Historic town; Viewpoint; Restaurant; Overnight,Vejer de la Frontera,Cádiz,36.2527948,-5.9635372,120.6,no,140 min,docs/places/vejer-de-la-frontera.md

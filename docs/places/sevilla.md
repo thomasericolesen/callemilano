@@ -165,14 +165,15 @@ evidence:
   confidence: high
   notes: Cathedral accessibility page. Applies to the cathedral only.
   checked_at: '2026-11-13'
+- field: review_issues
+  claim: 'Editor decision 2026-11-14 on editor list (2): close excursion_layer_scope; the excursion layer was decided by the owner on 2026-10-15 (AGENTS.md).'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: excursion_layer_scope
-  severity: warning
-  fields:
-  - status
-  description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
-  retryable: true
-  owner: editor
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -186,9 +187,9 @@ review_issues:
   retryable: true
   description: 'Two source attempts (2026-11-13) found no official answer for: city-wide visitor facilities, parking, toilets and dog rules (only the cathedral''s free wheelchair service is confirmed). Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
-last_reviewed_at: 2026-10-15
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-04-15
 review_decision: null
 redirects: []

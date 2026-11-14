@@ -174,17 +174,15 @@ evidence:
   checked_by: claude-code-agent (Firecrawl PDF read)
   confidence: high
   notes: Core experience (walk, bridge viewpoint) is free; paid sights are optional. Tier EUR is an estimate of the core day.
+- field: tags, age_groups, family_score, energy_level
+  claim: 'Editor decision 2026-11-14 on editor list (2): age_groups = Small children (0-6), Children (7-12), Young adults, Seniors; energy_level = Medium; family_score.children = high; family_score.seniors = medium; family_score.small_children = medium; family_score.young_adults = high; tags = Historic town, Viewpoint, Nature, Full day.'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: family_ratings_estimated
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  - tags.Full day
-  description: Audience ratings, energy, and visit-duration tag are provisional editorial estimates for a town visit involving walking; check route demands, typical visit time, and suitability before approval.
-  retryable: true
-  owner: editorial
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -200,7 +198,7 @@ review_issues:
 created_at: 2026-10-03
 updated_at: '2026-11-14'
 last_verified: 2026-10-30
-last_reviewed_at: null
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-02-14
 review_decision: null
 redirects: []

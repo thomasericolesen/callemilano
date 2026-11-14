@@ -180,6 +180,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-13
   confidence: medium
   notes: Resolves the source_conflict opened 2026-11-13; the earlier 607 684 871 is not used.
+- field: review_issues
+  claim: 'Editor decision 2026-11-14 on editor list (2): close excursion_layer_scope; the excursion layer was decided by the owner on 2026-10-15 (AGENTS.md).'
+  source_url: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1
+  source_type: secondary
+  checked_at: '2026-11-14'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
 - code: overlap_bolonia
   severity: warning
@@ -188,13 +196,6 @@ review_issues:
   description: Neighbours Duna de Bolonia and Baelo Claudia (both already in docs/places/); link via related_places after fact check.
   retryable: true
   owner: editorial
-- code: excursion_layer_scope
-  severity: warning
-  fields:
-  - status
-  description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
-  retryable: true
-  owner: editor
 - code: castle_hours_source_dated
   severity: warning
   fields:
@@ -218,7 +219,7 @@ review_issues:
 created_at: 2026-10-15
 updated_at: '2026-11-14'
 last_verified: 2026-10-30
-last_reviewed_at: 2026-10-15
+last_reviewed_at: '2026-11-14'
 next_review_at: 2027-01-15
 review_decision: null
 redirects: []
