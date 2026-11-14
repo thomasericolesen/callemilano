@@ -14,11 +14,11 @@ CalleMilano er en familierejseguide til gæster på Casa de la Familia (Las Lagu
 
 ## Hvad der findes
 
-- **Stedposter:** 220 i `docs/places/` (skema 1.0.0). Status: 104 `approved`, 55 `needs_editorial_review`, 14 `needs_fact_check` (arkiv, uden for appen), 8 `draft`, 39 `archived`. Efter godkendelsesreglen fra 10. november tæller `needs_editorial_review` som godkendt til appen og turforslag; `approved` bruges ikke længere som trin, men eksisterende poster er uændrede.
+- **Stedposter:** 220 i `docs/places/` (skema 1.0.0). Status: 104 `approved`, 52 `needs_editorial_review`, 15 `needs_fact_check` (14 arkiv uden for appen, plus `canon-de-las-angosturas` i appen), 2 `draft`, 47 `archived`. Efter godkendelsesreglen fra 10. november tæller `needs_editorial_review` som godkendt til appen og turforslag; `approved` bruges ikke længere som trin, men eksisterende poster er uændrede.
 - **Kategorier:** 92 Restaurants, 39 Family activities, 33 City, 21 Beaches, 19 Nature, 16 Excursions.
 - **Validering:** `python3 tools/places.py validate` giver 0 fejl og 26 advarsler (mest manglende koordinater på arkivposter). Alle tests består (`python3 -m unittest discover -s tests`).
 - **Lagmedlemskab:** 69 steder i `data/layer-membership.csv`, alle i `excursions_4h` (46 `Tæt på`, 16 `Dagsture`, 7 `Længere væk`).
-- **Appen (callemilano.dk):** 158 steder, 134 med dansk tekst. Eksporteres med `tools/app_export.py` til `data/app-export/`, senest 11. november og importeret samme aften. Appens kode ligger i `~/code/callemilano-app`.
+- **Appen (callemilano.dk):** 156 steder, alle med dansk tekst fra `data/app-texts-da.json`. Eksporteres med `tools/app_export.py` til `data/app-export/`, senest 14. november og importeret samme dag. Arkiverede steder fjernes ikke af importen; deres app-række skjules med guide-status `archived`. Appens kode ligger i `~/code/callemilano-app`.
 - **Restauranter:** fulde stedposter. `data/restaurant-directory.csv` (26 rækker) er kun en emneliste: 22 `konverteret`, 4 `fravalgt`.
 - **Værktøjer** (`tools/`): `places.py` (validering og katalog), `intake.py` (indsamling), `app_export.py`, `route_check.py` (ikke kørt), `trip.py` med moduler (`trip_core`, `trip_weather`, `trip_traffic`, `trip_restaurants`, `trip_plan`, `trip_render`) og fælles `common.py`.
 - **Agenter og færdigheder:** `.claude/agents/` har Alpha (åbningstider), Charlie (restauranter), Ecco (turforslag), `candidate-screener`, `source-reader` og `record-writer`. `.claude/skills/` har `aabningstider`, `restaurant-indsamling` og `turforslag`.
@@ -32,14 +32,14 @@ Redaktørarbejdsgangen (ejerbeslutning 11. november) er i `AGENTS.md` og `docs/m
 
 ## Åbent
 
-1. **8 kladder** venter på nyt kildeforsøg og derefter redaktørlisten: `castillo-de-monda`, `canon-de-las-angosturas`, `moga-la-cala`, `sky-bar-veramar`, `paseo-maritimo-marbella`, `rio-grande-coin`, `senda-litoral-malaga-oeste`, `sould-park-fuengirola`.
-2. **Åbne warnings (107) og info (40) på app-steder** er niveau A: prøv kilden to gange, luk derefter som "ikke fundet". Konflikter og `blocking` går til redaktøren og lukkes aldrig i bulk.
-3. **Friskhedsjobbet** (månedligt) er ikke sat op. 37 app-steder mangler `next_review_at`; første reelle tjek er omkring februar 2027. Jobbet skal også minde om tokenets udløb. Hold det billigt: script først, AI kun ved ændrede sider.
+1. **2 kladder** venter på et nyt forsøg i Chrome: `castillo-de-monda` (ingen tider eller priser for gæster udefra) og `paseo-maritimo-marbella` (den rette side hos Turismo Marbella er ikke fundet).
+2. **Åbne warnings (84) og info (52) på app-steder.** Fakta-delen er niveau A (prøv kilden to gange, luk derefter som "ikke fundet"): mest `visitor_facilities_unverified` (19). Resten er redaktionelle (målgruppe, familievurderinger, tags, lagets omfang) og går på en tjekliste til redaktøren. Konflikter og `blocking` lukkes aldrig i bulk.
+3. **Friskhedsjobbet** (månedligt) er ikke sat op. 35 app-steder mangler `next_review_at`; første reelle tjek er omkring februar 2027. Jobbet skal også minde om tokenets udløb. Hold det billigt: script først, AI kun ved ændrede sider.
 4. **`route_check.py`** er ikke kørt; det kræver en `GOOGLE_MAPS_API_KEY` på Mac'en.
 5. **Menu og pris** mangler for Venta La Morena, Mesón Salvador og Vegetalia.
 6. **Udskudt:** om appen skal vise `approved` anderledes end `needs_editorial_review`.
-7. **Merge-tilladelsen** (`gh pr merge`) virker; afprøvet 13. november (PR #99-#101).
-8. **Senere (ejerens ønske 13. november):** når appen bliver en "rigtig" app og ikke kun en side i browseren, skal den logge ud af sig selv efter nogle minutter uden brug. Det er en ændring i login og venter på ejerens merge. Indtil da forbliver "Log ud" som nu (logger ud på alle enheder).
+7. **Senere (ejerens ønske 13. november):** når appen bliver en "rigtig" app og ikke kun en side i browseren, skal den logge ud af sig selv efter nogle minutter uden brug. Det er en ændring i login og venter på ejerens merge. Indtil da forbliver "Log ud" som nu (logger ud på alle enheder).
+8. **Appens import beholder gamle danske tekster**, når repoet kun sender engelsk (`mergeGuide` i app-repoet). Lige nu har alle app-steder dansk tekst i repoet, så det har ingen virkning. Et nyt sted skal derfor have dansk tekst i `data/app-texts-da.json`, før det importeres.
 
 ## Næste skridt
 
