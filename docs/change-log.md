@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-14 - App: "Log ud" logs out this device only (owner decision, chat)
+
+- The editor chose that "Log ud" logs out only the device in use; other phones stay logged in. Until now the button logged out all devices (Supabase scope `global`), which is why Chrome was logged out when the owner pressed "Log ud" on the iPhone. App PR #44 also makes logout work offline (button and the 30-day logout), which it did not before. The rule is in the app repo's `AGENTS.md`.
+- Offline web app, same day: app PRs #40 (offline layer), #41 (install guide on, after the owner confirmed Google login in the iPhone home-screen app), #42 (saved pages vanished at once: `gcTime` of 30 days overflowed the browser timer) and #43 (login and offline page code saved; Google login offline no longer shows 404) are merged and published.
+
 ## 2026-11-14 - Vejer museum price (owner decision, chat)
 
 - `vejer-de-la-frontera`: the editor chose "check before visiting" for the Museo de Vejer price, since the official page shows both 2 and 4 EUR. `museum_price_ambiguous` closed; Danish text updated. Warnings on app places: 5.
