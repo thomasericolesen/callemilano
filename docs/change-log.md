@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-14 - Editor list of 14 November published (level A; the decisions are the editor's)
+
+- Private list: https://claude.ai/artifact/AFi2EGnFQEcEM7zUjt6m7y (answers stored in the page's collection `editorlist-2026-11-14`). 3 archiving proposals for bars that are in the app but show no activity in 2026 after two source attempts: `nautic-bar-fuengirola` (last own post August 2023), `mon-2-sun` (December 2024) and `retrock-bart` (December 2025). Recommendation preselected: archive all three; the alternatives are keep and retry (a call, visit or message) or ask the family.
+- Nothing is changed in the records until the editor has answered.
+
 ## 2026-11-14 - Danish texts for the remaining 22 app places (level A)
 
 - The 22 app places that had no Danish text in the repository (so the app kept older Danish texts written in the app) now have Danish texts in `data/app-texts-da.json`, translated from the current English summary, hours and prices. Facts are unchanged; owner choices and source caveats are kept in the text. All 159 app places now take their Danish text from the repository (159 Danish, none stale), so a later change in hours or prices makes the text stale in the export instead of being hidden by an old app text.
