@@ -199,7 +199,7 @@ Negative feedback (closed, wrong price, wrong hours): Claude fixes it from a sou
 
 ### Freshness
 
-`next_review_at` follows volatility (hours, prices and access shorter than name and location); five months is the default for fact-checked places. Monthly, Claude sets overdue places back to `needs_fact_check` and reads the official sources again. Only conflicts go to the editor.
+`next_review_at` follows volatility (hours, prices and access shorter than name and location); five months is the default for fact-checked places. Monthly, Claude sets overdue places back to `needs_fact_check` and reads the official sources again. Only conflicts go to the editor. The check is `python3 tools/freshness.py` (`--apply` sets overdue places back); a local scheduled task `callemilano-friskhed` runs it on the 1st of each month and also warns 30 days before the import token expires.
 
 ### Recording decisions
 

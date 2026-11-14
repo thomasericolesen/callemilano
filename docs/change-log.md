@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-14 - Freshness job, wheelchair "delvis" and editor list (2) (level A; the list's decisions are the editor's)
+
+- **Freshness job:** new `tools/freshness.py` (tests in `tests/test_freshness.py`) lists overdue places, places without `next_review_at` and days until the import token expires; `--apply` sets overdue fact-checked places back to `needs_fact_check` with a `review_overdue` warning. A local scheduled task (`callemilano-friskhed`, 09:00 on the 1st of each month, on the owner's Mac while the Claude app is open) runs it and then follows the freshness procedure in `docs/multi-agent-workflow.md`.
+- **Wheelchair:** records with `wheelchair_route`/`wheelchair_friendly` `partial` were exported as "ukendt". App PR thomasericolesen/callemilano-f388b2be#39 adds "delvis" ("Delvist egnet"); export PR #113 sends it. #113 is merged and imported only after the owner has published #39.
+- **Editor list (2):** https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1 (collection `editorlist-2026-11-14b`), 14 items: close `excursion_layer_scope` on 15 places (decided 2026-10-15), close `owner_has_not_visited` on 13 bars, audience values for the bars, and category/tags/audience/scores/energy for 14 places. Nothing changes until answered.
+
 ## 2026-11-14 - Ronda `cost_level` from the official timetable PDF (level A)
 
 - `ronda`: `cost_level` set to EUR from the Ronda tourist office PDF of 1 October 2026 (read with Firecrawl; the PDF is image-only for other tools): Puente Nuevo interpretation centre 2.50 EUR, baths 4.50 EUR, gorge 12 EUR. The bridge and old town are free. `cost_level` removed from the `not_found_after_two_attempts` issue.
