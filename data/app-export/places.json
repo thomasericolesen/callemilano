@@ -3461,7 +3461,7 @@
     ],
     "cost_level": "lav",
     "booking_required": false,
-    "wheelchair": "ukendt",
+    "wheelchair": "delvis",
     "summary": "Et slående karstlandskab af vindslebne kalkstenssøjler ved Antequera med gratis afmærkede stier og betalte guidede ruter; ca. 1 time og 25 minutters kørsel fra Casa de la Familia.",
     "practical": [
      {
@@ -4417,7 +4417,7 @@
     ],
     "cost_level": "middel",
     "booking_required": true,
-    "wheelchair": "ukendt",
+    "wheelchair": "delvis",
     "summary": "Granadas Alhambra hører med til dette sted efter ejerens beslutning: et palads- og fæstningsanlæg, der kræver billetter med fast tidspunkt bestilt på forhånd (de frigives ofte måneder før og bliver tit udsolgt), samt den gamle bydel og Albaicín. Ca. 1 time og 50 minutters kørsel fra Casa de la Familia (Google Maps' hovedtal).",
     "practical": [
      {
@@ -10264,7 +10264,7 @@
     ],
     "cost_level": "middel",
     "booking_required": false,
-    "wheelchair": "ukendt",
+    "wheelchair": "delvis",
     "summary": "En udendørs dyre- og eventyrpark i Estepona med broer, dyreområder og valgfrie guidede oplevelser.",
     "practical": [
      {

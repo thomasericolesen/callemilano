@@ -63,7 +63,7 @@ def yes_no(v):
 def wheelchair(d: dict) -> str:
     v = (((d.get("accessibility") or {}).get("mobility") or {}).get("wheelchair_route"))
     v = v if v not in (None, "unknown") else d.get("wheelchair_friendly")
-    return {"yes": "ja", True: "ja", "no": "nej", False: "nej"}.get(v, "ukendt")
+    return {"yes": "ja", True: "ja", "partial": "delvis", "no": "nej", False: "nej"}.get(v, "ukendt")
 
 
 def covers_schedule(e: dict) -> bool:
