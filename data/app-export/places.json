@@ -3,10 +3,10 @@
   "generated": "2026-11-14",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
-  "places": 159,
+  "places": 156,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 159,
+  "danish": 156,
   "danish_stale": []
  },
  "records": [
@@ -7601,68 +7601,6 @@
    }
   },
   {
-   "id": "ES-AND-MAL-MON-2-SUN-001",
-   "slug": "mon-2-sun",
-   "name": "Mon 2 Sun",
-   "category": "restaurant",
-   "record_category": "Restaurants",
-   "record_status": "needs_editorial_review",
-   "approved": false,
-   "municipality": "Mijas",
-   "lat": 36.549895,
-   "lng": -4.676453899999999,
-   "google_maps_url": "https://maps.google.com/?cid=8743365066653597183",
-   "google_place_id": "ChIJrx1BBLDhcg0R_31yKzSsVnk",
-   "url": null,
-   "tags": [],
-   "description": "Mon 2 Sun (Mon2sun) is a bar at La Hacienda, Mijas Golf, Camino Viejo de Coín, Mijas, Málaga. From Casa de la Familia it is about 8 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02) calls it 'the friendly family/community bar', with outdoor seating and a price range listed as cheap; photos show social evenings such as a Christmas party with singing. The latest visible post is from December 2024 and its website mon2sun.es no longer exists, so current opening, hours and prices are not confirmed. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.",
-   "catalogue_group": null,
-   "guide": {
-    "source": "thomasericolesen/callemilano",
-    "status": "needs_editorial_review",
-    "layer": "lokal",
-    "drive_minutes": 8,
-    "distance_km": null,
-    "duration": null,
-    "age_groups": [],
-    "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
-    },
-    "energy": "lav",
-    "seasons": [],
-    "themes": [],
-    "cost_level": null,
-    "booking_required": null,
-    "wheelchair": "ukendt",
-    "summary": "Mon 2 Sun: hyggelig bar for lokalsamfundet ved La Hacienda Mijas Golf, ca. 8 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
-    "links": {
-     "official": null,
-     "booking": null,
-     "info": null
-    },
-    "checked_at": "2026-11-13",
-    "text_language": "da",
-    "trip": {
-     "record_category": "Restaurants",
-     "municipality": "Mijas",
-     "schedule": null,
-     "schedule_checked_at": "2026-11-13",
-     "valid_until": null,
-     "needs_fixed_hours": false,
-     "rainy_day": false,
-     "is_bar": true,
-     "phone": null,
-     "booking_lead_time": null,
-     "typical_duration": null,
-     "updated_at": "2026-11-13"
-    }
-   }
-  },
-  {
    "id": "ES-AND-MAL-MONDA-001",
    "slug": "monda",
    "name": "Monda",
@@ -7970,68 +7908,6 @@
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-11"
-    }
-   }
-  },
-  {
-   "id": "ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001",
-   "slug": "nautic-bar-fuengirola",
-   "name": "Nautic Cocktail & Drinks",
-   "category": "restaurant",
-   "record_category": "Restaurants",
-   "record_status": "needs_editorial_review",
-   "approved": false,
-   "municipality": "Fuengirola",
-   "lat": 36.5384019,
-   "lng": -4.623798799999999,
-   "google_maps_url": "https://maps.google.com/?cid=16319201940912047272",
-   "google_place_id": "ChIJQ22qOmvicg0RqITt0bNzeeI",
-   "url": null,
-   "tags": [],
-   "description": "Nautic Cocktail & Drinks (listed on Google as Nautic Bar) is a cocktail bar at C. Alemania, 8, 29640 Fuengirola, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02) describes a bar specialising in gin with a wide range of premium spirits; its logo reads 'Food & Drink - cocktails bar & restaurant'. The page lists its price range as 'moderate' and phone +34 952 47 83 11. The latest visible post is from August 2023, and the linked website no longer exists, so current opening, hours and prices are not confirmed. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.",
-   "catalogue_group": null,
-   "guide": {
-    "source": "thomasericolesen/callemilano",
-    "status": "needs_editorial_review",
-    "layer": "lokal",
-    "drive_minutes": 14,
-    "distance_km": null,
-    "duration": null,
-    "age_groups": [],
-    "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
-    },
-    "energy": "lav",
-    "seasons": [],
-    "themes": [],
-    "cost_level": null,
-    "booking_required": null,
-    "wheelchair": "ukendt",
-    "summary": "Nautic Cocktail & Drinks: gin- og cocktailbar i det centrale Fuengirola, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
-    "links": {
-     "official": null,
-     "booking": null,
-     "info": null
-    },
-    "checked_at": "2026-11-13",
-    "text_language": "da",
-    "trip": {
-     "record_category": "Restaurants",
-     "municipality": "Fuengirola",
-     "schedule": null,
-     "schedule_checked_at": "2026-11-13",
-     "valid_until": null,
-     "needs_fixed_hours": false,
-     "rainy_day": false,
-     "is_bar": true,
-     "phone": null,
-     "booking_lead_time": null,
-     "typical_duration": null,
-     "updated_at": "2026-11-13"
     }
    }
   },
@@ -9943,68 +9819,6 @@
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-11"
-    }
-   }
-  },
-  {
-   "id": "ES-AND-MAL-RETROCK-BART-001",
-   "slug": "retrock-bart",
-   "name": "RetROCK BARt",
-   "category": "restaurant",
-   "record_category": "Restaurants",
-   "record_status": "needs_editorial_review",
-   "approved": false,
-   "municipality": "Mijas",
-   "lat": 36.500899,
-   "lng": -4.684403,
-   "google_maps_url": "https://maps.google.com/?cid=15889588323336428459",
-   "google_place_id": "ChIJf5Q3hTQecw0Rq5upt2Qog9w",
-   "url": null,
-   "tags": [],
-   "description": "RetROCK BARt is a rock bar at Paseo Costa del Sol 10, 29649 La Cala de Mijas, Málaga. From Casa de la Familia it is about 14 minutes by car, taxi or Uber (Google route check, Saturday 10:00; evening traffic differs). Its own Facebook page (checked 2026-11-02) lists it as a bar in the 'cheap' price range, and one of its images says dogs are welcome if well-behaved and on a lead. The latest visible post is from 9 December 2025 (closed 10-25 December 2025, reopening 26 December at 18:00), so current opening is not confirmed; regular hours were not given. Check with the venue before visiting. If you plan to drink, take a taxi or Uber both ways. As in any bar, keep an eye on your drink.",
-   "catalogue_group": null,
-   "guide": {
-    "source": "thomasericolesen/callemilano",
-    "status": "needs_editorial_review",
-    "layer": "lokal",
-    "drive_minutes": 14,
-    "distance_km": null,
-    "duration": null,
-    "age_groups": [],
-    "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
-    },
-    "energy": "lav",
-    "seasons": [],
-    "themes": [],
-    "cost_level": null,
-    "booking_required": null,
-    "wheelchair": "ukendt",
-    "summary": "RetROCK BARt: rockbar i La Cala de Mijas, ca. 14 min i bil, taxa eller Uber fra Casa de la Familia.",
-    "practical": [],
-    "links": {
-     "official": null,
-     "booking": null,
-     "info": null
-    },
-    "checked_at": "2026-11-13",
-    "text_language": "da",
-    "trip": {
-     "record_category": "Restaurants",
-     "municipality": "Mijas",
-     "schedule": null,
-     "schedule_checked_at": "2026-11-13",
-     "valid_until": null,
-     "needs_fixed_hours": false,
-     "rainy_day": false,
-     "is_bar": true,
-     "phone": null,
-     "booking_lead_time": null,
-     "typical_duration": null,
-     "updated_at": "2026-11-13"
     }
    }
   },

@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: needs_editorial_review
+status: archived
 id: ES-AND-MAL-NAUTIC-BAR-FUENGIROLA-001
 slug: nautic-bar-fuengirola
 name: Nautic Cocktail & Drinks
@@ -156,10 +156,14 @@ review_issues:
   retryable: false
   description: 'Second source attempt 2026-11-13: no own post since 4 August 2023 (gruponautic.es redirects to Facebook). Activity in 2026 is not confirmed. Proposed for the next editor list (archive or keep).'
 created_at: '2026-11-02'
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: '2026-11-02'
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-14'
+  notes: 'Owner decision 2026-11-14 on the editor list (https://claude.ai/artifact/AFi2EGnFQEcEM7zUjt6m7y): archive (last own post August 2023, website gone; activity in 2026 not confirmed after two source attempts; the editor does not know the bar); we already have enough places. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

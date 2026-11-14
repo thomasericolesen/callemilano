@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-14 - Editor list of 14 November answered: three bars archived (owner decisions, list)
+
+Source: https://claude.ai/artifact/AFi2EGnFQEcEM7zUjt6m7y, answers read from collection `editorlist-2026-11-14`.
+
+- **Archived** (`archived` with `review_decision`, date 2026-11-14): `nautic-bar-fuengirola`, `mon-2-sun` and `retrock-bart`. No activity in 2026 after two source attempts; the editor does not know the bars. Names and slugs unchanged; the IDs stay allocated.
+- **App:** the export now holds 156 places (156 Danish, none stale). The import does not remove places that leave the export, so the three app rows are hidden as before (as on 2026-11-08 for Los Caños de Meca, Aracena and Palmeral): guide status set to `archived` in `public.recommendations`; the rows are kept.
+- My note on the editor list that the bars would disappear from the app at the next import was not correct on its own; the hiding step above is what removes them.
+
 ## 2026-11-14 - Editor list of 14 November published (level A; the decisions are the editor's)
 
 - Private list: https://claude.ai/artifact/AFi2EGnFQEcEM7zUjt6m7y (answers stored in the page's collection `editorlist-2026-11-14`). 3 archiving proposals for bars that are in the app but show no activity in 2026 after two source attempts: `nautic-bar-fuengirola` (last own post August 2023), `mon-2-sun` (December 2024) and `retrock-bart` (December 2025). Recommendation preselected: archive all three; the alternatives are keep and retry (a call, visit or message) or ask the family.
