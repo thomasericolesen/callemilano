@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-14 - El Torcal visitor-centre closing time (owner decision, chat)
+
+- `el-torcal-de-antequera`: the editor chose the Antequera municipal tourism site's hours, 09:30-17:30, over the 17:00 on the park operator's compromised site. Written as the editor's decision with evidence; `source_conflict` closed; Danish text updated.
+
 ## 2026-11-14 - App still linked to El Torcal's compromised site (level A)
 
 - After the import the app row for `el-torcal-de-antequera` still had `links.official` and `url` = torcaldeantequera.com: the import keeps the old value when the export sends `null` (`nl[k] ?? ol[k]`). Both were set to null directly in `public.recommendations`. A check of the 44 exported places without an official link found no other row with a leftover link. The procedure is noted under "Praktisk" in the status file.
