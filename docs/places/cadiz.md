@@ -158,6 +158,14 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: Menu label only. No hours or prices printed; tower/audio guide EUR 7 not confirmed.
+- field: booking_required
+  claim: Cathedral homepage menu item "Entradas online"; booking requirement not stated.
+  source_url: https://catedraldecadiz.com/
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (second source attempt)
+  confidence: low
+  notes: null
 review_issues:
 - code: excursion_layer_scope
   severity: warning
@@ -166,8 +174,16 @@ review_issues:
   description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
   retryable: true
   owner: editor
-- code: visitor_facilities_unverified
-  severity: warning
+- code: tower_fee_wording_ambiguous
+  severity: info
+  fields:
+  - visit_information.cost_basis
+  description: 'Tower museum and audio guide EUR 7: the page wording is merged with the residents'' line.'
+  retryable: true
+  owner: fact_check
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - accessibility
   - wheelchair_friendly
@@ -176,18 +192,10 @@ review_issues:
   - toilets_available
   - food_available
   - booking_required
-  description: Visitor facilities, access, parking and booking remain unverified for the cathedral.
   retryable: true
-  owner: fact_check
-- code: tower_fee_wording_ambiguous
-  severity: info
-  fields:
-  - visit_information.cost_basis
-  description: 'Tower museum and audio guide EUR 7: the page wording is merged with the residents'' line.'
-  retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available, booking_required. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-15

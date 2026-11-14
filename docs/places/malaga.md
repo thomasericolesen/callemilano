@@ -24,12 +24,12 @@ province: Málaga
 autonomous_community: Andalusia
 country: Spain
 driving_time_from_casa_de_la_familia:
-  duration: "48 min"
+  duration: 48 min
   origin: Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain
   destination: Alcazaba de Málaga, Centro, Málaga, Spain (the cathedral is close by)
-  source: "Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.7201788%2C-4.4194052&travelmode=driving"
+  source: Google Maps (web), main figure (fastest route shown, toll roads not avoided), read by Claude in Chrome on 2026-11-11 from the project origin (36.5356875,-4.6626875); live traffic about 09:51 Wednesday 2026-11-11 - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.7201788%2C-4.4194052&travelmode=driving
   checked_at: 2026-11-11
-  note: "40.4 km via AP-7 (route has tolls). Replaces 45 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history."
+  note: 40.4 km via AP-7 (route has tolls). Replaces 45 min from the earlier check of 2026-11-01 (Routes API); its method is in the git history.
 age_groups:
 - Small children (0-6)
 - Children (7-12)
@@ -208,18 +208,6 @@ evidence:
   confidence: low
   notes: Identity only; 'shops and restaurants' is a working description pending an official source.
 review_issues:
-- code: visitor_facilities_unverified
-  severity: warning
-  fields:
-  - accessibility
-  - wheelchair_friendly
-  - parking
-  - dog_friendly
-  - toilets_available
-  - food_available
-  description: Accessibility details, parking, dog policy, toilets and on-site food have not been confirmed from an official source for the cathedral or the Alcazaba.
-  retryable: true
-  owner: fact_check
 - code: reopened_material_change
   severity: warning
   fields:
@@ -228,8 +216,20 @@ review_issues:
   description: 'Status moved from needs_editorial_review to needs_fact_check on 2026-11-02: the owner chose to fold the Málaga city sights (one-hour checklist group C) into this record. Muelle Uno, Teatro Romano and the Picasso museum''s closing time and prices still need official detail; editorial review needed again afterwards.'
   retryable: true
   owner: fact_check
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
+  fields:
+  - accessibility
+  - wheelchair_friendly
+  - parking
+  - dog_friendly
+  - toilets_available
+  - food_available
+  retryable: true
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-11'
+updated_at: '2026-11-14'
 last_verified: 2026-10-29
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-04-15

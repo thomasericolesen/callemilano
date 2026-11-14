@@ -153,8 +153,9 @@ review_issues:
   description: Audience ratings, energy, and visit-duration tag are provisional editorial estimates for an urban walking visit; assess route demands and typical visit time before approval.
   retryable: true
   owner: editorial
-- code: visitor_facilities_unverified
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - accessibility
   - wheelchair_friendly
@@ -162,11 +163,10 @@ review_issues:
   - dog_friendly
   - toilets_available
   - cost_level
-  description: Visitor facilities, access, parking, and cost remain unverified.
   retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, cost_level. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-03
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-29
 last_reviewed_at: null
 next_review_at: null

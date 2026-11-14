@@ -166,8 +166,16 @@ review_issues:
   description: Included under the owner decision of 2026-10-15 to add an excursion layer (route-checked one-way drive up to about 4 h) beyond the 30 km primary area. Pending editor-of-record approval and change-log entry.
   retryable: true
   owner: editor
-- code: visitor_facilities_unverified
+- code: museum_price_ambiguous
   severity: warning
+  fields:
+  - visit_information.cost_basis
+  description: Museo de Vejer shows both EUR 2.00 and EUR 4.00 on the official page without explanation.
+  retryable: true
+  owner: fact_check
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
   fields:
   - accessibility
   - wheelchair_friendly
@@ -176,18 +184,10 @@ review_issues:
   - toilets_available
   - food_available
   - booking_required
-  description: Visitor facilities, access, parking and booking remain unverified.
   retryable: true
-  owner: fact_check
-- code: museum_price_ambiguous
-  severity: warning
-  fields:
-  - visit_information.cost_basis
-  description: Museo de Vejer shows both EUR 2.00 and EUR 4.00 on the official page without explanation.
-  retryable: true
-  owner: fact_check
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available, booking_required. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-15
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
 last_reviewed_at: 2026-10-15
 next_review_at: 2027-01-15

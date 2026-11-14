@@ -175,19 +175,6 @@ review_issues:
   description: Audience ratings, energy, and suitable seasons are provisional editorial estimates; confirm hill access, heat exposure, and route demands.
   retryable: true
   owner: editorial
-- code: visitor_facilities_unverified
-  severity: warning
-  fields:
-  - accessibility
-  - wheelchair_friendly
-  - parking
-  - dog_friendly
-  - toilets_available
-  - food_available
-  - cost_level
-  description: Access, parking, facilities, dog policy, and costs remain unverified.
-  retryable: true
-  owner: fact_check
 - code: owner_supplied_additions_unverified
   severity: info
   fields:
@@ -202,8 +189,21 @@ review_issues:
   description: 'Castle and tower ticket price from travel sites only (3,50 EUR adult); guests should check online before going. Owner decision 2026-11-08: no call.'
   retryable: true
   owner: fact_check
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
+  fields:
+  - accessibility
+  - wheelchair_friendly
+  - parking
+  - dog_friendly
+  - toilets_available
+  - food_available
+  - cost_level
+  retryable: true
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available, cost_level. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-03
-updated_at: '2026-11-13'
+updated_at: '2026-11-14'
 last_verified: 2026-10-30
 last_reviewed_at: null
 next_review_at: null
