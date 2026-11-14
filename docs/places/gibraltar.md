@@ -78,7 +78,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: €€
 visit_information:
-  schedule: 'Upper Rock Nature Reserve: 1 Oct-30 Apr opens 9:00, last ticket sale 17:15, last entry 17:45, closes 18:15. 1 May-30 Sep opens 9:30, closes 19:15. Subject to change. Cable car: ticket page shows ''Closed for refurbishment'' (date of the notice unknown); normally daily 10:00-16:00 according to the same page.'
+  schedule: 'Upper Rock Nature Reserve: 1 Oct-30 Apr opens 9:00, last ticket sale 17:15, last entry 17:45, closes 18:15. 1 May-30 Sep opens 9:30, closes 19:15. Subject to change. Cable car: closed for a full refurbishment and expected to reopen in 2027 (official cable-car page, read 2026-11-14); no date given.'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -194,6 +194,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
+- field: visit_information.schedule
+  claim: '"Note: The Cable Car is currently undergoing full refurbishment. It is expected to reopen in 2027."'
+  source_url: https://naturereserve.gi/experiences/cable-car/
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: high
+  notes: null
 review_issues:
 - code: not_spain
   severity: info
@@ -213,10 +221,10 @@ review_issues:
   retryable: true
   owner: fact_check
 - code: cable_car_closure_date_unknown
-  severity: warning
+  severity: info
   fields:
   - visit_information.schedule
-  description: Ticket page marks the cable car 'Closed for refurbishment' without a date; reconfirm before travel.
+  description: The cable car is closed for a full refurbishment and expected to reopen in 2027 (official page, 2026-11-14); no exact date. Re-check at the next freshness review.
   retryable: true
   owner: fact_check
 - code: border_wait_unverified

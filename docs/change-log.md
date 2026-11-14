@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-14 - Minor points from the status file (level A; one conflict for the editor)
+
+- `el-torcal-de-antequera`: second source read (Antequera municipal tourism): reserve open all day, visitor centre daily 09:30-17:30, guided visits on request, free entry. The operator site torcaldeantequera.com still shows injected spam, so `links.official_website` was removed (issue `official_site_compromised`, as for `casa-carmen-miramar`) and the municipal page is the visitor link. The closing time (17:00 operator vs 17:30 municipal) is a `source_conflict` for the editor; the schedule text already says the difference is unresolved.
+- `selwo-aventura`: no conflict. 24.90 EUR is the reduced box-office price (children 3-7, seniors, large families) and 29.90 EUR the general box-office price; the full price table is now in `cost_basis` (Danish text updated).
+- `gibraltar`: the official cable-car page says it is under full refurbishment and expected to reopen in 2027 (no date); schedule and Danish text updated, issue lowered to info.
+- `tools/route_check.py`: not needed now. No place outside the archive lacks a driving time (one archived record does). The script needs a real `GOOGLE_MAPS_API_KEY`; the `dummy` key used by `intake.py` is rejected on this Mac.
+
 ## 2026-11-14 - The two remaining drafts read again in Chrome (level A)
 
 - `castillo-de-monda`: the own site's contact and menu pages (read in Claude in Chrome) give daily opening times for Restaurant Albacar and Bar Albacar, parking (private car park plus free roadside parking; steep access road), reception phone and charcoal-grill mains of 26-36 EUR. `cost_level` set to EUR EUR (median main plus one drink about 40-45 EUR). Core facts are official, so lifted to `needs_editorial_review` (`next_review_at` 2027-02-14). Info issue `guest_only_facilities` kept: the site sells public table booking but states no rule for non-resident diners.

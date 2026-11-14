@@ -81,8 +81,8 @@ visit_information:
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: Official page lists online general admission from €19.90 and box-office admission from €29.90; dynamic prices may change.
-  cost_checked_at: 2026-10-03
+  cost_basis: 'Official price page: general admission (8-64 years) from €19.90 online and from €29.90 at the box office; reduced admission (children from 1 metre or 3 to 7 years, seniors 65+, large families) from €15.90 online and from €24.90 at the box office; under 3 years and under 1 metre free. Dynamic prices may change.'
+  cost_checked_at: '2026-11-14'
 links:
   official_website: https://www.selwo.es/en
   booking: https://www.selwo.es/en/comprar
@@ -200,6 +200,14 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
+- field: visit_information.cost_basis
+  claim: 'Price table: "GENERAL ADMISSION Visitors from 8 to 64 years from €19.90 from €29.90"; "REDUCED ADMISSION* Children: from 1 metre or 3 to 7 years Senior: 65 years and over ... Large families from €15.90 from €24.90"; "UNDER 3 YEARS AND 1 METRE* FREE FREE" (columns ONLINE / BOX OFFICE).'
+  source_url: https://www.selwo.es/en/horarios-y-precios/precios
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: high
+  notes: The 24.90 EUR noted on 2026-11-13 is the reduced box-office price, not a conflict with the 29.90 EUR general box-office price.
 review_issues: []
 created_at: 2026-10-03
 updated_at: '2026-11-14'

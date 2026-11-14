@@ -3514,7 +3514,7 @@
    "lng": -4.5584866,
    "google_maps_url": "https://maps.google.com/?q=El+Torcal+de+Antequera%2C+M%C3%A1laga%2C+Spain",
    "google_place_id": null,
-   "url": "https://torcaldeantequera.com/",
+   "url": null,
    "tags": [
     "natur",
     "vandring",
@@ -3568,9 +3568,9 @@
      }
     ],
     "links": {
-     "official": "https://torcaldeantequera.com/",
+     "official": null,
      "booking": "mailto:reservas@torcaldeantequera.com",
-     "info": "https://www.torcaldeantequera.com/informacion/como-visitar-el-torcal-de-antequera/"
+     "info": "https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/"
     },
     "checked_at": "2026-11-14",
     "text_language": "da",
@@ -3578,7 +3578,7 @@
      "record_category": "Nature",
      "municipality": "Antequera",
      "schedule": "The nature reserve has no opening hours (visit in daylight). Visitor centre Torcal Alto: Mon-Sun 9:30-17:00 according to the park's site and 9:30-17:30 according to the Antequera municipal tourism site (30-minute difference unresolved); 24, 31 Dec and 5 Jan shorter hours; 25 Dec, 1 and 6 Jan closed. The earlier 10:00-17:00 / 10:00-19:00 hours came from a secondary source and were wrong.",
-     "schedule_checked_at": "2026-10-29",
+     "schedule_checked_at": "2026-11-14",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -4427,7 +4427,7 @@
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Upper Rock Nature Reserve: 1. okt.-30. apr. åbner 9.00, sidste billetsalg 17.15, sidste indgang 17.45, lukker 18.15. 1. maj-30. sep. åbner 9.30, lukker 19.15. Ændringer kan forekomme. Svævebane: billetsiden viser \"Closed for refurbishment\" (datoen for meddelelsen er ukendt); normalt dagligt 10.00-16.00 ifølge samme side."
+      "text": "Upper Rock Nature Reserve: 1. okt.-30. apr. åbner 9.00, sidste billetsalg 17.15, sidste indgang 17.45, lukker 18.15. 1. maj-30. sep. åbner 9.30, lukker 19.15. Ændringer kan forekomme. Svævebane: lukket for en fuld renovering og ventes at åbne igen i 2027 (den officielle side for svævebanen, læst 14. november 2026); ingen dato oplyst."
      },
      {
       "label": "Pris",
@@ -4444,8 +4444,8 @@
     "trip": {
      "record_category": "City",
      "municipality": "Gibraltar",
-     "schedule": "Upper Rock Nature Reserve: 1 Oct-30 Apr opens 9:00, last ticket sale 17:15, last entry 17:45, closes 18:15. 1 May-30 Sep opens 9:30, closes 19:15. Subject to change. Cable car: ticket page shows 'Closed for refurbishment' (date of the notice unknown); normally daily 10:00-16:00 according to the same page.",
-     "schedule_checked_at": "2026-11-13",
+     "schedule": "Upper Rock Nature Reserve: 1 Oct-30 Apr opens 9:00, last ticket sale 17:15, last entry 17:45, closes 18:15. 1 May-30 Sep opens 9:30, closes 19:15. Subject to change. Cable car: closed for a full refurbishment and expected to reopen in 2027 (official cable-car page, read 2026-11-14); no date given.",
+     "schedule_checked_at": "2026-11-14",
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -10459,7 +10459,7 @@
      },
      {
       "label": "Pris",
-      "text": "Den officielle side angiver almindelig adgang online fra 19,90 EUR og i billetlugen fra 29,90 EUR; dynamiske priser kan ændre sig."
+      "text": "Den officielle prisside: almindelig adgang (8-64 år) online fra 19,90 € og i billetlugen fra 29,90 €; nedsat pris (børn fra 1 meter eller 3 til 7 år, seniorer over 65 og storfamilier) online fra 15,90 € og i billetlugen fra 24,90 €; børn under 3 år og under 1 meter gratis. Priserne er dynamiske og kan ændre sig."
      }
     ],
     "links": {
