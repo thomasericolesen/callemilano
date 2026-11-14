@@ -1428,5 +1428,318 @@
   ],
   "translated_at": "2026-11-14",
   "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-ANTEQUERA-001": {
+  "source_sha": "dd88abffd3981c4d",
+  "summary": "Antequera er en historisk by i Málaga-provinsen bygget omkring Alcazaba-fæstningen på bakken, med UNESCO-dysserne i Antequera tæt ved; åbningstider og priser er bekræftet fra kommunens turistside (tjekket 29. oktober 2026).",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Alcazaba (Recinto Monumental): mandag-søndag og helligdage 10:00-18:00, sidste adgang 17:15; tirsdag (undtagen helligdage og dagen før) 14:00-18:00 med gratis adgang. Real Colegiata de Santa María: mandag-søndag 10:00-18:00; tirsdag 14:00-18:00 gratis. Dysserne Menga og Viera samt El Romeral: tirsdag-lørdag 9:00-17:30, søndag 9:00-14:30, mandag lukket (undtagen dagen før en helligdag), gratis adgang; 2. november 9:00-14:30. Kommunens side nævner ændringer omkring 1.-3. november."
+   },
+   {
+    "label": "Pris",
+    "text": "Alcazaba: voksne 5 EUR, børn 8-12 år og over 65 år 4 EUR, børn til og med 7 år gratis. Real Colegiata: voksne 4 EUR, 8-12 år og over 65 år 2 EUR. Kombibillet 8 EUR (4 EUR for 8-12 år, unge og over 65 år). Dysserne: gratis. Sider, der angiver 6 EUR for Alcazaba, er forældede."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-CAD-CADIZ-001": {
+  "source_sha": "bdc5177c3d360bfb",
+  "summary": "Cádiz, en af de ældste uafbrudt beboede byer i Vesteuropa, kombinerer katedralen og den gamle bydel med den beskyttede strand Playa de la Caleta; ca. 2 timer og 30 minutters kørsel fra Casa de la Familia (Google Maps' hovedtal), så den passer bedst til en lang dagstur eller med overnatning.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Katedralen: mandag-lørdag 10:00-20:00, søndag 13:30-20:00, sidste adgang 19:00. Katedralens tårn: mandag-lørdag 10:00-20:00, søndag 12:00-15:00 og 16:00-20:00, sidste adgang 19:30. Casa de la Contaduría: mandag-lørdag 10:00-16:30. Særlig guidet tur 31. oktober og 1. november kl. 17:00."
+   },
+   {
+    "label": "Pris",
+    "text": "Katedralen: 12 EUR; 11 EUR (65+); 10 EUR studerende 13-25 år; 11 EUR handicap op til 59 %. Gratis: handicap over 60 %, børn under 12 år i følge med en voksen, personer født eller bosat i stiftet. Tårnmuseum og audioguide 7 EUR (sidens tekst er flettet sammen med linjen for beboere)."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-CAMINITO-DEL-REY-001": {
+  "source_sha": "81c10d34508c84b4",
+  "summary": "En dramatisk gangsti langs en kløftvæg ved Ardales; billet skal i praksis købes på forhånd online, og børn under 8 år har ikke adgang. Ca. 1 time og 5 minutters kørsel fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Besøgscentret (Puerto de las Atalayas): 8:00-14:30. Shuttlebus mellem besøgscentret og stiens udgang ved El Chorro: 7:40-20:00, ca. 15-20 min. Selve turen tager ca. 1 t 30 min - 2 t den ene vej (lineær rute, ikke rundtur). Operatøren anbefaler at være parkeret mindst 1 time før det bookede tidspunkt. Sæsonændringer annonceres på den officielle side og dens Telegram-kanal."
+   },
+   {
+    "label": "Pris",
+    "text": "Almindelig adgang ca. 10 EUR; officiel guidet tur ca. 18 EUR (grupper på op til 30, spansk/engelsk); shuttlebus 2,50 EUR (ikke med i billetten; på dagen kan den kun betales kontant til chaufføren, ikke med kort; den kan også købes online sammen med billetten); parkering 2 EUR/dag. Billetter kan også købes i billetlugen ved nordindgangen, hvis der er ledige."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-COR-CORDOBA-001": {
+  "source_sha": "9c1c5d646285314a",
+  "summary": "Córdobas Mezquita-Catedral, en tidligere moské, der blev til katedral, midt i Judería-kvarteret, har et gratis morgenvindue mandag-lørdag ud over betalte besøg; ca. 2 timers kørsel fra Casa de la Familia (Google Maps' hovedtal).",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mezquita-Catedral: fredag 30. oktober 2026 viste siden 10:00-19:00 (den viser dagens åbningstid). Gratis besøg mandag-lørdag 8:30-9:30. Sidste adgang en halv time før lukning. Klokketårnet hver halve time 9:30-18:30. Søn- og helligdagstider blev ikke hentet."
+   },
+   {
+    "label": "Pris",
+    "text": "Mezquita-Catedral: 15 EUR; 12 EUR (65+, studerende 15-26 år, Europæisk Ungdomskort); 8 EUR børn 10-14 år, personer med handicap op til 64 % og voksne i store familier; 6 EUR børn 10-14 år i store familier; gratis for børn under 10 år og andre. Klokketårn 4 EUR; aftenbesøget 'Soul of Cordoba' 25 EUR (de to sidste fra et søgeudtræk af den officielle side)."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-CAD-DUNA-DE-BOLONIA-001": {
+  "source_sha": "ac55ac10cc4fa17d",
+  "summary": "Aktiv kystklit og fredet naturmonument ved stranden i Bolonia, Tarifa.",
+  "practical": [],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-EL-TORCAL-001": {
+  "source_sha": "4e3d9250d2d51615",
+  "summary": "Et slående karstlandskab af vindslebne kalkstenssøjler ved Antequera med gratis afmærkede stier og betalte guidede ruter; ca. 1 time og 25 minutters kørsel fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Naturreservatet har ingen åbningstider (besøg i dagslys). Besøgscentret Torcal Alto: mandag-søndag 9:30-17:00 ifølge parkens side og 9:30-17:30 ifølge Antequera kommunes turistside (forskellen på 30 minutter er uafklaret); 24. og 31. december og 5. januar kortere tider; 25. december, 1. og 6. januar lukket. De tidligere tider 10:00-17:00 / 10:00-19:00 kom fra en sekundær kilde og var forkerte."
+   },
+   {
+    "label": "Pris",
+    "text": "Adgang til reservatet og besøgscentret er gratis. Shuttlebussen fra den nederste parkeringsplads koster 3 EUR tur-retur på dage med begrænset adgang. Guidede ture for enkeltpersoner (weekender, helligdage) og grupper koster penge; de aktuelle priser er ikke bekræftet igen (tidligere sekundære tal: Ruta de los Ammonites ca. 10-12,50 EUR, ca. 3 t)."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-FRIGILIANA-001": {
+  "source_sha": "94f1f23822bebc3e",
+  "summary": "Udforsk Frigilianas historiske kvarter og udsigtspunkter i en andalusisk bjergby.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Museo Arqueológico, udstillingslokaler og turistkontor har samme tider (museets side): 16/9-1/7 mandag-fredag 10:00-18:00, lørdag 10:00-14:00 og 16:00-20:00, søndag 10:00-14:00; 1/7-15/9 mandag-lørdag 10:00-14:30 og 17:30-21:00, søndag 10:00-14:30. Turistkontorets side angiver i stedet lørdag 10:00-18:00 om vinteren; ejeren valgte museets tider 11. november 2026."
+   },
+   {
+    "label": "Pris",
+    "text": "Gratis: Museo Arqueológico, udstillingslokaler og bibliotek er gratis hele året (museets egen side)."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-GRA-GRANADA-001": {
+  "source_sha": "4f1ae36cb711fa30",
+  "summary": "Granadas Alhambra hører med til dette sted efter ejerens beslutning: et palads- og fæstningsanlæg, der kræver billetter med fast tidspunkt bestilt på forhånd (de frigives ofte måneder før og bliver tit udsolgt), samt den gamle bydel og Albaicín. Ca. 1 time og 50 minutters kørsel fra Casa de la Familia (Google Maps' hovedtal).",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Alhambra dagbesøg 15/10-31/3: dagligt 8:30-18:00 (billetsalg 8:00-18:00). Natbesøg 15/10-31/3: fredag-lørdag 20:00-21:30. Lukket 25. december og 1. januar. Sommer (1/4-14/10): 8:30-20:00."
+   },
+   {
+    "label": "Pris",
+    "text": "Alhambra almindelig dagsbillet 22,27 EUR; Generalife-haverne 12,73 EUR; natbesøg i paladserne 12,73 EUR. Børn under 12 år er gratis, men billetten skal bestilles sammen med de voksnes. Onlinekøb har et servicegebyr."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-CAD-JEREZ-DE-LA-FRONTERA-001": {
+  "source_sha": "a24137dcd64f0435",
+  "summary": "Jerez de la Frontera, sherryens, flamencoens og de andalusiske hestes by, har sit centrum i Alcázar fra 1000-tallet; sherry-bodegature (f.eks. González Byass) er en kendt aktivitet, og smagninger følger Spaniens almindelige aldersgrænse for alkohol på 18 år.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Alcázar de Jerez: dagligt 8:30-14:30 (turistguide; kommunens Facebook siger gældende fra 1. marts). Gratis mandag 13:30-14:30 i vintersæsonen. Andre seværdigheder (turistguide, oktober 2026): Katedralen mandag-lørdag 10:00-19:00 (sidste adgang 18:00), søndag 13:00-19:00; Iglesia de San Miguel mandag-lørdag 10:00-18:30, søndag lukket; Museo Arqueológico tirsdag-lørdag 9:00-15:00; Museo del Belén tirsdag-søndag 10:00-14:00."
+   },
+   {
+    "label": "Pris",
+    "text": "Alcázar: 5,00 EUR; nedsat 1,80 EUR (pensionister, studerende, beboere); med Cámara Oscura 7,00 EUR. Ingen børnepris angivet (kun skoler). Andre seværdigheder (turistguide): Katedralen fra 8 EUR; San Miguel fra 6 EUR; Museo Arqueológico 5 EUR; Museo del Belén 5 EUR, børn 7-14 år 2 EUR."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-GRA-LAS-ALPUJARRAS-001": {
+  "source_sha": "02222c393a2e42a3",
+  "summary": "Las Alpujarras er en bjergegn med hvide landsbyer syd for Sierra Nevada og et tydeligt roligere tempo end meget af Andalusien; stedet tager udgangspunkt i Pampaneira, den laveste og lettest tilgængelige af landsbyerne i Poqueira-kløften.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Det er gratis at gå rundt i landsbyen; der er ikke bekræftet noget museum eller betalt seværdighed i selve Pampaneira."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-MALAGA-001": {
+  "source_sha": "e07a96dda953b0ff",
+  "summary": "Málagas historiske centrum, bygget omkring katedralen fra 1500-tallet og Alcazaba-fæstningen på bakken, er en let dagstur fra Casa de la Familia med museer, tapasbarer og havudsigt.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Málagas katedral: 26/10-29/3 mandag-fredag 10:30-18:30, lørdag 10:30-18:00, søndag 14:00-18:00; 30/3-30/5 mandag-fredag 10:30-19:30; 1/6-25/10 mandag-fredag 10:30-20:00 (lørdag og søndag uændret). Sidste adgang 45 min før lukning. Lukket 25. december og 1. januar. Alcazaba/Gibralfaro: vinter (1/11-31/3) 9:00-18:00, sommer (1/4-31/10) 9:00-20:00, sidste adgang 1 time før lukning."
+   },
+   {
+    "label": "Pris",
+    "text": "Katedralen: 10 EUR (inkl. audioguide), +5 EUR for VR-tillæg, 65+ 9 EUR, unge 13-17 år 6 EUR, studerende 18-25 år 7 EUR, under 13 år og Málaga-beboere gratis. Alcazaba: 7 EUR (kombineret med Gibralfaro-borgen 10 EUR), nedsat 3/5 EUR, gratis under 6 år og gratis for alle søndag fra kl. 14:00."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-MARBELLA-OLD-TOWN-001": {
+  "source_sha": "91abf91b7cf185b7",
+  "summary": "Gå rundt i Marbellas historiske centrum med gamle gader, pladser, museer og spisesteder.",
+  "practical": [],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-MERCADO-DE-ATARAZANAS-001": {
+  "source_sha": "f2fb4b74a35b6cf8",
+  "summary": "Historisk marked i det centrale Málaga med madboder; åbent om formiddagen på hverdage og lørdag.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-lørdag 08:00-15:00 (Málaga kommunes oversigt; tjek igen før besøget)."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-NERJA-001": {
+  "source_sha": "ad56a459ad294c78",
+  "summary": "En dag omkring Nerja: start ved Cuevas de Nerja i Maro, fortsæt til det gratis udsigtspunkt Balcón de Europa i byen og slut på stranden tæt ved; ca. 1 time og 15 minutters kørsel fra Casa de la Familia (Google Maps' hovedtal, til grotterne).",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Cuevas de Nerja: periode 1 (resten af året) 9:15-16:30, sidste adgang 15:30; periode 2 (juni-september, juli, langweekender, påske) 9:15-17:30, sidste adgang 16:30. Lukket 1. og 6. januar, 15. maj og 25. december. Balcón de Europa er et gratis åbent udsigtspunkt uden åbningstider."
+   },
+   {
+    "label": "Pris",
+    "text": "Cuevas de Nerja periode 1, online: voksen (14+) 16 EUR; junior 12-13 år 13 EUR; barn 6-11 år 12 EUR; mini 3-5 år 5 EUR; 0-2 år gratis; 65+/stor familie/handicap/Europæisk Ungdomskort 14 EUR. I billetlugen eller automaten: voksen 18 EUR. Periode 2 online: voksen 18 EUR, junior 14, barn 13, mini 6, 65+ m.fl. 15. Balcón de Europa: gratis."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-PLAYA-LA-MALAGUETA-001": {
+  "source_sha": "bf717dff2e3875f5",
+  "summary": "Playa de la Malagueta, Málaga: central bystrand ved havnen; Blå Flag 2026.",
+  "practical": [],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-RONDA-001": {
+  "source_sha": "72a62f1c1161eabb",
+  "summary": "Oplev Rondas historiske centrum, Puente Nuevo og udsigten over Tajo-kløften.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Fortolkningscentret ved Puente Nuevo, gældende fra 1. oktober 2026 (officiel PDF): mandag og lørdag 10:00-14:00 og 15:00-18:00; tirsdag-fredag 9:30-19:00; søn- og helligdage 10:00-15:00. Hjemmesiden siger tirsdag-fredag 10:00-19:00; ejeren valgte den officielle PDF 11. november 2026."
+   },
+   {
+    "label": "Pris",
+    "text": "Fortolkningscentret ved Puente Nuevo: 2,50 EUR pr. person; 2 EUR for grupper på 10+, pensionister, studerende under 26 år og store familier; gratis for børn under 8 år, personer med handicap og Ronda-beboere."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-SELWO-AVENTURA-001": {
+  "source_sha": "f28680f09ab9110e",
+  "summary": "En udendørs dyre- og eventyrpark i Estepona med broer, dyreområder og valgfrie guidede oplevelser.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tjek den officielle kalender for den valgte dato; tider og aktiviteter kan ændre sig."
+   },
+   {
+    "label": "Pris",
+    "text": "Den officielle side angiver almindelig adgang online fra 19,90 EUR og i billetlugen fra 29,90 EUR; dynamiske priser kan ændre sig."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001": {
+  "source_sha": "f58fdd48faf5ec7a",
+  "summary": "Setenil de las Bodegas er kendt for huse bygget direkte ind under klippeudhæng over en flodkløft; en historisk by, man gratis kan gå rundt i, ca. 1 time og 40 minutters kørsel fra Casa de la Familia (Google Maps' hovedtal), ofte kombineret med Ronda tæt ved.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Ikke angivet på den officielle turistside. To turistkontorer er nævnt uden åbningstider: Oficina de Turismo, Calle Villa s/n (616 55 33 84) og Oficina de Turismo la Galería, C/ Constitución 25B (622 43 58 15)."
+   },
+   {
+    "label": "Pris",
+    "text": "Det er gratis at gå rundt i byen. Seværdigheden med billet er borgen (Castillo nazarí med borgtårnet), cisternen og Casa de la Damita: ca. 2 EUR for en kombibillet ifølge rejsesider og anmeldelser (ikke officielt). Åbningstiderne er ikke offentliggjort officielt. Ejerens beslutning 8. november 2026: intet opkald til turistkontoret; gæsterne bedes tjekke online før turen."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-SIERRA-DE-LAS-NIEVES-001": {
+  "source_sha": "5637183cd37d9384",
+  "summary": "Sierra de las Nieves er en nationalpark (udpeget 2021) og UNESCO-biosfærereservat i bjergene mellem Tolox, Ronda, El Burgo og Yunquera; den har 15 separate kommunale turistkontorer og intet samlet besøgssted, og tilladelser til stier og faciliteter er stort set ikke bekræftet.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Oficina de Turismo de El Burgo (ifølge Mancomunidads egen side): onsdag-torsdag 09:00-15:00, fredag-lørdag 10:00-14:00 og 16:00-18:00, søndag 09:00-13:00, lukket mandag-tirsdag. Et nyt besøgscenter for nationalparken ved 'Conejeras' blev omtalt som under opførelse i 2025; om det er åbnet pr. 15. oktober 2026, er ikke bekræftet."
+   },
+   {
+    "label": "Pris",
+    "text": "Selve parken ser ud til at være gratis; der er ikke fundet nogen entré til det fredede område generelt."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-CAD-TARIFA-001": {
+  "source_sha": "35b8235f45c5ccd2",
+  "summary": "Tarifa, Spaniens sydligste by på fastlandet, kombinerer en borg fra kalifatets tid og en gammel bydel med en kraftig vind året rundt, der gør byen til et stort kite- og windsurfingsted. Borgens officielle åbningstider og entré er nu bekræftet.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Castillo de Guzmán el Bueno (Junta de Andalucías side, senest ændret 11. februar 2025): onsdag-søndag 10:00-16:00 (adgang lukker 15:15); mandag og tirsdag lukket."
+   },
+   {
+    "label": "Pris",
+    "text": "Borgen: 4 EUR; 2,50 EUR 12-18 år; 1,50 EUR ungdomskort, store familier, pensionister, personer med handicap; gratis for ledige og børn under 12 år."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-TOLOX-001": {
+  "source_sha": "c86fa1d22edb1253",
+  "summary": "Tolox er en lille hvid kurby i Málaga-provinsen; det historiske Balneario de Tolox (Fuente Amargosa) er et dokumenteret termalbad, men det har kun åbent i sæsonen (1. juni-16. oktober), ikke hele året.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Sæson 1. juni-16. oktober (badets egen side, læst igen 29. oktober 2026). Lukket for sæsonen pr. 29. oktober 2026. Datoerne for 2027 er ikke offentliggjort på siden."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-CAD-VEJER-DE-LA-FRONTERA-001": {
+  "source_sha": "db7b8aa654319389",
+  "summary": "Vejer de la Frontera er en hvid bjergby i Cádiz-provinsen med en borg fra 900-1000-tallet på toppen, engang hjemsted for hertugerne af Medina Sidonia; åbningstider og priser er ikke bekræftet og stemmer ikke overens på tværs af de fundne kilder.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Turistkontor: mandag-lørdag 10:00-14:00 og 16:00-18:00, søndag 10:00-14:00. Museo de Vejer (Palacio del Marqués de Tamarón): tirsdag-søndag 10:30-14:00 og 17:00-20:00. Museo Municipal de Costumbres y Tradiciones: tirsdag-lørdag 10:30-14:00 og 17:00-20:00 (mandag og søndag lukket). Borgen: kun lørdag og søndag 11:00-14:00. Iglesia del Divino Salvador: telefon 660 650 066. Casa del Mayorazgo midlertidigt lukket."
+   },
+   {
+    "label": "Pris",
+    "text": "Museo de Vejer: 2,00 EUR pr. person, under 12 år og pensionister gratis; samme side angiver også 4,00 EUR uden forklaring. Museo Municipal: 1 EUR (grupper 0,50 EUR). Borgen: ingen pris angivet."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  }
 }

@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-14 - Danish texts for the remaining 22 app places (level A)
+
+- The 22 app places that had no Danish text in the repository (so the app kept older Danish texts written in the app) now have Danish texts in `data/app-texts-da.json`, translated from the current English summary, hours and prices. Facts are unchanged; owner choices and source caveats are kept in the text. All 159 app places now take their Danish text from the repository (159 Danish, none stale), so a later change in hours or prices makes the text stale in the export instead of being hidden by an old app text.
+
 ## 2026-11-14 - Danish texts for Baelo Claudia and Sevilla (level A)
 
 - After the import, the app still showed old Danish texts for Baelo Claudia (2024 hours, no price) and Sevilla. The app's import keeps Danish texts written in the app when the repository sends only English (`mergeGuide` in the app repo), so a newer English fact does not replace an older Danish text. Danish texts for the two places were added to `data/app-texts-da.json`, so the import now overwrites them. The general problem (other places with only English in the repository but old Danish in the app) is still open.
