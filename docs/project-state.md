@@ -33,8 +33,8 @@ Redaktørarbejdsgangen (ejerbeslutning 11. november) er i `AGENTS.md` og `docs/m
 ## Åbent
 
 1. **2 kladder** venter på et nyt forsøg i Chrome: `castillo-de-monda` (ingen tider eller priser for gæster udefra) og `paseo-maritimo-marbella` (den rette side hos Turismo Marbella er ikke fundet).
-2. **Åbne warnings (84) og info (52) på app-steder.** Fakta-delen er niveau A (prøv kilden to gange, luk derefter som "ikke fundet"): mest `visitor_facilities_unverified` (19). Resten er redaktionelle (målgruppe, familievurderinger, tags, lagets omfang) og går på en tjekliste til redaktøren. Konflikter og `blocking` lukkes aldrig i bulk.
-3. **Friskhedsjobbet** (månedligt) er ikke sat op. 35 app-steder mangler `next_review_at`; første reelle tjek er omkring februar 2027. Jobbet skal også minde om tokenets udløb. Hold det billigt: script først, AI kun ved ændrede sider.
+2. **Åbne warnings (84) og info (52) på app-steder.** Fakta-delen af facilitetsissues er udført 14. november (andet kildeforsøg; resten lukket som `not_found_after_two_attempts`). Resten er redaktionelle (målgruppe, familievurderinger, tags, lagets omfang) og går på en tjekliste til redaktøren. Konflikter og `blocking` lukkes aldrig i bulk.
+3. **Friskhedsjobbet** (månedligt) er ikke sat op. `next_review_at` er sat 14. november (undtagen `canon-de-las-angosturas`); første reelle tjek er 14. februar 2027. Jobbet skal også minde om tokenets udløb. Hold det billigt: script først, AI kun ved ændrede sider.
 4. **`route_check.py`** er ikke kørt; det kræver en `GOOGLE_MAPS_API_KEY` på Mac'en.
 5. **Menu og pris** mangler for Venta La Morena, Mesón Salvador og Vegetalia.
 6. **Udskudt:** om appen skal vise `approved` anderledes end `needs_editorial_review`.

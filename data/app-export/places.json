@@ -9875,7 +9875,7 @@
      "udsigt",
      "natur"
     ],
-    "cost_level": null,
+    "cost_level": "lav",
     "booking_required": false,
     "wheelchair": "ukendt",
     "summary": "Oplev Rondas historiske centrum, Puente Nuevo og udsigten over Tajo-kløften.",
@@ -9894,7 +9894,7 @@
      "booking": null,
      "info": "https://turismoderonda.es/es/ronda/que_ver/cool_places,arquitectura_plazas_monumentos/puente_nuevo_de_ronda"
     },
-    "checked_at": "2026-11-13",
+    "checked_at": "2026-11-14",
     "text_language": "da",
     "trip": {
      "record_category": "City",
