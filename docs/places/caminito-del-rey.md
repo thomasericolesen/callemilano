@@ -74,8 +74,8 @@ transport_options:
   source: https://caminitodelrey.info/informacion-practica/
   checked_at: 2026-10-15
 booking_required: true
-dog_friendly: unknown
-toilets_available: unknown
+dog_friendly: 'no'
+toilets_available: 'yes'
 food_available: unknown
 cost_level: €
 visit_information:
@@ -155,15 +155,23 @@ evidence:
   checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-14
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
+- field: dog_friendly
+  claim: '"Por el momento no es posible realizar el recorrido acompañado de mascotas, debido a que las características de la instalación no permite asegurar su integridad durante el recorrido."'
+  source_url: https://www.caminitodelrey.info/es/tu-visita/mascotas
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: high
+  notes: null
+- field: toilets_available
+  claim: '"Centro de Recepción de Visitantes: Cuenta con aseos en el interior (secciones para hombres, mujeres y personas con movilidad reducida)..."; "Taquilla de Entrada: Dispone de 8 cabinas de WC unisex..."; "Instalaciones de Salida: Ofrecen aseos para hombres y mujeres..."'
+  source_url: https://caminitodelrey.info/informacion-practica/
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: high
+  notes: null
 review_issues:
-- code: schedule_unverified
-  severity: warning
-  fields:
-  - dog_friendly
-  - toilets_available
-  description: 'Re-read 2026-10-29: reception hours (8:00-14:30), walking time (1 h 30 min - 2 h) and shuttle times are now on the official site. Route length, difficulty and dog policy are still not stated; the Google AI summary that quotes 7-8 km is not a source.'
-  retryable: true
-  owner: fact_check
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check

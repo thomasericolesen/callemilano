@@ -80,13 +80,13 @@ toilets_available: unknown
 food_available: unknown
 cost_level: €
 visit_information:
-  schedule: 'Málaga Cathedral: 26 Oct–29 Mar Mon–Fri 10:30–18:30, Sat 10:30–18:00, Sun 14:00–18:00; 30 Mar–30 May Mon–Fri 10:30–19:30; 1 Jun–25 Oct Mon–Fri 10:30–20:00 (Sat/Sun unchanged). Last entry 45 min before close. Closed 25 Dec and 1 Jan. Alcazaba/Gibralfaro: winter (1 Nov–31 Mar) 9:00–18:00, summer (1 Apr–31 Oct) 9:00–20:00, last entry 1 h before close.'
+  schedule: 'Málaga Cathedral: 26 Oct–29 Mar Mon–Fri 10:30–18:30, Sat 10:30–18:00, Sun 14:00–18:00; 30 Mar–30 May Mon–Fri 10:30–19:30; 1 Jun–25 Oct Mon–Fri 10:30–20:00 (Sat/Sun unchanged). Last entry 45 min before close. Closed 25 Dec and 1 Jan. Alcazaba/Gibralfaro: winter (1 Nov–31 Mar) 9:00–18:00, summer (1 Apr–31 Oct) 9:00–20:00, last entry 1 h before close. Museo Picasso Málaga: daily; November-February 10:00-18:00, March-June and September-October 10:00-19:00, July-August 10:00-20:00; last entry 30 min before closing; 24 and 31 Dec and 5 Jan 10:00-15:00; closed 25 Dec, 1 and 6 Jan. Teatro Romano: Tue-Sat 10:00-18:00, Sundays and holidays 10:00-16:00; closed 1 and 6 Jan, 1 May, 24, 25 and 31 Dec.'
   typical_duration: ~1–1.5 hours for the cathedral; allow extra time for the Alcazaba hill fortress
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: 'Cathedral: general €10 (incl. audioguide), +€5 for VR add-on, seniors 65+ €9, teens 13-17 €6, students 18-25 €7, under-13 and Málaga residents free. Alcazaba: general €7 (combined with Gibralfaro castle €10), reduced €3/€5, free under-6 and free for everyone Sundays from 14:00.'
-  cost_checked_at: 2026-10-15
+  cost_basis: 'Cathedral: general €10 (incl. audioguide), +€5 for VR add-on, seniors 65+ €9, teens 13-17 €6, students 18-25 €7, under-13 and Málaga residents free. Alcazaba: general €7 (combined with Gibralfaro castle €10), reduced €3/€5, free under-6 and free for everyone Sundays from 14:00. Museo Picasso: €13, reduced €11 (seniors 65+, students under 26, European Youth Card); free for children under 17 and on Sundays in the last two hours before closing. Teatro Romano: free.'
+  cost_checked_at: '2026-11-14'
 links:
   official_website: https://malagacatedral.com/
   booking: https://malagacatedral.com/visita-cultural/tarifas-y-horarios/
@@ -207,15 +207,23 @@ evidence:
   checked_by: Claude (one-hour Málaga fold-in 2026-11-02)
   confidence: low
   notes: Identity only; 'shops and restaurants' is a working description pending an official source.
+- field: visit_information
+  claim: 'Museo Picasso: "March–June: 10 a.m. to 7 p.m." "July–August: 10 a.m. to 8 p.m." "September–October: 10 a.m. to 7 p.m." "November–February: 10 a.m. to 6 p.m."; "Full-access ticket €13 / €11 reduced"; "Free admission · Children under age 17".'
+  source_url: https://www.museopicassomalaga.org/en/visita
+  source_type: official_venue
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: high
+  notes: null
+- field: visit_information
+  claim: 'Teatro Romano: "De martes a sábado de 10:00 a 18:00 h. Domingos y festivos de 10:00 a 16:00 h." "Cerrado : 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." "Entrada gratuita"'
+  source_url: https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/espacios/enclave-arqueologico-del-teatro-romano-de-malaga
+  source_type: government
+  checked_at: '2026-11-14'
+  checked_by: Claude (main session)
+  confidence: high
+  notes: null
 review_issues:
-- code: reopened_material_change
-  severity: warning
-  fields:
-  - description_long
-  - status
-  description: 'Status moved from needs_editorial_review to needs_fact_check on 2026-11-02: the owner chose to fold the Málaga city sights (one-hour checklist group C) into this record. Muelle Uno, Teatro Romano and the Picasso museum''s closing time and prices still need official detail; editorial review needed again afterwards.'
-  retryable: true
-  owner: fact_check
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -228,6 +236,13 @@ review_issues:
   - food_available
   retryable: true
   description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available. Values left unknown; check before visiting. Retry at the next freshness review.'
+- code: muelle_uno_details_unchecked
+  severity: info
+  owner: fact_check
+  fields:
+  - description_long
+  retryable: true
+  description: Picasso museum and Teatro Romano hours and prices were read from official pages on 2026-11-14. Muelle Uno (a public port promenade with shops) has no checked official detail; it is not given hours or prices in the record.
 created_at: 2026-10-15
 updated_at: '2026-11-14'
 last_verified: 2026-10-29

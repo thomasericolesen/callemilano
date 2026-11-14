@@ -215,11 +215,11 @@ evidence:
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
 - code: santa_ana_not_named_in_2026_service
-  severity: warning
+  severity: info
   fields:
   - description_long
   - accessibility
-  description: 'Rechecked 2026-11-02: the 2026 Blue Flag (Diputación de Málaga) and loudspeaker points at Santa Ana and Torrebermeja (Benalmádena, 21 Aug 2026) are confirmed, but no 2026 municipal source names a lifeguard post or accessibility point on this beach (Malapesquera next door is named). Do not describe lifeguard cover here until the Delegación de Playas confirms it.'
+  description: 'Rechecked 2026-11-02: the 2026 Blue Flag (Diputación de Málaga) and loudspeaker points at Santa Ana and Torrebermeja (Benalmádena, 21 Aug 2026) are confirmed, but no 2026 municipal source names a lifeguard post or accessibility point on this beach (Malapesquera next door is named). Do not describe lifeguard cover here until the Delegación de Playas confirms it. (2026-11-14: the 2027 beach-service plan is not published before spring; lowered to info, re-check in May 2027. Lifeguard cover is not described in the text meanwhile.)'
   retryable: true
   owner: fact_check
 created_at: '2026-10-29'

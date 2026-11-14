@@ -83,7 +83,10 @@ links:
   visitor_information: https://www.museosdeandalucia.es/web/conjuntoarqueologicobaeloclaudia/informacion-general
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-CAD-TARIFA-001
+  relationship: nearby
+  note: Tarifa town, east along the coast.
 description_short: Roman archaeological site at Bolonia near Tarifa, with remains of a coastal Roman town and an on-site visitor centre.
 description_long: 'Why interesting: The site connects archaeology with its coastal setting and can be combined geographically with Bolonia beach and dune, while remaining a separate visit. Outdoor exposure makes timing important in hot weather. About 142 minutes'' drive from Casa de la Familia (route-checked). Editorial suitability by audience (low / medium / high): Small children (0-6) low, Children (7-12) medium, Young adults high, Seniors medium. These are estimates for planning, not guarantees or safety advice. Estimated duration: 1.5–3 hours (editorial planning estimate; guided visit length varies). Seasonality: Spring; Summer; Autumn. Weather and practical notes: The official page describes individual access as unscheduled and not requiring prior reservation during opening hours (a 2024-dated schedule; reconfirm before publication); this does not by itself confirm free admission, and no price is published here. Special guided activities may require booking and have limited capacity. Bring water and sun protection; verify current seasonal hours and event notices. Booking: false.'
 seo_title: Baelo Claudia | CalleMilano destination record

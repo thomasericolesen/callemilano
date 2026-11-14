@@ -86,7 +86,10 @@ links:
   visitor_information: https://turismo.antequera.es/informacion-practica/antes-de-viajar/horarios-de-monumentos-de-antequera-informacion-actualizada/
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-MAL-ANTEQUERA-001
+  relationship: nearby
+  note: The town of Antequera, about 15 km north.
 description_short: A striking karst landscape of wind-carved limestone pillars near Antequera, with free self-guided marked trails and paid guided routes; around 1 hour 25 minutes' drive from Casa de la Familia.
 description_long: El Torcal de Antequera is a karst nature reserve of eroded limestone formations, about 85 minutes' drive from Casa de la Familia (Google Maps, toll roads avoided, measured by the owner 2026-10-29). The visitor centre area sits off the Antequera–Villanueva de la Concepción road; self-guided visits on the marked Green (~45 min) and Yellow (~1h30) trails need no advance booking and are free, while small-group guided routes such as the 'Ruta de los Ammonites' (around 3 hours) or longer 5-hour routes must be booked in advance by phone or email because group sizes are kept small. The rocky, uneven terrain calls for sturdy shoes; a shuttle bus can substitute for car access to the upper car park on the busiest days. The visitor centre (Torcal Alto) is open daily from 9:30 to 17:00 or 17:30 (the park's site and the municipality differ by 30 minutes), with a restaurant, a car park and a shuttle (EUR 3 return) on days when private cars are restricted. Dogs are allowed on a lead. The park reports three marked trails on rocky, uneven ground, two access routes adapted for visitors with reduced mobility and an adapted visitor centre; these are the operator's statements and have not been independently checked.
 seo_title: 'El Torcal de Antequera: Karst Nature Reserve Near Málaga'
@@ -190,14 +193,6 @@ evidence:
   confidence: high
   notes: Resolves the source_conflict opened 2026-11-14.
 review_issues:
-- code: overlap_antequera
-  severity: warning
-  fields:
-  - related_places
-  - coordinates
-  description: Confirm the exact visitor-centre coordinates and whether routes are currently open; link to Antequera via related_places after both records are fact-checked.
-  retryable: true
-  owner: editorial
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -206,7 +201,7 @@ review_issues:
   retryable: true
   description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: toilets_available. Values left unknown; check before visiting. Retry at the next freshness review.'
 - code: official_site_compromised
-  severity: warning
+  severity: info
   owner: fact_check
   fields:
   - links.official_website

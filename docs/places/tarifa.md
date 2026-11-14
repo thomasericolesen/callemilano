@@ -85,7 +85,13 @@ links:
   visitor_information: https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/evento/visitas-al-castillo-de-guzman-el-bueno-tarifa-cadiz
   transport: null
   contact: castilloguzmanelbueno@aytotarifa.com
-related_places: []
+related_places:
+- id: ES-AND-CAD-DUNA-DE-BOLONIA-001
+  relationship: nearby
+  note: Duna de Bolonia, on the coast west of Tarifa.
+- id: ES-AND-CAD-BAELO-CLAUDIA-001
+  relationship: nearby
+  note: Baelo Claudia Roman ruins at Bolonia, west of Tarifa.
 description_short: Tarifa, Spain's southernmost mainland town, pairs a Caliphate-era castle and old town with a strong year-round wind that makes it a major kitesurf and windsurf destination. The castle's official hours and admission price are now confirmed.
 description_long: Tarifa sits at Spain's southern tip facing the Strait of Gibraltar, about 1 hour 50 minutes' drive from Casa de la Familia (Google Maps main figure). Its Castillo de Guzmán el Bueno, a 10th-century fortress built under Caliph Abderramán III of Córdoba, overlooks the port and the strait toward Morocco. The castle's official website gives current opening hours (closed Monday and Tuesday; Wednesday to Sunday 10:00-16:00, last entry 15:15) and admission prices from €2-5 per person depending on the ticket (castle, castle plus Adarve walkway, or Adarve only), with reduced rates for students and children. The old town has three notable churches built partly over former mosques (San Mateo, San Francisco de Asís, Santa María). The town is consistently described across independent sources as a major kitesurfing and windsurfing destination because of the strong, near-constant 'levante' wind. Tarifa neighbours Duna de Bolonia and Baelo Claudia, both separate existing records, along the coast road toward Cádiz. Castle accessibility and parking have not been confirmed from an official source.
 seo_title: 'Tarifa, Cádiz: Castle, Old Town and Wind Sports'
@@ -189,18 +195,11 @@ evidence:
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: overlap_bolonia
-  severity: warning
-  fields:
-  - related_places
-  description: Neighbours Duna de Bolonia and Baelo Claudia (both already in docs/places/); link via related_places after fact check.
-  retryable: true
-  owner: editorial
 - code: castle_hours_source_dated
-  severity: warning
+  severity: info
   fields:
   - visit_information.schedule
-  description: Hours come from a 2025 Junta de Andalucía page; call 687 788 466 / 607 984 871 to confirm.
+  description: 'Hours come from a 2025 Junta de Andalucía page; call 687 788 466 / 607 984 871 to confirm. Second attempt 2026-11-14: the castle''s own site lists prices but no opening hours; the 2025 Junta hours stay, with "check before visiting".'
   retryable: true
   owner: fact_check
 - code: not_found_after_two_attempts

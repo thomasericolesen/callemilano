@@ -87,7 +87,10 @@ links:
   visitor_information: https://turismoderonda.es/es/ronda/que_ver/cool_places,arquitectura_plazas_monumentos/puente_nuevo_de_ronda
   transport: null
   contact: null
-related_places: []
+related_places:
+- id: ES-AND-CAD-SETENIL-DE-LAS-BODEGAS-001
+  relationship: nearby
+  note: Setenil de las Bodegas, often combined with Ronda on the same day.
 description_short: Discover Ronda's historic center, Puente Nuevo, and views over the Tajo gorge.
 description_long: Ronda's official tourism information identifies Puente Nuevo as a defining city landmark and describes the bridge's connection between the old and newer parts of the city, with views over the Tajo gorge. This record uses Plaza de España as a representative central point, about 1 hour 30 minutes' drive from Casa de la Familia (Google Maps main figure). Expect a walking visit across different parts of town. The bridge itself is a public viewpoint, but the Centro de Interpretación inside it requires a paid ticket (current price not confirmed from an official source). Step-free routing, parking, facilities, and the interpretation centre's accessibility status have not been verified.
 seo_title: 'Ronda, Málaga: Historic Center and Puente Nuevo'

@@ -86,7 +86,10 @@ links:
   visitor_information: https://andalucia.org/en/setenil-de-las-bodegas-information-services-setenil-de-las-bodegas
   transport: null
   contact: https://turismodesetenil.com/contacto/
-related_places: []
+related_places:
+- id: ES-AND-MAL-RONDA-001
+  relationship: nearby
+  note: Ronda, often combined with Setenil on the same day.
 description_short: Setenil de las Bodegas is famous for houses built directly into rock overhangs above a river gorge; a free-to-walk historic town, about 1 hour 40 minutes' drive from Casa de la Familia (Google Maps main figure), often combined with nearby Ronda.
 description_long: Setenil de las Bodegas is a small Cádiz-province town (population roughly 2,600) known for houses and bars built directly under and into overhanging rock above a river through the town centre (sources disagree on whether it is the Río Trejo or Guadalporcún). The streets around Plaza de Andalucía, where the old town hall and tourist office sit, are free to walk, with cave-set bars and restaurants lining the main cobbled streets; the Junta de Andalucía formally recognised the town as a 'Municipio Turístico' in a late-2023 agreement. It is about 1 hour 40 minutes' drive from Casa de la Familia (Google Maps main figure) and is commonly visited together with Ronda, a short distance away, though the Setenil-Ronda leg itself has not been route-checked for this record. Tourist-office hours, parking, and accessibility (the town is built on a slope) have not been confirmed from an official source.
 seo_title: 'Setenil de las Bodegas: Cave Houses and Historic Centre'
@@ -182,13 +185,6 @@ evidence:
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: overlap_ronda
-  severity: warning
-  fields:
-  - related_places
-  description: Usually combined with Ronda (docs/places/ronda.md). Add related_places link after both records confirm identity; the Setenil-Ronda driving leg has not itself been route-checked.
-  retryable: true
-  owner: editorial
 - code: owner_supplied_additions_unverified
   severity: info
   fields:

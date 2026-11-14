@@ -176,21 +176,6 @@ evidence:
   confidence: high
   notes: The editor's own judgement; answers stored in collection editorlist-2026-11-14b.
 review_issues:
-- code: castle_price_unconfirmed
-  severity: warning
-  fields:
-  - visit_information.cost_basis
-  description: Current official page says to consult the tourist office; EUR 2 comes from search extracts.
-  retryable: true
-  owner: fact_check
-- code: record_incomplete
-  severity: warning
-  fields:
-  - coordinates
-  - driving_time_from_casa_de_la_familia
-  description: These facts or editorial assessments were not established from the supplied list or checked sources. Explicit unknown values remain in this draft; complete claim-specific research and editorial review before advancement.
-  retryable: true
-  owner: fact_check
 - code: not_found_after_two_attempts
   severity: info
   owner: fact_check
@@ -199,6 +184,13 @@ review_issues:
   - parking
   retryable: true
   description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, parking. Values left unknown; check before visiting. Retry at the next freshness review.'
+- code: not_found_after_two_attempts
+  severity: info
+  owner: fact_check
+  fields:
+  - visit_information.cost_basis
+  retryable: true
+  description: 'Two source attempts (latest 2026-11-14) found no official answer for: the castle entry price (the official page says to ask the tourist office; EUR 2 only from search extracts). Value left as it is; check before visiting. Retry at the next freshness review.'
 created_at: '2026-10-04'
 updated_at: '2026-11-14'
 last_verified: 2026-10-30
