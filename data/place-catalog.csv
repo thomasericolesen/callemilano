@@ -128,7 +128,7 @@ ES-AND-MAL-AQUALAND-TORREMOLINOS-001,aqualand-torremolinos,Aqualand Torremolinos
 ES-AND-MAL-OJEN-001,ojen,Ojén,approved,City,Viewpoint; Historic town; Half day; Free,Ojén,Málaga,36.5654302,-4.8553046,17.5,yes,41 min,docs/places/ojen.md
 ES-AND-MAL-FUNNY-HILL-KARTING-001,funny-hill-karting,Funny Hill Karting,approved,Family activities,Adventure; Half day; Premium,Marbella,Málaga,36.5431404,-4.8651938,18.1,yes,34 min,docs/places/funny-hill-karting.md
 ES-AND-MAL-EL-BAJONDILLO-001,el-bajondillo,El Bajondillo,approved,Beaches,Beach,Torremolinos,Málaga,36.6271,-4.4916,18.3,yes,28 min,docs/places/el-bajondillo.md
-ES-AND-MAL-CASTILLO-DE-MONDA-001,castillo-de-monda,Hotel-Restaurante Castillo de Monda,draft,Restaurants,Restaurant,Monda,Málaga,36.6307591,-4.835406,18.7,yes,35 min,docs/places/castillo-de-monda.md
+ES-AND-MAL-CASTILLO-DE-MONDA-001,castillo-de-monda,Hotel-Restaurante Castillo de Monda,needs_editorial_review,Restaurants,Restaurant,Monda,Málaga,36.6307591,-4.835406,18.7,yes,35 min,docs/places/castillo-de-monda.md
 ES-AND-MAL-MONDA-001,monda,Monda,approved,City,Restaurant; Viewpoint; Historic town; Full day; Premium,Monda,Málaga,36.6306259,-4.835327899999999,18.7,yes,35 min,docs/places/monda.md
 ES-AND-MAL-PLAYAMAR-001,playamar,Playamar,approved,Beaches,Beach,Torremolinos,Málaga,36.6306,-4.4887,18.8,yes,27 min,docs/places/playamar.md
 ES-AND-MAL-MORROFINO-001,morrofino,Morrofino,approved,Restaurants,Restaurant,Torremolinos,Málaga,36.633802,-4.4878468,19.0,yes,29 min,docs/places/morrofino.md
@@ -136,7 +136,7 @@ ES-AND-MAL-LOS-ALAMOS-001,los-alamos,Los Álamos,approved,Beaches,Beach,Torremol
 ES-AND-MAL-MARBELLA-OLD-TOWN-001,marbella-old-town,Marbella Old Town,needs_editorial_review,City,Historic town; Museum; Restaurant; Half day,Marbella,Málaga,36.5101033,-4.8849716,20.1,yes,35 min,docs/places/marbella-old-town.md
 ES-AND-MAL-RIO-GRANDE-COIN-001,rio-grande-coin,Río Grande (Coín),archived,Nature,,Coín,Málaga,36.688942,-4.787760899999999,20.4,yes,40 min,docs/places/rio-grande-coin.md
 ES-AND-MAL-JUANAR-MACHO-MONTES-001,juanar-macho-montes,Juanar and Mirador del Macho Montés,approved,Nature,Hiking; Viewpoint; Full day; Free,Ojén,Málaga,36.564912199999995,-4.890884799999999,20.6,yes,49 min,docs/places/juanar-macho-montes.md
-ES-AND-MAL-PASEO-MARITIMO-MARBELLA-001,paseo-maritimo-marbella,Paseo Marítimo de Marbella,draft,Excursions,,Marbella,Málaga,36.507252799999996,-4.8971162,21.2,yes,37 min,docs/places/paseo-maritimo-marbella.md
+ES-AND-MAL-PASEO-MARITIMO-MARBELLA-001,paseo-maritimo-marbella,Paseo Marítimo de Marbella,needs_fact_check,Excursions,,Marbella,Málaga,36.507252799999996,-4.8971162,21.2,yes,37 min,docs/places/paseo-maritimo-marbella.md
 ES-AND-MAL-MUSEO-AERONAUTICO-MALAGA-001,museo-aeronautico-malaga,Museo Aeronáutico de Málaga,approved,Family activities,Museum; Half day; Premium,Málaga,Málaga,36.669914399999996,-4.4811323,22.0,yes,28 min,docs/places/museo-aeronautico-malaga.md
 ES-AND-MAL-PLAYA-DE-NAGUELES-001,playa-de-nagueles,Playa de Nagüeles,approved,Beaches,Beach; Half day; Free,Marbella,Málaga,36.5022476,-4.9213001,23.4,yes,36 min,docs/places/playa-de-nagueles.md
 ES-AND-MAL-ISTAN-001,istan,Istán,approved,City,Nature; Viewpoint; Historic town; Half day; Free,Istán,Málaga,36.58209850000001,-4.9497007,26.1,yes,57 min,docs/places/istan.md

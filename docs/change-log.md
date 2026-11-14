@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-14 - The two remaining drafts read again in Chrome (level A)
+
+- `castillo-de-monda`: the own site's contact and menu pages (read in Claude in Chrome) give daily opening times for Restaurant Albacar and Bar Albacar, parking (private car park plus free roadside parking; steep access road), reception phone and charcoal-grill mains of 26-36 EUR. `cost_level` set to EUR EUR (median main plus one drink about 40-45 EUR). Core facts are official, so lifted to `needs_editorial_review` (`next_review_at` 2027-02-14). Info issue `guest_only_facilities` kept: the site sells public table booking but states no rule for non-resident diners.
+- `paseo-maritimo-marbella`: Turismo Marbella's Avenida del Mar page (links La Alameda with the promenade; Dalí sculptures) and El Faro tourist office page (beside the promenade, with hours) found; the length of 7 km only from a search excerpt of an official brochure. Moved to `needs_fact_check` with a `facts_partly_checked` warning (parking, toilets, accessibility, dogs and cost not found). `source_covers_other_section` and `second_source_attempt_failed` closed.
+- Both are now in the app export (158 places) with Danish texts. Firecrawl was tried on a Turismo Marbella brochure (8 credits) without finding the promenade text.
+
 ## 2026-11-14 - Editor list (2) answered and written in (owner decisions, list)
 
 Source: https://claude.ai/artifact/2HgGANPzRn8pRQqqdGcur1, answers read from collection `editorlist-2026-11-14b` (all 14 items decided). Written as the editor's own judgement with an evidence entry (date, link) per record; `last_reviewed_at` 2026-11-14. 42 records; no status changed.

@@ -1741,5 +1741,28 @@
   ],
   "translated_at": "2026-11-14",
   "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-CASTILLO-DE-MONDA-001": {
+  "source_sha": "c6552f1f93f2976d",
+  "summary": "Albacar, restauranten på 6. sal i hotellet Castillo de Monda over landsbyen Monda, med udsigt over landskabet; ca. 35 min i bil fra Casa de la Familia.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Restaurant Albacar har åbent hver dag: morgenmad 8.30-10.30, frokost 13.00-16.00, middag 19.00-22.00. Bar Albacar har åbent hver dag 9.00-23.00. (Stedets egen side, læst 14. november 2026; ikke angivet som sæsonbestemt.)"
+   },
+   {
+    "label": "Pris",
+    "text": "Hovedretter fra grillen 26-36 € (typisk 36 €); vin pr. glas fra 4,50 €. En hovedret og en drik koster ca. 40-45 €."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-PASEO-MARITIMO-MARBELLA-001": {
+  "source_sha": "ce8de18bf6432469",
+  "summary": "Marbellas strandpromenade, forbundet med den gamle bydel via Avenida del Mar med Dalí-skulpturerne; ca. 37 min i bil fra Casa de la Familia.",
+  "practical": [],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  }
 }
