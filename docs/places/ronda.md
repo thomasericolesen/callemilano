@@ -72,7 +72,7 @@ booking_required: false
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
   schedule: 'Puente Nuevo interpretation centre, valid from 1 Oct 2026 (official PDF): Mon and Sat 10:00-14:00 and 15:00-18:00; Tue-Fri 9:30-19:00; Sun and holidays 10:00-15:00. The web page says Tue-Fri 10:00-19:00; the owner chose the official PDF on 2026-11-11.'
   typical_duration: null
@@ -166,6 +166,14 @@ evidence:
   checked_by: record-writer agent
   confidence: medium
   notes: Tourism office contact page. Phone only; a HORARIOS link exists but no timetable text in the fetched page. No Centro de Interpretacion access or ticket information, so visitor_facilities_unverified stays open.
+- field: cost_level
+  claim: 'Official timetable PDF, 1 Oct 2026: Centro de Interpretación del Puente Nuevo "2,50 € Individual"; Baños Árabes "4,50 € individual"; Desfiladero del Tajo "12 €" (not under 8); Casa del Rey Moro "10 € Individual". The bridge and old town themselves have no entry price.'
+  source_url: https://info.turismoderonda.es/wp-content/uploads/2026/10/HORARIOS-MONUMENTOS-Y-MUSEOS-RONDA-E_I-1-octubre-2026.pdf
+  source_type: official_tourism
+  checked_at: '2026-11-14'
+  checked_by: claude-code-agent (Firecrawl PDF read)
+  confidence: high
+  notes: Core experience (walk, bridge viewpoint) is free; paid sights are optional. Tier EUR is an estimate of the core day.
 review_issues:
 - code: family_ratings_estimated
   severity: warning
@@ -187,9 +195,8 @@ review_issues:
   - dog_friendly
   - toilets_available
   - food_available
-  - cost_level
   retryable: true
-  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available, cost_level. Values left unknown; check before visiting. Retry at the next freshness review.'
+  description: 'Two source attempts (2026-11-13 and 2026-11-14) found no official answer for: accessibility, wheelchair_friendly, parking, dog_friendly, toilets_available, food_available. Values left unknown; check before visiting. Retry at the next freshness review.'
 created_at: 2026-10-03
 updated_at: '2026-11-14'
 last_verified: 2026-10-30

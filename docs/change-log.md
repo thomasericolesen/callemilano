@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-11-14 - Ronda `cost_level` from the official timetable PDF (level A)
+
+- `ronda`: `cost_level` set to EUR from the Ronda tourist office PDF of 1 October 2026 (read with Firecrawl; the PDF is image-only for other tools): Puente Nuevo interpretation centre 2.50 EUR, baths 4.50 EUR, gorge 12 EUR. The bridge and old town are free. `cost_level` removed from the `not_found_after_two_attempts` issue.
+- Firecrawl also got "Access Denied" from andalucia.org. Status file `docs/status-2026-11-14.md` updated with the day's work.
+
 ## 2026-11-14 - `next_review_at` set on 34 app places (level A)
 
 - **Set** on the app places that had none (34 of the 35; `canon-de-las-angosturas` is still `needs_fact_check` and keeps no date until it is checked).
