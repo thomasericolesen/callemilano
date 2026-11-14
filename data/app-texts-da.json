@@ -1396,5 +1396,37 @@
   ],
   "translated_at": "2026-11-13",
   "checked_by": "Claude (main session)"
+ },
+ "ES-AND-CAD-BAELO-CLAUDIA-001": {
+  "source_sha": "40af92c1c1210eac",
+  "summary": "Romersk udgravning ved Bolonia nær Tarifa med resterne af en romersk kystby og et besøgscenter med museum.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "21/9-20/3: tirsdag-lørdag 9-18; søndage, helligdage og mandage før en helligdag 9-15. 21/3-20/6: tirsdag-lørdag 9-21; søn- og helligdage 9-15. 21/6-20/9: tirsdag-lørdag 9-15; søn- og helligdage 9-15. Lukket mandag (undtagen dagen før en helligdag). Lukket 1. og 6. januar, 1. maj samt 24., 25. og 31. december 2026. Sidste adgang 30 minutter før lukning. Under ombygning af modtagelsen er indgangen fra den sydlige parkeringsplads ved stranden (officiel side, læst 13. november 2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Gratis for EU-borgere (med legitimation); 1,50 EUR for besøgende fra andre lande (officiel side, læst 13. november 2026)."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
+ },
+ "ES-AND-SEV-SEVILLA-001": {
+  "source_sha": "ef06a5cecb80baa3",
+  "summary": "Sevillas katedral og Giralda er centrum i en historisk bykerne, der også rummer Real Alcázar og Plaza de España. Med ca. 2 timer og 40 minutters kørsel fra Casa de la Familia er det bedst som en lang dagstur eller med overnatning, især i sommervarmen.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Katedralen: mandag-lørdag 10:45-18:00, søndag 14:30-19:00 (officiel side, læst 13. november 2026). Real Alcázar: 1/10-31/3 9:30-17:00 (rydning fra 17:45); 1/4-30/9 9:30-19:00 (rydning fra 19:45)."
+   },
+   {
+    "label": "Pris",
+    "text": "Katedralen: 13 EUR online / 14 EUR i billetlugen (priser fra 1. januar 2026); gratis for børn til og med 13 år i følge med en voksen. Real Alcázar: 15,50 EUR, nedsat 8 EUR. Gratis (gratisbillet skal hentes) for børn til og med 13 år i følge med en voksen, personer med over 33 % handicap og ledsager, ledige i Sevilla-provinsen og ICOMOS-medlemmer."
+   }
+  ],
+  "translated_at": "2026-11-14",
+  "checked_by": "Claude (main session)"
  }
 }

@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-14 - Danish texts for Baelo Claudia and Sevilla (level A)
+
+- After the import, the app still showed old Danish texts for Baelo Claudia (2024 hours, no price) and Sevilla. The app's import keeps Danish texts written in the app when the repository sends only English (`mergeGuide` in the app repo), so a newer English fact does not replace an older Danish text. Danish texts for the two places were added to `data/app-texts-da.json`, so the import now overwrites them. The general problem (other places with only English in the repository but old Danish in the app) is still open.
+
 ## 2026-11-14 - Second source attempt for the 21 app places with `source_attempt_not_found` (level A; three archiving proposals go to the editor)
 
 - Second attempt, 13 November: 12 social-media pages and 4 blocked pages were read in Claude in Chrome; 9 official pages went through `source-reader` (two quotes spot-checked against the fetched text).

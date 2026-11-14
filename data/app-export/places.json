@@ -6,7 +6,7 @@
   "places": 159,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 135,
+  "danish": 137,
   "danish_stale": []
  },
  "records": [
@@ -692,15 +692,15 @@
     "cost_level": "gratis",
     "booking_required": false,
     "wheelchair": "ukendt",
-    "summary": "Roman archaeological site at Bolonia near Tarifa, with remains of a coastal Roman town and an on-site visitor centre.",
+    "summary": "Romersk udgravning ved Bolonia nær Tarifa med resterne af en romersk kystby og et besøgscenter med museum.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "21 Sep-20 Mar: Tue-Sat 09:00-18:00; Sundays, public holidays and Mondays before a holiday 09:00-15:00. 21 Mar-20 Jun: Tue-Sat 09:00-21:00; Sundays/holidays 09:00-15:00. 21 Jun-20 Sep: Tue-Sat 09:00-15:00; Sundays/holidays 09:00-15:00. Closed Mondays (except the day before a holiday). Closed in 2026 on 1 and 6 January, 1 May, 24, 25 and 31 December. Last entry 30 minutes before closing. During building works at reception, entry is from the south car park by the beach (official site, read 2026-11-13)."
+      "text": "21/9-20/3: tirsdag-lørdag 9-18; søndage, helligdage og mandage før en helligdag 9-15. 21/3-20/6: tirsdag-lørdag 9-21; søn- og helligdage 9-15. 21/6-20/9: tirsdag-lørdag 9-15; søn- og helligdage 9-15. Lukket mandag (undtagen dagen før en helligdag). Lukket 1. og 6. januar, 1. maj samt 24., 25. og 31. december 2026. Sidste adgang 30 minutter før lukning. Under ombygning af modtagelsen er indgangen fra den sydlige parkeringsplads ved stranden (officiel side, læst 13. november 2026)."
      },
      {
       "label": "Pris",
-      "text": "Free for accredited EU citizens; EUR 1.50 for visitors from other countries (official site, read 2026-11-13)."
+      "text": "Gratis for EU-borgere (med legitimation); 1,50 EUR for besøgende fra andre lande (officiel side, læst 13. november 2026)."
      }
     ],
     "links": {
@@ -709,7 +709,7 @@
      "info": "https://www.museosdeandalucia.es/web/conjuntoarqueologicobaeloclaudia/informacion-general"
     },
     "checked_at": "2026-11-13",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "Family activities",
      "municipality": "Tarifa",
@@ -10777,15 +10777,15 @@
     "cost_level": "lav",
     "booking_required": false,
     "wheelchair": "ukendt",
-    "summary": "Sevilla's cathedral and Giralda anchor a historic centre that also includes the Real Alcázar and Plaza de España; at about 2 hours 40 minutes' drive from Casa de la Familia (Google Maps main figure), it is best planned as a long day trip or overnight stay, especially given extreme summer heat.",
+    "summary": "Sevillas katedral og Giralda er centrum i en historisk bykerne, der også rummer Real Alcázar og Plaza de España. Med ca. 2 timer og 40 minutters kørsel fra Casa de la Familia er det bedst som en lang dagstur eller med overnatning, især i sommervarmen.",
     "practical": [
      {
       "label": "Åbningstider",
-      "text": "Cathedral: Monday-Saturday 10:45-18:00, Sunday 14:30-19:00 (official site, read 2026-11-13). Real Alcázar: 1 Oct-31 Mar 9:30-17:00 (clearing starts 17:45); 1 Apr-30 Sep 9:30-19:00 (clearing 19:45)."
+      "text": "Katedralen: mandag-lørdag 10:45-18:00, søndag 14:30-19:00 (officiel side, læst 13. november 2026). Real Alcázar: 1/10-31/3 9:30-17:00 (rydning fra 17:45); 1/4-30/9 9:30-19:00 (rydning fra 19:45)."
      },
      {
       "label": "Pris",
-      "text": "Cathedral: EUR 13.00 online / EUR 14.00 at the ticket office (rates effective 1 January 2026); free for children up to 13 accompanied by an adult. Real Alcázar: EUR 15.50 general; EUR 8.00 reduced. Free (free ticket must be collected): children up to and including 13 accompanied by an adult, disability over 33% and companion, unemployed in Seville province, ICOMOS members."
+      "text": "Katedralen: 13 EUR online / 14 EUR i billetlugen (priser fra 1. januar 2026); gratis for børn til og med 13 år i følge med en voksen. Real Alcázar: 15,50 EUR, nedsat 8 EUR. Gratis (gratisbillet skal hentes) for børn til og med 13 år i følge med en voksen, personer med over 33 % handicap og ledsager, ledige i Sevilla-provinsen og ICOMOS-medlemmer."
      }
     ],
     "links": {
@@ -10794,7 +10794,7 @@
      "info": "https://alcazarsevilla.org/prepara-la-visita/"
     },
     "checked_at": "2026-11-13",
-    "text_language": "en",
+    "text_language": "da",
     "trip": {
      "record_category": "City",
      "municipality": "Sevilla",
