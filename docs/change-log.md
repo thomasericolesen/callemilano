@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-14 - `next_review_at` set on 34 app places (level A)
+
+- **Set** on the app places that had none (34 of the 35; `canon-de-las-angosturas` is still `needs_fact_check` and keeps no date until it is checked).
+- **Three months (2027-02-14):** all 20 restaurants and bars, plus `baelo-claudia`, `selwo-aventura`, `olvera-castle`, `ronda`, `mercado-de-atarazanas` and `duna-de-bolonia` (hours, prices or access change often).
+- **Five months (2027-04-14):** the other beaches, the towns and the remaining places (the default for fact-checked places); beaches are read again before the bathing season.
+- Nothing else changed; the app export is unchanged because `next_review_at` is not exported.
+
 ## 2026-11-14 - Second source attempt for 21 app places with open facility issues (level A)
 
 - **Read:** 21 places with `visitor_facilities_unverified` (19) or `record_incomplete` (2), in three batches of seven, with `source-reader` (curl, PDF, Playwright). Tavily was not available in the session. Chrome read the Tolox spa and the Malaga cathedral page; andalucia.org gave "Access Denied" there too.
