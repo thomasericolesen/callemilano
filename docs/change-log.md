@@ -12,6 +12,7 @@
   - `cafeteria-san-chocolate`: no own channel found.
   - `la-canasta-fuengirola`: the Instagram profile has no address or hours and its newest post is from December 2024; identity is not confirmed.
 - Danish texts for the 3 new app places; the export has 191 places, 0 stale. Tags and family scores for the 3 are not set (level C; next editor list).
+- `POST /api/import-places?apply=1`: 188 updated, 3 created, 0 skipped (the dry run gave the same counts). A second dry run afterwards gave 191 updated and 0 created.
 
 ## 2026-11-15 - Emergency box in the app search, health centre and 24-hour pharmacy (owner decision, chat)
 
