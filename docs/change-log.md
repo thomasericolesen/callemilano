@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-15 - Category `Restaurants` to be shown as "Mad og is" in the app (owner decision, chat)
+
+- The category covers restaurants, tapas bars, cafés, ice-cream shops and churrerías. A family looking for ice cream may skip "restaurant".
+- Owner decision: show the category as "Mad og is" in the app. Only the display text changes; the schema value `Restaurants`, the tag `Restaurant` (already shown as "spisested") and the app key `restaurant` stay as they are.
+- A sub-division into ice cream, café and restaurant waits until the need shows. The change is made in the app repo and is not done yet; see `docs/status-2026-11-15.md`.
+
 ## 2026-11-15 - Second source attempt for the six drafts without a source; three archived (owner decision, chat)
 
 - Owner instruction (chat): make a second attempt, and archive the drafts that still fail. Sources tried: web search, then Instagram and Facebook in Claude in Chrome (signed in).
