@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-15 - Name search in the app (owner request, chat)
+
+- The app (`callemilano-app`, PR thomasericolesen/callemilano-f388b2be#45) has a search field at the top of the Oplev front page: "Søg efter et sted, fx Tomillo Limón".
+- The search ignores case and accents and matches parts of the name, in any word order. "Tomillo Limon", "tomillo" and "limón" all find Tomillo Limón.
+- It searches all places regardless of the chosen persona and drive time. It works on the places already loaded, so it needs no network and also works offline.
+- Tested locally at mobile width against the 188 exported places with Tomillo Limon, malaga, benalm (partial name) and xyz (no hit). Merged and published through Lovable after the owner's OK. The owner confirmed in chat that the search works in the app.
+- Not done: the remote self-test (`scripts/selftest-remote.mts`) was blocked by the permission system. It covers Turforslag, which this change does not touch.
+
 ## 2026-11-15 - Editor's tags, age groups, family scores and energy for the 30 new app places (owner decision, list)
 
 - On the tags list (https://claude.ai/artifact/VoHiKgGvqiiP3YA66KP3s5, collection `tags_2026_11_15`), the editor approved all 30 cards: tags, age groups, family scores and energy. They are written into the records as the editor's own judgement, with an evidence entry, and `family_suitability_not_assessed` is closed.
