@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-PARQUE-LA-CANTERA-001
 slug: parque-la-cantera
 name: Parque La Cantera
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Parque La Cantera: a park, about 13 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Parque La Cantera is a park. About 13 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Parque La Cantera: park in Fuengirola for a walk, exercise or time outdoors as a family, about 13 min by car.'
+description_long: Parque La Cantera is a park in Fuengirola. Fuengirola's official map of parks describes it as having everything needed for a walk, exercise or time outdoors as a family (checked 2026-11-15). No playground or opening hours are stated there. About 13 minutes by car from Casa de la Familia.
 seo_title: Parque La Cantera, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Parque La Cantera (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,21 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long
+  claim: '''Este parque contiene todos los elementos necesarios para disfrutar de un paseo, hacer ejercicio o disfrutar en familia al aire libre.'''
+  source_url: https://mapas.fuengirola.es/es/parques-y-plazas/resource/r/parque-de-la-cantera
+  source_type: government
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,11 +124,19 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: not_found_first_attempt
+  severity: warning
+  fields:
+  - visit_information.schedule
+  - toilets_available
+  description: 'First source attempt 2026-11-15 found no official answer for: opening hours, playground and toilets. Value left unknown; check before visiting.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

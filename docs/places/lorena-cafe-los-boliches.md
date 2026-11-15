@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-LORENA-CAFE-LOS-BOLICHES-001
 slug: lorena-cafe-los-boliches
 name: Lorena Café Los Boliches
@@ -60,16 +60,16 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
-cost_level: Unknown
+food_available: 'yes'
+cost_level: €
 visit_information:
-  schedule: null
+  schedule: Kitchen until 23:00, café until 00:00; opening time not stated (own website, 2026-11-15).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own carta 2026-11-15: dishes about 6,95-15 €.'
+  cost_checked_at: '2026-11-15'
 links:
   official_website: http://lorenacafe.com/
   booking: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Lorena Café Los Boliches: a café, about 15 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Lorena Café Los Boliches is a café. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Lorena Café Los Boliches: café for breakfast, sandwiches, burgers and bowls in Fuengirola, about 15 min by car.'
+description_long: Lorena Café Los Boliches is one of four Lorena Café venues, serving breakfasts, sandwiches, burgers, bowls and juices from the same menu in all four (Av. Ramón y Cajal, 48, 29640 Fuengirola). The kitchen is open until 23:00 and the café until 00:00; the opening time is not stated. Dishes cost about 6,95-15 € (own website, checked 2026-11-15). About 15 minutes by car from Casa de la Familia.
 seo_title: Lorena Café Los Boliches, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Lorena Café Los Boliches (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,21 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule, cost_level, description_long
+  claim: '''desayunos, bocadillos, burgers, bowls y zumos ... Misma carta en los cuatro locales''; address ''Av. Ramón y Cajal, 48, 29640 Fuengirola''; ''Cocina abierta hasta las 23:00'' / ''Local abierto hasta las 0:00''; carta dishes about 6,95-15,00 €.'
+  source_url: http://lorenacafe.com/locales
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,11 +124,18 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: not_found_first_attempt
+  severity: warning
+  fields:
+  - visit_information.schedule
+  description: 'First source attempt 2026-11-15 found no official answer for: opening time in the morning. Value left unknown; check before visiting.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

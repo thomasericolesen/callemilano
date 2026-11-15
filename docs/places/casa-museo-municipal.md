@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-CASA-MUSEO-MUNICIPAL-001
 slug: casa-museo-municipal
 name: Casa Museo Municipal
@@ -61,24 +61,24 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
-  schedule: null
+  schedule: Monday-Sunday 10:00-14:00 and 15:00-19:00 (Turismo Mijas, 2026-11-15).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Turismo Mijas 2026-11-15: entry 1 €.'
+  cost_checked_at: '2026-11-15'
 links:
   official_website: null
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: 952 59 03 80
 related_places: []
-description_short: 'Casa Museo Municipal: a municipal museum, about 21 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Casa Museo Municipal is a municipal museum. About 21 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Casa Museo (Museo Histórico-Etnológico) in Mijas Pueblo: local history museum, entry 1 €, about 21 min by car.'
+description_long: The Casa Museo, Mijas' municipal history and ethnology museum, is on Plaza de la Libertad in Mijas Pueblo. Mijas' official tourism site gives Monday-Sunday 10:00-14:00 and 15:00-19:00, entry 1 €, phone 952 59 03 80 (checked 2026-11-15). About 21 minutes by car from Casa de la Familia.
 seo_title: Casa Museo Municipal, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Casa Museo Municipal (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,21 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule, cost_level, links.contact
+  claim: '''Museo histórico-etnológico - Casa Museo''; ''Horario: Lunes a Domingo, de 10:00H a 14:00H - de 15:00H a 19:00H''; ''Dirección: Plaza de la Libertad, Mijas''; ''Entrada: 1 €''; ''Contacto: 952 59 03 80''.'
+  source_url: https://turismo.mijas.es/es/cultura/museos/museo-historico-y-etnologico
+  source_type: official_tourism
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +126,9 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

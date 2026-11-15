@@ -121,6 +121,13 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: no_readable_own_source
+  severity: warning
+  fields:
+  - visit_information.schedule
+  description: vipentto.com did not load on 2026-11-15 (Chrome error page, curl TLS error). The cloud reader's quote 'Todos los días de 13:00 a 01:00hs' could not be verified live.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
 last_verified: null

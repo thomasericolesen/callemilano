@@ -99,6 +99,13 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: links.official_website
+  claim: The website on the Google listing, sanchocolate.com, is a Moroccan chocolate brand (prices in 'DH', 'racines marocaines'), not this café. The listing name is now 'San Chocolate Coffee Gallery'.
+  source_url: http://www.sanchocolate.com/
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: high
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -121,6 +128,15 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: no_readable_own_source
+  severity: warning
+  fields:
+  - visit_information.schedule
+  - cost_level
+  - description_long
+  description: 'First source attempt 2026-11-15: no own website or social media found for the café; the listed website belongs to another business.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
 last_verified: null

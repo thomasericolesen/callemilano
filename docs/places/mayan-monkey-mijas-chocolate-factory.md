@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-MAYAN-MONKEY-MIJAS-CHOCOLATE-FACTORY-001
 slug: mayan-monkey-mijas-chocolate-factory
 name: Mayan Monkey Mijas Chocolate Factory
@@ -63,13 +63,13 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Every day 10:30-18:00 (own website, 2026-11-15).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own website 2026-11-15: factory tours free; workshops 19,95-139,95 € (unit not stated on the front page).'
+  cost_checked_at: '2026-11-15'
 links:
   official_website: https://mayanmonkey.es/
   booking: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Mayan Monkey Mijas Chocolate Factory: a chocolate factory with visits, about 21 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Mayan Monkey Mijas Chocolate Factory is a chocolate factory with visits. About 21 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Mayan Monkey Mijas: working chocolate factory in Mijas Pueblo with free tours and workshops from age 3, about 21 min by car.'
+description_long: Mayan Monkey is a working chocolate factory on Plaza Virgen de la Peña in Mijas Pueblo, open every day 10:30-18:00. Factory tours are free; hands-on chocolate workshops start at 19,95 € (25 min) and run up to 139,95 € for a 2-hour masterclass. Workshops are hands-on from age 3, under-3s are free, and a weekend workshop is designed for families with children aged 3-10 (own website, checked 2026-11-15). About 21 minutes by car from Casa de la Familia.
 seo_title: Mayan Monkey Mijas Chocolate Factory, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Mayan Monkey Mijas Chocolate Factory (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,29 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule, description_long
+  claim: '''a real working chocolate factory in the heart of Mijas Pueblo''; ''Open every day from 10:30 to 18:00 at Plaza Virgen de la Peña''; ''Free factory tours available daily''.'
+  source_url: https://mayanmonkey.es/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: age_groups (input), visit_information.cost_basis
+  claim: '''Hands-on from age 3'', ''Under 3s free''; ''Weekend Wonder Workshop ... Designed for families with younger kids (aged 3 to 10)''; workshops 25 min €19.95, 40 min €35.00, 1h10 €49.95–€59.95, 1h €69.95, 1h30 €109.95–€119.95, ''MMM Masterclass'' 2h €139.95.'
+  source_url: https://mayanmonkey.es/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+  notes: Whether workshop prices are per person is not stated on the front page.
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +134,9 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

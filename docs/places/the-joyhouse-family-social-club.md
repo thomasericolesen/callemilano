@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-THE-JOYHOUSE-FAMILY-SOCIAL-CLUB-001
 slug: the-joyhouse-family-social-club
 name: The Joyhouse family social club
@@ -60,16 +60,16 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
-cost_level: Unknown
+food_available: 'yes'
+cost_level: €
 visit_information:
-  schedule: null
+  schedule: Monday-Friday 14:30-22:00; Saturday-Sunday 11:00-22:00 (own website, 2026-11-15).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own website 2026-11-15: 7,95 € per child for 2 hours; adults free; socks 1 €.'
+  cost_checked_at: '2026-11-15'
 links:
   official_website: https://www.thejoyhouse.es/
   booking: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'The Joyhouse family social club: an indoor play and activity venue, about 15 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: The Joyhouse family social club is an indoor play and activity venue. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'The Joyhouse: family social club in Fuengirola with soft play for children and a café-bar, open 7 days, about 15 min by car.'
+description_long: The Joyhouse (formerly The Fun House) in Fuengirola is a family social club with a soft-play area and bouncy castle for children plus a café-bar for adults. Open Monday-Friday 14:30-22:00 and Saturday-Sunday 11:00-22:00. Play entry is 7,95 € per child for 2 hours, an extra hour 3,50 €; adults enter free. Socks are required in the play area and cost 1 € (own website, checked 2026-11-15). No age or height limit is stated. About 15 minutes by car from Casa de la Familia.
 seo_title: The Joyhouse family social club, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for The Joyhouse family social club (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,22 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule, cost_level, description_long
+  claim: '''Kids play centre'' / ''FAMILY SOCIAL CLUB · OPEN 7 DAYS''; ''Mon to Fri · 14:30pm – 10pm, Sat & Sun 11am – 10pm''; ''Play entry is just €7,95 per child for 2 hours''; ''extend your playtime for another hour for €3,50''; ''socks are available to buy for just €1''; ''Grown-ups enter for free!''; ''Socks are required in the play area.'''
+  source_url: https://www.thejoyhouse.es/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+  notes: Page title says 'The Fun House Fuengirola' (earlier name).
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +127,9 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

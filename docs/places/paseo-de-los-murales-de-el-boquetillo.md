@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-PASEO-DE-LOS-MURALES-DE-EL-BOQUETILLO-001
 slug: paseo-de-los-murales-de-el-boquetillo
 name: Paseo de los Murales de El Boquetillo
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Paseo de los Murales de El Boquetillo: a street-mural walk, about 12 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Paseo de los Murales de El Boquetillo is a street-mural walk. About 12 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Paseo de los Murales de El Boquetillo: outdoor street-mural walk in Fuengirola''s El Boquetillo quarter, about 12 min by car.'
+description_long: The Paseo de los Murales is an outdoor walk past more than 20 original murals in the El Boquetillo quarter of Fuengirola (Fuengirola's official tourism site, checked 2026-11-15). It is a street-art route, not a museum building. About 12 minutes by car from Casa de la Familia.
 seo_title: Paseo de los Murales de El Boquetillo, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Paseo de los Murales de El Boquetillo (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,22 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long
+  claim: '''Más de 20 creaciones inéditas forman El Paseo de los Murales en el barrio de El Boquetillo.'''
+  source_url: https://turismo.fuengirola.es/que-ver/arte-urbano
+  source_type: official_tourism
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+  notes: 'Editor decision 2026-11-15: keep under City as a mural walk. Free access and hours are not stated verbatim.'
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +127,9 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---
