@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-CAFETERIA-SAN-CHOCOLATE-001
 slug: cafeteria-san-chocolate
 name: Cafetería San Chocolate
@@ -142,6 +142,10 @@ updated_at: '2026-11-15'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-15'
+  notes: 'Owner decision 2026-11-15 (chat): make a second attempt on the six drafts without a source and archive those that still fail. Second attempt 2026-11-15: no own website, Instagram or Facebook found; only aggregator listings (some under the name ''Pan y Chocolate''). The website on the Google listing belongs to a Moroccan chocolate brand. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

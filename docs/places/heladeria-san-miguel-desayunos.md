@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-HELADERIA-SAN-MIGUEL-DESAYUNOS-001
 slug: heladeria-san-miguel-desayunos
 name: Heladería San Miguel Desayunos
@@ -135,6 +135,10 @@ updated_at: '2026-11-15'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-15'
+  notes: 'Owner decision 2026-11-15 (chat): make a second attempt on the six drafts without a source and archive those that still fail. Second attempt 2026-11-15: web search found only third-party listings (two different addresses); the only Facebook page named ''Heladeria San Miguel'' sells soft ice cream and ice lollies elsewhere and is not this café; no Instagram found. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

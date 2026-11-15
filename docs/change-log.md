@@ -1,5 +1,18 @@
 # Change log
 
+## 2026-11-15 - Second source attempt for the six drafts without a source; three archived (owner decision, chat)
+
+- Owner instruction (chat): make a second attempt, and archive the drafts that still fail. Sources tried: web search, then Instagram and Facebook in Claude in Chrome (signed in).
+- Own source found:
+  - `heladeria-mandarina-cava`: Instagram @mandarinaycava, same address, active September 2026. Now `needs_fact_check`; hours not found.
+  - `delis-helados-artesanales`: Instagram @delishelados; its phone matches the Google listing. Now `needs_fact_check`; hours not found.
+  - `vipentto`: Instagram @vipentto.es, same address, hours Monday-Sunday 15:00-01:00. Lifted to `needs_editorial_review`; the cloud's unverified "13-01" is superseded.
+- Archived, with `review_decision` and reason; the IDs stay allocated:
+  - `heladeria-san-miguel-desayunos`: the only matching Facebook page is another business.
+  - `cafeteria-san-chocolate`: no own channel found.
+  - `la-canasta-fuengirola`: the Instagram profile has no address or hours and its newest post is from December 2024; identity is not confirmed.
+- Danish texts for the 3 new app places; the export has 191 places, 0 stale. Tags and family scores for the 3 are not set (level C; next editor list).
+
 ## 2026-11-15 - Emergency box in the app search, health centre and 24-hour pharmacy (owner decision, chat)
 
 - App PR thomasericolesen/callemilano-f388b2be#46: a search on Oplev for words about illness, accidents or emergencies (Danish, Spanish, English, e.g. "vagtlæge", "ambulance", "apotek", "urgencias") shows an "Akut hjælp" box first: call 112, the two 24-hour emergency departments, the health centre and the 24-hour pharmacy. It works offline. Not merged yet.

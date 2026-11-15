@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-VIPENTTO-001
 slug: vipentto
 name: Vipentto
@@ -60,10 +60,10 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Monday-Sunday 15:00-01:00 (own Instagram, 2026-11-15).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.instagram.com/vipentto.es/
 related_places: []
-description_short: 'Vipentto: an ice-cream shop, about 13 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Vipentto is an ice-cream shop. About 13 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Vipentto: Argentine artisan ice-cream shop in Fuengirola, open daily 15:00-01:00, about 13 min by car.'
+description_long: Vipentto is an Argentine artisan ice-cream shop on Calle Troncón 9 in Fuengirola, made with natural Italian ingredients and pet-friendly, according to its own Instagram profile. Open every day 15:00-01:00 (checked 2026-11-15). Prices are not published. About 13 minutes by car from Casa de la Familia.
 seo_title: Vipentto, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Vipentto (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,22 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule, description_long, links.contact
+  claim: 'Instagram bio: ''🍦Helado artesanal argentino hecho con ingredientes naturales italianos🌿'' / ''🗓Lun-Dom🕐15:00 - 1:00'' / ''#petfriendly'' / ''Troncon 9, Fuengirola 29640''.'
+  source_url: https://www.instagram.com/vipentto.es/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (second source attempt 2026-11-15, Claude in Chrome)
+  confidence: medium
+  notes: Address matches the Google listing. The cloud reader's earlier '13:00 a 01:00' from vipentto.com is superseded; that site did not load. Not the Argentine account @vipentto (La Plata).
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: own-venue evidence for type, address and hours; no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,18 +125,18 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
-- code: no_readable_own_source
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
   fields:
-  - visit_information.schedule
-  description: vipentto.com did not load on 2026-11-15 (Chrome error page, curl TLS error). The cloud reader's quote 'Todos los días de 13:00 a 01:00hs' could not be verified live.
+  - cost_level
   retryable: true
   owner: fact_check
+  description: 'Two source attempts (2026-11-15) found no official answer for: prices. Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

@@ -3,10 +3,10 @@
   "generated": "2026-11-15",
   "source": "thomasericolesen/callemilano",
   "script": "tools/app_export.py",
-  "places": 188,
+  "places": 191,
   "holidays": 28,
   "rule": "status needs_fact_check or later; primary area (drive <= 30 min) or layer membership",
-  "danish": 188,
+  "danish": 191,
   "danish_stale": []
  },
  "records": [
@@ -3361,6 +3361,68 @@
    }
   },
   {
+   "id": "ES-AND-MAL-DELIS-HELADOS-ARTESANALES-001",
+   "slug": "delis-helados-artesanales",
+   "name": "DELIS HELADOS ARTESANALES",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Benalmádena",
+   "lat": 36.5990501,
+   "lng": -4.5337667,
+   "google_maps_url": "https://maps.google.com/?cid=15171377836622518174",
+   "google_place_id": "ChIJARRzN2_9cg0Rnpce0cKPi9I",
+   "url": null,
+   "tags": [],
+   "description": "Delis Helados is an Argentine-style artisan ice-cream shop on Avenida de la Constitución in Arroyo de la Miel, Benalmádena, which also serves coffee, according to its own Instagram profile (phone +34 669 96 49 69). Opening hours and prices were not found (checked 2026-11-15); check before visiting. About 23 minutes by car from Casa de la Familia.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 23,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [],
+    "cost_level": null,
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Isbutik med hjemmelavet is i argentinsk stil og café i Arroyo de la Miel, Benalmádena. Åbningstider er endnu ikke fundet; tjek før besøg.",
+    "practical": [],
+    "links": {
+     "official": null,
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-15",
+    "text_language": "da",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Benalmádena",
+     "schedule": null,
+     "schedule_checked_at": null,
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-15"
+    }
+   }
+  },
+  {
    "id": "ES-AND-CAD-DUNA-DE-BOLONIA-001",
    "slug": "duna-de-bolonia",
    "name": "Duna de Bolonia",
@@ -5288,6 +5350,68 @@
      "municipality": "Marbella",
      "schedule": "Check before visiting: own Instagram gives Monday-Tuesday 13:30-19:00, Wednesday-Sunday 13:30-21:00, but signals a seasonal closing (2026-11-15).",
      "schedule_checked_at": "2026-11-15",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-15"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-HELADERIA-MANDARINA-CAVA-001",
+   "slug": "heladeria-mandarina-cava",
+   "name": "Heladeria Mandarina & Cava",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_fact_check",
+   "approved": false,
+   "municipality": "Torremolinos",
+   "lat": 36.6244879,
+   "lng": -4.4941775,
+   "google_maps_url": "https://maps.google.com/?cid=17170869469203800051",
+   "google_place_id": "ChIJqdvqYO77cg0R8x9-nM4uS-4",
+   "url": null,
+   "tags": [],
+   "description": "Mandarina & Cava is an ice-cream shop and café on Calle Antonio Navajas Ruiz in Torremolinos. Its own Instagram profile calls its artisan ice cream the best in Torremolinos and lists ice cream, desserts, coffee, cocktails, food and ice-cream cups; the profile was active in September 2026. Opening hours and prices were not found (checked 2026-11-15); check before visiting. About 28 minutes by car from Casa de la Familia.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_fact_check",
+    "layer": "lokal",
+    "drive_minutes": 28,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [],
+    "cost_level": null,
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Isbutik og café med hjemmelavet is i Torremolinos. Åbningstider er endnu ikke fundet; tjek før besøg.",
+    "practical": [],
+    "links": {
+     "official": null,
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-15",
+    "text_language": "da",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Torremolinos",
+     "schedule": null,
+     "schedule_checked_at": null,
      "valid_until": null,
      "needs_fixed_hours": false,
      "rainy_day": false,
@@ -14425,6 +14549,73 @@
      "booking_lead_time": null,
      "typical_duration": null,
      "updated_at": "2026-11-11"
+    }
+   }
+  },
+  {
+   "id": "ES-AND-MAL-VIPENTTO-001",
+   "slug": "vipentto",
+   "name": "Vipentto",
+   "category": "restaurant",
+   "record_category": "Restaurants",
+   "record_status": "needs_editorial_review",
+   "approved": false,
+   "municipality": "Fuengirola",
+   "lat": 36.5378167,
+   "lng": -4.6237207,
+   "google_maps_url": "https://maps.google.com/?cid=11942928982032453742",
+   "google_place_id": "ChIJPeQAuXfjcg0RbhDD_6HOvaU",
+   "url": "https://vipentto.com/home/",
+   "tags": [],
+   "description": "Vipentto is an Argentine artisan ice-cream shop on Calle Troncón 9 in Fuengirola, made with natural Italian ingredients and pet-friendly, according to its own Instagram profile. Open every day 15:00-01:00 (checked 2026-11-15). Prices are not published. About 13 minutes by car from Casa de la Familia.",
+   "catalogue_group": null,
+   "guide": {
+    "source": "thomasericolesen/callemilano",
+    "status": "needs_editorial_review",
+    "layer": "lokal",
+    "drive_minutes": 13,
+    "distance_km": null,
+    "duration": null,
+    "age_groups": [],
+    "fit": {
+     "smaa_boern": "ukendt",
+     "boern": "ukendt",
+     "unge_voksne": "ukendt",
+     "seniorer": "ukendt"
+    },
+    "energy": "lav",
+    "seasons": [],
+    "themes": [],
+    "cost_level": null,
+    "booking_required": null,
+    "wheelchair": "ukendt",
+    "summary": "Isbutik med hjemmelavet argentinsk is i Fuengirola, åben alle dage 15.00-01.00. Hunde er velkomne.",
+    "practical": [
+     {
+      "label": "Åbningstider",
+      "text": "Mandag-søndag 15.00-01.00 (egen Instagram, 15.11.2026)."
+     }
+    ],
+    "links": {
+     "official": "https://vipentto.com/home/",
+     "booking": null,
+     "info": null
+    },
+    "checked_at": "2026-11-15",
+    "text_language": "da",
+    "trip": {
+     "record_category": "Restaurants",
+     "municipality": "Fuengirola",
+     "schedule": "Monday-Sunday 15:00-01:00 (own Instagram, 2026-11-15).",
+     "schedule_checked_at": "2026-11-15",
+     "valid_until": null,
+     "needs_fixed_hours": false,
+     "rainy_day": false,
+     "is_bar": false,
+     "phone": null,
+     "booking_lead_time": null,
+     "typical_duration": null,
+     "updated_at": "2026-11-15"
     }
    }
   },

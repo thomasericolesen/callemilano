@@ -2053,5 +2053,25 @@
     "text": "Kort 2026: retter 6-24 €, desserter 6,50-8 €, brød 1,50 € pr. person."
    }
   ]
+ },
+ "ES-AND-MAL-DELIS-HELADOS-ARTESANALES-001": {
+  "source_sha": "37208eb222cd4863",
+  "summary": "Isbutik med hjemmelavet is i argentinsk stil og café i Arroyo de la Miel, Benalmádena. Åbningstider er endnu ikke fundet; tjek før besøg.",
+  "practical": []
+ },
+ "ES-AND-MAL-HELADERIA-MANDARINA-CAVA-001": {
+  "source_sha": "86a5b17e6fa825e0",
+  "summary": "Isbutik og café med hjemmelavet is i Torremolinos. Åbningstider er endnu ikke fundet; tjek før besøg.",
+  "practical": []
+ },
+ "ES-AND-MAL-VIPENTTO-001": {
+  "source_sha": "5cb60b4bec201b30",
+  "summary": "Isbutik med hjemmelavet argentinsk is i Fuengirola, åben alle dage 15.00-01.00. Hunde er velkomne.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-søndag 15.00-01.00 (egen Instagram, 15.11.2026)."
+   }
+  ]
  }
 }
