@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-15 - Emergency box in the app search, health centre and 24-hour pharmacy (owner decision, chat)
+
+- App PR thomasericolesen/callemilano-f388b2be#46: a search on Oplev for words about illness, accidents or emergencies (Danish, Spanish, English, e.g. "vagtlæge", "ambulance", "apotek", "urgencias") shows an "Akut hjælp" box first: call 112, the two 24-hour emergency departments, the health centre and the 24-hour pharmacy. It works offline. Not merged yet.
+- The editor chose in chat to add two health contacts. They are app contacts, not place records:
+  - Centro de Salud Las Lagunas, Calle La Unión s/n. Urgent line 951 03 14 37, open Monday–Friday 08:00–20:00, information 951 06 22 47 (SAS, https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/el-sas/servicios-y-centros/informacion-por-centros/24892, checked 2026-11-15). About 10 min by car (Google Maps, 2026-11-15).
+  - Farmacia I+ Monda Uno, Calle Monda 1, Fuengirola. "Abierto 24h - 365 días" (own Instagram, https://www.instagram.com/farmaciamonda1/, checked 2026-11-15). About 11 min by car (Google Maps, 2026-11-15). The phone number is from Google Maps only and is labelled so in the app.
+- Open: whether the Las Lagunas emergency service runs 24 hours. SAS does not say so; the older Mijas council page says "Urgencias 24h" with a different number (902 50 50 61). The app makes no 24-hour claim for it. No 24-hour pharmacy exists in Las Lagunas itself.
+
 ## 2026-11-15 - Name search in the app (owner request, chat)
 
 - The app (`callemilano-app`, PR thomasericolesen/callemilano-f388b2be#45) has a search field at the top of the Oplev front page: "Søg efter et sted, fx Tomillo Limón".
