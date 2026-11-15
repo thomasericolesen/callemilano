@@ -1,5 +1,20 @@
 # Change log
 
+## 2026-11-15 - 36 draft records from the owner checklist (owner decisions, checklist)
+
+- Owner answered the 68-candidate checklist (https://claude.ai/artifact/M3PyJYkeaA6hNrzS2mTbzu): 54 yes, 11 no, 3 maybe on the places; 24 of 25 editor points decided.
+- Rule used where the two answers disagreed: a place was created only when both the place answer and the editor point said keep. Not created although the place answer was yes, because the editor point said drop: C04, C08, B08 (not a place or unofficial name), C10, F02 (type), D03, E06, E08, E02, D05 (duplicates), C06, C07, C12, D04, F04, F05, F07, G02 (no usable source). Not created although the editor point said keep, because the later place answer was no: B04 (owner note: local name for the beach below the Sohail castle), H08. Maybe, not created: A03, C11, D01.
+- Created 36 drafts with `tools/intake.py create` (status `draft`, `facts_not_checked`):
+  - Restaurants: A01, A02, A04, A05, A06, A07, A08, G01, G03-G08, H01-H05, H07.
+  - Beaches: B01, B02, B05, B06, B07.
+  - Excursions: C01, C02.
+  - Nature: D07, D08.
+  - City: E01, E03, E05, E07.
+  - Family activities: F01, F06, F08.
+- Category follows the checklist group, which the owner accepted per place. Ice-cream shops and cafés are `Restaurants`, as in existing records. Tags, family scores and age groups are empty; the checklist's default values (all "low", category "Restaurants") were not the owner's choices and were not used.
+- Editor choices written into the evidence notes: A04 and A08 hours conflict, show "check before visiting"; A01 keep as restaurant and mention tapas; E05 keep under City; E07 is the same museum as E08; owner's own knowledge for B02 (narrow sand beach, no lifeguard). Websites not used: H02 (chocolate brand) and H07 (third-party .shop page).
+- Validate: 256 records, 0 errors, 26 warnings (unchanged). No import: the facts from the Desktop fact check (`desktop-faktatjek-citater.md`) still need to go into the records with `tools/intake.py apply`, and Danish texts are needed before import.
+
 ## 2026-11-15 - Editor list: one card per place, each question asked once (owner decision, chat)
 
 - The 68-candidate checklist asked about the same places twice: once in 25 editor points at the top and again as yes/maybe/no per place. Owner decision: from now on, every decision about a place goes on that place's card as tick-tags; no separate section repeats the same places. Written into `AGENTS.md` ("Editor workflow") and `docs/multi-agent-workflow.md` ("Editor list").
