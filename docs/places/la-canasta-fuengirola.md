@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: archived
 id: ES-AND-MAL-LA-CANASTA-FUENGIROLA-001
 slug: la-canasta-fuengirola
 name: La Canasta Fuengirola
@@ -142,6 +142,10 @@ updated_at: '2026-11-15'
 last_verified: null
 last_reviewed_at: null
 next_review_at: null
-review_decision: null
+review_decision:
+  decision: archived
+  reviewer: Eric Olesen (editor-of-record)
+  date: '2026-11-15'
+  notes: 'Owner decision 2026-11-15 (chat): make a second attempt on the six drafts without a source and archive those that still fail. Second attempt 2026-11-15: Instagram @lacanastafuengirola (bakery, café, ice cream; ''Fuengirola centro'') gives no address, hours or prices, and its newest visible post is from 13 December 2024; identity with the listed Paseo Jesús Santos Rein venue is not confirmed. The .shop website is a third-party page. Kept as archive; the ID stays allocated and must not be reused.'
 redirects: []
 ---

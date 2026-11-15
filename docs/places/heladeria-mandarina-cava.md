@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-HELADERIA-MANDARINA-CAVA-001
 slug: heladeria-mandarina-cava
 name: Heladeria Mandarina & Cava
@@ -60,7 +60,7 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
   schedule: null
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: https://www.instagram.com/mandarinaycava/
 related_places: []
-description_short: 'Heladeria Mandarina & Cava: an ice-cream shop, about 28 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Heladeria Mandarina & Cava is an ice-cream shop. About 28 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Mandarina & Cava: ice-cream shop and café in Torremolinos with homemade ice cream, about 28 min by car. Hours not yet found.'
+description_long: Mandarina & Cava is an ice-cream shop and café on Calle Antonio Navajas Ruiz in Torremolinos. Its own Instagram profile calls its artisan ice cream the best in Torremolinos and lists ice cream, desserts, coffee, cocktails, food and ice-cream cups; the profile was active in September 2026. Opening hours and prices were not found (checked 2026-11-15); check before visiting. About 28 minutes by car from Casa de la Familia.
 seo_title: Heladeria Mandarina & Cava, Torremolinos | CalleMilano draft record
 seo_description: 'Draft record for Heladeria Mandarina & Cava (Torremolinos): location and driving time from Casa de la Familia.'
 images: []
@@ -99,6 +99,14 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long, links.contact
+  claim: 'Instagram bio: ''El mejor helado artesanal de Torremolinos!🍦☕️🍰'' / ''Heladería & Cafetería'' / ''Calle Antonio Navajas Ruíz, Local 6, Torremolinos 29620''; highlights ''Helados'', ''Postres'', ''Cafés'', ''Cocktails'', ''Comidas'', ''Copas Heladas'', ''Menu''; latest post 23 September 2026.'
+  source_url: https://www.instagram.com/mandarinaycava/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (second source attempt 2026-11-15, Claude in Chrome)
+  confidence: medium
+  notes: Address matches the Google listing. Read signed in; follower counts not recorded.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -121,18 +129,17 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
-- code: no_readable_own_source
-  severity: warning
+- code: not_found_after_two_attempts
+  severity: info
   fields:
   - visit_information.schedule
   - cost_level
-  - description_long
-  description: 'First source attempt 2026-11-15: Google Maps lists no website or social media and no official source was found. Only identity and drive time are known.'
   retryable: true
   owner: fact_check
+  description: 'Two source attempts (2026-11-15) found no official answer for: opening hours and prices (menu highlight is images). Value left unknown; check before visiting. Retry at the next freshness review.'
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
+last_verified: '2026-11-15'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null
