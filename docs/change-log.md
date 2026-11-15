@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-15 - Danish texts and app import of the 30 new places (level A)
+
+- Danish summary and practical texts were written for the 30 new places with status `needs_fact_check` or later in `data/app-texts-da.json` (PR #134). The export now has 188 places, all with current Danish text.
+- `POST /api/import-places?apply=1`: 158 updated, 30 created, 0 skipped. A dry run beforehand gave the same counts.
+- Check: a second dry run afterwards gives 188 updated and 0 created, so the 30 places are in the app's database, including `ES-AND-MAL-TOMILLO-LIMON-001`. The page check in the app needs a sign-in and was not done.
+
 ## 2026-11-15 - Fact check written into the 36 new drafts (level A)
 
 - The verbatim quotes from `docs/handover-faktatjek-2026-11-15/desktop-faktatjek-citater.md` were written into the records with `tools/intake.py apply`, each with source URL and date:
