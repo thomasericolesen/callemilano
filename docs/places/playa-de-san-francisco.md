@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-PLAYA-DE-SAN-FRANCISCO-001
 slug: playa-de-san-francisco
 name: Playa de San Francisco
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Playa de San Francisco: a beach, about 15 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Playa de San Francisco is a beach. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Playa de San Francisco: 350 m sand beach in Fuengirola with toilets and a children''s area, about 15 min by car.'
+description_long: Playa de San Francisco is a 350 m sand beach in Fuengirola. Spain's official tourism site lists toilets and a children's area among its services (checked 2026-11-15). About 15 minutes by car from Casa de la Familia.
 seo_title: Playa de San Francisco, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Playa de San Francisco (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,21 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long (composition, access)
+  claim: '''Composición: arena''; ''Longitud: 350 m''; services incl. ''aseos ... zona infantil''.'
+  source_url: https://www.spain.info/es/playa/san-francisco-fuengirola
+  source_type: official_tourism
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +126,9 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

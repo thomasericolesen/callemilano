@@ -99,6 +99,13 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: links.official_website
+  claim: lacanastafuengirola.shop is an auto-generated third-party page (review summaries such as 'Pricing transparency could improve'; prices shown as '$16,50 €'), not the venue's own site.
+  source_url: https://lacanastafuengirola.shop/
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: high
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -121,6 +128,15 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: no_readable_own_source
+  severity: warning
+  fields:
+  - visit_information.schedule
+  - cost_level
+  - description_long
+  description: 'First source attempt 2026-11-15: no own website or social media found; the listed .shop site is a third-party page.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
 last_verified: null

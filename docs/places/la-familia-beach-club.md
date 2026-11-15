@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-LA-FAMILIA-BEACH-CLUB-001
 slug: la-familia-beach-club
 name: La Familia Beach Club
@@ -60,16 +60,16 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
-cost_level: Unknown
+food_available: 'yes'
+cost_level: €€
 visit_information:
-  schedule: null
+  schedule: Daily 10:00-20:00 September-May; 10:00-22:00 June-August (own website, 2026-11-15). No closing days stated.
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Menu 2026: mains about 15-29 €; bread and butter 1,80 €.'
+  cost_checked_at: '2026-11-15'
 links:
   official_website: http://www.lafamilia-beachclub.com/
   booking: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'La Familia Beach Club: a restaurant, about 14 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: La Familia Beach Club is a restaurant. About 14 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'La Familia Beach Club: beach restaurant on Playa del Bombo, Mijas Costa, about 14 min by car.'
+description_long: La Familia Beach Club is a beach restaurant on Playa del Bombo (Urbanización Torrenueva) in Mijas Costa, serving fish, seafood and espetos. Open daily 10:00-20:00 from September to May and 10:00-22:00 in June, July and August (own website, checked 2026-11-15). The 2026 menu has mains at about 15-29 €, rice from 18,50 € per person (min. 2), and simple dishes such as chicken strips (9,50 €) and spaghetti bolognese (15,50 €), though there is no children's menu as such. About 14 minutes by car from Casa de la Familia.
 seo_title: La Familia Beach Club, Mijas | CalleMilano draft record
 seo_description: 'Draft record for La Familia Beach Club (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,28 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule, description_long
+  claim: '''Un restaurante situado en Mijas Costa, en la Playa del Bombo''; ''De Septiembre a Mayo: 10h00 – 20h00'' / ''Junio, Julio y Agosto : 10h00 – 22h00''; ''Urbanización Torrenueva Playa del Bombo, s.n. 29649 Mijas''.'
+  source_url: http://www.lafamilia-beachclub.com/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: cost_level, visit_information.cost_basis
+  claim: 'Menu 2026: ''Patatas Fritas 4,5€'', ''Palitos de Pollo 9,5€'', ''Spaghetti Boloñesa 15,5€'', ''Arroz Mixto (min. 2 personas) 18,5€'', ''Dorada al Espeto o a la Plancha 27€'', ''Lenguado a la Plancha 28,5€''; ''Servicio de Pan y Mantequilla 1.80€''. No children''s menu.'
+  source_url: https://lafamilia-beachclub.com/wp-content/uploads/2026/06/180526_LF_Menu2026-langostinos.pdf
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +133,9 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

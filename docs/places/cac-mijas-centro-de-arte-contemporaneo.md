@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-CAC-MIJAS-CENTRO-DE-ARTE-CONTEMPORANEO-001
 slug: cac-mijas-centro-de-arte-contemporaneo
 name: CAC Mijas (Centro de Arte Contemporáneo)
@@ -61,15 +61,15 @@ booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
 food_available: unknown
-cost_level: Unknown
+cost_level: €
 visit_information:
-  schedule: null
+  schedule: Monday-Saturday 10:30-14:00; Sunday closed (own website, footer dated 2019; confirm before visiting).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own website: entry 3 €; under 5 free (page footer dated 2019).'
+  cost_checked_at: '2026-11-15'
 links:
   official_website: http://cacmijas.info/
   booking: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'CAC Mijas (Centro de Arte Contemporáneo): a contemporary art centre, about 21 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: CAC Mijas (Centro de Arte Contemporáneo) is a contemporary art centre. About 21 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'CAC Mijas: contemporary art centre in Mijas Pueblo with works by Picasso and Dalí, about 21 min by car.'
+description_long: CAC Mijas (Centro de Arte Contemporáneo) on Calle Málaga 28 in Mijas Pueblo shows works by Picasso and Dalí. Its own site gives Monday-Saturday 10:30-14:00, closed Sundays, entry 3 €, and free entry for children under 5; it also mentions children's workshops. The site footer is dated 2019, so hours and price should be confirmed before visiting (checked 2026-11-15). About 21 minutes by car from Casa de la Familia.
 seo_title: CAC Mijas (Centro de Arte Contemporáneo), Mijas | CalleMilano draft record
 seo_description: 'Draft record for CAC Mijas (Centro de Arte Contemporáneo) (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,22 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule, cost_level
+  claim: '''Centro de Arte Contemporáneo''; ''Obras de Picasso y Dalí''; ''C/ Málaga, 28. Mijas''; ''Lunes a Sábado. 10:30h a 14:00h'' / ''Domingos CERRADO.''; ''Entrada 3,00 €'' / ''Menores de 5 años gratis''; ''talleres infantiles''.'
+  source_url: http://cacmijas.info/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: low
+  notes: 'Footer ''© 2019'': the page may be old.'
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,11 +125,19 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: source_may_be_outdated
+  severity: warning
+  fields:
+  - visit_information.schedule
+  - cost_level
+  description: Own website footer is dated 2019; confirm hours and price at the next review.
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

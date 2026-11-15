@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-PITUCCA-HELADOS-ARTESANOS-001
 slug: pitucca-helados-artesanos
 name: Pitucca Helados Artesanos
@@ -60,7 +60,7 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
   schedule: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Pitucca Helados Artesanos: an ice-cream shop, about 15 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Pitucca Helados Artesanos is an ice-cream shop. About 15 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Pitucca Helados Artesanos: artisan ice-cream shop on the Fuengirola promenade, about 15 min by car. Hours not yet found.'
+description_long: Pitucca is an artisan ice-cream and sweets shop at Paseo Marítimo Rey de España 28 in Fuengirola, according to its own Facebook page. Hours and prices were not visible (checked 2026-11-15); check before visiting. About 15 minutes by car from Casa de la Familia.
 seo_title: Pitucca Helados Artesanos, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Pitucca Helados Artesanos (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,6 +99,13 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long
+  claim: 'Facebook: ''Heladería Artesanal - Dulces Artesanos'', ''Paseo Maritimo Rey de España Nº 28, Fuengirola''.'
+  source_url: http://facebook.com/pituccahelados
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: low
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -121,9 +128,17 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: not_found_first_attempt
+  severity: warning
+  fields:
+  - visit_information.schedule
+  - cost_level
+  description: 'First source attempt 2026-11-15 found no official answer for: opening hours and prices. Value left unknown; check before visiting.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
+last_verified: '2026-11-15'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

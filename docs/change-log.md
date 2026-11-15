@@ -1,5 +1,33 @@
 # Change log
 
+## 2026-11-15 - Fact check written into the 36 new drafts (level A)
+
+- The verbatim quotes from `docs/handover-faktatjek-2026-11-15/desktop-faktatjek-citater.md` were written into the records with `tools/intake.py apply`, each with source URL and date:
+  - hours
+  - prices and `cost_level`
+  - children's rules
+  - contact details
+  - descriptions
+- Fuengirola park pages were re-read live before use.
+- 26 records lifted to `needs_editorial_review`, because official or own-venue evidence covers their core facts and no blocking or `facts_not_checked` issue is open:
+  - Restaurants: A01, A02, A04, A05, A06, A08
+  - Beaches: B01, B02, B05, B06, B07
+  - Excursions and nature: C01, C02, D07, D08
+  - City: E01, E03, E05, E07
+  - Family activities: F01, F08
+  - Ice cream: G08
+  - Cafés: H01, H03, H04, H05
+- `next_review_at` is 2027-04-15.
+- Hours shown as "check before visiting":
+  - A04 and A08: the editor's decision on the hours conflict.
+  - G07: its own Instagram signals a seasonal closing.
+- Warnings:
+  - E03: the source may be old (2019 footer).
+  - A05: menu PDF unreadable without poppler.
+- 4 records at `needs_fact_check`, with only their own social media or a weak source: A07 Ferrum, F06 Pipo Park, G01 Pitucca, G07 KALT.
+- 6 records stay `draft`, with no usable own source after the first attempt (issue `no_readable_own_source`): G03, G04, G05, G06 (site down), H02 (website belongs to another business, link removed), H07 (third-party .shop page, link removed).
+- Tags, family scores and age groups are untouched (level C/D). No import: Danish texts for the 30 new app places are still missing.
+
 ## 2026-11-15 - 36 draft records from the owner checklist (owner decisions, checklist)
 
 - Owner answered the 68-candidate checklist (https://claude.ai/artifact/M3PyJYkeaA6hNrzS2mTbzu): 54 yes, 11 no, 3 maybe on the places; 24 of 25 editor points decided.

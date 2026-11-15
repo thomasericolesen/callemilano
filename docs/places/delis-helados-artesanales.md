@@ -121,6 +121,15 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: no_readable_own_source
+  severity: warning
+  fields:
+  - visit_information.schedule
+  - cost_level
+  - description_long
+  description: 'First source attempt 2026-11-15: Google Maps lists no website or social media and no official source was found. Only identity and drive time are known.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
 last_verified: null

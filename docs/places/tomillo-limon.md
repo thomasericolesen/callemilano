@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-TOMILLO-LIMON-001
 slug: tomillo-limon
 name: Tomillo Limón
@@ -60,16 +60,16 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
-cost_level: Unknown
+food_available: 'yes'
+cost_level: €€
 visit_information:
-  schedule: null
+  schedule: Tuesday-Saturday 12:00-00:00; kitchen 12:30-16:00 and 19:00-22:00. Closed Sunday and Monday (own website, 2026-11-15).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Carta 2026: dishes 6-24 €, desserts 6,50-8 €, bread 1,50 € per person.'
+  cost_checked_at: '2026-11-15'
 links:
   official_website: https://www.tomillolimon.es/
   booking: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Tomillo Limón: a restaurant, about 20 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Tomillo Limón is a restaurant. About 20 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Tomillo Limón: restaurant with modern Spanish cooking in Mijas Pueblo, about 20 min by car.'
+description_long: Tomillo Limón is a restaurant in Mijas Pueblo (Avenida Virgen de la Peña, 11) serving traditional Spanish cooking with a modern touch; its own site calls it a place for 'una comida familiar memorable'. Open Tuesday to Saturday 12:00-00:00, closed Sunday and Monday; the kitchen serves 12:30-16:00 and 19:00-22:00 (own website, checked 2026-11-15). Dishes on the 2026 menu cost 6-24 €, desserts 6,50-8 €, and bread 1,50 € per person. The menu has no children's menu. About 20 minutes by car from Casa de la Familia.
 seo_title: Tomillo Limón, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Tomillo Limón (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,36 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule
+  claim: '''Domingo Cerrado'' / ''Lunes Cerrado'' / ''Martes – Sábado 12:00 – 00:00'' / ''Cocina abierta de 12:30 a 16:00 y de 19:00 a 22:00.'''
+  source_url: https://www.tomillolimon.es/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: description_long (type)
+  claim: '''Restaurante en Mijas Pueblo''; ''cocina tradicional española se reinterpreta ... toque de autor''; ''el lugar perfecto para una cena romántica o una comida familiar memorable.'''
+  source_url: https://www.tomillolimon.es/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: cost_level, visit_information.cost_basis
+  claim: 'Carta 2026 (PDF): ''Mini chapata de carrillada ... 6€'', ''Bravas ... 9€'', ''Nuestra burger de carrillada ... 16€'', ''Tabla de entrecote a la parrilla ... 24€''; ''Servicio Pan por persona 1,50€''. No children''s menu.'
+  source_url: https://drive.google.com/file/d/1G8Vxqezy3C1scSCJP551l36UkS0677hD/view
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+  notes: Linked from the own website.
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +141,9 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

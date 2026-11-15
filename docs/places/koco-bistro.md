@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-KOCO-BISTRO-001
 slug: koco-bistro
 name: Koco Bistró
@@ -60,25 +60,25 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
-cost_level: Unknown
+food_available: 'yes'
+cost_level: €€
 visit_information:
   schedule: null
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own menu 2026-11-15: tapas 3,50-9,90 €, mains 17,90-34,90 €; a main plus a drink is over 20 €.'
+  cost_checked_at: '2026-11-15'
 links:
   official_website: https://go.nordqr.com/koco-bistro/
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: +34 95286152
 related_places: []
-description_short: 'Koco Bistró: a restaurant (tapas, per its own menu), about 20 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Koco Bistró is a restaurant (tapas, per its own menu). About 20 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Koco Bistró: tapas bistro in Mijas Pueblo, about 20 min by car from Casa de la Familia.'
+description_long: Koco Bistró is a tapas bistro on Avenida Virgen de la Peña in Mijas Pueblo; its own digital menu calls it a 'Lugar de tapas en mijas'. Menu prices (checked 2026-11-15) run from 3,50 € for small tapas to 34,90 € for a 220 g beef sirloin; most mains are 17-35 €. The menu lists no children's menu. Opening hours are not published on the menu; check before visiting. About 20 minutes by car from Casa de la Familia.
 seo_title: Koco Bistró, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Koco Bistró (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,28 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long, category (type)
+  claim: 'Own menu: ''Lugar de tapas en mijas''; logo ''Koco Bistró Tapas''; address ''Avenida Virgen de la Peña, 3, Mijas''.'
+  source_url: https://go.nordqr.com/koco-bistro/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: cost_level, visit_information.cost_basis
+  claim: 'Menu: ''Camembert frito'' 3.50 €, ''Calamar en tempura'' 6.50 €, ''Pollo al curry verde'' 17.90 €, ''Solomillo de Ternera (220gr)'' 34.90 €; 61 prices from 3,50 to 34,90 €. No children''s menu (searched infantil/niño/kids).'
+  source_url: https://go.nordqr.com/koco-bistro/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,11 +131,18 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: not_found_first_attempt
+  severity: warning
+  fields:
+  - visit_information.schedule
+  description: 'First source attempt 2026-11-15 found no official answer for: opening hours and closing days. Value left unknown; check before visiting.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

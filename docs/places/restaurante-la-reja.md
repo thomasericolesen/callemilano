@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-RESTAURANTE-LA-REJA-001
 slug: restaurante-la-reja
 name: Restaurante La Reja
@@ -60,16 +60,16 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
-cost_level: Unknown
+food_available: 'yes'
+cost_level: €€
 visit_information:
-  schedule: null
+  schedule: 'Check before visiting: the own website says both ''Tuesday: Closed'' and ''Monday - Sunday 12:00-22:30'' (2026-11-15).'
   typical_duration: null
   booking_lead_time: null
   valid_from: null
   valid_until: null
-  cost_basis: null
-  cost_checked_at: null
+  cost_basis: 'Own website 2026-11-15: starters from 9 €, mains 18-29 €, paella 18 € per person (min. 2).'
+  cost_checked_at: '2026-11-15'
 links:
   official_website: https://restaurantelareja.com/
   booking: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Restaurante La Reja: a restaurant, about 22 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Restaurante La Reja is a restaurant. About 22 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Restaurante La Reja: steakhouse and Spanish restaurant with a panoramic terrace in Mijas Pueblo, about 22 min by car.'
+description_long: 'Restaurante La Reja is a steakhouse and Spanish restaurant at Calle de Los Caños 9 in Mijas Pueblo, with panoramic views. Prices on its own site (checked 2026-11-15) run from 9 € for porra antequerana to 28-29 € for steaks; paella is 18 € per person for at least two. The site''s opening hours contradict themselves (''Tuesday: Closed'' and ''Monday - Sunday: 12:00 - 22:30''), so check before visiting. No children''s menu is mentioned. About 22 minutes by car from Casa de la Familia.'
 seo_title: Restaurante La Reja, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Restaurante La Reja (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,29 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long (type), cost_level
+  claim: '''Steak House & Spanish Fine Cousine Restaurant''; ''Porras Antequeranas 9,00€'', ''Hungarian Goulash 18,00€'', ''Grilled Fillet Steak 28,00€'', ''Steak Al-Andalus 29,00€''; paella ''18,00€'' (''Minimum for two people, price per person''). Address ''Calle de Los Caños 9 29650 Mijas Pueblo''.'
+  source_url: https://restaurantelareja.com/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: visit_information.schedule
+  claim: 'EN ''Tuesday : Closed / Monday – Sunday : 12:00 – 22:30''; ES ''Martes: Cerrado | Lunes – Domingo: 12:00 – 22:30'' (same on /es/ and /contact/).'
+  source_url: https://restaurantelareja.com/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: low
+  notes: 'Contradictory wording. Editor decision 2026-11-15 on the owner checklist (https://claude.ai/artifact/M3PyJYkeaA6hNrzS2mTbzu): show ''check before visiting'' and leave the hours unknown.'
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +134,9 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

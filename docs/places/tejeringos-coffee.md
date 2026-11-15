@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-TEJERINGOS-COFFEE-001
 slug: tejeringos-coffee
 name: Tejeringo's Coffee
@@ -60,10 +60,10 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Every day 08:00-13:00 and 17:00-21:00 (own website, 2026-11-15).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: 951 10 02 53
 related_places: []
-description_short: 'Tejeringo''s Coffee: a churrería and café, about 13 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Tejeringo's Coffee is a churrería and café. About 13 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Tejeringo''s Coffee Fuengirola: churrería and café for churros and chocolate, about 13 min by car; closed 13:00-17:00.'
+description_long: Tejeringo's Coffee is a churrería-café chain run by three generations of churro makers. The Fuengirola venue at Av. Jesús Santos Rein 1 is open every day 08:00-13:00 and 17:00-21:00, closed in the middle of the day; phone 951 10 02 53 (own website, checked 2026-11-15). Prices are not published. About 13 minutes by car from Casa de la Familia.
 seo_title: Tejeringo's Coffee, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Tejeringo''s Coffee (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,29 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long
+  claim: '''TRES GENERACIONES DE CHURREROS ARTESANOS''.'
+  source_url: http://www.tejeringoscoffee.es/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: visit_information.schedule, links.contact
+  claim: '''Av. Jesús Santos Rein nº 1, 29640, Fuengirola'': ''Lunes - Viernes: 08:00 - 13:00 y 17:00 - 21:00'' / ''Sábado y Domingo: 08:00 - 13:00 y 17:00 - 21:00''; ''Telf: 951 10 02 53''.'
+  source_url: https://www.tejeringoscoffee.es/locales/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+  notes: 'Editor decision 2026-11-15: keep under cafés.'
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,11 +132,18 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: not_found_first_attempt
+  severity: warning
+  fields:
+  - cost_level
+  description: 'First source attempt 2026-11-15 found no official answer for: prices. Value left unknown; check before visiting.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

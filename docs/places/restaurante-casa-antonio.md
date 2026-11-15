@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-RESTAURANTE-CASA-ANTONIO-001
 slug: restaurante-casa-antonio
 name: Restaurante Casa Antonio
@@ -60,10 +60,10 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Tuesday-Thursday 13:00-16:30 and 19:30-22:30; Friday-Saturday 13:00-16:30 and 19:30-23:00; Sunday 13:00-17:00; closed Monday (own Instagram, 2026-11-15).
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Restaurante Casa Antonio: a restaurant, about 12 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Restaurante Casa Antonio is a restaurant. About 12 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Restaurante Casa Antonio: Mediterranean restaurant in Fuengirola with a fully gluten-free kitchen, about 12 min by car.'
+description_long: 'Restaurante Casa Antonio is a Mediterranean restaurant at Camino Condesa 3 in Fuengirola; its own Instagram profile says the whole kitchen is gluten-free (''100% SIN GLUTEN''). Hours on the profile (checked 2026-11-15): Tuesday-Thursday 13:00-16:30 and 19:30-22:30, Friday-Saturday 13:00-16:30 and 19:30-23:00, Sunday 13:00-17:00, closed Monday. The profile mentions one hour of parking. Prices and children''s facilities were not confirmed from text. About 12 minutes by car from Casa de la Familia.'
 seo_title: Restaurante Casa Antonio, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Restaurante Casa Antonio (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,22 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule, description_long
+  claim: 'Instagram bio: ''Cocina Mediterránea • 100% SIN GLUTEN''; ''M–J 13–16:30 | 19:30–22:30 | V–S 13–16:30 | 19:30–23:00 | D 13–17 | L ❌''; ''C/ Camino Condesa, 3, Fuengirola 29640''; ''🚗 1h parking''.'
+  source_url: https://www.instagram.com/casa_antonio_restaurante
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+  notes: Read in Claude in Chrome, signed in. Highlight 'Rincón infantil' exists but was not opened. Menu PDF (15 pages) could not be read without poppler.
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,11 +125,19 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: not_found_first_attempt
+  severity: warning
+  fields:
+  - cost_level
+  - visit_information.cost_basis
+  description: 'First source attempt 2026-11-15 found no official answer for: prices (menu PDF unreadable; retry with poppler) and the ''Rincón infantil'' highlight. Value left unknown; check before visiting.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

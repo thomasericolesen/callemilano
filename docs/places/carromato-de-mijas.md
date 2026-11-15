@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-CARROMATO-DE-MIJAS-001
 slug: carromato-de-mijas
 name: Carromato de Mijas
@@ -63,7 +63,7 @@ toilets_available: unknown
 food_available: unknown
 cost_level: Unknown
 visit_information:
-  schedule: null
+  schedule: Jan-Mar, Nov-Dec 10:00-18:00; Apr-Jun, Oct 10:00-20:00; Jul-Sep 10:00-21:00 (own website, 2026-11-15). No closing days stated.
   typical_duration: null
   booking_lead_time: null
   valid_from: null
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Carromato de Mijas: a museum, about 23 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Carromato de Mijas is a museum. About 23 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Carromato de Mijas: museum of miniatures in Mijas Pueblo, about 23 min by car.'
+description_long: 'Carromato de Mijas is a museum of miniatures on Avenida del Compás in Mijas Pueblo. Its own site gives opening hours by season: 10:00-18:00 in January-March, November and December; 10:00-20:00 in April-June and October; 10:00-21:00 in July-September (checked 2026-11-15). No closing days, prices or children''s information are given. About 23 minutes by car from Casa de la Familia.'
 seo_title: Carromato de Mijas, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Carromato de Mijas (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,21 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: visit_information.schedule, description_long
+  claim: '''Museo de miniaturas en Mijas''; ''ENERO, FEBRERO, MARZO, NOVIEMBRE Y DICIEMBRE: 10:00H A 18:00H'' / ''ABRIL, MAYO, JUNIO Y OCTUBRE: 10:00H A 20:00H'' / ''JULIO, AGOSTO Y SEPTIEMBRE: 10:00H A 21:00H''; ''Avenida del Compás, s/n 29650 Mijas-Pueblo''.'
+  source_url: http://www.carromatodemijas.org/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,11 +124,18 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: not_found_first_attempt
+  severity: warning
+  fields:
+  - cost_level
+  description: 'First source attempt 2026-11-15 found no official answer for: entry price. Value left unknown; check before visiting.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

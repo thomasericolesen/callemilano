@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-PARQUE-LAS-PRESAS-001
 slug: parque-las-presas
 name: Parque Las Presas
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Parque Las Presas: a park, about 16 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Parque Las Presas is a park. About 16 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Parque Las Presas: 11-hectare park along a stream in Fuengirola, with paths and wooden bridges, about 16 min by car.'
+description_long: Parque Las Presas is an 11-hectare park in Fuengirola, crossed by a stream with green areas and varied plants and wildlife (Fuengirola's official map of parks, checked 2026-11-15). Paths through the vegetation are joined by wooden bridges, so the Las Presas trail is part of the park. About 16 minutes by car from Casa de la Familia.
 seo_title: Parque Las Presas, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Parque Las Presas (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,22 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long
+  claim: '''11 hectáreas con diversidad de flora y fauna, atravesado por un arroyo con áreas verdes''; ''Este parque cuenta con 11 hectáreas ... caminos entre vegetación conectados por puentes de madera''.'
+  source_url: https://mapas.fuengirola.es/es/parques-y-plazas/resource/r/parque-de-las-presas
+  source_type: government
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+  notes: 'Editor decision 2026-11-15: keep this record; ''Sendero Las Presas'' dropped as a duplicate.'
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -121,11 +125,19 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: not_found_first_attempt
+  severity: warning
+  fields:
+  - visit_information.schedule
+  - toilets_available
+  description: 'First source attempt 2026-11-15 found no official answer for: opening hours, playground and toilets. Value left unknown; check before visiting.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---

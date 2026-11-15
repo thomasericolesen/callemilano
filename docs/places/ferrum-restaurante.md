@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_fact_check
 id: ES-AND-MAL-FERRUM-RESTAURANTE-001
 slug: ferrum-restaurante
 name: Ferrum Restaurante
@@ -60,7 +60,7 @@ transport_options: []
 booking_required: unknown
 dog_friendly: unknown
 toilets_available: unknown
-food_available: unknown
+food_available: 'yes'
 cost_level: Unknown
 visit_information:
   schedule: null
@@ -75,10 +75,10 @@ links:
   booking: null
   visitor_information: null
   transport: null
-  contact: null
+  contact: +34 604299443
 related_places: []
-description_short: 'Ferrum Restaurante: a restaurant, about 17 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Ferrum Restaurante is a restaurant. About 17 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Ferrum Restaurante: restaurant in Fuengirola, about 17 min by car. Hours and prices not yet found.'
+description_long: Ferrum is a restaurant at Calle Moncayo 20 in Fuengirola, according to its own Instagram profile, which takes bookings on +34 604 299 443. Opening hours, prices and children's facilities were not found (checked 2026-11-15); check before visiting. About 17 minutes by car from Casa de la Familia.
 seo_title: Ferrum Restaurante, Fuengirola | CalleMilano draft record
 seo_description: 'Draft record for Ferrum Restaurante (Fuengirola): location and driving time from Casa de la Familia.'
 images: []
@@ -99,6 +99,14 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long, links.contact
+  claim: 'Instagram bio: ''Restaurant'' / ''Disfruta de la excelencia culinaria en Fuengirola.'' / ''Reservas/Booking: +34 604299443'' / ''Calle Moncayo 20, Fuengirola 29640''.'
+  source_url: https://www.instagram.com/ferrumfuengirola/
+  source_type: official_venue
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: low
+  notes: Highlight 'Horarios' not opened (Mac session).
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -121,9 +129,17 @@ review_issues:
   description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
   retryable: true
   owner: human_editor
+- code: not_found_first_attempt
+  severity: warning
+  fields:
+  - visit_information.schedule
+  - cost_level
+  description: 'First source attempt 2026-11-15 found no official answer for: opening hours (Instagram highlight ''Horarios'' not opened), prices, children''s facilities. Value left unknown; check before visiting.'
+  retryable: true
+  owner: fact_check
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
+last_verified: '2026-11-15'
 last_reviewed_at: null
 next_review_at: null
 review_decision: null

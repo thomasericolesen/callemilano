@@ -1,6 +1,6 @@
 ---
 schema_version: 1.0.0
-status: draft
+status: needs_editorial_review
 id: ES-AND-MAL-PLAYA-LA-CALA-001
 slug: playa-la-cala
 name: Playa La Cala
@@ -77,8 +77,8 @@ links:
   transport: null
   contact: null
 related_places: []
-description_short: 'Playa La Cala: a beach, about 13 min by car from Casa de la Familia. Draft; facts not yet checked.'
-description_long: Playa La Cala is a beach. About 13 minutes by car from Casa de la Familia (Google route check, Saturday 10:00). Other facts have not been checked yet.
+description_short: 'Playa La Cala: narrow sand beach at La Cala de Mijas, without a lifeguard, about 13 min by car.'
+description_long: Playa La Cala is the sand beach in front of La Cala de Mijas, continuing the same stretch of sand as La Butibamba beach (Spain's official tourism site). The owner, who knows the beach, describes it as a narrow sand beach between Butibamba and La Cala de Mijas without a lifeguard. About 13 minutes by car from Casa de la Familia.
 seo_title: Playa La Cala, Mijas | CalleMilano draft record
 seo_description: 'Draft record for Playa La Cala (Mijas): location and driving time from Casa de la Familia.'
 images: []
@@ -99,18 +99,29 @@ evidence:
   checked_by: Claude (intake pipeline)
   confidence: medium
   notes: Google Routes API computeRoutes, DRIVE, TRAFFIC_AWARE_OPTIMAL.
+- field: description_long (composition, access)
+  claim: 'La Butibamba page: ''Esta playa se prolonga hasta La Cala Mijas Playa, encadenadas todas por el mismo arenal.''; ''Composición: arena''.'
+  source_url: https://www.spain.info/es/playa/butibamba/
+  source_type: official_tourism
+  checked_at: '2026-11-15'
+  checked_by: Claude (Desktop fact check 2026-11-15)
+  confidence: medium
+- field: description_long (width, lifeguard)
+  claim: 'Owner on the checklist: ''Ligger mellem Butibamba og Byen La Cala de Mijas. Smal sandstrand uden livredder''.'
+  source_url: https://claude.ai/artifact/M3PyJYkeaA6hNrzS2mTbzu
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-15
+  confidence: medium
+  notes: The editor's own knowledge. Lifeguard cover can change by season; check before visiting.
+- field: status
+  claim: 'Lifted needs_fact_check -> needs_editorial_review: official or own-venue evidence for the core facts, no blocking or facts_not_checked issue (editor workflow, level A).'
+  source_url: https://github.com/thomasericolesen/callemilano/blob/main/AGENTS.md
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Claude (main session)
+  confidence: high
 review_issues:
-- code: facts_not_checked
-  severity: warning
-  fields:
-  - description_long
-  - visit_information
-  - cost_level
-  - accessibility
-  - parking
-  description: Created from Google Places identity and a route check only; needs official or own sources.
-  retryable: true
-  owner: fact_check
 - code: family_suitability_not_assessed
   severity: warning
   fields:
@@ -123,9 +134,9 @@ review_issues:
   owner: human_editor
 created_at: '2026-11-15'
 updated_at: '2026-11-15'
-last_verified: null
-last_reviewed_at: null
-next_review_at: null
+last_verified: '2026-11-15'
+last_reviewed_at: '2026-11-15'
+next_review_at: '2027-04-15'
 review_decision: null
 redirects: []
 ---
