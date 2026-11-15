@@ -114,6 +114,12 @@ Toll roads (owner decision 2026-11-11): use Google Maps' main figure, i.e. the f
 
 Do not copy Google Maps images or user-uploaded material unless reuse permission is documented. Each image needs a stable asset ID, source, documented rights, required credit, role, dimensions when known, and useful context-specific alt text. Track rights and review status in `data/image-rights.csv`. Exclude assets with unclear or withdrawn rights. Alt text is for accessibility, not keyword insertion.
 
+Family photos in the app (owner decision 2026-11-15):
+
+- Photos that family members add to places in the app are shown to others only after an admin has approved them; rejecting deletes the photo. Photos in messages to the admins appear on the front page only when someone has marked that photo "Vis på forsiden"; the default is off.
+- These photos live only in the app, behind the login, and are never made public. They are not place-record images and are not entered in `data/image-rights.csv`; using one in a place record or anywhere public needs the editor's decision and documented rights as above.
+- Claude never approves a family photo on its own initiative. Claude may approve or reject a specific photo when the editor asks for it in chat.
+
 ## Content and review
 
 Write clear, useful, family-focused descriptions. Make suitability, energy, season, cost, and access claims evidence-aware and qualified. Accessibility and family ratings require human review under the evidence policy. Check volatile details according to the review intervals in `docs/multi-agent-workflow.md`.

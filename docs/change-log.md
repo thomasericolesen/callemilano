@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-15 (late evening) - Rule for family photos in the app written into AGENTS.md (owner decision, chat)
+
+- The owner said in chat to write the rule into `AGENTS.md`: family photos on places are shown only after an admin's approval; front-page photos only when marked "Vis på forsiden"; the photos stay private in the app, outside `data/image-rights.csv`; Claude approves or rejects a photo only when the editor asks.
+
 ## 2026-11-15 (evening) - Family photos on places in Oplev, with editor approval (owner decision, chat)
 
 - Mikkel (family) suggested that family members could add their own photos to places in Oplev, approved by the editor. The owner said "Ja, byg det" in chat.
