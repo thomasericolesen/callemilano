@@ -84,7 +84,7 @@ Run `python3 tools/places.py validate` before handing a record to human review a
 
 ## Categories and controlled labels
 
-Every place has exactly one primary category: `Restaurants`, `Beaches`, `Excursions`, `Nature`, `City`, or `Family activities`. Use the exact enum spelling in `docs/place-schema.md`. Do not use `Cities` as a category.
+Every place has exactly one primary category: `Restaurants`, `Beaches`, `Excursions`, `Nature`, `City`, or `Family activities`. Use the exact enum spelling in `docs/place-schema.md`. Do not use `Cities` as a category. In the app, `Restaurants` is shown as "Mad og is" (owner decision 2026-11-15; display text only).
 
 Use only schema-controlled values for tags, age groups, family scores, energy, seasonality, booking, accessibility, parking, and cost. Age groups are `Small children (0-6)`, `Children (7-12)`, `Young adults`, `Seniors`; ratings are separate `family_score` values. Do not substitute informal groups such as “toddlers,” “teens,” or “all ages.”
 
