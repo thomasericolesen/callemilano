@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-15 - Candidate sweep and handover for Desktop fact check (level A, no records changed)
+
+- Nearby sweep around six points (casa, Mijas pueblo, La Cala, Fuengirola, Benalmádena, Calahonda), deduped against `data/place-catalog.csv` and `data/place-id-registry.csv`, route-checked with Routes: 241 + 130 new candidates at most 30 min one way. 68 shortlisted on an owner checklist (restaurants, beaches, excursions for young adults, nature, city, family activities, ice-cream shops, cafés).
+- First fact-check pass from the cloud used Haiku `source-reader` agents only and was too thin (no page was opened by the main session; identity and place type were not verified). Result is not reliable; see `docs/handover-faktatjek-2026-11-15.md`. Work is handed to a Desktop session (Opus orchestrating, Chrome signed in).
+- No place records created; no status, category, tags or family scores changed. Files: `docs/handover-faktatjek-2026-11-15/`.
+
 ## 2026-11-14 - App: "Log ud" logs out this device only (owner decision, chat)
 
 - The editor chose that "Log ud" logs out only the device in use; other phones stay logged in. Until now the button logged out all devices (Supabase scope `global`), which is why Chrome was logged out when the owner pressed "Log ud" on the iPhone. App PR #44 also makes logout work offline (button and the 30-day logout), which it did not before. The rule is in the app repo's `AGENTS.md`.

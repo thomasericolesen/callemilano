@@ -1,0 +1,105 @@
+[
+ {
+  "key": "A01", "url": "https://go.nordqr.com/koco-bistro/", "fetched": "2026-11-15", "method": "curl",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Digital menu page (NordQR). Only price shown is a placeholder '-.-- €' (not a price). No hours, children info or closure statement."
+ },
+ {
+  "key": "A02", "url": "https://www.tomillolimon.es/", "fetched": "2026-11-15", "method": "curl",
+  "quotes": [
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Martes – Sábado 12:00 – 00:00"},
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Domingo Cerrado"},
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Lunes Cerrado"},
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Cocina abierta de 12:30 a 16:00 y de 19:00 a 22:00."}
+  ],
+  "not_found": [
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Homepage has no prices; prices are taken from the carta PDF in key A02-menu1. Homepage shows the place as open (no closure statement). No children info on the homepage."
+ },
+ {
+  "key": "A02-menu1", "url": "https://drive.google.com/file/d/1G8Vxqezy3C1scSCJP551l36UkS0677hD/view?usp=drive_link", "fetched": "2026-11-15", "method": "playwright",
+  "quotes": [
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Queso Camembert frito con mermelada de arándanos 8,50€"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Mini burrata con chistorra y cebolla caramelizada 10€"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Nuestra burger de carrillada con salsa del chef, queso Payoyo, panceta y cebolla caramelizada,"}
+  ],
+  "not_found": [],
+  "notes": "Source is the Google Drive PDF 'Carta Tomillo Limón 2026.pdf' (Spanish carta, 6 pages). The burger quote is the first line of a two-line item; its price is on the following line of the PDF and is not quoted here. Only three of the items on the carta are quoted; prices for other dishes are on the same PDF."
+ },
+ {
+  "key": "A03", "url": "https://www.covermanager.com/reservation/module_restaurant/restaurante-aromasecretgarden", "fetched": "2026-11-15", "method": "curl",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "This URL is the CoverManager booking widget only, not the restaurant's own page. Amounts in the deposit text are blank in the source. The restaurant's own site was not in the input."
+ },
+ {
+  "key": "A04", "url": "https://restaurantelareja.com/", "fetched": "2026-11-15", "method": "curl",
+  "quotes": [
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Tuesday : Closed"},
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Monday – Sunday : 12:00 – 22:30"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Chef's Burger\n15,00€"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Porras Antequeranas\n9,00€"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Steak \"La Reja\"\n29,00€"}
+  ],
+  "not_found": [
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Hours conflict within the page: 'Tuesday : Closed' and 'Monday – Sunday : 12:00 – 22:30' both appear; the range includes Tuesday. Flag for check before visiting. Homepage links to 'Our Menus' (https://restaurantelareja.com/our-menus/); not fetched (menu_links step only applies when prices are missing, and prices were on the homepage). Site footer reads 'Copyright 2024'. Prices shown are Chef's Specials and a few dishes only."
+ },
+ {
+  "key": "A05", "url": "http://www.instagram.com/casa_antonio_restaurante", "fetched": null, "method": null,
+  "quotes": [], "not_found": [], "notes": "login_wall. Owner screenshot needed. Not fetched by other tools."
+ },
+ {
+  "key": "A06", "url": "http://www.lafamilia-beachclub.com/", "fetched": "2026-11-15", "method": "curl",
+  "quotes": [
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "De Septiembre a Mayo: 10h00 – 20h00"},
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Junio, Julio y Agosto : 10h00 – 22h00"}
+  ],
+  "not_found": [
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Homepage has hours and no prices. Prices are from the PDF in key A06-menu2. Homepage also links a 2026 menu PDF (180526_LF_Menu2026-langostinos.pdf), not fetched. No children info found; no closure statement."
+ },
+ {
+  "key": "A06-menu2", "url": "https://lafamilia-beachclub.com/wp-content/uploads/2024/07/carta-laa-familia.pdf", "fetched": "2026-11-15", "method": "pdf",
+  "quotes": [
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Caña San Miguel        2,5€"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Cóctel                  8€"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Agua (1L)              3,7€"}
+  ],
+  "not_found": [],
+  "notes": "PDF dated 2024/07 in its URL; the 2026 menu PDF linked from the homepage was not fetched. Quotes keep the PDF's column spacing. Food prices on the PDF's later pages were not quoted."
+ },
+ {
+  "key": "A07", "url": "https://www.instagram.com/ferrumfuengirola/", "fetched": null, "method": null,
+  "quotes": [], "not_found": [], "notes": "login_wall. Owner screenshot needed. Not fetched by other tools."
+ },
+ {
+  "key": "A08", "url": "http://www.elgustodelacala.com/", "fetched": "2026-11-15", "method": "tavily",
+  "quotes": [], "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "blocked. curl returned only a language selector (93 chars); Tavily extract failed ('Failed to fetch url'). No content read."
+ }
+]

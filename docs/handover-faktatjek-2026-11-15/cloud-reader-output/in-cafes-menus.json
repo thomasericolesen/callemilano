@@ -1,0 +1,7 @@
+[
+ {"key": "H01-menu1", "url": "http://lorenacafe.com/carta/completa", "questions": ["Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?"]},
+ {"key": "H05-menu1", "url": "https://www.tejeringoscoffee.es/carta/", "questions": ["Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?"]},
+ {"key": "H06-menu1", "url": "https://dulceslacanasta.shop/menu", "questions": ["Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?"]},
+ {"key": "H07-menu1", "url": "https://lacanastafuengirola.shop/menu", "questions": ["Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?"]},
+ {"key": "H08-menu1", "url": "https://bareuropacafe.com/carta-bar-europa/", "questions": ["Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?"]}
+]

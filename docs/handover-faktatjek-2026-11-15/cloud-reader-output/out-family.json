@@ -1,0 +1,99 @@
+[
+ {
+  "key": "F01",
+  "url": "https://www.prisonislandmalaga.es/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+  "fetched": "2026-11-15",
+  "method": "tavily",
+  "quotes": [
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Julio y Agosto: 10:00 - 22:00 - Resto del año: 10:00 - 21:00"},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Todas las edades están permitidas, pero los menores de 15 años deberan participar con al menos un adulto por equipo."},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Prison Island es un escape room adaptado para niños a partir de 12 años"}
+  ],
+  "not_found": ["Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Er stedet permanent lukket eller flyttet?"],
+  "notes": "curl returned 403; content taken from Tavily extract (query-filtered). Tavily text shows the Julio/Agosto hours row as-is. Pages in Spanish; Tavily text marks the Prison Island site as active. Source quote for the 12-year rule is from the same page."
+ },
+ {
+  "key": "F02",
+  "url": "https://www.burbujaspark.com/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "También disponemos de ludoteca durante los periodos vacacionales, para que puedas dejar a tus hijos en un ambiente divertido y estimulante."}
+  ],
+  "not_found": ["Hvad er åbningstider og lukkedage?", "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Er stedet permanent lukket eller flyttet?"],
+  "notes": "Site has no hours or price list. Page is a single landing page."
+ },
+ {
+  "key": "F03",
+  "url": "http://www.lepetitcocofuengirola.es/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "CAMPAMENTO DE NAVIDAD"},
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "🗓 22 Dic. al 5 de Ene. ⏰ De 08:30 a 15:00 de la tarde"},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Trabajamos con niños y niñas de 3 a 6 años"},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Sí, nuestra ludoteca es bilingüe"}
+  ],
+  "not_found": ["Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Er stedet permanent lukket eller flyttet?"],
+  "notes": "The only hours quote is for the Christmas camp (22 Dic. al 5 Ene.), not regular opening hours. No regular hours on the page. Page mentions 'diversas opciones de precios' but gives no prices."
+ },
+ {
+  "key": "F04",
+  "url": "https://www.guiademalaga.net/mundomagico-torremolinos/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Lunes a Domingo:  12 a 23 Hs."},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Alquiler de local para cualquier tipo de celebración disponemos de piscina de bolas, toboganes, tirolina, rocódromo y campito de fútbol."}
+  ],
+  "not_found": ["Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Er stedet permanent lukket eller flyttet?"],
+  "notes": "This is a third-party directory listing (Guía de Málaga), not the venue's own site. The listing says 'Sitio Web: No informado' and that the information came from internet ads and the company was asked to confirm it: 'la información publicada por  Guía de Málaga como  Anuncio Gratis , fue tomada de anuncios publicitarios de internet.' Treat hours as unconfirmed. Page has 5 menu links (category pages), not used as price source."
+ },
+ {
+  "key": "F05",
+  "url": "http://garabatospark.com/",
+  "fetched": "2026-11-15",
+  "method": "none",
+  "quotes": [],
+  "not_found": ["Hvad er åbningstider og lukkedage?", "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "Er stedet permanent lukket eller flyttet?"],
+  "notes": "BLOCKED: curl returned 000 (no connection) and Tavily extract failed ('Failed to fetch url'). Status: blocked."
+ },
+ {
+  "key": "F06",
+  "url": "https://pipopark.es.tl/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "PARQUE INFANTIL, CAFETERIA, SALON DE CELEBRACIONES"}
+  ],
+  "not_found": ["Hvad er åbningstider og lukkedage?", "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Er stedet permanent lukket eller flyttet?"],
+  "notes": "FIND: the URL was found by Tavily search (address C/ Frascuelo 8 match on pipopark.es.tl/Contacto.htm). The site is a free-hosted page (PaginaWebGratis), so its status as the official site is not confirmed. Hours shown on Trip.com and Instagram snippets were not used (third-party)."
+ },
+ {
+  "key": "F07",
+  "url": "https://melimelolacala.com/en/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [],
+  "not_found": ["Hvad er åbningstider og lukkedage?", "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "Er stedet permanent lukket eller flyttet?"],
+  "notes": "The URL returns a registrar parking page (German IONOS: 'Diese Domain ist bereits registriert'), not the business site. No venue content. Possible sign the domain is no longer used by the venue; not confirmed."
+ },
+ {
+  "key": "F08",
+  "url": "https://www.thejoyhouse.es/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Mon to Fri · 14:30pm – 10pm, Sat & Sun 11am – 10pm"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Play entry is just €7,95 per child for 2 hours"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "From €17.95 per child", "source_url": "https://www.thejoyhouse.es/"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Aperol Spritz: aperol, cava and soda water 7.50", "source_url": "https://www.thejoyhouse.es/_files/ugd/dda686_895e7c805410478f95e76b6db8943801.pdf", "note": "PDF table row; internal spacing collapsed to one space"},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Healthy kids' menu"},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Come and enjoy our soft play and bouncy castle"},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Socks are required in the play area."},
+   {"question": "Er stedet permanent lukket eller flyttet?", "quote": "FAMILY SOCIAL CLUB · OPEN 7 DAYS"}
+  ],
+  "not_found": [],
+  "notes": "Prices for kids' party packages and the cocktail menu are on the page or in the linked PDF menu (https://www.thejoyhouse.es/_files/ugd/dda686_895e7c805410478f95e76b6db8943801.pdf, pdf method, fetched 2026-11-15). Only one PDF row is quoted as an example; the others were not copied. Page mentions 'Healthy kids' menu' but gives no children's price in the play entry. Page says 'Grown-ups enter for free!' (not quoted)."
+ }
+]

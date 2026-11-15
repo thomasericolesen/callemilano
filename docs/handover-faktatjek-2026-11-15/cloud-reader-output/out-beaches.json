@@ -1,0 +1,166 @@
+[
+  {
+    "key": "B01",
+    "url": null,
+    "fetched": "2026-11-15",
+    "method": null,
+    "status": "no_official_source",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er stranden sand, sten/grus eller klipper? (ordret)",
+      "Hvordan er adgangen (trapper, sti, klatring over klipper)?",
+      "Er der livredder, børneområde, toiletter, parkering eller hundepolitik?"
+    ],
+    "notes": "Tavily search (2 steps) found no page on prefer_domains for this beach; no WebSearch run since results were usable but non-official. Stopped per rule."
+  },
+  {
+    "key": "B02",
+    "url": null,
+    "fetched": "2026-11-15",
+    "method": null,
+    "status": "no_official_source",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er stranden sand, sten/grus eller klipper? (ordret)",
+      "Hvordan er adgangen (trapper, sti, klatring over klipper)?",
+      "Er der livredder, børneområde, toiletter, parkering eller hundepolitik?"
+    ],
+    "notes": "Tavily search (2 steps) found no page on prefer_domains for this beach; no WebSearch run since results were usable but non-official. Stopped per rule."
+  },
+  {
+    "key": "B03",
+    "url": null,
+    "fetched": "2026-11-15",
+    "method": null,
+    "status": "no_official_source",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er stranden sand, sten/grus eller klipper? (ordret)",
+      "Hvordan er adgangen (trapper, sti, klatring over klipper)?",
+      "Er der livredder, børneområde, toiletter, parkering eller hundepolitik?"
+    ],
+    "notes": "Tavily search (2 steps) found no page on prefer_domains for this beach; no WebSearch run since results were usable but non-official. Stopped per rule."
+  },
+  {
+    "key": "B04",
+    "url": null,
+    "fetched": "2026-11-15",
+    "method": null,
+    "status": "no_official_source",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er stranden sand, sten/grus eller klipper? (ordret)",
+      "Hvordan er adgangen (trapper, sti, klatring over klipper)?",
+      "Er der livredder, børneområde, toiletter, parkering eller hundepolitik?"
+    ],
+    "notes": "Tavily search (2 steps) found no page on prefer_domains for this beach; no WebSearch run since results were usable but non-official. Stopped per rule."
+  },
+  {
+    "key": "B05",
+    "url": "https://en.andalucia.org/listing/la-v%C3%ADbora-beach/18792101",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "status": "ok",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er stranden sand, sten/grus eller klipper? (ordret)",
+      "Hvordan er adgangen (trapper, sti, klatring over klipper)?",
+      "Er der livredder, børneområde, toiletter, parkering eller hundepolitik?"
+    ],
+    "notes": "Official source: en.andalucia.org listing 'La Víbora beach' (fetched text contains only the page heading and site navigation, no beach facts)."
+  },
+  {
+    "key": "B06",
+    "url": "https://www.spain.info/es/playa/calahonda-mijas",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "status": "ok",
+    "quotes": [
+      {
+        "question": "Er stranden sand, sten/grus eller klipper? (ordret)",
+        "quote": "Composición:\narena, roca"
+      },
+      {
+        "question": "Hvordan er adgangen (trapper, sti, klatring over klipper)?",
+        "quote": "Forma de acceso:\nA pie fácil,Coche"
+      },
+      {
+        "question": "Er der livredder, børneområde, toiletter, parkering eller hundepolitik?",
+        "quote": "Alquilar sombrillas, alquiler hamacas, alquiler náuticos, duchas, papeleras, servicio limpieza"
+      }
+    ],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?"
+    ],
+    "notes": "Official source: spain.info. Page gives Composición 'arena, roca' and Forma de acceso; no hours, prices, lifeguard, parking, dog policy or child facilities."
+  },
+  {
+    "key": "B07",
+    "url": "https://www.spain.info/es/playa/san-francisco-fuengirola",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "status": "ok",
+    "quotes": [
+      {
+        "question": "Er stranden sand, sten/grus eller klipper? (ordret)",
+        "quote": "Composición:\narena"
+      },
+      {
+        "question": "Hvordan er adgangen (trapper, sti, klatring over klipper)?",
+        "quote": "Forma de acceso:\nA pie fácil , Coche"
+      },
+      {
+        "question": "Er der livredder, børneområde, toiletter, parkering eller hundepolitik?",
+        "quote": "Alquilar sombrillas, alquiler hamacas, alquiler náuticos, aseos, club náutico, duchas, oficina de turismo, papeleras, servicio limpieza, teléfono, zona deportiva, zona infantil, zona práctica de surf"
+      }
+    ],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?"
+    ],
+    "notes": "Official source: spain.info. Page gives Composición 'arena', access and SERVICIOS list (includes zona infantil, aseos); no hours, prices, lifeguard, parking or dog policy."
+  },
+  {
+    "key": "B08",
+    "url": null,
+    "fetched": "2026-11-15",
+    "method": null,
+    "status": "no_official_source",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er stranden sand, sten/grus eller klipper? (ordret)",
+      "Hvordan er adgangen (trapper, sti, klatring over klipper)?",
+      "Er der livredder, børneområde, toiletter, parkering eller hundepolitik?"
+    ],
+    "notes": "Tavily search (2 steps) found no page on prefer_domains for this beach; no WebSearch run since results were usable but non-official. Stopped per rule."
+  }
+]

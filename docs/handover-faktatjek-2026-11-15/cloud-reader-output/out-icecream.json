@@ -1,0 +1,138 @@
+[
+ {
+  "key": "G01",
+  "name": "Pitucca Helados Artesanos",
+  "status": "login_wall",
+  "url": "http://facebook.com/pituccahelados",
+  "fetched": "2026-11-15",
+  "method": "none",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Facebook login wall. Owner screenshot needed. No other tool tried."
+ },
+ {
+  "key": "G02",
+  "name": "Ice Cream Café",
+  "status": "no_official_source",
+  "url": null,
+  "fetched": "2026-11-15",
+  "method": "tavily",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Search 'Ice Cream Café Av. Ramón y Cajal, 15, 29640 Fuengirola' returned only aggregators (corner.inc, wheree, vibelocal, waze, yelp, tripadvisor, mapquest). No official page. Not fetched. Aggregator hours (e.g. vibelocal, corner.inc) are not quoted because they are not official. Address also differs across sources (Av. Ramón y Cajal 30 on Yelp/TripAdvisor/MapQuest)."
+ },
+ {
+  "key": "G03",
+  "name": "Heladeria Mandarina & Cava",
+  "status": "no_official_source",
+  "url": null,
+  "fetched": "2026-11-15",
+  "method": "tavily",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "No official website found. Results were GelatoMaps, Tripadvisor, restaurantguru, gastrorank, mapcarta and the tourism blog (secondary). Only social result is an Instagram profile (https://www.instagram.com/mandarinaycava), which is a login-wall type source and was not fetched. Not used."
+ },
+ {
+  "key": "G04",
+  "name": "Heladería San Miguel Desayunos",
+  "status": "no_official_source",
+  "url": null,
+  "fetched": "2026-11-15",
+  "method": "tavily",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "No official website found. Results were GelatoMaps, the Torremolinos tourism blog, a Facebook page for 'Heladería San Miguel Carihuela' at a different address (C/ EL BULTO N° 39), and Instagram of the sister shop Heladería San Miguel (Calle San Miguel 30), which is a different venue. Not used."
+ },
+ {
+  "key": "G05",
+  "name": "DELIS HELADOS ARTESANALES",
+  "status": "ok",
+  "url": "https://heladosdelis.es",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "URL found by Tavily search (not given in input). Candidate official site: title 'Inicio - Helados Artesanales Delis', footer links to Instagram @delishelados. Site has no hours, prices, children provisions or closure notice. The only family phrase is 'Perfecto para compartir con familia y amigos', which is not a children offer and is not quoted. Address in search results: Av. de la Constitución, 10, Arroyo de la Miel (Uber Eats listing), not on the official site. Unverified whether the official site matches that address."
+ },
+ {
+  "key": "G06",
+  "name": "Vipentto",
+  "status": "ok",
+  "url": "https://vipentto.com/home/",
+  "fetched": "2026-11-15",
+  "method": "tavily",
+  "quotes": [
+   {
+    "question": "Hvad er åbningstider og lukkedage?",
+    "quote": "Todos los días de 13:00 a 01:00hs"
+   }
+  ],
+  "not_found": [
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "curl returned no content (HTTP 000), so Tavily extract was used once (advanced, text). Hours quote is from the Sucursales block for C. Troncón, 9, 29640 Fuengirola. Page says the first Spanish branch was 'recientemente inaugurado', no closure notice. Not a closure statement, so not quoted for the closure question."
+ },
+ {
+  "key": "G07",
+  "name": "Heladería KALT",
+  "status": "login_wall",
+  "url": "https://www.instagram.com/kalthelados?igsh=dTlwemw4ZDdocnVt&utm_source=qr",
+  "fetched": "2026-11-15",
+  "method": "none",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Instagram login wall. Owner screenshot needed. No other tool tried."
+ },
+ {
+  "key": "G08",
+  "name": "Heladería Caramelo Helado Artesanal",
+  "status": "ok",
+  "url": "https://www.heladeriacaramelo.com/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {
+    "question": "Hvad er åbningstider og lukkedage?",
+    "quote": "Lunes a Jueves 14h-1h / Viernes, sábado y domingo 11h-1:30h"
+   }
+  ],
+  "not_found": [
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Address on site: Calle Miguel Bueno 2, Fuengirola 29640. No closed days listed (none stated for Sunday or any weekday beyond the two ranges). No prices, children provisions or closure notice on the page."
+ }
+]

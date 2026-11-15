@@ -1,0 +1,122 @@
+[
+ {
+  "key": "H01",
+  "url": "http://lorenacafe.com/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Joy Burger / Hamburguesa casera de jugosa ternera 100%, queso edam, patatas fritas y bebida. (Helado no incluido) / 10,40 €", "source_url": "http://lorenacafe.com/carta/completa"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Menú Tostada / Pitufo de pan blanco tostado, a elegir con AOVE, tomate, mantequilla o mermelada. / 6,95 €", "source_url": "http://lorenacafe.com/carta/completa"},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Lorena Kids", "source_url": "http://lorenacafe.com/carta/completa"},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Para los más pequeños — combinaciones a su medida.", "source_url": "http://lorenacafe.com/carta/completa"}
+  ],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Brand site for four Lorena locations (Fuengirola, Los Boliches, Arroyo de la Miel, El Perchel). Page gives the Los Boliches address 'Av. Ramón y Cajal, 48, 29640 Fuengirola, Málaga' but no hours for it. Prices come from the shared carta page (menu1, method curl), which says 'Misma carta en los cuatro locales'. Homepage has teaser 'Y además: Nos vamos a ???', which is ambiguous and does not confirm closure or a move. Kids item is a menu category with no prices or rules listed. Club Lorena (rasca y gana) is a promotion, not a children offer."
+ },
+ {
+  "key": "H02",
+  "url": "http://www.sanchocolate.com/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Identity mismatch: the page is for an artisan chocolate brand (San Chocolate, prices in DH, Moroccan heritage, online shop with 'Ajouter au panier'). It shows no café, no Costa del Sol location and no opening hours. Not a match for a café in the area; needs editor decision on whether H02 should stay. Contact details on the page were not recorded."
+ },
+ {
+  "key": "H03",
+  "url": "https://www.lorenacafe.com/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Joy Burger / Hamburguesa casera de jugosa ternera 100%, queso edam, patatas fritas y bebida. (Helado no incluido) / 10,40 €", "source_url": "http://lorenacafe.com/carta/completa"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Menú Tostada / Pitufo de pan blanco tostado, a elegir con AOVE, tomate, mantequilla o mermelada. / 6,95 €", "source_url": "http://lorenacafe.com/carta/completa"},
+   {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Lorena Kids", "source_url": "http://lorenacafe.com/carta/completa"}
+  ],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Same brand site as H01 (https://www.lorenacafe.com/, same homepage text). The homepage names the Arroyo de la Miel location 'Av. de la Constitución, 12, Local 20, 29631 Arroyo de la Miel, Málaga'. Prices and kids entries come from the shared carta page (fetched under H01-menu1, method curl) and apply to all four locations per 'Misma carta en los cuatro locales'. No location-specific hours found. Same ambiguous 'Nos vamos a ???' teaser as H01."
+ },
+ {
+  "key": "H04",
+  "url": "https://instagram.com/meetingpointcafe_?igshid=MTIyMzRjYmRlZg==",
+  "fetched": "2026-11-15",
+  "method": "none",
+  "quotes": [],
+  "not_found": [],
+  "notes": "login_wall: Instagram page requires sign-in. Owner screenshot needed; no other tool tried."
+ },
+ {
+  "key": "H05",
+  "url": "http://www.tejeringoscoffee.es/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Homepage and carta (https://www.tejeringoscoffee.es/carta/, fetched as H05-menu1, method curl) list categories only, no prices and no opening hours. Store list is behind 'ENCUENTRA TU LOCAL MÁS CERCANO' and was not fetched. The page says 'Próximamente, podrás disfrutar de nuestros sabores en Vélez-Málaga', which is an expansion, not a closure."
+ },
+ {
+  "key": "H06",
+  "url": "https://dulceslacanasta.shop/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Tartaleta Fresa / $4,30 €", "source_url": "https://dulceslacanasta.shop/menu"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Croissant / $1,90 €", "source_url": "https://dulceslacanasta.shop/menu"}
+  ],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Address on page: 'Av. de la Constitución, 12, 29631 Benalmádena, Málaga, Spain' (same street number as H03's Arroyo de la Miel address, check). Prices from https://dulceslacanasta.shop/menu (fetched as H06-menu1, method curl); the menu shows '$' next to '€', probably a display artifact, to confirm before use. Guestbook reviews on the page were ignored."
+ },
+ {
+  "key": "H07",
+  "url": "https://lacanastafuengirola.shop/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Tradicional / $1,90 €", "source_url": "https://lacanastafuengirola.shop/menu"},
+   {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Croissant / $1,90 €", "source_url": "https://lacanastafuengirola.shop/menu"}
+  ],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "Address on page: 'P.º Jesús Santos Rein, 29640 Fuengirola, Málaga, Spain'. Prices from https://lacanastafuengirola.shop/menu (fetched as H07-menu1, method curl). The menu shows '$' next to '€', probably a display artifact. Price pairs are quoted from the menu listing, so 'Tradicional' and 'Croissant' are menu lines only. Guestbook reviews were ignored."
+ },
+ {
+  "key": "H08",
+  "url": "https://bareuropacafe.com/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Lunes a viernes de 9:00 am a 10:00 pm", "source_url": "https://bareuropacafe.com/"},
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Sábados y domingos de 9:00 am a 11:00 pm", "source_url": "https://bareuropacafe.com/"},
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Lunes a domingo de 9.00 am a 01:00 pm", "source_url": "https://bareuropacafe.com/"},
+   {"question": "Hvad er åbningstider og lukkedage?", "quote": "Mon – Fri from 8am to 9pm", "source_url": "https://bareuropacafe.com/"}
+  ],
+  "not_found": [
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "notes": "CONFLICT (for editor, not closed by Claude): the page gives four different hour sets. The Spanish 'Horarios' block (home and carta page) says weekdays 9:00-22:00 and weekends 9:00-23:00. The footer says 'Lunes a domingo de 9.00 am a 01:00 pm'. The English block says Mon-Fri 8am-9pm and Sat-Sun 9am-4pm. Address on page: 'Av. García Lorca S/N, Parque de La Paloma. 29631 Benalmádena (Málaga)'. The carta page (https://bareuropacafe.com/carta-bar-europa/, fetched as H08-menu1) has no prices in its text. The English footer also shows a template contact ('+1 (800) 234-65-78', 'cafert@example.com'); not recorded."
+ }
+]

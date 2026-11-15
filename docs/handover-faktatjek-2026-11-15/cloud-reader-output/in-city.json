@@ -1,0 +1,148 @@
+[
+ {
+  "key": "E01",
+  "name": "Carromato de Mijas",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Er der entré og børnepriser?"
+  ],
+  "url": "http://www.carromatodemijas.org/"
+ },
+ {
+  "key": "E02",
+  "name": "Mirador del Paseo de la Muralla",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Er der entré og børnepriser?"
+  ],
+  "url": "FIND",
+  "find": "Mirador del Paseo de la Muralla P.º de la Muralla, 2, 29650 Mijas, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "E03",
+  "name": "CAC Mijas (Centro de Arte Contemporáneo)",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Er der entré og børnepriser?"
+  ],
+  "url": "http://cacmijas.info/"
+ },
+ {
+  "key": "E04",
+  "name": "Centro de Exposiciones de Benalmádena",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Er der entré og børnepriser?"
+  ],
+  "url": "http://www.benalmadena.es/"
+ },
+ {
+  "key": "E05",
+  "name": "Paseo de los Murales de El Boquetillo",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Er der entré og børnepriser?"
+  ],
+  "url": "FIND",
+  "find": "Paseo de los Murales de El Boquetillo Calle Miguel Bueno, 5, Loc 6 y 7, 29640 Fuengirola, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "E06",
+  "name": "Centro Histórico Mijas",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Er der entré og børnepriser?"
+  ],
+  "url": "FIND",
+  "find": "Centro Histórico Mijas Pl. de la Constitución, 29650 Mijas, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "E07",
+  "name": "Casa Museo Municipal",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Er der entré og børnepriser?"
+  ],
+  "url": "FIND",
+  "find": "Casa Museo Municipal Pl. de la Libertad, 2, 29650 Mijas, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "E08",
+  "name": "Museo Histórico-Etnológico",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Er der entré og børnepriser?"
+  ],
+  "url": "FIND",
+  "find": "Museo Histórico-Etnológico Pl. de la Libertad, 1, 29650 Mijas, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ }
+]

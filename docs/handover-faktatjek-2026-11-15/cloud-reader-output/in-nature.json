@@ -1,0 +1,176 @@
+[
+ {
+  "key": "D01",
+  "name": "Parque Botánico de La Muralla",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+   "Er der entré, parkering eller hundepolitik?"
+  ],
+  "url": "FIND",
+  "find": "Parque Botánico de La Muralla P.º de la Muralla, 29650 Mijas, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "D02",
+  "name": "Parque Fluvial",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+   "Er der entré, parkering eller hundepolitik?"
+  ],
+  "url": "FIND",
+  "find": "Parque Fluvial 29640 Fuengirola, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "D03",
+  "name": "Sendero Litoral",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+   "Er der entré, parkering eller hundepolitik?"
+  ],
+  "url": "FIND",
+  "find": "Sendero Litoral Urbanizacion Marbiluna, 1B, 29649 Calahonda, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "D04",
+  "name": "Sendero Cerro de la Medialuna",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+   "Er der entré, parkering eller hundepolitik?"
+  ],
+  "url": "FIND",
+  "find": "Sendero Cerro de la Medialuna 29650 Mijas, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "D05",
+  "name": "Sendero Las Presas",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+   "Er der entré, parkering eller hundepolitik?"
+  ],
+  "url": "FIND",
+  "find": "Sendero Las Presas Pje. Estrella, 2, 29640 Fuengirola, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "D06",
+  "name": "Parque periurbano Pinar de los Manantiales",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+   "Er der entré, parkering eller hundepolitik?"
+  ],
+  "url": "http://www.torremolinos.es/"
+ },
+ {
+  "key": "D07",
+  "name": "Parque La Cantera",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+   "Er der entré, parkering eller hundepolitik?"
+  ],
+  "url": "FIND",
+  "find": "Parque La Cantera 29640 Fuengirola, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ },
+ {
+  "key": "D08",
+  "name": "Parque Las Presas",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+   "Er der entré, parkering eller hundepolitik?"
+  ],
+  "url": "FIND",
+  "find": "Parque Las Presas Arroyo de las Presas, 29640 Fuengirola, Málaga, España sitio oficial",
+  "prefer_domains": [
+   "mijas.es",
+   "benalmadena.es",
+   "fuengirola.es",
+   "andalucia.org",
+   "spain.info",
+   "turismo.fuengirola.es",
+   "visitbenalmadena.com"
+  ]
+ }
+]
