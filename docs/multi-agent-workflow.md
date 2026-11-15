@@ -154,6 +154,8 @@ At most once a week and only when there is something, one interactive list of al
 
 Fixed choices by type: conflict: use source A, use source B, write "check before visiting" and leave the value unknown. Archiving: archive, keep and retry (say what), ask the family. New place: yes, maybe, no. Assessment (tags and family): the controlled values from the schema, preselected with the current ones; "don't know" means leave unchanged and is not an open issue.
 
+One card per place, each question asked once (owner decision 2026-11-15). Where a list covers places, every decision about a place sits on that place's card as tick-tags or choice chips, for example: yes, maybe, no; type deviates; duplicate of X; source A or B; drop for lack of source. The facts appear once, on the card. Never add a separate editor section that asks about the same places again from another angle. The top of the list holds only a filter ("only places with open decisions") and a counter ("x of n decided"). A place with nothing to decide beyond yes or no shows only that.
+
 Answers are stored in the list. Claude reads them and writes them to the records with evidence (the editor's own judgement, date, link to the list). The list and all choices are kept as history.
 
 ### Weekly summary (level B)

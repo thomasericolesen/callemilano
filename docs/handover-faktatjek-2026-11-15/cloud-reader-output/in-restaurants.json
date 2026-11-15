@@ -1,0 +1,90 @@
+[
+ {
+  "key": "A01",
+  "name": "Koco Bistró",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://go.nordqr.com/koco-bistro/"
+ },
+ {
+  "key": "A02",
+  "name": "Tomillo Limón",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.tomillolimon.es/"
+ },
+ {
+  "key": "A03",
+  "name": "The Secret Garden - Mijas",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.covermanager.com/reservation/module_restaurant/restaurante-aromasecretgarden"
+ },
+ {
+  "key": "A04",
+  "name": "Restaurante La Reja. Steak House & Traditional Spanish Restaurant with Panoramic Views",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://restaurantelareja.com/"
+ },
+ {
+  "key": "A05",
+  "name": "Restaurante Casa Antonio",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "http://www.instagram.com/casa_antonio_restaurante"
+ },
+ {
+  "key": "A06",
+  "name": "La Familia Beach Club",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "http://www.lafamilia-beachclub.com/"
+ },
+ {
+  "key": "A07",
+  "name": "Ferrum Restaurante",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.instagram.com/ferrumfuengirola/"
+ },
+ {
+  "key": "A08",
+  "name": "El Gusto de la Cala",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "http://www.elgustodelacala.com/"
+ }
+]

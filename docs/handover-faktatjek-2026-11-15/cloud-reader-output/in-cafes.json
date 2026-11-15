@@ -1,0 +1,90 @@
+[
+ {
+  "key": "H01",
+  "name": "Lorena Café Los Boliches",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "http://lorenacafe.com/"
+ },
+ {
+  "key": "H02",
+  "name": "Cafetería San Chocolate",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "http://www.sanchocolate.com/"
+ },
+ {
+  "key": "H03",
+  "name": "Lorena Café Arroyo de la Miel",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.lorenacafe.com/"
+ },
+ {
+  "key": "H04",
+  "name": "Meeting Point Cafe",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://instagram.com/meetingpointcafe_?igshid=MTIyMzRjYmRlZg=="
+ },
+ {
+  "key": "H05",
+  "name": "Tejeringo's Coffee",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "http://www.tejeringoscoffee.es/"
+ },
+ {
+  "key": "H06",
+  "name": "Cafetería-Panadería-Pastelería \"La Canasta\"",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://dulceslacanasta.shop/"
+ },
+ {
+  "key": "H07",
+  "name": "La Canasta Fuengirola",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://lacanastafuengirola.shop/"
+ },
+ {
+  "key": "H08",
+  "name": "Café Bar Europa Benalmádena",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://bareuropacafe.com/"
+ }
+]

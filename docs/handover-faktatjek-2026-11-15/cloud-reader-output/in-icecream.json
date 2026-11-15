@@ -1,0 +1,98 @@
+[
+ {
+  "key": "G01",
+  "name": "Pitucca Helados Artesanos",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "http://facebook.com/pituccahelados"
+ },
+ {
+  "key": "G02",
+  "name": "Ice Cream Café",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "FIND",
+  "find": "Ice Cream Café Av. Ramón y Cajal, 15, 29640 Fuengirola, Málaga, España sitio oficial",
+  "prefer_domains": []
+ },
+ {
+  "key": "G03",
+  "name": "Heladeria Mandarina & Cava",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "FIND",
+  "find": "Heladeria Mandarina & Cava C. Antonio Navajas Ruíz, 29620 Torremolinos, Málaga, España sitio oficial",
+  "prefer_domains": []
+ },
+ {
+  "key": "G04",
+  "name": "Heladería San Miguel Desayunos",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "FIND",
+  "find": "Heladería San Miguel Desayunos Costa de la Carihuela, 87, 29620 Torremolinos, Málaga, España sitio oficial",
+  "prefer_domains": []
+ },
+ {
+  "key": "G05",
+  "name": "DELIS HELADOS ARTESANALES",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "FIND",
+  "find": "DELIS HELADOS ARTESANALES Av. de la Constitución, 10, 29631 Arroyo de La Miel, Málaga, España sitio oficial",
+  "prefer_domains": []
+ },
+ {
+  "key": "G06",
+  "name": "Vipentto",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://vipentto.com/home/"
+ },
+ {
+  "key": "G07",
+  "name": "Heladería KALT",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.instagram.com/kalthelados?igsh=dTlwemw4ZDdocnVt&utm_source=qr"
+ },
+ {
+  "key": "G08",
+  "name": "Heladería Caramelo Helado Artesanal",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.heladeriacaramelo.com/"
+ }
+]

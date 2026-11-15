@@ -1,0 +1,133 @@
+[
+ {
+  "key": "D01",
+  "name": "Parque Botánico de La Muralla",
+  "status": "no_official_source",
+  "url": null,
+  "fetched": "2026-11-15",
+  "method": null,
+  "quotes": [],
+  "not_found": [],
+  "notes": "Tavily search and WebSearch found no official park page (mijas.es or turismo.mijas.es). The only Mijas tourism page surfaced (turismo.mijas.es/en/culture/monuments/bullring) is for the Plaza de Toros, not the park, so it was not used. Hours and the 3 EUR entry from that page belong to the bullring and must not be attributed to the park."
+ },
+ {
+  "key": "D02",
+  "name": "Parque Fluvial",
+  "status": "blocked",
+  "url": "https://www.visitacostadelsol.com/que-hacer/parque-fluvial-de-fuengirola-p56051",
+  "fetched": "2026-11-15",
+  "method": "tavily",
+  "quotes": [],
+  "not_found": [
+    "Hvad er åbningstider og lukkedage?",
+    "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+    "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+    "Er stedet permanent lukket eller flyttet?",
+    "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+    "Er der entré, parkering eller hundepolitik?"
+  ],
+  "notes": "curl returned HTTP 405 and Tavily extract failed (Failed to fetch url). Blocked. The Diputación de Málaga tourism page was seen only in search snippets, which were not used as quotes."
+ },
+ {
+  "key": "D03",
+  "name": "Sendero Litoral",
+  "status": "ok",
+  "url": "https://calahondaeuc.com/descubre-calahonda/senda-litoral-mijas",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+    {
+      "question": "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+      "quote": "Por esas características este tipo de rutas son muy cómodas y no suponen un gran esfuerzo, ya que prácticamente no hay ningún tramo con pendiente."
+    }
+  ],
+  "not_found": [
+    "Hvad er åbningstider og lukkedage?",
+    "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+    "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+    "Er stedet permanent lukket eller flyttet?",
+    "Er der entré, parkering eller hundepolitik?"
+  ],
+  "notes": "Source is the urbanization's official site (Sitio de Calahonda, EUC) for the Senda Litoral Mijas route. The page gives no total length in km and no statement about strollers (klapvogn); the route is described as mostly wooden walkways. The question on length and stroller suitability is only partly answered by the quote. Publisher is the urbanization, not the Mijas municipality."
+ },
+ {
+  "key": "D04",
+  "name": "Sendero Cerro de la Medialuna",
+  "status": "no_official_source",
+  "url": null,
+  "fetched": "2026-11-15",
+  "method": null,
+  "quotes": [],
+  "not_found": [],
+  "notes": "Tavily search and WebSearch found no official Ayuntamiento de Mijas page for this trail. Results were third-party hiking sites (komoot, wikiloc, alltrails, corner.inc) and event listings. A tracestrack entry lists Ayuntamiento de Mijas as operator but for a different trail (Sendero Cerro Málaga, Pico Mendoza), so it was not used. Not fetched."
+ },
+ {
+  "key": "D05",
+  "name": "Sendero Las Presas",
+  "status": "no_official_source",
+  "url": null,
+  "fetched": "2026-11-15",
+  "method": null,
+  "quotes": [],
+  "not_found": [],
+  "notes": "Tavily search and WebSearch found no official page for this trail. The municipal tourism site (turismo.fuengirola.es) was not found to describe it. Results were third-party sites (fuengirolaforever, Sur in English, wikiloc, komoot, Facebook). Not fetched."
+ },
+ {
+  "key": "D06",
+  "name": "Parque periurbano Pinar de los Manantiales",
+  "status": "ok",
+  "url": "http://www.torremolinos.es/",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [],
+  "not_found": [
+    "Hvad er åbningstider og lukkedage?",
+    "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+    "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+    "Er stedet permanent lukket eller flyttet?",
+    "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+    "Er der entré, parkering eller hundepolitik?"
+  ],
+  "notes": "Only the Torremolinos municipal homepage was fetched; it has no page for Pinar de los Manantiales. The homepage notice that parks and gardens are closed during an orange rain warning (11 Nov 2026) is general and not about this park, so it was not used. A dedicated park page would be needed."
+ },
+ {
+  "key": "D07",
+  "name": "Parque La Cantera",
+  "status": "ok",
+  "url": "https://mapas.fuengirola.es/es/parques-y-plazas/resource/r/parque-de-la-cantera",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+    {
+      "question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "quote": "Este parque contiene todos los elementos necesarios para disfrutar de un paseo, hacer ejercicio o disfrutar en familia al aire libre."
+    }
+  ],
+  "not_found": [
+    "Hvad er åbningstider og lukkedage?",
+    "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+    "Er stedet permanent lukket eller flyttet?",
+    "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+    "Er der entré, parkering eller hundepolitik?"
+  ],
+  "notes": "Source is the Fuengirola municipal tourism map (Turismo Fuengirola). The quote is general family wording and does not name a play area or child facility, so it does not answer the child-facilities question on its own. The park's own list entry has no play-area description."
+ },
+ {
+  "key": "D08",
+  "name": "Parque Las Presas",
+  "status": "blocked",
+  "url": "https://turismo.fuengirola.es/en/what-to-see/parks-and-squares",
+  "fetched": "2026-11-15",
+  "method": "tavily",
+  "quotes": [],
+  "not_found": [
+    "Hvad er åbningstider og lukkedage?",
+    "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+    "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+    "Er stedet permanent lukket eller flyttet?",
+    "Hvor lang/hvor svær er ruten, og er den egnet for børn eller klapvogn?",
+    "Er der entré, parkering eller hundepolitik?"
+  ],
+  "notes": "curl returned HTTP 404. Tavily extract returned a 'Page not found' page with no park content, so the source is treated as blocked. The search snippet for this URL (11 hectares, C/ Oropéndola) was not used because the page itself does not load. A working park page is needed."
+ }
+]

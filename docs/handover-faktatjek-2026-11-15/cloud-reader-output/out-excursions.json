@@ -1,0 +1,261 @@
+[
+ {
+  "key": "C01",
+  "url": "https://mayanmonkey.es/?utm_source=google&utm_medium=maps",
+  "status": "ok",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {
+    "question": "Hvad er åbningstider og lukkedage?",
+    "quote": "Open every day from 10:30 to 18:00 at Plaza Virgen de la Peña, the main square of Mijas Pueblo, just 30 minutes from Málaga and Marbella."
+   },
+   {
+    "question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+    "quote": "Free ice cream tasting on your visit — sign up to our occasional newsletter"
+   },
+   {
+    "question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+    "quote": "Hands-on from age 3"
+   },
+   {
+    "question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+    "quote": "Under 3s free"
+   },
+   {
+    "question": "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+    "quote": "Hands-on from age 3"
+   },
+   {
+    "question": "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+    "quote": "from quick 25-minute sessions to full chocolatier masterclasses."
+   },
+   {
+    "question": "Skal der bookes?",
+    "quote": "Book direct with the factory — your booking goes straight to us"
+   }
+  ],
+  "not_found": [
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed? (vægt/højde og en fast varighed ikke angivet)"
+  ],
+  "notes": "Siden viser ingen workshop-priser. Den nævner ikke lukning. Gratis is-smagning er kun en tilkøbt besked om nyhedsbrev, ikke en pris."
+ },
+ {
+  "key": "C02",
+  "url": "https://cabopinojetski.com/es/",
+  "status": "ok",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {
+    "question": "Hvad er åbningstider og lukkedage?",
+    "quote": "Puedes encontrarnos de lunes a domingo en el Puerto de Cabopino en Marbella"
+   },
+   {
+    "question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+    "quote": "Rango de precios: desde 60,00 € hasta 140,00 €"
+   },
+   {
+    "question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+    "quote": "* El servicio se cobrará en persona por cualquiera de los métodos de pago aceptados (efectivo o tarjeta)."
+   },
+   {
+    "question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+    "quote": "Los menores de edad pueden ir como acompañantes siempre que estén acompañados por un adulto."
+   },
+   {
+    "question": "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+    "quote": "Sí, la edad mínima para conducir una moto de agua es de 18 años."
+   },
+   {
+    "question": "Skal der bookes?",
+    "quote": "Reserva tu moto de agua en Cabopino de manera rápida y sencilla a través de nuestro sistema online."
+   }
+  ],
+  "not_found": [
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed? (varighed i minutter ikke angivet; højdekrav ikke angivet)"
+  ],
+  "notes": "Åbningstider i klokkeslæt findes ikke, kun dage. Priser står under tjenesten Alquiler de Jet Ski en circuito. Børnepriser findes ikke."
+ },
+ {
+  "key": "C03",
+  "url": "http://www.turiactivo.com/",
+  "status": "ok",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+   "Skal der bookes?"
+  ],
+  "notes": "Siden er en operatør for barranquismo, MTB, vía ferrata og team building. Den har et menupunkt Familias, men ingen indhold om børn. Ingen priser, tider eller bookingregler."
+ },
+ {
+  "key": "C04",
+  "url": "",
+  "status": "no_official_source",
+  "fetched": "2026-11-15",
+  "method": "",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+   "Skal der bookes?"
+  ],
+  "notes": "Ingen officiel side fundet. Søgningen gav kun kataloger (malaga-directory, mv.), som ikke er brugt. Kræver ny kilde fra ejer eller Mac-session."
+ },
+ {
+  "key": "C05",
+  "url": "https://fuengirolaseatrips.com/en/contact",
+  "status": "ok",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {
+    "question": "Skal der bookes?",
+    "quote": "RESERVA AHORA"
+   }
+  ],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?"
+  ],
+  "notes": "Officiel side fundet via søgning (fuengirolaseatrips.com). Kontaktsiden har kun en knap RESERVA AHORA, ingen regel om booking. Åbningstider fra kataloger er ikke brugt. Adressen Local 65 er ikke rettet fra officiel side."
+ },
+ {
+  "key": "C06",
+  "url": "https://jetboatcabopino.com/",
+  "status": "blocked",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+   "Skal der bookes?"
+  ],
+  "notes": "curl gav HTTP 000 og Tavily extract fejlede. URL'en stammer fra et Facebook-søgeuddrag (BoatSharkoCabopino), ikke verificeret. Ingen andre officielle kilder fundet."
+ },
+ {
+  "key": "C07",
+  "url": "",
+  "status": "no_official_source",
+  "fetched": "2026-11-15",
+  "method": "",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+   "Skal der bookes?"
+  ],
+  "notes": "Ingen officiel webside fundet. Kun Facebook og Instagram (@costaboatcharters) samt kataloger. benalmadenarentboat.com er en anden operatør (Marina U Boat Rental) og er ikke brugt. Facebook og Instagram er login_wall."
+ },
+ {
+  "key": "C08",
+  "url": "https://tourcostadelsol.com/",
+  "status": "ok",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+   "Skal der bookes?"
+  ],
+  "notes": "Siden er en rejseguide og affiliate-katalog, ikke en operatør. Den viser ingen egne priser eller tider. URL'en bør kontrolleres, da C08 ikke ser ud til at have et officielt sted."
+ },
+ {
+  "key": "C09",
+  "url": "http://www.kikitripsaventura.com/",
+  "status": "ok",
+  "fetched": "2026-11-15",
+  "method": "tavily",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+   "Skal der bookes?"
+  ],
+  "notes": "curl gav en bot-kontrolside (73 tegn). Tavily extract hentede forsiden. Forsiden har kontakt og en registrering i Turismo Activo (AT/MA/00387) og viser ingen priser, tider eller børneregler. Copyright står som 2022."
+ },
+ {
+  "key": "C10",
+  "url": "",
+  "status": "no_official_source",
+  "fetched": "2026-11-15",
+  "method": "",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+   "Skal der bookes?"
+  ],
+  "notes": "Ingen officiel webside fundet. Kun Facebook (facebook.com/topsupfuengirola) og Instagram samt kataloger. Facebook og Instagram er login_wall. Top Sup er en butik for paddle surf og kajak med adresse Paseo Marítimo Rey de España 79."
+ },
+ {
+  "key": "C11",
+  "url": "https://thesailexperience.com/",
+  "status": "ok",
+  "fetched": "2026-11-15",
+  "method": "curl",
+  "quotes": [
+   {
+    "question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+    "quote": "Una escuela pensada para que los niños aprendan, mejoren y se diviertan durante todo el año."
+   }
+  ],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+   "Skal der bookes?"
+  ],
+  "notes": "Forsiden viser en skole og aktiviteter (Escuela infantil, Campamentos, Cumpleaños). Der er ingen priser eller tider. Kontakt er WhatsApp eller telefon (Escríbenos por WhatsApp o llámanos sin compromiso.) uden booking-regel."
+ },
+ {
+  "key": "C12",
+  "url": "",
+  "status": "no_official_source",
+  "fetched": "2026-11-15",
+  "method": "",
+  "quotes": [],
+  "not_found": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?",
+   "Hvad er mindstealder, vægt- eller højdekrav og varighed?",
+   "Skal der bookes?"
+  ],
+  "notes": "Ingen officiel side fundet. Søgningen gav kun La Carihuela-områdeartikler og turistinfo, ikke operatørens egen side."
+ }
+]

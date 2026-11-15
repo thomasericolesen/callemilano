@@ -1,0 +1,21 @@
+[
+ {
+  "key": "F08-menu1",
+  "name": "The Joyhouse menu PDF",
+  "questions": [
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?"
+  ],
+  "url": "https://www.thejoyhouse.es/_files/ugd/dda686_895e7c805410478f95e76b6db8943801.pdf"
+ },
+ {
+  "key": "F06",
+  "name": "Pipo Park Fuengirola (candidate official site)",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://pipopark.es.tl/"
+ }
+]

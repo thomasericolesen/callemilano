@@ -1,5 +1,36 @@
 # Change log
 
+## 2026-11-15 - 36 draft records from the owner checklist (owner decisions, checklist)
+
+- Owner answered the 68-candidate checklist (https://claude.ai/artifact/M3PyJYkeaA6hNrzS2mTbzu): 54 yes, 11 no, 3 maybe on the places; 24 of 25 editor points decided.
+- Rule used where the two answers disagreed: a place was created only when both the place answer and the editor point said keep. Not created although the place answer was yes, because the editor point said drop: C04, C08, B08 (not a place or unofficial name), C10, F02 (type), D03, E06, E08, E02, D05 (duplicates), C06, C07, C12, D04, F04, F05, F07, G02 (no usable source). Not created although the editor point said keep, because the later place answer was no: B04 (owner note: local name for the beach below the Sohail castle), H08. Maybe, not created: A03, C11, D01.
+- Created 36 drafts with `tools/intake.py create` (status `draft`, `facts_not_checked`):
+  - Restaurants: A01, A02, A04, A05, A06, A07, A08, G01, G03-G08, H01-H05, H07.
+  - Beaches: B01, B02, B05, B06, B07.
+  - Excursions: C01, C02.
+  - Nature: D07, D08.
+  - City: E01, E03, E05, E07.
+  - Family activities: F01, F06, F08.
+- Category follows the checklist group, which the owner accepted per place. Ice-cream shops and cafés are `Restaurants`, as in existing records. Tags, family scores and age groups are empty; the checklist's default values (all "low", category "Restaurants") were not the owner's choices and were not used.
+- Editor choices written into the evidence notes: A04 and A08 hours conflict, show "check before visiting"; A01 keep as restaurant and mention tapas; E05 keep under City; E07 is the same museum as E08; owner's own knowledge for B02 (narrow sand beach, no lifeguard). Websites not used: H02 (chocolate brand) and H07 (third-party .shop page).
+- Validate: 256 records, 0 errors, 26 warnings (unchanged). No import: the facts from the Desktop fact check (`desktop-faktatjek-citater.md`) still need to go into the records with `tools/intake.py apply`, and Danish texts are needed before import.
+
+## 2026-11-15 - Editor list: one card per place, each question asked once (owner decision, chat)
+
+- The 68-candidate checklist asked about the same places twice: once in 25 editor points at the top and again as yes/maybe/no per place. Owner decision: from now on, every decision about a place goes on that place's card as tick-tags; no separate section repeats the same places. Written into `AGENTS.md` ("Editor workflow") and `docs/multi-agent-workflow.md` ("Editor list").
+
+## 2026-11-15 - Desktop fact check of the 68 candidates (level A, no records changed)
+
+- The main session opened and read every source itself (curl text, Chrome signed in for Instagram/Facebook, Google Maps for identity only). Report with overview table and editor items: `docs/handover-faktatjek-2026-11-15/desktop-faktatjek.md`; verbatim quotes with URL and date: `desktop-faktatjek-citater.md`.
+- Spot-checked the cloud quotes for E07/E08, B06, B07, D03 and D07 against the live pages: they match. G06 could not be re-checked (site down).
+- Found: A01 Koco Bistró is a tapas place; C08 is a travel-guide website, not a place; H06/H07 .shop sites are auto-generated third-party pages; five duplicates (E07=E08, D01≈E02, D05≈D08, D03 = `senda-litoral-la-cala`, E06 = `mijas-pueblo`); hour conflicts at H08, A04, A08; age conflict at F03. All level C/D items go to the editor; nothing changed in records.
+
+## 2026-11-15 - Candidate sweep and handover for Desktop fact check (level A, no records changed)
+
+- Nearby sweep around six points (casa, Mijas pueblo, La Cala, Fuengirola, Benalmádena, Calahonda), deduped against `data/place-catalog.csv` and `data/place-id-registry.csv`, route-checked with Routes: 241 + 130 new candidates at most 30 min one way. 68 shortlisted on an owner checklist (restaurants, beaches, excursions for young adults, nature, city, family activities, ice-cream shops, cafés).
+- First fact-check pass from the cloud used Haiku `source-reader` agents only and was too thin (no page was opened by the main session; identity and place type were not verified). Result is not reliable; see `docs/handover-faktatjek-2026-11-15.md`. Work is handed to a Desktop session (Opus orchestrating, Chrome signed in).
+- No place records created; no status, category, tags or family scores changed. Files: `docs/handover-faktatjek-2026-11-15/`.
+
 ## 2026-11-14 - App: "Log ud" logs out this device only (owner decision, chat)
 
 - The editor chose that "Log ud" logs out only the device in use; other phones stay logged in. Until now the button logged out all devices (Supabase scope `global`), which is why Chrome was logged out when the owner pressed "Log ud" on the iPhone. App PR #44 also makes logout work offline (button and the 30-day logout), which it did not before. The rule is in the app repo's `AGENTS.md`.

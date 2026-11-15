@@ -1,0 +1,132 @@
+[
+  {
+    "key": "E01",
+    "url": "http://www.carromatodemijas.org/",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "quotes": [
+      {"question": "Hvad er åbningstider og lukkedage?", "quote": "ENERO, FEBRERO, MARZO, NOVIEMBRE Y DICIEMBRE: 10:00H A 18:00H"},
+      {"question": "Hvad er åbningstider og lukkedage?", "quote": "ABRIL, MAYO, JUNIO Y OCTUBRE: 10:00H A 20:00H"},
+      {"question": "Hvad er åbningstider og lukkedage?", "quote": "JULIO, AGOSTO Y SEPTIEMBRE: 10:00H A 21:00H"}
+    ],
+    "not_found": [
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er der entré og børnepriser?"
+    ],
+    "notes": "Åbningstider er kun angivet per måned; lukkedage er ikke nævnt. Siden oplyser ingen priser. Siden skriver 'Lleva abierto más de 50 años' (markedsføringstekst, ikke brugt som svar på lukning). Stedet drives af AFESOL efter aftale med Ayto. de Mijas. E-mail og telefon på siden er ikke gengivet."
+  },
+  {
+    "key": "E02",
+    "url": "no_official_source",
+    "fetched": "2026-11-15",
+    "method": "tavily",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er der entré og børnepriser?"
+    ],
+    "notes": "no_official_source: Tavily (8 resultater) og én WebSearch fandt ingen egen officiel side for miradoren. Treffere var Waze, Apple Maps, Tripadvisor, Facebook og YouTube. Officielt kort fra Ayto. de Mijas (https://turismo.mijas.es/images/Guias/PLANO_MIJAS_ESP-ING-FRA-ALE_JUNIO_2025_ok-1.pdf) nævner 'La Muralla, mirador y jardines' uden tider eller priser. Ikke hentet. Adressen i opslaget er 'P.º de la Muralla, 2' (Waze) eller 'Calle la Cantera, 17' (Apple Maps); de to adresser er ikke afstemt."
+  },
+  {
+    "key": "E03",
+    "url": "http://cacmijas.info/",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "quotes": [
+      {"question": "Hvad er åbningstider og lukkedage?", "quote": "Lunes a Sábado."},
+      {"question": "Hvad er åbningstider og lukkedage?", "quote": "10:30h a 14:00h"},
+      {"question": "Hvad er åbningstider og lukkedage?", "quote": "Domingos CERRADO."},
+      {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Entrada 3,00 €"},
+      {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "Menores de 5 años gratis"},
+      {"question": "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?", "quote": "talleres infantiles"},
+      {"question": "Er der entré og børnepriser?", "quote": "Entrada 3,00 €"},
+      {"question": "Er der entré og børnepriser?", "quote": "Menores de 5 años gratis"}
+    ],
+    "not_found": [
+      "Er stedet permanent lukket eller flyttet?"
+    ],
+    "notes": "Siden er officiel for CAC Mijas (sitet selv). Søndag er lukket, men det er ugentligt, ikke permanent lukning. Sidens copyright er '© 2019' og kan være forældet, så åbningstider og priser bør bekræftes før besøg. E-mail og telefon er ikke gengivet. Børnepris er kun 'Menores de 5 años gratis'; ingen særlige børnepriser for andre aldre. Børnemenu, høje stole og legeområde er ikke nævnt. 'talleres infantiles' står under Eventos, ikke som fast børnetilbud."
+  },
+  {
+    "key": "E04",
+    "url": "http://www.benalmadena.es/",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er der entré og børnepriser?"
+    ],
+    "notes": "Sidens URL er forsiden af Ayuntamiento de Benalmádena. Centro de Exposiciones står kun som linknavn i menuen, og linket blev ikke fulgt. Forsiden indeholder ingen oplysninger om stedet. Menu-links (coronavirus-guide og PIC) er ikke relevante og ikke hentet. E-mail er ikke gengivet. Kræver en dedikeret side for Centro de Exposiciones."
+  },
+  {
+    "key": "E05",
+    "url": "https://turismo.fuengirola.es/que-ver/arte-urbano",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er der entré og børnepriser?"
+    ],
+    "notes": "Officiel side fra Turismo de Fuengirola. Det er et udendørs gadegalleri med over 20 muraler i El Boquetillo, uden åbningstider og entré, så spørgsmålene om tider og priser passer ikke direkte. Siden viser 'Esta página se encuentra actualmente en proceso de actualización'. Den lenkede PDF-guide (https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/fuengirola/260816_ESP_GUI_A_EL_PASEO_DE_LOS_MURALES_EL_BOQUETILLO_a1514b47-3081-4b91-855f-be72a3b1d5ac.pdf) blev hentet som step 1b. Den har ingen åbningstider eller priser, kun beskrivelser af enkelte murals. Adressen 'Calle Miguel Bueno, 5' fremgår af siden for flere murals, men ikke som adresse for gadegalleriet. Ingen adresse er citeret."
+  },
+  {
+    "key": "E06",
+    "url": "https://turismo.mijas.es/es/cultura/monumentos/centro-historico",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "quotes": [],
+    "not_found": [
+      "Hvad er åbningstider og lukkedage?",
+      "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?",
+      "Er der entré og børnepriser?"
+    ],
+    "notes": "Officiel side fra Turismo de Mijas. Det er en oversigtsside for byens historiske centrum, uden åbningstider eller priser. Den nævner Plaza de la Constitución og andre steder (f.eks. Plaza de toros, Iglesia Inmaculada Concepción) som punkter, men giver ingen tider eller entrépriser for dem. Siden er ikke et billetsted."
+  },
+  {
+    "key": "E07",
+    "url": "https://turismo.mijas.es/es/cultura/museos/museo-historico-y-etnologico",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "quotes": [
+      {"question": "Hvad er åbningstider og lukkedage?", "quote": "Horario: Lunes a Domingo, de 10:00H a 14:00H - de 15:00H a 19:00H"},
+      {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Entrada:        1 €"},
+      {"question": "Er der entré og børnepriser?", "quote": "Entrada:        1 €"}
+    ],
+    "not_found": [
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?"
+    ],
+    "notes": "Officiel side fra Turismo de Mijas, samme museum som E08 (Casa Museo, Plaza de la Libertad). Den viser ingen lukkedage, kun 'Lunes a Domingo'. Entré er 1 €; der står ingen børnepris, så 'Er der entré og børnepriser?' er kun delvist besvaret. Det er én entrépris uden børnedifferentiering. Der nævnes ingen børnetilbud eller børneregler. Telefonnummer er ikke gengivet. Forsiden har copyright 2026."
+  },
+  {
+    "key": "E08",
+    "url": "https://turismo.mijas.es/es/cultura/museos/museo-historico-y-etnologico",
+    "fetched": "2026-11-15",
+    "method": "curl",
+    "quotes": [
+      {"question": "Hvad er åbningstider og lukkedage?", "quote": "Horario: Lunes a Domingo, de 10:00H a 14:00H - de 15:00H a 19:00H"},
+      {"question": "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?", "quote": "Entrada:        1 €"},
+      {"question": "Er der entré og børnepriser?", "quote": "Entrada:        1 €"}
+    ],
+    "not_found": [
+      "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+      "Er stedet permanent lukket eller flyttet?"
+    ],
+    "notes": "DUBLET: E08 og E07 har samme URL og identisk sideindhold. Det er samme museum (Museo histórico-etnológico = Casa Museo Municipal, Plaza de la Libertad 2, Mijas). Orkestratoren bør slå de to records sammen eller afklare dem. Der står ingen børnepris, så 'Er der entré og børnepriser?' er kun delvist besvaret."
+  }
+]

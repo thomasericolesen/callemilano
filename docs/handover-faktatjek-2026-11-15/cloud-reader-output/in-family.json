@@ -1,0 +1,92 @@
+[
+ {
+  "key": "F01",
+  "name": "Prison Island Málaga",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.prisonislandmalaga.es/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+ },
+ {
+  "key": "F02",
+  "name": "Burbujas Park",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.burbujaspark.com/"
+ },
+ {
+  "key": "F03",
+  "name": "Le Petit Cocó Fuengirola",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "http://www.lepetitcocofuengirola.es/"
+ },
+ {
+  "key": "F04",
+  "name": "Mundo Magico",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.guiademalaga.net/mundomagico-torremolinos/"
+ },
+ {
+  "key": "F05",
+  "name": "Garabatos Park",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "http://garabatospark.com/"
+ },
+ {
+  "key": "F06",
+  "name": "Pipo Park Fuengirola",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "FIND",
+  "find": "Pipo Park Fuengirola C. Frascuelo, 8, 29640 Fuengirola, Málaga, España sitio oficial",
+  "prefer_domains": []
+ },
+ {
+  "key": "F07",
+  "name": "Meli Melo",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://melimelolacala.com/en/"
+ },
+ {
+  "key": "F08",
+  "name": "The Joyhouse family social club",
+  "questions": [
+   "Hvad er åbningstider og lukkedage?",
+   "Hvad er priserne (entré, menu, retter, is, kaffe eller billetter)?",
+   "Hvilke børnetilbud eller børneregler nævnes (børnemenu, høje stole, legeområde, mindstealder/-højde, børnepriser, børnevenlig)?",
+   "Er stedet permanent lukket eller flyttet?"
+  ],
+  "url": "https://www.thejoyhouse.es/"
+ }
+]
