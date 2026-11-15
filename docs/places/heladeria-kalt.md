@@ -5,7 +5,8 @@ id: ES-AND-MAL-HELADERIA-KALT-001
 slug: heladeria-kalt
 name: Heladería KALT
 category: Restaurants
-tags: []
+tags:
+- Restaurant
 coordinates:
   latitude: 36.4933542
   longitude: -4.775796199999999
@@ -27,12 +28,16 @@ driving_time_from_casa_de_la_familia:
   source: Google Routes API computeRoutes, run 2026-11-15 from the project origin (36.5356875,-4.6626875) to the Google Places coordinates (36.4933542,-4.775796199999999); departure 2026-11-21T09:00:00Z (next Saturday morning), predicted traffic (TRAFFIC_AWARE_OPTIMAL); tolls not avoided - https://www.google.com/maps/dir/?api=1&origin=36.5356875%2C-4.6626875&destination=36.4933542%2C-4.775796199999999&travelmode=driving
   checked_at: '2026-11-15'
   note: 'Routes API figure: 21 min, 16.9 km. One predicted sample.'
-age_groups: []
+age_groups:
+- Small children (0-6)
+- Children (7-12)
+- Young adults
+- Seniors
 family_score:
-  small_children: unknown
-  children: unknown
-  young_adults: unknown
-  seniors: unknown
+  small_children: medium
+  children: high
+  young_adults: medium
+  seniors: medium
 energy_level: Low
 seasonality: []
 accessibility:
@@ -107,6 +112,14 @@ evidence:
   checked_by: Claude (Desktop fact check 2026-11-15)
   confidence: low
   notes: Highlight 'Season closing' suggests a seasonal closure; bio hours may be summer hours.
+- field: tags, age_groups, family_score, energy_level
+  claim: 'Editor decision 2026-11-15 on the tags list: tags = Restaurant; age_groups = Small children (0-6), Children (7-12), Young adults, Seniors; family_score = small_children medium, children high, young_adults medium, seniors medium; energy_level = Low.'
+  source_url: https://claude.ai/artifact/VoHiKgGvqiiP3YA66KP3s5
+  source_type: secondary
+  checked_at: '2026-11-15'
+  checked_by: Eric Olesen (editor-of-record); recorded by Claude 2026-11-15
+  confidence: high
+  notes: The editor's own judgement; answers stored in collection tags_2026_11_15.
 review_issues:
 - code: facts_not_checked
   severity: warning
@@ -119,16 +132,6 @@ review_issues:
   description: Created from Google Places identity and a route check only; needs official or own sources.
   retryable: true
   owner: fact_check
-- code: family_suitability_not_assessed
-  severity: warning
-  fields:
-  - age_groups
-  - family_score
-  - energy_level
-  - tags
-  description: Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.
-  retryable: true
-  owner: human_editor
 - code: seasonal_closure_unclear
   severity: warning
   fields:

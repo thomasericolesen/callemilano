@@ -1343,7 +1343,10 @@
    "google_maps_url": "https://maps.google.com/?cid=17874540229145077895",
    "google_place_id": "ChIJPb9aj9Mhcw0RhyifkaIfD_g",
    "url": "https://cabopinojetski.com/es/",
-   "tags": [],
+   "tags": [
+    "eventyr",
+    "Premium"
+   ],
    "description": "Cabopino Jet Ski rents jet skis on a circuit at Cabopino, Marbella, for 60-140 €. The minimum age to drive is 18; minors may ride as passengers with an adult (own website, checked 2026-11-15). Opening hours are not published; check before visiting. About 20 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -1353,16 +1356,20 @@
     "drive_minutes": 20,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "lav"
     },
-    "energy": "lav",
+    "energy": "middel",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "eventyr"
+    ],
     "cost_level": "hoej",
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -1410,7 +1417,10 @@
    "google_maps_url": "https://maps.google.com/?cid=10277384220420741742",
    "google_place_id": "ChIJoSv6Pfvjcg0RbhpiHn-aoI4",
    "url": "http://cacmijas.info/",
-   "tags": [],
+   "tags": [
+    "museum",
+    "Rainy day"
+   ],
    "description": "CAC Mijas (Centro de Arte Contemporáneo) on Calle Málaga 28 in Mijas Pueblo shows works by Picasso and Dalí. Its own site gives Monday-Saturday 10:30-14:00, closed Sundays, entry 3 €, and free entry for children under 5; it also mentions children's workshops. The site footer is dated 2019, so hours and price should be confirmed before visiting (checked 2026-11-15). About 21 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -1420,16 +1430,22 @@
     "drive_minutes": 21,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "museum"
+    ],
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -1457,8 +1473,8 @@
      "schedule": "Monday-Saturday 10:30-14:00; Sunday closed (own website, footer dated 2019; confirm before visiting).",
      "schedule_checked_at": "2026-11-15",
      "valid_until": null,
-     "needs_fixed_hours": false,
-     "rainy_day": false,
+     "needs_fixed_hours": true,
+     "rainy_day": true,
      "is_bar": false,
      "phone": null,
      "booking_lead_time": null,
@@ -1885,7 +1901,10 @@
    "google_maps_url": "https://maps.google.com/?cid=1922480974942817361",
    "google_place_id": "ChIJZ3iizfrjcg0RUczpzkIGrho",
    "url": "http://www.carromatodemijas.org/",
-   "tags": [],
+   "tags": [
+    "museum",
+    "Rainy day"
+   ],
    "description": "Carromato de Mijas is a museum of miniatures on Avenida del Compás in Mijas Pueblo. Its own site gives opening hours by season: 10:00-18:00 in January-March, November and December; 10:00-20:00 in April-June and October; 10:00-21:00 in July-September (checked 2026-11-15). No closing days, prices or children's information are given. About 23 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -1895,16 +1914,22 @@
     "drive_minutes": 23,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "lav",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "museum"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -1928,8 +1953,8 @@
      "schedule": "Jan-Mar, Nov-Dec 10:00-18:00; Apr-Jun, Oct 10:00-20:00; Jul-Sep 10:00-21:00 (own website, 2026-11-15). No closing days stated.",
      "schedule_checked_at": "2026-11-15",
      "valid_until": null,
-     "needs_fixed_hours": false,
-     "rainy_day": false,
+     "needs_fixed_hours": true,
+     "rainy_day": true,
      "is_bar": false,
      "phone": null,
      "booking_lead_time": null,
@@ -2026,7 +2051,11 @@
    "google_maps_url": "https://maps.google.com/?cid=81866382164439231",
    "google_place_id": "ChIJiXT5Nfvjcg0RvzD1cwrZIgE",
    "url": null,
-   "tags": [],
+   "tags": [
+    "museum",
+    "historisk-by",
+    "Rainy day"
+   ],
    "description": "The Casa Museo, Mijas' municipal history and ethnology museum, is on Plaza de la Libertad in Mijas Pueblo. Mijas' official tourism site gives Monday-Sunday 10:00-14:00 and 15:00-19:00, entry 1 €, phone 952 59 03 80 (checked 2026-11-15). About 21 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -2036,16 +2065,22 @@
     "drive_minutes": 21,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "lav",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "museum",
+     "historisk-by"
+    ],
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -2073,8 +2108,8 @@
      "schedule": "Monday-Sunday 10:00-14:00 and 15:00-19:00 (Turismo Mijas, 2026-11-15).",
      "schedule_checked_at": "2026-11-15",
      "valid_until": null,
-     "needs_fixed_hours": false,
-     "rainy_day": false,
+     "needs_fixed_hours": true,
+     "rainy_day": true,
      "is_bar": false,
      "phone": null,
      "booking_lead_time": null,
@@ -3638,7 +3673,9 @@
    "google_maps_url": "https://maps.google.com/?cid=8165397343792838358",
    "google_place_id": "ChIJAfk4nDEecw0R1rawPp9RUXE",
    "url": "http://www.elgustodelacala.com/",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "El Gusto de la Cala is a brasserie and steakhouse on Boulevard de la Cala in La Cala de Mijas, open since 2003, with live music and signature cocktails. Its own site gives 'open every day 16:00-00:00' next to the cocktail section and a brunch menu 11:00-17:00, so it is unclear which hours apply to the restaurant; check before visiting. From October there is a Sunday roast every Sunday 13:00-19:00 at 19,50 € per person (checked 2026-11-15). About 11 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -3648,16 +3685,21 @@
     "drive_minutes": 11,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -4100,7 +4142,9 @@
    "google_maps_url": "https://maps.google.com/?cid=11527867526071689260",
    "google_place_id": "ChIJy_huOTzjcg0RLKBDDXA2-58",
    "url": "https://www.instagram.com/ferrumfuengirola/",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Ferrum is a restaurant at Calle Moncayo 20 in Fuengirola, according to its own Instagram profile, which takes bookings on +34 604 299 443. Opening hours, prices and children's facilities were not found (checked 2026-11-15); check before visiting. About 17 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -4110,16 +4154,21 @@
     "drive_minutes": 17,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -5039,7 +5088,9 @@
    "google_maps_url": "https://maps.google.com/?cid=5547004938787288070",
    "google_place_id": "ChIJqfz6j_fjcg0RBvTAP5rr-kw",
    "url": "https://www.heladeriacaramelo.com/",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Heladería Caramelo is an artisan ice-cream shop at Calle Miguel Bueno 2 in Fuengirola that also serves savoury snacks and takes table bookings. Open Monday-Thursday 14:00-01:00 and Friday-Sunday 11:00-01:30 (own website, checked 2026-11-15). Prices are not published. About 11 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -5049,16 +5100,23 @@
     "drive_minutes": 11,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -5179,7 +5237,9 @@
    "google_maps_url": "https://maps.google.com/?cid=5213467050868839919",
    "google_place_id": "ChIJrZ5AlF4hcw0R75U9H6n0WUg",
    "url": "https://www.instagram.com/kalthelados?igsh=dTlwemw4ZDdocnVt&utm_source=qr",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "KALT is a handcrafted ice-cream shop at Centro Comercial Contur (N-340, km 192) in Marbella. Its own Instagram profile gives Monday-Tuesday 13:30-19:00 and Wednesday-Sunday 13:30-21:00, but it also has a 'Season closing' highlight, so it may close in winter (checked 2026-11-15); check before visiting. About 21 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -5189,16 +5249,23 @@
     "drive_minutes": 21,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -6111,7 +6178,9 @@
    "google_maps_url": "https://maps.google.com/?cid=11318066682750628845",
    "google_place_id": "ChIJbxPHHfvjcg0R7fOIqa7ZEZ0",
    "url": "https://go.nordqr.com/koco-bistro/",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Koco Bistró is a tapas bistro on Avenida Virgen de la Peña in Mijas Pueblo; its own digital menu calls it a 'Lugar de tapas en mijas'. Menu prices (checked 2026-11-15) run from 3,50 € for small tapas to 34,90 € for a 220 g beef sirloin; most mains are 17-35 €. The menu lists no children's menu. Opening hours are not published on the menu; check before visiting. About 20 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -6121,16 +6190,21 @@
     "drive_minutes": 20,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -6252,7 +6326,10 @@
    "google_maps_url": "https://maps.google.com/?cid=16103081243990880500",
    "google_place_id": "ChIJOXNSv7Ufcw0R9PBU2RKjed8",
    "url": "http://www.lafamilia-beachclub.com/",
-   "tags": [],
+   "tags": [
+    "spisested",
+    "strand"
+   ],
    "description": "La Familia Beach Club is a beach restaurant on Playa del Bombo (Urbanización Torrenueva) in Mijas Costa, serving fish, seafood and espetos. Open daily 10:00-20:00 from September to May and 10:00-22:00 in June, July and August (own website, checked 2026-11-15). The 2026 menu has mains at about 15-29 €, rice from 18,50 € per person (min. 2), and simple dishes such as chicken strips (9,50 €) and spaghetti bolognese (15,50 €), though there is no children's menu as such. About 14 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -6262,16 +6339,24 @@
     "drive_minutes": 14,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested",
+     "strand"
+    ],
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -6998,7 +7083,9 @@
    "google_maps_url": "https://maps.google.com/?cid=5232039410747977543",
    "google_place_id": "ChIJTauPSiT9cg0RRy96oB_wm0g",
    "url": "https://www.lorenacafe.com/",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Lorena Café Arroyo de la Miel is one of four Lorena Café venues, serving breakfasts, sandwiches, burgers, bowls and juices from the same menu in all four (Av. de la Constitución, 12, Local 20, 29631 Arroyo de la Miel). The kitchen is open until 23:00 and the café until 00:00; the opening time is not stated. Dishes cost about 6,95-15 € (own website, checked 2026-11-15). About 22 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -7008,16 +7095,23 @@
     "drive_minutes": 22,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -7069,7 +7163,9 @@
    "google_maps_url": "https://maps.google.com/?cid=1896945322180938588",
    "google_place_id": "ChIJ04fOCUTicg0RXAvvVrhNUxo",
    "url": "http://lorenacafe.com/",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Lorena Café Los Boliches is one of four Lorena Café venues, serving breakfasts, sandwiches, burgers, bowls and juices from the same menu in all four (Av. Ramón y Cajal, 48, 29640 Fuengirola). The kitchen is open until 23:00 and the café until 00:00; the opening time is not stated. Dishes cost about 6,95-15 € (own website, checked 2026-11-15). About 15 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -7079,16 +7175,23 @@
     "drive_minutes": 15,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": "lav",
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -7942,7 +8045,9 @@
    "google_maps_url": "https://maps.google.com/?cid=4743329455638242058",
    "google_place_id": "ChIJRZr4teTjcg0RCuP2NwKx00E",
    "url": "https://mayanmonkey.es/",
-   "tags": [],
+   "tags": [
+    "Rainy day"
+   ],
    "description": "Mayan Monkey is a working chocolate factory on Plaza Virgen de la Peña in Mijas Pueblo, open every day 10:30-18:00. Factory tours are free; hands-on chocolate workshops start at 19,95 € (25 min) and run up to 139,95 € for a 2-hour masterclass. Workshops are hands-on from age 3, under-3s are free, and a weekend workshop is designed for families with children aged 3-10 (own website, checked 2026-11-15). About 21 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -7952,12 +8057,17 @@
     "drive_minutes": 21,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
@@ -7990,7 +8100,7 @@
      "schedule_checked_at": "2026-11-15",
      "valid_until": null,
      "needs_fixed_hours": true,
-     "rainy_day": false,
+     "rainy_day": true,
      "is_bar": false,
      "phone": null,
      "booking_lead_time": null,
@@ -8013,7 +8123,9 @@
    "google_maps_url": "https://maps.google.com/?cid=9643418129991423470",
    "google_place_id": "ChIJt5_y5ZL8cg0R7lWzOrJN1IU",
    "url": "https://instagram.com/meetingpointcafe_?igshid=MTIyMzRjYmRlZg==",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Meeting Point Cafe in Benalmádena is a pet-friendly café for breakfast, brunch, cakes and desserts, and also pizza. Its own Instagram profile gives daily hours of 7:00-22:30 (checked 2026-11-15). Prices are not published. About 24 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -8023,16 +8135,22 @@
     "drive_minutes": 24,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -9555,7 +9673,10 @@
    "google_maps_url": "https://maps.google.com/?cid=6143499001576043066",
    "google_place_id": "ChIJMxizfrPjcg0ROjLo0soXQlU",
    "url": null,
-   "tags": [],
+   "tags": [
+    "natur",
+    "Free"
+   ],
    "description": "Parque La Cantera is a park in Fuengirola. Fuengirola's official map of parks describes it as having everything needed for a walk, exercise or time outdoors as a family (checked 2026-11-15). No playground or opening hours are stated there. About 13 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -9565,16 +9686,22 @@
     "drive_minutes": 13,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "lav",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "natur"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -9617,7 +9744,10 @@
    "google_maps_url": "https://maps.google.com/?cid=13117187377218648742",
    "google_place_id": "ChIJS-tLAqrjcg0Rpvpa92ucCbY",
    "url": null,
-   "tags": [],
+   "tags": [
+    "natur",
+    "Free"
+   ],
    "description": "Parque Las Presas is an 11-hectare park in Fuengirola, crossed by a stream with green areas and varied plants and wildlife (Fuengirola's official map of parks, checked 2026-11-15). Paths through the vegetation are joined by wooden bridges, so the Las Presas trail is part of the park. About 16 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -9627,16 +9757,23 @@
     "drive_minutes": 16,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "natur"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -9679,7 +9816,9 @@
    "google_maps_url": "https://maps.google.com/?cid=16179463569657612960",
    "google_place_id": "ChIJ_aUFdabjcg0RoMrQ5WQAieA",
    "url": null,
-   "tags": [],
+   "tags": [
+    "Free"
+   ],
    "description": "The Paseo de los Murales is an outdoor walk past more than 20 original murals in the El Boquetillo quarter of Fuengirola (Fuengirola's official tourism site, checked 2026-11-15). It is a street-art route, not a museum building. About 12 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -9689,12 +9828,16 @@
     "drive_minutes": 12,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
@@ -9893,12 +10036,15 @@
     "drive_minutes": 14,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "lav",
+     "seniorer": "lav"
     },
     "energy": "lav",
     "seasons": [],
@@ -9947,7 +10093,9 @@
    "google_maps_url": "https://maps.google.com/?cid=245955222862261686",
    "google_place_id": "ChIJ80qBpGvicg0Rtm1b2fjOaQM",
    "url": "http://facebook.com/pituccahelados",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Pitucca is an artisan ice-cream and sweets shop at Paseo Marítimo Rey de España 28 in Fuengirola, according to its own Facebook page. Hours and prices were not visible (checked 2026-11-15); check before visiting. About 15 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -9957,16 +10105,23 @@
     "drive_minutes": 15,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -10009,7 +10164,10 @@
    "google_maps_url": "https://maps.google.com/?cid=8575165334383438268",
    "google_place_id": "ChIJ8Qlwde38cg0RvCkrPnAbAXc",
    "url": null,
-   "tags": [],
+   "tags": [
+    "strand",
+    "Free"
+   ],
    "description": "Playa Arroyo de la Miel is a 600 m sand beach in Benalmádena with easy access on foot and by car. Spain's official tourism site lists toilets, showers and a children's area among its services (checked 2026-11-15). About 27 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -10019,16 +10177,23 @@
     "drive_minutes": 27,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "strand"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -10071,7 +10236,10 @@
    "google_maps_url": "https://maps.google.com/?cid=16771794642174311923",
    "google_place_id": "ChIJpX3uuiUgcw0R832ZxF1iweg",
    "url": null,
-   "tags": [],
+   "tags": [
+    "strand",
+    "Free"
+   ],
    "description": "Playa de Calahonda is a 4,4 km beach of sand with some rocks in Mijas Costa, with easy access on foot and by car (Spain's official tourism site, checked 2026-11-15). Rocks on a sand beach do not exclude it from the guide. About 20 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -10081,16 +10249,23 @@
     "drive_minutes": 20,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "strand"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -10205,7 +10380,10 @@
    "google_maps_url": "https://maps.google.com/?cid=15604600953795940320",
    "google_place_id": "ChIJT6Z3CvMgcw0R4I-6COStjtg",
    "url": null,
-   "tags": [],
+   "tags": [
+    "strand",
+    "Free"
+   ],
    "description": "Playa de la Víbora is an 850 m sand beach in Marbella (Elviria area) with easy access on foot and by car, according to Spain's official tourism site (checked 2026-11-15). About 23 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -10215,16 +10393,23 @@
     "drive_minutes": 23,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "hoej",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "strand"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -10344,7 +10529,10 @@
    "google_maps_url": "https://maps.google.com/?cid=17082696865419726203",
    "google_place_id": "ChIJV34OUkLicg0Re40FhUruEe0",
    "url": null,
-   "tags": [],
+   "tags": [
+    "strand",
+    "Free"
+   ],
    "description": "Playa de San Francisco is a 350 m sand beach in Fuengirola. Spain's official tourism site lists toilets and a children's area among its services (checked 2026-11-15). About 15 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -10354,16 +10542,23 @@
     "drive_minutes": 15,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "strand"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -10481,7 +10676,10 @@
    "google_maps_url": "https://maps.google.com/?cid=15956452233618261647",
    "google_place_id": "ChIJQeE2kzAecw0RjwZO_MO0cN0",
    "url": null,
-   "tags": [],
+   "tags": [
+    "strand",
+    "Free"
+   ],
    "description": "Playa La Cala is the sand beach in front of La Cala de Mijas, continuing the same stretch of sand as La Butibamba beach (Spain's official tourism site). The owner, who knows the beach, describes it as a narrow sand beach between Butibamba and La Cala de Mijas without a lifeguard. About 13 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -10491,16 +10689,23 @@
     "drive_minutes": 13,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "middel"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "strand"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -10842,7 +11047,10 @@
    "google_maps_url": "https://maps.google.com/?cid=2492157679356729194",
    "google_place_id": "ChIJubP79GT8cg0RatdRkjTslSI",
    "url": "https://www.prisonislandmalaga.es/",
-   "tags": [],
+   "tags": [
+    "eventyr",
+    "Rainy day"
+   ],
    "description": "Prison Island Málaga at Puerto Marina, Benalmádena, has team challenge cells (teams of 3-5) and laser tag. All ages are allowed, but children under 15 must play with at least one adult per team. One hour costs 18,50 € per child and 25,50 € per adult; 2 hours cost 21,50 € and 29 €. Open 10:00-22:00 in July and August and 10:00-21:00 the rest of the year (own website, checked 2026-11-15). About 27 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -10852,16 +11060,20 @@
     "drive_minutes": 27,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "boern",
+     "unge_voksne"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "hoej",
+     "unge_voksne": "hoej",
+     "seniorer": "lav"
     },
-    "energy": "lav",
+    "energy": "middel",
     "seasons": [],
     "themes": [
+     "eventyr",
      "familieaktivitet"
     ],
     "cost_level": "middel",
@@ -10892,7 +11104,7 @@
      "schedule_checked_at": "2026-11-15",
      "valid_until": null,
      "needs_fixed_hours": true,
-     "rainy_day": false,
+     "rainy_day": true,
      "is_bar": false,
      "phone": null,
      "booking_lead_time": null,
@@ -11437,7 +11649,9 @@
    "google_maps_url": "https://maps.google.com/?cid=8314401762544527223",
    "google_place_id": "ChIJ0Q_gJyHjcg0RdydZ-FmwYnM",
    "url": "http://www.instagram.com/casa_antonio_restaurante",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Restaurante Casa Antonio is a Mediterranean restaurant at Camino Condesa 3 in Fuengirola; its own Instagram profile says the whole kitchen is gluten-free ('100% SIN GLUTEN'). Hours on the profile (checked 2026-11-15): Tuesday-Thursday 13:00-16:30 and 19:30-22:30, Friday-Saturday 13:00-16:30 and 19:30-23:00, Sunday 13:00-17:00, closed Monday. The profile mentions one hour of parking. Prices and children's facilities were not confirmed from text. About 12 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -11447,16 +11661,23 @@
     "drive_minutes": 12,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "middel",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -11745,7 +11966,10 @@
    "google_maps_url": "https://maps.google.com/?cid=2420233359237101965",
    "google_place_id": "ChIJSVxmMfvjcg0Rjbng0mplliE",
    "url": "https://restaurantelareja.com/",
-   "tags": [],
+   "tags": [
+    "spisested",
+    "udsigt"
+   ],
    "description": "Restaurante La Reja is a steakhouse and Spanish restaurant at Calle de Los Caños 9 in Mijas Pueblo, with panoramic views. Prices on its own site (checked 2026-11-15) run from 9 € for porra antequerana to 28-29 € for steaks; paella is 18 € per person for at least two. The site's opening hours contradict themselves ('Tuesday: Closed' and 'Monday - Sunday: 12:00 - 22:30'), so check before visiting. No children's menu is mentioned. About 22 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -11755,16 +11979,22 @@
     "drive_minutes": 22,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "lav",
+     "unge_voksne": "middel",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested",
+     "udsigt"
+    ],
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -13342,7 +13572,9 @@
    "google_maps_url": "https://maps.google.com/?cid=14374134521527958114",
    "google_place_id": "ChIJlf2GfiXjcg0RYnpanTAve8c",
    "url": "http://www.tejeringoscoffee.es/",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Tejeringo's Coffee is a churrería-café chain run by three generations of churro makers. The Fuengirola venue at Av. Jesús Santos Rein 1 is open every day 08:00-13:00 and 17:00-21:00, closed in the middle of the day; phone 951 10 02 53 (own website, checked 2026-11-15). Prices are not published. About 13 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -13352,16 +13584,23 @@
     "drive_minutes": 13,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern",
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "middel",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": null,
     "booking_required": null,
     "wheelchair": "ukendt",
@@ -13484,7 +13723,10 @@
    "google_maps_url": "https://maps.google.com/?cid=17334182570031750764",
    "google_place_id": "ChIJG_fvnvrjcg0RbJ6C_jRjj_A",
    "url": "https://www.thejoyhouse.es/",
-   "tags": [],
+   "tags": [
+    "Rainy day",
+    "Premium"
+   ],
    "description": "The Joyhouse (formerly The Fun House) in Fuengirola is a family social club with a soft-play area and bouncy castle for children plus a café-bar for adults. Open Monday-Friday 14:30-22:00 and Saturday-Sunday 11:00-22:00. Play entry is 7,95 € per child for 2 hours, an extra hour 3,50 €; adults enter free. Socks are required in the play area and cost 1 € (own website, checked 2026-11-15). No age or height limit is stated. About 15 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -13494,12 +13736,15 @@
     "drive_minutes": 15,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "smaa_boern",
+     "boern"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "hoej",
+     "boern": "hoej",
+     "unge_voksne": "lav",
+     "seniorer": "lav"
     },
     "energy": "lav",
     "seasons": [],
@@ -13534,7 +13779,7 @@
      "schedule_checked_at": "2026-11-15",
      "valid_until": null,
      "needs_fixed_hours": true,
-     "rainy_day": false,
+     "rainy_day": true,
      "is_bar": false,
      "phone": null,
      "booking_lead_time": null,
@@ -13639,7 +13884,9 @@
    "google_maps_url": "https://maps.google.com/?cid=9629754507900008709",
    "google_place_id": "ChIJ-YYs-vrjcg0RBbmYTbTCo4U",
    "url": "https://www.tomillolimon.es/",
-   "tags": [],
+   "tags": [
+    "spisested"
+   ],
    "description": "Tomillo Limón is a restaurant in Mijas Pueblo (Avenida Virgen de la Peña, 11) serving traditional Spanish cooking with a modern touch; its own site calls it a place for 'una comida familiar memorable'. Open Tuesday to Saturday 12:00-00:00, closed Sunday and Monday; the kitchen serves 12:30-16:00 and 19:00-22:00 (own website, checked 2026-11-15). Dishes on the 2026 menu cost 6-24 €, desserts 6,50-8 €, and bread 1,50 € per person. The menu has no children's menu. About 20 minutes by car from Casa de la Familia.",
    "catalogue_group": null,
    "guide": {
@@ -13649,16 +13896,21 @@
     "drive_minutes": 20,
     "distance_km": null,
     "duration": null,
-    "age_groups": [],
+    "age_groups": [
+     "unge_voksne",
+     "seniorer"
+    ],
     "fit": {
-     "smaa_boern": "ukendt",
-     "boern": "ukendt",
-     "unge_voksne": "ukendt",
-     "seniorer": "ukendt"
+     "smaa_boern": "lav",
+     "boern": "middel",
+     "unge_voksne": "middel",
+     "seniorer": "hoej"
     },
     "energy": "lav",
     "seasons": [],
-    "themes": [],
+    "themes": [
+     "spisested"
+    ],
     "cost_level": "middel",
     "booking_required": null,
     "wheelchair": "ukendt",

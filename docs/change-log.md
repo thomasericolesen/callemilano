@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-15 - Editor's tags, age groups, family scores and energy for the 30 new app places (owner decision, list)
+
+- On the tags list (https://claude.ai/artifact/VoHiKgGvqiiP3YA66KP3s5, collection `tags_2026_11_15`), the editor approved all 30 cards: tags, age groups, family scores and energy. They are written into the records as the editor's own judgement, with an evidence entry, and `family_suitability_not_assessed` is closed.
+- Pipo Park: the editor answered "don't know" for tags, so the tags are empty (issue `tags_not_chosen`, info).
+- The list was the first built under the new rule: one card per place, each question asked once.
+- Export: 188 places, all with current Danish text. Import: see below.
+
 ## 2026-11-15 - Danish texts and app import of the 30 new places (level A)
 
 - Danish summary and practical texts were written for the 30 new places with status `needs_fact_check` or later in `data/app-texts-da.json` (PR #134). The export now has 188 places, all with current Danish text.
