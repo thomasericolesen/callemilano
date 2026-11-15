@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-11-15 - Editor list: one card per place, each question asked once (owner decision, chat)
+
+- The 68-candidate checklist asked about the same places twice: once in 25 editor points at the top and again as yes/maybe/no per place. Owner decision: from now on, every decision about a place goes on that place's card as tick-tags; no separate section repeats the same places. Written into `AGENTS.md` ("Editor workflow") and `docs/multi-agent-workflow.md` ("Editor list").
+
 ## 2026-11-15 - Desktop fact check of the 68 candidates (level A, no records changed)
 
 - The main session opened and read every source itself (curl text, Chrome signed in for Instagram/Facebook, Google Maps for identity only). Report with overview table and editor items: `docs/handover-faktatjek-2026-11-15/desktop-faktatjek.md`; verbatim quotes with URL and date: `desktop-faktatjek-citater.md`.
