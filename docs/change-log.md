@@ -6,7 +6,7 @@
 - The search ignores case and accents and matches parts of the name, in any word order. "Tomillo Limon", "tomillo" and "limón" all find Tomillo Limón.
 - It searches all places regardless of the chosen persona and drive time. It works on the places already loaded, so it needs no network and also works offline.
 - Tested locally at mobile width against the 188 exported places with Tomillo Limon, malaga, benalm (partial name) and xyz (no hit). Merged and published through Lovable after the owner's OK. The owner confirmed in chat that the search works in the app.
-- Not done: the remote self-test (`scripts/selftest-remote.mts`) was blocked by the permission system. It covers Turforslag, which this change does not touch.
+- Remote self-test (`scripts/selftest-remote.mts`) against callemilano.dk, run at the owner's request: all scenarios OK. `aemet-live` first failed with HTTP 429 (AEMET rate limit) and passed when rerun.
 
 ## 2026-11-15 - Editor's tags, age groups, family scores and energy for the 30 new app places (owner decision, list)
 
