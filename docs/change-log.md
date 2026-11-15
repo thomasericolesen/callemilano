@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-11-15 - Desktop fact check of the 68 candidates (level A, no records changed)
+
+- The main session opened and read every source itself (curl text, Chrome signed in for Instagram/Facebook, Google Maps for identity only). Report with overview table and editor items: `docs/handover-faktatjek-2026-11-15/desktop-faktatjek.md`; verbatim quotes with URL and date: `desktop-faktatjek-citater.md`.
+- Spot-checked the cloud quotes for E07/E08, B06, B07, D03 and D07 against the live pages: they match. G06 could not be re-checked (site down).
+- Found: A01 Koco Bistró is a tapas place; C08 is a travel-guide website, not a place; H06/H07 .shop sites are auto-generated third-party pages; five duplicates (E07=E08, D01≈E02, D05≈D08, D03 = `senda-litoral-la-cala`, E06 = `mijas-pueblo`); hour conflicts at H08, A04, A08; age conflict at F03. All level C/D items go to the editor; nothing changed in records.
+
 ## 2026-11-15 - Candidate sweep and handover for Desktop fact check (level A, no records changed)
 
 - Nearby sweep around six points (casa, Mijas pueblo, La Cala, Fuengirola, Benalmádena, Calahonda), deduped against `data/place-catalog.csv` and `data/place-id-registry.csv`, route-checked with Routes: 241 + 130 new candidates at most 30 min one way. 68 shortlisted on an owner checklist (restaurants, beaches, excursions for young adults, nature, city, family activities, ice-cream shops, cafés).
