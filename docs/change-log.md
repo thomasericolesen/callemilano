@@ -1,5 +1,37 @@
 # Change log
 
+## 2026-11-15 (evening) - Family photos on places in Oplev, with editor approval (owner decision, chat)
+
+- Mikkel (family) suggested that family members could add their own photos to places in Oplev, approved by the editor. The owner said "Ja, byg det" in chat.
+- App PR thomasericolesen/callemilano-f388b2be#52 (merged after the owner's OK): every family member can add photos under "Mere om stedet og billeder". A photo is shown to others only after an admin approves it on the admin page ("Billeder til godkendelse"); rejecting deletes it. The newest approved family photo becomes the card photo before Google's.
+- Database migration `0012_place_photo_submissions` (run on the database through Lovable): table `place_photo_submissions` with RLS and a private storage bucket `place-photos`. Tested in Postgres (PGlite) before it was run.
+- App PR #53: chosen photos are shown first, with a cross on each and "Læg op"/"Fortryd", and nothing is sent until the user confirms. Reason: the owner's first upload sent 9 photos although he picked one (the phone's picker returned more). The 8 wrong photos were deleted from the app (not from the phone); only the food photo for Asador Otola remains, approved.
+- These photos live only in the app. They are not place-record images and are not entered in `data/image-rights.csv`.
+
+## 2026-11-15 (evening) - House address on the app front page (owner request, chat)
+
+- The owner gave the address in chat: Calle Milano 35, 29649 Las Lagunas de Mijas.
+- App PR thomasericolesen/callemilano-f388b2be#51: the address is shown under "Velkommen til Calle Milano" and, instead of the coordinates, in "Adresse og placering" with "Åbn i Google Maps" and "Kopiér adresse". Published and checked live.
+
+## 2026-11-15 (evening) - Photo strip on the app front page (owner decision, chat)
+
+- Mikkel's suggestion; the owner said "Lav billedbåndet med vis på forsiden".
+- App PR thomasericolesen/callemilano-f388b2be#50 (merged after the owner's OK): photos in messages to the admins can be marked "Vis på forsiden" one by one (default off, so practical photos stay private). The front page shows the chosen photos in a strip "Fra familien", newest first; nothing is shown when none are chosen. The messages themselves stay private.
+- Database migration `0011_front_page_photos` (run through Lovable): column `admin_messages.front_page_images` and the functions `set_front_page_image` (sender and admins) and `list_front_page_photos` (family and admins). Tested in Postgres (PGlite) first.
+
+## 2026-11-15 (evening) - Booking calendar first on the app front page, Momondo button, photo button (owner decision, chat)
+
+- Family feedback; the owner said "Ja, de tre". App PRs thomasericolesen/callemilano-f388b2be#48 and #49, merged and published:
+  - The booking calendar is at the top of the front page, with the house photo beside it on a wide screen and below it on a phone. Guests and notes appear once both dates are picked.
+  - "Find fly på Momondo" is a button under the dates, with a choice of Copenhagen, Billund or Aalborg to Málaga, for the chosen dates and number of guests. Before dates are picked it is disabled with an explanation (the owner asked for this after not finding the first version). URL format checked on momondo.dk.
+  - Photo upload is a real button ("Tilføj billede") in the diary, the messages to the admins and own photos on places.
+- Checked live in the app with the owner's sign-in.
+
+## 2026-11-15 (evening) - "Mad og is" shown in the app
+
+- App PR thomasericolesen/callemilano-f388b2be#47, merged and published: the category key `restaurant` is shown as "Mad og is" in the Oplev chip, the category filter and the search. The search also understands "is", "isbar", "ishus", "isbutik", "gelato" and "softice". Only display text; the key, the import format and the schema are unchanged.
+- Remote self-test against callemilano.dk after the evening's publications: all scenarios OK.
+
 ## 2026-11-15 - Category `Restaurants` to be shown as "Mad og is" in the app (owner decision, chat)
 
 - The category covers restaurants, tapas bars, cafés, ice-cream shops and churrerías. A family looking for ice cream may skip "restaurant".
