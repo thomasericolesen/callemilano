@@ -1764,5 +1764,294 @@
   "practical": [],
   "translated_at": "2026-11-14",
   "checked_by": "Claude (main session)"
+ },
+ "ES-AND-MAL-CABOPINO-JET-SKI-001": {
+  "source_sha": "9c3172a2f4db48f6",
+  "summary": "Udlejning af jetski på en afmærket bane ved Cabopino i Marbella. Føreren skal være mindst 18 år; børn kan køre med som passagerer sammen med en voksen.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Egen hjemmeside 15.11.2026: 60-140 € for jetski på banen."
+   }
+  ]
+ },
+ "ES-AND-MAL-CAC-MIJAS-CENTRO-DE-ARTE-CONTEMPORANEO-001": {
+  "source_sha": "dba1f21070f4bf9b",
+  "summary": "Center for moderne kunst i Mijas Pueblo med værker af Picasso og Dalí.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-lørdag 10.30-14.00, søndag lukket (egen hjemmeside, hvis bund er dateret 2019; tjek før besøg)."
+   },
+   {
+    "label": "Pris",
+    "text": "Egen hjemmeside: entré 3 €, gratis for børn under 5 år (siden er dateret 2019)."
+   }
+  ]
+ },
+ "ES-AND-MAL-CARROMATO-DE-MIJAS-001": {
+  "source_sha": "4f3eff0ae5eb72a6",
+  "summary": "Museum for miniaturer i Mijas Pueblo.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Jan.-mar. og nov.-dec. 10.00-18.00; apr.-jun. og okt. 10.00-20.00; jul.-sep. 10.00-21.00 (egen hjemmeside, 15.11.2026). Lukkedage er ikke oplyst."
+   }
+  ]
+ },
+ "ES-AND-MAL-CASA-MUSEO-MUNICIPAL-001": {
+  "source_sha": "cd5b8604dfe75b77",
+  "summary": "Casa Museo, Mijas' kommunale museum for lokalhistorie og folkeliv, i Mijas Pueblo. Entré 1 €.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-søndag 10.00-14.00 og 15.00-19.00 (Turismo Mijas, 15.11.2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Turismo Mijas 15.11.2026: entré 1 €."
+   }
+  ]
+ },
+ "ES-AND-MAL-EL-GUSTO-DE-LA-CALA-001": {
+  "source_sha": "d2011a7b7ec0cedc",
+  "summary": "Brasserie og steakhouse med livemusik og cocktails i La Cala de Mijas.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tjek før besøg: egen hjemmeside viser både 'åbent alle dage 16.00-00.00' og en brunchmenu 11.00-17.00. Fra oktober sunday roast om søndagen 13.00-19.00 (15.11.2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Egen hjemmeside 15.11.2026: sunday roast 19,50 € pr. person. Menuen vises som billeder og er ikke læst."
+   }
+  ]
+ },
+ "ES-AND-MAL-FERRUM-RESTAURANTE-001": {
+  "source_sha": "36366d1185d74bfe",
+  "summary": "Restaurant i Fuengirola. Åbningstider og priser er endnu ikke fundet; tjek før besøg.",
+  "practical": []
+ },
+ "ES-AND-MAL-HELADERIA-CARAMELO-HELADO-ARTESANAL-001": {
+  "source_sha": "da009383690a6317",
+  "summary": "Isbutik med hjemmelavet is og små salte retter i Fuengirola, åben til sent.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-torsdag 14.00-01.00; fredag-søndag 11.00-01.30 (egen hjemmeside, 15.11.2026)."
+   }
+  ]
+ },
+ "ES-AND-MAL-HELADERIA-KALT-001": {
+  "source_sha": "0df44098558d0bb7",
+  "summary": "Isbutik med hjemmelavet is i Centro Comercial Contur i Marbella. Kan holde lukket uden for sæsonen.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tjek før besøg: egen Instagram angiver mandag-tirsdag 13.30-19.00 og onsdag-søndag 13.30-21.00, men nævner også sæsonlukning (15.11.2026)."
+   }
+  ]
+ },
+ "ES-AND-MAL-KOCO-BISTRO-001": {
+  "source_sha": "6309f1f83555781c",
+  "summary": "Tapasbistro i Mijas Pueblo.",
+  "practical": [
+   {
+    "label": "Pris",
+    "text": "Egen menu 15.11.2026: tapas 3,50-9,90 €, hovedretter 17,90-34,90 €; en hovedret og en drink koster over 20 €."
+   }
+  ]
+ },
+ "ES-AND-MAL-LA-FAMILIA-BEACH-CLUB-001": {
+  "source_sha": "6842274dfd39e1ac",
+  "summary": "Strandrestaurant på Playa del Bombo i Mijas Costa med fisk, skaldyr og espetos.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Alle dage 10.00-20.00 september-maj; 10.00-22.00 juni-august (egen hjemmeside, 15.11.2026). Lukkedage er ikke oplyst."
+   },
+   {
+    "label": "Pris",
+    "text": "Menu 2026: hovedretter ca. 15-29 €; brød og smør 1,80 €."
+   }
+  ]
+ },
+ "ES-AND-MAL-LORENA-CAFE-ARROYO-DE-LA-MIEL-001": {
+  "source_sha": "5e9fc82ad526b4e2",
+  "summary": "Café med morgenmad, sandwich, burgere og bowls i Arroyo de la Miel, Benalmádena.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Køkkenet til 23.00, caféen til 00.00; åbningstidspunktet er ikke oplyst (egen hjemmeside, 15.11.2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Eget kort 15.11.2026: retter ca. 6,95-15 €."
+   }
+  ]
+ },
+ "ES-AND-MAL-LORENA-CAFE-LOS-BOLICHES-001": {
+  "source_sha": "391b6263ea8c14c3",
+  "summary": "Café med morgenmad, sandwich, burgere og bowls i Los Boliches, Fuengirola.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Køkkenet til 23.00, caféen til 00.00; åbningstidspunktet er ikke oplyst (egen hjemmeside, 15.11.2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Eget kort 15.11.2026: retter ca. 6,95-15 €."
+   }
+  ]
+ },
+ "ES-AND-MAL-MAYAN-MONKEY-MIJAS-CHOCOLATE-FACTORY-001": {
+  "source_sha": "bbea2f38b97c46a8",
+  "summary": "Chokoladefabrik i drift i Mijas Pueblo med gratis rundvisning og chokoladeværksteder for børn fra 3 år.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Alle dage 10.30-18.00 (egen hjemmeside, 15.11.2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Egen hjemmeside 15.11.2026: rundvisning gratis; værksteder 19,95-139,95 € (om prisen er pr. person, står ikke på forsiden)."
+   }
+  ]
+ },
+ "ES-AND-MAL-MEETING-POINT-CAFE-001": {
+  "source_sha": "945f36ef51a78394",
+  "summary": "Brunchcafé i Benalmádena, hvor hunde er velkomne. Åbent alle dage 7.00-22.30.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-søndag 7.00-22.30 (egen Instagram, 15.11.2026)."
+   }
+  ]
+ },
+ "ES-AND-MAL-PARQUE-LA-CANTERA-001": {
+  "source_sha": "93b1817f1ad95394",
+  "summary": "Park i Fuengirola til en gåtur, motion eller en tur udendørs med familien.",
+  "practical": []
+ },
+ "ES-AND-MAL-PARQUE-LAS-PRESAS-001": {
+  "source_sha": "c26e6a03cc788004",
+  "summary": "Park på 11 hektar langs en bæk i Fuengirola, med stier og træbroer.",
+  "practical": []
+ },
+ "ES-AND-MAL-PASEO-DE-LOS-MURALES-DE-EL-BOQUETILLO-001": {
+  "source_sha": "a7eb9cac625a2b14",
+  "summary": "Udendørs rute forbi mere end 20 gademalerier i kvarteret El Boquetillo i Fuengirola.",
+  "practical": []
+ },
+ "ES-AND-MAL-PIPO-PARK-FUENGIROLA-001": {
+  "source_sha": "fbe00bd0f5e6e520",
+  "summary": "Legeland for børn med café i Fuengirola. Åbningstider og priser er endnu ikke fundet; tjek før besøg.",
+  "practical": []
+ },
+ "ES-AND-MAL-PITUCCA-HELADOS-ARTESANOS-001": {
+  "source_sha": "69b16170f68687ae",
+  "summary": "Isbutik med hjemmelavet is på strandpromenaden i Fuengirola. Åbningstider er endnu ikke fundet; tjek før besøg.",
+  "practical": []
+ },
+ "ES-AND-MAL-PLAYA-ARROYO-DE-LA-MIEL-001": {
+  "source_sha": "69f270c75146e1cf",
+  "summary": "Sandstrand på 600 m i Benalmádena med toiletter, brusere og et område for børn.",
+  "practical": []
+ },
+ "ES-AND-MAL-PLAYA-DE-CALAHONDA-001": {
+  "source_sha": "721a1e3fd6d17503",
+  "summary": "Lang sandstrand med enkelte klipper i Mijas Costa, nem adgang.",
+  "practical": []
+ },
+ "ES-AND-MAL-PLAYA-DE-LA-VIBORA-001": {
+  "source_sha": "6c3eecceadd6240a",
+  "summary": "Sandstrand på 850 m i Marbella med nem adgang.",
+  "practical": []
+ },
+ "ES-AND-MAL-PLAYA-DE-SAN-FRANCISCO-001": {
+  "source_sha": "3cc7b7d68dbb7c12",
+  "summary": "Sandstrand på 350 m i Fuengirola med toiletter og et område for børn.",
+  "practical": []
+ },
+ "ES-AND-MAL-PLAYA-LA-CALA-001": {
+  "source_sha": "e914d6787c53c99d",
+  "summary": "Smal sandstrand ved La Cala de Mijas, uden livredder.",
+  "practical": []
+ },
+ "ES-AND-MAL-PRISON-ISLAND-MALAGA-001": {
+  "source_sha": "f2b3e4b2eae2f244",
+  "summary": "Udfordringsrum for hold og laser tag i Puerto Marina, Benalmádena. Alle aldre; børn under 15 år skal have en voksen med på holdet.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Juli-august 10.00-22.00; resten af året 10.00-21.00 (egen hjemmeside, 15.11.2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Egen hjemmeside 15.11.2026: 1 time 18,50 € pr. barn og 25,50 € pr. voksen; 2 timer 21,50 € og 29 €."
+   }
+  ]
+ },
+ "ES-AND-MAL-RESTAURANTE-CASA-ANTONIO-001": {
+  "source_sha": "de289bc32eae1658",
+  "summary": "Middelhavsrestaurant i Fuengirola, hvor hele køkkenet er glutenfrit.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tirsdag-torsdag 13.00-16.30 og 19.30-22.30; fredag-lørdag 13.00-16.30 og 19.30-23.00; søndag 13.00-17.00; mandag lukket (egen Instagram, 15.11.2026)."
+   }
+  ]
+ },
+ "ES-AND-MAL-RESTAURANTE-LA-REJA-001": {
+  "source_sha": "3a6fb648d16de818",
+  "summary": "Steakhouse og spansk restaurant med panoramaterrasse i Mijas Pueblo.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tjek før besøg: egen hjemmeside skriver både 'tirsdag lukket' og 'mandag-søndag 12.00-22.30' (15.11.2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Egen hjemmeside 15.11.2026: forretter fra 9 €, hovedretter 18-29 €, paella 18 € pr. person (mindst 2)."
+   }
+  ]
+ },
+ "ES-AND-MAL-TEJERINGOS-COFFEE-001": {
+  "source_sha": "41ab1ffdc06ab94a",
+  "summary": "Churrería og café med churros og chokolade i Fuengirola. Lukket midt på dagen 13.00-17.00.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Alle dage 08.00-13.00 og 17.00-21.00 (egen hjemmeside, 15.11.2026)."
+   }
+  ]
+ },
+ "ES-AND-MAL-THE-JOYHOUSE-FAMILY-SOCIAL-CLUB-001": {
+  "source_sha": "95b0287329fc17ba",
+  "summary": "Familieklub i Fuengirola med legeland for børn og café-bar for de voksne. Åbent alle ugens dage.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Mandag-fredag 14.30-22.00; lørdag-søndag 11.00-22.00 (egen hjemmeside, 15.11.2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Egen hjemmeside 15.11.2026: 7,95 € pr. barn for 2 timer; voksne gratis; strømper (påkrævet) 1 €."
+   }
+  ]
+ },
+ "ES-AND-MAL-TOMILLO-LIMON-001": {
+  "source_sha": "472e22df40555f48",
+  "summary": "Restaurant med spansk køkken med et moderne præg i Mijas Pueblo.",
+  "practical": [
+   {
+    "label": "Åbningstider",
+    "text": "Tirsdag-lørdag 12.00-00.00; køkkenet 12.30-16.00 og 19.00-22.00. Søndag og mandag lukket (egen hjemmeside, 15.11.2026)."
+   },
+   {
+    "label": "Pris",
+    "text": "Kort 2026: retter 6-24 €, desserter 6,50-8 €, brød 1,50 € pr. person."
+   }
+  ]
  }
 }
