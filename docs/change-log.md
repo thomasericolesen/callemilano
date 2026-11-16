@@ -1,5 +1,22 @@
 # Change log
 
+## 2026-11-16 (later) - Radius column removed, one departure-time rule, route_check.py deleted (owner decisions, chat)
+
+- The owner followed Claude's recommendation on the four open points from the tool audit and said so in chat.
+- Owner decision: `within_primary_radius` is removed from `data/place-catalog.csv` (`tools/places.py`, `docs/data-dictionary.md`). It followed the straight-line rule that was replaced 2026-10-29 and said "yes" for 26 places with a drive above 30 minutes; no tool read it. `distance_km_from_casa` stays (the catalogue is sorted by it). `AGENTS.md` now says "30-minute primary area" in the excursion-layer section and names `tools/common.py` as the home of the origin constant.
+- Owner decision: the driving time in a place record is measured for the next Saturday at 10:00 Spanish time with predicted traffic. The rule is written into `AGENTS.md` ("Departure time"). `tools/intake.py` now computes 10:00 in Europe/Madrid, so it is also 10:00 in summer time (before: 09:00 UTC, i.e. 11:00 in summer). Winter figures are unchanged; existing records are not re-measured. Test: `tests/test_intake_departure.py`.
+- Owner decision: `tools/route_check.py` is deleted. It was never run, needed a paid Google key and measured with live traffic at run time, which the departure-time rule replaces. `README.md` and `docs/project-state.md` updated. The file remains in git history.
+- Owner decision: the October prototype files (`demo/`, `prompts/`, analytical CSV files in `data/`) stay where they are.
+- Checked: `places.py validate` 0 errors on 256 records, app export 191 places as before, 14 tests pass.
+
+## 2026-11-16 - Tools tidied: dead code removed, shared rules moved to common.py (owner request, chat)
+
+- The owner asked for an audit of unnecessary complexity and duplicated logic and said yes in chat to the two safe steps. No tool output changes.
+- Removed `tools/migrate_young_adults.py` (one-off migration, run 2026-10-15), the unused re-export in `tools/trip.py`, the unused `ROOT` import in `tools/intake.py` and the identity `STATUS` mapping in `tools/app_export.py`. Corrected stale comments in `tools/places.py`, `tools/route_check.py` and `tools/trip_weather.py` (Open-Meteo is first, met.no the reserve).
+- `tools/common.py` now holds the rules that stood in several tools: `SHOWN` and `CHECKED` (which statuses are shown and which count as fact-checked), `covers_schedule`, `is_bar`, `needs_fixed_hours`, `read_record`/`write_record` and `maps_dir_url`. `app_export.py`, `freshness.py`, `intake.py` and the `trip_*` modules import them.
+- Checked: `data/app-export/`, `data/place-catalog.csv`, `places.py validate`, `freshness.py` and the offline `trip.py` commands give identical output before and after; `write_record` is byte-identical to the old code for all 256 records; 11 tests pass. One difference: `intake.py nearby` now uses the shared haversine, so a candidate's distance can differ by 1 m (shortlisting only).
+- Not done, waiting for the owner's decision: removing `within_primary_radius` from the catalogue, one departure-time rule for route checks, deleting `tools/route_check.py`, and moving the October prototype files to `docs/history/`.
+
 ## 2026-11-15 (late evening) - Rule for family photos in the app written into AGENTS.md (owner decision, chat)
 
 - The owner said in chat to write the rule into `AGENTS.md`: family photos on places are shown only after an admin's approval; front-page photos only when marked "Vis på forsiden"; the photos stay private in the app, outside `data/image-rights.csv`; Claude approves or rejects a photo only when the editor asks.

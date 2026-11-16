@@ -30,8 +30,6 @@ from trip_traffic import cmd_traffic  # noqa: E402
 from trip_restaurants import cmd_check_restaurants, cmd_coverage, cmd_restaurants  # noqa: E402
 from trip_plan import cmd_hours_status, cmd_plan  # noqa: E402
 from trip_render import cmd_render  # noqa: E402
-# Ældre kode og tests importerer disse fra trip; de bor nu i modulerne ovenfor.
-from trip_core import current_route_departure, load_places, route_minutes_between  # noqa: E402,F401
 
 
 def main():

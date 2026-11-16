@@ -32,11 +32,12 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import LOCAL_MAX_MIN, PLACES, ROOT, minutes  # noqa: E402
+from common import (  # noqa: E402
+    LAYER_MEMBERSHIP, LOCAL_MAX_MIN, PLACES, ROOT, SHOWN, covers_schedule, is_bar, minutes, needs_fixed_hours,
+)
 from common import load_front_matter as front_matter  # noqa: E402
 OUT = ROOT / "data" / "app-export"
 DA_FILE = ROOT / "data" / "app-texts-da.json"
-SHOWN = {"needs_fact_check", "needs_editorial_review", "approved", "published"}
 
 CATEGORY = {"Restaurants": "restaurant", "Beaches": "strand", "Excursions": "udflugt", "Nature": "natur",
             "City": "by", "Family activities": "sevaerdighed"}
@@ -52,8 +53,6 @@ THEME = {"Beach": "strand", "Hiking": "vandring", "Historic town": "historisk-by
          "Viewpoint": "udsigt", "Nature": "natur", "Adventure": "eventyr", "Restaurant": "spisested"}
 DURATION = {"Overnight": "overnatning", "Full day": "hel_dag", "Half day": "halv_dag"}
 COST = {"Free": "gratis", "€": "lav", "€€": "middel", "€€€": "hoej", "€€€€": "hoej"}
-STATUS = {"needs_fact_check": "needs_fact_check", "needs_editorial_review": "needs_editorial_review",
-          "approved": "approved", "published": "published"}
 
 
 def yes_no(v):
@@ -66,28 +65,22 @@ def wheelchair(d: dict) -> str:
     return {"yes": "ja", True: "ja", "no": "nej", False: "nej"}.get(v, "ukendt")
 
 
-def covers_schedule(e: dict) -> bool:
-    toks = {x.strip() for x in str(e.get("field", "")).split(",")}
-    return bool(toks & {"visit_information", "visit_information.schedule"})
-
-
 def trip_info(d: dict) -> dict:
     """Fields the app's planTrip needs (same rules as tools/trip.py: opening_info, bars, rainy-day plan B)."""
     vi = d.get("visit_information") or {}
     tags = d.get("tags") or []
     sched_dates = sorted(str(e.get("checked_at"))[:10] for e in d.get("evidence") or []
                          if covers_schedule(e) and e.get("checked_at"))
-    text = (d.get("description_long") or "").lower()
-    contact = (d.get("links") or {}).get("contact") or ""
+    contact =(d.get("links") or {}).get("contact") or ""
     return {
         "record_category": d["category"],
         "municipality": d.get("municipality"),
         "schedule": vi.get("schedule"),
         "schedule_checked_at": sched_dates[-1] if sched_dates else None,
         "valid_until": str(vi["valid_until"])[:10] if vi.get("valid_until") else None,
-        "needs_fixed_hours": d["category"] in ("Family activities", "Excursions") or "Museum" in tags,
+        "needs_fixed_hours": needs_fixed_hours(d["category"], tags),
         "rainy_day": "Rainy day" in tags,
-        "is_bar": "keep an eye on your drink" in text or "take a taxi or uber" in text,
+        "is_bar": is_bar(d),
         "phone": contact[4:] if contact.startswith("tel:") else None,
         "booking_lead_time": vi.get("booking_lead_time"),
         "typical_duration": vi.get("typical_duration"),
@@ -113,7 +106,7 @@ def guide(d: dict, layer: str | None, drive: int | None) -> dict:
     checked = sorted(str(e.get("checked_at")) for e in d.get("evidence") or [] if e.get("checked_at"))
     return {
         "source": "thomasericolesen/callemilano",
-        "status": STATUS[d["status"]],
+        "status": d["status"],
         "layer": LAYER.get(layer) if layer else "lokal",
         "drive_minutes": drive,
         "distance_km": None,
@@ -164,7 +157,7 @@ def apply_danish(places: list[dict], da: dict) -> tuple[int, list[str], list[dic
 
 
 def main(check_only: bool, da_todo: str | None = None) -> None:
-    membership = {r["slug"]: r for r in csv.DictReader(open(ROOT / "data" / "layer-membership.csv", encoding="utf-8"))}
+    membership = {r["slug"]: r for r in csv.DictReader(open(LAYER_MEMBERSHIP, encoding="utf-8"))}
     places, skipped = [], {"status": 0, "out_of_area": 0}
     for f in sorted(PLACES.glob("*.md")):
         d = front_matter(f)

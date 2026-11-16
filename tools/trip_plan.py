@@ -9,13 +9,14 @@ import datetime as dt
 import json
 from pathlib import Path
 
-from common import LOCAL_MAX_MIN, ROOT, haversine_km, load_front_matter
+from common import (
+    CHECKED, LOCAL_MAX_MIN, ROOT, covers_schedule, haversine_km, load_front_matter, maps_dir_url, needs_fixed_hours,
+)
 from trip_core import (
     ORIGIN_NAME,
     current_route_departure,
     eligible,
     load_places,
-    maps_dir_url,
     now_iso,
     out,
     pick_places,
@@ -29,9 +30,6 @@ from trip_restaurants import load_restaurants, lookup_restaurants
 HOLIDAYS = ROOT / "data" / "holidays.csv"
 
 HOURS_FRESH_DAYS = 60        # åbningstider tjekket for højst 60 dage siden regnes som aktuelle
-
-# Kategorier, hvor et sted normalt har faste åbningstider (strand, by og natur er åbne områder).
-HOURS_CATEGORIES = {"Family activities", "Excursions"}
 
 
 def load_holidays():
@@ -64,14 +62,11 @@ def opening_info(p, today):
     vi = rec.get("visit_information") or {}
     links = rec.get("links") or {}
     sched = vi.get("schedule")
-    def covers_schedule(e):
-        toks = {t.strip() for t in str(e.get("field", "")).split(",")}
-        return bool(toks & {"visit_information", "visit_information.schedule"})
     ev = [e for e in rec.get("evidence") or [] if covers_schedule(e)]
     checked = [d for d in (_as_date(e.get("checked_at")) for e in ev) if d]
     last = max(checked) if checked else None
     srcs = list(dict.fromkeys(e.get("source_url") for e in ev if e.get("source_url")))
-    needs = p["category"] in HOURS_CATEGORIES or "Museum" in p["tags"]
+    needs = needs_fixed_hours(p["category"], p["tags"])
     valid_until = _as_date(vi.get("valid_until"))
     if sched:
         if not last:
@@ -204,7 +199,7 @@ def cmd_plan(args):
         previous = p
         s_ = p["slug"]
         # Owner decision 2026-11-10: a fact-checked record (needs_editorial_review) counts as approved.
-        if op["record_status"] not in ("needs_editorial_review", "approved", "published"):
+        if op["record_status"] not in CHECKED:
             chk("info", "udkast", f"{p['name']}: stedposten er '{op['record_status']}', ikke faktatjekket.", s_)
         if op["state"] in ("ukendt", "forældet", "uden_dato"):
             why = {"ukendt": "ingen åbningstider i stedposten", "forældet": f"sidst tjekket {op['last_checked']}",

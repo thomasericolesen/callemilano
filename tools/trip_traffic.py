@@ -7,8 +7,8 @@ from __future__ import annotations
 import math
 import xml.etree.ElementTree as ET
 
-from common import ORIGIN, haversine_km
-from trip_core import fetch, maps_dir_url, now_iso, out, pick_places
+from common import ORIGIN, haversine_km, maps_dir_url
+from trip_core import fetch, now_iso, out, pick_places
 
 
 DGT_FEED = "https://nap.dgt.es/datex2/v3/dgt/SituationPublication/datex2_v37.xml"

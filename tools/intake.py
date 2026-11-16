@@ -41,25 +41,32 @@ import csv
 import datetime as dt
 import html as htmlmod
 import json
-import math
 import re
 import shutil
 import subprocess
 import sys
 import urllib.parse
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import LAYER_MEMBERSHIP as MEMBERSHIP, ORIGIN, ORIGIN_TEXT, PLACES, REGISTRY, ROOT  # noqa: E402,F401
+from common import (  # noqa: E402
+    LAYER_MEMBERSHIP as MEMBERSHIP, ORIGIN, ORIGIN_TEXT, PLACES, REGISTRY,
+    haversine_km, maps_dir_url, read_record, write_record,
+)
 
 TEMPLATES = Path(__file__).resolve().parent / "templates"
-def _next_saturday():
-    d = dt.date.today() + dt.timedelta(days=1)
+
+
+def _next_saturday(today=None):
+    """Next Saturday 10:00 Spanish time as UTC RFC 3339 (owner decision 2026-11-16, "Departure time" in AGENTS.md)."""
+    d = (today or dt.date.today()) + dt.timedelta(days=1)
     while d.weekday() != 5:
         d += dt.timedelta(days=1)
-    return f"{d.isoformat()}T09:00:00Z"  # 10:00 Europe/Madrid in winter (11:00 in summer time)
+    local = dt.datetime.combine(d, dt.time(10), ZoneInfo("Europe/Madrid"))
+    return local.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 DEPARTURE = _next_saturday()  # Routes API needs a future time; always the next Saturday
@@ -67,7 +74,6 @@ PLACE_MASK = ("places.id,places.displayName,places.formattedAddress,places.locat
               "places.websiteUri,places.primaryType,places.businessStatus")
 TODAY = dt.date.today().isoformat()
 LOCKED = {"approved", "published", "archived"}
-DUMP = dict(allow_unicode=True, sort_keys=False, width=100000)
 
 
 def _post(url, body, mask):
@@ -89,9 +95,7 @@ def _route(lat, lng):
 
 
 def _dist_m(a, b):
-    p1, p2 = math.radians(a[0]), math.radians(b[0])
-    h = math.sin((p2 - p1) / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(math.radians(b[1] - a[1]) / 2) ** 2
-    return round(2 * 6371000 * math.asin(math.sqrt(h)))
+    return round(haversine_km(a[0], a[1], b[0], b[1]) * 1000)
 
 
 def _place(p):
@@ -268,8 +272,7 @@ def cmd_create(inp):
             o["drive_min"], o["drive_km"] = _route(o["lat"], o["lng"])
         rid = f"ES-AND-MAL-{slug.upper()}-001"
         lat, lng, mins, km = o["lat"], o["lng"], o["drive_min"], o["drive_km"]
-        dirurl = (f"https://www.google.com/maps/dir/?api=1&origin={ORIGIN[0]}%2C{ORIGIN[1]}"
-                  f"&destination={lat}%2C{lng}&travelmode=driving")
+        dirurl = maps_dir_url(lat, lng)
         d = copy.deepcopy(tmpl)
         d.update(id=rid, slug=slug, name=s["name"], category=s["category"], tags=s.get("tags", []),
                  municipality=s["municipality"], google_maps_url=o["maps"],
@@ -312,7 +315,7 @@ def cmd_create(inp):
              "fields": ["age_groups", "family_score", "energy_level", "tags"],
              "description": "Age groups, family scores and tags are not assessed; energy_level is an editorial estimate.",
              "retryable": True, "owner": "human_editor"}]
-        (PLACES / f"{slug}.md").write_text("---\n" + yaml.safe_dump(d, **DUMP) + "---\n")
+        write_record(PLACES / f"{slug}.md", d)
         reg.append(f"ES-AND-MAL,{rid},{slug},{s['name']},allocated,{TODAY}")
         if s.get("layer"):
             mem += (f"\n{slug},{rid},{s['layer']},{s.get('catalogue_group', '')},route_checked_{TODAY},"
@@ -324,7 +327,7 @@ def cmd_create(inp):
 def cmd_apply(inp):
     for u in json.load(open(inp)):
         p = PLACES / f"{u['slug']}.md"
-        _, fm, body = p.read_text().split("---\n", 2); d = yaml.safe_load(fm)
+        d, body = read_record(p)
         if d["status"] in LOCKED:
             print(f"SKIP {u['slug']}: status {d['status']} is locked (owner only)"); continue
         st = u.get("status")
@@ -345,7 +348,7 @@ def cmd_apply(inp):
         if st:
             d["status"] = st
         d["updated_at"] = TODAY
-        p.write_text("---\n" + yaml.safe_dump(d, **DUMP) + "---\n" + body)
+        write_record(p, d, body)
         print(f"applied {u['slug']} -> {d['status']}")
 
 
