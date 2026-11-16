@@ -9,7 +9,7 @@ import datetime as dt
 import re
 import sys
 
-from common import PLACES as PLACES_DIR, ROOT, haversine_km, load_front_matter
+from common import PLACES as PLACES_DIR, ROOT, SHOWN, haversine_km, is_bar, load_front_matter
 from trip_core import load_places, now_iso, out, pick_places
 
 
@@ -44,8 +44,6 @@ R_COLUMNS = [
 
 COST_TO_BAND = {"€": "billig", "€€": "mellem", "€€€": "dyr", "€€€€": "dyr"}
 
-RECORD_STATUSES = {"needs_fact_check", "needs_editorial_review", "approved", "published"}
-
 
 def restaurants_from_records():
     """Restaurant place records (docs/places, category Restaurants) in directory-row format.
@@ -60,13 +58,12 @@ def restaurants_from_records():
             d = load_front_matter(f)
         except Exception:
             continue
-        if d.get("category") != "Restaurants" or d.get("status") not in RECORD_STATUSES:
+        if d.get("category") != "Restaurants" or d.get("status") not in SHOWN:
             continue
         c = d.get("coordinates") or {}
         if c.get("latitude") is None:
             continue
-        text = (d.get("description_long") or "").lower()
-        if "keep an eye on your drink" in text or "take a taxi or uber" in text:
+        if is_bar(d):
             continue  # bar records carry the drink-safety note; not for family meal suggestions
         vi = d.get("visit_information") or {}
         rows.append({

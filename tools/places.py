@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import (  # noqa: E402,F401  (re-exported for older imports)
+from common import (  # noqa: E402
     CASA_LAT, CASA_LON, CATALOG, PLACES, REGISTRY, ROOT, haversine_km, load_front_matter,
 )
 

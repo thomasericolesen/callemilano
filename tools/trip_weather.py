@@ -1,4 +1,4 @@
-"""Vejr til turforslag (Bravo): MET Norway først, Open-Meteo som reserve, og vejrråd.
+"""Vejr til turforslag (Bravo): Open-Meteo først, met.no som reserve, og vejrråd.
 
 Del af tools/trip.py; kør kommandoerne gennem den.
 """

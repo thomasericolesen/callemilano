@@ -10,10 +10,9 @@ import json
 import re
 import subprocess
 import sys
-import urllib.parse
 import urllib.request
 
-from common import CATALOG, LAYER_MEMBERSHIP, LOCAL_MAX_MIN, ORIGIN, haversine_km, minutes
+from common import CATALOG, LAYER_MEMBERSHIP, LOCAL_MAX_MIN, haversine_km, minutes
 
 
 ORIGIN_NAME = "Casa de la Familia, Las Lagunas de Mijas"
@@ -68,12 +67,6 @@ def pick_places(slugs):
         print(json.dumps({"errors": errors}, ensure_ascii=False, indent=2))
         sys.exit(2)
     return places, chosen
-
-
-def maps_dir_url(lat, lon):
-    q = urllib.parse.urlencode({"api": 1, "origin": f"{ORIGIN[0]},{ORIGIN[1]}",
-                                "destination": f"{lat},{lon}", "travelmode": "driving"})
-    return f"https://www.google.com/maps/dir/?{q}"
 
 
 def route_minutes_between(origin, destination, departure_time):

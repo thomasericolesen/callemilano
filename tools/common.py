@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import math
 import re
+import urllib.parse
 from pathlib import Path
 
 import yaml
@@ -24,6 +25,17 @@ ORIGIN_TEXT = "Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas
 
 # Primary area: route-checked one-way drive of at most 30 minutes (owner decision 2026-10-29).
 LOCAL_MAX_MIN = 30
+
+# Records shown in the app and usable in trip plans: needs_fact_check or later (owner decision 2026-11-02).
+SHOWN = {"needs_fact_check", "needs_editorial_review", "approved", "published"}
+# Fact-checked records; these count as approved for use (owner decision 2026-11-10).
+CHECKED = {"needs_editorial_review", "approved", "published"}
+
+# Categories where a place normally has fixed opening hours (beach, city and nature are open areas).
+HOURS_CATEGORIES = {"Family activities", "Excursions"}
+
+# yaml.safe_dump settings for writing a record back without reordering or wrapping.
+DUMP = dict(allow_unicode=True, sort_keys=False, width=100000)
 
 
 def haversine_km(lat1, lon1, lat2, lon2):
@@ -46,6 +58,39 @@ def load_front_matter(path: Path) -> dict:
     if not isinstance(data, dict):
         raise ValueError("front matter is not a mapping")
     return data
+
+
+def read_record(path: Path) -> tuple[dict, str]:
+    """A record as (front matter dict, Markdown body after the front matter), for tools that write it back."""
+    _, fm, body = path.read_text(encoding="utf-8").split("---\n", 2)
+    return yaml.safe_load(fm), body
+
+
+def write_record(path: Path, data: dict, body: str = "") -> None:
+    path.write_text("---\n" + yaml.safe_dump(data, **DUMP) + "---\n" + body, encoding="utf-8")
+
+
+def covers_schedule(evidence: dict) -> bool:
+    """True when an evidence entry supports the opening hours (visit_information.schedule)."""
+    toks = {t.strip() for t in str(evidence.get("field", "")).split(",")}
+    return bool(toks & {"visit_information", "visit_information.schedule"})
+
+
+def is_bar(rec: dict) -> bool:
+    """Bar records carry the owner's drink-safety or taxi note in description_long."""
+    text = (rec.get("description_long") or "").lower()
+    return "keep an eye on your drink" in text or "take a taxi or uber" in text
+
+
+def needs_fixed_hours(category, tags) -> bool:
+    return category in HOURS_CATEGORIES or "Museum" in tags
+
+
+def maps_dir_url(lat, lon) -> str:
+    """Google Maps driving directions from Casa de la Familia to a point."""
+    q = urllib.parse.urlencode({"api": 1, "origin": f"{ORIGIN[0]},{ORIGIN[1]}",
+                                "destination": f"{lat},{lon}", "travelmode": "driving"})
+    return f"https://www.google.com/maps/dir/?{q}"
 
 
 _HOURS = re.compile(r"(\d+)\s*(?:h|hr|hrs|hour|hours|t)\b")

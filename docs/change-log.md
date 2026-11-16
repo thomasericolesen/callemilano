@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-16 - Tools tidied: dead code removed, shared rules moved to common.py (owner request, chat)
+
+- The owner asked for an audit of unnecessary complexity and duplicated logic and said yes in chat to the two safe steps. No tool output changes.
+- Removed `tools/migrate_young_adults.py` (one-off migration, run 2026-10-15), the unused re-export in `tools/trip.py`, the unused `ROOT` import in `tools/intake.py` and the identity `STATUS` mapping in `tools/app_export.py`. Corrected stale comments in `tools/places.py`, `tools/route_check.py` and `tools/trip_weather.py` (Open-Meteo is first, met.no the reserve).
+- `tools/common.py` now holds the rules that stood in several tools: `SHOWN` and `CHECKED` (which statuses are shown and which count as fact-checked), `covers_schedule`, `is_bar`, `needs_fixed_hours`, `read_record`/`write_record` and `maps_dir_url`. `app_export.py`, `freshness.py`, `intake.py` and the `trip_*` modules import them.
+- Checked: `data/app-export/`, `data/place-catalog.csv`, `places.py validate`, `freshness.py` and the offline `trip.py` commands give identical output before and after; `write_record` is byte-identical to the old code for all 256 records; 11 tests pass. One difference: `intake.py nearby` now uses the shared haversine, so a candidate's distance can differ by 1 m (shortlisting only).
+- Not done, waiting for the owner's decision: removing `within_primary_radius` from the catalogue, one departure-time rule for route checks, deleting `tools/route_check.py`, and moving the October prototype files to `docs/history/`.
+
 ## 2026-11-15 (late evening) - Rule for family photos in the app written into AGENTS.md (owner decision, chat)
 
 - The owner said in chat to write the rule into `AGENTS.md`: family photos on places are shown only after an admin's approval; front-page photos only when marked "Vis på forsiden"; the photos stay private in the app, outside `data/image-rights.csv`; Claude approves or rejects a photo only when the editor asks.

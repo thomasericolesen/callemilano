@@ -143,8 +143,7 @@ def directions_url(origin: str, destination: str) -> str:
 def replace_block(text: str, duration: str, source: str, checked_at: str, note: str) -> str:
     """Line-based, in-place patch of the driving_time_from_casa_de_la_familia
     block -- never a full YAML parse+dump, which would reformat the whole
-    file (quote style, key order) and blow up the diff. Mirrors how
-    tools/migrate_young_adults.py already patches these files."""
+    file (quote style, key order) and blow up the diff."""
     lines = text.split("\n")
     start = next(i for i, l in enumerate(lines) if l.rstrip() == "driving_time_from_casa_de_la_familia:")
     end = start + 1

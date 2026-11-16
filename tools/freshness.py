@@ -20,15 +20,10 @@ import argparse
 import datetime as dt
 import json
 
-import yaml
-
-from common import PLACES, load_front_matter
+from common import CHECKED, PLACES, SHOWN, load_front_matter, read_record, write_record
 
 TOKEN_EXPIRES = dt.date(2027, 2, 9)  # created 2026-11-11, 90 days; update when the token is renewed
 TOKEN_WARN_DAYS = 30
-SHOWN = {"needs_fact_check", "needs_editorial_review", "approved", "published"}
-CHECKED = {"needs_editorial_review", "approved", "published"}
-DUMP = dict(allow_unicode=True, sort_keys=False, width=100000)
 
 
 def as_date(v) -> dt.date | None:
@@ -61,8 +56,7 @@ def scan(today: dt.date) -> dict:
 
 def set_back(slug: str, today: dt.date) -> bool:
     p = PLACES / f"{slug}.md"
-    _, fm, body = p.read_text(encoding="utf-8").split("---\n", 2)
-    d = yaml.safe_load(fm)
+    d, body = read_record(p)
     if d.get("status") not in CHECKED:
         return False
     d["status"] = "needs_fact_check"
@@ -75,7 +69,7 @@ def set_back(slug: str, today: dt.date) -> bool:
     })
     d["review_issues"] = issues
     d["updated_at"] = today.isoformat()
-    p.write_text("---\n" + yaml.safe_dump(d, **DUMP) + "---\n" + body, encoding="utf-8")
+    write_record(p, d, body)
     return True
 
 
