@@ -7,14 +7,14 @@ CalleMilano is a family travel guide for guests at Casa de la Familia, starting 
 ## Scope and audience (owner decision 2026-10-05)
 
 - **Primary area:** destinations within a one-way driving time of at most 30 minutes from Casa de la Familia, taken as Google Maps' main figure (owner decision 2026-10-29, superseding the earlier straight-line rule). Straight-line distance is not used for placement; places beyond 30 minutes belong to the excursion layers.
-- **Origin coordinates:** Plus Code `8C8QG8PP+7W` = latitude 36.5356875, longitude -4.6626875 (WGS 84). Use these for distance calculations; `tools/places.py` holds the same constant.
+- **Origin coordinates:** Plus Code `8C8QG8PP+7W` = latitude 36.5356875, longitude -4.6626875 (WGS 84). Use these for distance calculations; `tools/common.py` holds the same constant.
 - **Primary audience:** families with children who do not want long drives. **Secondary:** adults, seniors, and teenagers.
 - **Places beyond the primary area** remain in `docs/places/` and the analytical datasets as an archive. Do not develop, fact-check, or recommend them in the current phase unless the editor-of-record says so. Do not delete them.
 - Prioritize new intake, fact-checking, and recommendation testing inside the primary area.
 
 ## Excursion layer (owner decision 2026-10-15)
 
-- A second layer, `excursions_4h`, is added beside the 30 km primary area: destinations reachable by a route-checked one-way drive of up to about 4 h (day trips and overnight stays). Layers are defined in `data/layers.csv`; membership is listed in `data/layer-membership.csv` (analytical, not a second source of truth for records).
+- A second layer, `excursions_4h`, is added beside the 30-minute primary area: destinations reachable by a route-checked one-way drive of up to about 4 h (day trips and overnight stays). Layers are defined in `data/layers.csv`; membership is listed in `data/layer-membership.csv` (analytical, not a second source of truth for records).
 - Target audience for this layer: young adults (nature and hiking, city life, culture and architecture, food, bars, cafés, wellness).
 - This is the editor's instruction under the rule above that places beyond the primary area stay archive unless the editor says so: records in `excursions_4h` may be developed and fact-checked. Existing out-of-area records not listed in `data/layer-membership.csv` remain archive.
 - Records in this layer follow the same schema, evidence and review rules. Driving time must still be route-checked, never estimated.
@@ -109,6 +109,8 @@ Do not fabricate experience, reviews, amenities, prices, accessibility, child su
 Driving time is an approximate one-way route from **Casa de la Familia, Urbanización Cerros del Águila, Las Lagunas de Mijas, Málaga, Spain** to a named destination point. Record route source and check date. Do not estimate from memory.
 
 Toll roads (owner decision 2026-11-11): use Google Maps' main figure, i.e. the fastest route it proposes, and do not avoid toll roads. The difference is a few minutes and is small next to local traffic. Earlier owner measurements with "toll roads avoided" are not re-done for that reason alone; where a record is re-checked, the new figure replaces the old one.
+
+Departure time (owner decision 2026-11-16): the driving time in a place record is measured for the next Saturday at 10:00 Spanish time (Europe/Madrid, summer and winter) with Google's predicted traffic, so the figures can be compared and a place near the 30-minute limit does not change layer with the time of day. `tools/intake.py` does this. Existing figures are not re-measured for this reason alone. Between-stop checks in trip plans use the current time (see "Trip plans").
 
 ## Images and rights
 

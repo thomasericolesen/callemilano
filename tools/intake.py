@@ -47,6 +47,7 @@ import subprocess
 import sys
 import urllib.parse
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import yaml
 
@@ -57,11 +58,15 @@ from common import (  # noqa: E402
 )
 
 TEMPLATES = Path(__file__).resolve().parent / "templates"
-def _next_saturday():
-    d = dt.date.today() + dt.timedelta(days=1)
+
+
+def _next_saturday(today=None):
+    """Next Saturday 10:00 Spanish time as UTC RFC 3339 (owner decision 2026-11-16, "Departure time" in AGENTS.md)."""
+    d = (today or dt.date.today()) + dt.timedelta(days=1)
     while d.weekday() != 5:
         d += dt.timedelta(days=1)
-    return f"{d.isoformat()}T09:00:00Z"  # 10:00 Europe/Madrid in winter (11:00 in summer time)
+    local = dt.datetime.combine(d, dt.time(10), ZoneInfo("Europe/Madrid"))
+    return local.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 DEPARTURE = _next_saturday()  # Routes API needs a future time; always the next Saturday

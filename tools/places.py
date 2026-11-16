@@ -25,8 +25,6 @@ from common import (  # noqa: E402
 
 SCHEMA_VERSION = "1.0.0"
 
-PRIMARY_RADIUS_KM = 30.0
-
 REQUIRED = [
     "schema_version", "status", "id", "slug", "name", "category", "tags", "coordinates",
     "google_maps_url", "external_ids", "municipality", "province", "autonomous_community",
@@ -160,7 +158,7 @@ def validate():
             if c.get("purpose") not in COORD_PURPOSE:
                 err(f"invalid coordinates.purpose {c.get('purpose')!r}")
             if coords_of(rec) is None:
-                (warn if is_draft else err)("coordinates missing (needed for radius filter)")
+                (warn if is_draft else err)("coordinates missing (needed for the map and distances)")
         else:
             err("coordinates is not an object")
 
@@ -209,7 +207,6 @@ def catalog():
             "latitude": xy[0] if xy else "",
             "longitude": xy[1] if xy else "",
             "distance_km_from_casa": dist,
-            "within_primary_radius": "" if dist == "" else ("yes" if dist <= PRIMARY_RADIUS_KM else "no"),
             "driving_time": dt.get("duration") or "",
             "record_file": f"docs/places/{path.name}",
         })

@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-16 (later) - Radius column removed, one departure-time rule, route_check.py deleted (owner decisions, chat)
+
+- The owner followed Claude's recommendation on the four open points from the tool audit and said so in chat.
+- Owner decision: `within_primary_radius` is removed from `data/place-catalog.csv` (`tools/places.py`, `docs/data-dictionary.md`). It followed the straight-line rule that was replaced 2026-10-29 and said "yes" for 26 places with a drive above 30 minutes; no tool read it. `distance_km_from_casa` stays (the catalogue is sorted by it). `AGENTS.md` now says "30-minute primary area" in the excursion-layer section and names `tools/common.py` as the home of the origin constant.
+- Owner decision: the driving time in a place record is measured for the next Saturday at 10:00 Spanish time with predicted traffic. The rule is written into `AGENTS.md` ("Departure time"). `tools/intake.py` now computes 10:00 in Europe/Madrid, so it is also 10:00 in summer time (before: 09:00 UTC, i.e. 11:00 in summer). Winter figures are unchanged; existing records are not re-measured. Test: `tests/test_intake_departure.py`.
+- Owner decision: `tools/route_check.py` is deleted. It was never run, needed a paid Google key and measured with live traffic at run time, which the departure-time rule replaces. `README.md` and `docs/project-state.md` updated. The file remains in git history.
+- Owner decision: the October prototype files (`demo/`, `prompts/`, analytical CSV files in `data/`) stay where they are.
+- Checked: `places.py validate` 0 errors on 256 records, app export 191 places as before, 14 tests pass.
+
 ## 2026-11-16 - Tools tidied: dead code removed, shared rules moved to common.py (owner request, chat)
 
 - The owner asked for an audit of unnecessary complexity and duplicated logic and said yes in chat to the two safe steps. No tool output changes.

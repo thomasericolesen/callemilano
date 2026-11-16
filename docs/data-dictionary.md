@@ -36,7 +36,7 @@ Records whose identity is still unresolved (see `docs/content/identity-clarifica
 
 ### `place-catalog.csv` (generated)
 
-`id`, `slug`, `name`, `status`, `category`, `tags`, `municipality`, `province`, `latitude`, `longitude`, `distance_km_from_casa` (great-circle km from the Casa origin in `AGENTS.md`), `within_primary_radius` (`yes` if ≤ 30 km; blank if coordinates are missing), `driving_time` (route-checked duration from the record, blank if unresolved), `record_file`. Sorted by distance.
+`id`, `slug`, `name`, `status`, `category`, `tags`, `municipality`, `province`, `latitude`, `longitude`, `distance_km_from_casa` (great-circle km from the Casa origin in `AGENTS.md`), `driving_time` (route-checked duration from the record, blank if unresolved), `record_file`. Sorted by distance.
 
 ### `maps-intake-projekt-spanien.csv` (212 rows)
 
@@ -110,6 +110,6 @@ Long format, one row per destination and field: `destination`, `record_file`, `f
 
 ## Known gaps
 
-- The analytical datasets cover the original Spain-wide collection. Only Marbella Old Town and the three Málaga city destinations lie near the primary 30 km area; the local launch candidates in `docs/product/launch-backlog.md` are not in these datasets yet.
+- The analytical datasets cover the original Spain-wide collection. Only Marbella Old Town and the three Málaga city destinations lie near the primary area (at most 30 minutes by car); the local launch candidates in `docs/product/launch-backlog.md` are not in these datasets yet.
 - No mapping exists between collection tags and schema tags.
 - Confidence uses two scales (`high/medium/low` and 0–100).
